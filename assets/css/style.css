@@ -12,10 +12,6 @@
   user-select: none;
 }
 
-*:focus {
-  outline: none;
-}
-
 h1 {
   font-size: 2em;
 }
@@ -278,11 +274,6 @@ button {
 button:hover {
   background-color: white;
   color: black;
-}
-
-button:focus {
-  outline: none;
-  box-shadow: none;
 }
 
 /* Rarity Colors */
@@ -855,4 +846,73 @@ header button i {
 #boot-retry:focus-visible {
   outline: 2px solid #fff4dc;
   outline-offset: 3px;
+}
+
+/* Keep native keyboard focus visible against every dark narrative surface. */
+:focus-visible {
+  outline: 3px solid #fff4dc;
+  outline-offset: 2px;
+}
+
+/* The whole existing title remains the native activation target. */
+#title-screen {
+  position: relative;
+}
+#title-action {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  margin: 0;
+}
+#title-action:focus-visible {
+  outline-offset: -4px;
+}
+
+/* Enlarged text and unbroken saved names wrap without changing portrait sizing. */
+.game-container,
+.modal-container .content {
+  overflow-wrap: anywhere;
+}
+.modal-container .content {
+  max-width: min(25rem, calc(100vw - 1rem));
+  max-height: calc(100dvh - 1rem);
+  overflow-y: auto;
+  min-width: 0;
+}
+#menuModal .content {
+  min-width: min(15rem, calc(100vw - 1rem));
+}
+.content-head > *,
+header > *,
+.row > * {
+  min-width: 0;
+}
+button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+#player-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+#character-creation form {
+  max-width: 100%;
+}
+input,
+select {
+  max-width: 100%;
+}
+
+/* Suppress decorative motion while preserving the original game timers and feedback. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }

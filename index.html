@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" type="image/png" href="./assets/icon/favicon.ico" />
     <script src="./assets/js/howler.min.js"></script>
-    <title>Dungeon Crawler on Demand!</title>
+    <title>The Bell Beneath Brine</title>
   </head>
 
   <body>
@@ -37,17 +37,29 @@
       <section id="title-screen" class="game-container">
         <div>
           <i class="fa-solid fa-dungeon fa-5x"></i>
-          <h1>Dungeon Crawler on Demand!</h1>
+          <h1 id="title-heading">The Bell Beneath Brine</h1>
         </div>
-        <p>Tap to explore the dungeon</p>
+        <p id="title-prompt">Begin the sounding</p>
+        <button
+          id="title-action"
+          type="button"
+          aria-labelledby="title-heading title-prompt"
+        ></button>
       </section>
 
       <!-- Character Creation -->
       <section id="character-creation" class="game-container">
         <form id="name-submit">
-          <h1>What is your name?</h1>
-          <input type="text" id="name-input" autocomplete="off" />
-          <p id="alert"></p>
+          <h1>What is your name, sounding keeper?</h1>
+          <p id="introduction"></p>
+          <input
+            type="text"
+            aria-label="Keeper name"
+            aria-describedby="introduction alert"
+            id="name-input"
+            autocomplete="off"
+          />
+          <p id="alert" role="alert"></p>
           <button type="submit">Confirm</button>
         </form>
       </section>
@@ -58,7 +70,11 @@
           <p id="player-name"></p>
           <p id="player-exp"></p>
           <p id="player-gold"></p>
-          <button onclick="openInventory()">
+          <button
+            id="open-inventory"
+            aria-label="Open inventory"
+            onclick="openInventory()"
+          >
             <i class="fas fa-bars" style="font-size: 1.3rem"></i>
           </button>
         </header>
@@ -104,7 +120,7 @@
 
       <!-- ===== Utility ===== -->
       <div id="loading" class="game-container">
-        <div class="loader"></div>
+        <div class="loader" role="status" aria-label="Loading"></div>
       </div>
 
       <!-- ===== Modals ===== -->
@@ -112,11 +128,18 @@
         <div class="content">
           <div class="content-head">
             <h3>Inventory</h3>
-            <p onclick="closeInventory()"><i class="fa fa-xmark"></i></p>
+            <button
+              type="button"
+              data-dialog-cancel
+              aria-label="Close inventory"
+              onclick="closeInventory()"
+            >
+              <i class="fa fa-xmark" aria-hidden="true"></i>
+            </button>
           </div>
           <div class="content-head">
             <button id="sell-all">Sell</button>
-            <select id="sell-rarity">
+            <select id="sell-rarity" aria-label="Sale rarity">
               <option class="Common" value="Common">Common</option>
               <option class="Uncommon" value="Uncommon">Uncommon</option>
               <option class="Rare" value="Rare">Rare</option>
@@ -131,7 +154,9 @@
             <div class="box">
               <div class="box-head">
                 <h4>Equipment</h4>
-                <p id="unequip-all"><i class="fa fa-circle-xmark"></i></p>
+                <button id="unequip-all" aria-label="Unequip all">
+                  <i class="fa fa-circle-xmark" aria-hidden="true"></i>
+                </button>
               </div>
               <div id="playerEquipment"></div>
             </div>

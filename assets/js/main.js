@@ -80,6 +80,7 @@ const initializeGame = () => {
             ({ player, dungeon, enemy, volume } = state);
           },
           report: reportPersistence,
+          document,
         });
         if (gameServices.status !== "ready") {
           showBootError();
@@ -93,6 +94,7 @@ const initializeGame = () => {
               window.addEventListener("load", resolve, { once: true }),
           );
         }
+        gameServices.narrative.entry.initialize();
         gameReady = true;
         document.querySelector("#name-input").disabled = false;
         document.querySelector("#loading").style.display = "none";
@@ -168,12 +170,10 @@ const bindGameControls =
 
             var format = /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]+/;
             if (format.test(playerName)) {
-              document.querySelector("#alert").innerHTML =
-                "Your name cannot contain special characters!";
+              gameServices.narrative.put("#alert", "entry.nameInvalid");
             } else {
               if (playerName.length < 3 || playerName.length > 15) {
-                document.querySelector("#alert").innerHTML =
-                  "Name should be between 3-15 characters!";
+                gameServices.narrative.put("#alert", "entry.nameInvalid");
               } else {
                 player = {
                   name: playerName,
@@ -274,6 +274,10 @@ const bindGameControls =
                 <button id="unequip-cancel">Cancel</button>
             </div>
         </div>`;
+            gameServices.narrative.put(
+              "#defaultModal p",
+              "inventory.unequipAll",
+            );
             const confirm = document.querySelector("#unequip-confirm");
             const cancel = document.querySelector("#unequip-cancel");
             confirm.onclick =
@@ -326,15 +330,20 @@ const bindGameControls =
         <div class="content">
             <div class="content-head">
                 <h3>Menu</h3>
-                <p id="close-menu"><i class="fa fa-xmark"></i></p>
+                <button type="button" id="close-menu" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
             </div>
-            <button id="player-menu"><i class="fas fa-user"></i>${player.name}</button>
+            <button id="player-menu"></button>
             <button id="stats">Current Run</button>
             <button id="volume-btn">Volume Settings</button>
             <button id="export-import">Export/Import Data</button>
             <button id="quit-run">Abandon</button>
         </div>`;
 
+            document.querySelector("#player-menu").textContent = player.name;
+            gameServices.narrative.entry.menu(
+              menuModalElement,
+              defaultModalElement,
+            );
             const close = document.querySelector("#close-menu");
             const playerMenu = document.querySelector("#player-menu");
             const runMenu = document.querySelector("#stats");
@@ -358,13 +367,15 @@ const bindGameControls =
             <div class="content" id="profile-tab">
                 <div class="content-head">
                     <h3>Statistics</h3>
-                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                    <button type="button" id="profile-close" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
                 </div>
-                <p>${player.name} Lv.${player.lvl}</p>
+                <p id="profile-name"></p>
                 <p>Kills: ${nFormatter(player.kills)}</p>
                 <p>Deaths: ${nFormatter(player.deaths)}</p>
                 <p>Playtime: ${playTime}</p>
             </div>`;
+                    document.querySelector("#profile-name").textContent =
+                      `${player.name} Lv.${player.lvl}`;
                     const profileTab = document.querySelector("#profile-tab");
                     profileTab.style.width = "15rem";
                     const profileClose =
@@ -401,14 +412,17 @@ const bindGameControls =
             <div class="content" id="run-tab">
                 <div class="content-head">
                     <h3>Current Run</h3>
-                    <p id="run-close"><i class="fa fa-xmark"></i></p>
+                    <button type="button" id="run-close" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
                 </div>
-                <p>${player.name} Lv.${player.lvl} (${player.skills})</p>
-                <p>Blessing Lvl.${player.blessing}</p>
-                <p>Curse Lvl.${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
+                <p id="run-name"></p>
+                <p>Tide Offering ${player.blessing}</p>
+                <p>Black Sounding ${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
                 <p>Kills: ${nFormatter(dungeon.statistics.kills)}</p>
                 <p>Runtime: ${runTime}</p>
             </div>`;
+                    gameServices.narrative.put("#run-tab h3", "menu.run");
+                    document.querySelector("#run-name").textContent =
+                      `${player.name} Lv.${player.lvl} (${gameServices.narrative.entry.skillNames(player.skills)})`;
                     const runTab = document.querySelector("#run-tab");
                     runTab.style.width = "15rem";
                     const runClose = document.querySelector("#run-close");
@@ -445,7 +459,18 @@ const bindGameControls =
                     <button id="cancel-quit">Cancel</button>
                 </div>
             </div>`;
-                    const quit = document.querySelector("#quit-run");
+                    gameServices.narrative.put(
+                      "#defaultModal p",
+                      "run.abandonConfirm",
+                    );
+                    const consequences = document.createElement("p");
+                    consequences.textContent = gameServices.narrative.text(
+                      "run.resetConsequences",
+                    );
+                    defaultModalElement
+                      .querySelector(".content")
+                      .append(consequences);
+                    const quit = defaultModalElement.querySelector("#quit-run");
                     const cancel = document.querySelector("#cancel-quit");
                     quit.onclick =
                       /* Handle this control using the current view state and transition owner. */ function () {
@@ -503,7 +528,7 @@ const bindGameControls =
             <div class="content" id="volume-tab">
                 <div class="content-head">
                     <h3>Volume</h3>
-                    <p id="volume-close"><i class="fa fa-xmark"></i></p>
+                    <button type="button" id="volume-close" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
                 </div>
                 <label id="master-label" for="master-volume">Master (${master}%)</label>
                 <input type="range" id="master-volume" min="0" max="100" value="${master}">
@@ -603,13 +628,13 @@ const bindGameControls =
             <div class="content" id="ei-tab">
                 <div class="content-head">
                     <h3>Export/Import Data</h3>
-                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                    <button type="button" id="ei-close" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
                 </div>
                 <h4>Export Data</h4>
-                <input type="text" id="export-input" autocomplete="off" value="${exportedData}" readonly>
+                <input type="text" id="export-input" aria-label="Export data" autocomplete="off" value="${exportedData}" readonly>
                 <button id="copy-export">Copy</button>
                 <h4>Import Data</h4>
-                <input type="text" id="import-input" autocomplete="off">
+                <input type="text" id="import-input" aria-label="Import data" autocomplete="off">
                 <button id="data-import">Import</button>
             </div>`;
                     const eiTab = document.querySelector("#ei-tab");
@@ -820,6 +845,7 @@ const progressReset =
         dungeon.action = 0;
         dungeon.statistics.runtime = 0;
         combatBacklog.length = 0;
+        gameServices.narrative.put("#title-screen > p", "run.restart");
         saveData();
       },
     );
@@ -923,39 +949,40 @@ const allocationPopup =
         defaultModalElement.innerHTML = `
         <div class="content" id="allocate-stats">
             <div class="content-head">
-                <h3>Allocate Stats</h3>
-                <p id="allocate-close"><i class="fa fa-xmark"></i></p>
+                <h3></h3>
+                <button type="button" id="allocate-close" aria-label="Close"><i class="fa fa-xmark" aria-hidden="true"></i></button>
             </div>
+            <p id="allocation-help"></p>
             <div class="row">
                 <p><i class="fas fa-heart"></i><span id="hpDisplay">HP: ${stats.hp}</span></p>
                 <div class="row">
-                    <button id="hpMin">-</button>
+                    <button id="hpMin" aria-label="Decrease HP">-</button>
                     <span id="hpAllo">${allocation.hp}</span>
-                    <button id="hpAdd">+</button>
+                    <button id="hpAdd" aria-label="Increase HP">+</button>
                 </div>
             </div>
             <div class="row">
                 <p><i class="ra ra-sword"></i><span id="atkDisplay">ATK: ${stats.atk}</span></p>
                 <div class="row">
-                    <button id="atkMin">-</button>
+                    <button id="atkMin" aria-label="Decrease ATK">-</button>
                     <span id="atkAllo">${allocation.atk}</span>
-                    <button id="atkAdd">+</button>
+                    <button id="atkAdd" aria-label="Increase ATK">+</button>
                 </div>
             </div>
             <div class="row">
                 <p><i class="ra ra-round-shield"></i><span id="defDisplay">DEF: ${stats.def}</span></p>
                 <div class="row">
-                    <button id="defMin">-</button>
+                    <button id="defMin" aria-label="Decrease DEF">-</button>
                     <span id="defAllo">${allocation.def}</span>
-                    <button id="defAdd">+</button>
+                    <button id="defAdd" aria-label="Increase DEF">+</button>
                 </div>
             </div>
             <div class="row">
                 <p><i class="ra ra-plain-dagger"></i><span id="atkSpdDisplay">ATK.SPD: ${stats.atkSpd}</span></p>
                 <div class="row">
-                    <button id="atkSpdMin">-</button>
+                    <button id="atkSpdMin" aria-label="Decrease ATK.SPD">-</button>
                     <span id="atkSpdAllo">${allocation.atkSpd}</span>
-                    <button id="atkSpdAdd">+</button>
+                    <button id="atkSpdAdd" aria-label="Increase ATK.SPD">+</button>
                 </div>
             </div>
             <div class="row">
@@ -964,7 +991,7 @@ const allocationPopup =
             </div>
             <div class="row">
                 <p>Passive</p>
-                <select id="select-skill">
+                <select id="select-skill" aria-label="Passive skill">
                     <option value="Remnant Razor">Remnant Razor</option>
                     <option value="Titan's Will">Titan's Will</option>
                     <option value="Devastator">Devastator</option>
@@ -978,6 +1005,7 @@ const allocationPopup =
             </div>
             <button id="allocate-confirm">Confirm</button>
         </div>`;
+        gameServices.narrative.entry.allocation();
       };
     defaultModalElement.style.display = "flex";
     document.querySelector("#title-screen").style.filter = "brightness(50%)";
@@ -1102,7 +1130,6 @@ const allocationPopup =
 
     // Passive skills
     const selectSkill = document.querySelector("#select-skill");
-    const skillDesc = document.querySelector("#skill-desc");
     selectSkill.onclick =
       /* Handle this control using the current view state and transition owner. */ function () {
         // Commit only after this complete engine action and its nested work succeed.
@@ -1117,33 +1144,7 @@ const allocationPopup =
         // Commit only after this complete engine action and its nested work succeed.
         return runGameplay(
           /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            if (selectSkill.value === "Remnant Razor") {
-              skillDesc.innerHTML =
-                "Attacks deal extra 8% of enemies' current health on hit.";
-            }
-            if (selectSkill.value === "Titan's Will") {
-              skillDesc.innerHTML =
-                "Attacks deal extra 5% of your maximum health on hit.";
-            }
-            if (selectSkill.value === "Devastator") {
-              skillDesc.innerHTML =
-                "Deal 30% more damage but you lose 30% base attack speed.";
-            }
-            if (selectSkill.value === "Rampager") {
-              skillDesc.innerHTML =
-                "Increase attack by 5 after each hit. Stack resets after battle.";
-            }
-            if (selectSkill.value === "Blade Dance") {
-              skillDesc.innerHTML =
-                "Gain increased attack speed after each hit. Stack resets after battle.";
-            }
-            if (selectSkill.value === "Paladin's Heart") {
-              skillDesc.innerHTML = "You receive 25% less damage permanently.";
-            }
-            if (selectSkill.value === "Aegis Thorns") {
-              skillDesc.innerHTML =
-                "Enemies receive 15% of the damage they dealt.";
-            }
+            gameServices.narrative.entry.skill(selectSkill.value);
           },
         );
       };

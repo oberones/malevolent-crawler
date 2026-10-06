@@ -47,7 +47,7 @@ const initialDungeonLoad =
     dungeonTime.innerHTML = new Date(dungeon.statistics.runtime * 1000)
       .toISOString()
       .slice(11, 19);
-    dungeonAction.innerHTML = "Resting...";
+    dungeonAction.textContent = gameServices.narrative.text("run.resting");
     dungeonActivity.innerHTML = "Explore";
     dungeonTime.innerHTML = "00:00:00";
     dungeonTimer = setInterval(dungeonEvent, 1000);
@@ -63,14 +63,16 @@ const dungeonStartPause =
         if (!dungeon.status.paused) {
           sfxPause.play();
 
-          dungeonAction.innerHTML = "Resting...";
+          dungeonAction.textContent =
+            gameServices.narrative.text("run.resting");
           dungeonActivity.innerHTML = "Explore";
           dungeon.status.exploring = false;
           dungeon.status.paused = true;
         } else {
           sfxUnpause.play();
 
-          dungeonAction.innerHTML = "Exploring...";
+          dungeonAction.textContent =
+            gameServices.narrative.text("run.exploring");
           dungeonActivity.innerHTML = "Pause";
           dungeon.status.exploring = true;
           dungeon.status.paused = false;
@@ -102,8 +104,12 @@ const loadDungeonProgress =
       dungeon.progress.room = 1;
       dungeon.progress.floor++;
     }
-    floorCount.innerHTML = `Floor ${dungeon.progress.floor}`;
-    roomCount.innerHTML = `Room ${dungeon.progress.room}`;
+    floorCount.textContent = gameServices.narrative.text("run.floor", {
+      number: dungeon.progress.floor,
+    });
+    roomCount.textContent = gameServices.narrative.text("run.room", {
+      number: dungeon.progress.room,
+    });
   };
 
 // ========== Events in the Dungeon ==========
@@ -139,18 +145,17 @@ const dungeonEvent =
           switch (event) {
             case "nextroom":
               dungeon.status.event = true;
-              choices = `
-                    <div class="decision-panel">
-                        <button id="choice1">Enter</button>
-                        <button id="choice2">Ignore</button>
-                    </div>`;
+              choices = ["choice.enter", "choice.ignore"];
               if (dungeon.progress.room === dungeon.progress.roomLimit) {
                 addDungeonLog(
-                  `<span class="Heirloom">You found the door to the boss room.</span>`,
+                  gameServices.narrative.record("event.guardianDoor"),
                   choices,
                 );
               } else {
-                addDungeonLog("You found a door.", choices);
+                addDungeonLog(
+                  gameServices.narrative.record("event.door"),
+                  choices,
+                );
               }
               document.querySelector("#choice1").onclick =
                 /* Handle this control using the current view state and transition owner. */ function () {
@@ -167,16 +172,14 @@ const dungeonEvent =
                         if (eventRoll === 1) {
                           incrementRoom();
                           mimicBattle("door");
-                          addDungeonLog("You moved to the next floor.");
+                          addDungeonLog(
+                            gameServices.narrative.record("event.floor"),
+                          );
                         } else if (eventRoll === 2) {
                           incrementRoom();
-                          choices = `
-                                <div class="decision-panel">
-                                    <button id="choice1">Open the chest</button>
-                                    <button id="choice2">Ignore</button>
-                                </div>`;
+                          choices = ["choice.open", "choice.ignore"];
                           addDungeonLog(
-                            `You moved to the next room and found a treasure chamber. There is a <i class="fa fa-toolbox"></i>Chest inside.`,
+                            gameServices.narrative.record("event.treasureRoom"),
                             choices,
                           );
                           document.querySelector("#choice1").onclick =
@@ -201,7 +204,9 @@ const dungeonEvent =
                         } else {
                           dungeon.status.event = false;
                           incrementRoom();
-                          addDungeonLog("You moved to the next room.");
+                          addDungeonLog(
+                            gameServices.narrative.record("event.room"),
+                          );
                         }
                       }
                     },
@@ -220,13 +225,9 @@ const dungeonEvent =
               break;
             case "treasure":
               dungeon.status.event = true;
-              choices = `
-                    <div class="decision-panel">
-                        <button id="choice1">Open the chest</button>
-                        <button id="choice2">Ignore</button>
-                    </div>`;
+              choices = ["choice.open", "choice.ignore"];
               addDungeonLog(
-                `You found a treasure chamber. There is a <i class="fa fa-toolbox"></i>Chest inside.`,
+                gameServices.narrative.record("event.treasure"),
                 choices,
               );
               document.querySelector("#choice1").onclick =
@@ -253,13 +254,14 @@ const dungeonEvent =
               break;
             case "enemy":
               dungeon.status.event = true;
-              choices = `
-                    <div class="decision-panel">
-                        <button id="choice1">Engage</button>
-                        <button id="choice2">Flee</button>
-                    </div>`;
+              choices = ["choice.engage", "choice.flee"];
               generateRandomEnemy();
-              addDungeonLog(`You encountered ${enemy.name}.`, choices);
+              addDungeonLog(
+                gameServices.narrative.record("event.encounter", {
+                  encounter: enemy.name,
+                }),
+                choices,
+              );
               player.inCombat = true;
               document.querySelector("#choice1").onclick =
                 /* Handle this control using the current view state and transition owner. */ function () {
@@ -287,13 +289,12 @@ const dungeonEvent =
                 blessingValidation();
                 const cost =
                   player.blessing * (500 * (player.blessing * 0.5)) + 750;
-                choices = `
-                        <div class="decision-panel">
-                            <button id="choice1">Offer</button>
-                            <button id="choice2">Ignore</button>
-                        </div>`;
+                choices = ["choice.offer", "choice.ignore"];
                 addDungeonLog(
-                  `<span class="Legendary">You found a Statue of Blessing. Do you want to offer <i class="fas fa-coins" style="color: #FFD700;"></i><span class="Common">${nFormatter(cost)}</span> to gain blessings? (Blessing Lv.${player.blessing})</span>`,
+                  gameServices.narrative.record("event.offering", {
+                    cost,
+                    level: player.blessing,
+                  }),
                   choices,
                 );
                 document.querySelector("#choice1").onclick =
@@ -303,7 +304,9 @@ const dungeonEvent =
                       /* Keep this action and all nested mutations inside one save boundary. */ () => {
                         if (player.gold < cost) {
                           sfxDeny.play();
-                          addDungeonLog("You don't have enough gold.");
+                          addDungeonLog(
+                            gameServices.narrative.record("event.insufficient"),
+                          );
                         } else {
                           player.gold -= cost;
                           sfxConfirm.play();
@@ -334,13 +337,12 @@ const dungeonEvent =
                   (dungeon.settings.enemyScaling - 1) * 10,
                 );
                 const cost = curseLvl * (10000 * (curseLvl * 0.5)) + 5000;
-                choices = `
-                            <div class="decision-panel">
-                                <button id="choice1">Offer</button>
-                                <button id="choice2">Ignore</button>
-                            </div>`;
+                choices = ["choice.offer", "choice.ignore"];
                 addDungeonLog(
-                  `<span class="Heirloom">You found a Cursed Totem. Do you want to offer <i class="fas fa-coins" style="color: #FFD700;"></i><span class="Common">${nFormatter(cost)}</span>? This will strengthen the monsters but will also improve the loot quality. (Curse Lv.${curseLvl})</span>`,
+                  gameServices.narrative.record("event.blackSounding", {
+                    cost,
+                    level: curseLvl,
+                  }),
                   choices,
                 );
                 document.querySelector("#choice1").onclick =
@@ -350,7 +352,9 @@ const dungeonEvent =
                       /* Keep this action and all nested mutations inside one save boundary. */ () => {
                         if (player.gold < cost) {
                           sfxDeny.play();
-                          addDungeonLog("You don't have enough gold.");
+                          addDungeonLog(
+                            gameServices.narrative.record("event.insufficient"),
+                          );
                         } else {
                           player.gold -= cost;
                           sfxConfirm.play();
@@ -377,13 +381,9 @@ const dungeonEvent =
               eventRoll = randomizeNum(1, 7);
               if (eventRoll === 1) {
                 dungeon.status.event = true;
-                choices = `
-                            <div class="decision-panel">
-                                <button id="choice1">Enter</button>
-                                <button id="choice2">Ignore</button>
-                            </div>`;
+                choices = ["choice.enter", "choice.ignore"];
                 addDungeonLog(
-                  `<span class="Heirloom">You found a mysterious chamber. It seems like there is something sleeping inside.</span>`,
+                  gameServices.narrative.record("event.bossChamber"),
                   choices,
                 );
                 document.querySelector("#choice1").onclick =
@@ -422,7 +422,11 @@ const engageBattle =
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
         showCombatInfo();
         startCombat(bgmBattleMain);
-        addCombatLog(`You encountered ${enemy.name}.`);
+        addCombatLog(
+          gameServices.narrative.record("event.encounter", {
+            encounter: enemy.name,
+          }),
+        );
         updateDungeonLog();
       },
     );
@@ -439,8 +443,16 @@ const mimicBattle =
         generateRandomEnemy(type);
         showCombatInfo();
         startCombat(bgmBattleMain);
-        addCombatLog(`You encountered ${enemy.name}.`);
-        addDungeonLog(`You encountered ${enemy.name}.`);
+        addCombatLog(
+          gameServices.narrative.record("event.encounter", {
+            encounter: enemy.name,
+          }),
+        );
+        addDungeonLog(
+          gameServices.narrative.record("event.encounter", {
+            encounter: enemy.name,
+          }),
+        );
       },
     );
   };
@@ -455,8 +467,12 @@ const guardianBattle =
         generateRandomEnemy("guardian");
         showCombatInfo();
         startCombat(bgmBattleGuardian);
-        addCombatLog(`Floor Guardian ${enemy.name} is blocking your way.`);
-        addDungeonLog("You moved to the next floor.");
+        addCombatLog(
+          gameServices.narrative.record("event.guardian", {
+            encounter: enemy.name,
+          }),
+        );
+        addDungeonLog(gameServices.narrative.record("event.floor"));
       },
     );
   };
@@ -470,8 +486,16 @@ const specialBossBattle =
         generateRandomEnemy("sboss");
         showCombatInfo();
         startCombat(bgmBattleBoss);
-        addCombatLog(`Dungeon Monarch ${enemy.name} has awoken.`);
-        addDungeonLog(`Dungeon Monarch ${enemy.name} has awoken.`);
+        addCombatLog(
+          gameServices.narrative.record("event.boss", {
+            encounter: enemy.name,
+          }),
+        );
+        addDungeonLog(
+          gameServices.narrative.record("event.boss", {
+            encounter: enemy.name,
+          }),
+        );
       },
     );
   };
@@ -485,15 +509,19 @@ const fleeBattle =
         const eventRoll = randomizeNum(1, 2);
         if (eventRoll === 1) {
           sfxConfirm.play();
-          addDungeonLog(`You managed to flee.`);
+          addDungeonLog(gameServices.narrative.record("event.fled"));
           player.inCombat = false;
           dungeon.status.event = false;
         } else {
-          addDungeonLog(`You failed to escape!`);
+          addDungeonLog(gameServices.narrative.record("event.fleeFailed"));
           showCombatInfo();
           startCombat(bgmBattleMain);
-          addCombatLog(`You encountered ${enemy.name}.`);
-          addCombatLog(`You failed to escape!`);
+          addCombatLog(
+            gameServices.narrative.record("event.encounter", {
+              encounter: enemy.name,
+            }),
+          );
+          addCombatLog(gameServices.narrative.record("event.fleeFailed"));
         }
       },
     );
@@ -520,7 +548,7 @@ const chestEvent =
           goldDrop();
           dungeon.status.event = false;
         } else {
-          addDungeonLog("The chest is empty.");
+          addDungeonLog(gameServices.narrative.record("event.emptyChest"));
           dungeon.status.event = false;
         }
       },
@@ -535,7 +563,7 @@ const goldDrop = /* Grant the original randomized currency reward. */ () => {
       sfxSell.play();
       const goldValue = randomizeNum(50, 500) * dungeon.progress.floor;
       addDungeonLog(
-        `You found <i class="fas fa-coins" style="color: #FFD700;"></i>${nFormatter(goldValue)}.`,
+        gameServices.narrative.record("event.gold", { amount: goldValue }),
       );
       player.gold += goldValue;
       playerLoadStats();
@@ -551,15 +579,15 @@ const nothingEvent =
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
         const eventRoll = randomizeNum(1, 5);
         if (eventRoll === 1) {
-          addDungeonLog("You explored and found nothing.");
+          addDungeonLog(gameServices.narrative.record("event.nothing0"));
         } else if (eventRoll === 2) {
-          addDungeonLog("You found an empty chest.");
+          addDungeonLog(gameServices.narrative.record("event.nothing1"));
         } else if (eventRoll === 3) {
-          addDungeonLog("You found a monster corpse.");
+          addDungeonLog(gameServices.narrative.record("event.nothing2"));
         } else if (eventRoll === 4) {
-          addDungeonLog("You found a corpse.");
+          addDungeonLog(gameServices.narrative.record("event.nothing3"));
         } else if (eventRoll === 5) {
-          addDungeonLog("There is nothing in this area.");
+          addDungeonLog(gameServices.narrative.record("event.nothing4"));
         }
       },
     );
@@ -614,10 +642,10 @@ const statBlessing =
             break;
         }
         addDungeonLog(
-          `You gained ${value}% bonus ${buff
-            .replace(/([A-Z])/g, ".$1")
-            .replace(/crit/g, "c")
-            .toUpperCase()} from the blessing. (Blessing Lv.${player.blessing} > Blessing Lv.${player.blessing + 1})`,
+          gameServices.narrative.record(`event.blessing.${buff}`, {
+            before: player.blessing,
+            after: player.blessing + 1,
+          }),
         );
         blessingUp();
         playerLoadStats();
@@ -636,7 +664,10 @@ const cursedTotem = /* Apply the chosen curse scaling and close the event. */ (
       sfxBuff.play();
       dungeon.settings.enemyScaling += 0.1;
       addDungeonLog(
-        `The monsters in the dungeon became stronger and the loot quality improved. (Curse Lv.${curseLvl} > Curse Lv.${curseLvl + 1})`,
+        gameServices.narrative.record("event.curseGain", {
+          before: curseLvl,
+          after: curseLvl + 1,
+        }),
       );
       saveData();
     },
@@ -651,7 +682,7 @@ const ignoreEvent =
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
         sfxConfirm.play();
         dungeon.status.event = false;
-        addDungeonLog("You ignored it and decided to move on.");
+        addDungeonLog(gameServices.narrative.record("event.ignored"));
       },
     );
   };
@@ -701,15 +732,13 @@ const updateDungeonLog =
     // Display the recent 50 dungeon logs
     for (const message of dungeon.backlog.slice(-50)) {
       const logElement = document.createElement("p");
-      logElement.innerHTML = message;
+      gameServices.narrative.renderLog(logElement, message);
       dungeonLog.appendChild(logElement);
     }
 
     // If the event has choices, display it
     if (typeof choices !== "undefined") {
-      const eventChoices = document.createElement("div");
-      eventChoices.innerHTML = choices;
-      dungeonLog.appendChild(eventChoices);
+      gameServices.narrative.events.appendChoices(dungeonLog, choices);
     }
 
     dungeonLog.scrollTop = dungeonLog.scrollHeight;

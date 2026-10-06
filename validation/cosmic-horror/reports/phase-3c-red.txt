@@ -1,0 +1,244 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/navigation-accessibility.spec.mjs tests/browser/entry-resilience.spec.mjs --project=chromium --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:80126) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 3 workers
+
+(node:80128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80127) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80129) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 360 at 200% text (224ms)
+  ✘  2 [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 768 at 200% text (230ms)
+  ✘  1 [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 1440 at 200% text (233ms)
+(node:80142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80143) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80144) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  5 [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Space (5.2s)
+  ✘  4 [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Enter (5.2s)
+(node:80169) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  7 [chromium] › tests/browser/navigation-accessibility.spec.mjs:67:1 › entry validation and allocation have accessible names and cancellation (5.1s)
+  ✘  6 [chromium] › tests/browser/navigation-accessibility.spec.mjs:31:1 › modal navigation blocks background and restores focus without abandonment (30.1s)
+
+
+  1) [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 360 at 200% text ─
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "none",
+    -   "none",
+    -   "none",
+    +   "blinker",
+    +   "spin",
+    +   "shake",
+      ]
+
+      35 |         },
+      36 |       );
+    > 37 |       expect(motion).toEqual(["none", "none", "none"]);
+         |                      ^
+      38 |       await p.locator("#title-screen").click();
+      39 |       await expect(p.locator("#dungeon-main")).toBeVisible();
+      40 |       await p.evaluate(/* Muted sound cannot disable navigation. */ () => Howler.mute(true));
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/entry-resilience.spec.mjs:37:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-entry-resilience-entry-resilience-360-at-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-entry-resilience-entry-resilience-360-at-200-text-chromium/error-context.md
+
+  2) [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 768 at 200% text ─
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "none",
+    -   "none",
+    -   "none",
+    +   "blinker",
+    +   "spin",
+    +   "shake",
+      ]
+
+      35 |         },
+      36 |       );
+    > 37 |       expect(motion).toEqual(["none", "none", "none"]);
+         |                      ^
+      38 |       await p.locator("#title-screen").click();
+      39 |       await expect(p.locator("#dungeon-main")).toBeVisible();
+      40 |       await p.evaluate(/* Muted sound cannot disable navigation. */ () => Howler.mute(true));
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/entry-resilience.spec.mjs:37:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-entry-resilience-entry-resilience-768-at-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-entry-resilience-entry-resilience-768-at-200-text-chromium/error-context.md
+
+  3) [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 1440 at 200% text 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "none",
+    -   "none",
+    -   "none",
+    +   "blinker",
+    +   "spin",
+    +   "shake",
+      ]
+
+      35 |         },
+      36 |       );
+    > 37 |       expect(motion).toEqual(["none", "none", "none"]);
+         |                      ^
+      38 |       await p.locator("#title-screen").click();
+      39 |       await expect(p.locator("#dungeon-main")).toBeVisible();
+      40 |       await p.evaluate(/* Muted sound cannot disable navigation. */ () => Howler.mute(true));
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/entry-resilience.spec.mjs:37:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-entry-resilience-entry-resilience-1440-at-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-entry-resilience-entry-resilience-1440-at-200-text-chromium/error-context.md
+
+  4) [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Enter 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: /Begin the sounding/ })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: /Begin the sounding/ }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /Begin the sounding/ })
+
+
+      16 |       await p.goto("/");
+      17 |       const title = p.getByRole("button", { name: /Begin the sounding/ });
+    > 18 |       await expect(title).toBeVisible();
+         |                           ^
+      19 |       await title.focus();
+      20 |       await expect(title).toBeFocused();
+      21 |       expect(await title.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:18:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/error-context.md
+
+  5) [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Space 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: /Begin the sounding/ })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: /Begin the sounding/ }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /Begin the sounding/ })
+
+
+      16 |       await p.goto("/");
+      17 |       const title = p.getByRole("button", { name: /Begin the sounding/ });
+    > 18 |       await expect(title).toBeVisible();
+         |                           ^
+      19 |       await title.focus();
+      20 |       await expect(title).toBeFocused();
+      21 |       expect(await title.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:18:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-navigation-accessibility-title-activates-with-Space-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-navigation-accessibility-title-activates-with-Space-chromium/error-context.md
+
+  6) [chromium] › tests/browser/navigation-accessibility.spec.mjs:31:1 › modal navigation blocks background and restores focus without abandonment 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:64:15
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-navigation-accessi-7b896-s-focus-without-abandonment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-navigation-accessi-7b896-s-focus-without-abandonment-chromium/error-context.md
+
+  7) [chromium] › tests/browser/navigation-accessibility.spec.mjs:67:1 › entry validation and allocation have accessible names and cancellation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('textbox', { name: 'Keeper name' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('textbox', { name: 'Keeper name' }) with timeout 5000ms
+      - waiting for getByRole('textbox', { name: 'Keeper name' })
+
+
+      70 |     const p = f.page;
+      71 |     await p.goto("/");
+    > 72 |     await expect(p.getByRole("textbox", { name: "Keeper name" })).toBeVisible();
+         |                                                                   ^
+      73 |     await p.locator("#name-input").fill("!");
+      74 |     await p.locator("#name-submit button").click();
+      75 |     await expect(p.locator("#alert")).toHaveAttribute("role", "alert");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:72:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/error-context.md
+
+  7 failed
+    [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 360 at 200% text ──
+    [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 768 at 200% text ──
+    [chromium] › tests/browser/entry-resilience.spec.mjs:11:3 › entry resilience 1440 at 200% text ─
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Enter ─
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:12:3 › title activates with Space ─
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:31:1 › modal navigation blocks background and restores focus without abandonment 
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:67:1 › entry validation and allocation have accessible names and cancellation 

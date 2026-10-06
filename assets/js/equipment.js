@@ -336,7 +336,7 @@ const showItemInfo =
     dimContainer.style.filter = "brightness(50%)";
     itemInfo.innerHTML = `
             <div class="content">
-                <h3 class="${item.rarity}">${icon}${item.rarity} ${item.category}</h3>
+                <h3>${icon}</h3>
                 <h5 class="lvltier ${item.rarity}"><b>Lv.${item.lvl} Tier ${item.tier}</b></h5>
                 <ul>
                 ${item.stats
@@ -372,6 +372,8 @@ const showItemInfo =
                     <button id="close-item-info">Close</button>
                 </div>
             </div>`;
+
+    gameServices.narrative.itemLabel(itemInfo.querySelector("h3"), item);
 
     // Equip/Unequip button for the item
     const unEquip = document.querySelector("#un-equip");
@@ -426,13 +428,17 @@ const showItemInfo =
             defaultModalElement.style.display = "flex";
             defaultModalElement.innerHTML = `
         <div class="content">
-            <p>Sell <span class="${item.rarity}">${icon}${item.rarity} ${item.category}</span>?</p>
+            <p></p>
             <div class="button-container">
                 <button id="sell-confirm">Sell</button>
                 <button id="sell-cancel">Cancel</button>
             </div>
         </div>`;
 
+            gameServices.narrative.put("#defaultModal p", "inventory.sell", {
+              relic: item.category,
+              amount: item.value,
+            });
             const confirm = document.querySelector("#sell-confirm");
             const cancel = document.querySelector("#sell-cancel");
             confirm.onclick =
@@ -502,7 +508,8 @@ const showInventory =
     playerInventoryList.innerHTML = "";
 
     if (player.inventory.equipment.length === 0) {
-      playerInventoryList.innerHTML = "There are no items available.";
+      playerInventoryList.textContent =
+        gameServices.narrative.text("inventory.empty");
     }
 
     for (let i = 0; i < player.inventory.equipment.length; i++) {
@@ -512,7 +519,8 @@ const showInventory =
       const itemDiv = document.createElement("div");
       const icon = equipmentIcon(item.category);
       itemDiv.className = "items";
-      itemDiv.innerHTML = `<p class="${item.rarity}">${icon}${item.rarity} ${item.category}</p>`;
+      itemDiv.innerHTML = `<p>${icon}</p>`;
+      gameServices.narrative.itemLabel(itemDiv.querySelector("p"), item);
       itemDiv.addEventListener(
         "click",
         /* Handle this control using the current view state and transition owner. */ function () {
@@ -551,6 +559,15 @@ const showEquipment =
       const icon = equipmentIcon(item.category);
       equipDiv.className = "items";
       equipDiv.innerHTML = `<button class="${item.rarity}">${icon}</button>`;
+      equipDiv.querySelector("button").setAttribute(
+        "aria-label",
+        gameServices.narrative.text("inventory.item", {
+          rarity: item.rarity,
+          relic: item.category,
+          level: item.lvl,
+          tier: item.tier ?? 1,
+        }),
+      );
       equipDiv.addEventListener(
         "click",
         /* Handle this control using the current view state and transition owner. */ function () {
@@ -670,46 +687,12 @@ const createEquipmentPrint =
   /* Add a rolled item to the appropriate reward presentation. */ (
     condition,
   ) => {
-    const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
-    const item = createEquipment();
-    const panel = `
-        <div class="primary-panel" style="padding: 0.5rem; margin-top: 0.5rem;">
-                <h4 class="${item.rarity}"><b>${item.icon}${item.rarity} ${item.category}</b></h4>
-                <h5 class="${item.rarity}"><b>Lv.${item.lvl} Tier ${item.tier}</b></h5>
-                <ul>
-                ${item.stats
-                  .map(
-                    /* Handle this control using the current view state and transition owner. */ (
-                      stat,
-                    ) => {
-                      if (
-                        Object.keys(stat)[0] === "critRate" ||
-                        Object.keys(stat)[0] === "critDmg" ||
-                        Object.keys(stat)[0] === "atkSpd" ||
-                        Object.keys(stat)[0] === "vamp"
-                      ) {
-                        return `<li>${Object.keys(stat)[0]
-                          .toString()
-                          .replace(/([A-Z])/g, ".$1")
-                          .replace(/crit/g, "c")
-                          .toUpperCase()}+${stat[Object.keys(stat)[0]].toFixed(2).replace(rx, "$1")}%</li>`;
-                      } else {
-                        return `<li>${Object.keys(stat)[0]
-                          .toString()
-                          .replace(/([A-Z])/g, ".$1")
-                          .replace(/crit/g, "c")
-                          .toUpperCase()}+${stat[Object.keys(stat)[0]]}</li>`;
-                      }
-                    },
-                  )
-                  .join("")}
-            </ul>
-        </div>`;
-    if (condition === "combat") {
-      addCombatLog(`
-        ${enemy.name} dropped <span class="${item.rarity}">${item.rarity} ${item.category}</span>.<br>${panel}`);
-    } else if (condition === "dungeon") {
-      addDungeonLog(`
-        You got <span class="${item.rarity}">${item.rarity} ${item.category}</span>.<br>${panel}`);
-    }
+    createEquipment();
+    // The generator has already granted this exact holding, including its value and stats.
+    const item = JSON.parse(
+      player.inventory.equipment[player.inventory.equipment.length - 1],
+    );
+    const message = gameServices.narrative.record("inventory.reward", { item });
+    if (condition === "combat") addCombatLog(message);
+    else if (condition === "dungeon") addDungeonLog(message);
   };

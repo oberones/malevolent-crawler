@@ -93,12 +93,15 @@ const playerLoadStats =
       playerCombatHpElement.style.width = `${player.stats.hpPercent}%`;
       playerHpDamageElement.style.width = `${player.stats.hpPercent}%`;
       playerExpElement.style.width = `${player.exp.expPercent}%`;
-      playerInfoElement.innerHTML = `${player.name} Lv.${player.lvl} (${player.exp.expPercent}%)`;
+      playerInfoElement.textContent = `${player.name} Lv.${player.lvl} (${player.exp.expPercent}%)`;
     }
 
     // Header
     document.querySelector("#player-name").innerHTML =
-      `<i class="fas fa-user"></i>${player.name} Lv.${player.lvl}`;
+      '<i class="fas fa-user"></i>';
+    document
+      .querySelector("#player-name")
+      .append(document.createTextNode(`${player.name} Lv.${player.lvl}`));
     document.querySelector("#player-exp").innerHTML =
       `<p>Exp</p> ${nFormatter(player.exp.expCurr)}/${nFormatter(player.exp.expMax)} (${player.exp.expPercent}%)`;
     document.querySelector("#player-gold").innerHTML =
@@ -172,6 +175,19 @@ const openInventory =
             </div>`;
             }
 
+            let amount = 0;
+            for (const encoded of player.inventory.equipment) {
+              const item = JSON.parse(encoded);
+              if (rarity === "All" || item.rarity === rarity)
+                amount += item.value;
+            }
+            gameServices.narrative.put(
+              "#defaultModal p",
+              rarity === "All"
+                ? "inventory.sellEverything"
+                : "inventory.sellAll",
+              rarity === "All" ? { amount } : { rarity, amount },
+            );
             const confirm = document.querySelector("#sell-confirm");
             const cancel = document.querySelector("#sell-cancel");
             confirm.onclick =
@@ -250,7 +266,10 @@ const lvlupPopup =
   /* Present earned upgrades without generating another reward. */ () => {
     sfxLvlUp.play();
     addCombatLog(
-      `You leveled up! (Lv.${player.lvl - player.exp.lvlGained} > Lv.${player.lvl})`,
+      gameServices.narrative.record("upgrade.gained", {
+        before: player.lvl - player.exp.lvlGained,
+        after: player.lvl,
+      }),
     );
 
     // Recover 20% extra hp on level up
@@ -296,6 +315,7 @@ const generateLvlStats =
                 <button id="lvlReroll">Reroll ${rerolls}/2</button>
             </div>
         `;
+        gameServices.narrative.upgrade(player.exp.lvlGained, rerolls);
       };
     loadLvlHeader();
 
@@ -333,10 +353,9 @@ const generateLvlStats =
       button.appendChild(h3);
 
       const p = document.createElement("p");
-      p.innerHTML = `Increase bonus ${selectedStats[i]
-        .replace(/([A-Z])/g, ".$1")
-        .replace(/crit/g, "c")
-        .toUpperCase()} by ${percentages[selectedStats[i]]}%.`;
+      p.textContent = gameServices.narrative.text(
+        `upgrade.${selectedStats[i]}`,
+      );
       button.appendChild(p);
 
       // Increase the selected stat for player

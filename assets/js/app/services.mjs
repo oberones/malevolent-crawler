@@ -1,9 +1,13 @@
+import { createModalBridge } from "./modal-bridge.mjs";
+import { createOutcomeView } from "./outcome-view.mjs";
+import { createEntryView } from "./entry-view.mjs";
+import { createEventView } from "./event-view.mjs";
 import { createSnapshotStore } from "./snapshot-store.mjs";
 import { createTransitions } from "./transitions.mjs";
 import { initialStateSections } from "./save-validation.mjs";
 /**
- * Connect validated persistence to the classic engine through explicit accessors.
- * @param {object} dependencies Storage, clock, eventTarget, capture/replace and report callbacks.
+ * Connect persistence and optional DOM presentation to the classic engine through explicit accessors.
+ * @param {object} dependencies Storage, clock, eventTarget, capture/replace and report callbacks; optional document enables narrative views.
  * @returns {object} One initialized owner; recovery never replaces live state.
  */
 export function createGameServices({
@@ -13,6 +17,7 @@ export function createGameServices({
   capture,
   replace,
   report,
+  document,
 }) {
   const store = createSnapshotStore({ storage, now, eventTarget });
   const transitions = createTransitions({
@@ -34,9 +39,17 @@ export function createGameServices({
       status = "ready";
     } else report(committed);
   }
+  const modals = document ? createModalBridge(document) : null;
   return {
     status,
     loaded,
+    narrative: document
+      ? {
+          ...createOutcomeView(document),
+          entry: createEntryView(document),
+          events: createEventView(document),
+        }
+      : null,
     /** Execute a complete synchronous engine action, nesting all requested writes. */
     run(callback) {
       if (status !== "ready") return undefined;
@@ -52,6 +65,10 @@ export function createGameServices({
       return result.value;
     },
     requestSave: transitions.requestSave,
-    dispose: store.dispose,
+    /** Release presentation resources together with storage listeners. */
+    dispose() {
+      modals?.dispose();
+      store.dispose();
+    },
   };
 }

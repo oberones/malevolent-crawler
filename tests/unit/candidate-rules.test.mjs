@@ -1,3 +1,4 @@
+import { record, text } from "../../assets/js/app/outcome-view.mjs";
 import test, { after } from "node:test";
 import assert from "node:assert/strict";
 import {
@@ -22,7 +23,7 @@ for (const file of legacyFiles) {
     assert.equal(source.match(/^initializeGame\(\);$/gm)?.length, 1);
     source = source.replace(
       /^initializeGame\(\);$/m,
-      'gameReady = true; gameServices = { run(callback) { return callback(); }, requestSave() { return { status: "deferred" }; } };',
+      'gameReady = true; gameServices = { /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
     );
     source = "document.addEventListener = function () {};\n" + source;
   }
@@ -55,6 +56,53 @@ for (const corpus of ["encounters", "equipment", "progression"]) {
         randomTape: row.tape,
       });
       try {
+        const document = h.dom.document;
+        // This oracle has no HTML parser; browser tests own all visual assertions.
+        const create = document.createElement.bind(document);
+        // Supply inert node operations used by unchanged classic rule call sites.
+        function decorate(node) {
+          node.append = /* Retain child identity without parsing markup. */ (
+            ...children
+          ) => node.children.push(...children);
+          node.querySelector =
+            /* Return an inert nested presentation slot. */ () =>
+              decorate(create());
+          node.setAttribute =
+            /* Attributes have no bearing on numerical rule replay. */ () => {};
+          return node;
+        }
+        for (const node of h.dom.nodes.values()) decorate(node);
+        document.createElement =
+          /* Decorate only this realm's created nodes. */ () =>
+            decorate(create());
+        document.createTextNode =
+          /* Preserve authored text without an HTML parser. */ (value) => ({
+            textContent: value,
+          });
+        document.narrative = {
+          record,
+          // Transfer VM-owned parameter objects into the module realm before validation.
+          text(id, params) {
+            return text(id, structuredClone(params));
+          },
+          // These view-only operations have separate real-browser assertions.
+          put() {},
+          // Logs are checked by the narrative browser suite, not by the frozen text oracle.
+          renderLog() {},
+          // Current item identities are tested across actual inventory/detail/confirmation DOM.
+          itemLabel() {},
+          // Encounter names and art resolution have browser/catalog coverage.
+          encounter() {},
+          // Upgrade presentation never rolls choices or grants a reward.
+          upgrade() {},
+          events: {
+            /* Choice handlers bind to the oracle's existing selector inventory. */ appendChoices() {},
+          },
+          entry: {
+            /* Rule replay retains original option tokens. */ allocation() {},
+            /* Skill description has no rule effect. */ skill() {},
+          },
+        };
         for (const [key, value] of Object.entries(resting)) h.write(key, value);
         for (const [key, value] of Object.entries(row.setup))
           h.write(key, value);
@@ -65,8 +113,16 @@ for (const corpus of ["encounters", "equipment", "progression"]) {
           if (op.click) h.dom.nodes.get(op.click).dispatch("click");
           if (op.advance) h.clock.advance(op.advance);
         }
-        for (const [key, value] of Object.entries(row.expected))
-          assert.deepEqual(h.read(key), value, key);
+        for (const [key, value] of Object.entries(row.expected)) {
+          if (key === "combatBacklog") continue; // Narrative is intentionally changed.
+          const actual = h.read(key);
+          const expected = structuredClone(value);
+          if (key === "dungeon") {
+            delete actual.backlog;
+            delete expected.backlog;
+          }
+          assert.deepEqual(actual, expected, key);
+        }
         h.random.assertConsumed();
         assert.deepEqual(h.random.calls, row.tape);
       } finally {

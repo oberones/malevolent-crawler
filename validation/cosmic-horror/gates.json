@@ -465,11 +465,11 @@
       "sourceRevision": null,
       "steps": "Create a character, allocate stats, activate title using the target input.",
       "expected": "Original screen organization; readable setting; one action per activation.",
-      "actual": "Not performed. Installed app metadata read; native interaction not performed.",
+      "actual": "Partial native Firefox 157.0 review: creation, title Enter/Space, allocation, inventory/menu, Help/Credits and Escape cancellation/focus return observed. Full required native matrix and measured viewport/DPR remain OPEN.",
       "status": "OPEN",
-      "evidence": [],
-      "reviewer": null,
-      "date": null,
+      "evidence": ["validation/cosmic-horror/us1.md"],
+      "reviewer": "implementation agent",
+      "date": "2026-10-06",
       "findings": []
     },
     {
@@ -591,11 +591,11 @@
       "sourceRevision": null,
       "steps": "Review system copy and credits across title/events/combat/upgrades/items/resets.",
       "expected": "Coherent original setting; neutral labels preserved; accurate retained contributions.",
-      "actual": "Not performed. Installed app metadata read; native interaction not performed.",
+      "actual": "Partial native Firefox 157.0 review: creation, title Enter/Space, allocation, inventory/menu, Help/Credits and Escape cancellation/focus return observed. Full required native matrix and measured viewport/DPR remain OPEN.",
       "status": "OPEN",
-      "evidence": [],
-      "reviewer": null,
-      "date": null,
+      "evidence": ["validation/cosmic-horror/us1.md"],
+      "reviewer": "implementation agent",
+      "date": "2026-10-06",
       "findings": []
     },
     {
@@ -609,11 +609,11 @@
       "sourceRevision": null,
       "steps": "Use Tab/Shift+Tab/Enter/Space/Escape through title, allocation, explore/pause, inventory/details/sale, level-up, menu/import/recovery.",
       "expected": "Visible focus, correct initial/return focus, no trap, background blocked, cancellation non-destructive.",
-      "actual": "Not performed. Installed app metadata read; native interaction not performed.",
+      "actual": "Partial native Firefox 157.0 review: creation, title Enter/Space, allocation, inventory/menu, Help/Credits and Escape cancellation/focus return observed. Full required native matrix and measured viewport/DPR remain OPEN.",
       "status": "OPEN",
-      "evidence": [],
-      "reviewer": null,
-      "date": null,
+      "evidence": ["validation/cosmic-horror/us1.md"],
+      "reviewer": "implementation agent",
+      "date": "2026-10-06",
       "findings": []
     },
     {

@@ -235,3 +235,33 @@ Runtime paths are planned delivery references, not existing or accepted replacem
 Generate original transparent full silhouettes, one request per distinct variant. Use strong category shapes and restrained internal texture; keep defining limbs, tips and handles within the canvas. Never trace or recolor baseline art. Contain and transparently pad to each exact recorded canvas; preserve 50%/70% portrait framing. Inspect alpha edges and actual-size legibility in every measured context. Do not invent glyph dimensions.
 
 Creature framing remains provisional until the small/tall/large T062–T063 pilot. Icon framing remains provisional until T082 qualifies the Sword icon at every measured size; remaining icon batches follow that gate. Pilot edits refine framing and prompts while preserving these shared IDs and names. Favicons use the sunken-bell motif, with separate 199 × 200 PNG and single-entry 127 × 128 ICO deliverables. The fallback uses a quiet sealed bell silhouette with adjacent readable identity; it is not substitute accepted creature art.
+
+## Narrative catalog handoff (Phase 3A)
+
+`assets/js/content/messages.mjs` owns plain-text templates, exact parameter schemas
+and safe-renderer text descriptors. It does not change rules or attach itself to
+screens. The `entry`, `event`, `choice`, `combat`, `upgrade`, `run`, `inventory`,
+`menu`, `help` and `about` namespaces cover the existing narrative surfaces.
+`messageText({id, params})` rejects missing, extra or invalid parameters before
+formatting. Identity parameters resolve through the shared catalogs; player text
+is preserved verbatim and must be inserted through text nodes. Costs and rewards
+remain numbers supplied by the engine, including fractional EXP. These templates
+also provide the future history mapper's target vocabulary; no history parser is
+implemented by this package.
+
+| Internal skill token | Visible name       | Preserved effect                                            |
+| -------------------- | ------------------ | ----------------------------------------------------------- |
+| Remnant Razor        | Nacre Edge         | Extra 8% of enemy current HP on hit                         |
+| Titan's Will         | Breakwater Resolve | Extra 5% of player maximum HP on hit                        |
+| Devastator           | Undertow Force     | 30% more damage; 30% less base attack speed                 |
+| Rampager             | Gathering Tide     | +5 base attack after each hit; resets after battle          |
+| Blade Dance          | Quickening Current | +0.01 base attack speed after each hit; resets after battle |
+| Paladin's Heart      | Harbor Heart       | 25% less incoming damage                                    |
+| Aegis Thorns         | Barnacle Reprisal  | Return 15% of damage dealt by enemies                       |
+
+Rampager remains supported historical vocabulary; this catalog does not add it to
+the current six-option allocation control. HP and stat abbreviations, Claim,
+Inventory, Equip, Save, rarity labels and third-party names may remain neutral.
+The credits template accurately identifies the currently retained original assets;
+replacement-art credit must change only after delivery and provenance exist.
+Native narrative review and the screen integration in Phase 3B remain OPEN.

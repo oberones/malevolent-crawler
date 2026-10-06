@@ -164,3 +164,102 @@ Statuses: PASS / FAIL / BLOCKED / OPEN / N/A. Each future behavioral task must a
   tapes; the full unit suite passes 2,365 tests. Browser, lint and format outcomes
   are recorded in [foundation evidence](foundation.md). Native/release gates remain
   separate OPEN/BLOCKED obligations.
+
+## Phase 3A — T047–T049 narrative catalog and acceptance expectations
+
+Date: 2026-10-06. Node 24.21.0/npm 12.2.0. No application screen integration.
+
+- **T047 red:** `node --test tests/unit/narrative.test.mjs` against the documented,
+  importable empty registry seam: 14 intended failures, one rejection check passed.
+  Missing coverage/skills/text behavior caused failure, not broken imports or syntax.
+  Raw record: `reports/phase-3a-unit-red.txt`.
+- **T049 green/refactor:** 104 immutable templates and seven preserved skill aliases;
+  exact parameter validation and inert text descriptors reuse the shared renderer.
+  Expanded validation covers every authored schema, direct template calls, unchanged
+  inputs, no RNG, fractional rewards, hostile names, credit exceptions and costs.
+  `npm run test:unit`: 2,382 pass including 17 narrative tests;
+  `reports/phase-3a-unit.txt`. No changed gameplay formulas or runtime bootstrap.
+- **T048 red:** `npx playwright test tests/browser/setting-journeys.spec.mjs
+tests/integration/narrative-render.spec.mjs --workers=3 --trace=off` exercises
+  Chromium/Firefox/WebKit. The 46 screen expectations per engine intentionally
+  precede T050–T053, while the separate safe-template DOM case passes per engine.
+  Numerical/RNG assertions precede the theme assertions. The report and final
+  counts are indexed in `phase-3a.md`; no skip or expected-failure suppresses them.
+- **Invalid setup attempts:** localhost EPERM required sandbox escalation; allocation
+  fixture initially expected one instead of six after an HP increment; terminal
+  fixtures needed a visible combat panel and the frozen resting dungeon rather
+  than the active-save generation multipliers. One trace artifact was truncated;
+  final runs disable tracing. A cross-engine wall-clock race was removed by using
+  a fixed installed clock and future pause point; terminal controls use native
+  Enter activation. None of these count as intended application red.
+- **Refactor/review:** checked schema-placeholder parity, immutable exports,
+  purpose comments, public formatter contract, safe DOM composition, and accurate
+  unchanged skill effects. Screen behavior, native text review and full release
+  checks remain separate obligations. No exception or release pass is requested.
+
+## Phase 3B — T050–T053 existing-screen integration
+
+Date: 2026-10-06. Node 24.21.0/npm 12.2.0.
+
+- **Red:** Reran `npx playwright test tests/browser/setting-journeys.spec.mjs
+--project=chromium --workers=3 --trace=off`: 46 intended failures on old copy,
+  absent Help/Credits and narrative identities. Original state/RNG comparisons
+  remain ahead of theme assertions. Added browser regressions reproduced HTML
+  interpretation of player names, old skill labels and old relic labels; the
+  corrected nonempty-inventory test failed on `Common Sword` versus its catalog name.
+- **Green:** Connected three small ES view modules through the existing services
+  bridge. Current messages use detached validated records, inert nodes and catalog
+  identities; choices remain transient. Costs/rewards and skill selection stay in
+  the engine. Claim has no reward mutation. Help/Credits are informational only.
+- **Refactor:** Kept the VM replay explicitly rule-only, with typed formatters and
+  inert presentation stubs; removed only the intentionally changed histories from
+  its comparisons. Retained exact comparison of all authoritative state and full
+  random tapes. Reviewed purpose comments, public contracts and unchanged baselines.
+- **Verification:** 1,118 candidate rule replays and all 2,382 unit tests pass.
+  `npx playwright test tests/integration tests/browser --workers=3 --trace=off`
+  passes 321 checks across three engines. Lint, formatting, whitespace and audit
+  pass. Art/evidence validators remain failing on incomplete release obligations.
+- **Setup corrections, not red:** sandbox loopback denial, empty-pack item fixture,
+  idle-enemy battle probe and cross-realm formatter input. Final runs are clean.
+  Detailed boundaries, commands and raw-report pointers: [Phase 3B evidence](phase-3b.md).
+
+## Phase 3C — T054–T058 navigation and resilience
+
+Date: 2026-10-06. Node 24.21.0/npm 12.2.0.
+
+- **Red (T054/T055):** The two new browser files produced seven intended Chromium
+  failures on absent accessible title/name/inventory controls and unsuppressed
+  reduced-motion animations. Loopback permission failure was setup, not red.
+- **Green (T056/T057):** Native title/close controls, names and alerts, the shared
+  dialog adapter, focus restoration, safe cancellation, reflow and reduced motion
+  made all seven pass. A repeated open/close/disposal regression was added.
+- **Refactor (T058):** Kept classic visibility/confirmation ownership explicit,
+  preserved current styles during service cleanup, discarded returned child
+  history and used rendered controls for fallback focus. All 24 focused checks
+  pass across three engines after refactoring. Purpose comments reviewed.
+- **Broader checks:** 2,382 unit tests (including 1,118 candidate rule replays) and
+  345 integration/browser checks pass. Scoped axe, lint, format and whitespace
+  checks pass. Native Firefox review is partial, not full native acceptance.
+- **Test setup corrections:** Help uses the actual catalog wording; axe runs
+  without the gameplay tape because the audit itself consumes randomness.
+  Details, raw outputs and remaining gates: [US1 evidence](us1.md).
+
+## Phase 4A — T059–T061 encounter presentation
+
+Date: 2026-10-06. Node 24.21.0/npm 12.2.0.
+
+- **Red:** New integration/browser tests produced seven intended Chromium
+  failures: missing intrinsic dimensions/aspect ratios and zero-height portraits
+  with unavailable image bytes. The preexisting unknown-identity refusal passed.
+  Sandbox loopback denial, a constant-backlog assignment and padding/derived
+  percentage assumptions were test setup corrections, not behavioral red.
+- **Green:** Extracted `encounter-view.mjs` behind the existing narrative interface;
+  catalog dimensions reserve portrait space before loading, while original 50%/70%
+  framing and selected identity/variant remain unchanged. All 27 focused checks
+  pass across Chromium, Firefox and WebKit.
+- **Refactor:** Kept classic generation/entry/combat call sites and their complete
+  random tapes intact. Real-browser replay covers 126 captured encounter/attack
+  cases per engine. All 2,382 unit tests pass, including the existing 1,118 candidate
+  rule comparisons. Purpose comments, public contracts and immutable inputs reviewed.
+- Full regression results and art/native/release limitations are recorded in
+  [Phase 4A evidence](phase-4a.md); this package does not deliver new creature art.

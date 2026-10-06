@@ -14,7 +14,7 @@ const hpValidation =
           player.stats.hp = 0;
           playerDead = true;
           player.deaths++;
-          addCombatLog(`You died!`);
+          addCombatLog(gameServices.narrative.record("combat.defeat"));
           document.querySelector("#battleButton").addEventListener(
             "click",
             /* Handle this control using the current view state and transition owner. */ function () {
@@ -46,12 +46,24 @@ const hpValidation =
           player.kills++;
           dungeon.statistics.kills++;
           addCombatLog(
-            `${enemy.name} died! (${new Date(combatSeconds * 1000).toISOString().substring(14, 19)})`,
+            gameServices.narrative.record("combat.victory", {
+              encounter: enemy.name,
+              duration: new Date(combatSeconds * 1000)
+                .toISOString()
+                .substring(14, 19),
+            }),
           );
-          addCombatLog(`You earned ${nFormatter(enemy.rewards.exp)} exp.`);
+          addCombatLog(
+            gameServices.narrative.record("combat.experience", {
+              amount: enemy.rewards.exp,
+            }),
+          );
           playerExpGain();
           addCombatLog(
-            `${enemy.name} dropped <i class="fas fa-coins" style="color: #FFD700;"></i>${nFormatter(enemy.rewards.gold)} gold.`,
+            gameServices.narrative.record("combat.gold", {
+              encounter: enemy.name,
+              amount: enemy.rewards.gold,
+            }),
           );
           player.gold += enemy.rewards.gold;
           playerLoadStats();
@@ -106,7 +118,6 @@ const playerAttack =
 
         // Calculates the damage and attacks the enemy
         let crit;
-        let dmgtype;
         let damage =
           player.stats.atk *
           (player.stats.atk / (player.stats.atk + enemy.stats.def));
@@ -116,11 +127,9 @@ const playerAttack =
         // Check if the attack is a critical hit
         if (Math.floor(Math.random() * 100) < player.stats.critRate) {
           crit = true;
-          dmgtype = "crit damage";
           damage = Math.round(damage * (1 + player.stats.critDmg / 100));
         } else {
           crit = false;
-          dmgtype = "damage";
           damage = Math.round(damage);
         }
 
@@ -160,9 +169,10 @@ const playerAttack =
         enemy.stats.hp -= damage;
         player.stats.hp += lifesteal;
         addCombatLog(
-          `${player.name} dealt ` +
-            nFormatter(damage) +
-            ` ${dmgtype} to ${enemy.name}.`,
+          gameServices.narrative.record(
+            crit ? "combat.playerCritical" : "combat.playerHit",
+            { player: player.name, encounter: enemy.name, damage },
+          ),
         );
         hpValidation();
         playerLoadStats();
@@ -259,9 +269,12 @@ const enemyAttack =
         }
         enemy.stats.hp += lifesteal;
         addCombatLog(
-          `${enemy.name} dealt ` +
-            nFormatter(damage) +
-            ` ${dmgtype} to ${player.name}.`,
+          gameServices.narrative.record(
+            dmgtype === "crit damage"
+              ? "combat.enemyCritical"
+              : "combat.enemyHit",
+            { player: player.name, encounter: enemy.name, damage },
+          ),
         );
         hpValidation();
         playerLoadStats();
@@ -310,7 +323,7 @@ const updateCombatLog =
 
     for (const message of combatBacklog) {
       const logElement = document.createElement("p");
-      logElement.innerHTML = message;
+      gameServices.narrative.renderLog(logElement, message);
       combatLogBox.appendChild(logElement);
     }
 
@@ -318,6 +331,9 @@ const updateCombatLog =
       const button = document.createElement("div");
       button.className = "decision-panel";
       button.innerHTML = `<button id="battleButton">Claim</button>`;
+      button.querySelector("button").textContent = gameServices.narrative.text(
+        enemyDead ? "combat.claim" : "combat.return",
+      );
       combatLogBox.appendChild(button);
     }
 
@@ -325,6 +341,9 @@ const updateCombatLog =
       const button = document.createElement("div");
       button.className = "decision-panel";
       button.innerHTML = `<button id="battleButton">Back to Menu</button>`;
+      button.querySelector("button").textContent = gameServices.narrative.text(
+        enemyDead ? "combat.claim" : "combat.return",
+      );
       combatLogBox.appendChild(button);
     }
 
@@ -406,7 +425,7 @@ const showCombatInfo =
     document.querySelector("#combatPanel").innerHTML = `
     <div class="content">
         <div class="battle-info-panel center" id="enemyPanel">
-            <p>${enemy.name} Lv.${enemy.lvl}</p>
+            <p></p>
             <div class="battle-bar empty-bar hp bb-hp">
                 <div class="battle-bar dmg bb-hp" id="enemy-hp-dmg"></div>
                 <div class="battle-bar current bb-hp" id="enemy-hp-battle">
@@ -414,7 +433,7 @@ const showCombatInfo =
                 </div>
             </div>
             <div id="dmg-container"></div>
-            <img src="./assets/sprites/${enemy.image.name}${enemy.image.type}" alt="${enemy.name}" width="${enemy.image.size}" id="enemy-sprite">
+            <img id="enemy-sprite">
         </div>
         <div class="battle-info-panel primary-panel" id="playerPanel">
             <p id="player-combat-info"></p>
@@ -433,4 +452,5 @@ const showCombatInfo =
         </div>
     </div>
     `;
+    gameServices.narrative.encounter(enemy);
   };

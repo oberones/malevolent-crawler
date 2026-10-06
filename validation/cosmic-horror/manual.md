@@ -68,33 +68,33 @@ Environment ID: `chrome-desktop`. Google Chrome.app not observed in /Application
 
 ## Native Firefox
 
-Environment ID: `firefox-desktop`. Installed app metadata read; native interaction not performed. Actual DPR/viewport/input and reviewer/date remain unset.
+Environment ID: `firefox-desktop`. Firefox 157.0: bounded native keyboard/pointer review on 2026-10-06 by implementation agent; see [US1 evidence](us1.md). CSS viewport/DPR and complete native matrix remain unmeasured/open.
 
-| Done | Gate / procedure                           | Owner | Requirements                   | Status | Actual / evidence / reviewer / date |
-| ---- | ------------------------------------------ | ----- | ------------------------------ | ------ | ----------------------------------- |
-| [ ]  | native-firefox-desktop-entry               | T058  | FR-001, FR-002, QR-001, QR-002 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-events              | T058  | FR-003, FR-004, FR-006         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-encounters          | T078  | FR-003, FR-004                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-relics              | T093  | FR-005, FR-006                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-item-actions        | T093  | FR-005, FR-014                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-progression         | T058  | FR-004                         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-reset               | T093  | FR-004, FR-005, FR-012         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-menu-copy           | T058  | FR-001, FR-002, FR-015         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-keyboard-focus      | T136  | FR-014, QR-001, QR-002         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-touch               | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-text-reflow         | T136  | FR-014, QR-001, QR-002         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-contrast            | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-motion-audio        | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-local-continue      | T127  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-settled-interrupted | T127  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-character-exchange  | T126  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-storage-recovery    | T127  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-hostile-import      | T126  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-clipboard-conflict  | T127  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-history             | T126  | FR-006, FR-012, FR-013         | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-image-failure       | T109  | FR-013, FR-014                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-external-boot       | T058  | FR-013, QR-002                 | OPEN   | Not performed / — / — / —           |
-| [ ]  | native-firefox-desktop-horror-boundary     | T137  | FR-010, SC-008                 | OPEN   | Not performed / — / — / —           |
+| Done | Gate / procedure                           | Owner | Requirements                   | Status | Actual / evidence / reviewer / date                                                         |
+| ---- | ------------------------------------------ | ----- | ------------------------------ | ------ | ------------------------------------------------------------------------------------------- |
+| [ ]  | native-firefox-desktop-entry               | T058  | FR-001, FR-002, QR-001, QR-002 | OPEN   | Partial native review; full matrix OPEN / [US1](us1.md) / implementation agent / 2026-10-06 |
+| [ ]  | native-firefox-desktop-events              | T058  | FR-003, FR-004, FR-006         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-encounters          | T078  | FR-003, FR-004                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-relics              | T093  | FR-005, FR-006                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-item-actions        | T093  | FR-005, FR-014                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-progression         | T058  | FR-004                         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-reset               | T093  | FR-004, FR-005, FR-012         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-menu-copy           | T058  | FR-001, FR-002, FR-015         | OPEN   | Partial native review; full matrix OPEN / [US1](us1.md) / implementation agent / 2026-10-06 |
+| [ ]  | native-firefox-desktop-keyboard-focus      | T136  | FR-014, QR-001, QR-002         | OPEN   | Partial native review; full matrix OPEN / [US1](us1.md) / implementation agent / 2026-10-06 |
+| [ ]  | native-firefox-desktop-touch               | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-text-reflow         | T136  | FR-014, QR-001, QR-002         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-contrast            | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-motion-audio        | T136  | QR-001, QR-002                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-local-continue      | T127  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-settled-interrupted | T127  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-character-exchange  | T126  | FR-012, FR-013, QR-003         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-storage-recovery    | T127  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-hostile-import      | T126  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-clipboard-conflict  | T127  | FR-013, QR-003                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-history             | T126  | FR-006, FR-012, FR-013         | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-image-failure       | T109  | FR-013, FR-014                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-external-boot       | T058  | FR-013, QR-002                 | OPEN   | Not performed / — / — / —                                                                   |
+| [ ]  | native-firefox-desktop-horror-boundary     | T137  | FR-010, SC-008                 | OPEN   | Not performed / — / — / —                                                                   |
 
 ## Native Safari
 

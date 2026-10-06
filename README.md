@@ -1,15 +1,15 @@
-# Dungeon Crawler On Demand!
+# The Bell Beneath Brine
 
-Quickly and easily access a thrilling dungeon-crawling experience at any time. With a simple click of a button, players can enter a fully-realized, randomly generated dungeon filled with monsters and diablo inspired equipment looting system!
+Descend beneath Veyr Quay into the Drowned Observatory. As a sounding keeper, chart impossible chambers, face listening presences, and recover relics that outlast each descent. This original coastal cosmic-horror setting preserves the crawler’s existing combat, loot, and progression rules.
 <br><br><a href='https://ko-fi.com/W7W4I2XU6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=8F4LBS6QB4PVC)
 
 ## Gameplay Mechanics
 
 - Roguelite gameplay where the progress is reset when the player dies, but equipment is carried over.
-- Players navigate through the dungeon by climbing the floors that features randomized events.
-- Players can upgrade their stats upon level up, choosing 3 possible upgrades and 2 reroll chances per level.
-- Players has 6 slots of equipment that they can equip.
+- Explore randomized chambers and pass Threshold Keepers to reach deeper descents.
+- Each Attunement increase offers three stat choices and two rerolls.
+- Equip up to six recovered relics.
 - There are 6 equipment rarities which are Common, Uncommon, Rare, Epic, Legendary, and Heirloom.
 
 ## In-game Stats
@@ -73,12 +73,19 @@ npm audit --audit-level=high
 npm run validate:evidence
 ```
 
-Phase 1 and the Phase 2A–2G foundations are implemented. The unit suite passes
-2,365 tests, including 1,118 candidate gameplay replays against the frozen rules.
-The integration/browser matrix passes 171 checks across Chromium, Firefox and
-WebKit. Repository-wide lint and formatting pass. [Foundation results](validation/cosmic-horror/foundation.md)
-record guarded startup, completed-transition saves, retained legacy source bytes
-and visible persistence failures. Phase 3A narrative work is next.
+Phase 1, Phase 2A–2G foundations, and Phase 3A–3B narrative integration are implemented.
+The unit suite passes 2,382 tests, including 1,118 candidate gameplay replays against
+frozen rules. The integration/browser matrix passes 321 checks across Chromium,
+Firefox, and WebKit. Lint, formatting, and the dependency audit pass locally.
+[Foundation results](validation/cosmic-horror/foundation.md) record guarded startup
+and completed-transition saves. [Narrative integration results](validation/cosmic-horror/phase-3b.md)
+record catalog-driven entry, event choices, combat/rewards, relic labels, menu, help,
+and credits, plus inert rendering of player names. These are local automated results;
+no remote CI run or native/manual acceptance is claimed.
+
+Continue with Phase 3C for semantic navigation, modal focus, reflow, reduced motion,
+and US1 acceptance. Legacy history remains preserved with neutral notices until
+Phase 7A supplies template-aware migration and recovery controls.
 
 Art and release-evidence validators intentionally remain incomplete pending
 original-art generation, reviews and qualification. [Phase 2F results](validation/cosmic-horror/phase-2f.md)
@@ -99,6 +106,11 @@ art qualification, matched performance and GitHub required-check enforcement
 remain OPEN/BLOCKED; automated setup success does not substitute for them.
 
 ## Credits
+
+The original setting and narrative are implemented. Generated replacement art is
+still pending; the shipped original sprites retain their author credit below.
+Howler 2.2.3 remains the audio library. Font/library license notices remain in their
+distributed files.
 
 - [Aekashics](https://aekashics.itch.io/) - Monster Sprites
 - [Leohpaz](https://leohpaz.itch.io/) - RPG SFX
