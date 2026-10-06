@@ -22,6 +22,27 @@ Quickly and easily access a thrilling dungeon-crawling experience at any time. W
 - C.RATE (Crit Rate) - Chance to land a critical hit.
 - C.DMG (Crit Damage) - Amount of bonus damage dealt upon landing a critical hit.
 
+## Development
+
+The [project constitution](.specify/memory/constitution.md) defines the development
+rules: test-driven development, modular JavaScript, clear function comments, safe
+data handling, accessible browser behavior, and reproducible validation.
+
+For every new or changed behavior, write and run a failing test, implement the
+smallest passing change, then refactor with tests green. Document each new or
+modified function with a concise purpose comment, using JSDoc for public interfaces
+and non-obvious contracts. Update comments whenever the corresponding code changes.
+
+The current app uses `index.html`, `assets/js/`, and `assets/css/`. At constitution
+adoption, `package.json` has no test, lint, format-check, or build scripts and there
+is no feature plan. The first behavior-changing implementation must establish and
+document automated checks before changing application behavior. A build command
+is required only if a build pipeline is introduced.
+
+Read the current `specs/<feature>/plan.md` when available for supported browsers,
+runtime versions, commands, and validation requirements. Record actual test results
+and browser checks separately; unavailable required checks remain blocked.
+
 ## Credits
 
 - [Aekashics](https://aekashics.itch.io/) - Monster Sprites
