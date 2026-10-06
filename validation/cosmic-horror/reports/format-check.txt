@@ -1,0 +1,24 @@
+Checking formatting...
+npm notice run malevolent-crawler@0.0.0 format:check
+npm notice run prettier --check .
+[warn] AGENTS.md
+[warn] assets/css/style.css
+[warn] assets/js/combat.js
+[warn] assets/js/dungeon.js
+[warn] assets/js/elements.js
+[warn] assets/js/enemy.js
+[warn] assets/js/equipment.js
+[warn] assets/js/main.js
+[warn] assets/js/music.js
+[warn] assets/js/player.js
+[warn] assets/js/utility.js
+[warn] index.html
+[warn] specs/001-cosmic-horror-refactor/art-inventory.md
+[warn] specs/001-cosmic-horror-refactor/checklists/requirements.md
+[warn] specs/001-cosmic-horror-refactor/contracts/content-and-art.md
+[warn] specs/001-cosmic-horror-refactor/contracts/persistence.md
+[warn] specs/001-cosmic-horror-refactor/contracts/player-experience.md
+[warn] specs/001-cosmic-horror-refactor/data-model.md
+[warn] specs/001-cosmic-horror-refactor/plan.md
+[warn] specs/001-cosmic-horror-refactor/spec.md
+[warn] Code style issues found in 20 files. Run Prettier with --write to fix.

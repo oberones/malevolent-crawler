@@ -1,0 +1,894 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oberon/.nvm/versions/node/v24.21.0/bin/node",
+      "/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/.bin/playwright",
+      "test",
+      "tests/browser"
+    ],
+    "configFile": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/playwright.config.mjs",
+    "rootDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "requiredViewports": [
+        {
+          "width": 360,
+          "height": 800
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+      "performanceStage": null,
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 6,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "gracefulShutdown": {
+        "signal": "SIGTERM",
+        "timeout": 5000
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "browser/setup-smoke.spec.mjs",
+      "file": "browser/setup-smoke.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "360x800",
+          "file": "browser/setup-smoke.spec.mjs",
+          "line": 11,
+          "column": 8,
+          "specs": [
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1564,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.995Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjgwMH0sImRwciI6MSwidG91Y2hQb2ludHMiOjAsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIEhlYWRsZXNzQ2hyb21lLzE1My4wLjgwMTAuMTIgU2FmYXJpLzUzNy4zNiJ9"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-1d4d78c998e39d16bd08",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 314,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.997Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-e3e218db7ef9ac532dcd",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2441,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:52.865Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjgwMH0sImRwciI6MSwidG91Y2hQb2ludHMiOjAsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwLjE1OyBydjoxNTUuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNTUuMCJ9"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-f4ccc92f019171c98ac4",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1188,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:52.865Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-79da5b7018b93a4235a5",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4234,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:55.131Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjgwMH0sImRwciI6MSwidG91Y2hQb2ludHMiOjAsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8yNi42IFNhZmFyaS82MDUuMS4xNSJ9"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-49cb573626d62c32f553",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 598,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:56.627Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-43cc8739d919759d210d",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "768x1024",
+          "file": "browser/setup-smoke.spec.mjs",
+          "line": 11,
+          "column": 8,
+          "specs": [
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1609,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.971Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NzY4LCJoZWlnaHQiOjEwMjR9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBIZWFkbGVzc0Nocm9tZS8xNTMuMC44MDEwLjEyIFNhZmFyaS81MzcuMzYifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-d14d74aa5421699ab4a3",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 312,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.970Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-29a6d753e9474bad1935",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2400,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:52.863Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NzY4LCJoZWlnaHQiOjEwMjR9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMC4xNTsgcnY6MTU1LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTU1LjAifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-125084de621644095ef5",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1104,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:54.188Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-1f29034f7d9cee9f33e5",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1936,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:56.871Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NzY4LCJoZWlnaHQiOjEwMjR9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMjYuNiBTYWZhcmkvNjA1LjEuMTUifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-3310636db8bd7aa83873",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 583,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:57.012Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-a0534d114a36ce827fa3",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "1440x900",
+          "file": "browser/setup-smoke.spec.mjs",
+          "line": 11,
+          "column": 8,
+          "specs": [
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 1576,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.991Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MTQ0MCwiaGVpZ2h0Ijo5MDB9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBIZWFkbGVzc0Nocm9tZS8xNTMuMC44MDEwLjEyIFNhZmFyaS81MzcuMzYifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-f21a2b8c70c1427551f1",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 323,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:51.982Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-3a05abb928da5408f01d",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:54.181Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MTQ0MCwiaGVpZ2h0Ijo5MDB9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMC4xNTsgcnY6MTU1LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTU1LjAifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-d18f19c25065e10c2927",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1160,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:54.243Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-67d3f724ebe15ceb4cd0",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "loads character creation and a native module",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1798,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:57.334Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "environment",
+                          "contentType": "application/json",
+                          "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MTQ0MCwiaGVpZ2h0Ijo5MDB9LCJkcHIiOjEsInRvdWNoUG9pbnRzIjowLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMjYuNiBTYWZhcmkvNjA1LjEuMTUifQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-f7ac39438708eb55adc6",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "supports the declared input fixture",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 519,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T04:34:57.859Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f49d407a1496f6909a91-2d532e4cf16685531a75",
+              "file": "browser/setup-smoke.spec.mjs",
+              "line": 49,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T04:34:51.324Z",
+    "duration": 8648.129,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

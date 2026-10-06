@@ -1,0 +1,30 @@
+[
+  {
+    "command": "npm run art:prepare",
+    "exitCode": 1,
+    "status": "OPEN",
+    "reason": "Later-phase implementation is absent; not a passing or skipped check.",
+    "output": "npm notice run malevolent-crawler@0.0.0 art:prepare\nnpm notice run node scripts/prepare-art.mjs\nnode:internal/modules/cjs/loader:1568\n  throw err;\n  ^\n\nError: Cannot find module '/Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/prepare-art.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)\n    at Module._load (node:internal/modules/cjs/loader:1341:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.21.0\n"
+  },
+  {
+    "command": "npm run validate:art",
+    "exitCode": 1,
+    "status": "OPEN",
+    "reason": "Later-phase implementation is absent; not a passing or skipped check.",
+    "output": "npm notice run malevolent-crawler@0.0.0 validate:art\nnpm notice run node scripts/validate-art.mjs\nnode:internal/modules/cjs/loader:1568\n  throw err;\n  ^\n\nError: Cannot find module '/Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/validate-art.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)\n    at Module._load (node:internal/modules/cjs/loader:1341:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.21.0\n"
+  },
+  {
+    "command": "npm run validate:evidence",
+    "exitCode": 1,
+    "status": "OPEN",
+    "reason": "Later-phase implementation is absent; not a passing or skipped check.",
+    "output": "npm notice run malevolent-crawler@0.0.0 validate:evidence\nnpm notice run node scripts/validate-evidence.mjs\nnode:internal/modules/cjs/loader:1568\n  throw err;\n  ^\n\nError: Cannot find module '/Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/validate-evidence.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)\n    at Module._load (node:internal/modules/cjs/loader:1341:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.21.0\n"
+  },
+  {
+    "command": "npm run test:performance",
+    "exitCode": 1,
+    "status": "OPEN",
+    "reason": "Later-phase implementation is absent; not a passing or skipped check.",
+    "output": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.\n\nnpm notice run malevolent-crawler@0.0.0 test:performance\nnpm notice run playwright test tests/performance --project=chromium --workers=1\n"
+  }
+]

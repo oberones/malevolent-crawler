@@ -1,0 +1,16 @@
+[
+  {
+    "command": "npm run lint",
+    "exitCode": 1,
+    "status": "FAIL",
+    "reason": "Inventoried pre-existing debt, owner T046",
+    "evidence": "reports/lint.txt"
+  },
+  {
+    "command": "npm run format:check",
+    "exitCode": 1,
+    "status": "FAIL",
+    "reason": "Inventoried pre-existing debt, owner T046",
+    "evidence": "reports/format-check.txt"
+  }
+]

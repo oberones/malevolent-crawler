@@ -1,0 +1,73 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main, master, 001-cosmic-horror-refactor]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: ${{ matrix.check }}
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble@sha256:eff16c30e6f3f4af0a03fa4b706120d5e9b0891c344a27d64559aff5900a4a27
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - check: unit
+            command: npm run test:unit
+          - check: integration
+            command: npm run test:integration
+          - check: browser
+            command: npm run test:browser
+          - check: lint
+            command: npm run lint
+          - check: format
+            command: npm run format:check
+          - check: art
+            command: npm run validate:art
+          - check: audit
+            command: npm audit --audit-level=high
+          - check: evidence
+            command: npm run validate:evidence
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.21.0
+          cache: npm
+      - name: Select npm and record runtime
+        run: |
+          npm install --global npm@12.2.0 --ignore-scripts
+          mkdir -p ci-reports
+          { node --version; npm --version; cat /etc/os-release; uname -m; } > ci-reports/environment.txt
+      - name: Clean install without lifecycle scripts
+        run: npm ci 2>&1 | tee ci-reports/install.txt
+      - name: Install matching engines
+        if: matrix.check == 'integration' || matrix.check == 'browser'
+        run: npx playwright install --with-deps chromium firefox webkit 2>&1 | tee ci-reports/engines.txt
+      - name: Run required check
+        run: ${{ matrix.command }} 2>&1 | tee ci-reports/${{ matrix.check }}.txt
+      - name: Retain reports, including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ matrix.check }}
+          path: |
+            ci-reports/
+            playwright-report/
+            test-results/
+          if-no-files-found: warn
+          retention-days: 14

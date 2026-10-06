@@ -2,7 +2,7 @@
 
 **Input**: `/Users/oberon/Projects/coding/javascript/malevolent-crawler/specs/001-cosmic-horror-refactor/`
 **Prerequisites**: [plan.md](plan.md), [spec.md](spec.md), [research.md](research.md), [data-model.md](data-model.md), [art-inventory.md](art-inventory.md), [quickstart.md](quickstart.md), [validation-plan.md](validation-plan.md), all three files in `contracts/`, and `.specify/memory/constitution.md`.
-**Status**: Implementation backlog; every task is initially uncompleted. This document does not certify runtime, art, or manual acceptance.
+**Status**: Phase 1 setup (T001–T008) completed; [execution evidence](../../validation/cosmic-horror/phase-1.md). Phases 2–8 remain uncompleted. Setup checks do not certify gameplay, art, native/manual acceptance, or release readiness.
 **Backlog**: 139 tasks (T001–T139), eight phases, 24 lettered work packages, and 46 tasks eligible for parallel execution after their prerequisites.
 
 ## Execution contract
@@ -19,18 +19,18 @@ Paths below are relative to repository root `/Users/oberon/Projects/coding/javas
 
 Each numbered phase is a story or shared deliverable. Lettered work packages are bounded stopping points for separate implementation sessions. Finish one package, record evidence, and hand it off without starting the next. Story phases can be completed independently of other stories except for the explicit collection-wide joins below; sharing prerequisites is not the same as requiring all stories at once.
 
-| Phase | Deliverable | Entry gate | Independently checkable exit |
-| --- | --- | --- | --- |
-| 1 | Tooling and evidence scaffolding | Existing design | Pinned environment/configuration and populated check inventory; execution blockers recorded |
-| 2A–2B | Immutable baseline and deterministic oracle | Phase 1 | Known legacy outcomes, source/asset hashes, saved fixtures, glyph contexts |
-| 2C–2F | Shared catalogs, boundaries, art/performance tools | 2A–2B | Each service/tool has its own red/green suite; matched baseline performance captured |
-| 2G | Guarded application bridge | 2C–2F | Fresh/resting boot and completed-transition saves work through one explicit service boundary |
-| 3 / US1 | Coherent narrative MVP | Phase 2 | Every event/outcome and descriptive surface uses the shared setting; full art collection unnecessary |
-| 4 / US2 | Encounter identity and creature art | Phase 2 | All 51 identities/52 active variants plus unused sprite verified; loot work unnecessary |
-| 5 / US3 | Relic art and inventory journeys | Phase 2 | All 14 categories × six rarities and item actions verified; creature art unnecessary |
-| 6 / US4 | Remaining symbols, favicons, collection qualification | Phase 2 for 6A/6B; T082 for remaining-symbol generation; T088 for 6C; US2/US3 for 6D | All 55 original raster/icon files and 24 symbol roles fit and have provenance/review |
-| 7 / US5 | Existing-player continuation/import/recovery | Phase 2; US1 3A for themed history | Old/new save and export cases preserve expected values, distinguish resume/reset, and recover safely |
-| 8 | Cross-story release qualification | Phases 3–7 | Automated, performance, native/manual, art, and merge-enforcement gates all satisfied |
+| Phase   | Deliverable                                           | Entry gate                                                                           | Independently checkable exit                                                                         |
+| ------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| 1       | Tooling and evidence scaffolding                      | Existing design                                                                      | Pinned environment/configuration and populated check inventory; execution blockers recorded          |
+| 2A–2B   | Immutable baseline and deterministic oracle           | Phase 1                                                                              | Known legacy outcomes, source/asset hashes, saved fixtures, glyph contexts                           |
+| 2C–2F   | Shared catalogs, boundaries, art/performance tools    | 2A–2B                                                                                | Each service/tool has its own red/green suite; matched baseline performance captured                 |
+| 2G      | Guarded application bridge                            | 2C–2F                                                                                | Fresh/resting boot and completed-transition saves work through one explicit service boundary         |
+| 3 / US1 | Coherent narrative MVP                                | Phase 2                                                                              | Every event/outcome and descriptive surface uses the shared setting; full art collection unnecessary |
+| 4 / US2 | Encounter identity and creature art                   | Phase 2                                                                              | All 51 identities/52 active variants plus unused sprite verified; loot work unnecessary              |
+| 5 / US3 | Relic art and inventory journeys                      | Phase 2                                                                              | All 14 categories × six rarities and item actions verified; creature art unnecessary                 |
+| 6 / US4 | Remaining symbols, favicons, collection qualification | Phase 2 for 6A/6B; T082 for remaining-symbol generation; T088 for 6C; US2/US3 for 6D | All 55 original raster/icon files and 24 symbol roles fit and have provenance/review                 |
+| 7 / US5 | Existing-player continuation/import/recovery          | Phase 2; US1 3A for themed history                                                   | Old/new save and export cases preserve expected values, distinguish resume/reset, and recover safely |
+| 8       | Cross-story release qualification                     | Phases 3–7                                                                           | Automated, performance, native/manual, art, and merge-enforcement gates all satisfied                |
 
 Phase numbers preserve spec priority, not false dependencies. US5 is mandatory before release. An early narrative MVP is an internal review increment, not acceptance of the full requested refactor. Missing required browser/device access can leave qualification BLOCKED while unrelated implementation packages proceed; no dependent release gate is waived.
 
@@ -39,14 +39,14 @@ Phase numbers preserve spec priority, not false dependencies. US5 is mandatory b
 **Goal**: Establish the plan's commands and evidence ownership before application behavior changes.
 **Independent test**: Verify selected runtime and clean installation, load the static app, and run nonempty foundation suites as they are introduced. Future art/evidence checks remain OPEN until their inputs exist.
 
-- [ ] T001 Record actual Node/npm, OS/hardware, browser builds/revisions, physical-device availability, DPR, and input methods in `validation/cosmic-horror/environment.json`; reconcile drift with `specs/001-cosmic-horror-refactor/validation-plan.md` before baseline capture, keeping unavailable required targets BLOCKED.
-- [ ] T002 Configure `.nvmrc`, `.npmrc`, and `package.json` for planned Node 24.21.0/npm 12.2.0 and the package scripts in `specs/001-cosmic-horror-refactor/quickstart.md`; verify availability using the normal runtime manager without silently altering global tooling.
-- [ ] T003 Review exact planned development dependencies, native/transitive licenses, maintenance, lifecycle scripts, advisories, and zero runtime payload in `validation/cosmic-horror/dependencies.md`; install the reviewed pins, retain Howler 2.2.3, synchronize `package-lock.json` with `package.json`, and verify `npm ci`.
-- [ ] T004 Configure `playwright.config.mjs` with chromium/firefox/webkit projects, managed static-server teardown, required viewport/input fixtures, and isolated performance settings; install matching engines and record actual versions in `validation/cosmic-horror/environment.json`.
-- [ ] T005 Configure explicit classic-browser and module/Node scopes in `eslint.config.mjs` and owned-file formatting in `.prettierrc.json`/`.prettierignore`; exclude the plan's vendor/tool/generated-evidence paths, inventory existing findings in `validation/cosmic-horror/legacy-debt.md`, and avoid blanket rule suppression or uncharacterized behavior changes.
-- [ ] T006 Configure `.github/workflows/validate.yml` for the selected Node/npm, clean install, pinned Playwright noble image digest, engine installation, unit/integration/browser/lint/format/art/audit jobs and report upload on failure; record required-check names and unresolved enforcement in `validation/cosmic-horror/ci.md`, leaving unfinished full-collection gates visibly failing/OPEN rather than skipping them to claim success.
-- [ ] T007 Create `validation/cosmic-horror/manual.md`, `validation/cosmic-horror/gates.json`, and `validation/cosmic-horror/tdd.md` with requirement/task ownership, fixture/environment, commands or steps, expected/actual results, evidence path, reviewer/date, and PASS/FAIL/BLOCKED/OPEN/N/A; seed every required native journey and art/context obligation as unperformed.
-- [ ] T008 Update the setup sections of `README.md` and `specs/001-cosmic-horror-refactor/quickstart.md` with verified command availability, supported runtime, static HTTP/module MIME requirements, and build N/A; distinguish configured commands from checks that await later implementations.
+- [x] T001 Record actual Node/npm, OS/hardware, browser builds/revisions, physical-device availability, DPR, and input methods in `validation/cosmic-horror/environment.json`; reconcile drift with `specs/001-cosmic-horror-refactor/validation-plan.md` before baseline capture, keeping unavailable required targets BLOCKED.
+- [x] T002 Configure `.nvmrc`, `.npmrc`, and `package.json` for planned Node 24.21.0/npm 12.2.0 and the package scripts in `specs/001-cosmic-horror-refactor/quickstart.md`; verify availability using the normal runtime manager without silently altering global tooling.
+- [x] T003 Review exact planned development dependencies, native/transitive licenses, maintenance, lifecycle scripts, advisories, and zero runtime payload in `validation/cosmic-horror/dependencies.md`; install the reviewed pins, retain Howler 2.2.3, synchronize `package-lock.json` with `package.json`, and verify `npm ci`.
+- [x] T004 Configure `playwright.config.mjs` with chromium/firefox/webkit projects, managed static-server teardown, required viewport/input fixtures, and isolated performance settings; install matching engines and record actual versions in `validation/cosmic-horror/environment.json`.
+- [x] T005 Configure explicit classic-browser and module/Node scopes in `eslint.config.mjs` and owned-file formatting in `.prettierrc.json`/`.prettierignore`; exclude the plan's vendor/tool/generated-evidence paths, inventory existing findings in `validation/cosmic-horror/legacy-debt.md`, and avoid blanket rule suppression or uncharacterized behavior changes.
+- [x] T006 Configure `.github/workflows/validate.yml` for the selected Node/npm, clean install, pinned Playwright noble image digest, engine installation, unit/integration/browser/lint/format/art/audit jobs and report upload on failure; record required-check names and unresolved enforcement in `validation/cosmic-horror/ci.md`, leaving unfinished full-collection gates visibly failing/OPEN rather than skipping them to claim success.
+- [x] T007 Create `validation/cosmic-horror/manual.md`, `validation/cosmic-horror/gates.json`, and `validation/cosmic-horror/tdd.md` with requirement/task ownership, fixture/environment, commands or steps, expected/actual results, evidence path, reviewer/date, and PASS/FAIL/BLOCKED/OPEN/N/A; seed every required native journey and art/context obligation as unperformed.
+- [x] T008 Update the setup sections of `README.md` and `specs/001-cosmic-horror-refactor/quickstart.md` with verified command availability, supported runtime, static HTTP/module MIME requirements, and build N/A; distinguish configured commands from checks that await later implementations.
 
 **Checkpoint**: Configuration and dependency findings are reviewable. Do not label empty suites, unavailable engines, final art, or branch protection as passed. Phase 2 supplies behavioral tests before application edits.
 
@@ -358,30 +358,30 @@ The diagram summarizes prerequisites; each package's explicit entry condition is
 
 ### Parallel execution examples per story
 
-| Story | Ready parallel work | Required sequential join |
-| --- | --- | --- |
-| US1 | T047 + T048; later T054 + T055 | Catalog before view integration; shared HTML/CSS/classic edits serialized; T058 closes evidence |
-| US2 | T059 + T060; after T063, creature batches T064–T075 own disjoint outputs | Pilot first; T076 merges batch records after all creature files pass |
-| US3 | T079 + T080; after T082, T083–T086 own disjoint category icons | Accepted small-icon pilot before remaining icons; T087 -> T088; item integration after its red tests; T092 merges once |
-| US4 | T094 + T098; after T082, T095–T097; T099 + T100 | Icon pilot before themed-symbol batches; T101 before consumers; 6D joins US2/US3 and shared manifest sequentially |
-| US5 | T110 + T111; T114 + T115; T118 + T119; T122 + T123 | Each green depends on its red; snapshot/main/combat edits and final recovery acceptance serialized |
+| Story | Ready parallel work                                                      | Required sequential join                                                                                               |
+| ----- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| US1   | T047 + T048; later T054 + T055                                           | Catalog before view integration; shared HTML/CSS/classic edits serialized; T058 closes evidence                        |
+| US2   | T059 + T060; after T063, creature batches T064–T075 own disjoint outputs | Pilot first; T076 merges batch records after all creature files pass                                                   |
+| US3   | T079 + T080; after T082, T083–T086 own disjoint category icons           | Accepted small-icon pilot before remaining icons; T087 -> T088; item integration after its red tests; T092 merges once |
+| US4   | T094 + T098; after T082, T095–T097; T099 + T100                          | Icon pilot before themed-symbol batches; T101 before consumers; 6D joins US2/US3 and shared manifest sequentially      |
+| US5   | T110 + T111; T114 + T115; T118 + T119; T122 + T123                       | Each green depends on its red; snapshot/main/combat edits and final recovery acceptance serialized                     |
 
 These are execution opportunities, not a requirement to use multiple agents. One implementer can complete the same packages sequentially.
 
 ## Requirement ownership
 
-| Obligations | Primary task owners / evidence |
-| --- | --- |
-| FR-001/002/006/015; SC-001 | T020–T024, US1, T111/T113, T131, T137; setting guide, narrative suites, US1/history review |
-| FR-003/004; SC-003/004 | T015/T017, US2, T118–T121; full pools/RNG/numerics and encounter evidence |
-| FR-005; SC-003/004 | T016, US3; 84-fixture matrix, six slots, caps/rarity boundaries, duplicates/sales/retention |
-| FR-007/008/009/011; SC-002/003/007 | T013, T018/T019, T035–T037, US2/US3 generation, US4; per-file dimensions/provenance/contexts and individual reviews |
-| FR-010; SC-008 | T020, every generation batch, T058, T107/T108, T137; complete narrative and art boundary review |
-| FR-012/013; QR-003; SC-005 | T014, 2D/2G, US5, US4 image-failure work; safe completed snapshots, raw recovery, no replay, all import/reset cases |
-| FR-014; QR-001/002; SC-006 | T019, US1/US3/US4/US5 scoped UI tests, T135/T136/T137; original layout, accessible actions, manual native checks |
-| QR-004; SC-007 | 2F, T133/T134; matched raw baseline/candidate timing and usable slow-image controls |
-| QR-005; all SC outcomes | T007, T038/T039, all story checkpoints, Phase 8; separate automated/manual evidence index and final gate |
-| Constitution I/III/VI | All red/green pairs and comment reviews, Phase 1, T046, T132, T138, T139; reproducible tools, clean install, CI and truthful blockers |
+| Obligations                        | Primary task owners / evidence                                                                                                        |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| FR-001/002/006/015; SC-001         | T020–T024, US1, T111/T113, T131, T137; setting guide, narrative suites, US1/history review                                            |
+| FR-003/004; SC-003/004             | T015/T017, US2, T118–T121; full pools/RNG/numerics and encounter evidence                                                             |
+| FR-005; SC-003/004                 | T016, US3; 84-fixture matrix, six slots, caps/rarity boundaries, duplicates/sales/retention                                           |
+| FR-007/008/009/011; SC-002/003/007 | T013, T018/T019, T035–T037, US2/US3 generation, US4; per-file dimensions/provenance/contexts and individual reviews                   |
+| FR-010; SC-008                     | T020, every generation batch, T058, T107/T108, T137; complete narrative and art boundary review                                       |
+| FR-012/013; QR-003; SC-005         | T014, 2D/2G, US5, US4 image-failure work; safe completed snapshots, raw recovery, no replay, all import/reset cases                   |
+| FR-014; QR-001/002; SC-006         | T019, US1/US3/US4/US5 scoped UI tests, T135/T136/T137; original layout, accessible actions, manual native checks                      |
+| QR-004; SC-007                     | 2F, T133/T134; matched raw baseline/candidate timing and usable slow-image controls                                                   |
+| QR-005; all SC outcomes            | T007, T038/T039, all story checkpoints, Phase 8; separate automated/manual evidence index and final gate                              |
+| Constitution I/III/VI              | All red/green pairs and comment reviews, Phase 1, T046, T132, T138, T139; reproducible tools, clean install, CI and truthful blockers |
 
 ## Implementation strategy
 

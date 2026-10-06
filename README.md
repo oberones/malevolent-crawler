@@ -33,15 +33,61 @@ smallest passing change, then refactor with tests green. Document each new or
 modified function with a concise purpose comment, using JSDoc for public interfaces
 and non-obvious contracts. Update comments whenever the corresponding code changes.
 
-The current app uses `index.html`, `assets/js/`, and `assets/css/`. At constitution
-adoption, `package.json` has no test, lint, format-check, or build scripts and there
-is no feature plan. The first behavior-changing implementation must establish and
-document automated checks before changing application behavior. A build command
-is required only if a build pipeline is introduced.
+The app remains static HTML/CSS/JavaScript, with native ES modules for new code.
+Use the active [implementation plan](specs/001-cosmic-horror-refactor/plan.md) and
+[quickstart](specs/001-cosmic-horror-refactor/quickstart.md).
 
-Read the current `specs/<feature>/plan.md` when available for supported browsers,
-runtime versions, commands, and validation requirements. Record actual test results
-and browser checks separately; unavailable required checks remain blocked.
+### Setup
+
+Use Node **24.21.0** and npm **12.2.0**. With nvm:
+
+```sh
+nvm install
+nvm use
+# Only if this selected nvm version has a different npm:
+npm install --global npm@12.2.0 --ignore-scripts
+node --version
+npm --version
+npm ci
+npx playwright install chromium firefox webkit
+npm run dev
+```
+
+Open `http://127.0.0.1:4173`. Serve `.mjs` as JavaScript over HTTP(S); opening
+`index.html` through `file://` is unsupported for module loading. The dev server
+binds only to loopback. There is no production build: **build N/A**.
+The project disables dependency lifecycle scripts; Sharp and browser tooling were
+verified without enabling arbitrary install hooks. Do not change the default nvm
+alias or system Node to select this project runtime.
+
+### Checks and current limits
+
+```sh
+npm run test:unit
+npm run test:integration
+npm run test:browser
+npm run lint
+npm run format:check
+npm run validate:art
+npm audit --audit-level=high
+npm run validate:evidence
+```
+
+Phase 1 verified 5 tooling unit tests, 6 HTTP/MIME integration cases and 18 browser
+setup/input cases across Chromium, Firefox and WebKit at the three planned
+viewports. These tests establish setup only. Gameplay characterization and
+story suites start in Phase 2. Lint/format commands are configured and report
+[inventoried legacy debt](validation/cosmic-horror/legacy-debt.md); they are not
+currently passing repository-wide. Art preparation/validation, evidence validation
+and performance scripts are reserved for their later implementation tasks and
+currently exit nonzero because those tools/suites do not exist.
+
+See the [Phase 1 results](validation/cosmic-horror/phase-1.md),
+[environment](validation/cosmic-horror/environment.json),
+[manual workbook](validation/cosmic-horror/manual.md), and
+[CI/enforcement record](validation/cosmic-horror/ci.md). Native/manual acceptance,
+art qualification, matched performance and GitHub required-check enforcement
+remain OPEN/BLOCKED; automated setup success does not substitute for them.
 
 ## Credits
 
