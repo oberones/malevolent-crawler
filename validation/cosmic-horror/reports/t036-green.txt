@@ -1,0 +1,13 @@
+✔ preparation preserves proportions with transparent padding and records exact odd dimensions (20.997167ms)
+✔ preparation refuses unsafe destinations and preserves immutable bytes (4.254083ms)
+✔ PNG inspection rejects wrong-size, opaque, blank, RGB and corrupt images (2.503125ms)
+✔ ICO requires exactly one matching 127 by 128 PNG entry (1.643042ms)
+✔ manifest accepts complete fixture and rejects missing mappings, provenance and evidence (12.47775ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 114.614875

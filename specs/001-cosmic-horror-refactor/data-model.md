@@ -10,30 +10,30 @@ An equipment instance has no legacy UUID. Preserve inventory/equipped sequence a
 
 ## SettingBrief
 
-| Field | Type / constraint |
-| --- | --- |
-| `id`, `contentVersion` | Stable setting ID; integer content version 1 |
-| `title`, `premise`, `playerRole`, `location` | Plain text establishing one original coastal settlement/submerged-ruins setting |
-| `terms` | Canonical token → visible label/description; neutral HP/Inventory/Equip and six rarity names retained |
-| `motifs`, `palette`, `namingRules` | Shared prompt and narrative direction, category cues, readability constraints |
-| `horrorBoundary` | Fixed accepted rule: grotesque mutation/exposed anatomy/restrained blood permitted; explicit mutilation and graphic gore excluded |
-| `copySurfaces` | Title/browser title, introduction, events, combat, upgrades, items, resets, menus, help, description, credits |
+| Field                                        | Type / constraint                                                                                                                 |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `id`, `contentVersion`                       | Stable setting ID; integer content version 1                                                                                      |
+| `title`, `premise`, `playerRole`, `location` | Plain text establishing one original coastal settlement/submerged-ruins setting                                                   |
+| `terms`                                      | Canonical token → visible label/description; neutral HP/Inventory/Equip and six rarity names retained                             |
+| `motifs`, `palette`, `namingRules`           | Shared prompt and narrative direction, category cues, readability constraints                                                     |
+| `horrorBoundary`                             | Fixed accepted rule: grotesque mutation/exposed anatomy/restrained blood permitted; explicit mutilation and graphic gore excluded |
+| `copySurfaces`                               | Title/browser title, introduction, events, combat, upgrades, items, resets, menus, help, description, credits                     |
 
 The authored `art/cosmic-horror/setting-guide.md` and runtime content exports must agree. This is an implementation deliverable using the settled creative direction, not a new product decision gate.
 
 ## EncounterIdentity and ArtVariant
 
-| Field | Type / constraint |
-| --- | --- |
-| `id` | Unique stable encounter catalog ID; exactly 51 mapped active identities |
-| `legacyName` | Exact internal name used by current rule code |
-| `displayName`, `description` | New original identity and accessible description, plain text |
-| `roles` | Existing ordinary/guardian/special-boss/chest-mimic/door-mimic eligibility |
-| `archetypes` | Existing Offensive/Defensive/Balanced/Quick/Lethal eligibility; no new combat types |
-| `variants` | One or two ArtVariant references, with unique legacy image key per variant |
-| `ArtVariant.id` | Stable variant ID, separate from creature ID |
-| `legacyImage` | Allowlisted `{name, type: '.png', size: '50%' or '70%'}` |
-| `assetId`, `path`, `width`, `height`, `alt` | Manifest reference, repository asset URL, exact recorded pixel size, plain text |
+| Field                                       | Type / constraint                                                                   |
+| ------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `id`                                        | Unique stable encounter catalog ID; exactly 51 mapped active identities             |
+| `legacyName`                                | Exact internal name used by current rule code                                       |
+| `displayName`, `description`                | New original identity and accessible description, plain text                        |
+| `roles`                                     | Existing ordinary/guardian/special-boss/chest-mimic/door-mimic eligibility          |
+| `archetypes`                                | Existing Offensive/Defensive/Balanced/Quick/Lethal eligibility; no new combat types |
+| `variants`                                  | One or two ArtVariant references, with unique legacy image key per variant          |
+| `ArtVariant.id`                             | Stable variant ID, separate from creature ID                                        |
+| `legacyImage`                               | Allowlisted `{name, type: '.png', size: '50%' or '70%'}`                            |
+| `assetId`, `path`, `width`, `height`, `alt` | Manifest reference, repository asset URL, exact recorded pixel size, plain text     |
 
 Skeleton Mage's two legacy image keys resolve independently. `spider_spirit.png` has an art identity/manifest row with `unusedButRequired: true` and no encounter-pool membership. Ordered pools and draw order stay in the existing rules; the catalog validates coverage without duplicating numerical rules. A saved identity/image mismatch is a recoverable validation error, not permission to randomly select another variant.
 
@@ -45,25 +45,25 @@ Skeleton Mage's two legacy image keys resolve independently. `spider_spirit.png`
 
 ## EquipmentInstance
 
-| Field | Validation / preservation |
-| --- | --- |
-| `category`, `attribute`, `type`, `rarity` | Catalog/rule allowlists with valid category/type/attribute relationship |
-| `lvl`, `tier` | Generated level 1–100, tier 1–10; supported older items without tier receive existing default 1 |
-| `value` | Finite nonnegative sale value; preserve generated numeric value |
-| `stats` | Array of unique single-key objects with finite values; allowed generated keys `hp`, `atk`, `def`, `atkSpd`, `vamp`, `critRate`, `critDmg`; preserve order and values |
+| Field                                     | Validation / preservation                                                                                                                                            |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `category`, `attribute`, `type`, `rarity` | Catalog/rule allowlists with valid category/type/attribute relationship                                                                                              |
+| `lvl`, `tier`                             | Generated level 1–100, tier 1–10; supported older items without tier receive existing default 1                                                                      |
+| `value`                                   | Finite nonnegative sale value; preserve generated numeric value                                                                                                      |
+| `stats`                                   | Array of unique single-key objects with finite values; allowed generated keys `hp`, `atk`, `def`, `atkSpd`, `vamp`, `critRate`, `critDmg`; preserve order and values |
 
 Decode inventory item strings individually for validation; canonical engine-facing representation remains `player.inventory.equipment: string[]` and `player.equipped: EquipmentInstance[]`. New metadata does not replace or reinterpret stat keys. Do not trust persisted `icon`, HTML, CSS classes, or image URLs. Derived presentation comes from the catalog.
 
 ## PlayerProgress
 
-| Field group | Existing fields and rules |
-| --- | --- |
-| Identity/progression | `name` (preserve player-authored string), `lvl`, `gold`, `playtime`, `kills`, `deaths`; finite domain-valid numbers, counters without new arbitrary gameplay maxima |
-| Current stats | `stats`: `hp`, `hpMax`, `atk`, `def`, `pen`, `atkSpd`, `vamp`, `critRate`, `critDmg`, optional derived `hpPercent`; historical `pen: null` is legitimate |
-| Stat inputs | `baseStats`, `equippedStats`, `bonusStats`; known fields as in baseline, including equipped `hpPct`, `atkPct`, `defPct`, `penPct`; preserve numeric inputs and formula order |
-| Experience | `expCurr`, `expMax`, `expCurrLvl`, `expMaxLvl`, `lvlGained`, optional derived string `expPercent` |
-| Holdings | `inventory.consumables` (currently empty), inventory equipment strings, equipped item objects (maximum six) |
-| Run state | `inCombat`; historical optional `skills`, `blessing`, `allocated`, `tempStats: {atk, atkSpd}` |
+| Field group          | Existing fields and rules                                                                                                                                                    |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity/progression | `name` (preserve player-authored string), `lvl`, `gold`, `playtime`, `kills`, `deaths`; finite domain-valid numbers, counters without new arbitrary gameplay maxima          |
+| Current stats        | `stats`: `hp`, `hpMax`, `atk`, `def`, `pen`, `atkSpd`, `vamp`, `critRate`, `critDmg`, optional derived `hpPercent`; historical `pen: null` is legitimate                     |
+| Stat inputs          | `baseStats`, `equippedStats`, `bonusStats`; known fields as in baseline, including equipped `hpPct`, `atkPct`, `defPct`, `penPct`; preserve numeric inputs and formula order |
+| Experience           | `expCurr`, `expMax`, `expCurrLvl`, `expMaxLvl`, `lvlGained`, optional derived string `expPercent`                                                                            |
+| Holdings             | `inventory.consumables` (currently empty), inventory equipment strings, equipped item objects (maximum six)                                                                  |
+| Run state            | `inCombat`; historical optional `skills`, `blessing`, `allocated`, `tempStats: {atk, atkSpd}`                                                                                |
 
 Unallocated early players and allocated running players are distinct supported shapes. Missing optional fields use the same established defaults as legacy initialization, without fabricating progression. Do not reject a legitimate null/derived percentage simply because a new schema assumes all stats are numbers. Gameplay calculations use numeric authoritative inputs, not stored percentage strings. Names accepted by a historical save are preserved as text rather than being rewritten to match the current character-creation input filter.
 

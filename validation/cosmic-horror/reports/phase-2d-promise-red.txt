@@ -1,0 +1,29 @@
+✔ outer transition saves completed HP and rewards exactly once (1.294917ms)
+✔ failed transitions cannot persist partial state or leak pending requests (0.566291ms)
+✔ invalid final tuples, capture errors, unsaved/conflict results and async rejection (0.460209ms)
+✔ caught unsupported asynchronous nested rule cannot rehabilitate outer save (0.072834ms)
+✖ returned promises never save or leak unhandled rejections (1.70125ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 48.540792
+
+✖ failing tests:
+
+test at tests/unit/transitions.test.mjs:157:1
+✖ returned promises never save or leak unhandled rejections (1.70125ms)
+  Error: unsupported async work
+      at file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/transitions.test.mjs:168:26
+      at Object.run (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/app/transitions.mjs:39:17)
+      at file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/transitions.test.mjs:166:11
+      at getActual (node:assert:611:5)
+      at strict.throws (node:assert:759:24)
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/transitions.test.mjs:164:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)

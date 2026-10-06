@@ -1,0 +1,71 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/bootstrap.spec.mjs tests/integration/transition-commits.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:58284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:58285) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/integration/bootstrap.spec.mjs:12:3 › bootstrap gates storage and actions during module failure (denied=false) (272ms)
+  ✓   2 [chromium] › tests/integration/bootstrap.spec.mjs:12:3 › bootstrap gates storage and actions during module failure (denied=true) (145ms)
+  ✓   3 [chromium] › tests/integration/bootstrap.spec.mjs:51:1 › denied storage shows actionable recovery (142ms)
+  ✓   4 [chromium] › tests/integration/bootstrap.spec.mjs:73:1 › ready bootstrap is once-only and audio waits for a gesture (126ms)
+  ✓   5 [chromium] › tests/integration/bootstrap.spec.mjs:106:1 › late module completion gates actions then binds audio to the first title gesture (1.0s)
+  ✓   6 [chromium] › tests/integration/bootstrap.spec.mjs:126:1 › new character and allocation persist complete state through the live controls (4.8s)
+  ✓   7 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (331ms)
+  ✓   8 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (345ms)
+  ✓   9 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (343ms)
+  ✓  10 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (346ms)
+  ✓  11 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (329ms)
+  ✓  12 [chromium] › tests/integration/transition-commits.spec.mjs:79:1 › object validation is pure (129ms)
+  ✘  13 [chromium] › tests/integration/transition-commits.spec.mjs:103:1 › failed save keeps the completed action in memory and exposes unsaved status (5.2s)
+(node:58316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [chromium] › tests/integration/transition-commits.spec.mjs:137:1 › upgrade rendering reports unexpected DOM failures (154ms)
+
+
+  1) [chromium] › tests/integration/transition-commits.spec.mjs:103:1 › failed save keeps the completed action in memory and exposes unsaved status 
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator:  locator('#save-status')
+    Expected: in viewport
+    Received: viewport ratio 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeInViewport" locator('#save-status') with timeout 5000ms
+      - waiting for locator('#save-status')
+        13 × locator resolved to <p role="status" id="save-status">Progress is not saved. Keep this tab open to pres…</p>
+           - unexpected value "viewport ratio 0"
+
+
+      129 |       "not saved",
+      130 |     );
+    > 131 |     await expect(fixture.page.locator("#save-status")).toBeInViewport();
+          |                                                        ^
+      132 |   } finally {
+      133 |     await fixture.dispose();
+      134 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:131:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-a703d--and-exposes-unsaved-status-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-a703d--and-exposes-unsaved-status-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-a703d--and-exposes-unsaved-status-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-a703d--and-exposes-unsaved-status-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/integration/transition-commits.spec.mjs:103:1 › failed save keeps the completed action in memory and exposes unsaved status 
+  13 passed (15.0s)

@@ -1,0 +1,35 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/measure-symbols.spec.mjs --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:11274) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 1 worker
+
+(node:11276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline (122ms)
+  ✓   2 [chromium] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject (83ms)
+  ✓   3 [chromium] › tests/integration/measure-symbols.spec.mjs:30:1 › geometry, spacing, baseline and font metadata are measured without mutation (66ms)
+  ✓   4 [chromium] › tests/integration/measure-symbols.spec.mjs:46:1 › missing, ambiguous and hidden selectors reject (83ms)
+  ✓   5 [chromium] › tests/integration/measure-symbols.spec.mjs:56:1 › font readiness is awaited and a missing declared face rejects (71ms)
+  ✓   6 [chromium] › tests/integration/measure-symbols.spec.mjs:64:1 › baseline writes preserve existing bytes (65ms)
+(node:11293) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [firefox] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline (845ms)
+  ✓   8 [firefox] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject (170ms)
+  ✓   9 [firefox] › tests/integration/measure-symbols.spec.mjs:30:1 › geometry, spacing, baseline and font metadata are measured without mutation (155ms)
+  ✓  10 [firefox] › tests/integration/measure-symbols.spec.mjs:46:1 › missing, ambiguous and hidden selectors reject (165ms)
+  ✓  11 [firefox] › tests/integration/measure-symbols.spec.mjs:56:1 › font readiness is awaited and a missing declared face rejects (149ms)
+  ✓  12 [firefox] › tests/integration/measure-symbols.spec.mjs:64:1 › baseline writes preserve existing bytes (165ms)
+(node:11315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [webkit] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline (559ms)
+  ✓  14 [webkit] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject (199ms)
+  ✓  15 [webkit] › tests/integration/measure-symbols.spec.mjs:30:1 › geometry, spacing, baseline and font metadata are measured without mutation (170ms)
+  ✓  16 [webkit] › tests/integration/measure-symbols.spec.mjs:46:1 › missing, ambiguous and hidden selectors reject (193ms)
+  ✓  17 [webkit] › tests/integration/measure-symbols.spec.mjs:56:1 › font readiness is awaited and a missing declared face rejects (176ms)
+  ✓  18 [webkit] › tests/integration/measure-symbols.spec.mjs:64:1 › baseline writes preserve existing bytes (167ms)
+
+  18 passed (5.8s)

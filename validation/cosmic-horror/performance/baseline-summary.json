@@ -1,0 +1,234 @@
+{
+  "baselineSha256": "9f9e71a166850763aefb0fe417428e6986622892c89abfe68b476219b077ce82",
+  "candidateStatus": "OPEN; no candidate measured",
+  "rows": [
+    {
+      "key": "1440/first-visit/cold",
+      "samples": 5,
+      "medianMs": 1034.3999999985099,
+      "candidateThresholdMs": 1137.8399999983608
+    },
+    {
+      "key": "1440/resting-return/cold",
+      "samples": 5,
+      "medianMs": 24,
+      "candidateThresholdMs": 124
+    },
+    {
+      "key": "1440/title-to-dungeon/cold",
+      "samples": 5,
+      "medianMs": 1019.5,
+      "candidateThresholdMs": 1121.45
+    },
+    {
+      "key": "1440/normal/cold",
+      "samples": 5,
+      "medianMs": 28.200000001117587,
+      "candidateThresholdMs": 128.2000000011176
+    },
+    {
+      "key": "1440/special-boss/cold",
+      "samples": 5,
+      "medianMs": 28.5,
+      "candidateThresholdMs": 128.5
+    },
+    {
+      "key": "1440/largest-spider-dragon/cold",
+      "samples": 5,
+      "medianMs": 28.59999999962747,
+      "candidateThresholdMs": 128.59999999962747
+    },
+    {
+      "key": "1440/variant-1/cold",
+      "samples": 5,
+      "medianMs": 28.40000000037253,
+      "candidateThresholdMs": 128.40000000037253
+    },
+    {
+      "key": "1440/variant-2/cold",
+      "samples": 5,
+      "medianMs": 28.100000001490116,
+      "candidateThresholdMs": 128.10000000149012
+    },
+    {
+      "key": "1440/chest-mimic/cold",
+      "samples": 5,
+      "medianMs": 28.09999999962747,
+      "candidateThresholdMs": 128.09999999962747
+    },
+    {
+      "key": "1440/door-mimic/cold",
+      "samples": 5,
+      "medianMs": 27.800000000745058,
+      "candidateThresholdMs": 127.80000000074506
+    },
+    {
+      "key": "1440/resting-return/warm",
+      "samples": 5,
+      "medianMs": 15.800000000745058,
+      "candidateThresholdMs": 115.80000000074506
+    },
+    {
+      "key": "1440/title-to-dungeon/warm",
+      "samples": 5,
+      "medianMs": 1011.2999999988824,
+      "candidateThresholdMs": 1112.4299999987707
+    },
+    {
+      "key": "1440/normal/warm",
+      "samples": 5,
+      "medianMs": 30,
+      "candidateThresholdMs": 130
+    },
+    {
+      "key": "1440/special-boss/warm",
+      "samples": 5,
+      "medianMs": 30.199999999254942,
+      "candidateThresholdMs": 130.19999999925494
+    },
+    {
+      "key": "1440/largest-spider-dragon/warm",
+      "samples": 5,
+      "medianMs": 30.100000001490116,
+      "candidateThresholdMs": 130.10000000149012
+    },
+    {
+      "key": "1440/variant-1/warm",
+      "samples": 5,
+      "medianMs": 29.699999999254942,
+      "candidateThresholdMs": 129.69999999925494
+    },
+    {
+      "key": "1440/variant-2/warm",
+      "samples": 5,
+      "medianMs": 30,
+      "candidateThresholdMs": 130
+    },
+    {
+      "key": "1440/chest-mimic/warm",
+      "samples": 5,
+      "medianMs": 30,
+      "candidateThresholdMs": 130
+    },
+    {
+      "key": "1440/door-mimic/warm",
+      "samples": 5,
+      "medianMs": 30.09999999962747,
+      "candidateThresholdMs": 130.09999999962747
+    },
+    {
+      "key": "360/first-visit/cold",
+      "samples": 5,
+      "medianMs": 1032.2999999988824,
+      "candidateThresholdMs": 1135.5299999987706
+    },
+    {
+      "key": "360/resting-return/cold",
+      "samples": 5,
+      "medianMs": 23.699999999254942,
+      "candidateThresholdMs": 123.69999999925494
+    },
+    {
+      "key": "360/title-to-dungeon/cold",
+      "samples": 5,
+      "medianMs": 1020.3000000007451,
+      "candidateThresholdMs": 1122.3300000008196
+    },
+    {
+      "key": "360/normal/cold",
+      "samples": 5,
+      "medianMs": 28.299999998882413,
+      "candidateThresholdMs": 128.2999999988824
+    },
+    {
+      "key": "360/special-boss/cold",
+      "samples": 5,
+      "medianMs": 28,
+      "candidateThresholdMs": 128
+    },
+    {
+      "key": "360/largest-spider-dragon/cold",
+      "samples": 5,
+      "medianMs": 28.199999999254942,
+      "candidateThresholdMs": 128.19999999925494
+    },
+    {
+      "key": "360/variant-1/cold",
+      "samples": 5,
+      "medianMs": 28.09999999962747,
+      "candidateThresholdMs": 128.09999999962747
+    },
+    {
+      "key": "360/variant-2/cold",
+      "samples": 5,
+      "medianMs": 28,
+      "candidateThresholdMs": 128
+    },
+    {
+      "key": "360/chest-mimic/cold",
+      "samples": 5,
+      "medianMs": 28.09999999962747,
+      "candidateThresholdMs": 128.09999999962747
+    },
+    {
+      "key": "360/door-mimic/cold",
+      "samples": 5,
+      "medianMs": 28.09999999962747,
+      "candidateThresholdMs": 128.09999999962747
+    },
+    {
+      "key": "360/resting-return/warm",
+      "samples": 5,
+      "medianMs": 14.299999998882413,
+      "candidateThresholdMs": 114.29999999888241
+    },
+    {
+      "key": "360/title-to-dungeon/warm",
+      "samples": 5,
+      "medianMs": 1014,
+      "candidateThresholdMs": 1115.4
+    },
+    {
+      "key": "360/normal/warm",
+      "samples": 5,
+      "medianMs": 30.09999999962747,
+      "candidateThresholdMs": 130.09999999962747
+    },
+    {
+      "key": "360/special-boss/warm",
+      "samples": 5,
+      "medianMs": 29.90000000037253,
+      "candidateThresholdMs": 129.90000000037253
+    },
+    {
+      "key": "360/largest-spider-dragon/warm",
+      "samples": 5,
+      "medianMs": 30,
+      "candidateThresholdMs": 130
+    },
+    {
+      "key": "360/variant-1/warm",
+      "samples": 5,
+      "medianMs": 30.200000001117587,
+      "candidateThresholdMs": 130.2000000011176
+    },
+    {
+      "key": "360/variant-2/warm",
+      "samples": 5,
+      "medianMs": 30.90000000037253,
+      "candidateThresholdMs": 130.90000000037253
+    },
+    {
+      "key": "360/chest-mimic/warm",
+      "samples": 5,
+      "medianMs": 30.399999998509884,
+      "candidateThresholdMs": 130.39999999850988
+    },
+    {
+      "key": "360/door-mimic/warm",
+      "samples": 5,
+      "medianMs": 30,
+      "candidateThresholdMs": 130
+    }
+  ]
+}

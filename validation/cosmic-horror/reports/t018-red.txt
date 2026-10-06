@@ -1,0 +1,414 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/measure-symbols.spec.mjs --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:28760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:28765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [chromium] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (290ms)
+(node:28774) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (128ms)
+(node:28783) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (113ms)
+(node:28788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (106ms)
+(node:28800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [firefox] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (717ms)
+(node:28819) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (656ms)
+(node:28828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [firefox] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (678ms)
+(node:28838) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [firefox] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (648ms)
+(node:28848) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [webkit] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (617ms)
+(node:28866) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (381ms)
+(node:28882) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [webkit] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (387ms)
+(node:28904) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [webkit] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (378ms)
+
+
+  1) [chromium] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      12 |   const before = await page.content();
+      13 |   const rows = await measureSymbols(page, [{ id: "known", selector: "#icon" }]);
+    > 14 |   expect(rows).toHaveLength(1);
+         |                ^
+      15 |   expect(rows[0].box.width).toBe(12);
+      16 |   expect(rows[0].box.height).toBe(16);
+      17 |   expect(rows[0].marginRight).toBe("7px");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:14:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      26 | // Missing nodes must not become zero-sized baselines that later pass comparison.
+      27 | test("missing, ambiguous and hidden selectors reject", async ({ page }) => {
+    > 28 |   await expect(measureSymbols(page, [{ id: "missing", selector: "#absent" }])).rejects.toThrow(/exactly one/);
+         |                                                                                        ^
+      29 |   await page.locator("#icon").evaluate(
+      30 |     // Hide the fixture while retaining its selector.
+      31 |     (node) => { node.style.display = "none"; },
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:28:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      40 |     () => { const face = new FontFace("UnavailableFixture", "url(data:font/woff2;base64,AAAA)"); document.fonts.add(face); },
+      41 |   );
+    > 42 |   await expect(measureSymbols(page, [{ id: "font", selector: "#icon", requiredFont: '20px "UnavailableFixture"' }])).rejects.toThrow(/font/i);
+         |                                                                                                                              ^
+      43 | });
+      44 | // Exclusive creation protects established evidence even when a capture is rerun.
+      45 | test("baseline writes preserve existing bytes", async () => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:42:126
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 
+
+    Error: ENOENT: no such file or directory, open '/var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/crawler-symbols-Sw7HGa/baseline.json'
+
+      48 |   try {
+      49 |     await writeBaseline(path, { known: 12 });
+    > 50 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+         |                       ^
+      51 |     await expect(writeBaseline(path, { known: 99 })).rejects.toThrow(/EEXIST/);
+      52 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+      53 |   } finally { await rm(directory, { recursive: true, force: true }); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:50:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [firefox] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      12 |   const before = await page.content();
+      13 |   const rows = await measureSymbols(page, [{ id: "known", selector: "#icon" }]);
+    > 14 |   expect(rows).toHaveLength(1);
+         |                ^
+      15 |   expect(rows[0].box.width).toBe(12);
+      16 |   expect(rows[0].box.height).toBe(16);
+      17 |   expect(rows[0].marginRight).toBe("7px");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:14:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      26 | // Missing nodes must not become zero-sized baselines that later pass comparison.
+      27 | test("missing, ambiguous and hidden selectors reject", async ({ page }) => {
+    > 28 |   await expect(measureSymbols(page, [{ id: "missing", selector: "#absent" }])).rejects.toThrow(/exactly one/);
+         |                                                                                        ^
+      29 |   await page.locator("#icon").evaluate(
+      30 |     // Hide the fixture while retaining its selector.
+      31 |     (node) => { node.style.display = "none"; },
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:28:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [firefox] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      40 |     () => { const face = new FontFace("UnavailableFixture", "url(data:font/woff2;base64,AAAA)"); document.fonts.add(face); },
+      41 |   );
+    > 42 |   await expect(measureSymbols(page, [{ id: "font", selector: "#icon", requiredFont: '20px "UnavailableFixture"' }])).rejects.toThrow(/font/i);
+         |                                                                                                                              ^
+      43 | });
+      44 | // Exclusive creation protects established evidence even when a capture is rerun.
+      45 | test("baseline writes preserve existing bytes", async () => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:42:126
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [firefox] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 
+
+    Error: ENOENT: no such file or directory, open '/var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/crawler-symbols-zhCGaD/baseline.json'
+
+      48 |   try {
+      49 |     await writeBaseline(path, { known: 12 });
+    > 50 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+         |                       ^
+      51 |     await expect(writeBaseline(path, { known: 99 })).rejects.toThrow(/EEXIST/);
+      52 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+      53 |   } finally { await rm(directory, { recursive: true, force: true }); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:50:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [webkit] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      12 |   const before = await page.content();
+      13 |   const rows = await measureSymbols(page, [{ id: "known", selector: "#icon" }]);
+    > 14 |   expect(rows).toHaveLength(1);
+         |                ^
+      15 |   expect(rows[0].box.width).toBe(12);
+      16 |   expect(rows[0].box.height).toBe(16);
+      17 |   expect(rows[0].marginRight).toBe("7px");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:14:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-56fa1-e-measured-without-mutation-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      26 | // Missing nodes must not become zero-sized baselines that later pass comparison.
+      27 | test("missing, ambiguous and hidden selectors reject", async ({ page }) => {
+    > 28 |   await expect(measureSymbols(page, [{ id: "missing", selector: "#absent" }])).rejects.toThrow(/exactly one/);
+         |                                                                                        ^
+      29 |   await page.locator("#icon").evaluate(
+      30 |     // Hide the fixture while retaining its selector.
+      31 |     (node) => { node.style.display = "none"; },
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:28:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-a06ed-and-hidden-selectors-reject-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [webkit] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: []
+
+      40 |     () => { const face = new FontFace("UnavailableFixture", "url(data:font/woff2;base64,AAAA)"); document.fonts.add(face); },
+      41 |   );
+    > 42 |   await expect(measureSymbols(page, [{ id: "font", selector: "#icon", requiredFont: '20px "UnavailableFixture"' }])).rejects.toThrow(/font/i);
+         |                                                                                                                              ^
+      43 | });
+      44 | // Exclusive creation protects established evidence even when a capture is rerun.
+      45 | test("baseline writes preserve existing bytes", async () => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:42:126
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-86e81-ssing-declared-face-rejects-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [webkit] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 
+
+    Error: ENOENT: no such file or directory, open '/var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/crawler-symbols-9pw3G9/baseline.json'
+
+      48 |   try {
+      49 |     await writeBaseline(path, { known: 12 });
+    > 50 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+         |                       ^
+      51 |     await expect(writeBaseline(path, { known: 99 })).rejects.toThrow(/EEXIST/);
+      52 |     expect(JSON.parse(await readFile(path, "utf8"))).toEqual({ known: 12 });
+      53 |   } finally { await rm(directory, { recursive: true, force: true }); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:50:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-da8b8-tes-preserve-existing-bytes-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12 failed
+    [chromium] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+    [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+    [chromium] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+    [chromium] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 
+    [firefox] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+    [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+    [firefox] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+    [firefox] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 
+    [webkit] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation 
+    [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject 
+    [webkit] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects 
+    [webkit] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes 

@@ -1,0 +1,67 @@
+✔ schema corpus: early (1.133417ms)
+✔ schema corpus: resting (0.229791ms)
+✔ schema corpus: normal (0.226625ms)
+✔ schema corpus: guardian (0.185ms)
+✔ schema corpus: boss (0.201916ms)
+✔ schema corpus: chest-mimic (0.1825ms)
+✔ schema corpus: door-mimic (0.188375ms)
+✔ schema corpus: variant-1 (0.13325ms)
+✔ schema corpus: variant-2 (0.134291ms)
+✔ schema corpus: fractional-exp (0.218959ms)
+✔ schema corpus: full-duplicate-equipment (0.777292ms)
+✔ schema corpus: optional-null-derived (0.202125ms)
+✔ schema corpus: settled-victory (0.120542ms)
+✔ schema corpus: settled-death (0.098709ms)
+✔ schema corpus: interrupted-player-death (0.125ms)
+✔ schema corpus: interrupted-enemy-victory (0.116125ms)
+✔ schema corpus: interrupted-missing-enemy (0.084709ms)
+✔ schema corpus: early-player-only (0.100166ms)
+✔ schema corpus: interrupted-malformed-item (0.096458ms)
+✔ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.1885ms)
+✔ adversarial player.lvl: 0 (0.096083ms)
+✔ adversarial player.gold: -1 (0.088375ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.102667ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.269791ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.105334ms)
+✔ adversarial player.stats.atk: "99" (0.120417ms)
+✔ adversarial enemy.image.name: "../../evil" (0.138417ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.12675ms)
+✔ adversarial enemy.name: "unknown" (0.13375ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.129917ms)
+✔ adversarial dungeon.progress.room: 0 (0.126833ms)
+✔ adversarial volume.bgm: 0.6 (0.219792ms)
+✔ defaults, duplicate holdings, derived/null fields and idempotence (0.955208ms)
+✔ source kinds, early defaults and complete envelopes (1.533916ms)
+✔ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (119.716375ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.898375ms)
+✔ structured history text budgets and explicit null item tier reject (0.604667ms)
+✔ null equipment tier is not a missing default (0.155625ms)
+✔ validation is independent of randomness and preserves fractional rewards (0.129459ms)
+✖ bounded JSON accepts a wide value below 16 MiB and nesting at 64 (129.312167ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 39
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 313.316208
+
+✖ failing tests:
+
+test at tests/unit/save-validation.test.mjs:186:1
+✖ bounded JSON accepts a wide value below 16 MiB and nesting at 64 (129.312167ms)
+  Error: size-limit
+      at fail (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/app/save-validation.mjs:24:23)
+      at inspect (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/app/save-validation.mjs:92:41)
+      at inspect (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/app/save-validation.mjs:88:7)
+      at readBoundedData (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/app/save-validation.mjs:102:3)
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:188:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12) {
+    code: 'size-limit',
+    path: 'input.496715'
+  }

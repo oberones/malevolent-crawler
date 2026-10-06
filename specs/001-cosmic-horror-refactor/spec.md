@@ -12,7 +12,7 @@
 
 - Q: What horror intensity should govern the new artwork and narrative text? → A: Grotesque cosmic horror: mutations, exposed anatomy, and restrained blood; no explicit mutilation or graphic gore.
 
-## User Scenarios & Testing *(mandatory)*
+## User Scenarios & Testing _(mandatory)_
 
 Follow `.specify/memory/constitution.md`. New and changed behavior requires automated tests written and observed failing before implementation, followed by green and refactor steps. Characterize existing behavior before restructuring it. The plan selects test tools and levels; documentation-only work needs relevant validation. Function documentation and delivery gates remain mandatory under the constitution. Automated results do not replace manual browser and visual acceptance.
 
@@ -113,7 +113,7 @@ As a returning player, I want my existing character and equipment to work after 
 - Interrupted loading, missing art, corrupt saves, import cancellation, and unavailable storage require explicit recovery behavior rather than a blank or permanently blocked screen.
 - The full changed journey must remain operable by keyboard and touch. Reduced-motion settings, muted audio, and color-vision differences must not hide essential information.
 
-## Requirements *(mandatory)*
+## Requirements _(mandatory)_
 
 ### Functional Requirements
 
@@ -133,7 +133,7 @@ As a returning player, I want my existing character and equipment to work after 
 - **FR-014**: Changes MUST remain scoped to the requested content and presentation plus the compatibility, accessibility, and validation work needed to deliver them. Existing screen organization and art display sizes MUST be retained; new screens or a general interface redesign are not part of this feature.
 - **FR-015**: The game's description and credits MUST accurately reflect the new setting, generated art, and retained third-party contributions. Historical source records and compatibility mappings may retain old names; visible game content may not rely on them as current world identities.
 
-### Web Quality Requirements *(mandatory)*
+### Web Quality Requirements _(mandatory)_
 
 - **QR-001 — Accessibility**: Changed UI MUST meet applicable WCAG 2.2 AA criteria. All affected actions must have meaningful labels, keyboard operation, visible focus, and perceivable outcome/error feedback. Informative art must have a meaningful text equivalent; decorative art must not create redundant announcements. Text, focus, and essential symbols must meet applicable contrast requirements; item rarity and danger cannot depend on color alone. Content must remain usable with enlarged text and reduced motion, and existing audio controls must remain available.
 - **QR-002 — Compatibility**: Acceptance MUST cover desktop keyboard/pointer and mobile touch journeys in Chrome, Firefox, and Safari on supported platforms. Representative viewports MUST include 360 × 800, 768 × 1024, and 1440 × 900. No affected information or action may become inaccessible through clipping, overlap, or horizontal overflow. The plan records exact tested browser/OS versions and device combinations before implementation; unavailable required combinations remain blocked.
@@ -141,7 +141,7 @@ As a returning player, I want my existing character and equipment to work after 
 - **QR-004 — Performance**: Under matched browser, device, network, and save conditions, the median time to the initial playable screen and to an encounter with its art ready MUST each be no more than the pre-refactor median plus the greater of 10% or 100 ms. Use at least five measurements per scenario; record cold-start and repeat-encounter results separately. Controls must remain usable while a slow image loads. The plan defines the repeatable workloads and measurement procedure before implementation.
 - **QR-005 — Acceptance evidence**: Delivery MUST record automated outcomes separately from manual browser, keyboard/focus, and visual review. Evidence must cover new-character entry, every encounter identity/art variant, exploration event types, every equipment category and rarity, inventory operations, level-up, death/restart, saved-encounter resumption, old export import, and failure/recovery cases. Art review must verify exact dimensions and actual-size readability on the declared viewports. Unperformed required checks remain OPEN or BLOCKED, never passed by inference.
 
-### Key Entities *(include if feature involves data)*
+### Key Entities _(include if feature involves data)_
 
 - **Setting Brief and Terminology Guide**: The world premise, player role, naming rules, recurring motifs, and consistent vocabulary used throughout the experience.
 - **Encounter Identity**: A creature's legacy identity, new name, encounter tier/archetype eligibility, and one or more corresponding illustrations; its gameplay role remains stable.
@@ -149,7 +149,7 @@ As a returning player, I want my existing character and equipment to work after 
 - **Art Inventory Entry**: The source visual, its replacement, purpose, original and delivered dimensions or rendered footprint, transparency/alignment needs, generation record, and acceptance evidence.
 - **Player Progress**: Character and run state, equipment, currency, preferences, and ongoing encounter information; old representations remain recognizable and retain their established persistence behavior.
 
-## Success Criteria *(mandatory)*
+## Success Criteria _(mandatory)_
 
 ### Measurable Outcomes
 

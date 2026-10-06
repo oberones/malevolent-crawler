@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 test:integration
+npm notice run playwright test tests/integration
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:19214) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 6 workers
+
+(node:19219) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19217) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19218) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19215) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (43ms)
+  ✓   2 [chromium] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (68ms)
+(node:19231) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19235) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [firefox] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (34ms)
+  ✓   8 [firefox] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (66ms)
+(node:19249) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19251) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (405ms)
+  ✓   6 [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (634ms)
+(node:19299) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [webkit] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (49ms)
+  ✓  12 [webkit] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (50ms)
+  ✓   9 [webkit] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (876ms)
+  ✓  10 [webkit] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (1.2s)
+  ✓   1 [firefox] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (1.9s)
+  ✓   4 [firefox] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (1.3s)
+
+  12 passed (3.7s)

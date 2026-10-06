@@ -1,0 +1,14 @@
+✔ complete revision and legacy reads are pure (7.47625ms)
+✔ empty preferences, partial run, malformed canonical and previous recovery (1.85425ms)
+✔ every source read exception becomes recovery with no writes (0.344042ms)
+✔ commit failure matrix and retry preserve raw sources without rollback (3.725333ms)
+✔ first commit skips backup; failed migration/import candidates remain detached (0.935625ms)
+✔ revision conflicts, same-revision foreign bytes and event disposal (1.659084ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.583625

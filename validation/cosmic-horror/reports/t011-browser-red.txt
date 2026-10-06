@@ -1,0 +1,61 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/legacy-browser-fixtures.spec.mjs --project=chromium
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:14568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:14573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (369ms)
+
+
+  1) [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Object {
+        "draws": Array [
+    -     0.2,
+    -     0.8,
+    +     0.2653918461435757,
+    +     0.15029931532004837,
+        ],
+    -   "value": "original",
+    +   "value": null,
+      }
+
+      11 |     await second.page.goto('http://127.0.0.1:4173/tests/fixtures/static/module.mjs');
+      12 |     // Read the browser's actual storage and randomness after document initialization.
+    > 13 |     expect(await first.page.evaluate(() => ({ value: localStorage.getItem('fixture'), draws: [Math.random(), Math.random()] }))).toEqual({ value: 'original', draws: [0.2, 0.8] });
+         |                                                                                                                                  ^
+      14 |     // Mutating one context must leave the independently initialized context unchanged.
+      15 |     await first.page.evaluate(() => localStorage.setItem('fixture', 'changed'));
+      16 |     // Verify isolation in browser storage, not a helper's bookkeeping object.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-browser-fixtures.spec.mjs:13:130
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-browser-e0a32-consume-deterministic-draws-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-browser-e0a32-consume-deterministic-draws-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-browser-e0a32-consume-deterministic-draws-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-browser-e0a32-consume-deterministic-draws-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-browser-e0a32-consume-deterministic-draws-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws 

@@ -1,0 +1,4061 @@
+{
+  "schemaVersion": 1,
+  "baselineRevision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+  "baselineFile": "art/cosmic-horror/baseline.json",
+  "scope": "80 obligations; no generated artwork or visual acceptance claimed. Symbol source dimensions are null; exact output sizes are selected with pilot evidence. Each symbol requires all matching baseline tuples.",
+  "entries": [
+    {
+      "id": "favicon-ico",
+      "kind": "favicon",
+      "identityId": "quay-emblem",
+      "legacySource": "assets/icon/favicon.ico",
+      "aliases": ["assets/icon/favicon.ico"],
+      "unusedButRequired": false,
+      "contextIds": ["browser/favicon"],
+      "path": "assets/icon/favicon.ico",
+      "width": 127,
+      "height": 128,
+      "baseline": {
+        "path": "assets/icon/favicon.ico",
+        "bytes": 67134,
+        "sha256": "1f3ffd8b1b7b0dd8d4a12d350340df73b07e25c2cdeb66536f953dba8ceea351",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/icon/favicon.ico",
+        "width": 127,
+        "height": 128,
+        "alpha": null,
+        "icoEntries": [
+          {
+            "width": 127,
+            "height": 128,
+            "bitsPerPixel": 32,
+            "bytes": 67112,
+            "offset": 22,
+            "encoding": "DIB"
+          }
+        ]
+      },
+      "delivered": {
+        "path": "assets/icon/favicon.ico",
+        "sha256": null,
+        "width": 127,
+        "height": 128,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "favicon-png",
+      "kind": "favicon",
+      "identityId": "quay-emblem",
+      "legacySource": "assets/icon/favicon.png",
+      "aliases": ["assets/icon/favicon.png"],
+      "unusedButRequired": false,
+      "contextIds": ["browser/favicon"],
+      "path": "assets/icon/favicon.png",
+      "width": 199,
+      "height": 200,
+      "baseline": {
+        "path": "assets/icon/favicon.png",
+        "bytes": 3654,
+        "sha256": "1ec769b4b7f957e947d00566107d211c939fdae74c63f3a7ab834d4719141245",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/icon/favicon.png",
+        "width": 199,
+        "height": 200,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/icon/favicon.png",
+        "sha256": null,
+        "width": 199,
+        "height": 200,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-alfadriel",
+      "kind": "sprite",
+      "identityId": "the-lantern-without-flame-portrait",
+      "legacySource": "assets/sprites/alfadriel.png",
+      "aliases": ["alfadriel"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/alfadriel.png",
+      "width": 603,
+      "height": 616,
+      "baseline": {
+        "path": "assets/sprites/alfadriel.png",
+        "bytes": 287879,
+        "sha256": "d5ab0ffc67fd960758cc023d56d5de44553cebdb91ab1a957c1b565170d51b48",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/alfadriel.png",
+        "width": 603,
+        "height": 616,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/alfadriel.png",
+        "sha256": null,
+        "width": 603,
+        "height": 616,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-ant-queen",
+      "kind": "sprite",
+      "identityId": "the-brood-bell-portrait",
+      "legacySource": "assets/sprites/ant_queen.png",
+      "aliases": ["ant_queen"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/ant_queen.png",
+      "width": 469,
+      "height": 479,
+      "baseline": {
+        "path": "assets/sprites/ant_queen.png",
+        "bytes": 146576,
+        "sha256": "6003accbf0723361a83494e8da1fcf5a574f25f7248c0962acbb22a5a20c0f70",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/ant_queen.png",
+        "width": 469,
+        "height": 479,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/ant_queen.png",
+        "sha256": null,
+        "width": 469,
+        "height": 479,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-behemoth",
+      "kind": "sprite",
+      "identityId": "the-continental-sleeper-portrait",
+      "legacySource": "assets/sprites/behemoth.png",
+      "aliases": ["behemoth"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/behemoth.png",
+      "width": 675,
+      "height": 532,
+      "baseline": {
+        "path": "assets/sprites/behemoth.png",
+        "bytes": 234748,
+        "sha256": "24daa17280eb109e06b3eaab2aab8bc3beb1c4b30f956f4a5b9b6d3872b611b2",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/behemoth.png",
+        "width": 675,
+        "height": 532,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/behemoth.png",
+        "sha256": null,
+        "width": 675,
+        "height": 532,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-berthelot",
+      "kind": "sprite",
+      "identityId": "the-salt-regent-portrait",
+      "legacySource": "assets/sprites/berthelot.png",
+      "aliases": ["berthelot"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/berthelot.png",
+      "width": 375,
+      "height": 251,
+      "baseline": {
+        "path": "assets/sprites/berthelot.png",
+        "bytes": 108129,
+        "sha256": "518b823fd8d1a6f7ac7de002bb040fa8c6747f9ff53374a16c43e6b9f3221ad4",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/berthelot.png",
+        "width": 375,
+        "height": 251,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/berthelot.png",
+        "sha256": null,
+        "width": 375,
+        "height": 251,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-bm-feral",
+      "kind": "sprite",
+      "identityId": "the-red-undertow-portrait",
+      "legacySource": "assets/sprites/bm-feral.png",
+      "aliases": ["bm-feral"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/bm-feral.png",
+      "width": 441,
+      "height": 355,
+      "baseline": {
+        "path": "assets/sprites/bm-feral.png",
+        "bytes": 164737,
+        "sha256": "9b84e0137ca15afe3456ed9426ef3f2b52f0f2f990b2a39a80606354965ac01e",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/bm-feral.png",
+        "width": 441,
+        "height": 355,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/bm-feral.png",
+        "sha256": null,
+        "width": 441,
+        "height": 355,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-cerberus-ptolemaios",
+      "kind": "sprite",
+      "identityId": "the-threefold-watch-portrait",
+      "legacySource": "assets/sprites/cerberus_ptolemaios.png",
+      "aliases": ["cerberus_ptolemaios"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/cerberus_ptolemaios.png",
+      "width": 588,
+      "height": 410,
+      "baseline": {
+        "path": "assets/sprites/cerberus_ptolemaios.png",
+        "bytes": 139608,
+        "sha256": "82a3fa71820f6a3f21d532f663800928a9c8d5a88bf1f08b02c0bdf2c308153f",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/cerberus_ptolemaios.png",
+        "width": 588,
+        "height": 410,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/cerberus_ptolemaios.png",
+        "sha256": null,
+        "width": 588,
+        "height": 410,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-da-reaper",
+      "kind": "sprite",
+      "identityId": "the-eclipse-ferryman-portrait",
+      "legacySource": "assets/sprites/da-reaper.png",
+      "aliases": ["da-reaper"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/da-reaper.png",
+      "width": 434,
+      "height": 310,
+      "baseline": {
+        "path": "assets/sprites/da-reaper.png",
+        "bytes": 79179,
+        "sha256": "792c7d7d3d7d188bd24676a9f0cd8767433bb02542aa445059436fe5d595bf42",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/da-reaper.png",
+        "width": 434,
+        "height": 310,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/da-reaper.png",
+        "sha256": null,
+        "width": 434,
+        "height": 310,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-fallen-king",
+      "kind": "sprite",
+      "identityId": "the-unmoored-magistrate-portrait",
+      "legacySource": "assets/sprites/fallen_king.png",
+      "aliases": ["fallen_king"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/fallen_king.png",
+      "width": 635,
+      "height": 506,
+      "baseline": {
+        "path": "assets/sprites/fallen_king.png",
+        "bytes": 235138,
+        "sha256": "943ac8c8da764d1499756c2dac903dc0a747989d0b3c978108e6a7e0a3a61266",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/fallen_king.png",
+        "width": 635,
+        "height": 506,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/fallen_king.png",
+        "sha256": null,
+        "width": 635,
+        "height": 506,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-firelord",
+      "kind": "sprite",
+      "identityId": "the-kiln-below-portrait",
+      "legacySource": "assets/sprites/firelord.png",
+      "aliases": ["firelord"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/firelord.png",
+      "width": 744,
+      "height": 509,
+      "baseline": {
+        "path": "assets/sprites/firelord.png",
+        "bytes": 310939,
+        "sha256": "2523128b1d3dc0470d08bc8c9c044fa6fd199e36e21c7ec54695b89c18063f2d",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/firelord.png",
+        "width": 744,
+        "height": 509,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/firelord.png",
+        "sha256": null,
+        "width": 744,
+        "height": 509,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-goblin",
+      "kind": "sprite",
+      "identityId": "quay-scavenger-portrait",
+      "legacySource": "assets/sprites/goblin.png",
+      "aliases": ["goblin"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/goblin.png",
+      "width": 161,
+      "height": 166,
+      "baseline": {
+        "path": "assets/sprites/goblin.png",
+        "bytes": 30300,
+        "sha256": "fcdbacb323bb1d04203397b654591d7900b75d65fcc105e23609cfca775de4ad",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/goblin.png",
+        "width": 161,
+        "height": 166,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/goblin.png",
+        "sha256": null,
+        "width": 161,
+        "height": 166,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-goblin-archer",
+      "kind": "sprite",
+      "identityId": "needlecast-lookout-portrait",
+      "legacySource": "assets/sprites/goblin_archer.png",
+      "aliases": ["goblin_archer"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/goblin_archer.png",
+      "width": 207,
+      "height": 136,
+      "baseline": {
+        "path": "assets/sprites/goblin_archer.png",
+        "bytes": 31588,
+        "sha256": "3bbd0d6d113199c5aa8dd134796820bee303972d8a325b9ef8a2049f9e2be847",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/goblin_archer.png",
+        "width": 207,
+        "height": 136,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/goblin_archer.png",
+        "sha256": null,
+        "width": 207,
+        "height": 136,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-goblin-boss",
+      "kind": "sprite",
+      "identityId": "the-dredge-foreman-portrait",
+      "legacySource": "assets/sprites/goblin_boss.png",
+      "aliases": ["goblin_boss"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/goblin_boss.png",
+      "width": 331,
+      "height": 164,
+      "baseline": {
+        "path": "assets/sprites/goblin_boss.png",
+        "bytes": 53350,
+        "sha256": "343d32fd0899c583e3ac195f802096a81909d979fbbece035c8e74169166ebe9",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/goblin_boss.png",
+        "width": 331,
+        "height": 164,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/goblin_boss.png",
+        "sha256": null,
+        "width": 331,
+        "height": 164,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-goblin-mage",
+      "kind": "sprite",
+      "identityId": "brine-whisperer-portrait",
+      "legacySource": "assets/sprites/goblin_mage.png",
+      "aliases": ["goblin_mage"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/goblin_mage.png",
+      "width": 228,
+      "height": 149,
+      "baseline": {
+        "path": "assets/sprites/goblin_mage.png",
+        "bytes": 37255,
+        "sha256": "ed098eb785531221a6953e6b9e65e0a0727a6c51e9266fd05e66889b6b711e6b",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/goblin_mage.png",
+        "width": 228,
+        "height": 149,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/goblin_mage.png",
+        "sha256": null,
+        "width": 228,
+        "height": 149,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-goblin-rogue",
+      "kind": "sprite",
+      "identityId": "crevice-pilferer-portrait",
+      "legacySource": "assets/sprites/goblin_rogue.png",
+      "aliases": ["goblin_rogue"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/goblin_rogue.png",
+      "width": 162,
+      "height": 160,
+      "baseline": {
+        "path": "assets/sprites/goblin_rogue.png",
+        "bytes": 32774,
+        "sha256": "04428c5e98188e67f4795fd9df3c4daef6e68304ef5b511554501fe68fe88cb1",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/goblin_rogue.png",
+        "width": 162,
+        "height": 160,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/goblin_rogue.png",
+        "sha256": null,
+        "width": 162,
+        "height": 160,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-hellhound",
+      "kind": "sprite",
+      "identityId": "cinderwake-prowler-portrait",
+      "legacySource": "assets/sprites/hellhound.png",
+      "aliases": ["hellhound"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/hellhound.png",
+      "width": 373,
+      "height": 323,
+      "baseline": {
+        "path": "assets/sprites/hellhound.png",
+        "bytes": 105235,
+        "sha256": "d57791a1495d30cd72e541fc65eccde5b7f976ec662496bc6eec58a9f50e9b61",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/hellhound.png",
+        "width": 373,
+        "height": 323,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/hellhound.png",
+        "sha256": null,
+        "width": 373,
+        "height": 323,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-icemaiden",
+      "kind": "sprite",
+      "identityId": "the-stillwater-veil-portrait",
+      "legacySource": "assets/sprites/icemaiden.png",
+      "aliases": ["icemaiden"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/icemaiden.png",
+      "width": 564,
+      "height": 534,
+      "baseline": {
+        "path": "assets/sprites/icemaiden.png",
+        "bytes": 137952,
+        "sha256": "dd2f50eb062d102fb4961a732c2590b8b587164d3928f79d4bff49870617d572",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/icemaiden.png",
+        "width": 564,
+        "height": 534,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/icemaiden.png",
+        "sha256": null,
+        "width": 564,
+        "height": 534,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-mimic",
+      "kind": "sprite",
+      "identityId": "coffer-of-listening-teeth-portrait",
+      "legacySource": "assets/sprites/mimic.png",
+      "aliases": ["mimic"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/mimic.png",
+      "width": 227,
+      "height": 174,
+      "baseline": {
+        "path": "assets/sprites/mimic.png",
+        "bytes": 62498,
+        "sha256": "4fe356204f83508d9002c2434b4ad28b815aef8b50c460605bdf0d0cc8f93c47",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/mimic.png",
+        "width": 227,
+        "height": 174,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/mimic.png",
+        "sha256": null,
+        "width": 227,
+        "height": 174,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-mimic-door",
+      "kind": "sprite",
+      "identityId": "threshold-that-breathes-portrait",
+      "legacySource": "assets/sprites/mimic_door.png",
+      "aliases": ["mimic_door"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/mimic_door.png",
+      "width": 317,
+      "height": 230,
+      "baseline": {
+        "path": "assets/sprites/mimic_door.png",
+        "bytes": 44709,
+        "sha256": "c57db2775bb8581ff57c240539cc0599043962fbec1bc258c93773d687c1d40a",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/mimic_door.png",
+        "width": 317,
+        "height": 230,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/mimic_door.png",
+        "sha256": null,
+        "width": 317,
+        "height": 230,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-orc-archer",
+      "kind": "sprite",
+      "identityId": "breakwater-harpooner-portrait",
+      "legacySource": "assets/sprites/orc_archer.png",
+      "aliases": ["orc_archer"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/orc_archer.png",
+      "width": 476,
+      "height": 480,
+      "baseline": {
+        "path": "assets/sprites/orc_archer.png",
+        "bytes": 143979,
+        "sha256": "54daad4e2236cd3bc20618f5dea0a1ee8782a1f7931be8d98e594808f4ceb663",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/orc_archer.png",
+        "width": 476,
+        "height": 480,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/orc_archer.png",
+        "sha256": null,
+        "width": 476,
+        "height": 480,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-orc-axe",
+      "kind": "sprite",
+      "identityId": "keelbreaker-portrait",
+      "legacySource": "assets/sprites/orc_axe.png",
+      "aliases": ["orc_axe"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/orc_axe.png",
+      "width": 516,
+      "height": 434,
+      "baseline": {
+        "path": "assets/sprites/orc_axe.png",
+        "bytes": 129936,
+        "sha256": "2fd8b2eeb122c2bd08cfbd2b0f96a56089b1501b7d7250fa9d468c71daebebf2",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/orc_axe.png",
+        "width": 516,
+        "height": 434,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/orc_axe.png",
+        "sha256": null,
+        "width": 516,
+        "height": 434,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-orc-mage",
+      "kind": "sprite",
+      "identityId": "stormsilt-cantor-portrait",
+      "legacySource": "assets/sprites/orc_mage.png",
+      "aliases": ["orc_mage"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/orc_mage.png",
+      "width": 569,
+      "height": 386,
+      "baseline": {
+        "path": "assets/sprites/orc_mage.png",
+        "bytes": 195238,
+        "sha256": "3014a9157b250d38af73d7d013521cc03d00f2212a154f69eb06ab5aae8dbf1f",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/orc_mage.png",
+        "width": 569,
+        "height": 386,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/orc_mage.png",
+        "sha256": null,
+        "width": 569,
+        "height": 386,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-orc-swordsmaster",
+      "kind": "sprite",
+      "identityId": "tideglass-duelist-portrait",
+      "legacySource": "assets/sprites/orc_swordsmaster.png",
+      "aliases": ["orc_swordsmaster"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/orc_swordsmaster.png",
+      "width": 517,
+      "height": 368,
+      "baseline": {
+        "path": "assets/sprites/orc_swordsmaster.png",
+        "bytes": 148671,
+        "sha256": "1c5463c65f470eb3dc5d2176339195d212f10c60cc701f4cfe5207d081d3e9dc",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/orc_swordsmaster.png",
+        "width": 517,
+        "height": 368,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/orc_swordsmaster.png",
+        "sha256": null,
+        "width": 517,
+        "height": 368,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-archer",
+      "kind": "sprite",
+      "identityId": "ossuary-signalman-portrait",
+      "legacySource": "assets/sprites/skeleton_archer.png",
+      "aliases": ["skeleton_archer"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_archer.png",
+      "width": 299,
+      "height": 218,
+      "baseline": {
+        "path": "assets/sprites/skeleton_archer.png",
+        "bytes": 39326,
+        "sha256": "7a533f522ae8c3417027dbf3269ad689ce1824260e551501d99115a66c9e658a",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_archer.png",
+        "width": 299,
+        "height": 218,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_archer.png",
+        "sha256": null,
+        "width": 299,
+        "height": 218,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-boss",
+      "kind": "sprite",
+      "identityId": "the-choir-in-the-wall-portrait",
+      "legacySource": "assets/sprites/skeleton_boss.png",
+      "aliases": ["skeleton_boss"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_boss.png",
+      "width": 372,
+      "height": 309,
+      "baseline": {
+        "path": "assets/sprites/skeleton_boss.png",
+        "bytes": 122320,
+        "sha256": "c5697ab69b20957663821c082862315d29ca3cfdeb54f7dc3d22a0888c6807e0",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_boss.png",
+        "width": 372,
+        "height": 309,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_boss.png",
+        "sha256": null,
+        "width": 372,
+        "height": 309,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-dragon",
+      "kind": "sprite",
+      "identityId": "the-cathedral-remnant-portrait",
+      "legacySource": "assets/sprites/skeleton_dragon.png",
+      "aliases": ["skeleton_dragon"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_dragon.png",
+      "width": 501,
+      "height": 433,
+      "baseline": {
+        "path": "assets/sprites/skeleton_dragon.png",
+        "bytes": 168079,
+        "sha256": "fb9145dc48439000df5eaf598e65abd66ba7dcbec9fa845595f7bb8fc16d8f22",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_dragon.png",
+        "width": 501,
+        "height": 433,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_dragon.png",
+        "sha256": null,
+        "width": 501,
+        "height": 433,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-knight",
+      "kind": "sprite",
+      "identityId": "reliquary-warden-portrait",
+      "legacySource": "assets/sprites/skeleton_knight.png",
+      "aliases": ["skeleton_knight"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_knight.png",
+      "width": 371,
+      "height": 212,
+      "baseline": {
+        "path": "assets/sprites/skeleton_knight.png",
+        "bytes": 64143,
+        "sha256": "dee0bfae89031c43faec86efebed517cd61abe0e4d5a6192caa2c537761f49f1",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_knight.png",
+        "width": 371,
+        "height": 212,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_knight.png",
+        "sha256": null,
+        "width": 371,
+        "height": 212,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-mage1",
+      "kind": "sprite",
+      "identityId": "sounding-vessel-bowl",
+      "legacySource": "assets/sprites/skeleton_mage1.png",
+      "aliases": ["skeleton_mage1"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_mage1.png",
+      "width": 265,
+      "height": 260,
+      "baseline": {
+        "path": "assets/sprites/skeleton_mage1.png",
+        "bytes": 58047,
+        "sha256": "86e70c9f70f39ee6056a6a53cc7a3ea296b8cadf1094fbf40de166e48c5328ca",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_mage1.png",
+        "width": 265,
+        "height": 260,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_mage1.png",
+        "sha256": null,
+        "width": 265,
+        "height": 260,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-mage2",
+      "kind": "sprite",
+      "identityId": "sounding-vessel-chimes",
+      "legacySource": "assets/sprites/skeleton_mage2.png",
+      "aliases": ["skeleton_mage2"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_mage2.png",
+      "width": 178,
+      "height": 230,
+      "baseline": {
+        "path": "assets/sprites/skeleton_mage2.png",
+        "bytes": 52868,
+        "sha256": "ddf34b89eb510328d153147a9adf383584ade9735a83c42b1f71767f0e47af39",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_mage2.png",
+        "width": 178,
+        "height": 230,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_mage2.png",
+        "sha256": null,
+        "width": 178,
+        "height": 230,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-pirate",
+      "kind": "sprite",
+      "identityId": "wreck-tallyman-portrait",
+      "legacySource": "assets/sprites/skeleton_pirate.png",
+      "aliases": ["skeleton_pirate"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_pirate.png",
+      "width": 207,
+      "height": 232,
+      "baseline": {
+        "path": "assets/sprites/skeleton_pirate.png",
+        "bytes": 58005,
+        "sha256": "5a1c54c55b4d44e96e29713a07fc1331c687a0a41c3a22eb2a8f9c5d86d728af",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_pirate.png",
+        "width": 207,
+        "height": 232,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_pirate.png",
+        "sha256": null,
+        "width": 207,
+        "height": 232,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-samurai",
+      "kind": "sprite",
+      "identityId": "lowtide-executioner-portrait",
+      "legacySource": "assets/sprites/skeleton_samurai.png",
+      "aliases": ["skeleton_samurai"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_samurai.png",
+      "width": 209,
+      "height": 223,
+      "baseline": {
+        "path": "assets/sprites/skeleton_samurai.png",
+        "bytes": 40775,
+        "sha256": "2afd8b0f27c3094f023703350ac8fc63e1404145c652536a617e789d1959585e",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_samurai.png",
+        "width": 209,
+        "height": 223,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_samurai.png",
+        "sha256": null,
+        "width": 209,
+        "height": 223,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-swordsmaster",
+      "kind": "sprite",
+      "identityId": "splinterblade-usher-portrait",
+      "legacySource": "assets/sprites/skeleton_swordsmaster.png",
+      "aliases": ["skeleton_swordsmaster"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_swordsmaster.png",
+      "width": 248,
+      "height": 215,
+      "baseline": {
+        "path": "assets/sprites/skeleton_swordsmaster.png",
+        "bytes": 65535,
+        "sha256": "974d861a74918f2161b9af22dfda12405ebd6a3eda6be585afdb42c6f9c8a691",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_swordsmaster.png",
+        "width": 248,
+        "height": 215,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_swordsmaster.png",
+        "sha256": null,
+        "width": 248,
+        "height": 215,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-skeleton-warrior",
+      "kind": "sprite",
+      "identityId": "pierbound-husk-portrait",
+      "legacySource": "assets/sprites/skeleton_warrior.png",
+      "aliases": ["skeleton_warrior"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/skeleton_warrior.png",
+      "width": 254,
+      "height": 188,
+      "baseline": {
+        "path": "assets/sprites/skeleton_warrior.png",
+        "bytes": 63135,
+        "sha256": "36cfbb911fa14c49c2643775ad2fbe8b234d2302375663e20feac15473ec49ab",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/skeleton_warrior.png",
+        "width": 254,
+        "height": 188,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/skeleton_warrior.png",
+        "sha256": null,
+        "width": 254,
+        "height": 188,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-slime",
+      "kind": "sprite",
+      "identityId": "tidepool-memory-portrait",
+      "legacySource": "assets/sprites/slime.png",
+      "aliases": ["slime"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/slime.png",
+      "width": 229,
+      "height": 101,
+      "baseline": {
+        "path": "assets/sprites/slime.png",
+        "bytes": 20827,
+        "sha256": "c6bf4821bed0677527df24a4340e68eeb23754766099a5c52ac6b604b77fa67f",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/slime.png",
+        "width": 229,
+        "height": 101,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/slime.png",
+        "sha256": null,
+        "width": 229,
+        "height": 101,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-slime-angel",
+      "kind": "sprite",
+      "identityId": "halo-medusa-portrait",
+      "legacySource": "assets/sprites/slime_angel.png",
+      "aliases": ["slime_angel"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/slime_angel.png",
+      "width": 166,
+      "height": 126,
+      "baseline": {
+        "path": "assets/sprites/slime_angel.png",
+        "bytes": 33949,
+        "sha256": "30ed7730892fd11c46ec655cb8a05c56794eeac74ad64ca0c5235506701b7760",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/slime_angel.png",
+        "width": 166,
+        "height": 126,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/slime_angel.png",
+        "sha256": null,
+        "width": 166,
+        "height": 126,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-slime-boss",
+      "kind": "sprite",
+      "identityId": "the-reservoir-heart-portrait",
+      "legacySource": "assets/sprites/slime_boss.png",
+      "aliases": ["slime_boss"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/slime_boss.png",
+      "width": 391,
+      "height": 253,
+      "baseline": {
+        "path": "assets/sprites/slime_boss.png",
+        "bytes": 48196,
+        "sha256": "94ac845e0628bfa90b40e8cd6d31cfea8eb1821def1a1e78dd54a8db554d1dab",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/slime_boss.png",
+        "width": 391,
+        "height": 253,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/slime_boss.png",
+        "sha256": null,
+        "width": 391,
+        "height": 253,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-slime-crusader",
+      "kind": "sprite",
+      "identityId": "processional-ooze-portrait",
+      "legacySource": "assets/sprites/slime_crusader.png",
+      "aliases": ["slime_crusader"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/slime_crusader.png",
+      "width": 153,
+      "height": 79,
+      "baseline": {
+        "path": "assets/sprites/slime_crusader.png",
+        "bytes": 29104,
+        "sha256": "79fb5a7251ec93ccc805be68911d70b91b3b633316ff7e1ffa253e5fc8747266",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/slime_crusader.png",
+        "width": 153,
+        "height": 79,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/slime_crusader.png",
+        "sha256": null,
+        "width": 153,
+        "height": 79,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-slime-knight",
+      "kind": "sprite",
+      "identityId": "shellbound-bloom-portrait",
+      "legacySource": "assets/sprites/slime_knight.png",
+      "aliases": ["slime_knight"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/slime_knight.png",
+      "width": 174,
+      "height": 91,
+      "baseline": {
+        "path": "assets/sprites/slime_knight.png",
+        "bytes": 31428,
+        "sha256": "5e5d3413a11c2cada006742856866bd19dbacbce23d7562a894e876d31238d64",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/slime_knight.png",
+        "width": 174,
+        "height": 91,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/slime_knight.png",
+        "sha256": null,
+        "width": 174,
+        "height": 91,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider",
+      "kind": "sprite",
+      "identityId": "threadpool-creeper-portrait",
+      "legacySource": "assets/sprites/spider.png",
+      "aliases": ["spider"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider.png",
+      "width": 142,
+      "height": 108,
+      "baseline": {
+        "path": "assets/sprites/spider.png",
+        "bytes": 33098,
+        "sha256": "a3e202c11ea3f86310f44c9c5bab33721c4e1ae9e5ebd5ed6de21401824fec91",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider.png",
+        "width": 142,
+        "height": 108,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider.png",
+        "sha256": null,
+        "width": 142,
+        "height": 108,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-boss",
+      "kind": "sprite",
+      "identityId": "the-tidewheel-weaver-portrait",
+      "legacySource": "assets/sprites/spider_boss.png",
+      "aliases": ["spider_boss"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider_boss.png",
+      "width": 373,
+      "height": 351,
+      "baseline": {
+        "path": "assets/sprites/spider_boss.png",
+        "bytes": 115641,
+        "sha256": "681f10a07231ee84b304c4bdeacae0835dbf70e835e378fc74e12da22650a447",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_boss.png",
+        "width": 373,
+        "height": 351,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_boss.png",
+        "sha256": null,
+        "width": 373,
+        "height": 351,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-dragon",
+      "kind": "sprite",
+      "identityId": "the-horizon-stitcher-portrait",
+      "legacySource": "assets/sprites/spider_dragon.png",
+      "aliases": ["spider_dragon"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider_dragon.png",
+      "width": 895,
+      "height": 659,
+      "baseline": {
+        "path": "assets/sprites/spider_dragon.png",
+        "bytes": 272164,
+        "sha256": "fd7c782189355418d6b5d462d0b2a4dc79542b4ca9abc6fd709d9bda4986b505",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_dragon.png",
+        "width": 895,
+        "height": 659,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_dragon.png",
+        "sha256": null,
+        "width": 895,
+        "height": 659,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-fire",
+      "kind": "sprite",
+      "identityId": "emberreef-weaver-portrait",
+      "legacySource": "assets/sprites/spider_fire.png",
+      "aliases": ["spider_fire"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider_fire.png",
+      "width": 486,
+      "height": 366,
+      "baseline": {
+        "path": "assets/sprites/spider_fire.png",
+        "bytes": 116238,
+        "sha256": "9260b3f37cdc588ba5bf276bd742503eb77657b97002a026f2d01d5413a931ac",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_fire.png",
+        "width": 486,
+        "height": 366,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_fire.png",
+        "sha256": null,
+        "width": 486,
+        "height": 366,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-green",
+      "kind": "sprite",
+      "identityId": "verdigris-spinner-portrait",
+      "legacySource": "assets/sprites/spider_green.png",
+      "aliases": ["spider_green"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider_green.png",
+      "width": 140,
+      "height": 107,
+      "baseline": {
+        "path": "assets/sprites/spider_green.png",
+        "bytes": 35063,
+        "sha256": "a692a29b9fd7493a8b1dfb6be74d3510a72510c1ac7951fc16c23b05796cd5f2",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_green.png",
+        "width": 140,
+        "height": 107,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_green.png",
+        "sha256": null,
+        "width": 140,
+        "height": 107,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-red",
+      "kind": "sprite",
+      "identityId": "rustvein-spinner-portrait",
+      "legacySource": "assets/sprites/spider_red.png",
+      "aliases": ["spider_red"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/spider_red.png",
+      "width": 145,
+      "height": 110,
+      "baseline": {
+        "path": "assets/sprites/spider_red.png",
+        "bytes": 35085,
+        "sha256": "2c581adc8dfdf61cfe0e85e70a5cc083fe48c31c27a4ab06c2d132f1289b2b1d",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_red.png",
+        "width": 145,
+        "height": 110,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_red.png",
+        "sha256": null,
+        "width": 145,
+        "height": 110,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-spider-spirit",
+      "kind": "sprite",
+      "identityId": "the-unrung-witness-portrait",
+      "legacySource": "assets/sprites/spider_spirit.png",
+      "aliases": ["spider_spirit"],
+      "unusedButRequired": true,
+      "contextIds": [],
+      "path": "assets/sprites/spider_spirit.png",
+      "width": 282,
+      "height": 626,
+      "baseline": {
+        "path": "assets/sprites/spider_spirit.png",
+        "bytes": 107322,
+        "sha256": "9bddb3a6d144020aa3b641eddc09fb7574002f8831d48571506f9d4a5010455b",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/spider_spirit.png",
+        "width": 282,
+        "height": 626,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/spider_spirit.png",
+        "sha256": null,
+        "width": 282,
+        "height": 626,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-thanatos",
+      "kind": "sprite",
+      "identityId": "the-last-sounding-portrait",
+      "legacySource": "assets/sprites/thanatos.png",
+      "aliases": ["thanatos"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/thanatos.png",
+      "width": 748,
+      "height": 636,
+      "baseline": {
+        "path": "assets/sprites/thanatos.png",
+        "bytes": 190770,
+        "sha256": "f2159acd7ee4ec143eaaa2249f7cb5cfb404cdb7af2b2e97c0de7b44e2c90444",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/thanatos.png",
+        "width": 748,
+        "height": 636,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/thanatos.png",
+        "sha256": null,
+        "width": 748,
+        "height": 636,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-tiamat",
+      "kind": "sprite",
+      "identityId": "the-anchor-votary-portrait",
+      "legacySource": "assets/sprites/tiamat.png",
+      "aliases": ["tiamat"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/tiamat.png",
+      "width": 435,
+      "height": 263,
+      "baseline": {
+        "path": "assets/sprites/tiamat.png",
+        "bytes": 86424,
+        "sha256": "54cd51a284133660407dc34702c7e5d4bcc7f2f0dcea3d1db3f0a2be022c2988",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/tiamat.png",
+        "width": 435,
+        "height": 263,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/tiamat.png",
+        "sha256": null,
+        "width": 435,
+        "height": 263,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-wolf",
+      "kind": "sprite",
+      "identityId": "surf-stalker-portrait",
+      "legacySource": "assets/sprites/wolf.png",
+      "aliases": ["wolf"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/wolf.png",
+      "width": 207,
+      "height": 202,
+      "baseline": {
+        "path": "assets/sprites/wolf.png",
+        "bytes": 49225,
+        "sha256": "7d305770c2b665143ee1680aa2fc58278f27e821849e4969e09387e41091ba44",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/wolf.png",
+        "width": 207,
+        "height": 202,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/wolf.png",
+        "sha256": null,
+        "width": 207,
+        "height": 202,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-wolf-black",
+      "kind": "sprite",
+      "identityId": "tarwake-stalker-portrait",
+      "legacySource": "assets/sprites/wolf_black.png",
+      "aliases": ["wolf_black"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/wolf_black.png",
+      "width": 203,
+      "height": 202,
+      "baseline": {
+        "path": "assets/sprites/wolf_black.png",
+        "bytes": 46577,
+        "sha256": "258984e18b52ce7e294ce8a6bb4ed74ead3edae66fff6931584515faa531ec67",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/wolf_black.png",
+        "width": 203,
+        "height": 202,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/wolf_black.png",
+        "sha256": null,
+        "width": 203,
+        "height": 202,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-wolf-boss",
+      "kind": "sprite",
+      "identityId": "the-hush-at-the-jetty-portrait",
+      "legacySource": "assets/sprites/wolf_boss.png",
+      "aliases": ["wolf_boss"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/wolf_boss.png",
+      "width": 137,
+      "height": 139,
+      "baseline": {
+        "path": "assets/sprites/wolf_boss.png",
+        "bytes": 39081,
+        "sha256": "e0c1a2cf96112d390d351f1372e92e286ce754fd7f0dff68c66418fe614c86eb",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/wolf_boss.png",
+        "width": 137,
+        "height": 139,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/wolf_boss.png",
+        "sha256": null,
+        "width": 137,
+        "height": 139,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-wolf-winter",
+      "kind": "sprite",
+      "identityId": "rimewake-stalker-portrait",
+      "legacySource": "assets/sprites/wolf_winter.png",
+      "aliases": ["wolf_winter"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/wolf_winter.png",
+      "width": 211,
+      "height": 203,
+      "baseline": {
+        "path": "assets/sprites/wolf_winter.png",
+        "bytes": 51832,
+        "sha256": "82452860fa7cac31ce201a3c18f70b9f5b5b9a700587ea0b9401aecfce90335f",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/wolf_winter.png",
+        "width": 211,
+        "height": 203,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/wolf_winter.png",
+        "sha256": null,
+        "width": 211,
+        "height": 203,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-zalaras",
+      "kind": "sprite",
+      "identityId": "the-sovereign-below-sound-portrait",
+      "legacySource": "assets/sprites/zalaras.png",
+      "aliases": ["zalaras"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/zalaras.png",
+      "width": 663,
+      "height": 489,
+      "baseline": {
+        "path": "assets/sprites/zalaras.png",
+        "bytes": 232129,
+        "sha256": "6b9977a45a01d511b617d74a35ef7817e969b3505e16faaa675545bb1299b0ce",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/zalaras.png",
+        "width": 663,
+        "height": 489,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/zalaras.png",
+        "sha256": null,
+        "width": 663,
+        "height": 489,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-zodiac-aries",
+      "kind": "sprite",
+      "identityId": "the-spiral-breaker-portrait",
+      "legacySource": "assets/sprites/zodiac_aries.png",
+      "aliases": ["zodiac_aries"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/zodiac_aries.png",
+      "width": 586,
+      "height": 397,
+      "baseline": {
+        "path": "assets/sprites/zodiac_aries.png",
+        "bytes": 258159,
+        "sha256": "53e4e31e8acc3b4c782f014f52e5de2a4297796a496c5e91b82781de27256032",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/zodiac_aries.png",
+        "width": 586,
+        "height": 397,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/zodiac_aries.png",
+        "sha256": null,
+        "width": 586,
+        "height": 397,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "sprite-zodiac-cancer",
+      "kind": "sprite",
+      "identityId": "the-lockgate-carapace-portrait",
+      "legacySource": "assets/sprites/zodiac_cancer.png",
+      "aliases": ["zodiac_cancer"],
+      "unusedButRequired": false,
+      "contextIds": ["encounter/portrait"],
+      "path": "assets/sprites/zodiac_cancer.png",
+      "width": 617,
+      "height": 296,
+      "baseline": {
+        "path": "assets/sprites/zodiac_cancer.png",
+        "bytes": 141726,
+        "sha256": "277724ff27b67b3cb67c5eb682da33adf569a389ff492befbdd398127bd2a864",
+        "snapshotPath": "tests/fixtures/legacy/source/assets/sprites/zodiac_cancer.png",
+        "width": 617,
+        "height": 296,
+        "alpha": true,
+        "icoEntries": null
+      },
+      "delivered": {
+        "path": "assets/sprites/zodiac_cancer.png",
+        "sha256": null,
+        "width": 617,
+        "height": 296,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-sword",
+      "kind": "symbol",
+      "identityId": "relic-sword",
+      "legacySource": null,
+      "aliases": ["Sword"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "sword/inventory",
+        "sword/equipped",
+        "sword/detail",
+        "sword/sale",
+        "sword/dungeon-reward",
+        "sword/combat-reward"
+      ],
+      "path": "assets/art/relic-sword.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-sword.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-axe",
+      "kind": "symbol",
+      "identityId": "relic-axe",
+      "legacySource": null,
+      "aliases": ["Axe"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "axe/inventory",
+        "axe/equipped",
+        "axe/detail",
+        "axe/sale",
+        "axe/dungeon-reward",
+        "axe/combat-reward"
+      ],
+      "path": "assets/art/relic-axe.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-axe.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-hammer",
+      "kind": "symbol",
+      "identityId": "relic-hammer",
+      "legacySource": null,
+      "aliases": ["Hammer"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "hammer/inventory",
+        "hammer/equipped",
+        "hammer/detail",
+        "hammer/sale",
+        "hammer/dungeon-reward",
+        "hammer/combat-reward"
+      ],
+      "path": "assets/art/relic-hammer.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-hammer.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-dagger",
+      "kind": "symbol",
+      "identityId": "relic-dagger",
+      "legacySource": null,
+      "aliases": ["Dagger"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "dagger/inventory",
+        "dagger/equipped",
+        "dagger/detail",
+        "dagger/sale",
+        "dagger/dungeon-reward",
+        "dagger/combat-reward"
+      ],
+      "path": "assets/art/relic-dagger.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-dagger.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-flail",
+      "kind": "symbol",
+      "identityId": "relic-flail",
+      "legacySource": null,
+      "aliases": ["Flail"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "flail/inventory",
+        "flail/equipped",
+        "flail/detail",
+        "flail/sale",
+        "flail/dungeon-reward",
+        "flail/combat-reward"
+      ],
+      "path": "assets/art/relic-flail.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-flail.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-scythe",
+      "kind": "symbol",
+      "identityId": "relic-scythe",
+      "legacySource": null,
+      "aliases": ["Scythe"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "scythe/inventory",
+        "scythe/equipped",
+        "scythe/detail",
+        "scythe/sale",
+        "scythe/dungeon-reward",
+        "scythe/combat-reward"
+      ],
+      "path": "assets/art/relic-scythe.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-scythe.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-plate",
+      "kind": "symbol",
+      "identityId": "relic-plate",
+      "legacySource": null,
+      "aliases": ["Plate"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "plate/inventory",
+        "plate/equipped",
+        "plate/detail",
+        "plate/sale",
+        "plate/dungeon-reward",
+        "plate/combat-reward"
+      ],
+      "path": "assets/art/relic-plate.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-plate.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-chain",
+      "kind": "symbol",
+      "identityId": "relic-chain",
+      "legacySource": null,
+      "aliases": ["Chain"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "chain/inventory",
+        "chain/equipped",
+        "chain/detail",
+        "chain/sale",
+        "chain/dungeon-reward",
+        "chain/combat-reward"
+      ],
+      "path": "assets/art/relic-chain.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-chain.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-leather",
+      "kind": "symbol",
+      "identityId": "relic-leather",
+      "legacySource": null,
+      "aliases": ["Leather"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "leather/inventory",
+        "leather/equipped",
+        "leather/detail",
+        "leather/sale",
+        "leather/dungeon-reward",
+        "leather/combat-reward"
+      ],
+      "path": "assets/art/relic-leather.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-leather.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-tower",
+      "kind": "symbol",
+      "identityId": "relic-tower",
+      "legacySource": null,
+      "aliases": ["Tower"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "tower/inventory",
+        "tower/equipped",
+        "tower/detail",
+        "tower/sale",
+        "tower/dungeon-reward",
+        "tower/combat-reward"
+      ],
+      "path": "assets/art/relic-tower.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-tower.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-kite",
+      "kind": "symbol",
+      "identityId": "relic-kite",
+      "legacySource": null,
+      "aliases": ["Kite"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "kite/inventory",
+        "kite/equipped",
+        "kite/detail",
+        "kite/sale",
+        "kite/dungeon-reward",
+        "kite/combat-reward"
+      ],
+      "path": "assets/art/relic-kite.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-kite.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-buckler",
+      "kind": "symbol",
+      "identityId": "relic-buckler",
+      "legacySource": null,
+      "aliases": ["Buckler"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "buckler/inventory",
+        "buckler/equipped",
+        "buckler/detail",
+        "buckler/sale",
+        "buckler/dungeon-reward",
+        "buckler/combat-reward"
+      ],
+      "path": "assets/art/relic-buckler.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-buckler.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-great-helm",
+      "kind": "symbol",
+      "identityId": "relic-great-helm",
+      "legacySource": null,
+      "aliases": ["Great Helm"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "great-helm/inventory",
+        "great-helm/equipped",
+        "great-helm/detail",
+        "great-helm/sale",
+        "great-helm/dungeon-reward",
+        "great-helm/combat-reward"
+      ],
+      "path": "assets/art/relic-great-helm.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-great-helm.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "relic-horned-helm",
+      "kind": "symbol",
+      "identityId": "relic-horned-helm",
+      "legacySource": null,
+      "aliases": ["Horned Helm"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "horned-helm/inventory",
+        "horned-helm/equipped",
+        "horned-helm/detail",
+        "horned-helm/sale",
+        "horned-helm/dungeon-reward",
+        "horned-helm/combat-reward"
+      ],
+      "path": "assets/art/relic-horned-helm.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/relic-horned-helm.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "title",
+      "kind": "symbol",
+      "identityId": "title",
+      "legacySource": null,
+      "aliases": ["title"],
+      "unusedButRequired": false,
+      "contextIds": ["title/title"],
+      "path": "assets/art/title.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/title.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-hp",
+      "kind": "symbol",
+      "identityId": "stat-hp",
+      "legacySource": null,
+      "aliases": ["health"],
+      "unusedButRequired": false,
+      "contextIds": ["health/main", "health/bonus", "health/allocation"],
+      "path": "assets/art/stat-hp.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-hp.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-attack",
+      "kind": "symbol",
+      "identityId": "stat-attack",
+      "legacySource": null,
+      "aliases": ["attack"],
+      "unusedButRequired": false,
+      "contextIds": ["attack/main", "attack/bonus", "attack/allocation"],
+      "path": "assets/art/stat-attack.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-attack.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-defense",
+      "kind": "symbol",
+      "identityId": "stat-defense",
+      "legacySource": null,
+      "aliases": ["defense"],
+      "unusedButRequired": false,
+      "contextIds": ["defense/main", "defense/bonus", "defense/allocation"],
+      "path": "assets/art/stat-defense.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-defense.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-attack-speed",
+      "kind": "symbol",
+      "identityId": "stat-attack-speed",
+      "legacySource": null,
+      "aliases": ["attack-speed"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "attack-speed/main",
+        "attack-speed/bonus",
+        "attack-speed/allocation"
+      ],
+      "path": "assets/art/stat-attack-speed.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-attack-speed.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-vampirism",
+      "kind": "symbol",
+      "identityId": "stat-vampirism",
+      "legacySource": null,
+      "aliases": ["vampirism"],
+      "unusedButRequired": false,
+      "contextIds": ["vampirism/main", "vampirism/bonus"],
+      "path": "assets/art/stat-vampirism.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-vampirism.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-critical-rate",
+      "kind": "symbol",
+      "identityId": "stat-critical-rate",
+      "legacySource": null,
+      "aliases": ["critical-rate"],
+      "unusedButRequired": false,
+      "contextIds": ["critical-rate/main", "critical-rate/bonus"],
+      "path": "assets/art/stat-critical-rate.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-critical-rate.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "stat-critical-damage",
+      "kind": "symbol",
+      "identityId": "stat-critical-damage",
+      "legacySource": null,
+      "aliases": ["critical-damage"],
+      "unusedButRequired": false,
+      "contextIds": ["critical-damage/main", "critical-damage/bonus"],
+      "path": "assets/art/stat-critical-damage.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/stat-critical-damage.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "treasure",
+      "kind": "symbol",
+      "identityId": "treasure",
+      "legacySource": null,
+      "aliases": ["treasure"],
+      "unusedButRequired": false,
+      "contextIds": ["treasure/treasure", "treasure/chamber"],
+      "path": "assets/art/treasure.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/treasure.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "currency",
+      "kind": "symbol",
+      "identityId": "currency",
+      "legacySource": null,
+      "aliases": ["currency"],
+      "unusedButRequired": false,
+      "contextIds": [
+        "currency/header",
+        "currency/gold",
+        "currency/victory",
+        "currency/blessing",
+        "currency/curse",
+        "currency/sale-control"
+      ],
+      "path": "assets/art/currency.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/currency.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    },
+    {
+      "id": "missing-art",
+      "kind": "fallback",
+      "identityId": "missing-art",
+      "legacySource": null,
+      "aliases": [],
+      "unusedButRequired": false,
+      "contextIds": ["missing-art/portrait", "missing-art/symbol"],
+      "path": "assets/art/missing-art.png",
+      "width": null,
+      "height": null,
+      "baseline": null,
+      "delivered": {
+        "path": "assets/art/missing-art.png",
+        "sha256": null,
+        "width": null,
+        "height": null,
+        "alpha": null,
+        "icoEntries": null
+      },
+      "generation": {
+        "promptPath": null,
+        "masterPath": null,
+        "masterSha256": null,
+        "timestamp": null,
+        "provenance": null
+      },
+      "transform": {
+        "processor": "sharp",
+        "version": null,
+        "fit": "contain",
+        "padding": "transparent",
+        "options": null
+      },
+      "contexts": [],
+      "review": {
+        "status": "OPEN",
+        "reviewer": null,
+        "date": null,
+        "evidence": [],
+        "findings": []
+      }
+    }
+  ]
+}

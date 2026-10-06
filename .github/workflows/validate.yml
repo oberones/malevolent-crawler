@@ -44,6 +44,9 @@ jobs:
         shell: bash
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Unit tests compare the frozen source bytes to the original Git blobs.
+          fetch-depth: ${{ matrix.check == 'unit' && '0' || '1' }}
       - uses: actions/setup-node@v4
         with:
           node-version: 24.21.0

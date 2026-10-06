@@ -1,0 +1,46 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/legacy-symbol-contexts.spec.mjs --project=chromium --workers=1 -g original symbol contexts 360 text 1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:11959) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:11960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (1.2s)
+
+
+  1) [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 19
+    Received: 38
+
+      211 |           const currentSoundCount = await page.evaluate(() => Howler._howls.length);
+      212 |           soundCount ??= currentSoundCount;
+    > 213 |           expect(currentSoundCount).toBe(soundCount);
+          |                                     ^
+      214 |           const [row] = await measureSymbols(page, [context]);
+      215 |           expect(row.box.width).toBeGreaterThan(0);
+      216 |           expect(row.fontStatus).toBe("loaded");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:213:37
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-symbol--b1af5--symbol-contexts-360-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-symbol--b1af5--symbol-contexts-360-text-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-symbol--b1af5--symbol-contexts-360-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-symbol--b1af5--symbol-contexts-360-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 

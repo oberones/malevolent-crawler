@@ -43,3 +43,12 @@ Total: **318 errors**. New setup config and tests have no lint findings. The own
 | `specs/001-cosmic-horror-refactor/spec.md`                        | T046  |
 
 Ignore verification: Git repository confirmed. `.gitignore` now covers dependencies, build/test/cache output, secrets/environment files and editor/OS noise. Flat ESLint ignores and Prettier ignores cover owned-tool/vendor/generated-evidence exclusions. `package.json` is private, so `.npmignore` is N/A. No Docker build context/Dockerfile, Terraform files or Helm chart exists; their ignore files are N/A. CI uses a prebuilt container, not a Docker build.
+
+## Phase 2G resolution — 2026-10-06
+
+The historical inventory above is retained as baseline evidence. T046 resolved its
+lint/format findings after characterization and guarded-bridge regressions. Current
+repository-wide lint and format checks pass; see [foundation evidence](foundation.md).
+The four state-owner declarations retain narrowly explained `prefer-const` exceptions
+for cross-script reassignment. Other story-specific safety/accessibility/lifecycle
+work remains open and is not certified by lint or formatting.

@@ -1,0 +1,41 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/dialog-service.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:36689) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 3 workers
+
+(node:36692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/integration/dialog-service.spec.mjs:107:1 › explicit dismissal policy and disposal restore the page without confirmation (169ms)
+  ✓   1 [chromium] › tests/integration/dialog-service.spec.mjs:51:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (253ms)
+  ✓   3 [chromium] › tests/integration/dialog-service.spec.mjs:84:1 › repeated open/close restores attributes and removes ownership (303ms)
+  ✓   4 [chromium] › tests/integration/dialog-service.spec.mjs:132:1 › lifecycle invalidation restores an open modal (172ms)
+(node:36715) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36716) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [firefox] › tests/integration/dialog-service.spec.mjs:51:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (916ms)
+  ✓   8 [firefox] › tests/integration/dialog-service.spec.mjs:132:1 › lifecycle invalidation restores an open modal (301ms)
+  ✓   7 [firefox] › tests/integration/dialog-service.spec.mjs:107:1 › explicit dismissal policy and disposal restore the page without confirmation (951ms)
+(node:36774) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [firefox] › tests/integration/dialog-service.spec.mjs:84:1 › repeated open/close restores attributes and removes ownership (944ms)
+(node:36794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [webkit] › tests/integration/dialog-service.spec.mjs:51:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (525ms)
+  ✓  10 [webkit] › tests/integration/dialog-service.spec.mjs:84:1 › repeated open/close restores attributes and removes ownership (586ms)
+  ✓  12 [webkit] › tests/integration/dialog-service.spec.mjs:132:1 › lifecycle invalidation restores an open modal (297ms)
+  ✓  11 [webkit] › tests/integration/dialog-service.spec.mjs:107:1 › explicit dismissal policy and disposal restore the page without confirmation (370ms)
+
+  12 passed (4.5s)

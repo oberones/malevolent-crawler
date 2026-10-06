@@ -67,3 +67,21 @@ test("undeclared assignments stay errors in every scope", async () => {
     );
   }
 });
+
+// Trusted VM fixture scripts have explicit browser globals and documented lexical exports.
+test("trusted classic fixture scope accepts declared exports and rejects implicit writes", async () => {
+  const [result] = await eslint.lintText(
+    '/* exported probe */\nconst probe = document.querySelector("#probe");',
+    { filePath: "tests/fixtures/harness/trusted.js" },
+  );
+  assert.equal(result.errorCount, 0, JSON.stringify(result.messages));
+  const [invalid] = await eslint.lintText("unownedFixtureGlobal = 1;", {
+    filePath: "tests/fixtures/harness/trusted.js",
+  });
+  assert.ok(
+    invalid.messages.some(
+      // Fixture scope does not grant a general escape from undeclared-write checks.
+      (message) => message.ruleId === "no-undef",
+    ),
+  );
+});

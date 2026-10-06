@@ -1,0 +1,46 @@
+npm notice run malevolent-crawler@0.0.0 test:unit
+npm notice run node --test "tests/unit/**/*.test.mjs"
+✔ immutable source tree matches local Git blobs and the recorded aggregate hash (869.950666ms)
+✔ all 55 original raster files retain dimensions, alpha headers and full bytes (103.323667ms)
+✔ early fixture is reproduced by the real legacy submit handler (6.505042ms)
+✔ captured outcome: normal (3.313667ms)
+✔ captured outcome: guardian (3.299125ms)
+✔ captured outcome: boss (2.439708ms)
+✔ captured outcome: chest-mimic (2.930208ms)
+✔ captured outcome: door-mimic (2.803375ms)
+✔ captured outcome: variant-1 (2.432584ms)
+✔ captured outcome: variant-2 (2.3745ms)
+✔ captured outcome: fractional-exp (2.243542ms)
+✔ captured outcome: settled-victory (4.074959ms)
+✔ captured outcome: settled-death (2.359333ms)
+✔ corpus covers all required save stages, duplicates, nulls and fractional EXP (1.131166ms)
+✔ duplicate item fixture originates in real legacy equipment generation (2.316458ms)
+✔ legacy export/reset retention: early (2.92525ms)
+✔ legacy export/reset retention: normal (2.385875ms)
+✔ legacy export/reset retention: full-duplicate-equipment (2.368625ms)
+✔ legacy export/reset retention: optional-null-derived (2.111125ms)
+✔ trusted classic lexical bindings use explicit DOM and ordered random draws (2.205417ms)
+✔ missing DOM selectors fail explicitly (1.658333ms)
+✔ fresh globals and timer disposal are isolated per case (1.605667ms)
+✔ data values are cloned and never interpreted as executable code (1.226459ms)
+✔ legacy inclusive integer and decimal calculations use exactly one draw each (1.383125ms)
+✔ random tape records order, rejects invalid values, exhaustion and leftovers (0.876ms)
+✔ clock orders same-time callbacks, repeats and cancels without wall time (0.735125ms)
+✔ clock supports repeated ticks and callbacks scheduled by callbacks (0.117667ms)
+✔ storage injects key-specific read/write failures and retains exact strings (0.188792ms)
+✔ audio records playback and disposes every instance once (0.167667ms)
+✔ dependency instances are isolated (0.09375ms)
+✔ classic ownership declarations remain legal (65.781209ms)
+✔ classic scripts can use the documented shared owners (6.237416ms)
+✔ browser modules reject ambient engine and Node bindings (7.360291ms)
+✔ tool modules get Node capabilities but no DOM (4.548083ms)
+✔ undeclared assignments stay errors in every scope (3.546084ms)
+✔ trusted classic fixture scope accepts declared exports and rejects implicit writes (3.813958ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1080.028959

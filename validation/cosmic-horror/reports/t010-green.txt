@@ -1,0 +1,13 @@
+✔ random tape records order, rejects invalid values, exhaustion and leftovers (1.628541ms)
+✔ clock orders same-time callbacks, repeats and cancels without wall time (0.91525ms)
+✔ storage injects key-specific read/write failures and retains exact strings (0.541334ms)
+✔ audio records playback and disposes every instance once (0.475833ms)
+✔ dependency instances are isolated (0.150958ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 64.955709

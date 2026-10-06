@@ -73,14 +73,23 @@ npm audit --audit-level=high
 npm run validate:evidence
 ```
 
-Phase 1 verified 5 tooling unit tests, 6 HTTP/MIME integration cases and 18 browser
-setup/input cases across Chromium, Firefox and WebKit at the three planned
-viewports. These tests establish setup only. Gameplay characterization and
-story suites start in Phase 2. Lint/format commands are configured and report
-[inventoried legacy debt](validation/cosmic-horror/legacy-debt.md); they are not
-currently passing repository-wide. Art preparation/validation, evidence validation
-and performance scripts are reserved for their later implementation tasks and
-currently exit nonzero because those tools/suites do not exist.
+Phase 1 and the Phase 2A–2G foundations are implemented. The unit suite passes
+2,365 tests, including 1,118 candidate gameplay replays against the frozen rules.
+The integration/browser matrix passes 171 checks across Chromium, Firefox and
+WebKit. Repository-wide lint and formatting pass. [Foundation results](validation/cosmic-horror/foundation.md)
+record guarded startup, completed-transition saves, retained legacy source bytes
+and visible persistence failures. Phase 3A narrative work is next.
+
+Art and release-evidence validators intentionally remain incomplete pending
+original-art generation, reviews and qualification. [Phase 2F results](validation/cosmic-horror/phase-2f.md)
+record 190 immutable baseline timing samples with warm-cache proof. Candidate
+performance comparison and full recovery/import/lifecycle acceptance remain OPEN.
+
+To prepare one recorded generated master, run
+`npm run art:prepare -- <manifest-asset-id>`. The manifest row must first contain its
+master path and explicit output dimensions. Record the printed delivered hash and
+transform in that row, then validate. Preparation never fills review fields or
+claims originality. The 80 required art rows remain OPEN.
 
 See the [Phase 1 results](validation/cosmic-horror/phase-1.md),
 [environment](validation/cosmic-horror/environment.json),

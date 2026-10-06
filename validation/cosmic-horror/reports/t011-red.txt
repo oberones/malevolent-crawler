@@ -1,0 +1,121 @@
+✖ trusted classic lexical bindings use explicit DOM and ordered random draws (0.822ms)
+✖ missing DOM selectors fail explicitly (0.1455ms)
+✖ fresh globals and timer disposal are isolated per case (0.564917ms)
+✖ data values are cloned and never interpreted as executable code (0.890083ms)
+✖ legacy inclusive integer and decimal calculations use exactly one draw each (0.757208ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 0
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 47.083042
+
+✖ failing tests:
+
+test at tests/unit/legacy-harness.test.mjs:7:1
+✖ trusted classic lexical bindings use explicit DOM and ordered random draws (0.822ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 0.75
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-harness.test.mjs:10:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 0.75,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-harness.test.mjs:18:1
+✖ missing DOM selectors fail explicitly (0.1455ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-harness.test.mjs:20:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /Missing DOM stub.*#probe/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-harness.test.mjs:24:1
+✖ fresh globals and timer disposal are isolated per case (0.564917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + {}
+  - {
+  -   count: 2
+  - }
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-harness.test.mjs:28:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {},
+    expected: { count: 2 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-harness.test.mjs:36:1
+✖ data values are cloned and never interpreted as executable code (0.890083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 4
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-harness.test.mjs:40:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 4,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-harness.test.mjs:48:1
+✖ legacy inclusive integer and decimal calculations use exactly one draw each (0.757208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 3
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-harness.test.mjs:51:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

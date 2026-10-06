@@ -1,0 +1,25 @@
+{
+  "baselineSha256": "9f9e71a166850763aefb0fe417428e6986622892c89abfe68b476219b077ce82",
+  "diagnostics": [
+    {
+      "width": 1440,
+      "durationMs": 4.799999998882413,
+      "equipped": 6,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "screenshot": "validation/cosmic-horror/performance/baseline-diagnostics/inventory-1440.png",
+      "originalScreenshot": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/performance-load-and-art-m-12479-and-decoded-art-performance-chromium/inventory-1440.png",
+      "sha256": "566f2934c2d5fb664a64628259cfdb19b705e05987c558a97db27d496fb28013"
+    },
+    {
+      "width": 360,
+      "durationMs": 3,
+      "equipped": 6,
+      "scrollWidth": 360,
+      "viewportWidth": 360,
+      "screenshot": "validation/cosmic-horror/performance/baseline-diagnostics/inventory-360.png",
+      "originalScreenshot": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/performance-load-and-art-m-12479-and-decoded-art-performance-chromium/inventory-360.png",
+      "sha256": "c14d9130b5f0c706c0429982f73c306f8ee060524b638653257c175eb85a3aaa"
+    }
+  ]
+}

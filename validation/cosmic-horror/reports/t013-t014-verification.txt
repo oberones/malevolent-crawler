@@ -1,0 +1,27 @@
+✔ immutable source tree matches local Git blobs and the recorded aggregate hash (889.529375ms)
+✔ all 55 original raster files retain dimensions, alpha headers and full bytes (102.43775ms)
+✔ early fixture is reproduced by the real legacy submit handler (6.537292ms)
+✔ captured outcome: normal (2.789959ms)
+✔ captured outcome: guardian (2.538375ms)
+✔ captured outcome: boss (2.276209ms)
+✔ captured outcome: chest-mimic (2.757458ms)
+✔ captured outcome: door-mimic (2.287042ms)
+✔ captured outcome: variant-1 (2.193709ms)
+✔ captured outcome: variant-2 (2.327166ms)
+✔ captured outcome: fractional-exp (2.141209ms)
+✔ captured outcome: settled-victory (4.244208ms)
+✔ captured outcome: settled-death (2.305208ms)
+✔ corpus covers all required save stages, duplicates, nulls and fractional EXP (1.13125ms)
+✔ duplicate item fixture originates in real legacy equipment generation (1.947958ms)
+✔ legacy export/reset retention: early (2.712167ms)
+✔ legacy export/reset retention: normal (1.944791ms)
+✔ legacy export/reset retention: full-duplicate-equipment (1.97575ms)
+✔ legacy export/reset retention: optional-null-derived (2.070125ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1671.5265

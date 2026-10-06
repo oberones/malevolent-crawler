@@ -1,0 +1,619 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oberon/.nvm/versions/node/v24.21.0/bin/node",
+      "/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/.bin/playwright",
+      "test",
+      "tests/integration"
+    ],
+    "configFile": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/playwright.config.mjs",
+    "rootDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "requiredViewports": [
+        {
+          "width": 360,
+          "height": 800
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+      "performanceStage": null,
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 6,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "gracefulShutdown": {
+        "signal": "SIGTERM",
+        "timeout": 5000
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "integration/legacy-browser-fixtures.spec.mjs",
+      "file": "integration/legacy-browser-fixtures.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.526Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-3b57b38f4ea22eb6c591",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.532Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-75689bbc0e8836050137",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 1311,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.523Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-2daada527ed170abaace",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 1874,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.507Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-43b2f908fbe5a01081b0",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:33.219Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-ce0cb94142efdfc69794",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1152,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:33.265Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-5e44e1658fc3d8b8c24f",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration/static-server.spec.mjs",
+      "file": "integration/static-server.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 43,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.523Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-f106dcf1ef1804fc233a",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 68,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.520Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-262f01e6f175c725c19c",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 34,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.861Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-1504bcf7a63ce73ea3f6",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 66,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:32.885Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-cad4be31bc3fa7948aaa",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 49,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:33.825Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-02011322321f40ee2b28",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 50,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T12:53:33.897Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-c80f68d7534c1bf6b6ff",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T12:53:31.832Z",
+    "duration": 3667.694,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

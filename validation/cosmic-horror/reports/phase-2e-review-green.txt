@@ -1,0 +1,22 @@
+✔ preparation preserves proportions with transparent padding and records exact odd dimensions (20.406333ms)
+✔ preparation refuses unsafe destinations and preserves immutable bytes (4.389708ms)
+✔ PNG inspection rejects wrong-size, opaque, blank, RGB and corrupt images (2.579208ms)
+✔ ICO requires exactly one matching 127 by 128 PNG entry (1.5755ms)
+✔ manifest accepts complete fixture and rejects missing mappings, provenance and evidence (11.718167ms)
+▶ manifest rejects altered baselines, bogus provenance and unrecorded export settings
+  ✔ m=>{m.entries[0].generation.provenance={tool:'imagegen',requestId:null};} (0.693291ms)
+  ✔ m=>{m.entries[0].transform.options.palette=true;} (1.36925ms)
+  ✔ m=>{m.entries[0].delivered.alpha=false;} (0.606834ms)
+✔ manifest rejects altered baselines, bogus provenance and unrecorded export settings (8.395958ms)
+✔ evidence accepts complete synthetic manual/automated records (3.564833ms)
+✔ evidence refuses fabricated, absent, unresolved and mismatched records (10.757042ms)
+✔ evidence checks justified N/A and every art review obligation (2.084959ms)
+✔ N/A still rejects unresolved findings (0.527417ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 121.732834

@@ -43,18 +43,18 @@
 
 ### Requirement coverage review
 
-| Requirements | Acceptance coverage | Outcomes |
-| --- | --- | --- |
-| FR-001, FR-002, FR-015 | Story 1 scenarios 1–4; setting and credits review | SC-001 |
-| FR-003, FR-004 | Story 2 scenarios 1–4; Story 1 scenario 3; repeat-action and boundary cases | SC-003, SC-004 |
-| FR-005 | Story 3 scenarios 1–4; category/rarity matrix | SC-003, SC-004 |
-| FR-006 | Story 2 scenario 1; Story 3 scenario 2; Story 5 scenarios 1–3 | SC-001, SC-003, SC-005 |
-| FR-007, FR-008, FR-009, FR-010, FR-011 | Story 4 scenarios 1–4; complete art inventory and generation/visual evidence | SC-002, SC-003, SC-007 |
-| FR-012 | Story 5 scenarios 1–3 | SC-005 |
-| FR-013 | Story 4 scenario 5; Story 5 scenarios 4–5 | SC-005, SC-006 |
-| FR-014 | Story 2 scenario 3; Story 3 scenario 3; Story 4 scenarios 2–3 | SC-004, SC-007 |
-| QR-001, QR-002, QR-005 | All affected journeys; declared viewport/input matrix and manual visual/focus review | SC-003, SC-006 |
-| QR-003 | Story 5 and interrupted/invalid-data edge cases | SC-005 |
-| QR-004 | Matched cold-start and encounter workloads with at least five measurements each | SC-007 |
+| Requirements                           | Acceptance coverage                                                                  | Outcomes               |
+| -------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------- |
+| FR-001, FR-002, FR-015                 | Story 1 scenarios 1–4; setting and credits review                                    | SC-001                 |
+| FR-003, FR-004                         | Story 2 scenarios 1–4; Story 1 scenario 3; repeat-action and boundary cases          | SC-003, SC-004         |
+| FR-005                                 | Story 3 scenarios 1–4; category/rarity matrix                                        | SC-003, SC-004         |
+| FR-006                                 | Story 2 scenario 1; Story 3 scenario 2; Story 5 scenarios 1–3                        | SC-001, SC-003, SC-005 |
+| FR-007, FR-008, FR-009, FR-010, FR-011 | Story 4 scenarios 1–4; complete art inventory and generation/visual evidence         | SC-002, SC-003, SC-007 |
+| FR-012                                 | Story 5 scenarios 1–3                                                                | SC-005                 |
+| FR-013                                 | Story 4 scenario 5; Story 5 scenarios 4–5                                            | SC-005, SC-006         |
+| FR-014                                 | Story 2 scenario 3; Story 3 scenario 3; Story 4 scenarios 2–3                        | SC-004, SC-007         |
+| QR-001, QR-002, QR-005                 | All affected journeys; declared viewport/input matrix and manual visual/focus review | SC-003, SC-006         |
+| QR-003                                 | Story 5 and interrupted/invalid-data edge cases                                      | SC-005                 |
+| QR-004                                 | Matched cold-start and encounter workloads with at least five measurements each      | SC-007                 |
 
 Items marked incomplete require spec updates before `/speckit.clarify` or `/speckit.plan`.

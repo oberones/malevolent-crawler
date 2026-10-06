@@ -1,0 +1,14 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write eslint.config.mjs tests/helpers tests/fixtures/harness tests/unit/tooling-scopes.test.mjs tests/unit/test-harness.test.mjs tests/unit/legacy-harness.test.mjs tests/integration/legacy-browser-fixtures.spec.mjs
+eslint.config.mjs 25ms (unchanged)
+tests/helpers/browser-fixtures.mjs 7ms (unchanged)
+tests/helpers/fake-audio.mjs 2ms (unchanged)
+tests/helpers/fake-clock.mjs 5ms (unchanged)
+tests/helpers/fake-storage.mjs 3ms (unchanged)
+tests/helpers/legacy-harness.mjs 9ms (unchanged)
+tests/helpers/random-tape.mjs 2ms (unchanged)
+tests/fixtures/harness/trusted.js 1ms (unchanged)
+tests/unit/tooling-scopes.test.mjs 4ms
+tests/unit/test-harness.test.mjs 8ms (unchanged)
+tests/unit/legacy-harness.test.mjs 4ms (unchanged)
+tests/integration/legacy-browser-fixtures.spec.mjs 4ms (unchanged)

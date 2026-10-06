@@ -19,18 +19,18 @@ Every changed clickable element becomes a semantic control or receives equivalen
 
 ## Error, empty, and recovery states
 
-| State | Required player-visible behavior |
-| --- | --- |
-| Empty inventory | Clear empty-state text, reachable menu/close controls, no dead sale/equip action |
-| Full loadout | Explain six-item capacity and allow normal unequip; no lost or duplicated item |
-| Long name / enlarged text | Wrap or provide full accessible text; no obscured price/stat/control or horizontal overflow |
-| Missing/corrupt art | Stable themed fallback plus readable identity; no blocked combat, inventory action, or recursive fallback failure |
-| Invalid/unsupported save or import | Text explanation and retry/recovery/cancel options; raw/recoverable progress preserved; no silent reset |
-| Storage unavailable/quota | Visible unsaved state and recovery export; successful persistence never falsely reported |
-| Import cancellation | Original character/run/preferences unchanged; focus returns sensibly |
-| Clipboard denied | Explain copy failure and keep selectable export text/local download available |
-| External font/analytics unavailable | Local fallback font and core play remain usable; no new dependency for art or saves |
-| Unknown historical log | Neutral recoverable-history notice; no raw HTML insertion or arbitrary player-name rewriting |
+| State                               | Required player-visible behavior                                                                                  |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Empty inventory                     | Clear empty-state text, reachable menu/close controls, no dead sale/equip action                                  |
+| Full loadout                        | Explain six-item capacity and allow normal unequip; no lost or duplicated item                                    |
+| Long name / enlarged text           | Wrap or provide full accessible text; no obscured price/stat/control or horizontal overflow                       |
+| Missing/corrupt art                 | Stable themed fallback plus readable identity; no blocked combat, inventory action, or recursive fallback failure |
+| Invalid/unsupported save or import  | Text explanation and retry/recovery/cancel options; raw/recoverable progress preserved; no silent reset           |
+| Storage unavailable/quota           | Visible unsaved state and recovery export; successful persistence never falsely reported                          |
+| Import cancellation                 | Original character/run/preferences unchanged; focus returns sensibly                                              |
+| Clipboard denied                    | Explain copy failure and keep selectable export text/local download available                                     |
+| External font/analytics unavailable | Local fallback font and core play remain usable; no new dependency for art or saves                               |
+| Unknown historical log              | Neutral recoverable-history notice; no raw HTML insertion or arbitrary player-name rewriting                      |
 
 Recovery controls live in existing modal/screen regions; no general interface redesign is needed. Destructive reset/replacement still needs its existing explicit player confirmation.
 

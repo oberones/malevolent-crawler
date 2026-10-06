@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write tests/integration/legacy-symbol-contexts.spec.mjs tests/unit/legacy-symbol-baseline.test.mjs
+tests/integration/legacy-symbol-contexts.spec.mjs 42ms
+tests/unit/legacy-symbol-baseline.test.mjs 8ms

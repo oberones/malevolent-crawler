@@ -1,0 +1,91 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/measure-symbols.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:11033) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:11036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline (116ms)
+(node:11051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject (116ms)
+(node:11057) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [chromium] › tests/integration/measure-symbols.spec.mjs:30:1 › geometry, spacing, baseline and font metadata are measured without mutation (109ms)
+  ✓  4 [chromium] › tests/integration/measure-symbols.spec.mjs:46:1 › missing, ambiguous and hidden selectors reject (85ms)
+  ✓  5 [chromium] › tests/integration/measure-symbols.spec.mjs:56:1 › font readiness is awaited and a missing declared face rejects (66ms)
+  ✓  6 [chromium] › tests/integration/measure-symbols.spec.mjs:64:1 › baseline writes preserve existing bytes (67ms)
+
+
+  1) [chromium] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 21
+    Received: 30
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   9
+
+      15 |   const reference = await page.locator("#reference").boundingBox();
+      16 |   const [row] = await measureSymbols(page, [{ id: "flex", selector: "#glyph" }]);
+    > 17 |   expect(row.baselineOffset).toBeCloseTo(reference.y - row.box.y, 1);
+         |                              ^
+      18 |   expect(await page.content()).toBe(before);
+      19 | });
+      20 | // Transparent ancestors must not create accepted measurements for invisible content.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:17:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-9b496--uses-its-own-text-baseline-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-9b496--uses-its-own-text-baseline-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-9b496--uses-its-own-text-baseline-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-9b496--uses-its-own-text-baseline-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject 
+
+    Error: expect(received).rejects.toThrow()
+
+    Received promise resolved instead of rejected
+    Resolved to value: [{"baselineOffset": 16, "box": {"height": 16, "width": 12, "x": 0, "y": 5}, "dpr": 1, "fontFamily": "monospace", "fontSize": "20px", "fontStatus": "loaded", "fontWeight": "400", "id": "transparent", "lineHeight": "30px", "marginLeft": "0px", "marginRight": "7px", "paddingLeft": "0px", "paddingRight": "0px", "pseudoFontFamily": "monospace", "selector": "#icon", "verticalAlign": "baseline", "viewport": {"height": 900, "width": 1440}}]
+
+      25 |     (node) => { node.style.opacity = "0"; },
+      26 |   );
+    > 27 |   await expect(measureSymbols(page, [{ id: "transparent", selector: "#icon" }])).rejects.toThrow(/visible/);
+         |                                                                                          ^
+      28 | });
+      29 | // Measure an independently sized symbol and verify probes leave the DOM untouched.
+      30 | test("geometry, spacing, baseline and font metadata are measured without mutation", async ({ page }) => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/measure-symbols.spec.mjs:27:90
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-c1e2f-uplicate-context-IDs-reject-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-measure-symbol-c1e2f-uplicate-context-IDs-reject-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-measure-symbol-c1e2f-uplicate-context-IDs-reject-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-measure-symbol-c1e2f-uplicate-context-IDs-reject-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/integration/measure-symbols.spec.mjs:12:1 › a flex-item symbol uses its own text baseline 
+    [chromium] › tests/integration/measure-symbols.spec.mjs:21:1 › transparent ancestors reject and duplicate context IDs reject 
+  4 passed (2.0s)

@@ -5,6 +5,7 @@ import globals from "globals";
 // implicit writes are intentionally absent and remain actionable lint findings.
 const legacyDeclarations = {
   "combat.js": {
+    combatTimer: "writable",
     combatPanel: "readonly",
     enemyDead: "writable",
     playerDead: "writable",
@@ -21,6 +22,8 @@ const legacyDeclarations = {
     showCombatInfo: "readonly",
   },
   "dungeon.js": {
+    dungeonTimer: "writable",
+    playTimer: "writable",
     dungeonActivity: "readonly",
     dungeonAction: "readonly",
     dungeonTime: "readonly",
@@ -86,6 +89,9 @@ const legacyDeclarations = {
     createEquipmentPrint: "readonly",
   },
   "main.js": {
+    runGameplay: "readonly",
+    gameServices: "readonly",
+    initializeGame: "readonly",
     runLoad: "readonly",
     enterDungeon: "readonly",
     saveData: "readonly",
@@ -97,6 +103,7 @@ const legacyDeclarations = {
     objectValidation: "readonly",
   },
   "music.js": {
+    sfxCombatEnd: "writable",
     volume: "writable",
     bgmDungeon: "writable",
     bgmBattleMain: "writable",
@@ -147,6 +154,13 @@ const legacyBindings = {
 };
 
 export default [
+  {
+    files: ["tests/fixtures/harness/*.js"],
+    languageOptions: {
+      sourceType: "script",
+      globals: { document: "readonly", setInterval: "readonly" },
+    },
+  },
   {
     ignores: [
       "node_modules/**",

@@ -5,7 +5,7 @@
   "releaseStatus": "OPEN",
   "statusVocabulary": ["PASS", "FAIL", "BLOCKED", "OPEN", "N/A"],
   "environmentFile": "environment.json",
-  "scope": "Phase 1 scaffolding only. Setup PASS records do not discharge future behavioral/native/art gates.",
+  "scope": "Phase 1 setup and Phase 2A/2B automated foundations. Native baseline measurements, story implementation and all release obligations remain separate.",
   "matrices": {
     "art-review-matrix": {
       "targets": [
@@ -7120,12 +7120,17 @@
       "sourceRevision": "a377a9f9fd17abcf9ffdedaa760b5b4a77ba600d",
       "command": "npm run test:unit",
       "expected": "Required scoped check passes with real evidence; later checks remain unresolved until implemented.",
-      "actual": "Phase 2 deterministic harness and immutable corpus not yet implemented.",
-      "status": "OPEN",
+      "actual": "T009\u2013T019 automated foundation complete: 1161 unit tests, 78 integration tests; frozen rules/source/assets and 1998 indexed glyph captures. Native baselines remain BLOCKED in the separate baseline gate.",
+      "status": "PASS",
       "reason": null,
-      "evidence": [],
-      "reviewer": null,
-      "date": null,
+      "evidence": [
+        "phase-2b.md",
+        "reports/phase-2b-unit.txt",
+        "reports/phase-2b-integration.json",
+        "../../art/cosmic-horror/baseline.json"
+      ],
+      "reviewer": "implementation agent",
+      "date": "2026-10-06",
       "findings": []
     },
     {
@@ -7196,7 +7201,7 @@
       "sourceRevision": "a377a9f9fd17abcf9ffdedaa760b5b4a77ba600d",
       "command": "PERF_STAGE=baseline|candidate BASE_URL=<matching server> npm run test:performance",
       "expected": "Required scoped check passes with real evidence; later checks remain unresolved until implemented.",
-      "actual": "Need immutable source, workload metadata, >=5 cold/warm samples each and matched medians.",
+      "actual": "Baseline captured: 190 samples across 38 workload/cache/viewport combinations, five samples each, verified source hashes and warm-cache proof. Candidate comparison remains OPEN under T133-T134.",
       "status": "OPEN",
       "reason": null,
       "evidence": [],
@@ -7288,6 +7293,25 @@
       "evidence": [],
       "reviewer": null,
       "date": null,
+      "findings": []
+    },
+    {
+      "id": "native-symbol-baselines",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-007", "FR-014", "SC-007"],
+      "owner": "T019/T135/T136",
+      "fixture": "111 original contexts, three viewports, 100%/200% text, seven native targets; also actual device viewport/orientation when available",
+      "environment": "environment.json nativeTargets",
+      "sourceRevision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+      "steps": "Record actual device/browser build and DPR, then capture original geometry on the same environment before candidate qualification.",
+      "expected": "Every required native tuple has a matched original baseline and evidence.",
+      "actual": "4662 requested native baseline tuples are explicitly BLOCKED in art/cosmic-horror/baseline.json; no native measurements inferred from automated engines.",
+      "status": "BLOCKED",
+      "reason": "Native baseline instrumentation and actual DPR/matched target measurements not established.",
+      "evidence": ["phase-2b.md", "../../art/cosmic-horror/baseline.json"],
+      "reviewer": "implementation agent",
+      "date": "2026-10-06",
       "findings": []
     }
   ]

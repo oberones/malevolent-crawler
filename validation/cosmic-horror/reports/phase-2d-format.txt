@@ -1,0 +1,11 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write assets/js/app tests/unit/save-validation.test.mjs tests/unit/transitions.test.mjs
+assets/js/app/dialogs.mjs 28ms (unchanged)
+assets/js/app/lifecycle.mjs 5ms (unchanged)
+assets/js/app/message-records.mjs 4ms (unchanged)
+assets/js/app/safe-render.mjs 6ms (unchanged)
+assets/js/app/save-validation.mjs 21ms
+assets/js/app/snapshot-store.mjs 8ms (unchanged)
+assets/js/app/transitions.mjs 2ms (unchanged)
+tests/unit/save-validation.test.mjs 10ms
+tests/unit/transitions.test.mjs 6ms (unchanged)

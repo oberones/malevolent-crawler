@@ -1,0 +1,21 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write tests/unit/legacy-encounters.test.mjs tests/unit/legacy-equipment.test.mjs tests/unit/legacy-progression.test.mjs tests/unit/legacy-audio-pause.test.mjs tests/unit/legacy-symbol-baseline.test.mjs tests/helpers/measure-symbols.mjs tests/integration/measure-symbols.spec.mjs tests/integration/legacy-symbol-contexts.spec.mjs tests/integration/legacy-progression-controls.spec.mjs tests/fixtures/legacy/encounters.json tests/fixtures/legacy/equipment.json tests/fixtures/legacy/progression.json tests/fixtures/legacy/symbol-contexts.json art/cosmic-horror/baseline.json validation/cosmic-horror/phase-2b.md validation/cosmic-horror/tdd.md validation/cosmic-horror/gates.json specs/001-cosmic-horror-refactor/tasks.md specs/001-cosmic-horror-refactor/quickstart.md
+tests/unit/legacy-encounters.test.mjs 34ms (unchanged)
+tests/unit/legacy-equipment.test.mjs 7ms (unchanged)
+tests/unit/legacy-progression.test.mjs 4ms (unchanged)
+tests/unit/legacy-audio-pause.test.mjs 1ms (unchanged)
+tests/unit/legacy-symbol-baseline.test.mjs 6ms (unchanged)
+tests/helpers/measure-symbols.mjs 6ms (unchanged)
+tests/integration/measure-symbols.spec.mjs 8ms (unchanged)
+tests/integration/legacy-symbol-contexts.spec.mjs 16ms (unchanged)
+tests/integration/legacy-progression-controls.spec.mjs 7ms (unchanged)
+tests/fixtures/legacy/encounters.json 88ms
+tests/fixtures/legacy/equipment.json 576ms
+tests/fixtures/legacy/progression.json 149ms
+tests/fixtures/legacy/symbol-contexts.json 4ms (unchanged)
+art/cosmic-horror/baseline.json 773ms (unchanged)
+validation/cosmic-horror/phase-2b.md 32ms (unchanged)
+validation/cosmic-horror/tdd.md 17ms (unchanged)
+validation/cosmic-horror/gates.json 43ms
+specs/001-cosmic-horror-refactor/tasks.md 85ms
+specs/001-cosmic-horror-refactor/quickstart.md 14ms (unchanged)

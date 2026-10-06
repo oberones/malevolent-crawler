@@ -17,14 +17,14 @@ A renderer consumes an existing identity/variant, not a selection instruction. I
 
 ## Asset obligations
 
-| Output | Count | Delivery requirement |
-| --- | --- | --- |
-| `assets/sprites/*.png` baseline paths | 53 | New original transparent art; exact per-file width/height from inventory; preserve existing 50%/70% in-game width |
-| `assets/icon/favicon.png` | 1 | New emblem, exactly 199 × 200 |
-| `assets/icon/favicon.ico` | 1 | New emblem, one embedded 127 × 128 image; validate directory and decoded payload |
-| Relic icons | 14 roles | Original category-specific artwork; every reward/list/detail/equipped context measured |
-| Other symbols | 10 roles | Title, seven stats, treasure, currency; each purpose/context covered |
-| Missing-art fallback | Shared new themed asset or safe local symbol | Fit reserved box, keep readable identity and working controls; no recursive image-error loop |
+| Output                                | Count                                        | Delivery requirement                                                                                              |
+| ------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `assets/sprites/*.png` baseline paths | 53                                           | New original transparent art; exact per-file width/height from inventory; preserve existing 50%/70% in-game width |
+| `assets/icon/favicon.png`             | 1                                            | New emblem, exactly 199 × 200                                                                                     |
+| `assets/icon/favicon.ico`             | 1                                            | New emblem, one embedded 127 × 128 image; validate directory and decoded payload                                  |
+| Relic icons                           | 14 roles                                     | Original category-specific artwork; every reward/list/detail/equipped context measured                            |
+| Other symbols                         | 10 roles                                     | Title, seven stats, treasure, currency; each purpose/context covered                                              |
+| Missing-art fallback                  | Shared new themed asset or safe local symbol | Fit reserved box, keep readable identity and working controls; no recursive image-error loop                      |
 
 The two favicon outputs may share a new master; their deliverables and hashes remain separate. Distinct creature variants must receive separately generated original artwork. The unused sprite receives a replacement without adding a new gameplay encounter.
 

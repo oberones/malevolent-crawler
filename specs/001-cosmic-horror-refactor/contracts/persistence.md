@@ -4,14 +4,14 @@ Applies to FR-006/012/013, QR-003, and SC-005. [Data model](../data-model.md) de
 
 ## Local read and migration
 
-| Source | Recognition | Required outcome |
-| --- | --- | --- |
-| `malevolentCrawler.save.v1` | Supported envelope and all four validated state sections | Load that complete revision; never combine sections from another revision |
-| `malevolentCrawler.save.previous.v1` | Prior validated snapshot | Offer explicit recovery after canonical failure; never silently replace current data |
-| Four legacy keys | Canonical key absent; player/dungeon/enemy/volume parse and satisfy stage-specific schemas | Construct v1 candidate without gameplay RNG, reset, stat reroll, or reward application |
-| All player save sources absent | Fresh user; preferences may exist independently | Show character creation; use valid preferences or documented defaults |
-| Canonical malformed/unsupported | Invalid envelope or unsupported version | Stop autosave, retain raw bytes, show recovery; do not silently fall back to stale legacy state |
-| Partial/unsafe/interrupted legacy tuple | Required run/active-enemy record absent, malformed nested item, or incompatible cross-record state | Preserve each raw record and current memory; explain error and offer recovery |
+| Source                                  | Recognition                                                                                        | Required outcome                                                                                |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `malevolentCrawler.save.v1`             | Supported envelope and all four validated state sections                                           | Load that complete revision; never combine sections from another revision                       |
+| `malevolentCrawler.save.previous.v1`    | Prior validated snapshot                                                                           | Offer explicit recovery after canonical failure; never silently replace current data            |
+| Four legacy keys                        | Canonical key absent; player/dungeon/enemy/volume parse and satisfy stage-specific schemas         | Construct v1 candidate without gameplay RNG, reset, stat reroll, or reward application          |
+| All player save sources absent          | Fresh user; preferences may exist independently                                                    | Show character creation; use valid preferences or documented defaults                           |
+| Canonical malformed/unsupported         | Invalid envelope or unsupported version                                                            | Stop autosave, retain raw bytes, show recovery; do not silently fall back to stale legacy state |
+| Partial/unsafe/interrupted legacy tuple | Required run/active-enemy record absent, malformed nested item, or incompatible cross-record state | Preserve each raw record and current memory; explain error and offer recovery                   |
 
 A legitimate early/unallocated player may use the known initial dungeon/idle-enemy defaults where no run existed; missing active-run data cannot be invented. Defaults are fixture-backed. Recognized old creature/image/category/skill values map through allowlisted catalogs. Both alternate illustrations remain distinguishable without drawing randomness.
 
@@ -33,12 +33,12 @@ Proposed services:
 
 Failure assertions distinguish each write stage. For an isolated commit starting with valid canonical bytes `C`, previous-good bytes `P`, and candidate bytes `N`, require:
 
-| Commit outcome | Canonical bytes afterward | Previous-good bytes afterward |
-| --- | --- | --- |
-| Validation/serialization fails, canonical read throws, or revision conflict aborts before backup | `C` | `P` |
-| Backup write throws; canonical write is not attempted | `C` | `P` |
-| Backup succeeds, then canonical write throws | `C` | `C` |
-| Both writes succeed | `N` | `C` |
+| Commit outcome                                                                                   | Canonical bytes afterward | Previous-good bytes afterward |
+| ------------------------------------------------------------------------------------------------ | ------------------------- | ----------------------------- |
+| Validation/serialization fails, canonical read throws, or revision conflict aborts before backup | `C`                       | `P`                           |
+| Backup write throws; canonical write is not attempted                                            | `C`                       | `P`                           |
+| Backup succeeds, then canonical write throws                                                     | `C`                       | `C`                           |
+| Both writes succeed                                                                              | `N`                       | `C`                           |
 
 In every row, legacy source bytes remain unchanged. A successful backup is allowed to advance even when the subsequent canonical write fails; return `unsaved`, retain the canonical save and in-memory progress, and do not attempt rollback writes. With no canonical record, skip backup; a failed first canonical write leaves it absent and any existing previous-good bytes unchanged. Commit failure does not replace live state with an import/migration candidate; the explicit session-only choice remains separate. These assertions assume no concurrent external writer; revision conflicts follow the single-tab policy below.
 
@@ -50,15 +50,15 @@ Legacy import: strict Base64 decoding followed by the historical Latin-1 `atob` 
 
 Character validation does not require a companion enemy even when the exported player carries an old combat flag; confirmation applies the character-import reset before committing. Preview/validation changes nothing. Confirmation states that the current character will be replaced and dungeon progress reset. Build the reset candidate off to the side, persist it, and then replace live state/cleanup existing timers. If persistence fails, retain the current live session and offer retry, cancel, or explicit use of the candidate for this session only with an unsaved indicator. Cancellation is read-only. Copy success appears only after the clipboard promise resolves.
 
-| Value | Local continuation | Confirmed character import / established run reset |
-| --- | --- | --- |
-| Player name, equipment/inventory, gold, lifetime counters | Preserve | Preserve imported character values; death/abandonment preserve existing values |
-| Audio preferences | Preserve | Retain current local preferences |
-| Level, blessing, EXP, bonus stats, skills, allocation | Preserve | Existing reset: level/blessing 1, initial EXP, zero bonus stats, no skills, remove allocation |
-| Base stats and temporary stat fields | Preserve | Match existing reset exactly; next allocation handles established initialization |
-| Dungeon floor/room/action/backlog/run counters/settings | Preserve values; enter resting | Existing reset to floor/room 1, zero action/history/run counters, initial settings, remove enemy multipliers |
-| Active enemy/HP/variant/rewards | Preserve without regeneration | Character export does not restore an encounter |
-| Combat timer phase / elapsed / backlog | Not persisted by legacy format; start fresh full attack delays | No restoration |
+| Value                                                     | Local continuation                                             | Confirmed character import / established run reset                                                           |
+| --------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Player name, equipment/inventory, gold, lifetime counters | Preserve                                                       | Preserve imported character values; death/abandonment preserve existing values                               |
+| Audio preferences                                         | Preserve                                                       | Retain current local preferences                                                                             |
+| Level, blessing, EXP, bonus stats, skills, allocation     | Preserve                                                       | Existing reset: level/blessing 1, initial EXP, zero bonus stats, no skills, remove allocation                |
+| Base stats and temporary stat fields                      | Preserve                                                       | Match existing reset exactly; next allocation handles established initialization                             |
+| Dungeon floor/room/action/backlog/run counters/settings   | Preserve values; enter resting                                 | Existing reset to floor/room 1, zero action/history/run counters, initial settings, remove enemy multipliers |
+| Active enemy/HP/variant/rewards                           | Preserve without regeneration                                  | Character export does not restore an encounter                                                               |
+| Combat timer phase / elapsed / backlog                    | Not persisted by legacy format; start fresh full attack delays | No restoration                                                                                               |
 
 Do not invoke guardian entry when resuming; its room/floor change already occurred. Terminal HP combined with active combat or another inconsistent historical tuple must enter recovery rather than guessing whether to award loot. An inactive defeated enemy with zero HP is a normal settled victory; an inactive player with zero HP follows the established death/reset path without reward replay. Claim is a presentation transition after reward application.
 

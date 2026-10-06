@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "revision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+  "sourceRoot": "tests/fixtures/legacy/source",
+  "assetRoot": "tests/fixtures/legacy/source/assets",
+  "capture": "Local git show of each index.html, LICENSE and assets/ blob; no network or working-tree copies. Exclusive creation; never refresh from candidate.",
+  "treeSha256": "57707f49243750a7410eb6c98329c9624c6bf5f2119ac6f867f3837a7321637a",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 32473,
+      "sha256": "1b3782ccad7b8614100cda30d3faf42fc39f2e97932908c543005053b654ca68"
+    },
+    {
+      "path": "assets/bgm/battle_boss.mp3",
+      "bytes": 9523306,
+      "sha256": "afb87cdc170db5f348ea602343e08dc8a7dea99dc360d3567b1f00a79479e82a"
+    },
+    {
+      "path": "assets/bgm/battle_boss.webm",
+      "bytes": 5342415,
+      "sha256": "5dd4b1ca74268d5bba8483ddd6e0f7021256b4b75958eca88778f711ea34e6e2"
+    },
+    {
+      "path": "assets/bgm/battle_guardian.mp3",
+      "bytes": 10108176,
+      "sha256": "a69c65669a5d7ef78c0c0d17fab6cd7551897648eff7beb0aba4c8f392e5f415"
+    },
+    {
+      "path": "assets/bgm/battle_guardian.webm",
+      "bytes": 5722196,
+      "sha256": "15e96c3586b621664f2b85af8c9c1ca4ebb2aba3411c81931b13ffab9db20676"
+    },
+    {
+      "path": "assets/bgm/battle_main.mp3",
+      "bytes": 8479845,
+      "sha256": "8b387bebffc7cc7499edba970203acdb93d0d11b2295b28d2f89a14054fb2252"
+    },
+    {
+      "path": "assets/bgm/battle_main.webm",
+      "bytes": 4759944,
+      "sha256": "11c5d413a7d57d4332b3d2e0cb9d21f4c313076081d7b516d571f0589939b976"
+    },
+    {
+      "path": "assets/bgm/dungeon.mp3",
+      "bytes": 2161102,
+      "sha256": "32f1d8f96427baeaa2c2ee027118b438eb1b821cbed89c7fa4a99ff23494959c"
+    },
+    {
+      "path": "assets/bgm/dungeon.webm",
+      "bytes": 1333137,
+      "sha256": "37a54f10f2a3ae7c0ecea8a24d847819dcf68a33486adbe2cfa77790ca28dad1"
+    },
+    {
+      "path": "assets/css/all.min.css",
+      "bytes": 101894,
+      "sha256": "6752b9ba151a25703b2e5d17ad9ff42615f8940b591694fa8e42ab1034f476b5"
+    },
+    {
+      "path": "assets/css/rpg-awesome.min.css",
+      "bytes": 20579,
+      "sha256": "444bf79dabe1e138d5a03365e99b6ca7dac3f38f93e6be15cf5eb02c70a7eebf"
+    },
+    {
+      "path": "assets/css/style.css",
+      "bytes": 15374,
+      "sha256": "b2b133250a86971af91c9a8d8678f6837eb1717e0900c6311b4ece9000da802a"
+    },
+    {
+      "path": "assets/fonts/rpgawesome-webfont.eot",
+      "bytes": 149168,
+      "sha256": "1fecbf284bf8751b8e57f0284524c8911a901bcbfc02ab98258439830f113fe9"
+    },
+    {
+      "path": "assets/fonts/rpgawesome-webfont.svg",
+      "bytes": 649002,
+      "sha256": "3f85ff8062343a6c37dba2007aa600befe598be5c4824842c62e5cc80ddf39bb"
+    },
+    {
+      "path": "assets/fonts/rpgawesome-webfont.ttf",
+      "bytes": 148988,
+      "sha256": "0e6bb47167ac866f369332fb505de076e600604509ddd48d911e714635bcde9a"
+    },
+    {
+      "path": "assets/fonts/rpgawesome-webfont.woff",
+      "bytes": 149064,
+      "sha256": "5f0127873ef4aef74bcc577a37dd7d544828c77bb896e3f6e1e1a2da78c0b399"
+    },
+    {
+      "path": "assets/icon/favicon.ico",
+      "bytes": 67134,
+      "sha256": "1f3ffd8b1b7b0dd8d4a12d350340df73b07e25c2cdeb66536f953dba8ceea351"
+    },
+    {
+      "path": "assets/icon/favicon.png",
+      "bytes": 3654,
+      "sha256": "1ec769b4b7f957e947d00566107d211c939fdae74c63f3a7ab834d4719141245"
+    },
+    {
+      "path": "assets/js/combat.js",
+      "bytes": 11671,
+      "sha256": "839edda00775ac3e0f92f43230a22e3bb6582ad65a97087ec5b019d33b68a914"
+    },
+    {
+      "path": "assets/js/dungeon.js",
+      "bytes": 17873,
+      "sha256": "ed0d1428cc56e2e30492338195d95080eea03b234240b11c316926dec57db129"
+    },
+    {
+      "path": "assets/js/elements.js",
+      "bytes": 1001,
+      "sha256": "92b6dee42cea350a3fe64a10c86f14e27517b27da957dc9b5ae32d07f7cb74a1"
+    },
+    {
+      "path": "assets/js/enemy.js",
+      "bytes": 21635,
+      "sha256": "49a360fc01d4836fc9cff0979262e49d984945214a2748ab95dfb83e61d67929"
+    },
+    {
+      "path": "assets/js/equipment.js",
+      "bytes": 20419,
+      "sha256": "3b5c32062aa9c4b70e8dc4144b213d3db5675c4deae163bccf89d5721d72cedd"
+    },
+    {
+      "path": "assets/js/howler.min.js",
+      "bytes": 36137,
+      "sha256": "0febfd99e2733b690ecac2dc36c82885f581a6b5c73b65895898ff8548415f5b"
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 32299,
+      "sha256": "95d42df1fdc19fd706fb3fbdc33f29d69d6506210d9bfe43740c90f0823af783"
+    },
+    {
+      "path": "assets/js/music.js",
+      "bytes": 3336,
+      "sha256": "bb98f3d8d7737ef887858abbcbabb1f31cf4537c830b8cf9856c9227d376ec66"
+    },
+    {
+      "path": "assets/js/player.js",
+      "bytes": 10558,
+      "sha256": "f5b9789fd9a560b8fda1e89949313ccb170c636783f1f06f0de32ebcd408f576"
+    },
+    {
+      "path": "assets/js/utility.js",
+      "bytes": 978,
+      "sha256": "ed29edd435d9f65aade89ffbca0feecbdfc4711379c4de445ff48699dfffa025"
+    },
+    {
+      "path": "assets/sfx/attack.wav",
+      "bytes": 177136,
+      "sha256": "24b29f63d577b4b3adaf3f1c58e3c456dd72b661b686bb74bec553021a808755"
+    },
+    {
+      "path": "assets/sfx/buff.wav",
+      "bytes": 882736,
+      "sha256": "3a941dcf075bb07f7202c2d7cb4a377fa9d3a51ee32f3417f8f5aba109401040"
+    },
+    {
+      "path": "assets/sfx/combat_end.wav",
+      "bytes": 706336,
+      "sha256": "679882a81a208b5aa2644c3183ca532911e8d0a8092b38ceea099cde2775b54c"
+    },
+    {
+      "path": "assets/sfx/confirm.wav",
+      "bytes": 353536,
+      "sha256": "ead68e445318b80e4f7498cc0c130ee610c1320d76380c9c8718f72afbf68c65"
+    },
+    {
+      "path": "assets/sfx/decline.wav",
+      "bytes": 353536,
+      "sha256": "afbe9f8e24fb96ca10843266e59fd5767b1d6e3c62ffddf7ff1edd8b40210627"
+    },
+    {
+      "path": "assets/sfx/denied.wav",
+      "bytes": 353536,
+      "sha256": "b82cdf1e4f349e68ede0dcd7dbf7476698872e3a5b81fbec9aeb4804caa059fa"
+    },
+    {
+      "path": "assets/sfx/encounter.wav",
+      "bytes": 1411936,
+      "sha256": "1d20c58985ff62a7441fe6f4600410180ba0ed2582f73e93c0e54f957060a7a9"
+    },
+    {
+      "path": "assets/sfx/equip.wav",
+      "bytes": 353536,
+      "sha256": "b86063062d88c287075a7f6fcb1e2e694f9702ee4302804a49714b9c9eea53fc"
+    },
+    {
+      "path": "assets/sfx/hover.wav",
+      "bytes": 353536,
+      "sha256": "e1b59ad740473c77f0dd09306e8487198a85cbeaca335086dc9fe82135c34640"
+    },
+    {
+      "path": "assets/sfx/item_use.wav",
+      "bytes": 353536,
+      "sha256": "c890b19c0eb57370f248ae10732e8bd2f9656797aae0900e7a0101b3e5df1893"
+    },
+    {
+      "path": "assets/sfx/level_up.wav",
+      "bytes": 70938,
+      "sha256": "2b13dbc65cd5326700f256a9f44e6fb683fcab173586073ed238de0c5d293838"
+    },
+    {
+      "path": "assets/sfx/pause.wav",
+      "bytes": 353536,
+      "sha256": "0c199a3d958a83f00c8349877c16ad3eaac3555dc675d7ac88fb72f13362a7ac"
+    },
+    {
+      "path": "assets/sfx/sell.wav",
+      "bytes": 353536,
+      "sha256": "c5a26d024bf21980de613a782ef67f03677e93784870a37aa1d83f3d57865ae1"
+    },
+    {
+      "path": "assets/sfx/unequip.wav",
+      "bytes": 353536,
+      "sha256": "8c01e051fa47d23c5deeabd7a52f83e172595bc422109a6776be662f0b596454"
+    },
+    {
+      "path": "assets/sfx/unpause.wav",
+      "bytes": 353536,
+      "sha256": "92806b965209ac3f21518dc900d9ae0b58e12ed9fecc3415ca6614b692730f6b"
+    },
+    {
+      "path": "assets/sprites/alfadriel.png",
+      "bytes": 287879,
+      "sha256": "d5ab0ffc67fd960758cc023d56d5de44553cebdb91ab1a957c1b565170d51b48"
+    },
+    {
+      "path": "assets/sprites/ant_queen.png",
+      "bytes": 146576,
+      "sha256": "6003accbf0723361a83494e8da1fcf5a574f25f7248c0962acbb22a5a20c0f70"
+    },
+    {
+      "path": "assets/sprites/behemoth.png",
+      "bytes": 234748,
+      "sha256": "24daa17280eb109e06b3eaab2aab8bc3beb1c4b30f956f4a5b9b6d3872b611b2"
+    },
+    {
+      "path": "assets/sprites/berthelot.png",
+      "bytes": 108129,
+      "sha256": "518b823fd8d1a6f7ac7de002bb040fa8c6747f9ff53374a16c43e6b9f3221ad4"
+    },
+    {
+      "path": "assets/sprites/bm-feral.png",
+      "bytes": 164737,
+      "sha256": "9b84e0137ca15afe3456ed9426ef3f2b52f0f2f990b2a39a80606354965ac01e"
+    },
+    {
+      "path": "assets/sprites/cerberus_ptolemaios.png",
+      "bytes": 139608,
+      "sha256": "82a3fa71820f6a3f21d532f663800928a9c8d5a88bf1f08b02c0bdf2c308153f"
+    },
+    {
+      "path": "assets/sprites/da-reaper.png",
+      "bytes": 79179,
+      "sha256": "792c7d7d3d7d188bd24676a9f0cd8767433bb02542aa445059436fe5d595bf42"
+    },
+    {
+      "path": "assets/sprites/fallen_king.png",
+      "bytes": 235138,
+      "sha256": "943ac8c8da764d1499756c2dac903dc0a747989d0b3c978108e6a7e0a3a61266"
+    },
+    {
+      "path": "assets/sprites/firelord.png",
+      "bytes": 310939,
+      "sha256": "2523128b1d3dc0470d08bc8c9c044fa6fd199e36e21c7ec54695b89c18063f2d"
+    },
+    {
+      "path": "assets/sprites/goblin.png",
+      "bytes": 30300,
+      "sha256": "fcdbacb323bb1d04203397b654591d7900b75d65fcc105e23609cfca775de4ad"
+    },
+    {
+      "path": "assets/sprites/goblin_archer.png",
+      "bytes": 31588,
+      "sha256": "3bbd0d6d113199c5aa8dd134796820bee303972d8a325b9ef8a2049f9e2be847"
+    },
+    {
+      "path": "assets/sprites/goblin_boss.png",
+      "bytes": 53350,
+      "sha256": "343d32fd0899c583e3ac195f802096a81909d979fbbece035c8e74169166ebe9"
+    },
+    {
+      "path": "assets/sprites/goblin_mage.png",
+      "bytes": 37255,
+      "sha256": "ed098eb785531221a6953e6b9e65e0a0727a6c51e9266fd05e66889b6b711e6b"
+    },
+    {
+      "path": "assets/sprites/goblin_rogue.png",
+      "bytes": 32774,
+      "sha256": "04428c5e98188e67f4795fd9df3c4daef6e68304ef5b511554501fe68fe88cb1"
+    },
+    {
+      "path": "assets/sprites/hellhound.png",
+      "bytes": 105235,
+      "sha256": "d57791a1495d30cd72e541fc65eccde5b7f976ec662496bc6eec58a9f50e9b61"
+    },
+    {
+      "path": "assets/sprites/icemaiden.png",
+      "bytes": 137952,
+      "sha256": "dd2f50eb062d102fb4961a732c2590b8b587164d3928f79d4bff49870617d572"
+    },
+    {
+      "path": "assets/sprites/mimic.png",
+      "bytes": 62498,
+      "sha256": "4fe356204f83508d9002c2434b4ad28b815aef8b50c460605bdf0d0cc8f93c47"
+    },
+    {
+      "path": "assets/sprites/mimic_door.png",
+      "bytes": 44709,
+      "sha256": "c57db2775bb8581ff57c240539cc0599043962fbec1bc258c93773d687c1d40a"
+    },
+    {
+      "path": "assets/sprites/orc_archer.png",
+      "bytes": 143979,
+      "sha256": "54daad4e2236cd3bc20618f5dea0a1ee8782a1f7931be8d98e594808f4ceb663"
+    },
+    {
+      "path": "assets/sprites/orc_axe.png",
+      "bytes": 129936,
+      "sha256": "2fd8b2eeb122c2bd08cfbd2b0f96a56089b1501b7d7250fa9d468c71daebebf2"
+    },
+    {
+      "path": "assets/sprites/orc_mage.png",
+      "bytes": 195238,
+      "sha256": "3014a9157b250d38af73d7d013521cc03d00f2212a154f69eb06ab5aae8dbf1f"
+    },
+    {
+      "path": "assets/sprites/orc_swordsmaster.png",
+      "bytes": 148671,
+      "sha256": "1c5463c65f470eb3dc5d2176339195d212f10c60cc701f4cfe5207d081d3e9dc"
+    },
+    {
+      "path": "assets/sprites/skeleton_archer.png",
+      "bytes": 39326,
+      "sha256": "7a533f522ae8c3417027dbf3269ad689ce1824260e551501d99115a66c9e658a"
+    },
+    {
+      "path": "assets/sprites/skeleton_boss.png",
+      "bytes": 122320,
+      "sha256": "c5697ab69b20957663821c082862315d29ca3cfdeb54f7dc3d22a0888c6807e0"
+    },
+    {
+      "path": "assets/sprites/skeleton_dragon.png",
+      "bytes": 168079,
+      "sha256": "fb9145dc48439000df5eaf598e65abd66ba7dcbec9fa845595f7bb8fc16d8f22"
+    },
+    {
+      "path": "assets/sprites/skeleton_knight.png",
+      "bytes": 64143,
+      "sha256": "dee0bfae89031c43faec86efebed517cd61abe0e4d5a6192caa2c537761f49f1"
+    },
+    {
+      "path": "assets/sprites/skeleton_mage1.png",
+      "bytes": 58047,
+      "sha256": "86e70c9f70f39ee6056a6a53cc7a3ea296b8cadf1094fbf40de166e48c5328ca"
+    },
+    {
+      "path": "assets/sprites/skeleton_mage2.png",
+      "bytes": 52868,
+      "sha256": "ddf34b89eb510328d153147a9adf383584ade9735a83c42b1f71767f0e47af39"
+    },
+    {
+      "path": "assets/sprites/skeleton_pirate.png",
+      "bytes": 58005,
+      "sha256": "5a1c54c55b4d44e96e29713a07fc1331c687a0a41c3a22eb2a8f9c5d86d728af"
+    },
+    {
+      "path": "assets/sprites/skeleton_samurai.png",
+      "bytes": 40775,
+      "sha256": "2afd8b0f27c3094f023703350ac8fc63e1404145c652536a617e789d1959585e"
+    },
+    {
+      "path": "assets/sprites/skeleton_swordsmaster.png",
+      "bytes": 65535,
+      "sha256": "974d861a74918f2161b9af22dfda12405ebd6a3eda6be585afdb42c6f9c8a691"
+    },
+    {
+      "path": "assets/sprites/skeleton_warrior.png",
+      "bytes": 63135,
+      "sha256": "36cfbb911fa14c49c2643775ad2fbe8b234d2302375663e20feac15473ec49ab"
+    },
+    {
+      "path": "assets/sprites/slime.png",
+      "bytes": 20827,
+      "sha256": "c6bf4821bed0677527df24a4340e68eeb23754766099a5c52ac6b604b77fa67f"
+    },
+    {
+      "path": "assets/sprites/slime_angel.png",
+      "bytes": 33949,
+      "sha256": "30ed7730892fd11c46ec655cb8a05c56794eeac74ad64ca0c5235506701b7760"
+    },
+    {
+      "path": "assets/sprites/slime_boss.png",
+      "bytes": 48196,
+      "sha256": "94ac845e0628bfa90b40e8cd6d31cfea8eb1821def1a1e78dd54a8db554d1dab"
+    },
+    {
+      "path": "assets/sprites/slime_crusader.png",
+      "bytes": 29104,
+      "sha256": "79fb5a7251ec93ccc805be68911d70b91b3b633316ff7e1ffa253e5fc8747266"
+    },
+    {
+      "path": "assets/sprites/slime_knight.png",
+      "bytes": 31428,
+      "sha256": "5e5d3413a11c2cada006742856866bd19dbacbce23d7562a894e876d31238d64"
+    },
+    {
+      "path": "assets/sprites/spider.png",
+      "bytes": 33098,
+      "sha256": "a3e202c11ea3f86310f44c9c5bab33721c4e1ae9e5ebd5ed6de21401824fec91"
+    },
+    {
+      "path": "assets/sprites/spider_boss.png",
+      "bytes": 115641,
+      "sha256": "681f10a07231ee84b304c4bdeacae0835dbf70e835e378fc74e12da22650a447"
+    },
+    {
+      "path": "assets/sprites/spider_dragon.png",
+      "bytes": 272164,
+      "sha256": "fd7c782189355418d6b5d462d0b2a4dc79542b4ca9abc6fd709d9bda4986b505"
+    },
+    {
+      "path": "assets/sprites/spider_fire.png",
+      "bytes": 116238,
+      "sha256": "9260b3f37cdc588ba5bf276bd742503eb77657b97002a026f2d01d5413a931ac"
+    },
+    {
+      "path": "assets/sprites/spider_green.png",
+      "bytes": 35063,
+      "sha256": "a692a29b9fd7493a8b1dfb6be74d3510a72510c1ac7951fc16c23b05796cd5f2"
+    },
+    {
+      "path": "assets/sprites/spider_red.png",
+      "bytes": 35085,
+      "sha256": "2c581adc8dfdf61cfe0e85e70a5cc083fe48c31c27a4ab06c2d132f1289b2b1d"
+    },
+    {
+      "path": "assets/sprites/spider_spirit.png",
+      "bytes": 107322,
+      "sha256": "9bddb3a6d144020aa3b641eddc09fb7574002f8831d48571506f9d4a5010455b"
+    },
+    {
+      "path": "assets/sprites/thanatos.png",
+      "bytes": 190770,
+      "sha256": "f2159acd7ee4ec143eaaa2249f7cb5cfb404cdb7af2b2e97c0de7b44e2c90444"
+    },
+    {
+      "path": "assets/sprites/tiamat.png",
+      "bytes": 86424,
+      "sha256": "54cd51a284133660407dc34702c7e5d4bcc7f2f0dcea3d1db3f0a2be022c2988"
+    },
+    {
+      "path": "assets/sprites/wolf.png",
+      "bytes": 49225,
+      "sha256": "7d305770c2b665143ee1680aa2fc58278f27e821849e4969e09387e41091ba44"
+    },
+    {
+      "path": "assets/sprites/wolf_black.png",
+      "bytes": 46577,
+      "sha256": "258984e18b52ce7e294ce8a6bb4ed74ead3edae66fff6931584515faa531ec67"
+    },
+    {
+      "path": "assets/sprites/wolf_boss.png",
+      "bytes": 39081,
+      "sha256": "e0c1a2cf96112d390d351f1372e92e286ce754fd7f0dff68c66418fe614c86eb"
+    },
+    {
+      "path": "assets/sprites/wolf_winter.png",
+      "bytes": 51832,
+      "sha256": "82452860fa7cac31ce201a3c18f70b9f5b5b9a700587ea0b9401aecfce90335f"
+    },
+    {
+      "path": "assets/sprites/zalaras.png",
+      "bytes": 232129,
+      "sha256": "6b9977a45a01d511b617d74a35ef7817e969b3505e16faaa675545bb1299b0ce"
+    },
+    {
+      "path": "assets/sprites/zodiac_aries.png",
+      "bytes": 258159,
+      "sha256": "53e4e31e8acc3b4c782f014f52e5de2a4297796a496c5e91b82781de27256032"
+    },
+    {
+      "path": "assets/sprites/zodiac_cancer.png",
+      "bytes": 141726,
+      "sha256": "277724ff27b67b3cb67c5eb682da33adf569a389ff492befbdd398127bd2a864"
+    },
+    {
+      "path": "assets/webfonts/fa-brands-400.ttf",
+      "bytes": 186124,
+      "sha256": "b1d1c1b012e1a7621cc84fd1e5c1dbab92012f40df7423e879ab2fa493520fee"
+    },
+    {
+      "path": "assets/webfonts/fa-brands-400.woff2",
+      "bytes": 107656,
+      "sha256": "c61287c2fa9863b5fb5844c683a168ac6520c94d822bb43d5eae35c3a2a82166"
+    },
+    {
+      "path": "assets/webfonts/fa-regular-400.ttf",
+      "bytes": 62320,
+      "sha256": "d7b19fe201101b08ab1344ffd472d59ce652ad3c3fb5f194c3e35aa2908e674a"
+    },
+    {
+      "path": "assets/webfonts/fa-regular-400.woff2",
+      "bytes": 25236,
+      "sha256": "5da313b0467f7c1b18d981672b23461add31e3ad41988c30101bdaabb074e446"
+    },
+    {
+      "path": "assets/webfonts/fa-solid-900.ttf",
+      "bytes": 397420,
+      "sha256": "e4f6a7e9d1a7c0b4968d9cb9d422e8d9cdca229f7ff3aeac7f96e4baa25c7680"
+    },
+    {
+      "path": "assets/webfonts/fa-solid-900.woff2",
+      "bytes": 150516,
+      "sha256": "8f06540fd77f1effe1e2da8ea10cec4a382dda9cc6ef05d816e1d6de444072f2"
+    },
+    {
+      "path": "assets/webfonts/fa-v4compatibility.ttf",
+      "bytes": 10140,
+      "sha256": "2ddb3b4114a9cb565e49b0af21cc3ac88cd043beb49be328b8f57a634989e0ac"
+    },
+    {
+      "path": "assets/webfonts/fa-v4compatibility.woff2",
+      "bytes": 4568,
+      "sha256": "f46715c9d30047f8dea4eb25ed869f791eb069c6b0f6102382c32a56aeeadfbb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6062,
+      "sha256": "b8bbe1f52798534e55c6785e05ab56802a016dd92b6bc712d346bab0334909ac"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+✔ generation invalidation cancels timers and makes retained callbacks inert (0.730708ms)
+✔ listeners and audio dispose once; individual releases clean ownership (0.183417ms)
+✔ cleanup failures are reported after all resources are attempted (0.122125ms)
+✔ outer transition saves completed HP and rewards exactly once (1.197666ms)
+✔ failed transitions cannot persist partial state or leak pending requests (0.406417ms)
+✔ invalid final tuples, capture errors, unsaved/conflict results and async rejection (0.396459ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 48.72025

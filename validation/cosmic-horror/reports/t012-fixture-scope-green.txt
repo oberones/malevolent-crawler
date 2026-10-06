@@ -1,0 +1,14 @@
+✔ classic ownership declarations remain legal (62.347208ms)
+✔ classic scripts can use the documented shared owners (6.190916ms)
+✔ browser modules reject ambient engine and Node bindings (7.47975ms)
+✔ tool modules get Node capabilities but no DOM (4.465083ms)
+✔ undeclared assignments stay errors in every scope (3.644583ms)
+✔ trusted classic fixture scope accepts declared exports and rejects implicit writes (3.536209ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.526584

@@ -1,0 +1,94 @@
+✔ schema corpus: early (1.197292ms)
+✔ schema corpus: resting (0.23075ms)
+✔ schema corpus: normal (0.237209ms)
+✔ schema corpus: guardian (0.206584ms)
+✔ schema corpus: boss (0.198375ms)
+✔ schema corpus: chest-mimic (0.204292ms)
+✔ schema corpus: door-mimic (0.1595ms)
+✔ schema corpus: variant-1 (0.12825ms)
+✔ schema corpus: variant-2 (0.131166ms)
+✔ schema corpus: fractional-exp (0.168541ms)
+✔ schema corpus: full-duplicate-equipment (0.679875ms)
+✔ schema corpus: optional-null-derived (0.200583ms)
+✔ schema corpus: settled-victory (0.104042ms)
+✔ schema corpus: settled-death (0.095833ms)
+✔ schema corpus: interrupted-player-death (0.197791ms)
+✔ schema corpus: interrupted-enemy-victory (0.140625ms)
+✔ schema corpus: interrupted-missing-enemy (0.104084ms)
+✔ schema corpus: early-player-only (0.112542ms)
+✔ schema corpus: interrupted-malformed-item (0.109042ms)
+✔ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.211209ms)
+✔ adversarial player.lvl: 0 (0.111084ms)
+✔ adversarial player.gold: -1 (0.099292ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.103ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.326208ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.146959ms)
+✔ adversarial player.stats.atk: "99" (0.138708ms)
+✔ adversarial enemy.image.name: "../../evil" (0.172875ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.137709ms)
+✔ adversarial enemy.name: "unknown" (0.145708ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.141042ms)
+✔ adversarial dungeon.progress.room: 0 (0.145708ms)
+✔ adversarial volume.bgm: 0.6 (0.238792ms)
+✔ defaults, duplicate holdings, derived/null fields and idempotence (1.068959ms)
+✔ source kinds, early defaults and complete envelopes (1.707167ms)
+✔ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (122.249167ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.795291ms)
+✖ structured history text budgets and explicit null item tier reject (1.09125ms)
+✔ validation is independent of randomness and preserves fractional rewards (0.131ms)
+✔ outer transition saves completed HP and rewards exactly once (1.287083ms)
+✔ failed transitions cannot persist partial state or leak pending requests (0.4475ms)
+✔ invalid final tuples, capture errors, unsaved/conflict results and async rejection (0.412375ms)
+✖ caught unsupported asynchronous nested rule cannot rehabilitate outer save (0.662459ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 40
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 185.506541
+
+✖ failing tests:
+
+test at tests/unit/save-validation.test.mjs:165:1
+✖ structured history text budgets and explicit null item tier reject (1.09125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:167:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/transitions.test.mjs:142:1
+✖ caught unsupported asynchronous nested rule cannot rehabilitate outer save (0.662459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'saved' !== 'unsaved'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/transitions.test.mjs:154:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'saved',
+    expected: 'unsaved',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

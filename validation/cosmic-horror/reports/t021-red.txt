@@ -1,0 +1,256 @@
+✖ setting and authoring guide agree on original world, surfaces and boundaries (0.815667ms)
+✖ 51 encounters and 52 active variants preserve all legacy image tuples and dimensions (0.142209ms)
+✖ roles and archetypes match frozen pools; unused art has no gameplay membership (0.119625ms)
+✖ mage variants are distinct and missing or mismatched variants fail (1.750958ms)
+✖ 14 relics retain rule relations and six rarities without numerical selection rules (0.112875ms)
+✖ 24 symbol roles cover all 111 measured context IDs and planned local paths (0.10025ms)
+✖ identity namespaces have unique stable IDs, aliases and distinct plain-text content (0.105417ms)
+✖ catalogs and lookup results are deeply immutable (0.200125ms)
+✖ unknown and hostile references return typed failures without coercion (0.594083ms)
+✖ fresh catalog imports and lookups consume no RNG, DOM, storage, audio or timers (31.206417ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 0
+ℹ fail 10
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 95.944167
+
+✖ failing tests:
+
+test at tests/unit/catalogs.test.mjs:33:1
+✖ setting and authoring guide agree on original world, surfaces and boundaries (0.815667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'bell-beneath-brine'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'bell-beneath-brine',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:51:1
+✖ 51 encounters and 52 active variants preserve all legacy image tuples and dimensions (0.142209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 51
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:52:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 51,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:84:1
+✖ roles and archetypes match frozen pools; unused art has no gameplay membership (0.119625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 51
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 51,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:113:1
+✖ mage variants are distinct and missing or mismatched variants fail (1.750958ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(mage)
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:115:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:132:1
+✖ 14 relics retain rule relations and six rarities without numerical selection rules (0.112875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 14
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:133:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 14,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:158:1
+✖ 24 symbol roles cover all 111 measured context IDs and planned local paths (0.10025ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 24
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:159:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 24,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:187:1
+✖ identity namespaces have unique stable IDs, aliases and distinct plain-text content (0.105417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 51
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:188:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 51,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:217:1
+✖ catalogs and lookup results are deeply immutable (0.200125ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(Object.isFrozen(value))
+  
+      at frozen (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:28:10)
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:218:83)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:234:1
+✖ unknown and hostile references return typed failures without coercion (0.594083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   ok: true,
+  +   value: null
+  -   error: {
+  -     code: 'unknown-reference',
+  -     kind: 'encounter'
+  -   },
+  -   ok: false
+    }
+  
+      at failure (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:22:10)
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:242:197)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { ok: true, value: null },
+    expected: { ok: false, error: { code: 'unknown-reference', kind: 'encounter' } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/catalogs.test.mjs:249:1
+✖ fresh catalog imports and lookups consume no RNG, DOM, storage, audio or timers (31.206417ms)
+  AssertionError [ERR_ASSERTION]: node:internal/modules/run_main:107
+      triggerUncaughtException(
+      ^
+  
+  AssertionError [ERR_ASSERTION]: expected a resolved saved variant
+      at file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/[eval1]:12:12 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+  
+  Node.js v24.21.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:268:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

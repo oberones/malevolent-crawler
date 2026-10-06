@@ -1,4 +1,5 @@
 <!-- SPECKIT START -->
+
 For stack choices, project structure, implementation sequencing, and verification
 commands, read the active [implementation plan](specs/001-cosmic-horror-refactor/plan.md).
 <!-- SPECKIT END -->

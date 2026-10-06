@@ -1,0 +1,18 @@
+✔ setting and authoring guide agree on original world, surfaces and boundaries (1.384333ms)
+✔ 51 encounters and 52 active variants preserve all legacy image tuples and dimensions (0.92725ms)
+✔ roles and archetypes match frozen pools; unused art has no gameplay membership (0.446792ms)
+✔ mage variants are distinct and missing or mismatched variants fail (0.10575ms)
+✔ 14 relics retain rule relations and six rarities without numerical selection rules (0.265916ms)
+✔ 24 symbol roles cover all 111 measured context IDs and planned local paths (0.345458ms)
+✔ identity namespaces have unique stable IDs, aliases and distinct plain-text content (0.677458ms)
+✔ catalogs and lookup results are deeply immutable (0.448584ms)
+✔ unknown and hostile references return typed failures without coercion (0.244875ms)
+✔ fresh catalog imports and lookups consume no RNG, DOM, storage, audio or timers (32.0175ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97.18025

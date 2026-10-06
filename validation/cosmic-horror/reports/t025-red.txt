@@ -1,0 +1,445 @@
+✖ schema corpus: early (1.186875ms)
+✖ schema corpus: resting (0.137333ms)
+✖ schema corpus: normal (0.087958ms)
+✖ schema corpus: guardian (0.070959ms)
+✖ schema corpus: boss (0.573875ms)
+✖ schema corpus: chest-mimic (0.102666ms)
+✖ schema corpus: door-mimic (0.077167ms)
+✖ schema corpus: variant-1 (0.056958ms)
+✖ schema corpus: variant-2 (0.07ms)
+✖ schema corpus: fractional-exp (0.105458ms)
+✖ schema corpus: full-duplicate-equipment (0.069084ms)
+✖ schema corpus: optional-null-derived (0.053416ms)
+✖ schema corpus: settled-victory (0.048333ms)
+✖ schema corpus: settled-death (0.051083ms)
+✔ schema corpus: interrupted-player-death (0.084292ms)
+✔ schema corpus: interrupted-enemy-victory (0.041125ms)
+✔ schema corpus: interrupted-missing-enemy (0.045875ms)
+✖ schema corpus: early-player-only (0.083291ms)
+✔ schema corpus: interrupted-malformed-item (0.341917ms)
+✖ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.346417ms)
+✔ adversarial player.lvl: 0 (0.062792ms)
+✔ adversarial player.gold: -1 (0.049834ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.050167ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.057542ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.047708ms)
+✔ adversarial player.stats.atk: "99" (0.045125ms)
+✔ adversarial enemy.image.name: "../../evil" (0.079125ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.039083ms)
+✔ adversarial enemy.name: "unknown" (0.03675ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.036417ms)
+✔ adversarial dungeon.progress.room: 0 (0.034542ms)
+✔ adversarial volume.bgm: 0.6 (0.035708ms)
+✖ defaults, duplicate holdings, derived/null fields and idempotence (0.107416ms)
+✖ source kinds, early defaults and complete envelopes (0.089208ms)
+✖ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (0.138125ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.117375ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 17
+ℹ fail 19
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 68.942416
+
+✖ failing tests:
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: early (1.186875ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: resting (0.137333ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: normal (0.087958ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: guardian (0.070959ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: boss (0.573875ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: chest-mimic (0.102666ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: door-mimic (0.077167ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: variant-1 (0.056958ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: variant-2 (0.07ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: fractional-exp (0.105458ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: full-duplicate-equipment (0.069084ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: optional-null-derived (0.053416ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: settled-victory (0.048333ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: settled-death (0.051083ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:15:3
+✖ schema corpus: early-player-only (0.083291ms)
+  AssertionError [ERR_ASSERTION]: {"ok":false,"issues":[{"code":"not-implemented","path":"state"}]}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:18:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:25:3
+✖ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.346417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:27:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:31:1
+✖ defaults, duplicate holdings, derived/null fields and idempotence (0.107416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:43:1
+✖ source kinds, early defaults and complete envelopes (0.089208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:45:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:56:1
+✖ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (0.138125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'not-implemented'
+  - 'size-limit'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:57:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'not-implemented',
+    expected: 'size-limit',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

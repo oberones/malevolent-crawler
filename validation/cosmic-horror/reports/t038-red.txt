@@ -1,0 +1,47 @@
+✔ evidence accepts complete synthetic manual/automated records (0.681584ms)
+✖ evidence refuses fabricated, absent, unresolved and mismatched records (0.539625ms)
+✖ evidence checks justified N/A and every art review obligation (0.172792ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 1
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46.623125
+
+✖ failing tests:
+
+test at tests/unit/evidence-validator.test.mjs:15:1
+✖ evidence refuses fabricated, absent, unresolved and mismatched records (0.539625ms)
+  AssertionError [ERR_ASSERTION]: g=>g.gates=[]
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/evidence-validator.test.mjs:32:204)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/evidence-validator.test.mjs:35:1
+✖ evidence checks justified N/A and every art review obligation (0.172792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/evidence-validator.test.mjs:38:132)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

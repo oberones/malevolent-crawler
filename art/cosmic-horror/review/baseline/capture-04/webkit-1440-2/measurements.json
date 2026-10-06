@@ -1,0 +1,4001 @@
+{
+  "fontPolicy": "Local RPGAwesome and Font Awesome required; external Rubik Vinyl/analytics blocked consistently. Text scaling doubles every computed font size while preserving viewport dimensions. Measurement-only CSS disables transitions/animations before sizing; test timers are frozen. Runtime source and styles remain unchanged.",
+  "measurements": [
+    {
+      "id": "sword/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 333.4296875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-inventory.png"
+    },
+    {
+      "id": "sword/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-equipped.png"
+    },
+    {
+      "id": "sword/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-detail.png"
+    },
+    {
+      "id": "sword/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 608.875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-sale.png"
+    },
+    {
+      "id": "sword/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-dungeon-reward.png"
+    },
+    {
+      "id": "sword/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Sword",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/sword-combat-reward.png"
+    },
+    {
+      "id": "axe/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-inventory.png"
+    },
+    {
+      "id": "axe/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-equipped.png"
+    },
+    {
+      "id": "axe/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-detail.png"
+    },
+    {
+      "id": "axe/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 626.015625,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-sale.png"
+    },
+    {
+      "id": "axe/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-dungeon-reward.png"
+    },
+    {
+      "id": "axe/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Axe",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/axe-combat-reward.png"
+    },
+    {
+      "id": "hammer/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-inventory.png"
+    },
+    {
+      "id": "hammer/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-equipped.png"
+    },
+    {
+      "id": "hammer/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537,
+        "y": 317.19921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-detail.png"
+    },
+    {
+      "id": "hammer/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 599.171875,
+        "y": 377.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-sale.png"
+    },
+    {
+      "id": "hammer/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-dungeon-reward.png"
+    },
+    {
+      "id": "hammer/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Hammer",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/hammer-combat-reward.png"
+    },
+    {
+      "id": "dagger/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-inventory.png"
+    },
+    {
+      "id": "dagger/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-equipped.png"
+    },
+    {
+      "id": "dagger/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537,
+        "y": 317.19921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-detail.png"
+    },
+    {
+      "id": "dagger/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 600.1875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-sale.png"
+    },
+    {
+      "id": "dagger/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-dungeon-reward.png"
+    },
+    {
+      "id": "dagger/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Dagger",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/dagger-combat-reward.png"
+    },
+    {
+      "id": "flail/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-inventory.png"
+    },
+    {
+      "id": "flail/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-equipped.png"
+    },
+    {
+      "id": "flail/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-detail.png"
+    },
+    {
+      "id": "flail/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 625.703125,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-sale.png"
+    },
+    {
+      "id": "flail/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-dungeon-reward.png"
+    },
+    {
+      "id": "flail/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Flail",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/flail-combat-reward.png"
+    },
+    {
+      "id": "scythe/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-inventory.png"
+    },
+    {
+      "id": "scythe/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-equipped.png"
+    },
+    {
+      "id": "scythe/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-detail.png"
+    },
+    {
+      "id": "scythe/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 607.421875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-sale.png"
+    },
+    {
+      "id": "scythe/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-dungeon-reward.png"
+    },
+    {
+      "id": "scythe/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Scythe",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/scythe-combat-reward.png"
+    },
+    {
+      "id": "plate/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-inventory.png"
+    },
+    {
+      "id": "plate/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-equipped.png"
+    },
+    {
+      "id": "plate/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-detail.png"
+    },
+    {
+      "id": "plate/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 619.796875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-sale.png"
+    },
+    {
+      "id": "plate/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-dungeon-reward.png"
+    },
+    {
+      "id": "plate/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Plate",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/plate-combat-reward.png"
+    },
+    {
+      "id": "chain/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-inventory.png"
+    },
+    {
+      "id": "chain/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-equipped.png"
+    },
+    {
+      "id": "chain/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-detail.png"
+    },
+    {
+      "id": "chain/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 613.046875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-sale.png"
+    },
+    {
+      "id": "chain/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-dungeon-reward.png"
+    },
+    {
+      "id": "chain/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Chain",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/chain-combat-reward.png"
+    },
+    {
+      "id": "leather/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-inventory.png"
+    },
+    {
+      "id": "leather/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-equipped.png"
+    },
+    {
+      "id": "leather/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537,
+        "y": 317.19921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-detail.png"
+    },
+    {
+      "id": "leather/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 601.546875,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-sale.png"
+    },
+    {
+      "id": "leather/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-dungeon-reward.png"
+    },
+    {
+      "id": "leather/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Leather",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/leather-combat-reward.png"
+    },
+    {
+      "id": "tower/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-inventory.png"
+    },
+    {
+      "id": "tower/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-equipped.png"
+    },
+    {
+      "id": "tower/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-detail.png"
+    },
+    {
+      "id": "tower/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 612.09375,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-sale.png"
+    },
+    {
+      "id": "tower/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-dungeon-reward.png"
+    },
+    {
+      "id": "tower/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Tower",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/tower-combat-reward.png"
+    },
+    {
+      "id": "kite/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-inventory.png"
+    },
+    {
+      "id": "kite/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-equipped.png"
+    },
+    {
+      "id": "kite/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.828125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-detail.png"
+    },
+    {
+      "id": "kite/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 627.4375,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-sale.png"
+    },
+    {
+      "id": "kite/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-dungeon-reward.png"
+    },
+    {
+      "id": "kite/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Kite",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/kite-combat-reward.png"
+    },
+    {
+      "id": "buckler/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-inventory.png"
+    },
+    {
+      "id": "buckler/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-equipped.png"
+    },
+    {
+      "id": "buckler/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537.578125,
+        "y": 344.69921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-detail.png"
+    },
+    {
+      "id": "buckler/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 602.375,
+        "y": 398.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-sale.png"
+    },
+    {
+      "id": "buckler/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-dungeon-reward.png"
+    },
+    {
+      "id": "buckler/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 622.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Buckler",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/buckler-combat-reward.png"
+    },
+    {
+      "id": "great-helm/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-inventory.png"
+    },
+    {
+      "id": "great-helm/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-equipped.png"
+    },
+    {
+      "id": "great-helm/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537,
+        "y": 317.19921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-detail.png"
+    },
+    {
+      "id": "great-helm/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 599.171875,
+        "y": 377.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-sale.png"
+    },
+    {
+      "id": "great-helm/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-dungeon-reward.png"
+    },
+    {
+      "id": "great-helm/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 664.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Great Helm",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/great-helm-combat-reward.png"
+    },
+    {
+      "id": "horned-helm/inventory",
+      "selector": "#playerInventory .items:first-child i",
+      "box": {
+        "x": 615.390625,
+        "y": 359.0234375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "inventory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-inventory.png"
+    },
+    {
+      "id": "horned-helm/equipped",
+      "selector": "#playerEquipment .items:first-child i",
+      "box": {
+        "x": 641.390625,
+        "y": 598.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 30,
+      "marginLeft": "6.4px",
+      "marginRight": "6.4px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "equipped",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-equipped.png"
+    },
+    {
+      "id": "horned-helm/detail",
+      "selector": "#equipmentInfo h3 i",
+      "box": {
+        "x": 537,
+        "y": 317.19921875,
+        "width": 41.5999755859375,
+        "height": 41.600006103515625
+      },
+      "baselineOffset": 38.98828125,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "41.599998px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "41.599998px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "detail",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-detail.png"
+    },
+    {
+      "id": "horned-helm/sale",
+      "selector": "#defaultModal .content p i",
+      "box": {
+        "x": 599.171875,
+        "y": 377.0703125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "sale",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-sale.png"
+    },
+    {
+      "id": "horned-helm/dungeon-reward",
+      "selector": "#dungeonLog h4 i",
+      "box": {
+        "x": 478.796875,
+        "y": 610.995361328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "dungeon-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-dungeon-reward.png"
+    },
+    {
+      "id": "horned-helm/combat-reward",
+      "selector": "#combatLogBox h4 i",
+      "box": {
+        "x": 575.796875,
+        "y": 664.948486328125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.989013671875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "Horned Helm",
+      "stage": "combat-reward",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/horned-helm-combat-reward.png"
+    },
+    {
+      "id": "health/main",
+      "selector": ".stat-panel .box:first-child .fa-heart",
+      "box": {
+        "x": 457,
+        "y": 168.046875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "health",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/health-main.png"
+    },
+    {
+      "id": "health/bonus",
+      "selector": "#bonus-stats .fa-heart",
+      "box": {
+        "x": 733,
+        "y": 168.046875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "health",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/health-bonus.png"
+    },
+    {
+      "id": "health/allocation",
+      "selector": "#allocate-stats .fa-heart",
+      "box": {
+        "x": 609,
+        "y": -5.921875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "health",
+      "stage": "allocation",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/health-allocation.png"
+    },
+    {
+      "id": "attack/main",
+      "selector": ".stat-panel .box:first-child .ra-sword",
+      "box": {
+        "x": 457,
+        "y": 208.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-main.png"
+    },
+    {
+      "id": "attack/bonus",
+      "selector": "#bonus-stats .ra-sword",
+      "box": {
+        "x": 733,
+        "y": 208.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-bonus.png"
+    },
+    {
+      "id": "attack/allocation",
+      "selector": "#allocate-stats .ra-sword",
+      "box": {
+        "x": 609,
+        "y": 150.0859375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 8.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack",
+      "stage": "allocation",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-allocation.png"
+    },
+    {
+      "id": "defense/main",
+      "selector": ".stat-panel .box:first-child .ra-round-shield",
+      "box": {
+        "x": 457,
+        "y": 250.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "defense",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/defense-main.png"
+    },
+    {
+      "id": "defense/bonus",
+      "selector": "#bonus-stats .ra-round-shield",
+      "box": {
+        "x": 733,
+        "y": 250.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "defense",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/defense-bonus.png"
+    },
+    {
+      "id": "defense/allocation",
+      "selector": "#allocate-stats .ra-round-shield",
+      "box": {
+        "x": 609,
+        "y": 266.0859375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 8.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "defense",
+      "stage": "allocation",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/defense-allocation.png"
+    },
+    {
+      "id": "attack-speed/main",
+      "selector": ".stat-panel .box:first-child .ra-plain-dagger",
+      "box": {
+        "x": 457,
+        "y": 292.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack-speed",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-speed-main.png"
+    },
+    {
+      "id": "attack-speed/bonus",
+      "selector": "#bonus-stats .ra-plain-dagger",
+      "box": {
+        "x": 733,
+        "y": 292.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack-speed",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-speed-bonus.png"
+    },
+    {
+      "id": "attack-speed/allocation",
+      "selector": "#allocate-stats .ra-plain-dagger",
+      "box": {
+        "x": 609,
+        "y": 382.0859375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 8.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "attack-speed",
+      "stage": "allocation",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/attack-speed-allocation.png"
+    },
+    {
+      "id": "vampirism/main",
+      "selector": ".stat-panel .box:first-child .ra-dripping-blade",
+      "box": {
+        "x": 457,
+        "y": 334.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "vampirism",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/vampirism-main.png"
+    },
+    {
+      "id": "vampirism/bonus",
+      "selector": "#bonus-stats .ra-dripping-blade",
+      "box": {
+        "x": 733,
+        "y": 334.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "vampirism",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/vampirism-bonus.png"
+    },
+    {
+      "id": "critical-rate/main",
+      "selector": ".stat-panel .box:first-child .ra-lightning-bolt",
+      "box": {
+        "x": 457,
+        "y": 376.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "critical-rate",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/critical-rate-main.png"
+    },
+    {
+      "id": "critical-rate/bonus",
+      "selector": "#bonus-stats .ra-lightning-bolt",
+      "box": {
+        "x": 733,
+        "y": 376.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "critical-rate",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/critical-rate-bonus.png"
+    },
+    {
+      "id": "critical-damage/main",
+      "selector": ".stat-panel .box:first-child .ra-focused-lightning",
+      "box": {
+        "x": 457,
+        "y": 418.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "critical-damage",
+      "stage": "main",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/critical-damage-main.png"
+    },
+    {
+      "id": "critical-damage/bonus",
+      "selector": "#bonus-stats .ra-focused-lightning",
+      "box": {
+        "x": 733,
+        "y": 418.0546875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 29.9921875,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "RPGAwesome",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "pseudoFontFamily": "RPGAwesome",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "critical-damage",
+      "stage": "bonus",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/critical-damage-bonus.png"
+    },
+    {
+      "id": "title/title",
+      "selector": "#title-screen .fa-dungeon",
+      "box": {
+        "x": 640,
+        "y": 101.5,
+        "width": 160,
+        "height": 160
+      },
+      "baselineOffset": 140,
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "160px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "160px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "title",
+      "stage": "title",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/title-title.png"
+    },
+    {
+      "id": "treasure/treasure",
+      "selector": "#dungeonLog .fa-toolbox",
+      "box": {
+        "x": 619.703125,
+        "y": 595.984375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "treasure",
+      "stage": "treasure",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/treasure-treasure.png"
+    },
+    {
+      "id": "treasure/chamber",
+      "selector": "#dungeonLog .fa-toolbox",
+      "box": {
+        "x": 529.6875,
+        "y": 721.59375,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "treasure",
+      "stage": "chamber",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/treasure-chamber.png"
+    },
+    {
+      "id": "currency/header",
+      "selector": "#player-gold .fa-coins",
+      "box": {
+        "x": 860.0625,
+        "y": 40.25,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "header",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-header.png"
+    },
+    {
+      "id": "currency/gold",
+      "selector": "#dungeonLog .fa-coins",
+      "box": {
+        "x": 626.546875,
+        "y": 623.203125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "gold",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-gold.png"
+    },
+    {
+      "id": "currency/victory",
+      "selector": "#combatLogBox .fa-coins",
+      "box": {
+        "x": 566.796875,
+        "y": 720.71875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "victory",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-victory.png"
+    },
+    {
+      "id": "currency/blessing",
+      "selector": "#dungeonLog .fa-coins",
+      "box": {
+        "x": 782.484375,
+        "y": 623.203125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "blessing",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-blessing.png"
+    },
+    {
+      "id": "currency/curse",
+      "selector": "#dungeonLog .fa-coins",
+      "box": {
+        "x": 730.140625,
+        "y": 623.203125,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "curse",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-curse.png"
+    },
+    {
+      "id": "currency/sale-control",
+      "selector": "#sell-equip .fa-coins",
+      "box": {
+        "x": 675.125,
+        "y": 517.6875,
+        "width": 32,
+        "height": 32
+      },
+      "baselineOffset": 28,
+      "marginLeft": "0px",
+      "marginRight": "4.8px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "verticalAlign": "baseline",
+      "lineHeight": "32px",
+      "fontFamily": "\"Font Awesome 6 Free\"",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "pseudoFontFamily": "\"Font Awesome 6 Free\"",
+      "fontStatus": "loaded",
+      "dpr": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "role": "currency",
+      "stage": "sale-control",
+      "textScale": 2,
+      "browser": {
+        "name": "webkit",
+        "version": "26.6"
+      },
+      "status": "PASS",
+      "screenshot": "webkit-1440-2/currency-sale-control.png"
+    }
+  ]
+}

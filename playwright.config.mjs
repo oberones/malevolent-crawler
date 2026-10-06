@@ -2,7 +2,9 @@ import { defineConfig } from "@playwright/test";
 
 // Performance uses a separately prepared immutable server; functional runs own
 // their server so repeated invocations cannot reuse or leave a stale instance.
-const performanceRun = process.argv.join(" ").includes("tests/performance");
+const performanceRun =
+  Boolean(process.env.PERF_STAGE) ||
+  process.argv.join(" ").includes("tests/performance");
 // T040/T041 own stage, source-hash and baseline validation before measurements.
 
 export default defineConfig({
