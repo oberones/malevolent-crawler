@@ -1,0 +1,47 @@
+[
+  {
+    "path": "assets/sprites/spider.png",
+    "dimensions": [142, 108],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "193b43542385cfa9527009290a9644af47d43aa66b69ecb8c17df220aafbcc9b"
+  },
+  {
+    "path": "assets/sprites/spider_red.png",
+    "dimensions": [145, 110],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "ebd97ba01a0aeb0cc0c86b42df8eec909cece54cdc0ae507bbfaf3fee1367d15"
+  },
+  {
+    "path": "assets/sprites/spider_green.png",
+    "dimensions": [140, 107],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "13894d7e2600269803ec1a947815f7a5819dcacf0269970a5fbd20215c6dff04"
+  },
+  {
+    "path": "assets/sprites/spider_fire.png",
+    "dimensions": [486, 366],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "0469e0f8a6deab226b71b6b3f9f6749ddfdcce4253bf6299c9f5759acc7a4ce3"
+  },
+  {
+    "path": "assets/sprites/spider_boss.png",
+    "dimensions": [373, 351],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "84a6fb2aafd7f14b0c08aee8f3df7703421b98e33029605c085a9ff1e9a772bd"
+  }
+]

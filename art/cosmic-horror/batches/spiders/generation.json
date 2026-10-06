@@ -1,0 +1,237 @@
+{
+  "batch": "spiders",
+  "task": "T068",
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "id": "sprite-spider",
+      "variantId": "threadpool-creeper-portrait",
+      "displayName": "Threadpool Creeper",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T23:53:47.782Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-08dacc8a-7209-4fb9-91ac-497caeeac936.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/spiders/spider.png",
+        "masterSha256": "cd5e0bdbf2c1e396a248bb38d5207415dd8bf508215ad70485cec28b108eead9",
+        "promptPath": "art/cosmic-horror/prompts/spiders/spider.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 142,
+        "height": 108,
+        "alpha": true,
+        "sha256": "193b43542385cfa9527009290a9644af47d43aa66b69ecb8c17df220aafbcc9b",
+        "path": "assets/sprites/spider.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/spiders/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-red",
+      "variantId": "rustvein-spinner-portrait",
+      "displayName": "Rustvein Spinner",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T23:54:17.605Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-7c45be72-d50a-47cd-b188-a4a0a3288ce2.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/spiders/spider_red.png",
+        "masterSha256": "4cd96d97da72c7bfb2fdebf283d33abf88e13a71e8132fc2b82fbf899bc02f4c",
+        "promptPath": "art/cosmic-horror/prompts/spiders/spider_red.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 145,
+        "height": 110,
+        "alpha": true,
+        "sha256": "ebd97ba01a0aeb0cc0c86b42df8eec909cece54cdc0ae507bbfaf3fee1367d15",
+        "path": "assets/sprites/spider_red.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/spiders/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-green",
+      "variantId": "verdigris-spinner-portrait",
+      "displayName": "Verdigris Spinner",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T23:54:48.321Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-b6b01db8-ac3e-4f0f-a5cc-0eba9f995316.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/spiders/spider_green.png",
+        "masterSha256": "be0096dcbdf8ff7b8183ec1cfa4235612903777f6edaf06bc2cc847c161b3df4",
+        "promptPath": "art/cosmic-horror/prompts/spiders/spider_green.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 140,
+        "height": 107,
+        "alpha": true,
+        "sha256": "13894d7e2600269803ec1a947815f7a5819dcacf0269970a5fbd20215c6dff04",
+        "path": "assets/sprites/spider_green.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/spiders/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-fire",
+      "variantId": "emberreef-weaver-portrait",
+      "displayName": "Emberreef Weaver",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T23:57:03.801Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-e39a99f1-b3b8-4b4f-929a-b09bab254536.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/spiders/spider_fire.png",
+        "masterSha256": "7caaf7aa9486cc138e94ccba3064e88d24e1bc34dabb9d2dba91b50052e43a66",
+        "promptPath": "art/cosmic-horror/prompts/spiders/spider_fire.txt",
+        "transparentBackground": true,
+        "initialMasterPath": "art/cosmic-horror/masters/spiders/spider_fire-initial.png",
+        "initialMasterSha256": "2b92af0b089fe7115aa55dda67477c340bb897210238fba1894367a07c1abb41",
+        "initialSourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-ed4bcab0-3f24-4eea-901d-777b3fb35a8a.png",
+        "editPromptPath": "art/cosmic-horror/prompts/spiders/spider_fire-edit.txt",
+        "revisionReason": "Restore complete extremities and clear transparent margins after initial framing review."
+      },
+      "delivered": {
+        "width": 486,
+        "height": 366,
+        "alpha": true,
+        "sha256": "0469e0f8a6deab226b71b6b3f9f6749ddfdcce4253bf6299c9f5759acc7a4ce3",
+        "path": "assets/sprites/spider_fire.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/spiders/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-boss",
+      "variantId": "the-tidewheel-weaver-portrait",
+      "displayName": "The Tidewheel Weaver",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T23:57:53.329Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-2ac54c80-486a-49a3-83e7-899cc90c682b.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/spiders/spider_boss.png",
+        "masterSha256": "23fb8b9887bbd51f382f0d8ae44daf0bd2099634fd7649914735f21f3d06a93e",
+        "promptPath": "art/cosmic-horror/prompts/spiders/spider_boss.txt",
+        "transparentBackground": true,
+        "initialMasterPath": "art/cosmic-horror/masters/spiders/spider_boss-initial.png",
+        "initialMasterSha256": "201464dca1fde740a13be3bb4ea0d4b741a1ee6d636301a4d01cee67f8a53993",
+        "initialSourcePath": "/Users/oberon/.codex/generated_images/01a113a1-ceee-7c50-ac65-fdd0fa83c6dd/exec-5521bee5-50d5-48cb-8459-46e4c8b5eed5.png",
+        "editPromptPath": "art/cosmic-horror/prompts/spiders/spider_boss-edit.txt",
+        "revisionReason": "Restore complete extremities and clear transparent margins after initial framing review."
+      },
+      "delivered": {
+        "width": 373,
+        "height": 351,
+        "alpha": true,
+        "sha256": "84a6fb2aafd7f14b0c08aee8f3df7703421b98e33029605c085a9ff1e9a772bd",
+        "path": "assets/sprites/spider_boss.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/spiders/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    }
+  ]
+}

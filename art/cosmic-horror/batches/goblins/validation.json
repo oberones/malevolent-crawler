@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/sprites/goblin_archer.png",
+    "dimensions": [207, 136],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "b54e9fca2e60b20e23b34b2ce739c0ef2fb48f82e9789167f2b8948113875421"
+  },
+  {
+    "path": "assets/sprites/goblin_mage.png",
+    "dimensions": [228, 149],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "4bc5946af53cdeebc555c204f4172ca168804da36254fc5b08d24e21a3c288a5"
+  },
+  {
+    "path": "assets/sprites/goblin_rogue.png",
+    "dimensions": [162, 160],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "fd7b9eda43af3aa195de9deabc9ce4eb35fd4d21354a43e0995b49eb34274c4f"
+  },
+  {
+    "path": "assets/sprites/goblin_boss.png",
+    "dimensions": [331, 164],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "afeb72c8bba214f3f4282761e064b55be0f6dd374a360fbfc92eb12f18806ddb"
+  }
+]

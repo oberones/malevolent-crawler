@@ -107,8 +107,14 @@ remain OPEN/BLOCKED; automated setup success does not substitute for them.
 
 ## Credits
 
-The original setting and narrative are implemented. Generated replacement art is
-still pending; the shipped original sprites retain their author credit below.
+The original setting and narrative are implemented. Fifty-three generated creature
+replacements are delivered across the [recorded art batches](art/cosmic-horror/batches/),
+including the unused Unrung Witness and the latest
+[mimic batch](art/cosmic-horror/batches/mimics/generation.json).
+Their prompts and provenance record built-in ImageGen generation and deterministic
+exports. All 53 creature sprite paths now contain replacement art. Original
+monster-art attribution is retained below; relic/symbol art and full
+replacement-art qualification remain pending.
 Howler 2.2.3 remains the audio library. Font/library license notices remain in their
 distributed files.
 

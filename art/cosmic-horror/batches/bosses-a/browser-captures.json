@@ -1,0 +1,410 @@
+[
+  {
+    "name": "behemoth",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-360-1.png",
+    "width": 201.328125,
+    "height": 158.671875,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "4fab868d4c6c5509750e61208b72900daf5541d94eaa2c518aff8d4db7048a4b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-360-1.png",
+    "width": 201.328125,
+    "height": 162.0625,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "16f295b10bf2ee00925e3998dfe61707655a3e6af2d13db8c1c597f9ac89c292",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-360-1.png",
+    "width": 201.328125,
+    "height": 143.796875,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "e2df1a301b304bf130e5bb6ff6884c0bcfb79afb03ab1c08aff77ad4a0165408",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-360-1.png",
+    "width": 201.328125,
+    "height": 137.734375,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "e6773437e60bdf2965a1e1b868f26e3a2b7e5c55c058e1580c9852593814824a",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "behemoth",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-360-2.png",
+    "width": 152.046875,
+    "height": 119.828125,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "3dfd41d914b6d0f051e800b0b2b9f5619eb681ff80c2e30c929d1663bf89d1d9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-360-2.png",
+    "width": 152.046875,
+    "height": 122.390625,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "080323d9c22000451c6196d3838d200580ed75cb853c7ad8f59816102e6af6de",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-360-2.png",
+    "width": 152.046875,
+    "height": 108.59375,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "0e6047755a3bebd48e3f5df469e274f916b51ae607d38fb20750b6f0abeb4e09",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-360-2.png",
+    "width": 152.046875,
+    "height": 104.015625,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "16c41a6a558b8128dbe01ceade82a0bfae6b25692132f567abf2bd9c87b3fc6b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "behemoth",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-768-1.png",
+    "width": 240.53125,
+    "height": 189.5625,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "89843e391a965227f7440a8faf1bcefc98e467f131318b5e75e6e31fb6c32279",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-768-1.png",
+    "width": 240.53125,
+    "height": 193.609375,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "17d39339fdbe232d6189acfa05439e201a4c8e5c07d3810b68983d3ee60438c7",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-768-1.png",
+    "width": 240.53125,
+    "height": 171.796875,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "5e0eed0f8bed7fa3d0dba94394b31e4d7ced95e15e2c29d97496f6cadf32528c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-768-1.png",
+    "width": 240.53125,
+    "height": 164.546875,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "ef624e67137b6cd6c39e3bd5d6df47d39c8ae04fc389a61d9f800dbb5199d9c1",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "behemoth",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-768-2.png",
+    "width": 437.640625,
+    "height": 344.921875,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "161cf656185287d9218f67a3bc381322aed0b9ecc67f91593787674e0a6875fe",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-768-2.png",
+    "width": 437.640625,
+    "height": 352.28125,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "780acf37b9ab56762033b2b3fc9aa4ce8d9f82cc2a22ecd987944554aeafd1d9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-768-2.png",
+    "width": 437.640625,
+    "height": 312.59375,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "9bc2b60444ac31bc73f0678b07a8c87e0b72ef7248e6ed20c0cec010d93f7e65",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-768-2.png",
+    "width": 437.640625,
+    "height": 299.40625,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "52d9d0f31f3539de62c3487d45befeb2030ac13e21de7b319bc9b95fab02eda2",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "behemoth",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-1440-1.png",
+    "width": 240.53125,
+    "height": 189.5625,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "12b8c99474bf249c014b780f767ac0323f8246c1ff22940ebcd4e972021006f9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-1440-1.png",
+    "width": 240.53125,
+    "height": 193.609375,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "20825fa82a663c1ff1d1e44587b332ab109c1f810f34e2e1060a9d21f825b5d3",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-1440-1.png",
+    "width": 240.53125,
+    "height": 171.796875,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "23cc9d5fe385acda64732160fcb3b583778fb39a4d767eabd33fde063c284ffb",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-1440-1.png",
+    "width": 240.53125,
+    "height": 164.546875,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "383211d1227f66b4d5dca7f22ff46baddea2192626901fd311da1f2fdcd04551",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "behemoth",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/behemoth-1440-2.png",
+    "width": 482.453125,
+    "height": 380.234375,
+    "naturalWidth": 675,
+    "naturalHeight": 532,
+    "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+    "sha256": "bf7a87018bb43dc5c38bf2f515de87348c7fd705989e0eab223382a18658cdd2",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "bm-feral",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/bm-feral-1440-2.png",
+    "width": 482.453125,
+    "height": 388.359375,
+    "naturalWidth": 441,
+    "naturalHeight": 355,
+    "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+    "sha256": "331a67b2c2396ca31c4f641d024be9bf0a41ee2b65e9b5823e6f724d17c70214",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "da-reaper",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/da-reaper-1440-2.png",
+    "width": 482.453125,
+    "height": 344.609375,
+    "naturalWidth": 434,
+    "naturalHeight": 310,
+    "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+    "sha256": "6cf3edb2de426177e82953ce3dd2711db574e64e268e3b537ae969f4cb3d0f71",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "firelord",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-a/firelord-1440-2.png",
+    "width": 482.453125,
+    "height": 330.0625,
+    "naturalWidth": 744,
+    "naturalHeight": 509,
+    "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+    "sha256": "93ad39c877a18ca06f9641646cca6584013d5038f6d2873d108d9dbd0deb6376",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  }
+]

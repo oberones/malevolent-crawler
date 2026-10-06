@@ -1,6 +1,10 @@
-/* global document, player:writable, dungeon:writable, enemy:writable, setVolume, showCombatInfo, generateRandomEnemy, engageBattle, mimicBattle, guardianBattle, specialBossBattle, endCombat, playerAttack, enemyAttack, combatBacklog */
+/* global document, player:writable, dungeon:writable, enemy:writable, enemyDead:writable, playerDead:writable, updateCombatLog, playerLoadStats, setVolume, showCombatInfo, generateRandomEnemy, engageBattle, mimicBattle, guardianBattle, specialBossBattle, endCombat, playerAttack, enemyAttack, combatBacklog */
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
+import { mkdir, writeFile } from "node:fs/promises";
+import { join } from "node:path";
+import { createHash } from "node:crypto";
+import { platform, release, arch } from "node:os";
 import { createLegacyBrowserFixture } from "../helpers/browser-fixtures.mjs";
 import { resolveEncounter } from "../../assets/js/content/catalog.mjs";
 // Load immutable legacy values rather than derive expected numbers from candidate code.
@@ -28,6 +32,270 @@ const portraits = [
       ),
   ).values(),
 ];
+
+// Health text must use the available panel width even when the colored HP fill is nearly empty.
+test("enlarged player HP stays readable above EXP at full, half and near-zero health", async ({
+  browser,
+}) => {
+  const f = await createLegacyBrowserFixture(browser, {
+    storage: resting.raw,
+    randomTape: [],
+    viewport: { width: 360, height: 800 },
+  });
+  try {
+    await f.page.goto("/");
+    await expect(f.page.locator("#title-screen")).toBeVisible();
+    const rows = await f.page.evaluate(
+      // Measure actual text glyph bounds, not the fixed-height fill that previously concealed wrapping.
+      (selected) => {
+        document.documentElement.style.fontSize = "200%";
+        document.querySelector("#title-screen").style.display = "none";
+        document.querySelector("#combatPanel").style.display = "flex";
+        enemy = selected;
+        showCombatInfo();
+        player.inCombat = true;
+        return [500, 250, 1].map(
+          // Preserve ordinary HP updates while testing the text/fill boundary independently.
+          (hp) => {
+            player.stats.hp = hp;
+            playerLoadStats();
+            const fill = document.querySelector("#player-hp-battle");
+            const range = document.createRange();
+            range.selectNodeContents(fill);
+            const text = range.getBoundingClientRect();
+            const track = fill.parentElement.getBoundingClientRect();
+            const exp = document
+              .querySelector("#player-exp-bar")
+              .getBoundingClientRect();
+            return {
+              hp,
+              text: fill.textContent.trim(),
+              fillWidth: fill.style.width,
+              fits:
+                text.left >= track.left - 0.5 &&
+                text.right <= track.right + 0.5,
+              aboveExp: text.bottom <= exp.top - 0.5,
+              linesFit: text.bottom <= track.bottom + 0.5,
+              draws: globalThis.__legacyRandomCalls.length,
+            };
+          },
+        );
+      },
+      portraits[0],
+    );
+    for (const row of rows)
+      expect(row).toEqual({
+        hp: row.hp,
+        text: `${row.hp}/500(${row.hp / 5}%)`,
+        fillWidth: `${row.hp / 5}%`,
+        fits: true,
+        aboveExp: true,
+        linesFit: true,
+        draws: 0,
+      });
+  } finally {
+    await f.dispose();
+  }
+});
+
+for (const width of [360, 768, 1440]) {
+  for (const scale of [1, 2]) {
+    // Qualify real decoded replacements separately from the existing missing-byte geometry tests.
+    test(`52 decoded portraits at ${width}px and ${scale * 100}% text`, async ({
+      browser,
+      browserName,
+    }) => {
+      test.setTimeout(120_000);
+      const viewport = {
+        width,
+        height: width === 360 ? 800 : width === 768 ? 1024 : 900,
+      };
+      const f = await createLegacyBrowserFixture(browser, {
+        storage: resting.raw,
+        randomTape: [],
+        viewport,
+      });
+      const captureRoot = process.env.CAPTURE_ENCOUNTERS_DIR;
+      const directory =
+        captureRoot && join(captureRoot, `${browserName}-${width}-${scale}`);
+      const rows = [];
+      try {
+        // Refuse to replace a prior evidence tuple, including a partly completed capture.
+        if (directory) await mkdir(directory, { recursive: false });
+        await f.page.goto("/");
+        await expect(f.page.locator("#title-screen")).toBeVisible();
+        await f.page.evaluate(
+          // Keep capture fixtures deterministic without starting attack/reward timers.
+          (scale) => {
+            document.documentElement.style.fontSize = `${scale * 100}%`;
+            document.querySelector("#title-screen").style.display = "none";
+            document.querySelector("#combatPanel").style.display = "flex";
+          },
+          scale,
+        );
+        for (const selected of portraits) {
+          const { encounter, variant } = resolveEncounter(
+            selected.name,
+            selected.image,
+          ).value;
+          const result = await f.page.evaluate(
+            // Decode the actual selected sprite before measuring its reserved combat layout.
+            async (selected) => {
+              enemy = selected;
+              const before = JSON.stringify(enemy);
+              showCombatInfo();
+              // Match startCombat's state-before-refresh order without scheduling attacks.
+              player.inCombat = true;
+              playerLoadStats();
+              enemyDead = true;
+              playerDead = false;
+              combatBacklog.length = 0;
+              if (enemyDead && !playerDead) updateCombatLog();
+              const image = document.querySelector("#enemy-sprite");
+              await image.decode();
+              await document.fonts.ready;
+              const box = image.getBoundingClientRect();
+              const label = document.querySelector("#enemyPanel > p");
+              const panel = document.querySelector("#enemyPanel");
+              const style = globalThis.getComputedStyle(panel);
+              return {
+                box: {
+                  x: box.x,
+                  y: box.y,
+                  width: box.width,
+                  height: box.height,
+                },
+                naturalWidth: image.naturalWidth,
+                naturalHeight: image.naturalHeight,
+                src: image.getAttribute("src"),
+                alt: image.alt,
+                name: label.textContent,
+                playerName: document.querySelector("#player-combat-info")
+                  .textContent,
+                playerHp: document
+                  .querySelector("#player-hp-battle")
+                  .textContent.trim(),
+                panelWidth:
+                  panel.clientWidth -
+                  parseFloat(style.paddingLeft) -
+                  parseFloat(style.paddingRight),
+                labelFits: label.scrollWidth <= label.clientWidth + 1,
+                portraitBelowHp:
+                  box.top >=
+                  document
+                    .querySelector("#enemyPanel .battle-bar")
+                    .getBoundingClientRect().bottom,
+                portraitAbovePlayer:
+                  box.bottom <=
+                  document.querySelector("#playerPanel").getBoundingClientRect()
+                    .top +
+                    0.5,
+                horizontalOverflow:
+                  document.documentElement.scrollWidth > globalThis.innerWidth,
+                unchanged: before === JSON.stringify(enemy),
+                draws: globalThis.__legacyRandomCalls.length,
+              };
+            },
+            selected,
+          );
+          expect(result, variant.id).toMatchObject({
+            naturalWidth: variant.width,
+            naturalHeight: variant.height,
+            src: variant.path,
+            alt: variant.alt,
+            name: `${encounter.displayName} Lv.${selected.lvl}`,
+            playerName: `${resting.state.player.name} Lv.${resting.state.player.lvl} (0%)`,
+            playerHp: "500/500(100%)",
+            labelFits: true,
+            portraitBelowHp: true,
+            portraitAbovePlayer: true,
+            horizontalOverflow: false,
+            unchanged: true,
+            draws: 0,
+          });
+          expect(
+            Math.abs(
+              result.box.height -
+                (result.box.width * variant.height) / variant.width,
+            ),
+            variant.id,
+          ).toBeLessThanOrEqual(0.5);
+          expect(
+            Math.abs(
+              result.box.width -
+                (result.panelWidth * parseInt(variant.legacyImage.size)) / 100,
+            ),
+            variant.id,
+          ).toBeLessThanOrEqual(0.5);
+          const claim = f.page.getByRole("button", {
+            name: "Claim",
+            exact: true,
+          });
+          await claim.click({ trial: true });
+          await claim.focus();
+          await expect(claim).toBeFocused();
+          const row = {
+            variantId: variant.id,
+            assetId: variant.assetId,
+            encounterId: encounter.id,
+            fixture: selected.image.name,
+            selector: "#enemy-sprite",
+            browser: browserName,
+            browserVersion: browser.version(),
+            os: `${platform()} ${release()} ${arch()}`,
+            viewport,
+            textScale: scale,
+            dpr: 1,
+            ...result,
+            claimReceivesPointer: true,
+            claimReceivesFocus: true,
+          };
+          if (directory) {
+            const screenshot = join(directory, `${selected.image.name}.png`);
+            const bytes = await f.page.screenshot({
+              fullPage: true,
+              animations: "disabled",
+            });
+            await writeFile(screenshot, bytes, { flag: "wx" });
+            const portraitScreenshot = join(
+              directory,
+              `${selected.image.name}-portrait.png`,
+            );
+            await writeFile(
+              portraitScreenshot,
+              await f.page
+                .locator("#enemyPanel")
+                .screenshot({ animations: "disabled" }),
+              { flag: "wx" },
+            );
+            Object.assign(row, {
+              screenshot,
+              sha256: createHash("sha256").update(bytes).digest("hex"),
+              portraitScreenshot,
+            });
+          }
+          rows.push(row);
+        }
+        expect(
+          new Set(
+            rows.map(
+              /* Count selected identities independently of variants. */ (r) =>
+                r.encounterId,
+            ),
+          ).size,
+        ).toBe(51);
+        if (directory)
+          await writeFile(
+            join(directory, "measurements.json"),
+            JSON.stringify(rows, null, 2) + "\n",
+            { flag: "wx" },
+          );
+      } finally {
+        await f.dispose();
+      }
+    });
+  }
+}
 
 for (const width of [360, 768, 1440]) {
   for (const scale of [1, 2]) {

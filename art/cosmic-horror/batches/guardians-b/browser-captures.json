@@ -1,0 +1,410 @@
+[
+  {
+    "name": "fallen_king",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-360-1.png",
+    "width": 143.8125,
+    "height": 114.59375,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "6c9a216336f2352707fd589093ac00f0d2a2bf27814747bb30bb073c175d7f55",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-360-1.png",
+    "width": 143.8125,
+    "height": 86.9375,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "1e157a10bf75a1e630e2bc0687e128ded405a66cf9f689a970bf6f10f7c331cd",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-360-1.png",
+    "width": 143.8125,
+    "height": 97.421875,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "7e0ec8da07efb967ac4c6295541ccddbd6f3dd1ebdd4c3aafadc55aaafd69646",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-360-1.png",
+    "width": 143.8125,
+    "height": 68.984375,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "dbd0b08b886e597495c2ef8dc6206f340634c54cad7b9244773a054c9ba3bd1d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "fallen_king",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-360-2.png",
+    "width": 108.609375,
+    "height": 86.53125,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "8bafcf1fa5099d517908c191e868d7db3ca35b3e35e292ac74f596e7cbef8f3b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-360-2.png",
+    "width": 108.609375,
+    "height": 65.65625,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "55b0e7bf25164dc699a45a80b7966e49eb2013c4fe74fb3d93ad7b32eb8bc7e7",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-360-2.png",
+    "width": 108.609375,
+    "height": 73.578125,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "adbd26ae949bfb33e77d3e8ccf2ff10eb8038910a33bd062a16aa57df9fd7945",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-360-2.png",
+    "width": 108.609375,
+    "height": 52.09375,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "3a489c43bb655a9e39a12b394f7824bf585e13557bf4733acae88d86b01e506e",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "fallen_king",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-768-1.png",
+    "width": 171.8125,
+    "height": 136.90625,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "fb5d46259ee7e9d517c83804e3c4f1fc5b201ad5cd2dcab3020322951752df74",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-768-1.png",
+    "width": 171.8125,
+    "height": 103.875,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "aeaaaf70414da840046d566b789a0ea945f835fa0004c3a1081fd270f4fc1c4c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-768-1.png",
+    "width": 171.8125,
+    "height": 116.390625,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "3185be839756a849bb25aeff9777c6eb3995c1e0e562aea96cde9164fd8ae119",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-768-1.png",
+    "width": 171.8125,
+    "height": 82.421875,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "f0c9443fa69f187d3688ebaa66217617b3a122714dd252dbf88c045e85a95204",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "fallen_king",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-768-2.png",
+    "width": 312.609375,
+    "height": 249.09375,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "f28485b37e4e584cf6d24e8fccc99fb5ad004d6c6669327cd8504d7bd4f036c4",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-768-2.png",
+    "width": 312.609375,
+    "height": 189,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "ea1d23ef335dc438d5317777d69b4bc16b89b139485621d05693ef0f043330cc",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-768-2.png",
+    "width": 312.609375,
+    "height": 211.78125,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "e003125dc3fbcb7c4312a597e82816ce311b2ead1bdfa8539cd8cf9c723fee9c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-768-2.png",
+    "width": 312.609375,
+    "height": 149.96875,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "8a464f2118d1286f04e67ae6869dddc083215670cd886ec46a3e865f373d0b99",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "fallen_king",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-1440-1.png",
+    "width": 171.8125,
+    "height": 136.90625,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "3c8dd57e3beb9cd4f9e6db1053adbb75832a5db6d80af24db5596d6404c699e2",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-1440-1.png",
+    "width": 171.8125,
+    "height": 103.875,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "289420a28a1f362250454610c8681c0f83e3b7c4778b9c9889c8e19b7aae33b7",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-1440-1.png",
+    "width": 171.8125,
+    "height": 116.390625,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "19352d70b2bb1fba93d9fc4b3f7d2f52c387d23ff125ce056ce1febaf4ce0223",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-1440-1.png",
+    "width": 171.8125,
+    "height": 82.421875,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "b60fdb3cf9d46d297508c4ba98e363f2e1e7d6c85f38614e0ed497b1741b26a6",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "fallen_king",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/fallen_king-1440-2.png",
+    "width": 344.609375,
+    "height": 274.59375,
+    "naturalWidth": 635,
+    "naturalHeight": 506,
+    "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+    "sha256": "b903e94252f6319fac46ee8b154186a8b9513d29bd75e352cd692881923b4170",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "tiamat",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/tiamat-1440-2.png",
+    "width": 344.609375,
+    "height": 208.34375,
+    "naturalWidth": 435,
+    "naturalHeight": 263,
+    "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+    "sha256": "82965c4d8fe229f4bffdc4e37746cc230987c1f51724e8882b422f0182ec82bc",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_aries",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_aries-1440-2.png",
+    "width": 344.609375,
+    "height": 233.453125,
+    "naturalWidth": 586,
+    "naturalHeight": 397,
+    "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+    "sha256": "b054b915b890266ca082a6b3a76c1846452a29adba81da51f3136b0465e530c9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zodiac_cancer",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-b/zodiac_cancer-1440-2.png",
+    "width": 344.609375,
+    "height": 165.3125,
+    "naturalWidth": 617,
+    "naturalHeight": 296,
+    "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+    "sha256": "715589c64c7a9231ab1afd4595310153e817ed089c7086d3a60101b59cc259fb",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  }
+]

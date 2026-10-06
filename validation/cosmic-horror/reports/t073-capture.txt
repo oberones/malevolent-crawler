@@ -1,0 +1,6 @@
+Capture completed successfully using the existing resting and selected-enemy fixtures.
+24 PNG screenshots decoded before capture: four portraits, three viewports, two text scales.
+Browser: Chromium 153.0.8010.12; DPR 1.
+Index: art/cosmic-horror/batches/bosses-a/browser-captures.json
+Screenshot hashes verified against the index.
+Scope: automated visual fixture; not native gameplay or release acceptance.

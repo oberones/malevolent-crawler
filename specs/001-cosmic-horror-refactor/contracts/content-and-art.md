@@ -48,6 +48,15 @@ Match the new reserved box, spacing, and alignment to that baseline; rounding to
 
 `art/cosmic-horror/manifest.json` must link each original source/role to its delivered path, exact baseline/delivered size, identity, generation master/prompt, transform record, file hashes, contexts, and individual visual-review status/evidence. Source dimensions for glyphs are null/not-applicable; measured context dimensions are mandatory. Provenance-only unused sprite has no fabricated in-game selector.
 
+When the generation tool does not return a timestamp, retain `generation.timestamp: null`,
+`generation.provenance.generatedAt: null`, and an explicit
+`generation.timestampUnavailableReason: "not-returned-by-tool"`. A source file's
+modification time remains separately labeled provenance; it is not a generation
+timestamp. Missing or malformed dates without that explicit absence record fail
+validation. Prompt/master hashes and an actual returned source reference remain
+required. Agent batch/capture reviews are separate from the manifest's human
+`review`; automated evidence never promotes human/native acceptance.
+
 Automated validation checks counts, unique IDs and aliases, every required path, safe relative references, full image decode, PNG alpha and nonempty transparent/visible content, exact dimensions, ICO directory/payload, immutable baselines, generation-record completeness, and geometry. It includes negative fixtures rather than merely testing the validator against its own output.
 
 Human visual review separately establishes originality, coherent art direction, distinct identities, safe framing, clean transparent edges, actual-size readability, correct meaning, and the content boundary. Hash differences and automatic color/alpha checks cannot certify these. Review every required file, including unused art, and every declared display context. No required asset may ship with OPEN/FAIL/BLOCKED visual status or a placeholder path.

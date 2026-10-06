@@ -1,0 +1,338 @@
+[
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic-360-1.png",
+    "width": 143.8125,
+    "height": 110.234375,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "3c5bb1391341c600a69d8461abc6ef97b01b65cca28a3d0eb4d677abf0d319c8",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-360-1.png",
+    "width": 143.8125,
+    "height": 104.328125,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "5da7003dec551043e40ca4dc2683e9eb584d76fc51a6fd7f884f6303d00143d5",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic-360-2.png",
+    "width": 108.609375,
+    "height": 83.25,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "82b65d1317f424d0a08006996d58f9a44b7d09989509d7ffef8d5fa4d7d1952c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-360-2.png",
+    "width": 108.609375,
+    "height": 78.796875,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "729ed36c43d6a3e9a539b75539e006b2ed922265af1ffd7460ad1ea091574331",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic-768-1.png",
+    "width": 171.8125,
+    "height": 131.6875,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "2202088d4a4492fc3b2c5d6361f306728e55648bfd5afb57a72863041815aee9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-768-1.png",
+    "width": 171.8125,
+    "height": 124.65625,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "44f39226522786c46abe14a06911d8d62d3a49484b2fa29d7cddb866b7448544",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic-768-2.png",
+    "width": 312.609375,
+    "height": 239.609375,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "13aabbb266cdf727950ed2708216d2e01314b67c3347844fa66b1470d4908295",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-768-2.png",
+    "width": 312.609375,
+    "height": 226.8125,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "240c947df8b5ef4fd6da0814413037d5f2c9bfc9e1708705fa6eb8cdc7e7e944",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic-1440-1.png",
+    "width": 171.8125,
+    "height": 131.6875,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "2ae14cdff61d15a19fd8e524af3a677967459348f104ae5be5748393436ed499",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-1440-1.png",
+    "width": 171.8125,
+    "height": 124.65625,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "184b570104df96bd19ff80a0131ee44c727d5bfb92c94e3a5d470b6b54f9bbb1",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic",
+    "trigger": "chest",
+    "encounterId": "coffer-of-listening-teeth",
+    "variantId": "coffer-of-listening-teeth-portrait",
+    "fixtureId": "Offensive/chest",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic-1440-2.png",
+    "width": 344.609375,
+    "height": 264.140625,
+    "naturalWidth": 227,
+    "naturalHeight": 174,
+    "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "d665c46d7e1683efd24e600e46d9d075fdaf87be54163e6400b9c268a4628728",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "mimic_door",
+    "trigger": "door",
+    "encounterId": "threshold-that-breathes",
+    "variantId": "threshold-that-breathes-portrait",
+    "fixtureId": "Offensive/door",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/mimics/mimic_door-1440-2.png",
+    "width": 344.609375,
+    "height": 250.03125,
+    "naturalWidth": 317,
+    "naturalHeight": 230,
+    "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+    "authoritativeEnemyStateMatches": true,
+    "derivedPercentageComparison": "numeric",
+    "fullRandomTapeMatches": true,
+    "drawCount": 11,
+    "sha256": "6cba5a381cde58f1499269d89332c0c5e73abad71085709e4175155dfcf7cf9b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  }
+]

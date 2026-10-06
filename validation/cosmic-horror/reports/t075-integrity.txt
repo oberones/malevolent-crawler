@@ -1,0 +1,7 @@
+coffer-of-listening-teeth chest 227 174 master/prompt/runtime/review PASS
+threshold-that-breathes door 317 230 master/prompt/runtime/review PASS
+12 unique decoded captures with verified hashes and separate production triggers PASS
+art/cosmic-horror/baseline.json unchanged PASS
+art/cosmic-horror/manifest.json unchanged PASS
+53 unique creature replacement records match current runtime hashes PASS; not collection qualification
+git diff --check PASS

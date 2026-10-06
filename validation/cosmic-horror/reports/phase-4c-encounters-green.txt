@@ -1,0 +1,74 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/encounters.spec.mjs tests/integration/encounter-view.spec.mjs --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:68048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 45 tests using 3 workers
+
+(node:68058) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 100% text (6.6s)
+  ✓   1 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text (6.6s)
+  ✓   3 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 100% text (7.2s)
+  ✓   5 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 100% text (7.2s)
+  ✓   7 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 100% text (197ms)
+  ✓   8 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 200% text (180ms)
+  ✓   9 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 100% text (190ms)
+  ✓  10 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 200% text (176ms)
+  ✓   4 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 200% text (8.0s)
+  ✓  11 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 100% text (199ms)
+  ✓  12 [chromium] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 200% text (209ms)
+  ✓  14 [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (107ms)
+  ✓  15 [chromium] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (80ms)
+(node:68180) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [chromium] › tests/browser/encounters.spec.mjs:331:1 › encounter triggers and attacks preserve captured numeric outcomes (771ms)
+  ✓   6 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 200% text (8.3s)
+(node:68184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68185) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 100% text (6.7s)
+  ✓  17 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text (6.6s)
+  ✓  18 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 100% text (6.6s)
+  ✓  20 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 100% text (6.5s)
+  ✓  19 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 200% text (6.8s)
+  ✓  22 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 100% text (332ms)
+  ✓  23 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 200% text (325ms)
+  ✓  24 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 100% text (334ms)
+  ✓  25 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 200% text (339ms)
+  ✓  26 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 100% text (342ms)
+  ✓  27 [firefox] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 200% text (349ms)
+  ✓  21 [firefox] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 200% text (7.3s)
+  ✓  29 [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (234ms)
+  ✓  30 [firefox] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (228ms)
+(node:68315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68317) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  28 [firefox] › tests/browser/encounters.spec.mjs:331:1 › encounter triggers and attacks preserve captured numeric outcomes (970ms)
+(node:68332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  32 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text (5.6s)
+  ✓  31 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 100% text (5.8s)
+  ✓  33 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 100% text (5.8s)
+  ✓  35 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 100% text (5.8s)
+  ✓  34 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 768px and 200% text (6.4s)
+  ✓  37 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 100% text (364ms)
+  ✓  38 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 360px and 200% text (351ms)
+  ✓  39 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 100% text (337ms)
+  ✓  36 [webkit] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 1440px and 200% text (6.4s)
+  ✓  40 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 768px and 200% text (354ms)
+  ✓  41 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 100% text (352ms)
+  ✓  42 [webkit] › tests/browser/encounters.spec.mjs:238:5 › 52 selected variants at 1440px and 200% text (357ms)
+  ✓  45 [webkit] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (215ms)
+  ✓  44 [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (252ms)
+  ✓  43 [webkit] › tests/browser/encounters.spec.mjs:331:1 › encounter triggers and attacks preserve captured numeric outcomes (674ms)
+
+  45 passed (46.2s)

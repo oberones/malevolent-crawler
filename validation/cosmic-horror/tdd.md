@@ -263,3 +263,112 @@ Date: 2026-10-06. Node 24.21.0/npm 12.2.0.
   rule comparisons. Purpose comments, public contracts and immutable inputs reviewed.
 - Full regression results and art/native/release limitations are recorded in
   [Phase 4A evidence](phase-4a.md); this package does not deliver new creature art.
+
+## Phase 4B pilot — T062/T063 art and credit copy
+
+Date: 2026-10-06. Art and copy authoring only; no new behavioral implementation.
+Used the existing tested preparation/inspection tools without changes. Three
+transparent exact-size outputs reproduce identical hashes; 2,382 unit tests and
+36 focused encounter/narrative browser checks pass. Six decoded Chromium captures
+and all delivered assets were visually reviewed by the implementation agent.
+The [pilot evidence](phase-4b-pilot.md) separates this review from native/manual,
+performance and collection acceptance. No artificial red test was introduced for
+art authoring or factual credit copy, consistent with the task execution contract.
+
+## Phase 4B goblin-alias batch — T064 art and credit copy
+
+Date: 2026-10-06. Art/copy authoring only, using the unchanged tested preparation
+and inspection tools. Four transparent outputs match the immutable canvases and
+re-export to identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent inspected all four delivered files
+and 24 decoded Chromium captures across three viewports and two text scales.
+One Foreman master was rejected for hook framing and regenerated. See
+[batch evidence](phase-4b-goblins.md) for provenance and qualification limits.
+No artificial red test was introduced for art authoring or factual credit copy.
+
+## Phase 4B slime-alias batch — T066 art and credit copy
+
+Date: 2026-10-06. Art/copy authoring only, using unchanged tested preparation and
+inspection tools. Five transparent outputs match immutable dimensions and repeat
+exports produce identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent reviewed the five delivered PNGs
+at native size and 30 decoded Chromium captures at three viewports/two text scales.
+See [batch evidence](phase-4b-slimes.md) for exact prompts, masters, provenance,
+review findings and qualification limits. No artificial red test was added for
+art/copy authoring; production behavior and functions were unchanged.
+
+## Phase 4B second guardian-alias batch — T072 art and credit copy
+
+Date: 2026-10-07. Art/copy authoring only, using unchanged tested preparation and
+inspection tools. Four transparent outputs match immutable dimensions and repeat
+exports produce identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent reviewed the four delivered PNGs
+at intrinsic size and 24 decoded Chromium captures at three viewports/two text
+scales. See [batch evidence](phase-4b-guardians-b.md) for exact prompts, masters,
+provenance, individual findings and qualification limits. No artificial red test
+was added for art/copy authoring; production functions and behavior were unchanged.
+
+## Phase 4B first boss-alias batch — T073 art and credit copy
+
+Date: 2026-10-07. Art/copy authoring only, using unchanged tested preparation and
+inspection tools. Four transparent outputs match immutable dimensions and repeat
+exports produce identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent reviewed the four delivered PNGs
+at intrinsic size and 24 decoded Chromium captures at three viewports/two text
+scales. See [batch evidence](phase-4b-bosses-a.md) for exact prompts, masters,
+provenance, individual findings and qualification limits. No artificial red test
+was added for art/copy authoring; production functions and behavior were unchanged.
+
+## Phase 4B second boss-alias batch — T074 art and credit copy
+
+Date: 2026-10-07. Art/copy authoring only, using unchanged tested preparation and
+inspection tools. Four transparent outputs match immutable dimensions and repeat
+exports produce identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent reviewed the four delivered PNGs
+at intrinsic size and 24 decoded Chromium captures at three viewports/two text
+scales. See [batch evidence](phase-4b-bosses-b.md) for exact prompts, masters,
+provenance, individual findings and qualification limits. No artificial red test
+was added for art/copy authoring; production functions and behavior were unchanged.
+
+## Phase 4B mimic batch — T075 art and credit copy
+
+Date: 2026-10-07. Art/copy authoring only, using unchanged tested preparation and
+inspection tools. Two transparent outputs match immutable dimensions and repeat
+exports produce identical hashes. All 2,382 unit tests and 36 focused three-engine
+browser checks pass. The implementation agent reviewed both delivered PNGs at
+intrinsic size and 12 decoded Chromium captures at three viewports/two text scales.
+Production chest/door triggers preserve authoritative enemy values and the complete
+11-draw tapes. The capture-only derived HP-percentage comparison was aligned with
+the existing browser test; its initial diagnostic is retained. See
+[batch evidence](phase-4b-mimics.md) for prompts, masters, provenance, individual
+findings and qualification limits. No artificial red test was added for art/copy
+authoring; production functions and gameplay rules were unchanged.
+
+## Phase 4C — T076–T078 encounter integration and qualification
+
+Date: 2026-10-07. See [US2 evidence](us2.md) for exact commands and raw reports.
+
+- **Manifest data integration:** the new independent delivery checks reached
+  real assertions against the existing manifest: 54 failed on missing hashes/
+  delivered metadata and one independent-variant test passed. Merging 53 batch
+  records produced 55 passes. The added context assertion then failed at 0/18
+  contexts and passes after linking all 936 final screenshots. This is delivery
+  data validation, not a claim of changed gameplay behavior.
+- **Capture fixture correction:** screenshot review exposed inactive-player
+  refresh in capture-01. A fixture assertion reproduced empty player name and
+  undefined HP text, then passed after matching active-state-before-refresh order.
+  This diagnostic is not counted as application TDD red.
+- **Production HP reflow:** WebKit at 360px/200% exposed glyphs overlapping EXP.
+  The focused regression failed on `aboveExp` and `linesFit`; a full-track-width
+  text span and automatic row height made all three engine checks green at full,
+  half and near-zero HP. Refactor/comment review retained percentage fills and
+  existing portrait/container widths. Final capture-03 supersedes diagnostics
+  without overwriting them.
+- **Provenance validator:** a complete synthetic asset with a genuinely unreturned
+  timestamp failed the old non-null-date rule. Explicit null plus the recorded
+  tool-absence reason now passes; missing/malformed/inconsistent dates continue
+  to fail. All 10 art-tool tests pass; required human reviews are unchanged.
+- **Final checks:** 2,439 unit tests, 48 focused encounter checks, and all 393
+  integration/browser checks pass. Lint/format/audit pass. Human/native art,
+  performance, remaining collection and release evidence remain OPEN/BLOCKED;
+  full art/evidence validators correctly remain nonzero.

@@ -2960,12 +2960,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-002",
@@ -2989,12 +2996,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-003",
@@ -3018,12 +3032,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-004",
@@ -3047,12 +3068,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-005",
@@ -3076,12 +3104,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-006",
@@ -3105,12 +3140,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-007",
@@ -3134,12 +3176,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-008",
@@ -3163,12 +3212,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-009",
@@ -3192,12 +3248,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-010",
@@ -3221,12 +3284,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-011",
@@ -3250,12 +3320,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-012",
@@ -3279,12 +3356,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-013",
@@ -3308,12 +3392,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-014",
@@ -3337,12 +3428,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-015",
@@ -3366,12 +3464,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-016",
@@ -3395,12 +3500,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-017",
@@ -3424,12 +3536,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-018",
@@ -3453,12 +3572,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-019",
@@ -3482,12 +3608,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-020",
@@ -3511,12 +3644,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-021",
@@ -3540,12 +3680,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-022",
@@ -3569,12 +3716,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-023",
@@ -3598,12 +3752,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-024",
@@ -3627,12 +3788,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-025",
@@ -3656,12 +3824,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-026",
@@ -3685,12 +3860,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-027",
@@ -3714,12 +3896,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-028",
@@ -3743,12 +3932,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-029",
@@ -3772,12 +3968,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-030",
@@ -3801,12 +4004,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-031",
@@ -3830,12 +4040,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-032",
@@ -3859,12 +4076,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-033",
@@ -3888,12 +4112,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-034",
@@ -3917,12 +4148,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-035",
@@ -3946,12 +4184,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-036",
@@ -3975,12 +4220,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-037",
@@ -4004,12 +4256,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-038",
@@ -4033,12 +4292,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-039",
@@ -4062,12 +4328,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-040",
@@ -4091,12 +4364,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-041",
@@ -4120,12 +4400,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-042",
@@ -4149,12 +4436,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-043",
@@ -4178,12 +4472,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-044",
@@ -4207,12 +4508,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-045",
@@ -4236,12 +4544,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-046",
@@ -4265,12 +4580,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-047",
@@ -4294,12 +4616,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-048",
@@ -4323,12 +4652,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-049",
@@ -4352,12 +4688,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-050",
@@ -4381,12 +4724,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-051",
@@ -4410,12 +4760,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-052",
@@ -4439,12 +4796,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-053",
@@ -4468,12 +4832,19 @@
       "sourceRevision": null,
       "steps": "Review separately on every applicable declared target, viewport and 100%/200% text tuple; attach child captures/measurements with exact environment and reviewer. Unused art has no fabricated in-game selector.",
       "expected": "Original coherent identity, readable silhouette/meaning, clean alpha/framing, content boundary satisfied; exact raster size or glyph edges/baseline/spacing within 0.5 CSS px of immutable baseline; no container resize.",
-      "actual": "Not generated or reviewed; selectors and glyph baselines await T019.",
+      "actual": "All delivered creature artwork visually approved by the project maintainer on 2026-10-07. Human visual criteria PASS; required native-target matrix execution remains unperformed. See validation/cosmic-horror/art-approval-2026-10-07.md",
       "status": "OPEN",
       "evidence": [],
       "reviewer": null,
       "date": null,
-      "findings": []
+      "findings": [],
+      "humanVisualAcceptance": {
+        "status": "PASS",
+        "reviewer": "Project maintainer (direct user approval)",
+        "date": "2026-10-07",
+        "evidence": ["validation/cosmic-horror/art-approval-2026-10-07.md"],
+        "findings": []
+      }
     },
     {
       "id": "art-context-054",

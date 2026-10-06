@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/sprites/wolf.png",
+    "dimensions": [207, 202],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "be26a271a42b3ceddd1204990875927966bd8682bc5a0e2e7e97d32d19f28b6d"
+  },
+  {
+    "path": "assets/sprites/wolf_black.png",
+    "dimensions": [203, 202],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "fc7853265931d26c268a9e01816501dee773dbeb7cb72f4e1bb187f59651be39"
+  },
+  {
+    "path": "assets/sprites/wolf_winter.png",
+    "dimensions": [211, 203],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "4eed9478bd17f1edc2481537bef81b1ab69d18dde3002482e426a09957c6017a"
+  },
+  {
+    "path": "assets/sprites/wolf_boss.png",
+    "dimensions": [137, 139],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "0803480773491b235da45a81bdbd7424eeb760e20acab7a722c3b92a3a3cca40"
+  }
+]

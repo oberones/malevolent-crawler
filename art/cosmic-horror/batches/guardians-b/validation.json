@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/sprites/fallen_king.png",
+    "dimensions": [635, 506],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "788dba312302937d8b87de29b3c14b6ec02293c65d17e0cd1f1fc7406f8fa06a"
+  },
+  {
+    "path": "assets/sprites/tiamat.png",
+    "dimensions": [435, 263],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "7cb542dcc0db10dfb54f287f319ad04fb7e49696be8ad904887af8681bf28187"
+  },
+  {
+    "path": "assets/sprites/zodiac_aries.png",
+    "dimensions": [586, 397],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "d2e0b0056bdf1adf32ed889a28c9dcf8133a7edd14d3cc91ee5c4c9708e5a765"
+  },
+  {
+    "path": "assets/sprites/zodiac_cancer.png",
+    "dimensions": [617, 296],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "a232a842b55a8af9421e67c5e457ad437e8bc474095fda724c6e24e6ee9a930a"
+  }
+]

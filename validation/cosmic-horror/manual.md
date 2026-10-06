@@ -1,6 +1,6 @@
 # Manual acceptance workbook
 
-Owner: T007 scaffolding; execution owners listed per row. Created 2026-10-06. **No manual acceptance has been performed.**
+Owner: T007 scaffolding; execution owners listed per row. Created 2026-10-06. **Maintainer visual acceptance of all 53 delivered creature artworks: PASS on 2026-10-07; native execution remains separately recorded below.**
 
 Use PASS / FAIL / BLOCKED / OPEN / N/A. Check a box only after the expected result is observed, findings resolved, and evidence/reviewer/date recorded. N/A requires a specific reason. Screenshots and engine emulation do not replace real native interaction. `gates.json` contains the full structured steps, expected/actual results and target references for each ID below; update both records together.
 
@@ -252,59 +252,59 @@ Each row requires the full applicable art-review-matrix from gates.json: all thr
 
 | Done | Gate | Asset / role | Context | Owner | Status | Actual / evidence / reviewer / date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | art-context-001 | `assets/sprites/alfadriel.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-002 | `assets/sprites/ant_queen.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-003 | `assets/sprites/behemoth.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-004 | `assets/sprites/berthelot.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-005 | `assets/sprites/bm-feral.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-006 | `assets/sprites/cerberus_ptolemaios.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-007 | `assets/sprites/da-reaper.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-008 | `assets/sprites/fallen_king.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-009 | `assets/sprites/firelord.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-010 | `assets/sprites/goblin.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-011 | `assets/sprites/goblin_archer.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-012 | `assets/sprites/goblin_boss.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-013 | `assets/sprites/goblin_mage.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-014 | `assets/sprites/goblin_rogue.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-015 | `assets/sprites/hellhound.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-016 | `assets/sprites/icemaiden.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-017 | `assets/sprites/mimic.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-018 | `assets/sprites/mimic_door.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-019 | `assets/sprites/orc_archer.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-020 | `assets/sprites/orc_axe.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-021 | `assets/sprites/orc_mage.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-022 | `assets/sprites/orc_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-023 | `assets/sprites/skeleton_archer.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-024 | `assets/sprites/skeleton_boss.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-025 | `assets/sprites/skeleton_dragon.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-026 | `assets/sprites/skeleton_knight.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-027 | `assets/sprites/skeleton_mage1.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-028 | `assets/sprites/skeleton_mage2.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-029 | `assets/sprites/skeleton_pirate.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-030 | `assets/sprites/skeleton_samurai.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-031 | `assets/sprites/skeleton_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-032 | `assets/sprites/skeleton_warrior.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-033 | `assets/sprites/slime.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-034 | `assets/sprites/slime_angel.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-035 | `assets/sprites/slime_boss.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-036 | `assets/sprites/slime_crusader.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-037 | `assets/sprites/slime_knight.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-038 | `assets/sprites/spider.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-039 | `assets/sprites/spider_boss.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-040 | `assets/sprites/spider_dragon.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-041 | `assets/sprites/spider_fire.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-042 | `assets/sprites/spider_green.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-043 | `assets/sprites/spider_red.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-044 | `assets/sprites/spider_spirit.png` | provenance-only, unused | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-045 | `assets/sprites/thanatos.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-046 | `assets/sprites/tiamat.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-047 | `assets/sprites/wolf.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-048 | `assets/sprites/wolf_black.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-049 | `assets/sprites/wolf_boss.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-050 | `assets/sprites/wolf_winter.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-051 | `assets/sprites/zalaras.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-052 | `assets/sprites/zodiac_aries.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-053 | `assets/sprites/zodiac_cancer.png` | combat portrait | T077/T107 | OPEN | Not performed / — / — / — |
+| [ ] | art-context-001 | `assets/sprites/alfadriel.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-002 | `assets/sprites/ant_queen.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-003 | `assets/sprites/behemoth.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-004 | `assets/sprites/berthelot.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-005 | `assets/sprites/bm-feral.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-006 | `assets/sprites/cerberus_ptolemaios.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-007 | `assets/sprites/da-reaper.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-008 | `assets/sprites/fallen_king.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-009 | `assets/sprites/firelord.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-010 | `assets/sprites/goblin.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-011 | `assets/sprites/goblin_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-012 | `assets/sprites/goblin_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-013 | `assets/sprites/goblin_mage.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-014 | `assets/sprites/goblin_rogue.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-015 | `assets/sprites/hellhound.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-016 | `assets/sprites/icemaiden.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-017 | `assets/sprites/mimic.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-018 | `assets/sprites/mimic_door.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-019 | `assets/sprites/orc_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-020 | `assets/sprites/orc_axe.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-021 | `assets/sprites/orc_mage.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-022 | `assets/sprites/orc_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-023 | `assets/sprites/skeleton_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-024 | `assets/sprites/skeleton_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-025 | `assets/sprites/skeleton_dragon.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-026 | `assets/sprites/skeleton_knight.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-027 | `assets/sprites/skeleton_mage1.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-028 | `assets/sprites/skeleton_mage2.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-029 | `assets/sprites/skeleton_pirate.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-030 | `assets/sprites/skeleton_samurai.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-031 | `assets/sprites/skeleton_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-032 | `assets/sprites/skeleton_warrior.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-033 | `assets/sprites/slime.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-034 | `assets/sprites/slime_angel.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-035 | `assets/sprites/slime_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-036 | `assets/sprites/slime_crusader.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-037 | `assets/sprites/slime_knight.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-038 | `assets/sprites/spider.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-039 | `assets/sprites/spider_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-040 | `assets/sprites/spider_dragon.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-041 | `assets/sprites/spider_fire.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-042 | `assets/sprites/spider_green.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-043 | `assets/sprites/spider_red.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-044 | `assets/sprites/spider_spirit.png` | provenance-only, unused | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-045 | `assets/sprites/thanatos.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-046 | `assets/sprites/tiamat.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-047 | `assets/sprites/wolf.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-048 | `assets/sprites/wolf_black.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-049 | `assets/sprites/wolf_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-050 | `assets/sprites/wolf_winter.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-051 | `assets/sprites/zalaras.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-052 | `assets/sprites/zodiac_aries.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
+| [ ] | art-context-053 | `assets/sprites/zodiac_cancer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
 | [ ] | art-context-054 | `assets/icon/favicon.png` | favicon actual decoded size and browser-icon context | T094/T107 | OPEN | Not performed / — / — / — |
 | [ ] | art-context-055 | `assets/icon/favicon.ico` | favicon actual decoded size and browser-icon context | T094/T107 | OPEN | Not performed / — / — / — |
 | [ ] | art-context-056 | `relic:Sword` | reward | T092/T107 | OPEN | Not performed / — / — / — |
@@ -395,3 +395,20 @@ Each row requires the full applicable art-review-matrix from gates.json: all thr
 ## Completion rule
 
 T136 owns native interaction; T137 owns final narrative/art review; T138 owns CI enforcement; T139 joins automated/manual/art/performance evidence. Resolve every finding and populate structured results before running the later `validate:evidence` tool. No row is accepted merely because this workbook exists.
+
+## Phase 4C encounter evidence handoff — 2026-10-07
+
+T076–T078 automated development/agent review is recorded in [us2.md](us2.md).
+The [individual creature review](../../art/cosmic-horror/review/encounters.md)
+and [final capture index](../../art/cosmic-horror/review/encounters/index.json)
+cover all 53 sprites and 936 active portrait contexts. They retain explicit agent
+ownership. No human review or native encounter gate above is promoted by these
+results; every existing manual/native OPEN/BLOCKED status remains unchanged.
+The narrow enlarged-text HP/EXP overlap found during review is fixed with a
+red–green regression and recaptured in capture-03. No unresolved agent-observed
+creature-art finding remains. Human originality, direction, horror-boundary,
+keyboard/touch and native acceptance still require their named execution rows.
+
+## Maintainer artwork approval — 2026-10-07
+
+The [direct maintainer approval](art-approval-2026-10-07.md) supersedes the earlier Phase 4C human-artwork OPEN status for all 53 delivered sprites. Manifest human reviews and existing visual contexts are PASS. Combined art-context rows retain their outstanding native execution status; their human visual acceptance is PASS in both this workbook and `gates.json`. Historical capture and batch records are preserved.

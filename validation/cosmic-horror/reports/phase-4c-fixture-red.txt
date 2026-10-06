@@ -1,0 +1,56 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/encounters.spec.mjs --project=chromium --grep decoded portraits at 360px and 200% --workers=1 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:67895) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:67896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text (356ms)
+
+
+  1) [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text 
+
+    Error: the-dredge-foreman-portrait
+
+    expect(received).toMatchObject(expected)
+
+    - Expected  - 2
+    + Received  + 2
+
+    @@ -4,12 +4,12 @@
+        "horizontalOverflow": false,
+        "labelFits": true,
+        "name": "The Dredge Foreman Lv.1",
+        "naturalHeight": 164,
+        "naturalWidth": 331,
+    -   "playerHp": "500/500(100%)",
+    -   "playerName": "Mariner Lv.1 (0%)",
+    +   "playerHp": "500/500(undefined%)",
+    +   "playerName": "",
+        "portraitAbovePlayer": true,
+        "portraitBelowHp": true,
+        "src": "assets/sprites/goblin_boss.png",
+        "unchanged": true,
+      }
+
+      129 |             selected,
+      130 |           );
+    > 131 |           expect(result, variant.id).toMatchObject({
+          |                                      ^
+      132 |             naturalWidth: variant.width,
+      133 |             naturalHeight: variant.height,
+      134 |             src: variant.path,
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/encounters.spec.mjs:131:38
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-encounters-52-deco-dcc4b-raits-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-encounters-52-deco-dcc4b-raits-at-360px-and-200-text-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/browser/encounters.spec.mjs:39:5 › 52 decoded portraits at 360px and 200% text 

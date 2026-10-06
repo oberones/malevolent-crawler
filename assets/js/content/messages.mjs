@@ -197,7 +197,7 @@ const definitions = {
     "Original monster sprites: Aekashics. RPG sound effects: Leohpaz. Level-up sound: phoenix1291. Battle music: Leviathan_Music. Dungeon music: Sara Garrard. Audio library: Howler 2.2.3. Existing font and library attributions remain in their distributed files.",
   ),
   "about.art": define(
-    "Original cosmic-horror setting and replacement-art direction are in development. Generated replacement artwork is not yet delivered; existing art retains its original credits.",
+    "Original cosmic-horror setting with generated artwork for Quay Scavenger, Needlecast Lookout, Brine Whisperer, Crevice Pilferer, The Dredge Foreman, Surf Stalker, Tarwake Stalker, Rimewake Stalker, The Hush at the Jetty, Tidepool Memory, Halo Medusa, Processional Ooze, Shellbound Bloom, The Reservoir Heart, Breakwater Harpooner, Keelbreaker, Stormsilt Cantor, Tideglass Duelist, Threadpool Creeper, Rustvein Spinner, Verdigris Spinner, Emberreef Weaver, The Tidewheel Weaver, Ossuary Signalman, Reliquary Warden, Splinterblade Usher, Pierbound Husk, both Sounding Vessel variants, Wreck Tallyman, Lowtide Executioner, The Choir in the Wall, The Lantern Without Flame, The Brood Bell, The Salt Regent, The Threefold Watch, Cinderwake Prowler, The Unmoored Magistrate, The Anchor Votary, The Spiral Breaker, The Lockgate Carapace, The Continental Sleeper, The Red Undertow, The Eclipse Ferryman, The Kiln Below, The Stillwater Veil, The Cathedral Remnant, The Last Sounding, The Sovereign Below Sound, The Horizon Stitcher, Coffer of Listening Teeth, Threshold That Breathes and the unused Unrung Witness. All 53 creature portraits are replaced. Relic and symbol artwork remains in development; original contributions retain their credits.",
   ),
 };
 

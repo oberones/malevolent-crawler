@@ -1,0 +1,87 @@
+✔ all 53 creature obligations have one batch and one integrated delivery (2.329125ms)
+✔ sprite-alfadriel: exact transparent delivery and truthful provenance (51.26575ms)
+✔ sprite-ant-queen: exact transparent delivery and truthful provenance (40.610125ms)
+✔ sprite-behemoth: exact transparent delivery and truthful provenance (36.958292ms)
+✔ sprite-berthelot: exact transparent delivery and truthful provenance (31.832709ms)
+✔ sprite-bm-feral: exact transparent delivery and truthful provenance (29.199917ms)
+✔ sprite-cerberus-ptolemaios: exact transparent delivery and truthful provenance (27.19375ms)
+✔ sprite-da-reaper: exact transparent delivery and truthful provenance (23.718417ms)
+✔ sprite-fallen-king: exact transparent delivery and truthful provenance (30.8175ms)
+✔ sprite-firelord: exact transparent delivery and truthful provenance (38.817417ms)
+✔ sprite-goblin: exact transparent delivery and truthful provenance (48.144541ms)
+✔ sprite-goblin-archer: exact transparent delivery and truthful provenance (44.386416ms)
+✔ sprite-goblin-boss: exact transparent delivery and truthful provenance (31.014125ms)
+✔ sprite-goblin-mage: exact transparent delivery and truthful provenance (31.386458ms)
+✔ sprite-goblin-rogue: exact transparent delivery and truthful provenance (28.575042ms)
+✔ sprite-hellhound: exact transparent delivery and truthful provenance (21.280333ms)
+✔ sprite-icemaiden: exact transparent delivery and truthful provenance (37.190417ms)
+✔ sprite-mimic: exact transparent delivery and truthful provenance (32.607125ms)
+✔ sprite-mimic-door: exact transparent delivery and truthful provenance (31ms)
+✔ sprite-orc-archer: exact transparent delivery and truthful provenance (28.316458ms)
+✔ sprite-orc-axe: exact transparent delivery and truthful provenance (32.034667ms)
+✔ sprite-orc-mage: exact transparent delivery and truthful provenance (28.427792ms)
+✔ sprite-orc-swordsmaster: exact transparent delivery and truthful provenance (24.88ms)
+✔ sprite-skeleton-archer: exact transparent delivery and truthful provenance (27.412375ms)
+✔ sprite-skeleton-boss: exact transparent delivery and truthful provenance (22.920208ms)
+✔ sprite-skeleton-dragon: exact transparent delivery and truthful provenance (28.909709ms)
+✔ sprite-skeleton-knight: exact transparent delivery and truthful provenance (23.450542ms)
+✔ sprite-skeleton-mage1: exact transparent delivery and truthful provenance (31.51925ms)
+✔ sprite-skeleton-mage2: exact transparent delivery and truthful provenance (20.618958ms)
+✔ sprite-skeleton-pirate: exact transparent delivery and truthful provenance (30.827166ms)
+✔ sprite-skeleton-samurai: exact transparent delivery and truthful provenance (22.847917ms)
+✔ sprite-skeleton-swordsmaster: exact transparent delivery and truthful provenance (20.423584ms)
+✔ sprite-skeleton-warrior: exact transparent delivery and truthful provenance (22.929875ms)
+✔ sprite-slime: exact transparent delivery and truthful provenance (29.520583ms)
+✔ sprite-slime-angel: exact transparent delivery and truthful provenance (24.428542ms)
+✔ sprite-slime-boss: exact transparent delivery and truthful provenance (30.370625ms)
+✔ sprite-slime-crusader: exact transparent delivery and truthful provenance (29.285791ms)
+✔ sprite-slime-knight: exact transparent delivery and truthful provenance (28.415083ms)
+✔ sprite-spider: exact transparent delivery and truthful provenance (20.892792ms)
+✔ sprite-spider-boss: exact transparent delivery and truthful provenance (30.454917ms)
+✔ sprite-spider-dragon: exact transparent delivery and truthful provenance (32.325083ms)
+✔ sprite-spider-fire: exact transparent delivery and truthful provenance (31.110084ms)
+✔ sprite-spider-green: exact transparent delivery and truthful provenance (27.447792ms)
+✔ sprite-spider-red: exact transparent delivery and truthful provenance (23.681625ms)
+✔ sprite-spider-spirit: exact transparent delivery and truthful provenance (18.976583ms)
+✔ sprite-thanatos: exact transparent delivery and truthful provenance (32.35975ms)
+✔ sprite-tiamat: exact transparent delivery and truthful provenance (26.710709ms)
+✔ sprite-wolf: exact transparent delivery and truthful provenance (18.171416ms)
+✔ sprite-wolf-black: exact transparent delivery and truthful provenance (20.876167ms)
+✔ sprite-wolf-boss: exact transparent delivery and truthful provenance (23.319583ms)
+✔ sprite-wolf-winter: exact transparent delivery and truthful provenance (24.617584ms)
+✔ sprite-zalaras: exact transparent delivery and truthful provenance (33.2565ms)
+✔ sprite-zodiac-aries: exact transparent delivery and truthful provenance (28.673958ms)
+✔ sprite-zodiac-cancer: exact transparent delivery and truthful provenance (25.898917ms)
+✔ Skeleton Mage alternatives retain distinct masters and unused art adds no encounter (0.264084ms)
+✖ all 52 active variants link 18 verified browser captures, with no unused-art selector (1.909125ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 55
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1701.788958
+
+✖ failing tests:
+
+test at tests/unit/encounter-art-delivery.test.mjs:155:1
+✖ all 52 active variants link 18 verified browser captures, with no unused-art selector (1.909125ms)
+  AssertionError [ERR_ASSERTION]: sprite-alfadriel
+  
+  0 !== 18
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/encounter-art-delivery.test.mjs:160:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 18,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

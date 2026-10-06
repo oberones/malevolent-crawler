@@ -234,7 +234,7 @@ Runtime paths are planned delivery references, not existing or accepted replacem
 
 Generate original transparent full silhouettes, one request per distinct variant. Use strong category shapes and restrained internal texture; keep defining limbs, tips and handles within the canvas. Never trace or recolor baseline art. Contain and transparently pad to each exact recorded canvas; preserve 50%/70% portrait framing. Inspect alpha edges and actual-size legibility in every measured context. Do not invent glyph dimensions.
 
-Creature framing remains provisional until the small/tall/large T062–T063 pilot. Icon framing remains provisional until T082 qualifies the Sword icon at every measured size; remaining icon batches follow that gate. Pilot edits refine framing and prompts while preserving these shared IDs and names. Favicons use the sunken-bell motif, with separate 199 × 200 PNG and single-entry 127 × 128 ICO deliverables. The fallback uses a quiet sealed bell silhouette with adjacent readable identity; it is not substitute accepted creature art.
+Creature framing is frozen by the small/tall/large T062–T063 pilot recorded below. Icon framing remains provisional until T082 qualifies the Sword icon at every measured size; remaining icon batches follow that gate. Pilot edits refine framing and prompts while preserving these shared IDs and names. Favicons use the sunken-bell motif, with separate 199 × 200 PNG and single-entry 127 × 128 ICO deliverables. The fallback uses a quiet sealed bell silhouette with adjacent readable identity; it is not substitute accepted creature art.
 
 ## Narrative catalog handoff (Phase 3A)
 
@@ -265,3 +265,17 @@ Inventory, Equip, Save, rarity labels and third-party names may remain neutral.
 The credits template accurately identifies the currently retained original assets;
 replacement-art credit must change only after delivery and provenance exist.
 Native narrative review and the screen integration in Phase 3B remain OPEN.
+
+## Frozen creature pilot direction (T063, 2026-10-06)
+
+The three-file [encounter pilot](batches/encounter-pilot/review.md) establishes
+painterly nacre plates, wet-slate anatomy, pitted bronze and restrained verdigris.
+Use one dominant silhouette and one strong identity cue; detail must remain
+secondary at delivered size. Favor connected masses for small creatures,
+continuous filaments for tall forms and open negative space for broad bosses.
+Pale material contrast must carry the silhouette against the dark combat panel.
+Request clear margins but inspect actual returned edges; prompt percentages are
+not geometry evidence. Preserve full defining anatomy with proportional contain
+and transparent padding to the exact baseline size. Never resize a UI container
+to fit new art. Review each new asset separately; the pilot does not qualify later
+batches or native contexts. Shared IDs, names and 50%/70% widths remain unchanged.

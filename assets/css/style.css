@@ -485,6 +485,22 @@ button:hover {
   transition-timing-function: cubic-bezier(1, 0.1, 0.1, 0.1);
 }
 
+/* Reserve wrapped HP text above EXP, using the full track width at any health.
+   Only text reflow grows this row; portrait and combat container widths stay fixed. */
+#playerPanel > .bb-hp {
+  container-type: inline-size;
+  height: auto;
+  min-height: 1rem;
+}
+#player-hp-battle {
+  height: auto;
+  min-height: 1rem;
+}
+#player-hp-battle .battle-hp-label {
+  display: block;
+  width: 100cqw;
+}
+
 /* Title Screen */
 #title-screen {
   display: none;

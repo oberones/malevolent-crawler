@@ -1,0 +1,410 @@
+[
+  {
+    "name": "icemaiden",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-360-1.png",
+    "width": 201.328125,
+    "height": 190.609375,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "8882917a10990f54ddb292217e967dec9b4b4baa77e1599705d00a28a0f1e0dd",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-360-1.png",
+    "width": 201.328125,
+    "height": 174,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "04b8885f2b1cd109168afa0b3170d12e39fef3339687e0389c476be38967cd86",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-360-1.png",
+    "width": 201.328125,
+    "height": 171.171875,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "51b9c2c9a9cf26697597da4b0532373d0b2ad3555a83d4a951ed090a203e0aa6",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-360-1.png",
+    "width": 201.328125,
+    "height": 148.484375,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "78edc0dac269a03eab6d7c36ef23f9609ee1565de1d4627fa6d19e7555ce4554",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "icemaiden",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-360-2.png",
+    "width": 152.046875,
+    "height": 143.953125,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "4a8f247b8cd50f2e9fa2d692dc347c75acce0058c8fd84910746367c5b538756",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-360-2.png",
+    "width": 152.046875,
+    "height": 131.40625,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "f00dde707d89effb92d5670b9d56427b00491d202884bee1eb4ca8b8848a0e54",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-360-2.png",
+    "width": 152.046875,
+    "height": 129.265625,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "40fce2676731aa296da5c6cc315953f69dea5b2cde61a78c20ee10408e1e678d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-360-2.png",
+    "width": 152.046875,
+    "height": 112.140625,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "a7e3bced26929f2589abb2e11d7c2d9d0f383f74d7b483491bca5f748f194f45",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "icemaiden",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-768-1.png",
+    "width": 240.53125,
+    "height": 227.734375,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "07494b217ae1efb7d19c62685d014e55895ff8761c983f962e889ec14827e50b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-768-1.png",
+    "width": 240.53125,
+    "height": 207.875,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "efdfbec9cd43e3b7f45afa3eaaf31c45ebc424b26dec94044d5446b7b4e99e55",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-768-1.png",
+    "width": 240.53125,
+    "height": 204.515625,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "c29f8eb493dc97dfbd7ac3d4487468501709ad71d1df790c67759ea153bf4305",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-768-1.png",
+    "width": 240.53125,
+    "height": 177.390625,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "45b0f93f2bb7b837198e30d28014d9ec2a0eeb595b5d12d7933f391fff070676",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "icemaiden",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-768-2.png",
+    "width": 437.640625,
+    "height": 414.359375,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "f1a2433a3d7ffd3801250e9f3364b6e9afea6a02ebc2703dd54a79ab2b298bb8",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-768-2.png",
+    "width": 437.640625,
+    "height": 378.234375,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "4deda5cb05c8a5185173cbb977685d3bb735ddfeed13fe565ffa3f3cf438c531",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-768-2.png",
+    "width": 437.640625,
+    "height": 372.109375,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "f6d2a001354b7d4d1c46ab589ae419affa7982f0f95f5a2e7aa48104b1eb833d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-768-2.png",
+    "width": 437.640625,
+    "height": 322.78125,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "6ca9d567bb13be0f58941b08091ffeec86db14192e853c1e83b9c357a80681e4",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "icemaiden",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-1440-1.png",
+    "width": 240.53125,
+    "height": 227.734375,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "d77bfc9996126c078015e112eb748d855d555a14a4e04da9cbed87265732d004",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-1440-1.png",
+    "width": 240.53125,
+    "height": 207.875,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "d1d42a6255097799dc6f3ccd75ecd68b9f405cfa7b46f05b22dcc49499c7eff6",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-1440-1.png",
+    "width": 240.53125,
+    "height": 204.515625,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "dbdd84e22c841cb9e2243469ef5f4695bb64949dea60170c5189b7e1facb95b4",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-1440-1.png",
+    "width": 240.53125,
+    "height": 177.390625,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "febf045801162f28a93f1681bcae39ca85647a2e2074adae43f20f5a8f64632f",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "icemaiden",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/icemaiden-1440-2.png",
+    "width": 482.453125,
+    "height": 456.78125,
+    "naturalWidth": 564,
+    "naturalHeight": 534,
+    "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+    "sha256": "845b97c09ae1df352c1d126d3dff1720d6f08335d6eda157ef99a1dfebccb6a5",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "skeleton_dragon",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/skeleton_dragon-1440-2.png",
+    "width": 482.453125,
+    "height": 416.96875,
+    "naturalWidth": 501,
+    "naturalHeight": 433,
+    "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+    "sha256": "5b1abad6dfff12218ed10ce63349fea17dba9136ca655068776020d48152f922",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "thanatos",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/thanatos-1440-2.png",
+    "width": 482.453125,
+    "height": 410.203125,
+    "naturalWidth": 748,
+    "naturalHeight": 636,
+    "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+    "sha256": "c377d3832a5c71493a3da6541eff76a6b8981bd6f366c3839b259e2f26de0482",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "zalaras",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/bosses-b/zalaras-1440-2.png",
+    "width": 482.453125,
+    "height": 355.828125,
+    "naturalWidth": 663,
+    "naturalHeight": 489,
+    "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+    "sha256": "b0d2dc4d714cbf49510bef2c8b192e31fd96c40de9d2c5107e2923bc52921e2f",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  }
+]

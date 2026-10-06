@@ -1,0 +1,410 @@
+[
+  {
+    "name": "wolf",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf-360-1.png",
+    "width": 143.8125,
+    "height": 140.328125,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "a7ff70cebce1d1e272d0aa814cdf23ce7785fe6bf0a04fcf9cc76a3ec536c159",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-360-1.png",
+    "width": 143.8125,
+    "height": 143.09375,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "da2e95a6fb86928741c43f9e24a89c24aa15a957fdf749c6071206a8f236a412",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-360-1.png",
+    "width": 143.8125,
+    "height": 138.359375,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "611f154793f49f4ff081d95451e4d0db441bbe1181fa048062f3fffd6019d9f0",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-360-1.png",
+    "width": 143.8125,
+    "height": 145.90625,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "79ce6fe74894a36c7a3800725d1d1a4253c4f7d48bbc0fb8ff59fdc0505259ff",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf-360-2.png",
+    "width": 108.609375,
+    "height": 105.984375,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "630aa581608a2aa1ad06983e5b9582b52234b515c81a5a5e480b6a488cfdcc7a",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-360-2.png",
+    "width": 108.609375,
+    "height": 108.0625,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "83f68eec5ef94c673588dc10386b70142ca77451c77b75704641ebfdeeb38b77",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-360-2.png",
+    "width": 108.609375,
+    "height": 104.484375,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "e2328ae969808e27a7f7cab6201956a6949d9ddea7fc6d5ef2f5e4a933adba6f",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-360-2.png",
+    "width": 108.609375,
+    "height": 110.1875,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "6f75df8b94a46e3aaadd7828ae27fdee12cded2605bead8eb4b3c618c0abe731",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf-768-1.png",
+    "width": 171.8125,
+    "height": 167.65625,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "96fc74b864ac369397de65f9fe4b8ad2f23e5513974f5f7c903b13f62643ea25",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-768-1.png",
+    "width": 171.8125,
+    "height": 170.953125,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "db6cb78c3d2ee08fb59152e886fa63440fd3dcae68d67c6594ede9d617404233",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-768-1.png",
+    "width": 171.8125,
+    "height": 165.296875,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "65e2713e98185d354ca62bd93e1e2aa6843083fe33f24179cc4fcfd9af92c1f7",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-768-1.png",
+    "width": 171.8125,
+    "height": 174.3125,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "6b05938e9ae70c7523da5eb7da6bfa06f2ad4ae8964401c823b4c781cea2306c",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf-768-2.png",
+    "width": 312.609375,
+    "height": 305.046875,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "a177bb1001e3420093b18c99d5dad7a58c88e99e34276f7f4911cb7f16de0326",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-768-2.png",
+    "width": 312.609375,
+    "height": 311.0625,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "092a629d28b34d4031f03129bf16360ed36ec8784ac230f16a8ee418aecd8b3e",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-768-2.png",
+    "width": 312.609375,
+    "height": 300.75,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "5707496c38504e0427f3bc2dcc8699a624dc292a16544925de3ed7c3d6ff3261",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-768-2.png",
+    "width": 312.609375,
+    "height": 317.171875,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "83e3107cd54badfb77b7a2a2675892935a9348b1b82d6c96446dfccff8dddc0a",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf-1440-1.png",
+    "width": 171.8125,
+    "height": 167.65625,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "71285793613efdcf0856423a5357c8b1a52e6c8d82b364923a3d5a03ff933c40",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-1440-1.png",
+    "width": 171.8125,
+    "height": 170.953125,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "d89aeab7d487f0e23a4973307d88ab26885ac7ea94815f383f6b40a346250e0b",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-1440-1.png",
+    "width": 171.8125,
+    "height": 165.296875,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "ed3d49f3e7afccfefcd7a8edd4bd75ee8274e98e30c7bd8e5a7d6fd91467d555",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-1440-1.png",
+    "width": 171.8125,
+    "height": 174.3125,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "6a7af6c6f29486bbf00cf0cdb45b84e6eca008b3336d43a830a9e73ea6ddd40e",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf-1440-2.png",
+    "width": 344.609375,
+    "height": 336.28125,
+    "naturalWidth": 207,
+    "naturalHeight": 202,
+    "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+    "sha256": "c1a54979346999c3806f9487106a939dbf5c52c7da77b622425a2d17e0da4280",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_black",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_black-1440-2.png",
+    "width": 344.609375,
+    "height": 342.90625,
+    "naturalWidth": 203,
+    "naturalHeight": 202,
+    "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+    "sha256": "33526d8ba43782e157e6a26a8ab9c59a05ff6a6cdeba8080cb1b38fd27f7f2e8",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_winter",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_winter-1440-2.png",
+    "width": 344.609375,
+    "height": 331.53125,
+    "naturalWidth": 211,
+    "naturalHeight": 203,
+    "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+    "sha256": "a4539b1d5f3775d63f65ad4202edd9ad7e42a0bdf813952a94e4292a1faa0ba6",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  },
+  {
+    "name": "wolf_boss",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/wolves/wolf_boss-1440-2.png",
+    "width": 344.609375,
+    "height": 349.625,
+    "naturalWidth": 137,
+    "naturalHeight": 139,
+    "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+    "sha256": "4c6a9595c3b41b50bfce083d4cfafe4a8686904f19ca1e3a87de5935528a900f",
+    "visualReview": {
+      "status": "PASS",
+      "reviewer": "implementation agent",
+      "scope": "Creature silhouette, alpha, identity cue and separation from labels/HP; not native gameplay acceptance."
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/sprites/skeleton_archer.png",
+    "dimensions": [299, 218],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "1fc67aa0c5ad2ad38caf805ec5e4dc87144898a65c03b44a36d7d3c3b3d0dbd9"
+  },
+  {
+    "path": "assets/sprites/skeleton_knight.png",
+    "dimensions": [371, 212],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "003fe8a83f54ecff96e09f8d6250411fe7cff52790ab43cc5ffdac0975161b00"
+  },
+  {
+    "path": "assets/sprites/skeleton_swordsmaster.png",
+    "dimensions": [248, 215],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "29f0672eb94936ba15735db1a07726984bf9b753b5c2b5e2249784a549143252"
+  },
+  {
+    "path": "assets/sprites/skeleton_warrior.png",
+    "dimensions": [254, 188],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "ab1de98158408196538e2e3c1586550d60c72beea97831216a68aa4b8f98bd04"
+  }
+]

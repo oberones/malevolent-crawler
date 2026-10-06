@@ -1,0 +1,47 @@
+[
+  {
+    "path": "assets/sprites/alfadriel.png",
+    "dimensions": [603, 616],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "a325268d66cbf99e480ce4c999efc615ee4c6ad53152d1d555390f5bc950146f"
+  },
+  {
+    "path": "assets/sprites/ant_queen.png",
+    "dimensions": [469, 479],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "5db5d307e586bd3d8304b43511465e6e272104afb03fb54c62aad09245dc4e3e"
+  },
+  {
+    "path": "assets/sprites/berthelot.png",
+    "dimensions": [375, 251],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "0e3c6966e95c5e518165a3ddc3164cf203dc3cadf1b225e44ab102928e4bfc58"
+  },
+  {
+    "path": "assets/sprites/cerberus_ptolemaios.png",
+    "dimensions": [588, 410],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "533d2de82b1815b81e7a1d460ee99d4c57edb59d89456700ac68adecf2f821d8"
+  },
+  {
+    "path": "assets/sprites/hellhound.png",
+    "dimensions": [373, 323],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "06ac56eda975605b1ccae240900e7d4dd3cbc8d28693966badc7d7249e658124"
+  }
+]

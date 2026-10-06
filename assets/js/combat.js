@@ -421,7 +421,7 @@ const combatCounter =
   };
 
 const showCombatInfo =
-  /* Construct the existing battle view for the selected enemy. */ () => {
+  /* Build the selected battle view with player HP text separate from percentage-fill sizing. */ () => {
     document.querySelector("#combatPanel").innerHTML = `
     <div class="content">
         <div class="battle-info-panel center" id="enemyPanel">
@@ -440,7 +440,7 @@ const showCombatInfo =
             <div class="battle-bar empty-bar bb-hp">
                 <div class="battle-bar dmg bb-hp" id="player-hp-dmg"></div>
                 <div class="battle-bar current bb-hp" id="player-hp-battle">
-                    &nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)
+                    <span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)</span>
                 </div>
             </div>
             <div class="battle-bar empty-bar bb-xb">

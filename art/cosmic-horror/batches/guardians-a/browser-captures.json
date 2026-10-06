@@ -1,0 +1,512 @@
+[
+  {
+    "name": "alfadriel",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-360-1.png",
+    "width": 143.8125,
+    "height": 146.90625,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "5348d8d0e27628fdf1781f5fc5f2b46fd0bde2ae7e81e81940ffda238900a660",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-360-1.png",
+    "width": 143.8125,
+    "height": 146.875,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "3105235ac5aad162acb0fd78769c83b8026608ffd2bb8edfc2effced2e47f835",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-360-1.png",
+    "width": 143.8125,
+    "height": 96.25,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "ec1b3202c86572140171fd9b2ec7cead372a8ece4f887a0adeb00a48f0c63da9",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-360-1.png",
+    "width": 143.8125,
+    "height": 100.265625,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "1284b8363da3657b5dab2e7d53bee225bb4d11be654ed87afbf970e882802eaa",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 360,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-360-1.png",
+    "width": 143.8125,
+    "height": 124.53125,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "f768e18b56002dd7d1996fe8c45b7be651975bc94d8c98956378803f100b069d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "alfadriel",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-360-2.png",
+    "width": 108.609375,
+    "height": 110.9375,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "57cb21d754745c4f5148dd98b0121f36f03d2c59f0ac9ebce9b51230450a8f04",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-360-2.png",
+    "width": 108.609375,
+    "height": 110.921875,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "230f6bbadbc66aa67eddc0a46cb1c924d8c2b0c7bb31551db59992fd3aba352a",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-360-2.png",
+    "width": 108.609375,
+    "height": 72.6875,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "18d89cfa7d24a45996db475ba2a5ab9fe4e0d42f357777f39c7ec0749dc3713d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-360-2.png",
+    "width": 108.609375,
+    "height": 75.71875,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "8c0f19119439300c585fc748ea515c8cbf04f87de252331738e744ee008e1dd5",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 360,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-360-2.png",
+    "width": 108.609375,
+    "height": 94.046875,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "c2b11e150b7380f43fcf560aa200bdece5932e573d77a62daab32abde2b10e3d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "alfadriel",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-768-1.png",
+    "width": 171.8125,
+    "height": 175.515625,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "3b66d0f7778762ee8a9910939d437c500a8bdf7fa869e9817868f105e1e3870d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-768-1.png",
+    "width": 171.8125,
+    "height": 175.46875,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "bb748e6fc00977ca28b8ccb781b23c5a91a3cddcf64dfd41c957c3b76d4325f6",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-768-1.png",
+    "width": 171.8125,
+    "height": 114.984375,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "da1f5e47baf82a2366d9884521438221f32fc618e606b89dd1c092e02cdf91de",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-768-1.png",
+    "width": 171.8125,
+    "height": 119.796875,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "eed996fd32b6b666ca759f7a4c1b0822205c67047b24d76f6aa7ad575e105546",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 768,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-768-1.png",
+    "width": 171.8125,
+    "height": 148.78125,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "3c4da870a3225d07b1a88330acce1aea2f8ccb763895e3fd5e25220418903f34",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "alfadriel",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-768-2.png",
+    "width": 312.609375,
+    "height": 319.34375,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "0ff03a73a0e81216aab9efa6f3e35695f668c4271cf80494ef9b860af1422320",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-768-2.png",
+    "width": 312.609375,
+    "height": 319.265625,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "52dd8fe070a02f704faa9b22fa53b8a1c66dcafe9a0cb3f92ef63c556e4d3ec7",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-768-2.png",
+    "width": 312.609375,
+    "height": 209.234375,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "1a624383fdbd34d2b479ed1233c757c54b9567c25f330450e0692095b00f8351",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-768-2.png",
+    "width": 312.609375,
+    "height": 217.96875,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "858317f35d408fbdb9e64537dbda3ccc8268e8ac6400532c97e64cd83968983e",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 768,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-768-2.png",
+    "width": 312.609375,
+    "height": 270.703125,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "327c7b00ee2539e6753edd3e6b63a63f10169a0a0af71e9cde729f9afae87dfc",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "alfadriel",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-1440-1.png",
+    "width": 171.8125,
+    "height": 175.515625,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "0cfc742227661e7654df17e2df916cba2a0b12ff6dad654e95c94940dd9a8b47",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-1440-1.png",
+    "width": 171.8125,
+    "height": 175.46875,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "48af855015393740b4ea96470647cc93bec94dc568f9da830eda619c163c61d7",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-1440-1.png",
+    "width": 171.8125,
+    "height": 114.984375,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "a12fe2568eee697dc1513a4c52c495ddda472bc437de8a130b0eb9a08cfa9109",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-1440-1.png",
+    "width": 171.8125,
+    "height": 119.796875,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "9856204ccfe8a1efc99bbd26d6eef815cecff5c8a4f85b97cd51e2a32303486b",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 1440,
+    "textScale": 1,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-1440-1.png",
+    "width": 171.8125,
+    "height": 148.78125,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "2aef1ad4fe508652ec0e3757e2d348f9585b247255a1835e3b40b5764ebbb47a",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "alfadriel",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/alfadriel-1440-2.png",
+    "width": 344.609375,
+    "height": 352.03125,
+    "naturalWidth": 603,
+    "naturalHeight": 616,
+    "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+    "sha256": "495cc7ecd4dedcfc525c9952466e58646e1b46387ab807dd00bca26d15bac426",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "ant_queen",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/ant_queen-1440-2.png",
+    "width": 344.609375,
+    "height": 351.953125,
+    "naturalWidth": 469,
+    "naturalHeight": 479,
+    "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+    "sha256": "619b66f681d78df47614ca4a1f262e6a64614afbaad03aaf5b23da044977343c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "berthelot",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/berthelot-1440-2.png",
+    "width": 344.609375,
+    "height": 230.65625,
+    "naturalWidth": 375,
+    "naturalHeight": 251,
+    "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+    "sha256": "caabf81dcdd5fa64ad953c882b4881257463daf840510419e3a26eb1d853667d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "cerberus_ptolemaios",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/cerberus_ptolemaios-1440-2.png",
+    "width": 344.609375,
+    "height": 240.28125,
+    "naturalWidth": 588,
+    "naturalHeight": 410,
+    "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+    "sha256": "22f6cf7aaa79c0838c05da5415a7b0ee7280d43f6becd1c96b4a7fa0d248ee6d",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  },
+  {
+    "name": "hellhound",
+    "viewport": 1440,
+    "textScale": 2,
+    "path": "art/cosmic-horror/batches/guardians-a/hellhound-1440-2.png",
+    "width": 344.609375,
+    "height": 298.40625,
+    "naturalWidth": 373,
+    "naturalHeight": 323,
+    "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+    "sha256": "c76864084b5c6c59604f03d11c1cb7dcf1b6e807c5f0e889c29edcf748810d8c",
+    "browser": {
+      "name": "Chromium",
+      "version": "153.0.8010.12"
+    },
+    "deviceScaleFactor": 1
+  }
+]

@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write specs/001-cosmic-horror-refactor/tasks.md validation/cosmic-horror/phase-4b-skeletons-a.md
+specs/001-cosmic-horror-refactor/tasks.md 115ms (unchanged)
+validation/cosmic-horror/phase-4b-skeletons-a.md 6ms (unchanged)

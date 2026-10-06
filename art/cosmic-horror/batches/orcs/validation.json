@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/sprites/orc_archer.png",
+    "dimensions": [476, 480],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "331fd9ef5ecadfe3fc911adf7a17e5cc9b11d709f1b1dc27fc15dc887ed5045a"
+  },
+  {
+    "path": "assets/sprites/orc_axe.png",
+    "dimensions": [516, 434],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "f5c1b279e70c8ace402091d068691c8fbcb3a7624ba1492a54db9c9df391ef6e"
+  },
+  {
+    "path": "assets/sprites/orc_mage.png",
+    "dimensions": [569, 386],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "94577a06154c5da7b77e950e2919b06b554101296b392be19e4f714ddaa7775c"
+  },
+  {
+    "path": "assets/sprites/orc_swordsmaster.png",
+    "dimensions": [517, 368],
+    "decode": "PASS",
+    "visibleAndTransparentPixels": "PASS",
+    "changedFromBaseline": true,
+    "deterministicReexport": true,
+    "sha256": "3d6764bf30edbdf2319c5bef8f4d6d7fc86dc4a7795bea30fbc63ada339191e7"
+  }
+]

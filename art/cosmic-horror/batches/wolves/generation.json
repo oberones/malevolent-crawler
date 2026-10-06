@@ -1,0 +1,192 @@
+{
+  "batch": "wolves",
+  "task": "T065",
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "id": "sprite-wolf",
+      "variantId": "surf-stalker-portrait",
+      "displayName": "Surf Stalker",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T22:25:31.425Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11350-2dd8-70c2-a834-a990cf68bc8c/exec-bd7b0bbb-82f7-4645-bce1-b3c3627b68a7.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/wolves/wolf.png",
+        "masterSha256": "fb87f677e373a3ec02d220452dfd42f6cfb027a74e0b445e365cf588be2e3310",
+        "promptPath": "art/cosmic-horror/prompts/wolves/wolf.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 207,
+        "height": 202,
+        "alpha": true,
+        "sha256": "be26a271a42b3ceddd1204990875927966bd8682bc5a0e2e7e97d32d19f28b6d",
+        "path": "assets/sprites/wolf.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/wolves/review.md",
+        "reviewer": "implementation agent",
+        "scope": "batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-wolf-black",
+      "variantId": "tarwake-stalker-portrait",
+      "displayName": "Tarwake Stalker",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T22:26:14.056Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11350-2dd8-70c2-a834-a990cf68bc8c/exec-afff0f16-4476-4bba-9f29-6688be703d9c.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/wolves/wolf_black.png",
+        "masterSha256": "232eb6045c3a97c3979fa71d55732abc590fc62a2ac4a930f0abd3587747dfc5",
+        "promptPath": "art/cosmic-horror/prompts/wolves/wolf_black.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 203,
+        "height": 202,
+        "alpha": true,
+        "sha256": "fc7853265931d26c268a9e01816501dee773dbeb7cb72f4e1bb187f59651be39",
+        "path": "assets/sprites/wolf_black.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/wolves/review.md",
+        "reviewer": "implementation agent",
+        "scope": "batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-wolf-winter",
+      "variantId": "rimewake-stalker-portrait",
+      "displayName": "Rimewake Stalker",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T22:26:47.711Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11350-2dd8-70c2-a834-a990cf68bc8c/exec-613626e3-0b6d-4db3-b532-a8875781d365.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/wolves/wolf_winter.png",
+        "masterSha256": "b6d4fdda81170238dad67cda7a8c9f1cf8fa7499eda2966c37821218fb032c0c",
+        "promptPath": "art/cosmic-horror/prompts/wolves/wolf_winter.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 211,
+        "height": 203,
+        "alpha": true,
+        "sha256": "4eed9478bd17f1edc2481537bef81b1ab69d18dde3002482e426a09957c6017a",
+        "path": "assets/sprites/wolf_winter.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/wolves/review.md",
+        "reviewer": "implementation agent",
+        "scope": "batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-wolf-boss",
+      "variantId": "the-hush-at-the-jetty-portrait",
+      "displayName": "The Hush at the Jetty",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T22:27:26.516Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11350-2dd8-70c2-a834-a990cf68bc8c/exec-1ed60d02-9419-43fd-9044-2403c6f0c077.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/wolves/wolf_boss.png",
+        "masterSha256": "cb61e52f4e28298a89080a10c2b1496403c02041f5b8f9f30837d4f810f9d432",
+        "promptPath": "art/cosmic-horror/prompts/wolves/wolf_boss.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 137,
+        "height": 139,
+        "alpha": true,
+        "sha256": "0803480773491b235da45a81bdbd7424eeb760e20acab7a722c3b92a3a3cca40",
+        "path": "assets/sprites/wolf_boss.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/wolves/review.md",
+        "reviewer": "implementation agent",
+        "scope": "batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "identity": "Surf Stalker",
+      "sourcePath": "/Users/oberon/.codex/generated_images/01a11350-2dd8-70c2-a834-a990cf68bc8c/exec-4a8d3346-a944-44ca-86c0-1e325aa65c7c.png",
+      "sha256": "ad4b658553c5f80e0cc67f8c33119e5d794f604abd92ed3d762b3ebd20272af3",
+      "promptPath": "art/cosmic-horror/prompts/wolves/wolf-rejected.txt",
+      "reason": "Whiskers crowd left canvas edge; regenerated with shorter inward whiskers and wider margins. Rejected output not shipped."
+    }
+  ]
+}

@@ -108,7 +108,7 @@ async function validateContexts(root, entry, baseline) {
     }
   }
 }
-// Check a single asset without allowing one failure to hide remaining collection gaps.
+// Check each asset and truthful provenance without hiding other collection gaps.
 async function validateEntry(root, entry, required, baseline) {
   for (const key of [
     "id",
@@ -164,9 +164,12 @@ async function validateEntry(root, entry, required, baseline) {
   const generation = entry.generation;
   requireThat(
     generation &&
-      typeof generation.timestamp === "string" &&
-      Number.isFinite(Date.parse(generation.timestamp)),
-    "Missing generation timestamp",
+      ((typeof generation.timestamp === "string" &&
+        Number.isFinite(Date.parse(generation.timestamp))) ||
+        (generation.timestamp === null &&
+          generation.timestampUnavailableReason === "not-returned-by-tool" &&
+          generation.provenance?.generatedAt === null)),
+    "Missing/invalid generation timestamp or explicit tool-absence record",
   );
   requireThat(
     generation.provenance &&

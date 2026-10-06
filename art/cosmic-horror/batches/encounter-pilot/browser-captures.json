@@ -1,0 +1,62 @@
+[
+  {
+    "name": "goblin",
+    "viewport": 360,
+    "path": "art/cosmic-horror/batches/encounter-pilot/goblin-360.png",
+    "width": 143.8125,
+    "height": 148.265625,
+    "naturalWidth": 161,
+    "naturalHeight": 166,
+    "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands."
+  },
+  {
+    "name": "spider_dragon",
+    "viewport": 360,
+    "path": "art/cosmic-horror/batches/encounter-pilot/spider_dragon-360.png",
+    "width": 201.328125,
+    "height": 148.234375,
+    "naturalWidth": 895,
+    "naturalHeight": 659,
+    "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs."
+  },
+  {
+    "name": "goblin",
+    "viewport": 768,
+    "path": "art/cosmic-horror/batches/encounter-pilot/goblin-768.png",
+    "width": 171.8125,
+    "height": 177.140625,
+    "naturalWidth": 161,
+    "naturalHeight": 166,
+    "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands."
+  },
+  {
+    "name": "spider_dragon",
+    "viewport": 768,
+    "path": "art/cosmic-horror/batches/encounter-pilot/spider_dragon-768.png",
+    "width": 240.53125,
+    "height": 177.09375,
+    "naturalWidth": 895,
+    "naturalHeight": 659,
+    "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs."
+  },
+  {
+    "name": "goblin",
+    "viewport": 1440,
+    "path": "art/cosmic-horror/batches/encounter-pilot/goblin-1440.png",
+    "width": 171.8125,
+    "height": 177.140625,
+    "naturalWidth": 161,
+    "naturalHeight": 166,
+    "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands."
+  },
+  {
+    "name": "spider_dragon",
+    "viewport": 1440,
+    "path": "art/cosmic-horror/batches/encounter-pilot/spider_dragon-1440.png",
+    "width": 240.53125,
+    "height": 177.09375,
+    "naturalWidth": 895,
+    "naturalHeight": 659,
+    "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs."
+  }
+]

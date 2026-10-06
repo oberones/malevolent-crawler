@@ -20,6 +20,26 @@ const fixtureRoot = new URL("../fixtures/art/", import.meta.url);
 const fixture = (name) => readFile(new URL(name, fixtureRoot));
 // Match the independently computed digest in the manifest contract.
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
+
+// Real tool responses can omit a generation timestamp; explicit absence must not become invented metadata.
+test("art validator accepts explicitly unreturned timestamps but rejects missing or malformed dates", async (t) => {
+  const s = await setup(t);
+  const generation = s.manifest.entries[0].generation;
+  generation.timestamp = null;
+  generation.timestampUnavailableReason = "not-returned-by-tool";
+  generation.provenance.generatedAt = null;
+  assert.equal((await validateArt(s)).ok, true);
+  delete generation.timestampUnavailableReason;
+  assert.equal((await validateArt(s)).ok, false);
+  generation.timestampUnavailableReason = "not-returned-by-tool";
+  generation.timestamp = "not a date";
+  assert.equal((await validateArt(s)).ok, false);
+  delete generation.timestamp;
+  assert.equal((await validateArt(s)).ok, false);
+  generation.timestamp = null;
+  generation.provenance.generatedAt = "2026-10-07T00:00:00Z";
+  assert.equal((await validateArt(s)).ok, false);
+});
 // Build an isolated complete synthetic asset, never a production review.
 async function setup(t) {
   const root = await mkdtemp(join(tmpdir(), "crawler-art-"));

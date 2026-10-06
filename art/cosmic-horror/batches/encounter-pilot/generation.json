@@ -1,0 +1,138 @@
+{
+  "batch": "encounter-pilot",
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "id": "sprite-goblin",
+      "variantId": "quay-scavenger-portrait",
+      "displayName": "Quay Scavenger",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T21:08:26.906Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a112f5-f1fa-7351-8d17-65780e6981f7/exec-a602ea77-e53e-4ecf-b913-a463f2941446.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/encounter-pilot/goblin.png",
+        "masterSha256": "a46d3630ab201ecec4089a3ba9c8b353982e27d6fb7f1e02d40c4f06a7e9d9bb",
+        "promptPath": "art/cosmic-horror/prompts/encounter-pilot/goblin.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 161,
+        "height": 166,
+        "alpha": true,
+        "sha256": "062c92c1b70025809991523f562a331763d8bd243af5751023b12d512fc9bffb",
+        "path": "assets/sprites/goblin.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/encounter-pilot/review.md",
+        "reviewer": "implementation agent",
+        "scope": "pilot visual review; full native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-spirit",
+      "variantId": "the-unrung-witness-portrait",
+      "displayName": "The Unrung Witness",
+      "unusedButRequired": true,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T21:09:06.810Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a112f5-f1fa-7351-8d17-65780e6981f7/exec-5d5f75ec-cfe5-4b40-bcf1-02bc8526c981.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/encounter-pilot/spider_spirit.png",
+        "masterSha256": "c7807e7c576538ec507e1e56a54f4c04b8f8e54caa8056456adebf1fcd9bf832",
+        "promptPath": "art/cosmic-horror/prompts/encounter-pilot/spider_spirit.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 282,
+        "height": 626,
+        "alpha": true,
+        "sha256": "67cca9e7a219ac49fa9242681bfad41f61c2ffc6c6d909e4e0555da188f7f2b4",
+        "path": "assets/sprites/spider_spirit.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/encounter-pilot/review.md",
+        "reviewer": "implementation agent",
+        "scope": "pilot visual review; full native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-spider-dragon",
+      "variantId": "the-horizon-stitcher-portrait",
+      "displayName": "The Horizon Stitcher",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-06T21:09:56.820Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a112f5-f1fa-7351-8d17-65780e6981f7/exec-37820f0a-7e38-4391-9dcf-893e34483aec.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/encounter-pilot/spider_dragon.png",
+        "masterSha256": "d2038f41f65a789592f695779f823618b83b84e6fad16ccde105467929e92728",
+        "promptPath": "art/cosmic-horror/prompts/encounter-pilot/spider_dragon.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 895,
+        "height": 659,
+        "alpha": true,
+        "sha256": "543a29000d5a307f25beb57c993ba27b488f2bd0b0d95a04dd1ede8a11029670",
+        "path": "assets/sprites/spider_dragon.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/encounter-pilot/review.md",
+        "reviewer": "implementation agent",
+        "scope": "pilot visual review; full native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    }
+  ]
+}

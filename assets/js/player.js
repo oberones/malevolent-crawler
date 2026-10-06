@@ -63,7 +63,7 @@ const playerLvlUp =
 
 // Refresh the player stats
 const playerLoadStats =
-  /* Recalculate equipment effects and refresh the existing player panels. */ () => {
+  /* Refresh equipment/player panels; keep readable HP text independent of the shrinking fill. */ () => {
     showEquipment();
     showInventory();
     applyEquipmentStats();
@@ -89,7 +89,7 @@ const playerLoadStats =
       const playerHpDamageElement = document.querySelector("#player-hp-dmg");
       const playerExpElement = document.querySelector("#player-exp-bar");
       const playerInfoElement = document.querySelector("#player-combat-info");
-      playerCombatHpElement.innerHTML = `&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)`;
+      playerCombatHpElement.innerHTML = `<span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)</span>`;
       playerCombatHpElement.style.width = `${player.stats.hpPercent}%`;
       playerHpDamageElement.style.width = `${player.stats.hpPercent}%`;
       playerExpElement.style.width = `${player.exp.expPercent}%`;

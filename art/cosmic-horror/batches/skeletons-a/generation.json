@@ -1,0 +1,201 @@
+{
+  "batch": "skeletons-a",
+  "task": "T069",
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "id": "sprite-skeleton-archer",
+      "variantId": "ossuary-signalman-portrait",
+      "displayName": "Ossuary Signalman",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-07T00:09:04.134Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-a20f89d0-1a1c-457f-af5c-30db2fd93bed.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_archer.png",
+        "masterSha256": "3073c22c08595cd7884f631d2f796af37606630f0eab72a698824985d1402f97",
+        "promptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_archer.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 299,
+        "height": 218,
+        "alpha": true,
+        "sha256": "1fc67aa0c5ad2ad38caf805ec5e4dc87144898a65c03b44a36d7d3c3b3d0dbd9",
+        "path": "assets/sprites/skeleton_archer.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/skeletons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-skeleton-knight",
+      "variantId": "reliquary-warden-portrait",
+      "displayName": "Reliquary Warden",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-07T00:11:27.550Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-55e71504-fcda-480c-bb73-d8bdb92af916.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_knight.png",
+        "masterSha256": "9de46210bf0f05e1711c1865bdc366db4b95d0f57d045e88a31ec13cc1ab356a",
+        "promptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_knight.txt",
+        "transparentBackground": true,
+        "revisions": [
+          {
+            "reason": "Restore complete upper edge and transparent framing margin",
+            "initialMasterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_knight-initial.png",
+            "initialMasterSha256": "e2c03333220db6b770686c87255bf0992c608aaa3214ddce50e8ffef9e8fc971",
+            "initialSourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-d38434dd-d488-4f9e-8467-8bd2731e6bef.png",
+            "editPromptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_knight-framing.txt"
+          }
+        ]
+      },
+      "delivered": {
+        "width": 371,
+        "height": 212,
+        "alpha": true,
+        "sha256": "003fe8a83f54ecff96e09f8d6250411fe7cff52790ab43cc5ffdac0975161b00",
+        "path": "assets/sprites/skeleton_knight.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/skeletons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-skeleton-swordsmaster",
+      "variantId": "splinterblade-usher-portrait",
+      "displayName": "Splinterblade Usher",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-07T00:10:14.088Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-866e503c-2485-4434-a71a-cdaa084bf800.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_swordsmaster.png",
+        "masterSha256": "205069cd282e33fe30097dfbb8832b6649c2e32b048d3e87fd5a77119250f0b7",
+        "promptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_swordsmaster.txt",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 248,
+        "height": 215,
+        "alpha": true,
+        "sha256": "29f0672eb94936ba15735db1a07726984bf9b753b5c2b5e2249784a549143252",
+        "path": "assets/sprites/skeleton_swordsmaster.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/skeletons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    },
+    {
+      "id": "sprite-skeleton-warrior",
+      "variantId": "pierbound-husk-portrait",
+      "displayName": "Pierbound Husk",
+      "unusedButRequired": false,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "sourceFileModifiedAt": "2026-10-07T00:12:07.098Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-b0620e4a-179e-4003-81de-25cf005444a3.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_warrior.png",
+        "masterSha256": "c7bff487b5bce2186536a375349fb1d07ac180ae1ad5f491918f997ab3eef26a",
+        "promptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_warrior.txt",
+        "transparentBackground": true,
+        "revisions": [
+          {
+            "reason": "Restore complete upper edge and transparent framing margin",
+            "initialMasterPath": "art/cosmic-horror/masters/skeletons-a/skeleton_warrior-initial.png",
+            "initialMasterSha256": "9c576e7de86bba79861f6969c8f44964e4516b59310b0c8f21197ed828a1474f",
+            "initialSourcePath": "/Users/oberon/.codex/generated_images/01a113af-fc57-7550-ac47-415244761ab4/exec-d5ce3536-47b1-4c37-a739-e1d0c923a900.png",
+            "editPromptPath": "art/cosmic-horror/prompts/skeletons-a/skeleton_warrior-framing.txt"
+          }
+        ]
+      },
+      "delivered": {
+        "width": 254,
+        "height": 188,
+        "alpha": true,
+        "sha256": "ab1de98158408196538e2e3c1586550d60c72beea97831216a68aa4b8f98bd04",
+        "path": "assets/sprites/skeleton_warrior.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/skeletons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Batch visual review; native and collection acceptance remain OPEN",
+        "date": "2026-10-06"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/encounters.spec.mjs --project=webkit --grep enlarged player HP --workers=1 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:69210) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:69211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [webkit] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health (719ms)
+
+
+  1) [webkit] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+    -   "aboveExp": true,
+    +   "aboveExp": false,
+        "draws": 0,
+        "fillWidth": "100%",
+        "fits": true,
+        "hp": 500,
+    -   "linesFit": true,
+    +   "linesFit": false,
+        "text": "500/500(100%)",
+      }
+
+      69 |       }, portraits[0],
+      70 |     );
+    > 71 |     for (const row of rows) expect(row).toEqual({ hp: row.hp, text: `${row.hp}/500(${row.hp / 5}%)`, fillWidth: `${row.hp / 5}%`, fits: true, aboveExp: true, linesFit: true, draws: 0 });
+         |                                         ^
+      72 |   } finally { await f.dispose(); }
+      73 | });
+      74 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/encounters.spec.mjs:71:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-encounters-enlarge-ad1fa-l-half-and-near-zero-health-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-encounters-enlarge-ad1fa-l-half-and-near-zero-health-webkit/error-context.md
+
+  1 failed
+    [webkit] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health 

@@ -1,0 +1,68 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  {
+    image: {
+      name: 'mimic',
+      size: '50%',
+      type: '.png'
+...
+      hpMax: 436,
++     hpPercent: '100',
+-     hpPercent: 100,
+      vamp: 0
+    },
+    type: 'Offensive'
+  }
+
+    at file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/.cache/capture-mimics.mjs:39:18
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:541:9) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: {
+    name: 'Mimic',
+    type: 'Offensive',
+    lvl: 3,
+    stats: {
+      hp: 436,
+      hpMax: 436,
+      atk: 111,
+      def: 46,
+      atkSpd: 0.43000000000000005,
+      vamp: 0,
+      critRate: 2.6875,
+      critDmg: 53.75,
+      hpPercent: '100'
+    },
+    image: { name: 'mimic', type: '.png', size: '50%' },
+    rewards: { exp: 69, gold: 104, drop: false }
+  },
+  expected: {
+    name: 'Mimic',
+    type: 'Offensive',
+    lvl: 3,
+    stats: {
+      hp: 436,
+      hpMax: 436,
+      atk: 111,
+      def: 46,
+      atkSpd: 0.43000000000000005,
+      vamp: 0,
+      critRate: 2.6875,
+      critDmg: 53.75,
+      hpPercent: 100
+    },
+    image: { name: 'mimic', type: '.png', size: '50%' },
+    rewards: { exp: 69, gold: 104, drop: false }
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.21.0
