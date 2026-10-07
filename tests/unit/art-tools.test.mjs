@@ -14,7 +14,11 @@ import { createHash } from "node:crypto";
 import sharp from "sharp";
 import { prepareArt } from "../../scripts/prepare-art.mjs";
 import { packIco, inspectIco } from "../../scripts/pack-ico.mjs";
-import { inspectPng, validateArt } from "../../scripts/validate-art.mjs";
+import {
+  inspectPng,
+  validateArt,
+  contextKey,
+} from "../../scripts/validate-art.mjs";
 const fixtureRoot = new URL("../fixtures/art/", import.meta.url);
 // Read independently encoded fixture bytes.
 const fixture = (name) => readFile(new URL(name, fixtureRoot));
@@ -340,4 +344,18 @@ test("manifest rejects altered baselines, bogus provenance and unrecorded export
   assert.equal((await validateArt(s)).ok, true);
   await writeFile(join(s.root, "art/original.png"), await fixture("valid.png"));
   assert.equal((await validateArt(s)).ok, false);
+});
+
+// Unmeasured native targets still have distinct identities; neither is a candidate pass.
+test("context keys distinguish blocked native targets without fabricated browser metadata", () => {
+  const row = {
+    id: "title/title",
+    viewport: { width: 360, height: 800 },
+    textScale: 2,
+    status: "BLOCKED",
+  };
+  assert.notEqual(
+    contextKey({ ...row, target: "safari-ios" }),
+    contextKey({ ...row, target: "chrome-android" }),
+  );
 });

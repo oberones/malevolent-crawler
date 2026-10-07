@@ -1,0 +1,5 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write assets/js/app/services.mjs assets/js/app/symbol-view.mjs tests/integration/image-consumers.spec.mjs
+assets/js/app/services.mjs 159ms
+assets/js/app/symbol-view.mjs 153ms (unchanged)
+tests/integration/image-consumers.spec.mjs 12ms

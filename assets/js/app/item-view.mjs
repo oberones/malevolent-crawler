@@ -8,7 +8,7 @@ import { validateEquipment } from "./save-validation.mjs";
  * Own safe item DOM and view-bound actions; classic callbacks retain stats, saves
  * and exploration ownership. Existing modal bridge supplies dialogs.mjs focus.
  * @param {object} options document, getPlayer, run, refresh, pause, resume, sound.
- * @returns {object} Render, detail and bulk-confirmation methods.
+ * @returns {object} Render, detail, bulk-confirmation and image-owner disposal methods.
  */
 export function createItemView({
   document,
@@ -95,6 +95,7 @@ export function createItemView({
     ]) {
       const target = document.getElementById(id);
       if (!target) continue;
+      symbol.release(target);
       target.replaceChildren();
       const items =
         collection === "inventory"
@@ -157,7 +158,7 @@ export function createItemView({
       document.querySelector("#inventory .content").append(status);
     }
   }
-  // Build a detail view without mutating the holding or resetting its binding.
+  // Build detail and currency controls without mutating the holding or its binding.
   function detail(item, collection, binding) {
     pause();
     sound("open");
@@ -211,7 +212,11 @@ export function createItemView({
       ),
       button("close-item-info", "Close", close),
     );
+    controls
+      .querySelector("#sell-equip")
+      .prepend(symbol("currency", "currency/sale-control"));
     content.append(list, feedback, controls);
+    symbol.release(panel);
     panel.replaceChildren(content);
     panel.style.display = "flex";
     document.getElementById("inventory").style.filter = "brightness(50%)";
@@ -262,11 +267,14 @@ export function createItemView({
       ),
     );
     content.append(p, controls);
+    symbol.release(panel);
     panel.replaceChildren(content);
     panel.style.display = "flex";
   }
   return {
     render,
+    // Release mounted relic requests and removal observation on service teardown.
+    dispose: symbol.dispose,
     /** Open an explicitly requested legacy position using a fresh shared view. */
     show(collection, index) {
       render();

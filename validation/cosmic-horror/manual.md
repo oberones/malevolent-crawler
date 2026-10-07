@@ -1,6 +1,6 @@
 # Manual acceptance workbook
 
-Owner: T007 scaffolding; execution owners listed per row. Created 2026-10-06. **Maintainer visual acceptance of all 53 delivered creature artworks: PASS on 2026-10-07; native execution remains separately recorded below.**
+Owner: T007 scaffolding; execution owners listed per row. Created 2026-10-06. **Maintainer visual acceptance of all 80 delivered art assets: PASS on 2026-10-07; native execution remains separately recorded below.**
 
 Use PASS / FAIL / BLOCKED / OPEN / N/A. Check a box only after the expected result is observed, findings resolved, and evidence/reviewer/date recorded. N/A requires a specific reason. Screenshots and engine emulation do not replace real native interaction. `gates.json` contains the full structured steps, expected/actual results and target references for each ID below; update both records together.
 
@@ -432,3 +432,43 @@ keyboard review and native/physical-device execution remain OPEN/BLOCKED; the
 2026-10-07 maintainer approval for 53 creature sprites does not cover these relics.
 Full-collection absolute-coordinate comparison and native baselines remain OPEN
 for US4 qualification. No release, timing, CI or native gate is promoted here.
+
+## Phase 6A art-production review — 2026-10-07
+
+Implementation-agent review PASS for T094–T098 only: twelve original masters, thirteen delivered files, isolated measured symbol sizes and small/large fallback proofs. [Phase 6A evidence](phase-6a.md) and five batch reviews identify the actual inspected sheets and findings. The automated matrix covers 486 symbol tuples; favicon/fallback fixtures have three engine captures each. This is not maintainer artwork acceptance, native browser-tab behavior, live symbol geometry, image-error control testing, physical-device or release acceptance. Those obligations retain their existing OPEN/BLOCKED status. No human approval was inferred from prior creature acceptance.
+
+## Phase 6C integration review — 2026-10-07
+
+[Phase 6C evidence](phase-6c.md) owns the ten-role/27-context symbol integration,
+geometry comparisons and automated engine captures. Agent screenshot inspection
+is limited to the named samples in that report; it does not establish human
+artwork approval or manual keyboard/device acceptance. Narrow-view stat text
+clipping and awkward allocation-label wrapping remain visible in fixture
+captures and require full-journey reflow review; symbol footprint checks do not
+certify those text layouts. No human/native, performance, manifest or release
+gate is promoted by this package.
+
+## Complete artwork approval — 2026-10-07
+
+The maintainer's [complete collection approval](art-approval-2026-10-07-complete.md)
+closes human visual acceptance for all 80 delivered art files, including the
+relics, remaining symbols, favicons and fallback. T107 is complete; all per-entry
+manifest human reviews and all 139 art-context human acceptance fields are PASS.
+This supersedes earlier human-artwork OPEN statements in this workbook and the
+historical package reports. It does not assert native/device execution, approve
+narrative text, resolve technical context findings or close release gates.
+T108's artwork-regeneration portion needs no action; context fixes remain open.
+
+## Phase 6D automated integration and sampled review — 2026-10-07
+
+Image-failure journeys now exercise actual combat, Claim, inventory, equip,
+unequip and sale with delayed/missing/corrupt art and unavailable fallback.
+Agent visual review found and corrected stat clipping/split abbreviations and
+allocation wrapping at enlarged text. These are automated engine checks and
+sampled agent review, not execution of the native procedures above.
+
+All 80 artwork approvals remain unchanged. No regeneration was required.
+[US4](us4.md) and [decoded/context audit](art-automated.json) record automated
+outcomes and capture links. Exact pre-theme absolute positions, native targets,
+favicon browser chrome, target-specific fallback review and release gates stay
+OPEN/BLOCKED. No native/manual checkbox is closed by this package.

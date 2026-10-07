@@ -1,0 +1,14 @@
+[
+  {
+    "id": "missing-art",
+    "status": "PASS",
+    "inspection": {
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "sha256": "84124d82d22f5e2093aa40796fc266b7615cfb9f4cff505cd2de6300c138bad1"
+    },
+    "repeatExportHashEqual": true,
+    "borderMaxAlpha": 0
+  }
+]

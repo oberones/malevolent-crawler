@@ -1,0 +1,238 @@
+{
+  "stats": {
+    "startTime": "2026-10-07T22:57:55.277Z",
+    "duration": 318802.848,
+    "expected": 327,
+    "skipped": 0,
+    "unexpected": 24,
+    "flaky": 0
+  },
+  "failed": [
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "chromium",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "firefox",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"loading\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"fallback\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:141:13",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "webkit",
+      "status": "unexpected",
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"text\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  101 |         ),\n  102 |     )\n> 103 |     .toBe(\n      |      ^\n  104 |       mode === \"delayed\"\n  105 |         ? \"loading\"\n  106 |         : mode === \"fallback-missing\"\n    at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:103:6)\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:210:13"
+      ]
+    }
+  ],
+  "scope": "Only previously open T100 image-recovery journeys fail; T104 owns integration."
+}

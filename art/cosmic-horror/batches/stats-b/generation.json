@@ -1,0 +1,180 @@
+{
+  "batch": "stats-b",
+  "date": "2026-10-07",
+  "candidateBaseRevision": "5729856863648011464e8777e254ed353d47a04f",
+  "candidateState": "Phase 6A assets only; T103/T104/T105 own consumers and manifest join",
+  "entries": [
+    {
+      "id": "stat-vampirism",
+      "identityId": "stat-vampirism",
+      "displayName": "Returning Drop",
+      "contextIds": ["vampirism/main", "vampirism/bonus"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:31:07.438Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-84369be0-8057-4268-804c-0b1adc99fcdd.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-b/masters/stat-vampirism.png",
+        "masterSha256": "c8cf614eaaf2a3fade00846df0470ea17f68f875eae23824be85512e6523045e",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-b/prompts/stat-vampirism.txt",
+        "promptSha256": "6ed2a48a123a90f997707b1a93e2060751a90d9803cc85088d6fe709949cd970",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "592b2896e6176b23943da4a7a4065517400244fcb9986b2db835392caa0a9f9c",
+        "path": "assets/art/stat-vampirism.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-b/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The curved blade/drop, spark-over-shell and split pearl remain distinct at 16/32 CSS pixels. Vampirism uses restrained red only; the small droplet and dark handle have less detail at 16, so adjacent text remains necessary. Rate has a tall spark silhouette; damage has a broad split disc silhouette. No graphic gore."
+        ]
+      }
+    },
+    {
+      "id": "stat-critical-rate",
+      "identityId": "stat-critical-rate",
+      "displayName": "Fault Spark",
+      "contextIds": ["critical-rate/main", "critical-rate/bonus"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:31:44.008Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-64e3bcfd-9d83-45c6-8aba-ba4044d6f047.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-b/masters/stat-critical-rate.png",
+        "masterSha256": "2f0323feedde2e085f420f70765d2605d919ca64ecb5c94799e4b4e945b066cf",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-b/prompts/stat-critical-rate.txt",
+        "promptSha256": "a7b6f7e6d706b75b0e05db3e9ce59ae01af6260e19576c5225a9b427bede670a",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "f7b6615254ad8d17059fb7ea7d0e78e143642105706c27e7109193e5556a9bbe",
+        "path": "assets/art/stat-critical-rate.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-b/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The curved blade/drop, spark-over-shell and split pearl remain distinct at 16/32 CSS pixels. Vampirism uses restrained red only; the small droplet and dark handle have less detail at 16, so adjacent text remains necessary. Rate has a tall spark silhouette; damage has a broad split disc silhouette. No graphic gore."
+        ]
+      }
+    },
+    {
+      "id": "stat-critical-damage",
+      "identityId": "stat-critical-damage",
+      "displayName": "Riven Pearl",
+      "contextIds": ["critical-damage/main", "critical-damage/bonus"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:33:08.589Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-ceb16fed-8529-4b81-95e1-77fd7dd68ea4.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-b/masters/stat-critical-damage.png",
+        "masterSha256": "e786e26eb23053853ec0a3dc8a47b71997dcbd6b5926f08eee1a57e40e4002be",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-b/prompts/stat-critical-damage.txt",
+        "promptSha256": "82fdee6a917099451ea73201fcb8cb2fb722c45eb36a9309703c452dbfedf7c5",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "448f007f9579db95560c80873848d269817413262359f17af61b07df2e04d471",
+        "path": "assets/art/stat-critical-damage.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-b/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The curved blade/drop, spark-over-shell and split pearl remain distinct at 16/32 CSS pixels. Vampirism uses restrained red only; the small droplet and dark handle have less detail at 16, so adjacent text remains necessary. Rate has a tall spark silhouette; damage has a broad split disc silhouette. No graphic gore."
+        ]
+      }
+    }
+  ],
+  "task": "T097"
+}

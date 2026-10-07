@@ -82,7 +82,8 @@ LocalSnapshot = {
   format: 'malevolent-crawler-save', version: 1, contentVersion: 1,
   revision: positive safe integer, savedAt: ISO timestamp,
   state: { player: PlayerProgress, dungeon: DungeonProgress,
-           enemy: EnemyState, volume: AudioPreferences }
+           enemy: EnemyState, volume: AudioPreferences },
+  historyRecovery?: { [opaqueRecoveryRef]: originalHistoryEntry }
 }
 CharacterExport = {
   format: 'malevolent-crawler-character', version: 1,
@@ -91,6 +92,16 @@ CharacterExport = {
 ```
 
 Save metadata is operational only; it consumes no gameplay RNG. JSON round trips preserve all supported authoritative values. A save request inside a nested rule function is deferred until its enclosing gameplay transition finishes; default validation never writes. The persisted snapshot always represents the last completed outcome, not half-applied HP/rewards. `revision` is not a multiplayer or cross-tab compare-and-swap guarantee. Accept only supported `format`/`version`; absent version is legacy only when the complete old shape matches. Do not silently downgrade an unsupported canonical record to old keys.
+
+Phase 7A adds optional `historyRecovery` envelope metadata, separate from authoritative
+engine state. Keys are `legacy:dungeon.backlog:<index>` or
+`canonical:dungeon.backlog:<index>`; values are bounded original string/JSON entries.
+Migration retains original converted entries here, including unknown history, and
+subsequent commits carry them forward so backup rotation cannot discard recovery
+text. Old v1 envelopes without this optional field remain valid. Complete legacy
+source keys remain untouched; canonical input bytes are retained during read and
+copied exactly by the existing prior-good commit protocol. Recovery metadata shares
+the existing snapshot budgets and is never evaluated or injected as markup.
 
 Normal boundary resource budgets: at most 16 MiB encoded import text or local snapshot, 64 nested levels, and 64 KiB for one message/name field. These are parsing safeguards, not item or history caps. Detect limit violations before large allocation/recursive processing; preserve the original and report recovery instructions. Validate budgets against the captured legacy corpus before release and raise them if a supported genuine legacy fixture requires it; never truncate holdings or history to pass validation.
 

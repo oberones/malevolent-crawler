@@ -23,6 +23,28 @@ const definitions = {
   ),
   "entry.points": define("Stat Points: {remaining}", { remaining: "number" }),
   "entry.passive": define("Passive"),
+  // Historical formatted amounts retain their original precision; reward panels do not invent sale values.
+  "history.gold": define("You recover {amount} Quay Marks.", {
+    amount: "text",
+  }),
+  "history.offering": define(
+    "A Tide Offering vessel waits. Offer {cost} Quay Marks for a random permanent bonus this run? Tide Offering {level}.",
+    { cost: "text", level: "number" },
+  ),
+  "history.blackSounding": define(
+    "A Black Sounding ring stirs. Offer {cost} Quay Marks? Enemies become stronger and loot quality improves. Black Sounding {level}.",
+    { cost: "text", level: "number" },
+  ),
+  "history.reward": define(
+    "Recovered Relic: {rarity} {relic} — Level {level}, Tier {tier}; {stats}",
+    {
+      rarity: "rarity",
+      relic: "relic",
+      level: "number",
+      tier: "number",
+      stats: "text",
+    },
+  ),
   "event.door": define("A tide-marked door opens onto another chamber."),
   "event.guardianDoor": define(
     "Beyond this door, a Threshold Keeper bars the next descent.",

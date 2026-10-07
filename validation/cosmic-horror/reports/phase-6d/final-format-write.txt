@@ -1,0 +1,11 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write art/cosmic-horror/manifest.json art/cosmic-horror/review/collection.md assets/js/app/encounter-view.mjs assets/js/app/symbol-view.mjs assets/js/app/item-view.mjs specs/001-cosmic-horror-refactor/tasks.md specs/001-cosmic-horror-refactor/quickstart.md validation/cosmic-horror/us4.md validation/cosmic-horror/art-automated.json
+art/cosmic-horror/manifest.json 1118ms
+art/cosmic-horror/review/collection.md 29ms (unchanged)
+assets/js/app/encounter-view.mjs 12ms (unchanged)
+assets/js/app/symbol-view.mjs 5ms (unchanged)
+assets/js/app/item-view.mjs 15ms (unchanged)
+specs/001-cosmic-horror-refactor/tasks.md 93ms (unchanged)
+specs/001-cosmic-horror-refactor/quickstart.md 18ms (unchanged)
+validation/cosmic-horror/us4.md 10ms (unchanged)
+validation/cosmic-horror/art-automated.json 23ms

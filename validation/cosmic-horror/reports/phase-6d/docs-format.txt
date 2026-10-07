@@ -1,0 +1,9 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write assets/css/style.css assets/js/app/encounter-view.mjs tests/browser/collection-reflow.spec.mjs validation/cosmic-horror/us4.md validation/cosmic-horror/tdd.md validation/cosmic-horror/manual.md validation/cosmic-horror/art-automated.json
+assets/css/style.css 594ms (unchanged)
+assets/js/app/encounter-view.mjs 135ms (unchanged)
+tests/browser/collection-reflow.spec.mjs 115ms
+validation/cosmic-horror/us4.md 338ms (unchanged)
+validation/cosmic-horror/tdd.md 967ms (unchanged)
+validation/cosmic-horror/manual.md 618ms (unchanged)
+validation/cosmic-horror/art-automated.json 112ms (unchanged)

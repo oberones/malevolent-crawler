@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write validation/cosmic-horror/us4.md validation/cosmic-horror/art-automated.json
+validation/cosmic-horror/us4.md 36ms (unchanged)
+validation/cosmic-horror/art-automated.json 42ms (unchanged)

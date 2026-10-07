@@ -407,3 +407,123 @@ Art/copy authoring and documentation only: no new application behavior and no ar
 - Full regression and final scoped results are linked from [US3 evidence](us3.md). Art provenance joins and documentation do not require artificial failing behavior tests. No manual/native result is inferred from automation.
 - Final visual/accessibility review added a 200% inventory regression: all three engines failed because the list collapsed between controls; [red](reports/phase-5c-inventory-scale-red.txt). The unchanged-size modal now scrolls, with sufficient list height for one whole multiline row. Automated WCAG checks then exposed undersized row targets; native inventory buttons now have a 24px minimum. [Final accessibility run](reports/phase-5c-accessibility-final-02.txt): 33/33 PASS, including all three engines. Axe initially timed out because its fixture clock was frozen; that setup failure is not behavioral red.
 - Empty/unmatched bulk actions: [red](reports/phase-5c-empty-red.txt) preceded disabling unavailable transactions and refreshing availability after rarity changes; the final accessibility run includes the green cases.
+
+## Phase 6A — proof-context selection (T095–T097)
+
+2026-10-07: Art generation/preparation itself needs relevant validation, not artificial red tests. The reusable context selector added for remaining-symbol proofs follows TDD. `node --test tests/unit/art-proof-contexts.test.mjs` first reached five intended assertion failures with a pass-through seam: unrelated tuples were returned and missing/duplicate/mismatched/invalid contexts were not rejected. After catalog-ID and complete-tuple selection with required geometry checks, all five pass; the formatted refactor also passes. Exact red/green/refactor logs are in `reports/phase-6a/`. The full unit suite passes 2,457 tests. No runtime application behavior changed. See [Phase 6A evidence](phase-6a.md).
+
+## Phase 6B — T099–T101 image failure boundary (2026-10-07)
+
+- Owner/reviewer: implementation agent. Requirements: US4 load-failure acceptance,
+  FR-013/FR-014, QR-001/QR-002 and Constitution I/III/IV/V. Environment:
+  Node 24.21.0/npm 12.2.0, pinned Playwright engines on the local macOS host.
+- T099 red: `npx playwright test tests/integration/image-loader.spec.mjs --project=chromium --workers=2`
+  against a no-op public interface reached nine intended assertion failures.
+  Missing loading/recovery, decode/disposal behavior and catalog validation were
+  observed; no missing import or syntax error counted as red.
+  [Initial red](reports/phase-6b/loader-red.txt).
+- T101 implementation: catalog-only URLs; decode before display; one fallback
+  attempt; safe local terminal symbol; generation tokens and explicit disposal.
+  Initial cross-engine checks exposed real terminal-geometry defects, retained
+  in [first green attempt](reports/phase-6b/loader-green-first.txt) and subsequent
+  `loader-green*.txt` diagnostics. Preserving the failed catalog src, using
+  inline-block for originally inline slots and retaining a hidden alternative
+  for decorative failures resolved the engine-specific collapse/text sizing.
+- Green: all original nine cases pass in all three engines (27 checks);
+  [green](reports/phase-6b/loader-green-combined.txt). Expanded coverage also
+  verifies stale primary and fallback success/rejection and accessibility on
+  reuse after a terminal failure. Final integration run:
+  `npx playwright test tests/integration --workers=3` — 222 passed, including
+  all 36 image-loader cases; [output](reports/phase-6b/integration.txt).
+- T100 adds eight real creature/relic journeys across delayed, missing, corrupt
+  and unavailable fallback conditions. They assert exact combat rewards, Claim,
+  keyboard item opening, equip/unequip/sale and random tapes as well as image
+  recovery. Recovery assertions remain ordinary failures until T104 consumer
+  integration. The diagnostic comparison of animated portrait rectangles
+  was corrected to compare untransformed computed layout size; that test assumption is not counted
+  as application red. See [Phase 6B evidence](phase-6b.md) for final full-suite
+  results and the consumer lifecycle contract.
+- `npm run test:unit` — 2,457 passed. Repository lint/format and whitespace
+  results are recorded in the handoff report. No native/manual/performance,
+  collection-wide art or release acceptance is inferred from these checks.
+
+- Final T100 verification: `npx playwright test tests/browser/art-failure.spec.mjs --workers=3`
+  reaches 24 intended recovery failures after the geometry fixture correction.
+  Structured error inspection confirms only missing recovery states/fallback
+  requests; all identity, action, random-tape and layout assertions pass.
+  [Final output](reports/phase-6b/journey-final.txt),
+  [error summary](reports/phase-6b/journey-summary.json). The full browser run
+  separately passed all 306 existing cases. T104 remains unchecked and owns the
+  live recovery fix. T099–T101 are complete for this bounded package.
+
+## Phase 6C — Remaining symbol integration (T102–T103), 2026-10-07
+
+- Red: `npx playwright test tests/browser/symbol-geometry.spec.mjs --project=chromium --workers=3`
+  reached seven intended failures: six missing live `health/main` contexts and
+  the incorrectly declared favicon media type. No missing import or syntax
+  error counted as red. [Output](reports/phase-6c/red.txt).
+- Implementation: catalog-only static/dynamic symbol mounting, message and sale
+  currency icons, Font Awesome metric struts for its four roles, and corrected
+  ICO media type. The first matrix exposed the real 200% HP width collision
+  with `.row span`; a symbol-scoped width reset resolves it without resizing
+  containers. [Diagnostic](reports/phase-6c/geometry-first.txt).
+- Refactor: shared outcome rendering owns dynamic dungeon/combat symbols;
+  static/bonus/allocation slots reuse `createSymbolView`. Original numerical
+  rules and random tapes are unchanged. The rule-only DOM seam gained inert
+  symbol operations; all 2,457 unit tests pass.
+- Geometry measurement distinguishes an intrinsic inline baseline from a
+  sibling probe wrapping or reflowing its parent. Both candidate and immutable
+  original are remeasured with the same internal probe; frozen measurements
+  remain intact. Intermittent clock-pause setup failures were corrected and
+  are retained as diagnostics, not application red.
+- Final three-engine results, capture scope, remaining T100 failures and review
+  limits are recorded in [Phase 6C evidence](phase-6c.md).
+
+## Phase 6D — T104–T109 collection integration (2026-10-07)
+
+- T104: reran T100 before wiring consumers; eight Chromium failures reached
+  missing loader-state/fallback assertions. Real controls still ran. Wiring
+  encounter and symbol owners made all 24 image-failure journeys pass in the
+  three engines. Cleanup uses explicit pre-replacement disposal plus weak
+  removal observation; repeated removal/move/teardown is covered.
+- T105: 81 independent file/provenance assertions first exposed incomplete
+  final-delivery metadata and the stale fallback obligation. Joining the 13
+  remaining records and correcting the path made all 81 pass.
+- T108: two text-range regressions reproduced clipped stats and split allocation
+  labels. Wrapping controls/text fixed those; visual review and a stronger
+  failing assertion then drove stat-card wrapping to preserve abbreviations.
+- T109: a failing unbound-dispose regression drove explicit service owner
+  closures. A failing context-key collision test drove target-aware keys for
+  unmeasured native tuples; all 11 art-tool checks pass afterward.
+- Existing narrative and WebKit geometry checks exposed integration findings:
+  hidden terminal text polluted log textContent, and the original allocation
+  glyph fragmented across lines. Populate terminal text only on actual terminal
+  failure and keep the allocation icon/label together. Original rule/state/RNG
+  expectations and frozen geometry inputs remain unchanged.
+- Full evidence, exact command outputs, diagnostic limits and final green
+  results: [US4](us4.md), [reports](reports/phase-6d/),
+  [file/context audit](art-automated.json). Sandbox/setup/trace-directory failures
+  are not counted as meaningful red. Art/native/release gates remain separate.
+
+- Final visual follow-up: a focused heading-word regression reproduced the
+  split “Preparation” at 200% text. Allowing the allocation heading and close
+  control to wrap as a flex row made all six reflow cases pass; the final
+  scoped narrative/navigation/geometry rerun covers the changed layout.
+
+## Phase 7A — T110–T113 legacy migration/history (2026-10-07)
+
+- T110/T111: minimal documented module seams let assertions reach missing
+  migration/history behavior. Six assertions failed; the existing partial-run
+  guard passed. No import/syntax failure counted as red.
+- T112: pure candidate mapping and snapshot integration preserve the frozen
+  corpus, exact variants, all authoritative values and zero RNG. A separate red
+  early-shaped/advanced-run regression drove stricter stage defaulting.
+- T113: full-template parsing maps all 30 dungeon event templates and reward
+  panels into typed records. The frozen equipment printer supplies 84 independent
+  category/rarity panels. Unknown content retains raw recovery references;
+  preexisting typed player strings are unchanged. A live missing-button red drove
+  safe, keyboard-operable original-text recovery in the existing log region.
+- Refactor: reuse the validator/catalog/message renderer; keep recovery metadata
+  outside engine state and preserve it across repeated canonical backup rotations.
+  Complete unit suite: 2,547 PASS. Scoped three-engine browser/integration: 81 PASS.
+  Lint and format PASS. [Commands, outputs, diagnostics and limits](phase-7a.md).

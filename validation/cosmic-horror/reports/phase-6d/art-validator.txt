@@ -1,0 +1,34 @@
+npm notice run malevolent-crawler@0.0.0 validate:art
+npm notice run node scripts/validate-art.mjs
+{
+  "ok": false,
+  "issues": [
+    "favicon-ico: Missing display context",
+    "favicon-png: Missing display context",
+    "relic-sword: Missing or extra geometry tuples",
+    "relic-axe: Missing or extra geometry tuples",
+    "relic-hammer: Missing or extra geometry tuples",
+    "relic-dagger: Missing or extra geometry tuples",
+    "relic-flail: Missing or extra geometry tuples",
+    "relic-scythe: Missing or extra geometry tuples",
+    "relic-plate: Missing or extra geometry tuples",
+    "relic-chain: Missing or extra geometry tuples",
+    "relic-leather: Missing or extra geometry tuples",
+    "relic-tower: Missing or extra geometry tuples",
+    "relic-kite: Missing or extra geometry tuples",
+    "relic-buckler: Missing or extra geometry tuples",
+    "relic-great-helm: Missing or extra geometry tuples",
+    "relic-horned-helm: Missing or extra geometry tuples",
+    "title: Duplicate context tuple",
+    "stat-hp: Duplicate context tuple",
+    "stat-attack: Duplicate context tuple",
+    "stat-defense: Duplicate context tuple",
+    "stat-attack-speed: Duplicate context tuple",
+    "stat-vampirism: Duplicate context tuple",
+    "stat-critical-rate: Duplicate context tuple",
+    "stat-critical-damage: Duplicate context tuple",
+    "treasure: Duplicate context tuple",
+    "currency: Duplicate context tuple",
+    "missing-art: Missing display context"
+  ]
+}

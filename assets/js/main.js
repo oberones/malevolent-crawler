@@ -53,7 +53,7 @@ const showBootError = () => {
   loader.style.display = "flex";
 };
 
-/** Initialize at most once, whether called before or after window load; rejection is rendered. */
+/** Initialize services and authored symbols once; render boot failures before enabling controls. */
 const initializeGame = () => {
   if (initialization) return initialization;
   document.querySelector("#name-input").disabled = true;
@@ -116,6 +116,7 @@ const initializeGame = () => {
           );
         }
         gameServices.narrative.entry.initialize();
+        gameServices.mountSymbols(document);
         gameReady = true;
         document.querySelector("#name-input").disabled = false;
         document.querySelector("#loading").style.display = "none";
@@ -916,7 +917,7 @@ const allocationPopup =
     updateStats();
     let points = 20;
     const loadContent =
-      /* Build the existing allocation controls from the preview state. */ function () {
+      /* Build allocation controls and catalog symbols without changing the preview state. */ function () {
         defaultModalElement.innerHTML = `
         <div class="content" id="allocate-stats">
             <div class="content-head">
@@ -925,7 +926,7 @@ const allocationPopup =
             </div>
             <p id="allocation-help"></p>
             <div class="row">
-                <p><i class="fas fa-heart"></i><span id="hpDisplay">HP: ${stats.hp}</span></p>
+                <p><span data-symbol-role="health" data-symbol-context="health/allocation"></span><span id="hpDisplay">HP: ${stats.hp}</span></p>
                 <div class="row">
                     <button id="hpMin" aria-label="Decrease HP">-</button>
                     <span id="hpAllo">${allocation.hp}</span>
@@ -933,7 +934,7 @@ const allocationPopup =
                 </div>
             </div>
             <div class="row">
-                <p><i class="ra ra-sword"></i><span id="atkDisplay">ATK: ${stats.atk}</span></p>
+                <p><span data-symbol-role="attack" data-symbol-context="attack/allocation"></span><span id="atkDisplay">ATK: ${stats.atk}</span></p>
                 <div class="row">
                     <button id="atkMin" aria-label="Decrease ATK">-</button>
                     <span id="atkAllo">${allocation.atk}</span>
@@ -941,7 +942,7 @@ const allocationPopup =
                 </div>
             </div>
             <div class="row">
-                <p><i class="ra ra-round-shield"></i><span id="defDisplay">DEF: ${stats.def}</span></p>
+                <p><span data-symbol-role="defense" data-symbol-context="defense/allocation"></span><span id="defDisplay">DEF: ${stats.def}</span></p>
                 <div class="row">
                     <button id="defMin" aria-label="Decrease DEF">-</button>
                     <span id="defAllo">${allocation.def}</span>
@@ -949,7 +950,7 @@ const allocationPopup =
                 </div>
             </div>
             <div class="row">
-                <p><i class="ra ra-plain-dagger"></i><span id="atkSpdDisplay">ATK.SPD: ${stats.atkSpd}</span></p>
+                <p><span data-symbol-role="attack-speed" data-symbol-context="attack-speed/allocation"></span><span id="atkSpdDisplay">ATK.SPD: ${stats.atkSpd}</span></p>
                 <div class="row">
                     <button id="atkSpdMin" aria-label="Decrease ATK.SPD">-</button>
                     <span id="atkSpdAllo">${allocation.atkSpd}</span>
@@ -977,6 +978,7 @@ const allocationPopup =
             <button id="allocate-confirm">Confirm</button>
         </div>`;
         gameServices.narrative.entry.allocation();
+        gameServices.mountSymbols(defaultModalElement);
       };
     defaultModalElement.style.display = "flex";
     document.querySelector("#title-screen").style.filter = "brightness(50%)";

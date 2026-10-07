@@ -1,0 +1,4741 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/art-failure.spec.mjs tests/integration/encounter-view.spec.mjs tests/integration/symbol-view.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:49079) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 51 tests using 3 workers
+
+(node:49080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49081) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49082) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (3.7s)
+  ✓   3 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (3.8s)
+  ✓   1 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (3.8s)
+  ✓   5 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (2.5s)
+  ✓   4 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (2.6s)
+  ✓   6 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (2.5s)
+  ✘   9 [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (382ms)
+(node:49121) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [chromium] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (211ms)
+  ✘  11 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (545ms)
+  ✓   7 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (2.3s)
+(node:49237) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (2.4s)
+  ✘  12 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (235ms)
+  ✘  13 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (234ms)
+(node:49545) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (230ms)
+(node:49546) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49547) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (242ms)
+  ✘  16 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (240ms)
+  ✘  17 [chromium] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (142ms)
+(node:49560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49561) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (2.2s)
+  ✓  20 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (2.4s)
+  ✓  19 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (3.1s)
+  ✓  21 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (1.8s)
+  ✓  22 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (1.6s)
+  ✓  23 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (1.9s)
+  ✓  24 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (1.6s)
+  ✓  27 [firefox] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (209ms)
+  ✘  26 [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (287ms)
+  ✓  25 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (1.9s)
+(node:49616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  28 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (370ms)
+(node:49619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  29 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (358ms)
+(node:49622) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  30 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (1.2s)
+(node:49722) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  31 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (1.4s)
+(node:49725) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  32 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (1.2s)
+(node:49727) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  33 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (968ms)
+(node:49752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  34 [firefox] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (869ms)
+(node:49761) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  35 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (1.6s)
+  ✓  36 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (1.7s)
+  ✓  37 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (1.5s)
+  ✓  38 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (1.6s)
+  ✓  39 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (1.3s)
+  ✓  41 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (1.2s)
+  ✓  40 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (1.5s)
+  ✓  44 [webkit] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (253ms)
+  ✘  45 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (329ms)
+(node:49788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  43 [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (630ms)
+(node:49794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  42 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (1.5s)
+  ✘  46 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (495ms)
+  ✘  48 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (389ms)
+(node:49812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49813) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  47 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (489ms)
+(node:49815) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  50 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (548ms)
+  ✘  49 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (558ms)
+  ✘  51 [webkit] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (474ms)
+
+
+  1) [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+        "cssWidth": "50%",
+        "height": "616",
+        "ratio": "603 / 616",
+    -   "src": "assets/sprites/alfadriel.png",
+    +   "src": "/assets/sprites/alfadriel.png",
+        "unchanged": true,
+        "width": "603",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A floating bell of clear tissue carries a ring of pale lights around its rim.",
+        "cssWidth": "50%",
+        "height": "126",
+        "ratio": "166 / 126",
+    -   "src": "assets/sprites/slime_angel.png",
+    +   "src": "/assets/sprites/slime_angel.png",
+        "unchanged": true,
+        "width": "166",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+        "cssWidth": "50%",
+        "height": "139",
+        "ratio": "137 / 139",
+    -   "src": "assets/sprites/wolf_boss.png",
+    +   "src": "/assets/sprites/wolf_boss.png",
+        "unchanged": true,
+        "width": "137",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed lattice of pale ribs carries many closed mouths within one resonant chest.",
+        "cssWidth": "50%",
+        "height": "309",
+        "ratio": "372 / 309",
+    -   "src": "assets/sprites/skeleton_boss.png",
+    +   "src": "/assets/sprites/skeleton_boss.png",
+        "unchanged": true,
+        "width": "372",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+        "cssWidth": "70%",
+        "height": "532",
+        "ratio": "675 / 532",
+    -   "src": "assets/sprites/behemoth.png",
+    +   "src": "/assets/sprites/behemoth.png",
+        "unchanged": true,
+        "width": "675",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+        "cssWidth": "50%",
+        "height": "251",
+        "ratio": "375 / 251",
+    -   "src": "assets/sprites/berthelot.png",
+    +   "src": "/assets/sprites/berthelot.png",
+        "unchanged": true,
+        "width": "375",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "203 / 202",
+    -   "src": "assets/sprites/wolf_black.png",
+    +   "src": "/assets/sprites/wolf_black.png",
+        "unchanged": true,
+        "width": "203",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+        "cssWidth": "70%",
+        "height": "355",
+        "ratio": "441 / 355",
+    -   "src": "assets/sprites/bm-feral.png",
+    +   "src": "/assets/sprites/bm-feral.png",
+        "unchanged": true,
+        "width": "441",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+        "cssWidth": "50%",
+        "height": "410",
+        "ratio": "588 / 410",
+    -   "src": "assets/sprites/cerberus_ptolemaios.png",
+    +   "src": "/assets/sprites/cerberus_ptolemaios.png",
+        "unchanged": true,
+        "width": "588",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A circular many-legged loom turns rusted tide wheels around a living center.",
+        "cssWidth": "50%",
+        "height": "351",
+        "ratio": "373 / 351",
+    -   "src": "assets/sprites/spider_boss.png",
+    +   "src": "/assets/sprites/spider_boss.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low brine mass pushes a row of upright shell tablets before it.",
+        "cssWidth": "50%",
+        "height": "79",
+        "ratio": "153 / 79",
+    -   "src": "assets/sprites/slime_crusader.png",
+    +   "src": "/assets/sprites/slime_crusader.png",
+        "unchanged": true,
+        "width": "153",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+        "cssWidth": "70%",
+        "height": "310",
+        "ratio": "434 / 310",
+    -   "src": "assets/sprites/da-reaper.png",
+    +   "src": "/assets/sprites/da-reaper.png",
+        "unchanged": true,
+        "width": "434",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "317 / 230",
+    -   "src": "assets/sprites/mimic_door.png",
+    +   "src": "/assets/sprites/mimic_door.png",
+        "unchanged": true,
+        "width": "317",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands.",
+        "cssWidth": "50%",
+        "height": "166",
+        "ratio": "161 / 166",
+    -   "src": "assets/sprites/goblin.png",
+    +   "src": "/assets/sprites/goblin.png",
+        "unchanged": true,
+        "width": "161",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-limbed watcher aims a fan of long shell needles from its shoulder.",
+        "cssWidth": "50%",
+        "height": "136",
+        "ratio": "207 / 136",
+    -   "src": "assets/sprites/goblin_archer.png",
+    +   "src": "/assets/sprites/goblin_archer.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hooded tide listener cradles a floating knot of luminous brine.",
+        "cssWidth": "50%",
+        "height": "149",
+        "ratio": "228 / 149",
+    -   "src": "assets/sprites/goblin_mage.png",
+    +   "src": "/assets/sprites/goblin_mage.png",
+        "unchanged": true,
+        "width": "228",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow jointed prowler slips through stone seams with hooked glass fingers.",
+        "cssWidth": "50%",
+        "height": "160",
+        "ratio": "162 / 160",
+    -   "src": "assets/sprites/goblin_rogue.png",
+    +   "src": "/assets/sprites/goblin_rogue.png",
+        "unchanged": true,
+        "width": "162",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A copper-green crawler spins translucent mesh between its forked forelegs.",
+        "cssWidth": "50%",
+        "height": "107",
+        "ratio": "140 / 107",
+    -   "src": "assets/sprites/spider_green.png",
+    +   "src": "/assets/sprites/spider_green.png",
+        "unchanged": true,
+        "width": "140",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+        "cssWidth": "50%",
+        "height": "323",
+        "ratio": "373 / 323",
+    -   "src": "assets/sprites/hellhound.png",
+    +   "src": "/assets/sprites/hellhound.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+        "cssWidth": "70%",
+        "height": "509",
+        "ratio": "744 / 509",
+    -   "src": "assets/sprites/firelord.png",
+    +   "src": "/assets/sprites/firelord.png",
+        "unchanged": true,
+        "width": "744",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A gelatinous reef bloom shelters beneath overlapping plates of nacre.",
+        "cssWidth": "50%",
+        "height": "91",
+        "ratio": "174 / 91",
+    -   "src": "assets/sprites/slime_knight.png",
+    +   "src": "/assets/sprites/slime_knight.png",
+        "unchanged": true,
+        "width": "174",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+        "cssWidth": "50%",
+        "height": "479",
+        "ratio": "469 / 479",
+    -   "src": "assets/sprites/ant_queen.png",
+    +   "src": "/assets/sprites/ant_queen.png",
+        "unchanged": true,
+        "width": "469",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+        "cssWidth": "50%",
+        "height": "174",
+        "ratio": "227 / 174",
+    -   "src": "assets/sprites/mimic.png",
+    +   "src": "/assets/sprites/mimic.png",
+        "unchanged": true,
+        "width": "227",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad reef crawler carries warm ember pockets beneath a cracked shell.",
+        "cssWidth": "50%",
+        "height": "366",
+        "ratio": "486 / 366",
+    -   "src": "assets/sprites/spider_fire.png",
+    +   "src": "/assets/sprites/spider_fire.png",
+        "unchanged": true,
+        "width": "486",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs.",
+        "cssWidth": "70%",
+        "height": "659",
+        "ratio": "895 / 659",
+    -   "src": "assets/sprites/spider_dragon.png",
+    +   "src": "/assets/sprites/spider_dragon.png",
+        "unchanged": true,
+        "width": "895",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+        "cssWidth": "50%",
+        "height": "506",
+        "ratio": "635 / 506",
+    -   "src": "assets/sprites/fallen_king.png",
+    +   "src": "/assets/sprites/fallen_king.png",
+        "unchanged": true,
+        "width": "635",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy shore sentinel carries a ribbed harpoon grown from its forearm.",
+        "cssWidth": "50%",
+        "height": "480",
+        "ratio": "476 / 480",
+    -   "src": "assets/sprites/orc_archer.png",
+    +   "src": "/assets/sprites/orc_archer.png",
+        "unchanged": true,
+        "width": "476",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A barnacled laborer bears a broad crescent of iron where one hand should be.",
+        "cssWidth": "50%",
+        "height": "434",
+        "ratio": "516 / 434",
+    -   "src": "assets/sprites/orc_axe.png",
+    +   "src": "/assets/sprites/orc_axe.png",
+        "unchanged": true,
+        "width": "516",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering mud-caked singer holds small storm clouds in a ring of throat sacs.",
+        "cssWidth": "50%",
+        "height": "386",
+        "ratio": "569 / 386",
+    -   "src": "assets/sprites/orc_mage.png",
+    +   "src": "/assets/sprites/orc_mage.png",
+        "unchanged": true,
+        "width": "569",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A four-armed quay guardian crosses long glass blades above a narrow breastplate.",
+        "cssWidth": "50%",
+        "height": "368",
+        "ratio": "517 / 368",
+    -   "src": "assets/sprites/orc_swordsmaster.png",
+    +   "src": "/assets/sprites/orc_swordsmaster.png",
+        "unchanged": true,
+        "width": "517",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A red-veined crawler trails thin iron-colored filaments from a glass abdomen.",
+        "cssWidth": "50%",
+        "height": "110",
+        "ratio": "145 / 110",
+    -   "src": "assets/sprites/spider_red.png",
+    +   "src": "/assets/sprites/spider_red.png",
+        "unchanged": true,
+        "width": "145",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+        "cssWidth": "70%",
+        "height": "534",
+        "ratio": "564 / 534",
+    -   "src": "assets/sprites/icemaiden.png",
+    +   "src": "/assets/sprites/icemaiden.png",
+        "unchanged": true,
+        "width": "564",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-white frame draws a cable bow threaded through its open shoulders.",
+        "cssWidth": "50%",
+        "height": "218",
+        "ratio": "299 / 218",
+    -   "src": "assets/sprites/skeleton_archer.png",
+    +   "src": "/assets/sprites/skeleton_archer.png",
+        "unchanged": true,
+        "width": "299",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A plated hollow sentinel guards a sealed tide vessel behind a broad shield.",
+        "cssWidth": "50%",
+        "height": "212",
+        "ratio": "371 / 212",
+    -   "src": "assets/sprites/skeleton_knight.png",
+    +   "src": "/assets/sprites/skeleton_knight.png",
+        "unchanged": true,
+        "width": "371",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale bell-tender holds a sounding bowl beneath a halo of suspended vertebrae.",
+        "cssWidth": "50%",
+        "height": "260",
+        "ratio": "265 / 260",
+    -   "src": "assets/sprites/skeleton_mage1.png",
+    +   "src": "/assets/sprites/skeleton_mage1.png",
+        "unchanged": true,
+        "width": "265",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow bell-tender bears a hanging chime cage and a spiral of floating salt.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "178 / 230",
+    -   "src": "assets/sprites/skeleton_mage2.png",
+    +   "src": "/assets/sprites/skeleton_mage2.png",
+        "unchanged": true,
+        "width": "178",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A crooked salt frame counts wreck tokens along the hooks of a weathered coat.",
+        "cssWidth": "50%",
+        "height": "232",
+        "ratio": "207 / 232",
+    -   "src": "assets/sprites/skeleton_pirate.png",
+    +   "src": "/assets/sprites/skeleton_pirate.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-armored figure rests a long shell edge across two folded arms.",
+        "cssWidth": "50%",
+        "height": "223",
+        "ratio": "209 / 223",
+    -   "src": "assets/sprites/skeleton_samurai.png",
+    +   "src": "/assets/sprites/skeleton_samurai.png",
+        "unchanged": true,
+        "width": "209",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-jointed attendant presents twin slivers of nacre in a formal bow.",
+        "cssWidth": "50%",
+        "height": "215",
+        "ratio": "248 / 215",
+    -   "src": "assets/sprites/skeleton_swordsmaster.png",
+    +   "src": "/assets/sprites/skeleton_swordsmaster.png",
+        "unchanged": true,
+        "width": "248",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hollow dock worker advances behind a cracked mooring stake.",
+        "cssWidth": "50%",
+        "height": "188",
+        "ratio": "254 / 188",
+    -   "src": "assets/sprites/skeleton_warrior.png",
+    +   "src": "/assets/sprites/skeleton_warrior.png",
+        "unchanged": true,
+        "width": "254",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A shallow translucent mass holds the wavering outline of an abandoned house.",
+        "cssWidth": "50%",
+        "height": "101",
+        "ratio": "229 / 101",
+    -   "src": "assets/sprites/slime.png",
+    +   "src": "/assets/sprites/slime.png",
+        "unchanged": true,
+        "width": "229",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A great layered tide sac suspends a dark pumping stone within amber brine.",
+        "cssWidth": "50%",
+        "height": "253",
+        "ratio": "391 / 253",
+    -   "src": "assets/sprites/slime_boss.png",
+    +   "src": "/assets/sprites/slime_boss.png",
+        "unchanged": true,
+        "width": "391",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small radial crawler balances on fine legs above a spool of wet thread.",
+        "cssWidth": "50%",
+        "height": "108",
+        "ratio": "142 / 108",
+    -   "src": "assets/sprites/spider.png",
+    +   "src": "/assets/sprites/spider.png",
+        "unchanged": true,
+        "width": "142",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+        "cssWidth": "70%",
+        "height": "636",
+        "ratio": "748 / 636",
+    -   "src": "assets/sprites/thanatos.png",
+    +   "src": "/assets/sprites/thanatos.png",
+        "unchanged": true,
+        "width": "748",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+        "cssWidth": "50%",
+        "height": "263",
+        "ratio": "435 / 263",
+    -   "src": "assets/sprites/tiamat.png",
+    +   "src": "/assets/sprites/tiamat.png",
+        "unchanged": true,
+        "width": "435",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+        "cssWidth": "70%",
+        "height": "433",
+        "ratio": "501 / 433",
+    -   "src": "assets/sprites/skeleton_dragon.png",
+    +   "src": "/assets/sprites/skeleton_dragon.png",
+        "unchanged": true,
+        "width": "501",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+        "cssWidth": "50%",
+        "height": "203",
+        "ratio": "211 / 203",
+    -   "src": "assets/sprites/wolf_winter.png",
+    +   "src": "/assets/sprites/wolf_winter.png",
+        "unchanged": true,
+        "width": "211",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "207 / 202",
+    -   "src": "assets/sprites/wolf.png",
+    +   "src": "/assets/sprites/wolf.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+        "cssWidth": "70%",
+        "height": "164",
+        "ratio": "331 / 164",
+    -   "src": "assets/sprites/goblin_boss.png",
+    +   "src": "/assets/sprites/goblin_boss.png",
+        "unchanged": true,
+        "width": "331",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+        "cssWidth": "70%",
+        "height": "489",
+        "ratio": "663 / 489",
+    -   "src": "assets/sprites/zalaras.png",
+    +   "src": "/assets/sprites/zalaras.png",
+        "unchanged": true,
+        "width": "663",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+        "cssWidth": "50%",
+        "height": "397",
+        "ratio": "586 / 397",
+    -   "src": "assets/sprites/zodiac_aries.png",
+    +   "src": "/assets/sprites/zodiac_aries.png",
+        "unchanged": true,
+        "width": "586",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+        "cssWidth": "50%",
+        "height": "296",
+        "ratio": "617 / 296",
+    -   "src": "assets/sprites/zodiac_cancer.png",
+    +   "src": "/assets/sprites/zodiac_cancer.png",
+        "unchanged": true,
+        "width": "617",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ─────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ─────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+    @@ -1,7 +1,7 @@
+      Object {
+    -   "alt": "",
+    +   "alt": "Tideglass Edge (Sword)",
+        "hidden": "true",
+        "rejected": Array [
+          true,
+          true,
+        ],
+
+      166 |     },
+      167 |   );
+    > 168 |   expect(result).toEqual({ rejected: [true, true], alt: "", hidden: "true" });
+          |                  ^
+      169 | });
+      170 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:168:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+        "cssWidth": "50%",
+        "height": "616",
+        "ratio": "603 / 616",
+    -   "src": "assets/sprites/alfadriel.png",
+    +   "src": "/assets/sprites/alfadriel.png",
+        "unchanged": true,
+        "width": "603",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A floating bell of clear tissue carries a ring of pale lights around its rim.",
+        "cssWidth": "50%",
+        "height": "126",
+        "ratio": "166 / 126",
+    -   "src": "assets/sprites/slime_angel.png",
+    +   "src": "/assets/sprites/slime_angel.png",
+        "unchanged": true,
+        "width": "166",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+        "cssWidth": "50%",
+        "height": "139",
+        "ratio": "137 / 139",
+    -   "src": "assets/sprites/wolf_boss.png",
+    +   "src": "/assets/sprites/wolf_boss.png",
+        "unchanged": true,
+        "width": "137",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed lattice of pale ribs carries many closed mouths within one resonant chest.",
+        "cssWidth": "50%",
+        "height": "309",
+        "ratio": "372 / 309",
+    -   "src": "assets/sprites/skeleton_boss.png",
+    +   "src": "/assets/sprites/skeleton_boss.png",
+        "unchanged": true,
+        "width": "372",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+        "cssWidth": "70%",
+        "height": "532",
+        "ratio": "675 / 532",
+    -   "src": "assets/sprites/behemoth.png",
+    +   "src": "/assets/sprites/behemoth.png",
+        "unchanged": true,
+        "width": "675",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+        "cssWidth": "50%",
+        "height": "251",
+        "ratio": "375 / 251",
+    -   "src": "assets/sprites/berthelot.png",
+    +   "src": "/assets/sprites/berthelot.png",
+        "unchanged": true,
+        "width": "375",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "203 / 202",
+    -   "src": "assets/sprites/wolf_black.png",
+    +   "src": "/assets/sprites/wolf_black.png",
+        "unchanged": true,
+        "width": "203",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+        "cssWidth": "70%",
+        "height": "355",
+        "ratio": "441 / 355",
+    -   "src": "assets/sprites/bm-feral.png",
+    +   "src": "/assets/sprites/bm-feral.png",
+        "unchanged": true,
+        "width": "441",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+        "cssWidth": "50%",
+        "height": "410",
+        "ratio": "588 / 410",
+    -   "src": "assets/sprites/cerberus_ptolemaios.png",
+    +   "src": "/assets/sprites/cerberus_ptolemaios.png",
+        "unchanged": true,
+        "width": "588",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A circular many-legged loom turns rusted tide wheels around a living center.",
+        "cssWidth": "50%",
+        "height": "351",
+        "ratio": "373 / 351",
+    -   "src": "assets/sprites/spider_boss.png",
+    +   "src": "/assets/sprites/spider_boss.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low brine mass pushes a row of upright shell tablets before it.",
+        "cssWidth": "50%",
+        "height": "79",
+        "ratio": "153 / 79",
+    -   "src": "assets/sprites/slime_crusader.png",
+    +   "src": "/assets/sprites/slime_crusader.png",
+        "unchanged": true,
+        "width": "153",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+        "cssWidth": "70%",
+        "height": "310",
+        "ratio": "434 / 310",
+    -   "src": "assets/sprites/da-reaper.png",
+    +   "src": "/assets/sprites/da-reaper.png",
+        "unchanged": true,
+        "width": "434",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "317 / 230",
+    -   "src": "assets/sprites/mimic_door.png",
+    +   "src": "/assets/sprites/mimic_door.png",
+        "unchanged": true,
+        "width": "317",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands.",
+        "cssWidth": "50%",
+        "height": "166",
+        "ratio": "161 / 166",
+    -   "src": "assets/sprites/goblin.png",
+    +   "src": "/assets/sprites/goblin.png",
+        "unchanged": true,
+        "width": "161",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-limbed watcher aims a fan of long shell needles from its shoulder.",
+        "cssWidth": "50%",
+        "height": "136",
+        "ratio": "207 / 136",
+    -   "src": "assets/sprites/goblin_archer.png",
+    +   "src": "/assets/sprites/goblin_archer.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hooded tide listener cradles a floating knot of luminous brine.",
+        "cssWidth": "50%",
+        "height": "149",
+        "ratio": "228 / 149",
+    -   "src": "assets/sprites/goblin_mage.png",
+    +   "src": "/assets/sprites/goblin_mage.png",
+        "unchanged": true,
+        "width": "228",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow jointed prowler slips through stone seams with hooked glass fingers.",
+        "cssWidth": "50%",
+        "height": "160",
+        "ratio": "162 / 160",
+    -   "src": "assets/sprites/goblin_rogue.png",
+    +   "src": "/assets/sprites/goblin_rogue.png",
+        "unchanged": true,
+        "width": "162",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A copper-green crawler spins translucent mesh between its forked forelegs.",
+        "cssWidth": "50%",
+        "height": "107",
+        "ratio": "140 / 107",
+    -   "src": "assets/sprites/spider_green.png",
+    +   "src": "/assets/sprites/spider_green.png",
+        "unchanged": true,
+        "width": "140",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+        "cssWidth": "50%",
+        "height": "323",
+        "ratio": "373 / 323",
+    -   "src": "assets/sprites/hellhound.png",
+    +   "src": "/assets/sprites/hellhound.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+        "cssWidth": "70%",
+        "height": "509",
+        "ratio": "744 / 509",
+    -   "src": "assets/sprites/firelord.png",
+    +   "src": "/assets/sprites/firelord.png",
+        "unchanged": true,
+        "width": "744",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A gelatinous reef bloom shelters beneath overlapping plates of nacre.",
+        "cssWidth": "50%",
+        "height": "91",
+        "ratio": "174 / 91",
+    -   "src": "assets/sprites/slime_knight.png",
+    +   "src": "/assets/sprites/slime_knight.png",
+        "unchanged": true,
+        "width": "174",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+        "cssWidth": "50%",
+        "height": "479",
+        "ratio": "469 / 479",
+    -   "src": "assets/sprites/ant_queen.png",
+    +   "src": "/assets/sprites/ant_queen.png",
+        "unchanged": true,
+        "width": "469",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+        "cssWidth": "50%",
+        "height": "174",
+        "ratio": "227 / 174",
+    -   "src": "assets/sprites/mimic.png",
+    +   "src": "/assets/sprites/mimic.png",
+        "unchanged": true,
+        "width": "227",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad reef crawler carries warm ember pockets beneath a cracked shell.",
+        "cssWidth": "50%",
+        "height": "366",
+        "ratio": "486 / 366",
+    -   "src": "assets/sprites/spider_fire.png",
+    +   "src": "/assets/sprites/spider_fire.png",
+        "unchanged": true,
+        "width": "486",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs.",
+        "cssWidth": "70%",
+        "height": "659",
+        "ratio": "895 / 659",
+    -   "src": "assets/sprites/spider_dragon.png",
+    +   "src": "/assets/sprites/spider_dragon.png",
+        "unchanged": true,
+        "width": "895",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+        "cssWidth": "50%",
+        "height": "506",
+        "ratio": "635 / 506",
+    -   "src": "assets/sprites/fallen_king.png",
+    +   "src": "/assets/sprites/fallen_king.png",
+        "unchanged": true,
+        "width": "635",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy shore sentinel carries a ribbed harpoon grown from its forearm.",
+        "cssWidth": "50%",
+        "height": "480",
+        "ratio": "476 / 480",
+    -   "src": "assets/sprites/orc_archer.png",
+    +   "src": "/assets/sprites/orc_archer.png",
+        "unchanged": true,
+        "width": "476",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A barnacled laborer bears a broad crescent of iron where one hand should be.",
+        "cssWidth": "50%",
+        "height": "434",
+        "ratio": "516 / 434",
+    -   "src": "assets/sprites/orc_axe.png",
+    +   "src": "/assets/sprites/orc_axe.png",
+        "unchanged": true,
+        "width": "516",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering mud-caked singer holds small storm clouds in a ring of throat sacs.",
+        "cssWidth": "50%",
+        "height": "386",
+        "ratio": "569 / 386",
+    -   "src": "assets/sprites/orc_mage.png",
+    +   "src": "/assets/sprites/orc_mage.png",
+        "unchanged": true,
+        "width": "569",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A four-armed quay guardian crosses long glass blades above a narrow breastplate.",
+        "cssWidth": "50%",
+        "height": "368",
+        "ratio": "517 / 368",
+    -   "src": "assets/sprites/orc_swordsmaster.png",
+    +   "src": "/assets/sprites/orc_swordsmaster.png",
+        "unchanged": true,
+        "width": "517",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A red-veined crawler trails thin iron-colored filaments from a glass abdomen.",
+        "cssWidth": "50%",
+        "height": "110",
+        "ratio": "145 / 110",
+    -   "src": "assets/sprites/spider_red.png",
+    +   "src": "/assets/sprites/spider_red.png",
+        "unchanged": true,
+        "width": "145",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+        "cssWidth": "70%",
+        "height": "534",
+        "ratio": "564 / 534",
+    -   "src": "assets/sprites/icemaiden.png",
+    +   "src": "/assets/sprites/icemaiden.png",
+        "unchanged": true,
+        "width": "564",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-white frame draws a cable bow threaded through its open shoulders.",
+        "cssWidth": "50%",
+        "height": "218",
+        "ratio": "299 / 218",
+    -   "src": "assets/sprites/skeleton_archer.png",
+    +   "src": "/assets/sprites/skeleton_archer.png",
+        "unchanged": true,
+        "width": "299",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A plated hollow sentinel guards a sealed tide vessel behind a broad shield.",
+        "cssWidth": "50%",
+        "height": "212",
+        "ratio": "371 / 212",
+    -   "src": "assets/sprites/skeleton_knight.png",
+    +   "src": "/assets/sprites/skeleton_knight.png",
+        "unchanged": true,
+        "width": "371",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale bell-tender holds a sounding bowl beneath a halo of suspended vertebrae.",
+        "cssWidth": "50%",
+        "height": "260",
+        "ratio": "265 / 260",
+    -   "src": "assets/sprites/skeleton_mage1.png",
+    +   "src": "/assets/sprites/skeleton_mage1.png",
+        "unchanged": true,
+        "width": "265",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow bell-tender bears a hanging chime cage and a spiral of floating salt.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "178 / 230",
+    -   "src": "assets/sprites/skeleton_mage2.png",
+    +   "src": "/assets/sprites/skeleton_mage2.png",
+        "unchanged": true,
+        "width": "178",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A crooked salt frame counts wreck tokens along the hooks of a weathered coat.",
+        "cssWidth": "50%",
+        "height": "232",
+        "ratio": "207 / 232",
+    -   "src": "assets/sprites/skeleton_pirate.png",
+    +   "src": "/assets/sprites/skeleton_pirate.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-armored figure rests a long shell edge across two folded arms.",
+        "cssWidth": "50%",
+        "height": "223",
+        "ratio": "209 / 223",
+    -   "src": "assets/sprites/skeleton_samurai.png",
+    +   "src": "/assets/sprites/skeleton_samurai.png",
+        "unchanged": true,
+        "width": "209",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-jointed attendant presents twin slivers of nacre in a formal bow.",
+        "cssWidth": "50%",
+        "height": "215",
+        "ratio": "248 / 215",
+    -   "src": "assets/sprites/skeleton_swordsmaster.png",
+    +   "src": "/assets/sprites/skeleton_swordsmaster.png",
+        "unchanged": true,
+        "width": "248",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hollow dock worker advances behind a cracked mooring stake.",
+        "cssWidth": "50%",
+        "height": "188",
+        "ratio": "254 / 188",
+    -   "src": "assets/sprites/skeleton_warrior.png",
+    +   "src": "/assets/sprites/skeleton_warrior.png",
+        "unchanged": true,
+        "width": "254",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A shallow translucent mass holds the wavering outline of an abandoned house.",
+        "cssWidth": "50%",
+        "height": "101",
+        "ratio": "229 / 101",
+    -   "src": "assets/sprites/slime.png",
+    +   "src": "/assets/sprites/slime.png",
+        "unchanged": true,
+        "width": "229",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A great layered tide sac suspends a dark pumping stone within amber brine.",
+        "cssWidth": "50%",
+        "height": "253",
+        "ratio": "391 / 253",
+    -   "src": "assets/sprites/slime_boss.png",
+    +   "src": "/assets/sprites/slime_boss.png",
+        "unchanged": true,
+        "width": "391",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small radial crawler balances on fine legs above a spool of wet thread.",
+        "cssWidth": "50%",
+        "height": "108",
+        "ratio": "142 / 108",
+    -   "src": "assets/sprites/spider.png",
+    +   "src": "/assets/sprites/spider.png",
+        "unchanged": true,
+        "width": "142",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+        "cssWidth": "70%",
+        "height": "636",
+        "ratio": "748 / 636",
+    -   "src": "assets/sprites/thanatos.png",
+    +   "src": "/assets/sprites/thanatos.png",
+        "unchanged": true,
+        "width": "748",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+        "cssWidth": "50%",
+        "height": "263",
+        "ratio": "435 / 263",
+    -   "src": "assets/sprites/tiamat.png",
+    +   "src": "/assets/sprites/tiamat.png",
+        "unchanged": true,
+        "width": "435",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+        "cssWidth": "70%",
+        "height": "433",
+        "ratio": "501 / 433",
+    -   "src": "assets/sprites/skeleton_dragon.png",
+    +   "src": "/assets/sprites/skeleton_dragon.png",
+        "unchanged": true,
+        "width": "501",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+        "cssWidth": "50%",
+        "height": "203",
+        "ratio": "211 / 203",
+    -   "src": "assets/sprites/wolf_winter.png",
+    +   "src": "/assets/sprites/wolf_winter.png",
+        "unchanged": true,
+        "width": "211",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "207 / 202",
+    -   "src": "assets/sprites/wolf.png",
+    +   "src": "/assets/sprites/wolf.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+        "cssWidth": "70%",
+        "height": "164",
+        "ratio": "331 / 164",
+    -   "src": "assets/sprites/goblin_boss.png",
+    +   "src": "/assets/sprites/goblin_boss.png",
+        "unchanged": true,
+        "width": "331",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+        "cssWidth": "70%",
+        "height": "489",
+        "ratio": "663 / 489",
+    -   "src": "assets/sprites/zalaras.png",
+    +   "src": "/assets/sprites/zalaras.png",
+        "unchanged": true,
+        "width": "663",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+        "cssWidth": "50%",
+        "height": "397",
+        "ratio": "586 / 397",
+    -   "src": "assets/sprites/zodiac_aries.png",
+    +   "src": "/assets/sprites/zodiac_aries.png",
+        "unchanged": true,
+        "width": "586",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+        "cssWidth": "50%",
+        "height": "296",
+        "ratio": "617 / 296",
+    -   "src": "assets/sprites/zodiac_cancer.png",
+    +   "src": "/assets/sprites/zodiac_cancer.png",
+        "unchanged": true,
+        "width": "617",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ─────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ─────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [firefox] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+    @@ -1,7 +1,7 @@
+      Object {
+    -   "alt": "",
+    +   "alt": "Tideglass Edge (Sword)",
+        "hidden": "true",
+        "rejected": Array [
+          true,
+          true,
+        ],
+
+      166 |     },
+      167 |   );
+    > 168 |   expect(result).toEqual({ rejected: [true, true], alt: "", hidden: "true" });
+          |                  ^
+      169 | });
+      170 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:168:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering glass ribcage shelters a dark lantern above the drowned quay.",
+        "cssWidth": "50%",
+        "height": "616",
+        "ratio": "603 / 616",
+    -   "src": "assets/sprites/alfadriel.png",
+    +   "src": "/assets/sprites/alfadriel.png",
+        "unchanged": true,
+        "width": "603",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A floating bell of clear tissue carries a ring of pale lights around its rim.",
+        "cssWidth": "50%",
+        "height": "126",
+        "ratio": "166 / 126",
+    -   "src": "assets/sprites/slime_angel.png",
+    +   "src": "/assets/sprites/slime_angel.png",
+        "unchanged": true,
+        "width": "166",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A compact pale hunter watches from beneath a fan of listening fins.",
+        "cssWidth": "50%",
+        "height": "139",
+        "ratio": "137 / 139",
+    -   "src": "assets/sprites/wolf_boss.png",
+    +   "src": "/assets/sprites/wolf_boss.png",
+        "unchanged": true,
+        "width": "137",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed lattice of pale ribs carries many closed mouths within one resonant chest.",
+        "cssWidth": "50%",
+        "height": "309",
+        "ratio": "372 / 309",
+    -   "src": "assets/sprites/skeleton_boss.png",
+    +   "src": "/assets/sprites/skeleton_boss.png",
+        "unchanged": true,
+        "width": "372",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast low creature bears a drowned shoreline along its ridged back.",
+        "cssWidth": "70%",
+        "height": "532",
+        "ratio": "675 / 532",
+    -   "src": "assets/sprites/behemoth.png",
+    +   "src": "/assets/sprites/behemoth.png",
+        "unchanged": true,
+        "width": "675",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A seated tidebound figure wears a crown of salt needles and a cloak of wet ledgers.",
+        "cssWidth": "50%",
+        "height": "251",
+        "ratio": "375 / 251",
+    -   "src": "assets/sprites/berthelot.png",
+    +   "src": "/assets/sprites/berthelot.png",
+        "unchanged": true,
+        "width": "375",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A dark slick hunter carries beads of tar along a low serrated spine.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "203 / 202",
+    -   "src": "assets/sprites/wolf_black.png",
+    +   "src": "/assets/sprites/wolf_black.png",
+        "unchanged": true,
+        "width": "203",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A sinewed current takes a hunting shape around a suspended red pearl.",
+        "cssWidth": "70%",
+        "height": "355",
+        "ratio": "441 / 355",
+    -   "src": "assets/sprites/bm-feral.png",
+    +   "src": "/assets/sprites/bm-feral.png",
+        "unchanged": true,
+        "width": "441",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "Three listening heads rise from one seal-like body wrapped in harbor chains.",
+        "cssWidth": "50%",
+        "height": "410",
+        "ratio": "588 / 410",
+    -   "src": "assets/sprites/cerberus_ptolemaios.png",
+    +   "src": "/assets/sprites/cerberus_ptolemaios.png",
+        "unchanged": true,
+        "width": "588",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A circular many-legged loom turns rusted tide wheels around a living center.",
+        "cssWidth": "50%",
+        "height": "351",
+        "ratio": "373 / 351",
+    -   "src": "assets/sprites/spider_boss.png",
+    +   "src": "/assets/sprites/spider_boss.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low brine mass pushes a row of upright shell tablets before it.",
+        "cssWidth": "50%",
+        "height": "79",
+        "ratio": "153 / 79",
+    -   "src": "assets/sprites/slime_crusader.png",
+    +   "src": "/assets/sprites/slime_crusader.png",
+        "unchanged": true,
+        "width": "153",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A thin winged boatman folds a crescent oar across a lightless sail.",
+        "cssWidth": "70%",
+        "height": "310",
+        "ratio": "434 / 310",
+    -   "src": "assets/sprites/da-reaper.png",
+    +   "src": "/assets/sprites/da-reaper.png",
+        "unchanged": true,
+        "width": "434",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A swollen stone doorway bends inward around a membrane that draws breath.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "317 / 230",
+    -   "src": "assets/sprites/mimic_door.png",
+    +   "src": "/assets/sprites/mimic_door.png",
+        "unchanged": true,
+        "width": "317",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small crouching shore scavenger cups a stolen signal lamp in webbed hands.",
+        "cssWidth": "50%",
+        "height": "166",
+        "ratio": "161 / 166",
+    -   "src": "assets/sprites/goblin.png",
+    +   "src": "/assets/sprites/goblin.png",
+        "unchanged": true,
+        "width": "161",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-limbed watcher aims a fan of long shell needles from its shoulder.",
+        "cssWidth": "50%",
+        "height": "136",
+        "ratio": "207 / 136",
+    -   "src": "assets/sprites/goblin_archer.png",
+    +   "src": "/assets/sprites/goblin_archer.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hooded tide listener cradles a floating knot of luminous brine.",
+        "cssWidth": "50%",
+        "height": "149",
+        "ratio": "228 / 149",
+    -   "src": "assets/sprites/goblin_mage.png",
+    +   "src": "/assets/sprites/goblin_mage.png",
+        "unchanged": true,
+        "width": "228",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow jointed prowler slips through stone seams with hooked glass fingers.",
+        "cssWidth": "50%",
+        "height": "160",
+        "ratio": "162 / 160",
+    -   "src": "assets/sprites/goblin_rogue.png",
+    +   "src": "/assets/sprites/goblin_rogue.png",
+        "unchanged": true,
+        "width": "162",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A copper-green crawler spins translucent mesh between its forked forelegs.",
+        "cssWidth": "50%",
+        "height": "107",
+        "ratio": "140 / 107",
+    -   "src": "assets/sprites/spider_green.png",
+    +   "src": "/assets/sprites/spider_green.png",
+        "unchanged": true,
+        "width": "140",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A low ash-colored hunter exhales warm mist through a cage of coral teeth.",
+        "cssWidth": "50%",
+        "height": "323",
+        "ratio": "373 / 323",
+    -   "src": "assets/sprites/hellhound.png",
+    +   "src": "/assets/sprites/hellhound.png",
+        "unchanged": true,
+        "width": "373",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A walking furnace of porous reef vents dull orange light through chimney spines.",
+        "cssWidth": "70%",
+        "height": "509",
+        "ratio": "744 / 509",
+    -   "src": "assets/sprites/firelord.png",
+    +   "src": "/assets/sprites/firelord.png",
+        "unchanged": true,
+        "width": "744",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A gelatinous reef bloom shelters beneath overlapping plates of nacre.",
+        "cssWidth": "50%",
+        "height": "91",
+        "ratio": "174 / 91",
+    -   "src": "assets/sprites/slime_knight.png",
+    +   "src": "/assets/sprites/slime_knight.png",
+        "unchanged": true,
+        "width": "174",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-legged bell bearer carries translucent egg chambers beneath a bronze mantle.",
+        "cssWidth": "50%",
+        "height": "479",
+        "ratio": "469 / 479",
+    -   "src": "assets/sprites/ant_queen.png",
+    +   "src": "/assets/sprites/ant_queen.png",
+        "unchanged": true,
+        "width": "469",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-stained salvage coffer unfolds nested ivory plates beneath its lid.",
+        "cssWidth": "50%",
+        "height": "174",
+        "ratio": "227 / 174",
+    -   "src": "assets/sprites/mimic.png",
+    +   "src": "/assets/sprites/mimic.png",
+        "unchanged": true,
+        "width": "227",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad reef crawler carries warm ember pockets beneath a cracked shell.",
+        "cssWidth": "50%",
+        "height": "366",
+        "ratio": "486 / 366",
+    -   "src": "assets/sprites/spider_fire.png",
+    +   "src": "/assets/sprites/spider_fire.png",
+        "unchanged": true,
+        "width": "486",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast arching weaver spans the quay with sail-like membranes and needle limbs.",
+        "cssWidth": "70%",
+        "height": "659",
+        "ratio": "895 / 659",
+    -   "src": "assets/sprites/spider_dragon.png",
+    +   "src": "/assets/sprites/spider_dragon.png",
+        "unchanged": true,
+        "width": "895",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A robed harbor judge floats above an anchor that cannot reach the floor.",
+        "cssWidth": "50%",
+        "height": "506",
+        "ratio": "635 / 506",
+    -   "src": "assets/sprites/fallen_king.png",
+    +   "src": "/assets/sprites/fallen_king.png",
+        "unchanged": true,
+        "width": "635",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy shore sentinel carries a ribbed harpoon grown from its forearm.",
+        "cssWidth": "50%",
+        "height": "480",
+        "ratio": "476 / 480",
+    -   "src": "assets/sprites/orc_archer.png",
+    +   "src": "/assets/sprites/orc_archer.png",
+        "unchanged": true,
+        "width": "476",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A barnacled laborer bears a broad crescent of iron where one hand should be.",
+        "cssWidth": "50%",
+        "height": "434",
+        "ratio": "516 / 434",
+    -   "src": "assets/sprites/orc_axe.png",
+    +   "src": "/assets/sprites/orc_axe.png",
+        "unchanged": true,
+        "width": "516",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A towering mud-caked singer holds small storm clouds in a ring of throat sacs.",
+        "cssWidth": "50%",
+        "height": "386",
+        "ratio": "569 / 386",
+    -   "src": "assets/sprites/orc_mage.png",
+    +   "src": "/assets/sprites/orc_mage.png",
+        "unchanged": true,
+        "width": "569",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A four-armed quay guardian crosses long glass blades above a narrow breastplate.",
+        "cssWidth": "50%",
+        "height": "368",
+        "ratio": "517 / 368",
+    -   "src": "assets/sprites/orc_swordsmaster.png",
+    +   "src": "/assets/sprites/orc_swordsmaster.png",
+        "unchanged": true,
+        "width": "517",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A red-veined crawler trails thin iron-colored filaments from a glass abdomen.",
+        "cssWidth": "50%",
+        "height": "110",
+        "ratio": "145 / 110",
+    -   "src": "assets/sprites/spider_red.png",
+    +   "src": "/assets/sprites/spider_red.png",
+        "unchanged": true,
+        "width": "145",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A tall translucent presence trails veils of frozen spray around an empty face.",
+        "cssWidth": "70%",
+        "height": "534",
+        "ratio": "564 / 534",
+    -   "src": "assets/sprites/icemaiden.png",
+    +   "src": "/assets/sprites/icemaiden.png",
+        "unchanged": true,
+        "width": "564",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A salt-white frame draws a cable bow threaded through its open shoulders.",
+        "cssWidth": "50%",
+        "height": "218",
+        "ratio": "299 / 218",
+    -   "src": "assets/sprites/skeleton_archer.png",
+    +   "src": "/assets/sprites/skeleton_archer.png",
+        "unchanged": true,
+        "width": "299",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A plated hollow sentinel guards a sealed tide vessel behind a broad shield.",
+        "cssWidth": "50%",
+        "height": "212",
+        "ratio": "371 / 212",
+    -   "src": "assets/sprites/skeleton_knight.png",
+    +   "src": "/assets/sprites/skeleton_knight.png",
+        "unchanged": true,
+        "width": "371",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale bell-tender holds a sounding bowl beneath a halo of suspended vertebrae.",
+        "cssWidth": "50%",
+        "height": "260",
+        "ratio": "265 / 260",
+    -   "src": "assets/sprites/skeleton_mage1.png",
+    +   "src": "/assets/sprites/skeleton_mage1.png",
+        "unchanged": true,
+        "width": "265",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A narrow bell-tender bears a hanging chime cage and a spiral of floating salt.",
+        "cssWidth": "50%",
+        "height": "230",
+        "ratio": "178 / 230",
+    -   "src": "assets/sprites/skeleton_mage2.png",
+    +   "src": "/assets/sprites/skeleton_mage2.png",
+        "unchanged": true,
+        "width": "178",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A crooked salt frame counts wreck tokens along the hooks of a weathered coat.",
+        "cssWidth": "50%",
+        "height": "232",
+        "ratio": "207 / 232",
+    -   "src": "assets/sprites/skeleton_pirate.png",
+    +   "src": "/assets/sprites/skeleton_pirate.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A reed-armored figure rests a long shell edge across two folded arms.",
+        "cssWidth": "50%",
+        "height": "223",
+        "ratio": "209 / 223",
+    -   "src": "assets/sprites/skeleton_samurai.png",
+    +   "src": "/assets/sprites/skeleton_samurai.png",
+        "unchanged": true,
+        "width": "209",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A many-jointed attendant presents twin slivers of nacre in a formal bow.",
+        "cssWidth": "50%",
+        "height": "215",
+        "ratio": "248 / 215",
+    -   "src": "assets/sprites/skeleton_swordsmaster.png",
+    +   "src": "/assets/sprites/skeleton_swordsmaster.png",
+        "unchanged": true,
+        "width": "248",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A hollow dock worker advances behind a cracked mooring stake.",
+        "cssWidth": "50%",
+        "height": "188",
+        "ratio": "254 / 188",
+    -   "src": "assets/sprites/skeleton_warrior.png",
+    +   "src": "/assets/sprites/skeleton_warrior.png",
+        "unchanged": true,
+        "width": "254",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A shallow translucent mass holds the wavering outline of an abandoned house.",
+        "cssWidth": "50%",
+        "height": "101",
+        "ratio": "229 / 101",
+    -   "src": "assets/sprites/slime.png",
+    +   "src": "/assets/sprites/slime.png",
+        "unchanged": true,
+        "width": "229",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A great layered tide sac suspends a dark pumping stone within amber brine.",
+        "cssWidth": "50%",
+        "height": "253",
+        "ratio": "391 / 253",
+    -   "src": "assets/sprites/slime_boss.png",
+    +   "src": "/assets/sprites/slime_boss.png",
+        "unchanged": true,
+        "width": "391",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A small radial crawler balances on fine legs above a spool of wet thread.",
+        "cssWidth": "50%",
+        "height": "108",
+        "ratio": "142 / 108",
+    -   "src": "assets/sprites/spider.png",
+    +   "src": "/assets/sprites/spider.png",
+        "unchanged": true,
+        "width": "142",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
+        "cssWidth": "70%",
+        "height": "636",
+        "ratio": "748 / 636",
+    -   "src": "assets/sprites/thanatos.png",
+    +   "src": "/assets/sprites/thanatos.png",
+        "unchanged": true,
+        "width": "748",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An armored votary coils around an anchor whose flukes resemble folded fins.",
+        "cssWidth": "50%",
+        "height": "263",
+        "ratio": "435 / 263",
+    -   "src": "assets/sprites/tiamat.png",
+    +   "src": "/assets/sprites/tiamat.png",
+        "unchanged": true,
+        "width": "435",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.",
+        "cssWidth": "70%",
+        "height": "433",
+        "ratio": "501 / 433",
+    -   "src": "assets/sprites/skeleton_dragon.png",
+    +   "src": "/assets/sprites/skeleton_dragon.png",
+        "unchanged": true,
+        "width": "501",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.",
+        "cssWidth": "50%",
+        "height": "203",
+        "ratio": "211 / 203",
+    -   "src": "assets/sprites/wolf_winter.png",
+    +   "src": "/assets/sprites/wolf_winter.png",
+        "unchanged": true,
+        "width": "211",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A lean amphibious hunter tracks the shore with sensory whiskers and split paws.",
+        "cssWidth": "50%",
+        "height": "202",
+        "ratio": "207 / 202",
+    -   "src": "assets/sprites/wolf.png",
+    +   "src": "/assets/sprites/wolf.png",
+        "unchanged": true,
+        "width": "207",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+        "cssWidth": "70%",
+        "height": "164",
+        "ratio": "331 / 164",
+    -   "src": "assets/sprites/goblin_boss.png",
+    +   "src": "/assets/sprites/goblin_boss.png",
+        "unchanged": true,
+        "width": "331",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "An immense crowned deepwater body rises around a ring of broken harbor bells.",
+        "cssWidth": "70%",
+        "height": "489",
+        "ratio": "663 / 489",
+    -   "src": "assets/sprites/zalaras.png",
+    +   "src": "/assets/sprites/zalaras.png",
+        "unchanged": true,
+        "width": "663",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A heavy reef guardian lowers two spiral shell horns above a plated brow.",
+        "cssWidth": "50%",
+        "height": "397",
+        "ratio": "586 / 397",
+    -   "src": "assets/sprites/zodiac_aries.png",
+    +   "src": "/assets/sprites/zodiac_aries.png",
+        "unchanged": true,
+        "width": "586",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    Error: expect(received).toMatchObject(expected)
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "alt": "A wide armored gate-creature braces itself on paired tide-pincer limbs.",
+        "cssWidth": "50%",
+        "height": "296",
+        "ratio": "617 / 296",
+    -   "src": "assets/sprites/zodiac_cancer.png",
+    +   "src": "/assets/sprites/zodiac_cancer.png",
+        "unchanged": true,
+        "width": "617",
+      }
+
+      88 |     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
+      89 |     expect.soft(result.log).toContain(identity.displayName);
+    > 90 |     expect.soft(result).toMatchObject({
+         |                         ^
+      91 |       src: variant.path,
+      92 |       alt: variant.alt,
+      93 |       width: String(variant.width),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/encounter-view.spec.mjs:90:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-encounter-view-f17d6-thout-touching-state-or-RNG-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  19) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  20) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  21) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  22) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  23) [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: "/assets/art/relic-sword.png"
+
+      108 |       for (const [i, row] of rows.entries()) {
+      109 |         const actual = results[i];
+    > 110 |         expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+          |                            ^
+      111 |         const correction = corrections.find(
+      112 |           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
+      113 |             r.id === row.id &&
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:110:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  24) [webkit] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+    @@ -1,7 +1,7 @@
+      Object {
+    -   "alt": "",
+    +   "alt": "Tideglass Edge (Sword)",
+        "hidden": "true",
+        "rejected": Array [
+          true,
+          true,
+        ],
+
+      166 |     },
+      167 |   );
+    > 168 |   expect(result).toEqual({ rejected: [true, true], alt: "", hidden: "true" });
+          |                  ^
+      169 | });
+      170 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:168:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  24 failed
+    [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ──────
+    [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ──────
+    [chromium] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+    [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ────────
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ────────
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ────────
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ────────
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ───────
+    [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ───────
+    [firefox] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+    [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG 
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 ─────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 ─────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 ─────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 ─────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 ────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 ────────
+    [webkit] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned 
+  27 passed (28.3s)

@@ -57,7 +57,7 @@ export function artObligations(baseline) {
     aliases: [],
     unusedButRequired: false,
     contextIds: ["missing-art/portrait", "missing-art/symbol"],
-    path: "assets/art/missing-art.png",
+    path: "assets/art/fallback.png",
     width: null,
     height: null,
     baseline: null,

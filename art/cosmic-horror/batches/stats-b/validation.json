@@ -1,0 +1,38 @@
+[
+  {
+    "id": "stat-vampirism",
+    "status": "PASS",
+    "inspection": {
+      "width": 128,
+      "height": 128,
+      "alpha": true,
+      "sha256": "592b2896e6176b23943da4a7a4065517400244fcb9986b2db835392caa0a9f9c"
+    },
+    "repeatExportHashEqual": true,
+    "borderMaxAlpha": 4
+  },
+  {
+    "id": "stat-critical-rate",
+    "status": "PASS",
+    "inspection": {
+      "width": 128,
+      "height": 128,
+      "alpha": true,
+      "sha256": "f7b6615254ad8d17059fb7ea7d0e78e143642105706c27e7109193e5556a9bbe"
+    },
+    "repeatExportHashEqual": true,
+    "borderMaxAlpha": 3
+  },
+  {
+    "id": "stat-critical-damage",
+    "status": "PASS",
+    "inspection": {
+      "width": 128,
+      "height": 128,
+      "alpha": true,
+      "sha256": "448f007f9579db95560c80873848d269817413262359f17af61b07df2e04d471"
+    },
+    "repeatExportHashEqual": true,
+    "borderMaxAlpha": 0
+  }
+]

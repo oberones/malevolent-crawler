@@ -1,0 +1,57 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/legacy-history.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:64988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:64989) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/legacy-history.spec.mjs:7:1 › legacy load themes history, preserves names and exposes exact unknown text safely (7.2s)
+(node:65010) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/browser/legacy-history.spec.mjs:36:1 › migrated records use safe renderer templates without evaluating markup (147ms)
+
+
+  1) [chromium] › tests/browser/legacy-history.spec.mjs:7:1 › legacy load themes history, preserves names and exposes exact unknown text safely 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Recover history' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: 'Recover history' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Recover history' })
+
+
+      22 |   await expect(p.locator('#dungeonLog > p').first()).toContainText('You recover 5 Quay Marks.');
+      23 |   await expect(p.locator('#dungeonLog')).toContainText('Sounding Vessel');
+    > 24 |   await expect(p.getByRole('button',{name:'Recover history'})).toBeVisible();
+         |                                                                ^
+      25 |   await p.getByRole('button',{name:'Recover history'}).focus();
+      26 |   await p.keyboard.press('Enter');
+      27 |   await expect(p.locator('#dungeonLog pre')).toHaveText(hostile);
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/legacy-history.spec.mjs:24:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-legacy-history-leg-41a2a-s-exact-unknown-text-safely-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-legacy-history-leg-41a2a-s-exact-unknown-text-safely-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-legacy-history-leg-41a2a-s-exact-unknown-text-safely-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-legacy-history-leg-41a2a-s-exact-unknown-text-safely-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/legacy-history.spec.mjs:7:1 › legacy load themes history, preserves names and exposes exact unknown text safely 
+  1 passed (9.2s)

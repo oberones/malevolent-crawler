@@ -88,7 +88,7 @@ test("all active portraits reserve catalog geometry without touching state or RN
     expect.soft(result.name).toBe(`${identity.displayName} Lv.17`);
     expect.soft(result.log).toContain(identity.displayName);
     expect.soft(result).toMatchObject({
-      src: variant.path,
+      src: `/${variant.path}`,
       alt: variant.alt,
       width: String(variant.width),
       height: String(variant.height),

@@ -1,0 +1,255 @@
+✖ fallback obligation names the delivered recovery image (1.993875ms)
+✖ favicon-ico: complete collection delivery is traceable (10.765375ms)
+✖ favicon-png: complete collection delivery is traceable (2.509208ms)
+✔ sprite-alfadriel: complete collection delivery is traceable (8.409875ms)
+✔ sprite-ant-queen: complete collection delivery is traceable (6.206083ms)
+✔ sprite-behemoth: complete collection delivery is traceable (8.7595ms)
+✔ sprite-berthelot: complete collection delivery is traceable (4.090583ms)
+✔ sprite-bm-feral: complete collection delivery is traceable (5.279875ms)
+✔ sprite-cerberus-ptolemaios: complete collection delivery is traceable (6.552875ms)
+✔ sprite-da-reaper: complete collection delivery is traceable (16.178208ms)
+✔ sprite-fallen-king: complete collection delivery is traceable (7.513708ms)
+✔ sprite-firelord: complete collection delivery is traceable (19.451959ms)
+✔ sprite-goblin: complete collection delivery is traceable (3.532375ms)
+✔ sprite-goblin-archer: complete collection delivery is traceable (3.404583ms)
+✔ sprite-goblin-boss: complete collection delivery is traceable (3.130583ms)
+✔ sprite-goblin-mage: complete collection delivery is traceable (3.549917ms)
+✔ sprite-goblin-rogue: complete collection delivery is traceable (3.525292ms)
+✔ sprite-hellhound: complete collection delivery is traceable (4.337583ms)
+✔ sprite-icemaiden: complete collection delivery is traceable (8.398625ms)
+✔ sprite-mimic: complete collection delivery is traceable (4.707ms)
+✔ sprite-mimic-door: complete collection delivery is traceable (4.689125ms)
+✔ sprite-orc-archer: complete collection delivery is traceable (5.627916ms)
+✔ sprite-orc-axe: complete collection delivery is traceable (6.761666ms)
+✔ sprite-orc-mage: complete collection delivery is traceable (5.7835ms)
+✔ sprite-orc-swordsmaster: complete collection delivery is traceable (4.664208ms)
+✔ sprite-skeleton-archer: complete collection delivery is traceable (3.556584ms)
+✔ sprite-skeleton-boss: complete collection delivery is traceable (4.6455ms)
+✔ sprite-skeleton-dragon: complete collection delivery is traceable (6.804125ms)
+✔ sprite-skeleton-knight: complete collection delivery is traceable (3.935625ms)
+✔ sprite-skeleton-mage1: complete collection delivery is traceable (16.679708ms)
+✔ sprite-skeleton-mage2: complete collection delivery is traceable (4.432875ms)
+✔ sprite-skeleton-pirate: complete collection delivery is traceable (6.241042ms)
+✔ sprite-skeleton-samurai: complete collection delivery is traceable (3.753083ms)
+✔ sprite-skeleton-swordsmaster: complete collection delivery is traceable (2.814375ms)
+✔ sprite-skeleton-warrior: complete collection delivery is traceable (3.169875ms)
+✔ sprite-slime: complete collection delivery is traceable (3.542709ms)
+✔ sprite-slime-angel: complete collection delivery is traceable (3.552709ms)
+✔ sprite-slime-boss: complete collection delivery is traceable (4.51125ms)
+✔ sprite-slime-crusader: complete collection delivery is traceable (3.158125ms)
+✔ sprite-slime-knight: complete collection delivery is traceable (3.490208ms)
+✔ sprite-spider: complete collection delivery is traceable (3.179416ms)
+✔ sprite-spider-boss: complete collection delivery is traceable (5.424ms)
+✔ sprite-spider-dragon: complete collection delivery is traceable (8.54175ms)
+✔ sprite-spider-fire: complete collection delivery is traceable (5.663084ms)
+✔ sprite-spider-green: complete collection delivery is traceable (3.709083ms)
+✔ sprite-spider-red: complete collection delivery is traceable (3.187666ms)
+✔ sprite-spider-spirit: complete collection delivery is traceable (4.276291ms)
+✔ sprite-thanatos: complete collection delivery is traceable (8.755083ms)
+✔ sprite-tiamat: complete collection delivery is traceable (4.66975ms)
+✔ sprite-wolf: complete collection delivery is traceable (4.476292ms)
+✔ sprite-wolf-black: complete collection delivery is traceable (3.210958ms)
+✔ sprite-wolf-boss: complete collection delivery is traceable (2.694791ms)
+✔ sprite-wolf-winter: complete collection delivery is traceable (3.437875ms)
+✔ sprite-zalaras: complete collection delivery is traceable (8.313667ms)
+✔ sprite-zodiac-aries: complete collection delivery is traceable (6.736875ms)
+✔ sprite-zodiac-cancer: complete collection delivery is traceable (5.178542ms)
+✔ relic-sword: complete collection delivery is traceable (1.944458ms)
+✔ relic-axe: complete collection delivery is traceable (4.114833ms)
+✔ relic-hammer: complete collection delivery is traceable (2.801333ms)
+✔ relic-dagger: complete collection delivery is traceable (2.225458ms)
+✔ relic-flail: complete collection delivery is traceable (2.811833ms)
+✔ relic-scythe: complete collection delivery is traceable (2.102959ms)
+✔ relic-plate: complete collection delivery is traceable (3.5625ms)
+✔ relic-chain: complete collection delivery is traceable (3.478291ms)
+✔ relic-leather: complete collection delivery is traceable (3.606916ms)
+✔ relic-tower: complete collection delivery is traceable (4.332ms)
+✔ relic-kite: complete collection delivery is traceable (3.608042ms)
+✔ relic-buckler: complete collection delivery is traceable (4.226ms)
+✔ relic-great-helm: complete collection delivery is traceable (3.752208ms)
+✔ relic-horned-helm: complete collection delivery is traceable (4.359834ms)
+✖ title: complete collection delivery is traceable (0.340375ms)
+✖ stat-hp: complete collection delivery is traceable (0.408167ms)
+✖ stat-attack: complete collection delivery is traceable (0.328042ms)
+✖ stat-defense: complete collection delivery is traceable (0.285042ms)
+✖ stat-attack-speed: complete collection delivery is traceable (0.305417ms)
+✖ stat-vampirism: complete collection delivery is traceable (0.304666ms)
+✖ stat-critical-rate: complete collection delivery is traceable (0.285209ms)
+✖ stat-critical-damage: complete collection delivery is traceable (0.276708ms)
+✖ treasure: complete collection delivery is traceable (0.888208ms)
+✖ currency: complete collection delivery is traceable (0.37725ms)
+✖ missing-art: complete collection delivery is traceable (0.396ms)
+ℹ tests 81
+ℹ suites 0
+ℹ pass 67
+ℹ fail 14
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 505.541584
+
+✖ failing tests:
+
+test at tests/unit/collection-art-delivery.test.mjs:11:1
+✖ fallback obligation names the delivered recovery image (1.993875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'assets/art/missing-art.png'
+  - 'assets/art/fallback.png'
+                ^
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:12:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'assets/art/missing-art.png',
+    expected: 'assets/art/fallback.png',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ favicon-ico: complete collection delivery is traceable (10.765375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '82f2cb7f077446466fa2c1ad2eee6a140033034137cc0bc9e4ef435a4fc6bea6'
+  - null
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:21:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '82f2cb7f077446466fa2c1ad2eee6a140033034137cc0bc9e4ef435a4fc6bea6',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ favicon-png: complete collection delivery is traceable (2.509208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '1d98fd90eb88364c5a576ad2ef75bd314ee37555dc89d581a31b11f3980de695'
+  - null
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:21:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '1d98fd90eb88364c5a576ad2ef75bd314ee37555dc89d581a31b11f3980de695',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ title: complete collection delivery is traceable (0.340375ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-hp: complete collection delivery is traceable (0.408167ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-attack: complete collection delivery is traceable (0.328042ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-defense: complete collection delivery is traceable (0.285042ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-attack-speed: complete collection delivery is traceable (0.305417ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-vampirism: complete collection delivery is traceable (0.304666ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-critical-rate: complete collection delivery is traceable (0.285209ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ stat-critical-damage: complete collection delivery is traceable (0.276708ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ treasure: complete collection delivery is traceable (0.888208ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ currency: complete collection delivery is traceable (0.37725ms)
+  Error: Wrong image dimensions
+      at requireThat (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/art-common.mjs:16:25)
+      at inspectPng (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/scripts/image-inspection.mjs:14:3)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:20:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/unit/collection-art-delivery.test.mjs:16:3
+✖ missing-art: complete collection delivery is traceable (0.396ms)
+  Error: ENOENT: no such file or directory, open 'assets/art/missing-art.png'
+      at async open (node:internal/fs/promises:1345:25)
+      at async readFile (node:internal/fs/promises:1996:14)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/collection-art-delivery.test.mjs:17:19)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'assets/art/missing-art.png'
+  }

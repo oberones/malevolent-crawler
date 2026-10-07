@@ -1,0 +1,28 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/art-failure.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:48787) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] node:events:505
+[WebServer]     throw er; // Unhandled 'error' event
+[WebServer]     ^
+[WebServer] 
+[WebServer] Error: listen EPERM: operation not permitted 127.0.0.1:4173
+[WebServer]     at Server.setupListenHandle [as _listen2] (node:net:2306:21)
+[WebServer]     at listenInCluster (node:net:2437:12)
+[WebServer]     at node:net:2666:7
+[WebServer]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[WebServer] Emitted 'error' event on Server instance at:
+[WebServer]     at emitErrorNT (node:net:2416:8)
+[WebServer]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[WebServer]   code: 'EPERM',
+[WebServer]   errno: -1,
+[WebServer]   syscall: 'listen',
+[WebServer]   address: '127.0.0.1',
+[WebServer]   port: 4173
+[WebServer] }
+[WebServer] 
+[WebServer] Node.js v24.21.0
+Error: Process from config.webServer was not able to start. Exit code: 1
+

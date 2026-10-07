@@ -29,10 +29,12 @@ export function text(id, params = {}) {
 }
 /** Create presentation helpers for completed outcomes; these never award rewards.
  * @param {Document} document Owner document.
+ * @param {object} [options] historyRecovery maps opaque refs to preserved raw data.
  * @returns {object} Safe text, log, item and encounter presentation methods.
  */
-export function createOutcomeView(document) {
+export function createOutcomeView(document, { historyRecovery = {} } = {}) {
   const symbol = createSymbolView(document);
+  const encounter = createEncounterView(document);
   const renderer = createSafeRenderer(document, {
     schemas: messageSchemas,
     templates: messageTemplates,
@@ -44,13 +46,47 @@ export function createOutcomeView(document) {
     put(selector, id, params = {}) {
       document.querySelector(selector).textContent = text(id, params);
     },
-    /** Render typed current messages; retain legacy bytes in state for the later migration package. */
+    /** Render typed messages and catalog symbols; unknown history exposes only selectable raw text. */
     renderLog(target, message) {
+      symbol.release(target);
       if (typeof message === "string") {
         target.textContent =
           "Some history is unavailable. Original text remains in saved history for recovery.";
       } else {
-        target.replaceChildren(renderer.renderMessage(message));
+        const historyRenderer =
+          message.id === "history.unavailable" &&
+          Object.hasOwn(historyRecovery, message.params.recoveryRef)
+            ? createSafeRenderer(document, {
+                // Keep recovery local and inert; repeated activation never duplicates the raw text.
+                onRecover(ref) {
+                  if (target.querySelector("pre")) return;
+                  const raw = historyRecovery[ref];
+                  const preview = document.createElement("pre");
+                  preview.tabIndex = 0;
+                  preview.style.whiteSpace = "pre-wrap";
+                  preview.style.overflowWrap = "anywhere";
+                  preview.textContent =
+                    typeof raw === "string"
+                      ? raw
+                      : JSON.stringify(raw, null, 2);
+                  target.append(preview);
+                  preview.focus();
+                },
+              })
+            : renderer;
+        target.replaceChildren(historyRenderer.renderMessage(message));
+        const context = {
+          "event.treasure": "treasure/treasure",
+          "event.treasureRoom": "treasure/chamber",
+          "event.gold": "currency/gold",
+          "history.gold": "currency/gold",
+          "history.offering": "currency/blessing",
+          "history.blackSounding": "currency/curse",
+          "combat.gold": "currency/victory",
+          "event.offering": "currency/blessing",
+          "event.blackSounding": "currency/curse",
+        }[message.id];
+        if (context) target.prepend(symbol(context.split("/")[0], context));
         if (message.id === "inventory.reward") {
           const item = message.params.item;
           const id = getRelic(item.category).value.symbolId;
@@ -86,7 +122,12 @@ export function createOutcomeView(document) {
         document.createTextNode(`${item.rarity} ${relic.value.displayName}`),
       );
     },
-    encounter: createEncounterView(document),
+    encounter,
+    // Dispose owned image requests and observers together with narrative presentation.
+    dispose() {
+      encounter.dispose();
+      symbol.dispose();
+    },
     /** Refresh upgrade copy using already-rolled choices and the existing reroll budget. */
     upgrade(remaining, rerolls) {
       this.put("#lvlupSelect h1", "upgrade.title");

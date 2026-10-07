@@ -1,0 +1,67 @@
+{
+  "batch": "fallback",
+  "date": "2026-10-07",
+  "candidateBaseRevision": "5729856863648011464e8777e254ed353d47a04f",
+  "candidateState": "Phase 6A assets only; T103/T104/T105 own consumers and manifest join",
+  "entries": [
+    {
+      "id": "missing-art",
+      "identityId": "missing-art",
+      "displayName": "Sealed Bell",
+      "contextIds": ["missing-art/portrait", "missing-art/symbol"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:33:56.873Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-da24d223-2ec2-4c1b-aaec-63efe5070c91.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/fallback/masters/fallback.png",
+        "masterSha256": "4cca0e2ee570f3060e3c8c744a44bbea6e446e2a4fb33ed8d95957c84e5a62ed",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/fallback/prompts/fallback.txt",
+        "promptSha256": "9d3dc726040022217a4359881e091eb9b1fbbf0218b6c32605e59d7efaf221c9",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 512,
+        "height": 512,
+        "alpha": true,
+        "sha256": "84124d82d22f5e2093aa40796fc266b7615cfb9f4cff505cd2de6300c138bad1",
+        "path": "assets/art/fallback.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/fallback/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The sealed bell remains a quiet solid marker at 16/24/32/64 CSS pixels and fits 150 \u00d7 225, 210 \u00d7 150 and 300 \u00d7 400 reserved boxes with object-fit contain. Adjacent identity stays readable and wraps below the largest sample. No clapper or open mouth is depicted. Failure-state control behavior is not exercised by this fixture."
+        ]
+      },
+      "integrationNote": "T098 explicitly specifies assets/art/fallback.png; the older foundation obligation uses assets/art/missing-art.png. T105 must reconcile the obligation and manifest with this task delivery before full validation."
+    }
+  ],
+  "task": "T098"
+}

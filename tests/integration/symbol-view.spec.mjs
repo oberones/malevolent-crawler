@@ -107,7 +107,9 @@ for (const width of [360, 768, 1440])
       expect(rows).toHaveLength(84);
       for (const [i, row] of rows.entries()) {
         const actual = results[i];
-        expect(actual.src).toBe(`assets/art/relic-${row.id.split("/")[0]}.png`);
+        expect(actual.src).toBe(
+          `/assets/art/relic-${row.id.split("/")[0]}.png`,
+        );
         const correction = corrections.find(
           /* Apply only the exact remeasured immutable-source tuple. */ (r) =>
             r.id === row.id &&
@@ -160,10 +162,14 @@ test("symbol identity and alternatives are catalog owned", async ({ page }) => {
       const node = symbol("Sword", "sword/detail");
       return {
         rejected,
-        alt: node.querySelector("img")?.alt,
+        hiddenImage: node.querySelector("img")?.getAttribute("aria-hidden"),
         hidden: node.getAttribute("aria-hidden"),
       };
     },
   );
-  expect(result).toEqual({ rejected: [true, true], alt: "", hidden: "true" });
+  expect(result).toEqual({
+    rejected: [true, true],
+    hiddenImage: "true",
+    hidden: "true",
+  });
 });

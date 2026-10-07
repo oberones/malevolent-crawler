@@ -1,0 +1,12 @@
+[
+  {
+    "path": "art/cosmic-horror/baseline.json",
+    "sha256": "7609d42b5471e658e43bc5e818a5453265a50c2f4266d17835e0f7d502c908bb",
+    "unchangedFromStartingRevision": true
+  },
+  {
+    "path": "art/cosmic-horror/manifest.json",
+    "sha256": "bb15aa01f5ce1595471d13d5a21d0e6b66ddc942b90845215fa5c91fae966a13",
+    "unchangedFromStartingRevision": true
+  }
+]

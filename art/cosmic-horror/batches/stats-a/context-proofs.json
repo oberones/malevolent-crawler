@@ -1,0 +1,6482 @@
+[
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/health-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 257.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 255,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 383,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 297.640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 447,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 575,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 338.421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 703,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 767,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 379.203125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-1.png",
+    "screenshotSha256": "23b69d4ed70a6cf3cdee98507fb568282776eb23e02b4de7c4e4608062aa3b2f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 209.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 209.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 207,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/health-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 14.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 287,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 447,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 112.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 527,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 607,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 212.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 767,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 333.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 847,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 333.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 927,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 312.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1007,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-360-2.png",
+    "screenshotSha256": "5ca7b59f748ad93771648d7c027597d4b4b3debe6676bb7f3d59d206d4a33f50",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/health-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 369.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 409.640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 450.421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 491.203125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 815,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-1.png",
+    "screenshotSha256": "006b8669c86ffd6d0737407c0b415924ce439b80b2127c162b98145c16b79cd8",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 167.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 167.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/health-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 126.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 207.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 351,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 207.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 224.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 591,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 324.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 911,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 424.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 991,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-768-2.png",
+    "screenshotSha256": "e26c7dba5db3ea28ea32c0588d4171cb24e365f25a2f91086b5ee3fd42ddb1c9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 102.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/health-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 307.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 122.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 347.640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 143.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 388.421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 164.59375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 429.203125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 815,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-1.png",
+    "screenshotSha256": "4a6598f62406b2d29f0102e5d5a6a133d3fcc6ec35cce10a5f10477b7af2cad4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 167.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 167.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/health-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 64.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 207.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 351,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 207.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 162.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 591,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 249.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 262.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 291.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 911,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 362.125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 991,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/chromium-1440-2.png",
+    "screenshotSha256": "da9e50c4a30d894c130cc07238357a9e18a3e3c82063daaee0015e422b2da249",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 185,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/health-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 249.60000610351562,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 248,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 311,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 374,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 291.3999938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 437,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 500,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 563,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 334.20001220703125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 626,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 689,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 752,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 377,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 815,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-1.png",
+    "screenshotSha256": "dc65bc146cfd057456f27e6ac03d4df6c77e77895400965f9124e44b2514504c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 218.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 218.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 201,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/health-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": -0.3000030517578125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 280,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 359,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 438,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 101.60000610351562,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 517,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 596,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 675,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 205.5,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 754,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 348.73333740234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 833,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 348.73333740234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 912,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 53,
+      "y": 309.3999938964844,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 991,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-360-2.png",
+    "screenshotSha256": "4c9c50512ca26e7cf36a06c3d31377792ae33a0ad8951adbfbe85de249b486b6",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/health-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 361.6000061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 296,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 359,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 403.3999938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 422,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 485,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 548,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 446.20001220703125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 611,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 674,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 737,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 489,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 800,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-1.png",
+    "screenshotSha256": "60301aff0e59933b84d98df75f15c5a7e973eb1cab567261edbcb52646042eed",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 174.93333435058594,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 174.93333435058594,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/health-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 111.69999694824219,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 216.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 344,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 216.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 423,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 213.60000610351562,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 502,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 581,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 660,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 317.5,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 739,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 818,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 897,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 257,
+      "y": 421.3999938964844,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 976,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-768-2.png",
+    "screenshotSha256": "f5613b9e572d2a947ea7cc145804796e476bfec77267a0d204943b3454ff9aa5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 107.28334045410156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/health-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 299.6000061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 296,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 128.76666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 359,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 341.3999938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 422,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 485,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 151.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 548,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 384.20001220703125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 611,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 674,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 173.73333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 737,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 427,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 800,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-1.png",
+    "screenshotSha256": "68a6adf12489902259ff5d99a36e4f978ba55a2cb981ad302bc51d33afcea453",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 174.93333435058594,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 174.93333435058594,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/health-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 49.69999694824219,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 216.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 344,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 216.88333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 423,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 151.60000610351562,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 502,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 581,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 260.83331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 660,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 255.5,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 739,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 818,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 304.7833251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 897,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 593,
+      "y": 359.3999938964844,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 976,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/firefox-1440-2.png",
+    "screenshotSha256": "d82ce753ffc971b31a5c894ae0c2feb8cdb1e8a4892b2c62effca2a1a1638d26",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/health-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 257.078125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 255,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 383,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 296.87109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 447,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 575,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 337.65234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 703,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 767,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 45,
+      "y": 378.43359375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-1.png",
+    "screenshotSha256": "b26709409ed7bd998ad3ac7408ed8d989e6142bc17f7e50ad74b7f76ebe6a2b5",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/health-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 210.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/health-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 210.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 207,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/health-allocation.png",
+    "baselineBox": {
+      "x": 69,
+      "y": -55.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 287,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 447,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 69,
+      "y": 100.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 527,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/defense-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 607,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 69,
+      "y": 216.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 767,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 17,
+      "y": 334.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 847,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 193,
+      "y": 334.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 927,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 69,
+      "y": 332.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1007,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-360-2.png",
+    "screenshotSha256": "4481f8496b12aa538901fcffd3ab60bc0a54919257b450af64de68f413fdf28c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/health-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 369.078125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 408.87109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 449.65234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 249,
+      "y": 490.43359375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 815,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-1.png",
+    "screenshotSha256": "4909aecfefab269a485f2348d22771d2c3b6333fecaca752a22af157815c8bf0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/health-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 168.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/health-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 168.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/health-allocation.png",
+    "baselineBox": {
+      "x": 273,
+      "y": 56.078125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 208.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 351,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 208.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 273,
+      "y": 212.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/defense-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 591,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 273,
+      "y": 328.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 121,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 397,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 911,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 273,
+      "y": 444.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 991,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-768-2.png",
+    "screenshotSha256": "5e91514220fd059c9b3c9ab3b6cbdfd3d036b37d690fc72b27cb6841356ecb4e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 102.3125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/health-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 307.078125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 122.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 346.87109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 143.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/defense-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 387.65234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 164.32421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 585,
+      "y": 428.43359375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 815,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-1.png",
+    "screenshotSha256": "61d342c930bada290c1dca8bbb9ccd7b0d205ea5195c9ce31a5f448b024042d2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/health-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 168.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/health-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 168.046875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-hp",
+    "contextId": "health/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/health-allocation.png",
+    "baselineBox": {
+      "x": 609,
+      "y": -5.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 208.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 351,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 208.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack",
+    "contextId": "attack/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-allocation.png",
+    "baselineBox": {
+      "x": 609,
+      "y": 150.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/defense-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 591,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/defense-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 250.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-defense",
+    "contextId": "defense/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/defense-allocation.png",
+    "baselineBox": {
+      "x": 609,
+      "y": 266.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 751,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/main",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-speed-main.png",
+    "baselineBox": {
+      "x": 457,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 831,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/bonus",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-speed-bonus.png",
+    "baselineBox": {
+      "x": 733,
+      "y": 292.0546875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 911,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "stat-attack-speed",
+    "contextId": "attack-speed/allocation",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/attack-speed-allocation.png",
+    "baselineBox": {
+      "x": 609,
+      "y": 382.0859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 991,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/stats-a/webkit-1440-2.png",
+    "screenshotSha256": "22b9cf45ea777f64b9c05dd28975c9ea1622f7a040c9cef16147b4cdce8f30de",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  }
+]

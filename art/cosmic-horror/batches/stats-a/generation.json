@@ -1,0 +1,241 @@
+{
+  "batch": "stats-a",
+  "date": "2026-10-07",
+  "candidateBaseRevision": "5729856863648011464e8777e254ed353d47a04f",
+  "candidateState": "Phase 6A assets only; T103/T104/T105 own consumers and manifest join",
+  "entries": [
+    {
+      "id": "stat-hp",
+      "identityId": "stat-hp",
+      "displayName": "Pulse Pearl",
+      "contextIds": ["health/main", "health/bonus", "health/allocation"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:28:56.015Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-a623da0c-1bcb-4988-9183-6704c05c8c15.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-a/masters/stat-hp.png",
+        "masterSha256": "92ea7ff59e41397781ba737698f822fdfdd866c711f0e62e28b25355c115e9bb",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-a/prompts/stat-hp.txt",
+        "promptSha256": "37f680c138b366d9064100a3ef6cde8db5bfc546aad137e8f49016aa4ff9fcaf",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "b8371c22239ad1715128656281ec14cbd3cb1ac6321ed3cfffe616c3d0dd619f",
+        "path": "assets/art/stat-hp.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-a/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The heart pearl, upright sword, shield and flowing blade remain distinct at 16/32 CSS pixels. The attack blade is slender at 16 but its bright continuous edge and guard remain visible; meaning must retain its adjacent stat label. Health and defense have broad nacre surfaces; speed uses two flowing current silhouettes."
+        ]
+      }
+    },
+    {
+      "id": "stat-attack",
+      "identityId": "stat-attack",
+      "displayName": "Striking Edge",
+      "contextIds": ["attack/main", "attack/bonus", "attack/allocation"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:28:13.908Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-d3133297-ad9f-4b08-afca-da55694a65aa.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-a/masters/stat-attack.png",
+        "masterSha256": "e76f858b7d93adb247631809fc91d21d49dd96c64d4fb8336f51ef41f62c4ba8",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-a/prompts/stat-attack.txt",
+        "promptSha256": "44231a9e1eb815d6a04faee6110d610b1bccabf224ae2cd2e0ad792b5f5dbf80",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "b49052145b1d12a49b006dc5f0daa6ed1d7ceef2f9108baac1c61ce4f945b2a6",
+        "path": "assets/art/stat-attack.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-a/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The heart pearl, upright sword, shield and flowing blade remain distinct at 16/32 CSS pixels. The attack blade is slender at 16 but its bright continuous edge and guard remain visible; meaning must retain its adjacent stat label. Health and defense have broad nacre surfaces; speed uses two flowing current silhouettes."
+        ]
+      }
+    },
+    {
+      "id": "stat-defense",
+      "identityId": "stat-defense",
+      "displayName": "Harbor Ward",
+      "contextIds": ["defense/main", "defense/bonus", "defense/allocation"],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:29:44.472Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-f934bda1-32b9-4a51-b336-838147f2ec61.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-a/masters/stat-defense.png",
+        "masterSha256": "4572c2345c186b55b6883e6af5c641b705c047c4b54400e2e426548e3d016671",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-a/prompts/stat-defense.txt",
+        "promptSha256": "61738dace6450059a5649383cf04359d70880f2c1b8460d6ba2101a546265bd3",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "7ddca366d9027e89e37b9001684e6c65d75b94a75dfb3ae7757588beefb5f49c",
+        "path": "assets/art/stat-defense.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-a/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The heart pearl, upright sword, shield and flowing blade remain distinct at 16/32 CSS pixels. The attack blade is slender at 16 but its bright continuous edge and guard remain visible; meaning must retain its adjacent stat label. Health and defense have broad nacre surfaces; speed uses two flowing current silhouettes."
+        ]
+      }
+    },
+    {
+      "id": "stat-attack-speed",
+      "identityId": "stat-attack-speed",
+      "displayName": "Swift Current",
+      "contextIds": [
+        "attack-speed/main",
+        "attack-speed/bonus",
+        "attack-speed/allocation"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T21:30:26.919Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a1183f-7851-7031-958c-fb4231d6cbd6/exec-f9442811-c1f3-4b4b-a697-8527e5c3cff9.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/stats-a/masters/stat-attack-speed.png",
+        "masterSha256": "f952eef6750b7951305463b7347a6979fbf0011d5d3ebc04fd569a7f1d49d147",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/stats-a/prompts/stat-attack-speed.txt",
+        "promptSha256": "c1e7e32716988eb389ab9a012990f194ce1cf2a0818ccf8ce3ef80e6e0a97dd8",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "624a65e72f908add93f0c80a1d47a56d8c3fa4c179658a888912928a0323f1ab",
+        "path": "assets/art/stat-attack-speed.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/stats-a/review.md",
+        "reviewer": "implementation agent",
+        "date": "2026-10-07",
+        "scope": "Bounded art-production visual review only; human/native acceptance OPEN",
+        "findings": [
+          "The heart pearl, upright sword, shield and flowing blade remain distinct at 16/32 CSS pixels. The attack blade is slender at 16 but its bright continuous edge and guard remain visible; meaning must retain its adjacent stat label. Health and defense have broad nacre surfaces; speed uses two flowing current silhouettes."
+        ]
+      }
+    }
+  ],
+  "task": "T096"
+}

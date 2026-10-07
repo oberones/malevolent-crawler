@@ -1,0 +1,933 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/symbol-geometry.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:36043) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 21 tests using 3 workers
+
+(node:36049) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36047) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 1 (3.9s)
+  ✓   3 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 1 (3.9s)
+  ✘   2 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 (4.0s)
+(node:36089) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 1 (3.3s)
+  ✓   7 [chromium] › tests/browser/symbol-geometry.spec.mjs:396:1 › favicon reference describes the ICO delivery (330ms)
+(node:36837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 (3.4s)
+(node:37633) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 (3.0s)
+(node:37654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 1 (4.3s)
+  ✘   9 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 (5.3s)
+(node:37692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 1 (5.2s)
+  ✘  11 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 (4.3s)
+(node:37713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [firefox] › tests/browser/symbol-geometry.spec.mjs:396:1 › favicon reference describes the ICO delivery (1.5s)
+  ✓  12 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 1 (4.1s)
+(node:37731) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 (3.5s)
+(node:37732) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37740) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 1 (2.9s)
+  ✓  17 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 1 (2.8s)
+  ✘  16 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 (3.0s)
+(node:37775) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 1 (2.3s)
+  ✓  21 [webkit] › tests/browser/symbol-geometry.spec.mjs:396:1 › favicon reference describes the ICO delivery (299ms)
+  ✘  18 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 (2.5s)
+  ✘  20 [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 (2.4s)
+
+
+  1) [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.59375
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: currency/header frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    42
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.59375
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.59375
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.616668701171875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21.966644287109375
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: currency/header frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    43.94999694824219
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.616668701171875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21.966644287109375
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    6.616668701171875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21.966644287109375
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    5.21875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: defense/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: currency/header frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    42
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    5.21875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: defense/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: health/allocation width
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      291 |                 `${context.id} ${key}`,
+      292 |               )
+    > 293 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      294 |           expect
+      295 |             .soft(
+      296 |               Math.abs(row.baselineOffset - original.baselineOffset),
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:293:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    16
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: health/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    5.21875
+
+      350 |             expect
+      351 |               .soft(Math.abs(edge), `${context.id} live edge`)
+    > 352 |               .toBeLessThanOrEqual(0.5);
+          |                ^
+      353 |           row.originalBox = original.box;
+      354 |           row.originalBaselineOffset = original.baselineOffset;
+      355 |           row.liveComparison = art;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:352:16
+
+    Error: attack/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: defense/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    Error: attack-speed/allocation frozen baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    21
+
+      297 |               `${context.id} frozen baseline`,
+      298 |             )
+    > 299 |             .toBeLessThanOrEqual(0.5);
+          |              ^
+      300 |           expect.soft(row.marginLeft, context.id).toBe(original.marginLeft);
+      301 |           expect.soft(row.marginRight, context.id).toBe(original.marginRight);
+      302 |           const art = await live.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:299:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9 failed
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 360 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 768 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:50:5 › remaining live symbol contexts 1440 text 2 
+  12 passed (30.3s)

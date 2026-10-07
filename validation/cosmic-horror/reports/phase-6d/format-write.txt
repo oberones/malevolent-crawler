@@ -1,0 +1,21 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write assets/js/app/encounter-view.mjs assets/js/app/image-loader.mjs assets/js/app/item-view.mjs assets/js/app/outcome-view.mjs assets/js/app/services.mjs assets/js/app/symbol-view.mjs assets/css/style.css scripts/art-obligations.mjs scripts/validate-art.mjs tests/unit/collection-art-delivery.test.mjs tests/unit/art-tools.test.mjs tests/browser/collection-reflow.spec.mjs tests/integration/image-consumers.spec.mjs tests/browser/encounters.spec.mjs tests/browser/symbol-geometry.spec.mjs tests/integration/encounter-view.spec.mjs tests/integration/symbol-view.spec.mjs specs/001-cosmic-horror-refactor/art-inventory.md art/cosmic-horror/manifest.json
+assets/js/app/encounter-view.mjs 425ms
+assets/js/app/image-loader.mjs 209ms (unchanged)
+assets/js/app/item-view.mjs 257ms (unchanged)
+assets/js/app/outcome-view.mjs 24ms (unchanged)
+assets/js/app/services.mjs 7ms (unchanged)
+assets/js/app/symbol-view.mjs 4ms (unchanged)
+assets/css/style.css 382ms
+scripts/art-obligations.mjs 7ms (unchanged)
+scripts/validate-art.mjs 145ms (unchanged)
+tests/unit/collection-art-delivery.test.mjs 7ms
+tests/unit/art-tools.test.mjs 29ms
+tests/browser/collection-reflow.spec.mjs 11ms
+tests/integration/image-consumers.spec.mjs 6ms
+tests/browser/encounters.spec.mjs 38ms (unchanged)
+tests/browser/symbol-geometry.spec.mjs 61ms
+tests/integration/encounter-view.spec.mjs 8ms (unchanged)
+tests/integration/symbol-view.spec.mjs 11ms
+specs/001-cosmic-horror-refactor/art-inventory.md 254ms
+art/cosmic-horror/manifest.json 2502ms

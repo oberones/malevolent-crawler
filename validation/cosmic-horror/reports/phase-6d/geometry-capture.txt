@@ -1,0 +1,219 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/symbol-geometry.spec.mjs --workers=2
+
+Running 21 tests using 2 workers
+
+(node:52735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52736) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (11.3s)
+  ✓   1 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (12.0s)
+  ✓   3 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (10.3s)
+  ✓   4 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (11.9s)
+  ✓   5 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (9.7s)
+  ✓   7 [chromium] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (398ms)
+(node:52976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (9.9s)
+(node:53021) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (11.7s)
+  ✘   9 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (11.7s)
+(node:53140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (6.3s)
+(node:53182) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (14.5s)
+  ✓  12 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (13.6s)
+  ✓  14 [firefox] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (741ms)
+(node:53303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (15.2s)
+(node:53413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (11.4s)
+  ✓  17 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (11.7s)
+  ✘  16 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (11.4s)
+(node:53505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (10.7s)
+  ✘  18 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (11.0s)
+(node:53592) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [webkit] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (671ms)
+  ✘  20 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (8.6s)
+
+
+  1) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/tmp/phase6d-focused-results/.playwright-artifacts-3/traces/resources/9ec8de36dfb24673a08f8fe8854f7d9b8a800da2.webm'
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:389:9
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/tmp/phase6d-focused-results/.playwright-artifacts-3/traces/04d5d68ace9acfe5ede0-340c0b60b2cf9a1b9376-recording3.network' -> '/tmp/phase6d-focused-results/.playwright-artifacts-3/traces/04d5d68ace9acfe5ede0-340c0b60b2cf9a1b9376-recording3-pwnetcopy-1.network'
+
+    Error: ENOENT: no such file or directory, open '/tmp/phase6d-focused-results/.playwright-artifacts-3/ddc8b56495a310f54fb3c0f4b9219e29.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/tmp/phase6d-focused-results/.playwright-artifacts-2/traces/04d5d68ace9acfe5ede0-f5f667f8b0eda2a6475b-recording5.network' -> '/tmp/phase6d-focused-results/.playwright-artifacts-2/traces/04d5d68ace9acfe5ede0-f5f667f8b0eda2a6475b-recording5-pwnetcopy-1.network'
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |                     ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:21)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:389:23
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/tmp/phase6d-focused-results/.playwright-artifacts-2/traces/04d5d68ace9acfe5ede0-f5f667f8b0eda2a6475b-recording4.trace'
+
+    Error: ENOENT: no such file or directory, open '/tmp/phase6d-focused-results/.playwright-artifacts-2/edee59f0e3a8d5e59732065e7d99f895.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: attack-speed/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    42
+
+      347 |           expect(art.margin).toBe("0px");
+      348 |           for (const edge of [...art.edges, ...art.parentEdges])
+    > 349 |             expect
+          |                ^
+      350 |               .soft(Math.abs(edge), `${context.id} live edge`)
+      351 |               .toBeLessThanOrEqual(0.5);
+      352 |           row.originalBox = original.box;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:349:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: attack-speed/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    42
+
+      347 |           expect(art.margin).toBe("0px");
+      348 |           for (const edge of [...art.edges, ...art.parentEdges])
+    > 349 |             expect
+          |                ^
+      350 |               .soft(Math.abs(edge), `${context.id} live edge`)
+      351 |               .toBeLessThanOrEqual(0.5);
+      352 |           row.originalBox = original.box;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:349:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: attack-speed/allocation live edge
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    42
+
+      347 |           expect(art.margin).toBe("0px");
+      348 |           for (const edge of [...art.edges, ...art.parentEdges])
+    > 349 |             expect
+          |                ^
+      350 |               .soft(Math.abs(edge), `${context.id} live edge`)
+      351 |               .toBeLessThanOrEqual(0.5);
+      352 |           row.originalBox = original.box;
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:349:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5 failed
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+  16 passed (1.9m)

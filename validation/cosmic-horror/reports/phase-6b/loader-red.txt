@@ -1,0 +1,394 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/image-loader.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:25714) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 9 tests using 2 workers
+
+(node:25716) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/integration/image-loader.spec.mjs:89:1 › loading, decoded success and cached reload preserve geometry and controls (5.3s)
+  ✘  1 [chromium] › tests/integration/image-loader.spec.mjs:130:3 › missing image uses one decoded fallback in the reserved box (5.3s)
+(node:25745) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25746) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/integration/image-loader.spec.mjs:167:1 › decode rejection tries fallback once and falls back to accessible local text (5.1s)
+  ✘  3 [chromium] › tests/integration/image-loader.spec.mjs:130:3 › corrupt image uses one decoded fallback in the reserved box (5.1s)
+(node:25759) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  6 [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale success cannot change the current identity (5.0s)
+  ✘  5 [chromium] › tests/integration/image-loader.spec.mjs:197:1 › unavailable fallback terminates without requests or lost decorative semantics (5.1s)
+(node:25771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  8 [chromium] › tests/integration/image-loader.spec.mjs:254:1 › dispose invalidates pending decode and repeated setup leaves no listeners (5.0s)
+  ✘  7 [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale rejection cannot change the current identity (5.0s)
+(node:25791) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  9 [chromium] › tests/integration/image-loader.spec.mjs:307:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (123ms)
+
+
+  1) [chromium] › tests/integration/image-loader.spec.mjs:89:1 › loading, decoded success and cached reload preserve geometry and controls 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#art')
+    Expected: "loading"
+    Received: ""
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#art') with timeout 5000ms
+      - waiting for locator('#art')
+        14 × locator resolved to <img id="art" width="120" height="80"/>
+           - unexpected value "null"
+
+
+      66 | // Observe settled request state without timing-dependent sleeps.
+      67 | async function state(page, value) {
+    > 68 |   await expect(page.locator("#art")).toHaveAttribute("data-image-state", value);
+         |                                      ^
+      69 | }
+      70 | // Release one controlled decode independently of the implementation state machine.
+      71 | async function settle(page, index, reject = false) {
+        at state (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:68:38)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:112:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-l-46173-serve-geometry-and-controls-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-l-46173-serve-geometry-and-controls-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-l-46173-serve-geometry-and-controls-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-l-46173-serve-geometry-and-controls-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/image-loader.spec.mjs:130:3 › missing image uses one decoded fallback in the reserved box 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#art')
+    Expected: "fallback"
+    Received: ""
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#art') with timeout 5000ms
+      - waiting for locator('#art')
+        14 × locator resolved to <img id="art" width="120" height="80"/>
+           - unexpected value "null"
+
+
+      66 | // Observe settled request state without timing-dependent sleeps.
+      67 | async function state(page, value) {
+    > 68 |   await expect(page.locator("#art")).toHaveAttribute("data-image-state", value);
+         |                                      ^
+      69 | }
+      70 | // Release one controlled decode independently of the implementation state machine.
+      71 | async function settle(page, index, reject = false) {
+        at state (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:68:38)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:155:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-m-316d9-allback-in-the-reserved-box-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-m-316d9-allback-in-the-reserved-box-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-m-316d9-allback-in-the-reserved-box-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-m-316d9-allback-in-the-reserved-box-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/image-loader.spec.mjs:130:3 › corrupt image uses one decoded fallback in the reserved box 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#art')
+    Expected: "fallback"
+    Received: ""
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#art') with timeout 5000ms
+      - waiting for locator('#art')
+        14 × locator resolved to <img id="art" width="120" height="80"/>
+           - unexpected value "null"
+
+
+      66 | // Observe settled request state without timing-dependent sleeps.
+      67 | async function state(page, value) {
+    > 68 |   await expect(page.locator("#art")).toHaveAttribute("data-image-state", value);
+         |                                      ^
+      69 | }
+      70 | // Release one controlled decode independently of the implementation state machine.
+      71 | async function settle(page, index, reject = false) {
+        at state (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:68:38)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:155:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-c-8fe87-allback-in-the-reserved-box-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-c-8fe87-allback-in-the-reserved-box-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-c-8fe87-allback-in-the-reserved-box-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-c-8fe87-allback-in-the-reserved-box-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/image-loader.spec.mjs:167:1 › decode rejection tries fallback once and falls back to accessible local text 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      75 |       () => page.evaluate(() => globalThis.probe.decodes.length),
+      76 |     )
+    > 77 |     .toBeGreaterThan(index);
+         |      ^
+      78 |   await page.evaluate(
+      79 |     // Trigger fulfillment or rejection for this exact generation.
+      80 |     ({ index, reject }) => {
+        at settle (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:77:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:178:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-d-06dd2-ck-to-accessible-local-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-d-06dd2-ck-to-accessible-local-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-d-06dd2-ck-to-accessible-local-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-d-06dd2-ck-to-accessible-local-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/integration/image-loader.spec.mjs:197:1 › unavailable fallback terminates without requests or lost decorative semantics 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#art')
+    Expected: "text"
+    Received: ""
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#art') with timeout 5000ms
+      - waiting for locator('#art')
+        14 × locator resolved to <img id="art" width="120" height="80"/>
+           - unexpected value "null"
+
+
+      66 | // Observe settled request state without timing-dependent sleeps.
+      67 | async function state(page, value) {
+    > 68 |   await expect(page.locator("#art")).toHaveAttribute("data-image-state", value);
+         |                                      ^
+      69 | }
+      70 | // Release one controlled decode independently of the implementation state machine.
+      71 | async function settle(page, index, reject = false) {
+        at state (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:68:38)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:212:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale success cannot change the current identity 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      75 |       () => page.evaluate(() => globalThis.probe.decodes.length),
+      76 |     )
+    > 77 |     .toBeGreaterThan(index);
+         |      ^
+      78 |   await page.evaluate(
+      79 |     // Trigger fulfillment or rejection for this exact generation.
+      80 |     ({ index, reject }) => {
+        at settle (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:77:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:234:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-s-4da7a-change-the-current-identity-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-s-4da7a-change-the-current-identity-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-s-4da7a-change-the-current-identity-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-s-4da7a-change-the-current-identity-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale rejection cannot change the current identity 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      75 |       () => page.evaluate(() => globalThis.probe.decodes.length),
+      76 |     )
+    > 77 |     .toBeGreaterThan(index);
+         |      ^
+      78 |   await page.evaluate(
+      79 |     // Trigger fulfillment or rejection for this exact generation.
+      80 |     ({ index, reject }) => {
+        at settle (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:77:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:234:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-s-adeb3-change-the-current-identity-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-s-adeb3-change-the-current-identity-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-s-adeb3-change-the-current-identity-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-s-adeb3-change-the-current-identity-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/integration/image-loader.spec.mjs:254:1 › dispose invalidates pending decode and repeated setup leaves no listeners 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      267 |       () => page.evaluate(() => globalThis.probe.decodes.length),
+      268 |     )
+    > 269 |     .toBe(1);
+          |      ^
+      270 |   await page.evaluate(
+      271 |     // Repeated disposal must be harmless.
+      272 |     () => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:269:6
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-d-22598-d-setup-leaves-no-listeners-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-d-22598-d-setup-leaves-no-listeners-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-d-22598-d-setup-leaves-no-listeners-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-d-22598-d-setup-leaves-no-listeners-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/integration/image-loader.spec.mjs:307:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 8
+    + Received  + 8
+
+      Object {
+        "rejected": Array [
+    -     true,
+    -     true,
+    -     true,
+    -     true,
+    -     true,
+    -     true,
+    -     true,
+    -     true,
+    +     false,
+    +     false,
+    +     false,
+    +     false,
+    +     false,
+    +     false,
+    +     false,
+    +     false,
+        ],
+        "unchanged": true,
+      }
+
+      352 |     },
+      353 |   );
+    > 354 |   expect(result).toEqual({ rejected: Array(8).fill(true), unchanged: true });
+          |                  ^
+      355 | });
+      356 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:354:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-51bd6-ons-are-rejected-atomically-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-u-51bd6-ons-are-rejected-atomically-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-51bd6-ons-are-rejected-atomically-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-u-51bd6-ons-are-rejected-atomically-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9 failed
+    [chromium] › tests/integration/image-loader.spec.mjs:89:1 › loading, decoded success and cached reload preserve geometry and controls 
+    [chromium] › tests/integration/image-loader.spec.mjs:130:3 › missing image uses one decoded fallback in the reserved box 
+    [chromium] › tests/integration/image-loader.spec.mjs:130:3 › corrupt image uses one decoded fallback in the reserved box 
+    [chromium] › tests/integration/image-loader.spec.mjs:167:1 › decode rejection tries fallback once and falls back to accessible local text 
+    [chromium] › tests/integration/image-loader.spec.mjs:197:1 › unavailable fallback terminates without requests or lost decorative semantics 
+    [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale success cannot change the current identity 
+    [chromium] › tests/integration/image-loader.spec.mjs:224:3 › stale rejection cannot change the current identity 
+    [chromium] › tests/integration/image-loader.spec.mjs:254:1 › dispose invalidates pending decode and repeated setup leaves no listeners 
+    [chromium] › tests/integration/image-loader.spec.mjs:307:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically 

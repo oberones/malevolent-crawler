@@ -1,0 +1,167 @@
+favicons [
+  {
+    id: 'favicon-png',
+    status: 'PASS',
+    inspection: {
+      width: 199,
+      height: 200,
+      alpha: true,
+      sha256: '1d98fd90eb88364c5a576ad2ef75bd314ee37555dc89d581a31b11f3980de695'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 4
+  },
+  {
+    id: 'favicon-ico',
+    status: 'PASS',
+    inspection: {
+      width: 127,
+      height: 128,
+      alpha: true,
+      sha256: '82f2cb7f077446466fa2c1ad2eee6a140033034137cc0bc9e4ef435a4fc6bea6',
+      icoEntries: [Array]
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 13
+  }
+]
+world-symbols [
+  {
+    id: 'title',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: 'c0232ca9e528bfad6efbd76089a27dab0f5f43c20b0e3b52b050c6bfcf3d4a36'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 0
+  },
+  {
+    id: 'treasure',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '3429151ceb614322fb47b7f7be3e8ae11d6178960aba6295e769f691d11c5454'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 3
+  },
+  {
+    id: 'currency',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '0a5ea4c2fc453c3ec8279b5e6b7b9e9bfff6c133114ebf0a281e184ac4c132f5'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 0
+  }
+]
+stats-a [
+  {
+    id: 'stat-hp',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: 'b8371c22239ad1715128656281ec14cbd3cb1ac6321ed3cfffe616c3d0dd619f'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 1
+  },
+  {
+    id: 'stat-attack',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: 'b49052145b1d12a49b006dc5f0daa6ed1d7ceef2f9108baac1c61ce4f945b2a6'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 3
+  },
+  {
+    id: 'stat-defense',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '7ddca366d9027e89e37b9001684e6c65d75b94a75dfb3ae7757588beefb5f49c'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 2
+  },
+  {
+    id: 'stat-attack-speed',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '624a65e72f908add93f0c80a1d47a56d8c3fa4c179658a888912928a0323f1ab'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 0
+  }
+]
+stats-b [
+  {
+    id: 'stat-vampirism',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '592b2896e6176b23943da4a7a4065517400244fcb9986b2db835392caa0a9f9c'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 4
+  },
+  {
+    id: 'stat-critical-rate',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: 'f7b6615254ad8d17059fb7ea7d0e78e143642105706c27e7109193e5556a9bbe'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 3
+  },
+  {
+    id: 'stat-critical-damage',
+    status: 'PASS',
+    inspection: {
+      width: 128,
+      height: 128,
+      alpha: true,
+      sha256: '448f007f9579db95560c80873848d269817413262359f17af61b07df2e04d471'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 0
+  }
+]
+fallback [
+  {
+    id: 'fallback',
+    status: 'PASS',
+    inspection: {
+      width: 512,
+      height: 512,
+      alpha: true,
+      sha256: '84124d82d22f5e2093aa40796fc266b7615cfb9f4cff505cd2de6300c138bad1'
+    },
+    repeatExportHashEqual: true,
+    borderMaxAlpha: 0
+  }
+]

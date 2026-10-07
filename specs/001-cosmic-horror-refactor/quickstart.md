@@ -120,4 +120,23 @@ GitHub inspection found main unprotected with no repository rulesets. Required-c
 
 ## Next workflow command
 
-Phase 1 (T001–T008), Phase 2A (T009–T014), Phase 2B (T015–T019), Phase 2C (T020–T024), Phase 2D (T025–T034), Phase 2E (T035–T039), Phase 2F (T040–T042), and Phase 2G (T043–T046) are complete for the automated development environment. Phase 3A (T047–T049) supplies the tested narrative catalog, and Phase 3B (T050–T053) connects it to the existing screens; see [screen-integration evidence](../../validation/cosmic-horror/phase-3b.md). Phase 3C (T054–T058) adds tested modal/keyboard/resilience behavior and a partial native Firefox review; see [US1 evidence](../../validation/cosmic-horror/us1.md). Phase 4A–4C (T059–T078) are complete for the automated development environment and agent art review; [US2 evidence](../../validation/cosmic-horror/us2.md) records 53 integrated creature deliveries, 936 final decoded contexts and the tested HP reflow fix. Phase 5A (T079–T081) is complete as an independent boundary/test package; its live UI integration remains T089. T082’s sword/axe/hammer pilot batch is complete for art production; see [pilot evidence](../../validation/cosmic-horror/phase-5b-weapons-a.md). T083’s dagger/flail/scythe batch is complete for art production and isolated measured-size proofs; see [batch evidence](../../validation/cosmic-horror/phase-5b-weapons-b.md). Continue with T084 as the next separate art assignment, preserving the immutable baseline and red–green ordering. [Maintainer artwork acceptance](../../validation/cosmic-horror/art-approval-2026-10-07.md) is PASS for all 53 delivered sprites; native execution remains OPEN/BLOCKED. Never rerun capture into an existing evidence directory; routine integration runs omit `CAPTURE_BASELINE_DIR` and do not overwrite baseline files. Unit verification compares captured files with the original Git revision, so shallow clones must fetch that history; the unit CI job is configured accordingly. Gameplay rule replay and foundation browser checks pass; art replacement, native acceptance and release completion remain open. Optional `/speckit.git.commit` hooks are available before/after implementation; neither was executed for Phase 1.
+Continue with Phase 7B (T114–T117), the next independent implementation package
+in [tasks.md](tasks.md). Phase 7A completes pure legacy presentation migration,
+exact portrait mapping, safe historical logs and persistent raw-history recovery.
+The [Phase 7A evidence](../../validation/cosmic-horror/phase-7a.md) records 2,547
+unit passes and 81 scoped browser/integration passes across all three engines,
+plus passing lint and formatting. Character exchange, encounter continuation,
+full recovery workflows and US5 native acceptance remain unfinished.
+
+Phase 6D connects image recovery, joins all 80 delivered
+art assets and corrects recorded stat/allocation reflow findings. The
+[US4 evidence](../../validation/cosmic-horror/us4.md) records 2,539 unit passes,
+583 full-run browser/integration passes plus two timing/setup failures, and
+51 final scoped passes covering both affected cases and the final layout.
+All 24 recovery journeys and 486 final remaining-symbol captures pass.
+`validate:art` and `validate:evidence` still fail for incomplete context/native
+and release qualification; implementation completion does not waive those gates.
+Earlier status paragraphs describe historical increments.
+
+Preserve the immutable baseline. Routine integration runs omit
+`CAPTURE_BASELINE_DIR`; new capture directories use exclusive writes. The maintainer has [approved all 80 delivered artworks](../../validation/cosmic-horror/art-approval-2026-10-07-complete.md), closing T107 human artwork review. Native/manual, full-page coordinate, performance and release gates remain OPEN/BLOCKED. Optional `/speckit.git.commit` hooks were not executed.

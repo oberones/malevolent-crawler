@@ -1,0 +1,408 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/art-failure.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:25944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:25948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature delayed: identity, victory and Claim remain usable (6.2s)
+(node:25974) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic delayed: identity, equip and sale remain usable (6.5s)
+(node:25978) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature missing: identity, victory and Claim remain usable (6.0s)
+(node:25992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic missing: identity, equip and sale remain usable (6.3s)
+(node:25998) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  5 [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature corrupt: identity, victory and Claim remain usable (6.0s)
+(node:26007) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  6 [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic corrupt: identity, equip and sale remain usable (6.2s)
+(node:26013) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  7 [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature fallback-missing: identity, victory and Claim remain usable (6.0s)
+  ✘  8 [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic fallback-missing: identity, equip and sale remain usable (6.2s)
+
+
+  1) [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature delayed: identity, victory and Claim remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "loading"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:131:13
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+        "height": 144.5,
+        "width": 171.8125,
+    -   "x": 634.09375,
+    -   "y": 217.578125,
+    +   "x": 635.09375,
+    +   "y": 218.578125,
+      }
+
+      149 |         ),
+      150 |       ).toEqual({ hp: 0, gold: gold + 3, draws: [0.5, 0.5] });
+    > 151 |       expect(await image.boundingBox()).toEqual(box);
+          |                                         ^
+      152 |       await f.page.getByRole("button", { name: "Claim", exact: true }).click();
+      153 |       await expect(f.page.locator("#combatPanel")).toBeHidden();
+      154 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:151:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-72f54-ory-and-Claim-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-creatu-72f54-ory-and-Claim-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-72f54-ory-and-Claim-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-creatu-72f54-ory-and-Claim-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic delayed: identity, equip and sale remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "loading"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:191:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--d020b-quip-and-sale-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-relic--d020b-quip-and-sale-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--d020b-quip-and-sale-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-relic--d020b-quip-and-sale-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature missing: identity, victory and Claim remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "fallback"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:131:13
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+        "height": 144.5,
+        "width": 171.8125,
+    -   "x": 634.09375,
+    -   "y": 217.578125,
+    +   "x": 635.09375,
+    +   "y": 218.578125,
+      }
+
+      149 |         ),
+      150 |       ).toEqual({ hp: 0, gold: gold + 3, draws: [0.5, 0.5] });
+    > 151 |       expect(await image.boundingBox()).toEqual(box);
+          |                                         ^
+      152 |       await f.page.getByRole("button", { name: "Claim", exact: true }).click();
+      153 |       await expect(f.page.locator("#combatPanel")).toBeHidden();
+      154 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:151:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-2b76d-ory-and-Claim-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-creatu-2b76d-ory-and-Claim-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-2b76d-ory-and-Claim-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-creatu-2b76d-ory-and-Claim-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic missing: identity, equip and sale remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "fallback"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:191:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--cc6be-quip-and-sale-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-relic--cc6be-quip-and-sale-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--cc6be-quip-and-sale-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-relic--cc6be-quip-and-sale-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature corrupt: identity, victory and Claim remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "fallback"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:131:13
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+        "height": 144.5,
+        "width": 171.8125,
+    -   "x": 634.09375,
+    -   "y": 217.578125,
+    +   "x": 635.09375,
+    +   "y": 218.578125,
+      }
+
+      149 |         ),
+      150 |       ).toEqual({ hp: 0, gold: gold + 3, draws: [0.5, 0.5] });
+    > 151 |       expect(await image.boundingBox()).toEqual(box);
+          |                                         ^
+      152 |       await f.page.getByRole("button", { name: "Claim", exact: true }).click();
+      153 |       await expect(f.page.locator("#combatPanel")).toBeHidden();
+      154 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:151:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-83f0c-ory-and-Claim-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-creatu-83f0c-ory-and-Claim-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-83f0c-ory-and-Claim-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-creatu-83f0c-ory-and-Claim-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic corrupt: identity, equip and sale remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "fallback"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:191:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--1ef77-quip-and-sale-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-relic--1ef77-quip-and-sale-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--1ef77-quip-and-sale-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-relic--1ef77-quip-and-sale-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature fallback-missing: identity, victory and Claim remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "text"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:131:13
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+        "height": 144.5,
+        "width": 171.8125,
+    -   "x": 634.09375,
+    -   "y": 217.578125,
+    +   "x": 635.09375,
+    +   "y": 218.578125,
+      }
+
+      149 |         ),
+      150 |       ).toEqual({ hp: 0, gold: gold + 3, draws: [0.5, 0.5] });
+    > 151 |       expect(await image.boundingBox()).toEqual(box);
+          |                                         ^
+      152 |       await f.page.getByRole("button", { name: "Claim", exact: true }).click();
+      153 |       await expect(f.page.locator("#combatPanel")).toBeHidden();
+      154 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:151:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-612bc-ory-and-Claim-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-creatu-612bc-ory-and-Claim-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-creatu-612bc-ory-and-Claim-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-creatu-612bc-ory-and-Claim-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic fallback-missing: identity, equip and sale remain usable 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "text"
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+       97 |       () => image.evaluate((node) => node.dataset.imageState),
+       98 |     )
+    >  99 |     .toBe(
+          |      ^
+      100 |       mode === "delayed"
+      101 |         ? "loading"
+      102 |         : mode === "fallback-missing"
+        at recovered (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:99:6)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:191:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--038d3-quip-and-sale-remain-usable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-art-failure-relic--038d3-quip-and-sale-remain-usable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-art-failure-relic--038d3-quip-and-sale-remain-usable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-art-failure-relic--038d3-quip-and-sale-remain-usable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature delayed: identity, victory and Claim remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic delayed: identity, equip and sale remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature missing: identity, victory and Claim remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic missing: identity, equip and sale remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature corrupt: identity, victory and Claim remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic corrupt: identity, equip and sale remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:109:3 › creature fallback-missing: identity, victory and Claim remain usable 
+    [chromium] › tests/browser/art-failure.spec.mjs:169:3 › relic fallback-missing: identity, equip and sale remain usable 

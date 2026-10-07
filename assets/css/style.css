@@ -934,8 +934,10 @@ select {
 }
 
 /* Local font metrics retain baseline rounding; artwork cannot resize the line. */
-.inline-symbol {
+.inline-symbol,
+.row .inline-symbol {
   position: relative;
+  width: auto;
   font-family: RPGAwesome;
   font-style: normal;
   font-weight: 400;
@@ -992,4 +994,90 @@ select {
   height: auto;
   min-height: 10rem;
   flex: 1 0 10rem;
+}
+
+/* These roles retain the original Font Awesome inline-block metrics invisibly. */
+.inline-symbol[data-symbol="title"],
+.inline-symbol[data-symbol="stat-hp"],
+.inline-symbol[data-symbol="treasure"],
+.inline-symbol[data-symbol="currency"] {
+  display: inline-block;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.inline-symbol[data-symbol="stat-hp"]::before {
+  content: "\f004";
+}
+.inline-symbol[data-symbol="treasure"]::before {
+  content: "\f552";
+}
+.inline-symbol[data-symbol="currency"]::before {
+  content: "\f51e";
+}
+.inline-symbol[data-symbol="title"] {
+  font-size: 5em;
+  margin: 0 0 1rem;
+}
+.inline-symbol[data-symbol="title"]::before {
+  content: "\f6d9";
+}
+
+/* Terminal art uses existing reserved boxes and never participates in layout. */
+.inline-symbol > .image-terminal {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+#enemyPanel {
+  position: relative;
+}
+#enemy-sprite {
+  object-fit: contain;
+}
+.encounter-terminal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+/* Text can wrap inside the original stat containers instead of being clipped. */
+#dungeon-main .stat-panel .box {
+  white-space: normal;
+  min-width: 0;
+}
+/* Keep each allocation label together; move its controls to the next row as needed. */
+#allocate-stats > .row {
+  flex-wrap: wrap;
+}
+#allocate-stats > .row > p {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+#allocate-stats [id$="Display"] {
+  white-space: nowrap;
+}
+/* Keep stat abbreviations readable by wrapping text cards when text needs more room. */
+#dungeon-main .stat-panel {
+  flex-wrap: wrap;
+}
+#dungeon-main .stat-panel .box {
+  flex: 1 1 12em;
+  width: auto;
+}
+#allocate-stats > .row > p:has([id$="Display"]) {
+  white-space: nowrap;
+}
+/* The allocation heading may use another row without splitting its words. */
+#allocate-stats .content-head {
+  flex-wrap: wrap;
+}
+#allocate-stats .content-head h3 {
+  min-width: min-content;
+  flex: 1;
+  overflow-wrap: normal;
 }

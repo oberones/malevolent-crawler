@@ -63,7 +63,7 @@ const playerLvlUp =
 
 // Refresh the player stats
 const playerLoadStats =
-  /* Refresh equipment/player panels; keep readable HP text independent of the shrinking fill. */ () => {
+  /* Refresh panels and catalog symbols; keep HP text independent of the shrinking fill. */ () => {
     gameServices.items.render();
     applyEquipmentStats();
 
@@ -103,8 +103,12 @@ const playerLoadStats =
       .append(document.createTextNode(`${player.name} Lv.${player.lvl}`));
     document.querySelector("#player-exp").innerHTML =
       `<p>Exp</p> ${nFormatter(player.exp.expCurr)}/${nFormatter(player.exp.expMax)} (${player.exp.expPercent}%)`;
-    document.querySelector("#player-gold").innerHTML =
-      `<i class="fas fa-coins" style="color: #FFD700;"></i>${nFormatter(player.gold)}`;
+    document.querySelector("#player-gold").replaceChildren(
+      gameServices.symbol("currency", "currency/header", {
+        decorative: false,
+      }),
+      document.createTextNode(nFormatter(player.gold)),
+    );
 
     // Player Stats
     playerHpElement.innerHTML = `${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)} (${player.stats.hpPercent}%)`;
@@ -123,13 +127,14 @@ const playerLoadStats =
     // Player Bonus Stats
     document.querySelector("#bonus-stats").innerHTML = `
     <h4>Bonus Stats</h4>
-    <p><i class="fas fa-heart"></i>HP+${player.bonusStats.hp.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-sword"></i>ATK+${player.bonusStats.atk.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-round-shield"></i>DEF+${player.bonusStats.def.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-plain-dagger"></i>ATK.SPD+${player.bonusStats.atkSpd.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-dripping-blade"></i>VAMP+${player.bonusStats.vamp.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-lightning-bolt"></i>C.RATE+${player.bonusStats.critRate.toFixed(2).replace(rx, "$1")}%</p>
-    <p><i class="ra ra-focused-lightning"></i>C.DMG+${player.bonusStats.critDmg.toFixed(2).replace(rx, "$1")}%</p>`;
+    <p><span data-symbol-role="health" data-symbol-context="health/bonus"></span>HP+${player.bonusStats.hp.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="attack" data-symbol-context="attack/bonus"></span>ATK+${player.bonusStats.atk.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="defense" data-symbol-context="defense/bonus"></span>DEF+${player.bonusStats.def.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="attack-speed" data-symbol-context="attack-speed/bonus"></span>ATK.SPD+${player.bonusStats.atkSpd.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="vampirism" data-symbol-context="vampirism/bonus"></span>VAMP+${player.bonusStats.vamp.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="critical-rate" data-symbol-context="critical-rate/bonus"></span>C.RATE+${player.bonusStats.critRate.toFixed(2).replace(rx, "$1")}%</p>
+    <p><span data-symbol-role="critical-damage" data-symbol-context="critical-damage/bonus"></span>C.DMG+${player.bonusStats.critDmg.toFixed(2).replace(rx, "$1")}%</p>`;
+    gameServices.mountSymbols(document.querySelector("#bonus-stats"));
   };
 
 // Opens inventory

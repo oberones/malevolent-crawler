@@ -1,3 +1,4 @@
+import { createSymbolView } from "./symbol-view.mjs";
 import { createItemView } from "./item-view.mjs";
 import { createModalBridge } from "./modal-bridge.mjs";
 import { createOutcomeView } from "./outcome-view.mjs";
@@ -41,26 +42,46 @@ export function createGameServices({
       status = "ready";
     } else report(committed);
   }
+  const symbol = document ? createSymbolView(document) : null;
   const modals = document ? createModalBridge(document) : null;
+  const items =
+    document && itemEffects
+      ? createItemView({
+          document,
+          ...itemEffects,
+          // Read the live player, including replacements on reset/import.
+          getPlayer: () => capture().player,
+        })
+      : null;
+  const narrative = document
+    ? {
+        ...createOutcomeView(document, {
+          historyRecovery: loaded.recoveryData?.history,
+        }),
+        entry: createEntryView(document),
+        events: createEventView(document),
+      }
+    : null;
   return {
     status,
     loaded,
-    items:
-      document && itemEffects
-        ? createItemView({
-            document,
-            ...itemEffects,
-            // Read the live player, including replacements on reset/import.
-            getPlayer: () => capture().player,
-          })
-        : null,
-    narrative: document
-      ? {
-          ...createOutcomeView(document),
-          entry: createEntryView(document),
-          events: createEventView(document),
-        }
-      : null,
+    symbol,
+    /**
+     * Replace authored slots with catalog-only symbols in this newly rendered region.
+     * @param {Document|Element} root Owned document or newly constructed region.
+     * @returns {void}
+     * @throws {TypeError} For an unknown role/context; caller data cannot provide URLs.
+     */
+    mountSymbols(root) {
+      for (const slot of root.querySelectorAll(
+        "[data-symbol-role][data-symbol-context]",
+      ))
+        slot.replaceWith(
+          symbol(slot.dataset.symbolRole, slot.dataset.symbolContext),
+        );
+    },
+    items,
+    narrative,
     /** Execute a complete synchronous engine action, nesting all requested writes. */
     run(callback) {
       if (status !== "ready") return undefined;
@@ -78,6 +99,9 @@ export function createGameServices({
     requestSave: transitions.requestSave,
     /** Release presentation resources together with storage listeners. */
     dispose() {
+      items?.dispose();
+      narrative?.dispose();
+      symbol?.dispose();
       modals?.dispose();
       store.dispose();
     },

@@ -498,6 +498,26 @@ function rejected(error) {
     ],
   };
 }
+// Compare JSON structure independently of property ordering when proving a run never began.
+function sameInitial(value, initial) {
+  if (value === initial) return true;
+  if (
+    !value ||
+    !initial ||
+    typeof value !== "object" ||
+    typeof initial !== "object"
+  )
+    return false;
+  const keys = Object.keys(initial);
+  return (
+    Object.keys(value).length === keys.length &&
+    keys.every(
+      // All supplied counters, flags and placeholders must match the known initial section.
+      (key) =>
+        Object.hasOwn(value, key) && sameInitial(value[key], initial[key]),
+    )
+  );
+}
 /**
  * Validate a detached state, legacy tuple, snapshot envelope or character preview.
  * Source kinds: state requires all sections; legacy permits missing early-run defaults;
@@ -522,6 +542,7 @@ export function validateCandidate(input, sourceKind) {
         "revision",
         "savedAt",
         "state",
+        "historyRecovery",
       ]);
       if (
         value.format !== "malevolent-crawler-save" ||
@@ -543,6 +564,12 @@ export function validateCandidate(input, sourceKind) {
         new Date(value.savedAt).toISOString() !== value.savedAt
       )
         fail("snapshot.savedAt");
+      if (Object.hasOwn(value, "historyRecovery")) {
+        record(value.historyRecovery, "snapshot.historyRecovery");
+        for (const key of Object.keys(value.historyRecovery))
+          if (!/^(legacy|canonical):dungeon\.backlog:\d+$/.test(key))
+            fail("snapshot.historyRecovery", "invalid-reference");
+      }
       const checked = validateCandidate(value.state, "state");
       if (!checked.ok) return checked;
       value.state = checked.candidate;
@@ -560,6 +587,15 @@ export function validateCandidate(input, sourceKind) {
       value.player.playtime === 0
     ) {
       const defaults = initialStateSections();
+      if (!Object.hasOwn(value, "dungeon") || !Object.hasOwn(value, "enemy")) {
+        // Supplied run evidence must also be initial before missing sections are defaulted.
+        for (const key of ["dungeon", "enemy"])
+          if (
+            Object.hasOwn(value, key) &&
+            !sameInitial(value[key], defaults[key])
+          )
+            fail(key, "partial-state");
+      }
       for (const key of ["dungeon", "enemy", "volume"])
         if (!Object.hasOwn(value, key)) value[key] = defaults[key];
     }

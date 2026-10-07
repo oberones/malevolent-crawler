@@ -2,7 +2,7 @@
 
 **Recorded**: 2026-10-05
 **Feature**: [Specification](spec.md)
-**Status**: Original-file baseline preserved. T076 integrates all 53 creature deliveries and batch provenance; human artwork acceptance is PASS; native execution, symbols, favicons and fallback remain OPEN/BLOCKED.
+**Status**: Original-file baseline preserved. T105 integrates all 80 delivered files and their provenance: 53 creatures, two favicons, 24 symbol roles and one fallback. Human artwork acceptance is PASS; native execution and absolute page-coordinate qualification remain OPEN/BLOCKED.
 
 ## Scope and evidence
 
@@ -10,7 +10,7 @@ The repository contains 53 monster PNGs under `assets/sprites/`, one PNG favicon
 
 The current enemy-image selection maps 51 encounter identities to 52 sprite files. Skeleton Mage uses two illustrations. `spider_spirit.png` has no current encounter mapping but remains in the required 53-file art replacement scope. Encounter-image selection records 50% or 70% display width; those existing presentation sizes must remain compatible with the new artwork.
 
-The creature replacement mapping below links all 53 deliveries to the shared manifest and per-file batch evidence. The themed glyph list retains its separate requirements; candidate symbols, favicons, fallback and native execution remain unfinished.
+The creature replacement mapping below links all 53 deliveries to the shared manifest and per-file batch evidence. The themed glyph list retains its separate requirements; all delivered symbols, favicons and fallback are now joined; native execution remains unfinished.
 
 ## Monster image dimensions
 
@@ -210,3 +210,34 @@ All fourteen authored relic PNGs are now connected to inventory, equipped, detai
 | Buckler     | Tidepool Disc    | `assets/art/relic-buckler.png`     | [relic-wards](../../art/cosmic-horror/batches/relic-wards/generation.json)         |
 | Great Helm  | Diving Reliquary | `assets/art/relic-great-helm.png`  | [relic-helms](../../art/cosmic-horror/batches/relic-helms/generation.json)         |
 | Horned Helm | Listening Crown  | `assets/art/relic-horned-helm.png` | [relic-helms](../../art/cosmic-horror/batches/relic-helms/generation.json)         |
+
+## T105 complete collection join — 2026-10-07
+
+The [common manifest](../../art/cosmic-horror/manifest.json) now includes every
+master, prompt, delivered hash and deterministic transform. The unused sprite
+and both alternate illustrations retain separate obligations. No runtime file
+was regenerated for this join. All delivered PNGs have nonempty transparency;
+the ICO retains one 127 × 128 PNG payload. Original source hashes are unchanged.
+
+| Delivery             | Runtime path                          | Canvas    | Generation record                                                               |
+| -------------------- | ------------------------------------- | --------- | ------------------------------------------------------------------------------- |
+| favicon-ico          | `assets/icon/favicon.ico`             | 127 × 128 | [favicon-ico](../../art/cosmic-horror/batches/favicons/generation.json)         |
+| favicon-png          | `assets/icon/favicon.png`             | 199 × 200 | [favicon-png](../../art/cosmic-horror/batches/favicons/generation.json)         |
+| title                | `assets/art/title.png`                | 128 × 128 | [title](../../art/cosmic-horror/batches/world-symbols/generation.json)          |
+| stat-hp              | `assets/art/stat-hp.png`              | 128 × 128 | [stat-hp](../../art/cosmic-horror/batches/stats-a/generation.json)              |
+| stat-attack          | `assets/art/stat-attack.png`          | 128 × 128 | [stat-attack](../../art/cosmic-horror/batches/stats-a/generation.json)          |
+| stat-defense         | `assets/art/stat-defense.png`         | 128 × 128 | [stat-defense](../../art/cosmic-horror/batches/stats-a/generation.json)         |
+| stat-attack-speed    | `assets/art/stat-attack-speed.png`    | 128 × 128 | [stat-attack-speed](../../art/cosmic-horror/batches/stats-a/generation.json)    |
+| stat-vampirism       | `assets/art/stat-vampirism.png`       | 128 × 128 | [stat-vampirism](../../art/cosmic-horror/batches/stats-b/generation.json)       |
+| stat-critical-rate   | `assets/art/stat-critical-rate.png`   | 128 × 128 | [stat-critical-rate](../../art/cosmic-horror/batches/stats-b/generation.json)   |
+| stat-critical-damage | `assets/art/stat-critical-damage.png` | 128 × 128 | [stat-critical-damage](../../art/cosmic-horror/batches/stats-b/generation.json) |
+| treasure             | `assets/art/treasure.png`             | 128 × 128 | [treasure](../../art/cosmic-horror/batches/world-symbols/generation.json)       |
+| currency             | `assets/art/currency.png`             | 128 × 128 | [currency](../../art/cosmic-horror/batches/world-symbols/generation.json)       |
+| missing-art          | `assets/art/fallback.png`             | 512 × 512 | [missing-art](../../art/cosmic-horror/batches/fallback/generation.json)         |
+
+The fallback obligation now resolves to `assets/art/fallback.png`, matching
+T098 and the loader. Native context placeholders retain their target identities
+and BLOCKED status; automated footprints do not supply those missing baselines.
+Full qualification remains visibly failing until those requirements and literal
+pre-theme page-coordinate comparisons are resolved. See
+[US4 evidence](../../validation/cosmic-horror/us4.md).

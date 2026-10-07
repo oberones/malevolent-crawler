@@ -1,0 +1,101 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/image-loader.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:26416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 27 tests using 3 workers
+
+(node:26425) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26427) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26426) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (276ms)
+  ✓   3 [chromium] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (277ms)
+  ✓   2 [chromium] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (287ms)
+  ✓   4 [chromium] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (146ms)
+  ✓   5 [chromium] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (363ms)
+  ✓   6 [chromium] › tests/integration/image-loader.spec.mjs:231:3 › stale success cannot change the current identity (441ms)
+  ✓   9 [chromium] › tests/integration/image-loader.spec.mjs:322:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (104ms)
+  ✓   7 [chromium] › tests/integration/image-loader.spec.mjs:231:3 › stale rejection cannot change the current identity (457ms)
+  ✓   8 [chromium] › tests/integration/image-loader.spec.mjs:265:1 › dispose invalidates pending decode and repeated setup leaves no listeners (249ms)
+(node:26452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26453) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26454) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [firefox] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (1.1s)
+  ✓  11 [firefox] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (1.1s)
+  ✓  13 [firefox] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (497ms)
+  ✓  14 [firefox] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (287ms)
+  ✓  12 [firefox] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (995ms)
+  ✓  15 [firefox] › tests/integration/image-loader.spec.mjs:231:3 › stale success cannot change the current identity (457ms)
+  ✓  17 [firefox] › tests/integration/image-loader.spec.mjs:265:1 › dispose invalidates pending decode and repeated setup leaves no listeners (220ms)
+  ✓  18 [firefox] › tests/integration/image-loader.spec.mjs:322:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (196ms)
+  ✓  16 [firefox] › tests/integration/image-loader.spec.mjs:231:3 › stale rejection cannot change the current identity (539ms)
+(node:26492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26493) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [webkit] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (574ms)
+  ✓  21 [webkit] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (527ms)
+  ✓  19 [webkit] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (749ms)
+  ✘  23 [webkit] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (279ms)
+  ✓  22 [webkit] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (396ms)
+(node:26534) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 [webkit] › tests/integration/image-loader.spec.mjs:231:3 › stale success cannot change the current identity (472ms)
+  ✓  26 [webkit] › tests/integration/image-loader.spec.mjs:322:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (200ms)
+  ✓  25 [webkit] › tests/integration/image-loader.spec.mjs:265:1 › dispose invalidates pending decode and repeated setup leaves no listeners (346ms)
+  ✓  27 [webkit] › tests/integration/image-loader.spec.mjs:231:3 › stale rejection cannot change the current identity (595ms)
+
+
+  1) [webkit] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Object {
+    -   "height": 80,
+    -   "width": 120,
+    +   "height": 0,
+    +   "width": 0,
+        "x": 8,
+    -   "y": 27.34375,
+    +   "y": 41.34375,
+      }
+
+      225 |   await expect(page.locator("#terminal")).not.toHaveAttribute("aria-label");
+      226 |   await expect(page.locator("#art")).toHaveAttribute("alt", "");
+    > 227 |   expect(await geometry(page)).toEqual(box);
+          |                                ^
+      228 | });
+      229 | for (const reject of [false, true]) {
+      230 |   // Old primary and fallback decode promises must not repaint a newer identity.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-loader.spec.mjs:227:32
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-image-loader-u-7649d-r-lost-decorative-semantics-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [webkit] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics 
+  26 passed (7.2s)

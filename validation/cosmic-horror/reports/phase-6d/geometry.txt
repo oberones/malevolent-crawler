@@ -1,0 +1,648 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/symbol-geometry.spec.mjs --workers=2
+
+Running 21 tests using 2 workers
+
+(node:52388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52389) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (351ms)
+  ✘   1 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (346ms)
+(node:52404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52405) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (253ms)
+  ✘   4 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (219ms)
+(node:52418) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (295ms)
+  ✘   6 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (224ms)
+(node:52430) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52431) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [chromium] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (511ms)
+(node:52438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (1.9s)
+(node:52478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (1.8s)
+(node:52484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (1.8s)
+(node:52508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (2.2s)
+(node:52509) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (3.2s)
+(node:52530) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (3.5s)
+(node:52533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (707ms)
+(node:52558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [firefox] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (2.5s)
+  ✘  16 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (510ms)
+(node:52573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52574) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  17 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (674ms)
+  ✘  18 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (572ms)
+(node:52603) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52606) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (619ms)
+  ✘  20 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (631ms)
+(node:52630) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [webkit] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (798ms)
+
+
+  1) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-360-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-360-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-768-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-768-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-1440-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/chromium-1440-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-360-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-360-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-768-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-768-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-1440-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/firefox-1440-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-360-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-360-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-768-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-768-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-1440-1'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: ENOENT: no such file or directory, mkdir 'art/cosmic-horror/review/collection-symbols-01/webkit-1440-2'
+
+      176 |       let soundCount;
+      177 |       try {
+    > 178 |         if (directory) await mkdir(directory, { recursive: false });
+          |                        ^
+      179 |         await page.goto("/");
+      180 |         await expect(page.locator("#title-screen")).toBeVisible();
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:178:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18 failed
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+  3 passed (27.5s)

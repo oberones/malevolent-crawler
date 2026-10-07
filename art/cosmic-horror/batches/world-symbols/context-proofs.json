@@ -1,0 +1,4862 @@
+[
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/title-title.png",
+    "baselineBox": {
+      "x": 140,
+      "y": 147.75,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 148,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 21.796875,
+      "y": 354.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 378,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 232.84375,
+      "y": 396.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 442,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-header.png",
+    "baselineBox": {
+      "x": 251.609375,
+      "y": 27.296875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 506,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-gold.png",
+    "baselineBox": {
+      "x": 100.171875,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 570,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-victory.png",
+    "baselineBox": {
+      "x": 173.4375,
+      "y": 472.453125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 634,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 120.3125,
+      "y": 360.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 698,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-curse.png",
+    "baselineBox": {
+      "x": 61.46875,
+      "y": 360.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 762,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 156.25,
+      "y": 429.09375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 826,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-1.png",
+    "screenshotSha256": "97880ce2217d0fc0ad73bef5529c776da17297fedcf7fdd10492fad4497ef942",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/title-title.png",
+    "baselineBox": {
+      "x": 100,
+      "y": 43,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 148,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 179.703125,
+      "y": 679.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 538,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 29.796875,
+      "y": 847.140625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 618,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-header.png",
+    "baselineBox": {
+      "x": 240.625,
+      "y": 39.796875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 698,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-gold.png",
+    "baselineBox": {
+      "x": 186.546875,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 778,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-victory.png",
+    "baselineBox": {
+      "x": 190.046875,
+      "y": 688.71875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 858,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 226.8125,
+      "y": 706.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 938,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-curse.png",
+    "baselineBox": {
+      "x": 147.203125,
+      "y": 706.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1018,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 161.625,
+      "y": 475.09375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1098,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-360-2.png",
+    "screenshotSha256": "9775a25d960f0cb6217c04fc5eb679a366f0dc2bd3125a3803a92152d8a82912",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/title-title.png",
+    "baselineBox": {
+      "x": 343.984375,
+      "y": 215.25,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 429.75,
+      "y": 333.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 125.796875,
+      "y": 396.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-header.png",
+    "baselineBox": {
+      "x": 488.9375,
+      "y": 27.296875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-gold.png",
+    "baselineBox": {
+      "x": 204.171875,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-victory.png",
+    "baselineBox": {
+      "x": 349.4375,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 512.4375,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-curse.png",
+    "baselineBox": {
+      "x": 483.453125,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 360.25,
+      "y": 541.09375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-1.png",
+    "screenshotSha256": "9fe4a0fcfdf1b92ff6f96ed723b57f6bd14dc58623d85a099a4e623452046d95",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/title-title.png",
+    "baselineBox": {
+      "x": 304,
+      "y": 132.5,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 283.703125,
+      "y": 595.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 193.6875,
+      "y": 721.140625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 399,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-header.png",
+    "baselineBox": {
+      "x": 524.0625,
+      "y": 39.796875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 479,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-gold.png",
+    "baselineBox": {
+      "x": 290.546875,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-victory.png",
+    "baselineBox": {
+      "x": 500.078125,
+      "y": 740.265625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 446.484375,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 719,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-curse.png",
+    "baselineBox": {
+      "x": 394.140625,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 799,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 365.609375,
+      "y": 559.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 879,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-768-2.png",
+    "screenshotSha256": "81386d3a2748a1b92933c0b969e2b349a020c118f5bb9090ef660a374fc34e6d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/title-title.png",
+    "baselineBox": {
+      "x": 679.984375,
+      "y": 184.25,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 765.75,
+      "y": 333.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 461.796875,
+      "y": 396.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-header.png",
+    "baselineBox": {
+      "x": 824.9375,
+      "y": 27.296875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-gold.png",
+    "baselineBox": {
+      "x": 540.171875,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-victory.png",
+    "baselineBox": {
+      "x": 685.4375,
+      "y": 546,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 848.4375,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-curse.png",
+    "baselineBox": {
+      "x": 819.453125,
+      "y": 339.75,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 696.25,
+      "y": 479.09375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-1.png",
+    "screenshotSha256": "febff2ba5954132b3d9a99e4e3926b479f3522c37f28d0408f93c2dacefbc633",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/title-title.png",
+    "baselineBox": {
+      "x": 640,
+      "y": 101.5,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 619.703125,
+      "y": 595.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 529.6875,
+      "y": 721.140625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 399,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-header.png",
+    "baselineBox": {
+      "x": 860.0625,
+      "y": 39.796875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 479,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-gold.png",
+    "baselineBox": {
+      "x": 626.546875,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-victory.png",
+    "baselineBox": {
+      "x": 836.078125,
+      "y": 678.265625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 782.484375,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 719,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-curse.png",
+    "baselineBox": {
+      "x": 730.140625,
+      "y": 622.75,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 799,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 701.609375,
+      "y": 497.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 879,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/chromium-1440-2.png",
+    "screenshotSha256": "e15c022a16d41f791dc9c35550d5430ca17e1c2121a8db985c4ca7ee4e486b1d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/title-title.png",
+    "baselineBox": {
+      "x": 140,
+      "y": 146.36666870117188,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 21.800003051757812,
+      "y": 371.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 351,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 232.85000610351562,
+      "y": 415.7166748046875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 414,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-header.png",
+    "baselineBox": {
+      "x": 251.5833282470703,
+      "y": 28.26666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 477,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-gold.png",
+    "baselineBox": {
+      "x": 100.16667175292969,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 540,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-victory.png",
+    "baselineBox": {
+      "x": 173.46665954589844,
+      "y": 477.23333740234375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 603,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 120.31666564941406,
+      "y": 378.83331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 666,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-curse.png",
+    "baselineBox": {
+      "x": 61.46665954589844,
+      "y": 378.83331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 729,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 156.4499969482422,
+      "y": 432.33331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 792,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-1.png",
+    "screenshotSha256": "ffc10d42f1ec20d6cef60945431a514b126b26c214681ca98a9e191efdd40e1b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/title-title.png",
+    "baselineBox": {
+      "x": 100,
+      "y": 38.01666259765625,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 179.71665954589844,
+      "y": 706.433349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 511,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 29.800003051757812,
+      "y": 881.8333129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 590,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-header.png",
+    "baselineBox": {
+      "x": 240.56666564941406,
+      "y": 42.23333740234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 669,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-gold.png",
+    "baselineBox": {
+      "x": 186.5500030517578,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 748,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-victory.png",
+    "baselineBox": {
+      "x": 190.03334045410156,
+      "y": 701.9833374023438,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 827,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 226.8333282470703,
+      "y": 735.5833129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 906,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-curse.png",
+    "baselineBox": {
+      "x": 147.21665954589844,
+      "y": 735.5833129882812,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 985,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 161.38333129882812,
+      "y": 478.183349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1064,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-360-2.png",
+    "screenshotSha256": "0e915365de4836f88e39eb9e77c9d897ce1606e8f23a6e0674d99b5a8b708307",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/title-title.png",
+    "baselineBox": {
+      "x": 344,
+      "y": 214.36666870117188,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 429.75,
+      "y": 348.66668701171875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 234,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 125.80000305175781,
+      "y": 415.7166748046875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 297,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-header.png",
+    "baselineBox": {
+      "x": 488.91668701171875,
+      "y": 28.26666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-gold.png",
+    "baselineBox": {
+      "x": 204.1666717529297,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 423,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-victory.png",
+    "baselineBox": {
+      "x": 349.4666748046875,
+      "y": 612.7833251953125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 486,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 512.433349609375,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 549,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-curse.png",
+    "baselineBox": {
+      "x": 483.433349609375,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 612,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 360.45001220703125,
+      "y": 544.3333129882812,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 675,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-1.png",
+    "screenshotSha256": "f2151abf93a0d21d5950f0b8d5470f8fa4472e8e5a632a5786905c2fd415ebb9",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/title-title.png",
+    "baselineBox": {
+      "x": 304,
+      "y": 129,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 283.7166748046875,
+      "y": 618.5333251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 314,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 193.6999969482422,
+      "y": 749.9833374023438,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 393,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-header.png",
+    "baselineBox": {
+      "x": 524.0333251953125,
+      "y": 42.23333740234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 472,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-gold.png",
+    "baselineBox": {
+      "x": 290.54998779296875,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 551,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-victory.png",
+    "baselineBox": {
+      "x": 500.08331298828125,
+      "y": 749.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 630,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 446.51666259765625,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 709,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-curse.png",
+    "baselineBox": {
+      "x": 394.16668701171875,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 339.1499938964844,
+      "y": 581.066650390625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 867,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-768-2.png",
+    "screenshotSha256": "5d82da79266ee03b4e6589a703837b8b40015edb8c31b9ef1562a4587d25a725",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/title-title.png",
+    "baselineBox": {
+      "x": 680,
+      "y": 183.36666870117188,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 765.75,
+      "y": 348.66668701171875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 234,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 461.79998779296875,
+      "y": 415.7166748046875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 297,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-header.png",
+    "baselineBox": {
+      "x": 824.9166870117188,
+      "y": 28.26666259765625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-gold.png",
+    "baselineBox": {
+      "x": 540.1666870117188,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 423,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-victory.png",
+    "baselineBox": {
+      "x": 685.4666748046875,
+      "y": 550.7833251953125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 486,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 848.433349609375,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 549,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-curse.png",
+    "baselineBox": {
+      "x": 819.433349609375,
+      "y": 356.3500061035156,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 612,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 696.4500122070312,
+      "y": 482.33331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 675,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-1.png",
+    "screenshotSha256": "3e71c7686f1f3ebc32066258a0225caf97b772c42cb9b20c933897483861f6b2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/title-title.png",
+    "baselineBox": {
+      "x": 640,
+      "y": 98,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 619.7166748046875,
+      "y": 618.5333251953125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 314,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 529.7000122070312,
+      "y": 749.9833374023438,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 393,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-header.png",
+    "baselineBox": {
+      "x": 860.0333251953125,
+      "y": 42.23333740234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 472,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-gold.png",
+    "baselineBox": {
+      "x": 626.5499877929688,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 551,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-victory.png",
+    "baselineBox": {
+      "x": 836.0833129882812,
+      "y": 687.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 630,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 782.5166625976562,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 709,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-curse.png",
+    "baselineBox": {
+      "x": 730.1666870117188,
+      "y": 647.683349609375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 675.1500244140625,
+      "y": 519.066650390625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 867,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/firefox-1440-2.png",
+    "screenshotSha256": "316739bc7ed83a4a7ac2caad6993fc00a438a8dd3d49e6724f9b7299e35c8767",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/title-title.png",
+    "baselineBox": {
+      "x": 140,
+      "y": 147.75,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 21.796875,
+      "y": 354.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 357,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 232.828125,
+      "y": 395.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 421,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-header.png",
+    "baselineBox": {
+      "x": 251.59375,
+      "y": 27.015625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 485,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-gold.png",
+    "baselineBox": {
+      "x": 100.171875,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 549,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-victory.png",
+    "baselineBox": {
+      "x": 173.4375,
+      "y": 472.171875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 613,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 120.296875,
+      "y": 360.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 677,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-curse.png",
+    "baselineBox": {
+      "x": 61.453125,
+      "y": 360.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 741,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 156.4375,
+      "y": 430.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 805,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-1.png",
+    "screenshotSha256": "1f576128baa8c9bec80f6d6c3142dbf8ceed45cdc3beb76e40a0aa4a7075ce5d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/title-title.png",
+    "baselineBox": {
+      "x": 100,
+      "y": 43,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 179.703125,
+      "y": 679.984375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 517,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 58.859375,
+      "y": 847.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 597,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-header.png",
+    "baselineBox": {
+      "x": 240.609375,
+      "y": 40.25,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 677,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-gold.png",
+    "baselineBox": {
+      "x": 186.546875,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 757,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-victory.png",
+    "baselineBox": {
+      "x": 190.046875,
+      "y": 689.171875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 837,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 226.8125,
+      "y": 707.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 917,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-curse.png",
+    "baselineBox": {
+      "x": 29.796875,
+      "y": 749.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 997,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 161.359375,
+      "y": 476.1875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1077,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-360-2.png",
+    "screenshotSha256": "bac0ef116d216394f002451c8770b56d3e5601b75e9f69404dba5f96403c38c7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/title-title.png",
+    "baselineBox": {
+      "x": 343.984375,
+      "y": 215.25,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 429.734375,
+      "y": 333.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 125.796875,
+      "y": 395.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-header.png",
+    "baselineBox": {
+      "x": 488.9375,
+      "y": 27.015625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-gold.png",
+    "baselineBox": {
+      "x": 204.171875,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-victory.png",
+    "baselineBox": {
+      "x": 349.4375,
+      "y": 607.71875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 512.4375,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-curse.png",
+    "baselineBox": {
+      "x": 483.4375,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 360.4375,
+      "y": 542.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-1.png",
+    "screenshotSha256": "ce0fa24c6e4bc2c58fe5d78c7d73c31026db1e1ef75b6ab17b8065746f20f9e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/title-title.png",
+    "baselineBox": {
+      "x": 304,
+      "y": 132.5,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 283.703125,
+      "y": 595.984375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 193.6875,
+      "y": 721.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 399,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-header.png",
+    "baselineBox": {
+      "x": 524.0625,
+      "y": 40.25,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 479,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-gold.png",
+    "baselineBox": {
+      "x": 290.546875,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-victory.png",
+    "baselineBox": {
+      "x": 230.796875,
+      "y": 782.71875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 446.484375,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 719,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-curse.png",
+    "baselineBox": {
+      "x": 394.140625,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 799,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 339.125,
+      "y": 579.6875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 879,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-768-2.png",
+    "screenshotSha256": "d73a4c99992cbeeb5e8380807f75a348fdda71fdae31fc6d4efc65eb19801d90",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/title-title.png",
+    "baselineBox": {
+      "x": 679.984375,
+      "y": 184.25,
+      "width": 80,
+      "height": 80
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 80,
+      "height": 80
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/treasure-treasure.png",
+    "baselineBox": {
+      "x": 765.734375,
+      "y": 333.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/treasure-chamber.png",
+    "baselineBox": {
+      "x": 461.796875,
+      "y": 395.859375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 303,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-header.png",
+    "baselineBox": {
+      "x": 824.9375,
+      "y": 27.015625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 367,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-gold.png",
+    "baselineBox": {
+      "x": 540.171875,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 431,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-victory.png",
+    "baselineBox": {
+      "x": 685.4375,
+      "y": 545.71875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 495,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-blessing.png",
+    "baselineBox": {
+      "x": 848.4375,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-curse.png",
+    "baselineBox": {
+      "x": 819.4375,
+      "y": 339.46875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 623,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/currency-sale-control.png",
+    "baselineBox": {
+      "x": 696.4375,
+      "y": 480.140625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 687,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-1.png",
+    "screenshotSha256": "17b62e991b860de671f5b97eef046a011e5537d63857066c72208aa8535d8294",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "title",
+    "contextId": "title/title",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/title-title.png",
+    "baselineBox": {
+      "x": 640,
+      "y": 101.5,
+      "width": 160,
+      "height": 160
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 160,
+      "height": 160
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/treasure",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/treasure-treasure.png",
+    "baselineBox": {
+      "x": 619.703125,
+      "y": 595.984375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 319,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "treasure",
+    "contextId": "treasure/chamber",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/treasure-chamber.png",
+    "baselineBox": {
+      "x": 529.6875,
+      "y": 721.59375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 399,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/header",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-header.png",
+    "baselineBox": {
+      "x": 860.0625,
+      "y": 40.25,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 479,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/gold",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-gold.png",
+    "baselineBox": {
+      "x": 626.546875,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 559,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/victory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-victory.png",
+    "baselineBox": {
+      "x": 566.796875,
+      "y": 720.71875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 639,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/blessing",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-blessing.png",
+    "baselineBox": {
+      "x": 782.484375,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 719,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/curse",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-curse.png",
+    "baselineBox": {
+      "x": 730.140625,
+      "y": 623.203125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 799,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "currency",
+    "contextId": "currency/sale-control",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/currency-sale-control.png",
+    "baselineBox": {
+      "x": 675.125,
+      "y": 517.6875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 879,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/world-symbols/webkit-1440-2.png",
+    "screenshotSha256": "8c693be1e2f7e7be77922e7740ee00334f43694ef343ff6016b80492fd30b152",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  }
+]

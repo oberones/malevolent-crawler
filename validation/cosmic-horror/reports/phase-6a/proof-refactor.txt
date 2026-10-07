@@ -1,0 +1,13 @@
+✔ uses explicit context IDs and the complete browser/viewport/scale tuple (0.703125ms)
+✔ rejects a missing required context rather than producing empty proof success (0.197375ms)
+✔ rejects duplicate measured rows (0.072208ms)
+✔ does not accept another viewport height or a blocked native row (0.073833ms)
+✔ rejects nonpositive or nonfinite measured geometry (0.153833ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44.130375

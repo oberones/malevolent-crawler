@@ -1,0 +1,42 @@
+npm notice run malevolent-crawler@0.0.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/chromium-768-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/firefox-768-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-01/webkit-768-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/chromium-768-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/firefox-768-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/index.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-1440-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-1440-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-360-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-360-2/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-768-1/measurements.json
+[warn] art/cosmic-horror/review/remaining-symbols-02/webkit-768-2/measurements.json
+[warn] assets/js/player.js
+[warn] Code style issues found in 38 files. Run Prettier with --write to fix.

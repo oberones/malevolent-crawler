@@ -1,3 +1,4 @@
+import { migrateLegacyState } from "./legacy-migration.mjs";
 import {
   validateCandidate,
   validateVolume,
@@ -25,6 +26,7 @@ function issue(code, path) {
  * @returns {object} readLocalState, commitSnapshot and idempotent dispose.
  */
 export function createSnapshotStore({ storage, now, eventTarget }) {
+  let historyRecovery = {};
   let observed = null,
     initialized = false,
     blocked = true,
@@ -72,6 +74,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
       blocked = true;
       foreign = false;
       const raw = {};
+      historyRecovery = {};
       let canonical;
       try {
         canonical = storage.getItem(SAVE_KEY);
@@ -83,12 +86,23 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
         raw[SAVE_KEY] = canonical;
         const checked = validateCandidate(canonical, "snapshot");
         if (!checked.ok) return recovery(raw, checked.issues);
+        const migrated = migrateLegacyState(checked.candidate.state, {
+          sourceKind: "state",
+          source: "canonical",
+        });
+        if (!migrated.ok) return recovery(raw, migrated.issues);
+        historyRecovery = {
+          ...checked.candidate.historyRecovery,
+          ...migrated.recovery,
+        };
         blocked = false;
         return {
           status: "ready",
           source: "canonical",
           revision: checked.candidate.revision,
-          candidate: checked.candidate.state,
+          candidate: migrated.candidate,
+          presentation: migrated.presentation,
+          recoveryData: { raw, history: historyRecovery },
           issues: [],
         };
       }
@@ -131,15 +145,17 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
             return recovery(raw, [issue(error.code ?? "invalid-json", key)]);
           }
         }
-      const checked = validateCandidate(tuple, "legacy");
+      const checked = migrateLegacyState(tuple);
       if (!checked.ok) return recovery(raw, checked.issues);
+      historyRecovery = checked.recovery;
       blocked = false;
       return {
         status: "ready",
         source: "legacy",
         candidate: checked.candidate,
         issues: [],
-        recoveryData: { raw },
+        presentation: checked.presentation,
+        recoveryData: { raw, history: historyRecovery },
       };
     },
     /** Commit a validated completed candidate; failed stages never issue rollback writes. */
@@ -184,6 +200,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
           revision,
           savedAt: now().toISOString(),
           state: checked.candidate,
+          ...(Object.keys(historyRecovery).length ? { historyRecovery } : {}),
         };
         const valid = validateCandidate(envelope, "snapshot");
         if (!valid.ok) return { status: "unsaved", issue: valid.issues[0] };

@@ -17,3 +17,6 @@ art/cosmic-horror/review/baseline/
 tests/fixtures/legacy/source/
 validation/cosmic-horror/reports/
 validation/cosmic-horror/performance/
+# Raw, hash-indexed browser measurements remain byte-preserved.
+art/cosmic-horror/review/remaining-symbols-*/
+art/cosmic-horror/review/collection-symbols-*/

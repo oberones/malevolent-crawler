@@ -1,0 +1,2028 @@
+{
+  "date": "2026-10-07",
+  "status": "PASS",
+  "scope": "Final automated 27-context footprint/decoding matrix; sampled agent review, not native or absolute pre-theme page-coordinate qualification.",
+  "contexts": 486,
+  "roles": 10,
+  "maxInlineBaselineDelta": 3.0517578125e-05,
+  "maxSameAnchorEdgeDelta": 0,
+  "commandOutput": "validation/cosmic-horror/reports/phase-6d/layout-final.txt",
+  "files": [
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-allocation.png",
+      "sha256": "eab5fcf7902a5278ef60f8289223045884c5ab6a0574d6995ff49f1a577ebe2f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-speed-allocation.png",
+      "sha256": "eab5fcf7902a5278ef60f8289223045884c5ab6a0574d6995ff49f1a577ebe2f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-speed-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/attack-speed-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/critical-damage-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/critical-damage-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/critical-rate-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/critical-rate-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-blessing.png",
+      "sha256": "d600be5a7b8fca087609f7d2897d7b84a04e311466f6ae9bc91469601412506a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-curse.png",
+      "sha256": "b7453badf554181675b3bde6c35508e8039049b4f0d7385bd1c4b0158f7e37d2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-gold.png",
+      "sha256": "3c84149a07460aea907f322f0cfb13de34717c98466ea059e8de663dfbf89118"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-header.png",
+      "sha256": "5f5ae206a013e908b8099f505398dd809fdde960979d7eff4496a192c7a97f27"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-sale-control.png",
+      "sha256": "32057f25dec3fab0b959cfb7073492b3d6c1612af8702acb101f4812f8fc3acb"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/currency-victory.png",
+      "sha256": "4b125897b0225c616cde6ffb064b7a372ff032492f9d9c670c13f3f8b1dfb04a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/defense-allocation.png",
+      "sha256": "eab5fcf7902a5278ef60f8289223045884c5ab6a0574d6995ff49f1a577ebe2f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/defense-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/defense-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/health-allocation.png",
+      "sha256": "eab5fcf7902a5278ef60f8289223045884c5ab6a0574d6995ff49f1a577ebe2f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/health-bonus.png",
+      "sha256": "618fb9c2d3ce2a4d688c6608f191a3e97d71771e7d8f479c43a04615bee2bf14"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/health-main.png",
+      "sha256": "fe0d5cbb6703eb936ace647b07dd6945b5c64680eb4f21e2ff46bab63cdc67b0"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/measurements.json",
+      "sha256": "c3a0607b3deb50004af7c598b71afa7cf1f3d82f2961b144e1de50093bf9eb39"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/title-title.png",
+      "sha256": "c19241a945e5cb0370f1c2232be2a61c29d47ad541d82da66bc6a5477014b3f7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/treasure-chamber.png",
+      "sha256": "eeb0ee5920f48d2e319bd39c3a68ca706422c7e8b9d3998e63839be276262608"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/treasure-treasure.png",
+      "sha256": "67a049376d47d7316c9f1efa0a3f1c6e7d45ab9ef89d9274777832187574e53d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/vampirism-bonus.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-1/vampirism-main.png",
+      "sha256": "5200b355725b8f182fa79c63dd4eeb70893674bd14a388fc0f2b4d254363ccca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-allocation.png",
+      "sha256": "fc22e2c43778d2c3be4518314066ca8098b76b29a83532eea2a7d804fc20d7d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-main.png",
+      "sha256": "e748a582989a18a2cd9dc6fa4534000630fcd1592b11a93774b2d43c03915f7e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-speed-allocation.png",
+      "sha256": "63c9117d99981a224c05406e628f4336d9ce0d7be5b533ce367c8e7995a37a23"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-speed-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/attack-speed-main.png",
+      "sha256": "e748a582989a18a2cd9dc6fa4534000630fcd1592b11a93774b2d43c03915f7e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/critical-damage-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/critical-damage-main.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/critical-rate-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/critical-rate-main.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-blessing.png",
+      "sha256": "92a154e45977f8bdd205af175ad298cb0a037957242b05f1f1921410bc8da618"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-curse.png",
+      "sha256": "b67c9f34c24eb17fa7bb024ce05d21389b0450bb1a15992fed292e23a9c6ef16"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-gold.png",
+      "sha256": "84a73ce9f21cf62bbc74b50f20d46f3c332c51eff8e1ccefcb6a8769073e6103"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-header.png",
+      "sha256": "b67c9f34c24eb17fa7bb024ce05d21389b0450bb1a15992fed292e23a9c6ef16"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-sale-control.png",
+      "sha256": "9f3bdf18b5c483d80ec99ca2d9c4f1c736819c45b8328b138e5da1ef4ada6853"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/currency-victory.png",
+      "sha256": "7c054100e2bc5ff8fb02fbeb256fb5980d5f5ae1ebf41f934dd37cd8416f43d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/defense-allocation.png",
+      "sha256": "dad7fc387b924c5d52eff235ca3cbac2fb1ae6b5f9028fb3d1e32c366f7a0367"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/defense-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/defense-main.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/health-allocation.png",
+      "sha256": "321c530c8dff398ab4fca66f2fde1fba45d29fdb57e0c75f1e21dc4d9ffcb109"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/health-bonus.png",
+      "sha256": "b397207465971a320c2b81683ba0688675dd2d4d39005d74c8ccbb02670e344d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/health-main.png",
+      "sha256": "647093d41387edef09e4535d86740047dfa910343d347be647223c66a936cb85"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/measurements.json",
+      "sha256": "7b7f82146c5e711faad6a1324cf7d1edce15e1387bb962fc9c1b0b99a6364c4f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/title-title.png",
+      "sha256": "53dd0e9be089a572d1b5cf86a2be98caf6224f905b599675ca16966caef22762"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/treasure-chamber.png",
+      "sha256": "4a359cb497e26504fcf2719e0f12b262e46acc6ac256d929a497e93dcfe6bdf5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/treasure-treasure.png",
+      "sha256": "343efcdafb8a25e22f2abc268f911aa10d5654c71461423a9f07f0e75137bec4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/vampirism-bonus.png",
+      "sha256": "5d24c8bf286c65aa2b6951cf4a92970fd715d21edcd92fffad223afe3f91bccd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-1440-2/vampirism-main.png",
+      "sha256": "5d2ef01569a15a2e4f8833d4000bc2b097a17ef1aeefdae01fc808e1b06aea62"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-allocation.png",
+      "sha256": "09afaf478d3ee47d940bb4ca9a7f3f277c9de20c7221eee2b637585e57691ea7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-speed-allocation.png",
+      "sha256": "09afaf478d3ee47d940bb4ca9a7f3f277c9de20c7221eee2b637585e57691ea7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-speed-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/attack-speed-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/critical-damage-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/critical-damage-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/critical-rate-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/critical-rate-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-blessing.png",
+      "sha256": "6fad18c945904778e673ec43ed92e1b8b69abaf38786c0e409c96e9f5241fdff"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-curse.png",
+      "sha256": "ba478331089e8bebdae190db1c97a6a52a1e9ec5a62cca581891319c897f3c1c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-gold.png",
+      "sha256": "024ed352e7c2e5e3849414e2e211da73886e843ef422de283fb513e4dd7da0b4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-header.png",
+      "sha256": "5b7fa6408dd80a0520ce19de1addd5e0b6c2e53c2b660ad07a88b0fb1ae7a9d9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-sale-control.png",
+      "sha256": "aec32ddabbb0b67dc15459d0a6be4ceb56952b7f2133fb894a4dbd7f7e9576b9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/currency-victory.png",
+      "sha256": "4f3dccb2139f676054a79a5296a2a7d7e9d7db1938d2fdb0c841cc0e4f94f81f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/defense-allocation.png",
+      "sha256": "09afaf478d3ee47d940bb4ca9a7f3f277c9de20c7221eee2b637585e57691ea7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/defense-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/defense-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/health-allocation.png",
+      "sha256": "09afaf478d3ee47d940bb4ca9a7f3f277c9de20c7221eee2b637585e57691ea7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/health-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/health-main.png",
+      "sha256": "24f71eb31dba2bd32e6ec41f1a89011fb105b412e63df3ee0b40d773b3da2b88"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/measurements.json",
+      "sha256": "8984c742dab8ba1a4549b7108c0e810478c90f371d4fe03ebee6a9d27a2e9875"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/title-title.png",
+      "sha256": "e9e15c260920a34a49432688f71076d6f449b845e2a5e4cc9a6e6a019ed333b1"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/treasure-chamber.png",
+      "sha256": "d9e74ba6857327493d813494162f542dd525f0945adee60759d9675d07ee4c98"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/treasure-treasure.png",
+      "sha256": "4ce873bbdb21561b265c8e82a7bb012e872fb6c86664e7023425864b5e6e32a6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/vampirism-bonus.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-1/vampirism-main.png",
+      "sha256": "a984f2be7a7571bbda8276e99cbd805a9d2c8a949f3e671a7803a15b43fb4a5d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-allocation.png",
+      "sha256": "7ae70cfb90ec7c0f489c8c388dae53e45d3cf6569ab91263d17c232bb4bbf2c3"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-main.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-speed-allocation.png",
+      "sha256": "5b1c3089eab16a99fea1cf8f2943d760b284d9a7d43c768dc5fc2a09b8adac93"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-speed-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/attack-speed-main.png",
+      "sha256": "5579708818e0e3c9690284122abee09635df228f127a3eb65c4538390d865e10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/critical-damage-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/critical-damage-main.png",
+      "sha256": "0eb1fae85267249b970227351082eca14325b1327ba3713297e5ebcc08bfa69e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/critical-rate-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/critical-rate-main.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-blessing.png",
+      "sha256": "5579708818e0e3c9690284122abee09635df228f127a3eb65c4538390d865e10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-curse.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-gold.png",
+      "sha256": "c4039090878a384f855570c7cb8d9d360e07d55c83010906975b3940abc2088e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-header.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-sale-control.png",
+      "sha256": "586a15b2171858b64fa55ae16939405dcf32bd4173b67abf9fd24e7a75898604"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/currency-victory.png",
+      "sha256": "2f245e68b329b6a58db0df1f1514c9a2b3126e5b994107a4b1d60159c4745263"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/defense-allocation.png",
+      "sha256": "5b1c3089eab16a99fea1cf8f2943d760b284d9a7d43c768dc5fc2a09b8adac93"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/defense-bonus.png",
+      "sha256": "c95d7e165640631a6b10836c95615b1a891bce9979a523c5248c58e5bed98f77"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/defense-main.png",
+      "sha256": "5579708818e0e3c9690284122abee09635df228f127a3eb65c4538390d865e10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/health-allocation.png",
+      "sha256": "e4d4a87a7efbab096df82db81418237562abdfc35ae6d2c0df49ec064ec5a29e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/health-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/health-main.png",
+      "sha256": "2dbebdcfa49f66643b8b191f923204596208d4d67fc03b1fbda412f1fafe522e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/measurements.json",
+      "sha256": "76366da34a2b9cc51145c3b7299de53c701fb18ebb7344a575113ab312ee6eea"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/title-title.png",
+      "sha256": "265a57ca354d22d9854c05595463a01bef3baafbe5112b9379a664b2fcf4df3d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/treasure-chamber.png",
+      "sha256": "899db2c1a60faa5e7a8eddfabe7981868aa9e5dc12a99d39b329aa49ffb31bf8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/treasure-treasure.png",
+      "sha256": "6f45007ea4dc7f6e111b4b11fac52a216131eeabd542245df82bf7e8da4653eb"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/vampirism-bonus.png",
+      "sha256": "127876d7f7d3bf864a3f3189a1d0c26accbc8ff5ab4c401c268824e1bb9ea722"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-360-2/vampirism-main.png",
+      "sha256": "5579708818e0e3c9690284122abee09635df228f127a3eb65c4538390d865e10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-allocation.png",
+      "sha256": "5286d98cf844f30c3b9096b96117e7ce354e9061488ab93a45828582d00a6a10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-speed-allocation.png",
+      "sha256": "5286d98cf844f30c3b9096b96117e7ce354e9061488ab93a45828582d00a6a10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-speed-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/attack-speed-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/critical-damage-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/critical-damage-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/critical-rate-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/critical-rate-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-blessing.png",
+      "sha256": "fdac7a114c441e73d5f4ea277492b66313b9fd8f27d2a8ae2acddf0d2dd5488c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-curse.png",
+      "sha256": "66cd55674eeb3d8a596eb6fd4fa840f02ce56c213e36c5f8e7e58179273dec69"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-gold.png",
+      "sha256": "d580b7839c3fc662b007c23bf8a4f3c2e304dd770f0e64e4e8b31d6169551c1b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-header.png",
+      "sha256": "1bb23cbe8cc234b7248791013d60efb6a80b06e96ecd8dbc41c765de9ef7482b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-sale-control.png",
+      "sha256": "1e851cdb24dc7a324473ae9100b5ccd50f9a67eac7c1d94b7830c01c5a85ae47"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/currency-victory.png",
+      "sha256": "4761ff4e3e54ab222c486d51597cea8d28b20b2d575ec92c99d2ff19603b6a58"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/defense-allocation.png",
+      "sha256": "5286d98cf844f30c3b9096b96117e7ce354e9061488ab93a45828582d00a6a10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/defense-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/defense-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/health-allocation.png",
+      "sha256": "5286d98cf844f30c3b9096b96117e7ce354e9061488ab93a45828582d00a6a10"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/health-bonus.png",
+      "sha256": "bb1f1d7534668c51b88bcefdcad7ce25ea8153ff1af2c5145ef68b6d7f750060"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/health-main.png",
+      "sha256": "6f4795136899a3fdbe555928471a3ab49034ed839d29719dc448b862d0895272"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/measurements.json",
+      "sha256": "2a36f82ab60b523e35cbf68e5e9cb02a0273375665d26d095a6c1282a6af7107"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/title-title.png",
+      "sha256": "0d3e2116c240e26f4195f6ce51a3e6ebf80d3bda9b10d67545cafd75d0b6b3f3"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/treasure-chamber.png",
+      "sha256": "74aced9c0d14fc31a157f915cbe9e6ac136538fbc12f6268c72a864773753b2d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/treasure-treasure.png",
+      "sha256": "cb51732d1e09f30866b5e3ba678516b0ce37838dc00f983ffa02a04d1051db20"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/vampirism-bonus.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-1/vampirism-main.png",
+      "sha256": "7cc0c62b2d0d6c9359fb3c08c5a2463646042fe691859346944e70b84ea42d64"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-allocation.png",
+      "sha256": "33965739d2569f67d0c931b19ee95dc92a6534f28f1cf7a038cfadd3176c5273"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-main.png",
+      "sha256": "d78464d5aaed6616787ea5e63e5b7d313f23c0280d08ff82d72c76f707d88638"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-speed-allocation.png",
+      "sha256": "11244622a0275a3ebe226433f9a782924e90f49eb6735a3508a6cca8bbacbd08"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-speed-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/attack-speed-main.png",
+      "sha256": "d78464d5aaed6616787ea5e63e5b7d313f23c0280d08ff82d72c76f707d88638"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/critical-damage-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/critical-damage-main.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/critical-rate-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/critical-rate-main.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-blessing.png",
+      "sha256": "0207bafe785aebf8847189563b289ff8f198abacda12b78cd1de163f6da76b18"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-curse.png",
+      "sha256": "33d1b6be4f347263fb0b2109a2318819ccc2122b1b721fd02e7611d8da8d0d52"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-gold.png",
+      "sha256": "a1ff2ddfeb87062901d35ccbea36c68a0ca02c09ef6f63da2a5148fb8682c934"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-header.png",
+      "sha256": "75a5708b5e037eed2da1f37740704875a1866e1e18a836923a68c05c02b8f0b1"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-sale-control.png",
+      "sha256": "c59b7867eb8804800fda5ce3418f3605b425c357cc50a8701b8303f2181d4274"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/currency-victory.png",
+      "sha256": "ad65f07e0389f7e2face780ac13679d74a84f65b20447564667a67ab58f0f3ea"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/defense-allocation.png",
+      "sha256": "feff9b65c1a77254d74f16d474b1363c4a85a503e2e0a10c64a409f27ff4a113"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/defense-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/defense-main.png",
+      "sha256": "d78464d5aaed6616787ea5e63e5b7d313f23c0280d08ff82d72c76f707d88638"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/health-allocation.png",
+      "sha256": "33965739d2569f67d0c931b19ee95dc92a6534f28f1cf7a038cfadd3176c5273"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/health-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/health-main.png",
+      "sha256": "11275624b59936f0b09d90963e3ba1d5b73f2d8b8803bf162c5a98f755a90b1b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/measurements.json",
+      "sha256": "09b019aa64f00ef8005e31abebcac33a7454b6a9a85baa0ded712421094c8c7f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/title-title.png",
+      "sha256": "f68170b1316e609e08d55da2ffe8ae692676a8daebe6d2db9deb36c235b963ae"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/treasure-chamber.png",
+      "sha256": "005f73f1838caf2af5be9b77d56b3fc4af802ea477c16daef46fba3ae00b7931"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/treasure-treasure.png",
+      "sha256": "dca96d8f4c443487b346da7f95c3927b5ad1fd2a80fc383385cf1870041a7712"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/vampirism-bonus.png",
+      "sha256": "78c4850960eaa4f1dd44dad0231094eb488dcc1e7911f7411c5189759a3b59d8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/chromium-768-2/vampirism-main.png",
+      "sha256": "d78464d5aaed6616787ea5e63e5b7d313f23c0280d08ff82d72c76f707d88638"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-allocation.png",
+      "sha256": "0eb517067685c0eb4fa2b5e5a76ce89fedfaf14d07e256d1fc3b0df9186f8028"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-speed-allocation.png",
+      "sha256": "0eb517067685c0eb4fa2b5e5a76ce89fedfaf14d07e256d1fc3b0df9186f8028"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-speed-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/attack-speed-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/critical-damage-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/critical-damage-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/critical-rate-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/critical-rate-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-blessing.png",
+      "sha256": "500300ba5c1a18da743b454b97d6634d250dcb0e11a3029d85acf0786d829714"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-curse.png",
+      "sha256": "985d7c72979851f71f7ee049f3d927d0697d9e991404a419fcbd997f81fc49ce"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-gold.png",
+      "sha256": "9d763ef532a7b45fb18cf5da8c03483bb9ff68a36b2e3b03071c9ce80d638e86"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-header.png",
+      "sha256": "1c505b88df311c4366aca065caf855f7fe7c54746d95459f1f139c3f4961d6fc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-sale-control.png",
+      "sha256": "354be94fc99f442c1b6358d39cc11b18f70c820d33be7e728fa69a5809b38b8c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/currency-victory.png",
+      "sha256": "008d7295cd9165b40a36c01b194d591e93190650532782e0eb93783b3ac49ab2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/defense-allocation.png",
+      "sha256": "0eb517067685c0eb4fa2b5e5a76ce89fedfaf14d07e256d1fc3b0df9186f8028"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/defense-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/defense-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/health-allocation.png",
+      "sha256": "0eb517067685c0eb4fa2b5e5a76ce89fedfaf14d07e256d1fc3b0df9186f8028"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/health-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/health-main.png",
+      "sha256": "f4e134bda8cbfef7b27887fc31d2edef28417ac8530a91841297ba0622d65d85"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/measurements.json",
+      "sha256": "30b9189ab11cffc7a269008983a3f8eb14d6263275b75c64d71564502fb15ca6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/title-title.png",
+      "sha256": "342c6f1c63a4cafe19884d27d637227cb6fd27dac3596fef2625a24a59ae7096"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/treasure-chamber.png",
+      "sha256": "d27772634ac294d799e0854b707b85180523701b62bb7ddcede2e7177328c838"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/treasure-treasure.png",
+      "sha256": "dace8b4eee93cbedda378694b0deb51c03b9096ab7094e13e3ad0476ea0ca91f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/vampirism-bonus.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-1/vampirism-main.png",
+      "sha256": "fa6d5e5ea87dd589fb80d66b80a1350bbdefb6a4b450d98816e51cc88d1b5a3f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-allocation.png",
+      "sha256": "9f062575d6edbd4d892da46ba6cda50b224c2f19212f2fee4c6920635f92ec0f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-speed-allocation.png",
+      "sha256": "9f062575d6edbd4d892da46ba6cda50b224c2f19212f2fee4c6920635f92ec0f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-speed-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/attack-speed-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/critical-damage-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/critical-damage-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/critical-rate-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/critical-rate-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-blessing.png",
+      "sha256": "96c8bdd3c0b6b56e67e7bdc28327c795b1f6beb454339c740011f436ea7c2caa"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-curse.png",
+      "sha256": "96c8bdd3c0b6b56e67e7bdc28327c795b1f6beb454339c740011f436ea7c2caa"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-gold.png",
+      "sha256": "f4fe99557db15b854284799fc5a6bd4572f50891645a89832c5d67cf73e7c9a9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-header.png",
+      "sha256": "96c8bdd3c0b6b56e67e7bdc28327c795b1f6beb454339c740011f436ea7c2caa"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-sale-control.png",
+      "sha256": "af730f98e8811f52f698af67cf9bf9aa00b09aeb25ae4bb88d51fd2b6366aada"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/currency-victory.png",
+      "sha256": "5941365863ee40a998fad12a4599f8ac1fbebf75eb461b9a613ac703e777d450"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/defense-allocation.png",
+      "sha256": "9f062575d6edbd4d892da46ba6cda50b224c2f19212f2fee4c6920635f92ec0f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/defense-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/defense-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/health-allocation.png",
+      "sha256": "9f062575d6edbd4d892da46ba6cda50b224c2f19212f2fee4c6920635f92ec0f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/health-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/health-main.png",
+      "sha256": "d74df53f5c346968a0c4126195eb3ac3cc1b2bcd28989df085ee4bfb6b8fdb57"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/measurements.json",
+      "sha256": "111cd03561cac41fa9a7012396626fa8ed9f0aa80e48f99d6025178496c4ef35"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/title-title.png",
+      "sha256": "855024f60254ee1cb20a0e8117d99ff938b636319d2ee7754aca0b7f271345c7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/treasure-chamber.png",
+      "sha256": "96c8bdd3c0b6b56e67e7bdc28327c795b1f6beb454339c740011f436ea7c2caa"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/treasure-treasure.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/vampirism-bonus.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-1440-2/vampirism-main.png",
+      "sha256": "cac8509d8e3d694911685c34d3c61f0284a0096e9a435079b7e28d90c51c1f8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-allocation.png",
+      "sha256": "05a0138724eeb70466c933e530e95049fea1aa96ec4b1d0b2fe8ecbd538dc0c6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-speed-allocation.png",
+      "sha256": "05a0138724eeb70466c933e530e95049fea1aa96ec4b1d0b2fe8ecbd538dc0c6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-speed-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/attack-speed-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/critical-damage-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/critical-damage-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/critical-rate-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/critical-rate-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-blessing.png",
+      "sha256": "1795e9fdf71a1cf603096403117d8e10a3ac7f70e38331cf9a31239c6b35529a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-curse.png",
+      "sha256": "173358848820904a335226a1c2c2a07aeb6235aac9274f0338626a03ba610f9c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-gold.png",
+      "sha256": "328a9addf850cd07d468c8848a8f9ee8f83f20562ee5c56700fb6be6cc086643"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-header.png",
+      "sha256": "76e97bd5dc84887ff87cbec7d38e70ed0accc20e43f0225a1ca35b36f1bee491"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-sale-control.png",
+      "sha256": "6065a6c713258e41724093d7b7f4313ef1a1493dd3b227651ab6fe9e3a453bc4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/currency-victory.png",
+      "sha256": "8e79b9d4989a4b5faf64b2b4cede2f54b76714ef0fa7cfcfd2aee7b81a065194"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/defense-allocation.png",
+      "sha256": "05a0138724eeb70466c933e530e95049fea1aa96ec4b1d0b2fe8ecbd538dc0c6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/defense-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/defense-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/health-allocation.png",
+      "sha256": "05a0138724eeb70466c933e530e95049fea1aa96ec4b1d0b2fe8ecbd538dc0c6"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/health-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/health-main.png",
+      "sha256": "ed6e2ee60eb7bfb29b74f503a24989c0d6a79bfb86462256660bd8566e5b7414"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/measurements.json",
+      "sha256": "f47bdb83b75b4ab74786531f11d5ce84df25d68bf2e4637dc92cc533e792f8e5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/title-title.png",
+      "sha256": "8bd53c32fee587d34f8509cd8edabe1347d0861af4715eda6ccf9f5ab5f349b5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/treasure-chamber.png",
+      "sha256": "135c6e29b813f19e391c52de13258926a65d06df00e316b660a8e13c57f3b18c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/treasure-treasure.png",
+      "sha256": "8e19a05df704fe8a7ee453fbfb30002c39a860a3d7841281f929cd3f06899b36"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/vampirism-bonus.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-1/vampirism-main.png",
+      "sha256": "afb34a10e8684c2b9a90cbe1f0ad47ec647d3bfb3d0d1bdd5a8a11940e4dfd0c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-allocation.png",
+      "sha256": "36b84faa7388e3bf7a632d049c9d96820167f4398f8fff71d832411fe5c5d412"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-speed-allocation.png",
+      "sha256": "36b84faa7388e3bf7a632d049c9d96820167f4398f8fff71d832411fe5c5d412"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-speed-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/attack-speed-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/critical-damage-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/critical-damage-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/critical-rate-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/critical-rate-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-blessing.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-curse.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-gold.png",
+      "sha256": "6510d34e47e10c1278bb7358b88469c3989372332eed4f51552bc7187d3fbcdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-header.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-sale-control.png",
+      "sha256": "b98bfc1cd21e6ac1e84b25219f52544230df3a63f3c21c9d43e98d2e1805804c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/currency-victory.png",
+      "sha256": "6b5a2c2902c40c14c0e9c60ae8390b120443892f7851cfa12ff225a48e85f21b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/defense-allocation.png",
+      "sha256": "36b84faa7388e3bf7a632d049c9d96820167f4398f8fff71d832411fe5c5d412"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/defense-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/defense-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/health-allocation.png",
+      "sha256": "36b84faa7388e3bf7a632d049c9d96820167f4398f8fff71d832411fe5c5d412"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/health-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/health-main.png",
+      "sha256": "9f6101ac0bcad92d328bb5f8716f984644b6dfcccebbe8afa7d11c311165e6b2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/measurements.json",
+      "sha256": "83fc467d9c6f1235bf73f9f1b4d9d60e8006c1de3080005725cc3532fafe9309"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/title-title.png",
+      "sha256": "f9417a18e3728fe3414b911cb9b47735c9b438b40cda4be88cddbee8fb46eac8"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/treasure-chamber.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/treasure-treasure.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/vampirism-bonus.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-360-2/vampirism-main.png",
+      "sha256": "e97f782d15c097cfbeda9087d53297553f7adabb6d0d44977989f196ff7158d4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-allocation.png",
+      "sha256": "83815076c5c1364b214e422972331900d7e36cd273a389cb1552981d508c44ff"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-speed-allocation.png",
+      "sha256": "83815076c5c1364b214e422972331900d7e36cd273a389cb1552981d508c44ff"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-speed-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/attack-speed-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/critical-damage-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/critical-damage-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/critical-rate-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/critical-rate-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-blessing.png",
+      "sha256": "4b2fa6c162210b5d28da84548d90beb2693975ac4eb1c38938b9796173e567db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-curse.png",
+      "sha256": "21202e9faa2cfd04e2cbfeb355ec017ecc525c03c7adae96a46bea8393fc7022"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-gold.png",
+      "sha256": "736ce0db912065cd9f1a0115b54598d75c691e32c3b9ba13206243865d93efe5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-header.png",
+      "sha256": "3ced706877d740e34f46f62fc81057b5dc86957e33a3460f39f1bdc541e9e0e1"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-sale-control.png",
+      "sha256": "9f96b8823e8e6940a3c6959916f115c4b2e2d2525f156b6eafd340b315119c8d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/currency-victory.png",
+      "sha256": "86af432570442907392dd7a2860e66bfbcbe081118e2f69f7933b75aba9678ea"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/defense-allocation.png",
+      "sha256": "83815076c5c1364b214e422972331900d7e36cd273a389cb1552981d508c44ff"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/defense-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/defense-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/health-allocation.png",
+      "sha256": "83815076c5c1364b214e422972331900d7e36cd273a389cb1552981d508c44ff"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/health-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/health-main.png",
+      "sha256": "c26571872a2ae6b6a57e9a1ef4080e8ab234b946ec63f1c31ed599fc33fa5b49"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/measurements.json",
+      "sha256": "c9afeef3f80c9a4e22451707a645e81bde2a4be87806a2a627afa8f936fdd178"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/title-title.png",
+      "sha256": "e57c2acd71be2916612994816dca52167f4aed69c927382c751634916e16a8e7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/treasure-chamber.png",
+      "sha256": "abee5de861eff71a9995354215023c67457d55e372724855deb63835da1eaea2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/treasure-treasure.png",
+      "sha256": "f3c80b2b7f0eb71159404c753a8d16167afce3e749bf2e27ba065dddeb9a6bdc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/vampirism-bonus.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-1/vampirism-main.png",
+      "sha256": "a82ae629aa77c2808aa7b3bfd498e43f758bc629a70746a02eb2ca201fac2fdf"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-allocation.png",
+      "sha256": "bc610f13a1862f3e2e1933a18f03a84852f9529684544b0571281e95f67b9800"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-speed-allocation.png",
+      "sha256": "bc610f13a1862f3e2e1933a18f03a84852f9529684544b0571281e95f67b9800"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-speed-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/attack-speed-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/critical-damage-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/critical-damage-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/critical-rate-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/critical-rate-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-blessing.png",
+      "sha256": "a45b31cfdf12f950cf517667ddbbad5ae4b0856a5b999682de006d20372bbf8a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-curse.png",
+      "sha256": "fd2394966b8742a1547598ed81b5f2c15ce92b7e2e62a7f4eda2c0c92f9c1b6c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-gold.png",
+      "sha256": "77eb59624cd222a79b4001e04306bcff51230c3d5bf93938c943ef4d2503eace"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-header.png",
+      "sha256": "063ab1c4eadbe7a14e3a5b6886f5f54a58e0d7d43a0cf5c537713608ca69b1b4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-sale-control.png",
+      "sha256": "da0a32ea2d606bf38aec7ee8a6c62e47e1b1a84548be84036c2b857d309db1aa"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/currency-victory.png",
+      "sha256": "09715e65f37ac5fa20c1b131f232901836212a3e58a14bd8fead3c2497b7caef"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/defense-allocation.png",
+      "sha256": "bc610f13a1862f3e2e1933a18f03a84852f9529684544b0571281e95f67b9800"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/defense-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/defense-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/health-allocation.png",
+      "sha256": "bc610f13a1862f3e2e1933a18f03a84852f9529684544b0571281e95f67b9800"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/health-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/health-main.png",
+      "sha256": "96492b7bf8d62d950420d4828301d0647d07194c42eb09a2c880f605938d278b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/measurements.json",
+      "sha256": "704cfb28be94c341f92a8aca915015f1d09d0d9ac190ed4bd201f73afc7fd0f3"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/title-title.png",
+      "sha256": "3c77fb400ad954b1d3263e0774f9dd7f55a5a8fe646967932cb8c7795e81af6e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/treasure-chamber.png",
+      "sha256": "78214fcb6ffe56a340e14a99cee8c2115040fb5bd04acefb3fc50dd514a46599"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/treasure-treasure.png",
+      "sha256": "33a2071dd47c67186a825ca70fca9c47731ac63a71313a9385f62d4b5d8d7133"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/vampirism-bonus.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/firefox-768-2/vampirism-main.png",
+      "sha256": "8731118d8d0a8a3ce29c7e79934f02318aeb5645caeb86fa7cf4a39485563e6a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-allocation.png",
+      "sha256": "0569516aba4bb71eb6ca692e6638460ce48b57811b865a6645191810a0205291"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-speed-allocation.png",
+      "sha256": "0569516aba4bb71eb6ca692e6638460ce48b57811b865a6645191810a0205291"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-speed-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/attack-speed-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/critical-damage-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/critical-damage-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/critical-rate-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/critical-rate-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-blessing.png",
+      "sha256": "ee18c680c1e893cd1dbc6d9bc32c33ac3d57d045f8ba9cdf59129acf3d4b46c1"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-curse.png",
+      "sha256": "9ead8da5f03eaea5ba2edccbc9418bf888eb2d225272f0027eb1d0df9e99dfe2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-gold.png",
+      "sha256": "8db779154f71ce9f6cf90f39c4ed7ff229549aa4c4cbd2cbca726b0468bb2df3"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-header.png",
+      "sha256": "562b25fb0f7e94f67cae9f1874c801fe86e4c97d1c3c446a13952bf1b85ad6de"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-sale-control.png",
+      "sha256": "dd9bd21776c7c0975a30279c37f301738e5a46235f90ca4ac249ee8c728c6d44"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/currency-victory.png",
+      "sha256": "9f1fd0929aceadf2daefe47560d078a502813bc9db1b193c21a3a3e8aa895bb9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/defense-allocation.png",
+      "sha256": "0569516aba4bb71eb6ca692e6638460ce48b57811b865a6645191810a0205291"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/defense-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/defense-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/health-allocation.png",
+      "sha256": "0569516aba4bb71eb6ca692e6638460ce48b57811b865a6645191810a0205291"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/health-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/health-main.png",
+      "sha256": "a7f085529fe32ef23e9e7839add17cbd1e15ebc2111f88546d7a46c98d7548b3"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/measurements.json",
+      "sha256": "7a8db413d83bc8930f3bc6de5a3bb4ae45803d84c7447cbe43ad7327c84fb0c2"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/title-title.png",
+      "sha256": "7bae967fa9c85179116bde788e82174243b8ce9e3ae52636efeb0df6f6738214"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/treasure-chamber.png",
+      "sha256": "3b3a5b4bebe7d5258b33429261e6d4e62ddf1ed76e4a54546d069890f58fe746"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/treasure-treasure.png",
+      "sha256": "bba5a9a75e71660a9ccccab47adff03bea49d32eaefd08787f28aa8e4a56c62c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/vampirism-bonus.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-1/vampirism-main.png",
+      "sha256": "405aa6b2d3d4654e3eda5c4a8b5fd8d70748b3cf397a4c9ecac42a8bd95aec7b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-allocation.png",
+      "sha256": "2c67ad58b3507607efe84119e189143d82f784f297325945285c5722a293d7e5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-speed-allocation.png",
+      "sha256": "2c67ad58b3507607efe84119e189143d82f784f297325945285c5722a293d7e5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-speed-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/attack-speed-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/critical-damage-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/critical-damage-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/critical-rate-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/critical-rate-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-blessing.png",
+      "sha256": "0fde5476ef1bfe55eb50e473c8aa2e71de3c4c28c5d52ff4aa471341ee3b6b8a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-curse.png",
+      "sha256": "0fde5476ef1bfe55eb50e473c8aa2e71de3c4c28c5d52ff4aa471341ee3b6b8a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-gold.png",
+      "sha256": "4e70e137674413de18dc60f6fb954d32e5acc7172e28503eae3e420fc7a8c21f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-header.png",
+      "sha256": "0fde5476ef1bfe55eb50e473c8aa2e71de3c4c28c5d52ff4aa471341ee3b6b8a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-sale-control.png",
+      "sha256": "fda30565019902800edfe8239d049ff6150c52d3de0843f94c6a2ef0a91a3034"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/currency-victory.png",
+      "sha256": "86d929e6ac6608f1a28ff43f8d656fe90dee961f626f339c488852f3bf2620df"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/defense-allocation.png",
+      "sha256": "2c67ad58b3507607efe84119e189143d82f784f297325945285c5722a293d7e5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/defense-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/defense-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/health-allocation.png",
+      "sha256": "2c67ad58b3507607efe84119e189143d82f784f297325945285c5722a293d7e5"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/health-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/health-main.png",
+      "sha256": "c54668ea9e75cb834ed77a57529cd95260af03f453bcd499283525686aa75758"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/measurements.json",
+      "sha256": "56e04ef606622b0fa23bb2e9dc8c5a4082919387f39cd798927d5473791a8464"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/title-title.png",
+      "sha256": "583a7759a10cac84509378ec07eb3e6a111832e637aca4eeff65872675c324e7"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/treasure-chamber.png",
+      "sha256": "0fde5476ef1bfe55eb50e473c8aa2e71de3c4c28c5d52ff4aa471341ee3b6b8a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/treasure-treasure.png",
+      "sha256": "dd93319528eda343685d10df476bd9a5b3bf05b29f5c95ea9b2dfd1f71054372"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/vampirism-bonus.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-1440-2/vampirism-main.png",
+      "sha256": "f5038347ff75c42ead49a45fb4fbf7eee2ea19603b6babc2bc1852c5cbdc034b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-allocation.png",
+      "sha256": "aaa71a01f3f3b4ac9d3f0cd13a037c23c391e4b89c0821a35fa22166c82f4cc9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-speed-allocation.png",
+      "sha256": "aaa71a01f3f3b4ac9d3f0cd13a037c23c391e4b89c0821a35fa22166c82f4cc9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-speed-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/attack-speed-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/critical-damage-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/critical-damage-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/critical-rate-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/critical-rate-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-blessing.png",
+      "sha256": "f7d5d69fccb8f2b428f60737a18508443799785391979cf16044f7390b3444b0"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-curse.png",
+      "sha256": "5f50c5e5a0a75e52d90eef70881a0cdeb89c832bc9317add3fd9f0fcf8acb294"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-gold.png",
+      "sha256": "697f6275d185caf148b561c89863a0abc77ece45834e2f504772dfce3afd84ac"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-header.png",
+      "sha256": "a27c2cbd51695e74960b317bdcab6026cd9ad0137f61a0a2fb0b9da94eaeee8e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-sale-control.png",
+      "sha256": "b8bd684958b211071a4eefeb899f409a5aca1201adbc1eb4905bbc60d743c484"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/currency-victory.png",
+      "sha256": "dc5410329b15fc456018c3347cb41daf54ced086fb1369dbf8ed38ef12c012db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/defense-allocation.png",
+      "sha256": "aaa71a01f3f3b4ac9d3f0cd13a037c23c391e4b89c0821a35fa22166c82f4cc9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/defense-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/defense-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/health-allocation.png",
+      "sha256": "aaa71a01f3f3b4ac9d3f0cd13a037c23c391e4b89c0821a35fa22166c82f4cc9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/health-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/health-main.png",
+      "sha256": "d1bc000b56426874e24bfc8df87581b77ed37af85398785e5ab0804f329825b9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/measurements.json",
+      "sha256": "4695a8df18a720c290ba67fc4841dcbbae732aa6da627de66383dd188fd338f4"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/title-title.png",
+      "sha256": "06cf87126796aa1df9e58b70339aaffcd5ba096e5b6e27eef983a5b99999834b"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/treasure-chamber.png",
+      "sha256": "fbb3fa86380ceb31e25a49f686cc9b192e1e44263ceab92464bb661a416fe342"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/treasure-treasure.png",
+      "sha256": "3f739e31b339e1ae6e2431611db9503fe9605844883ae1a8fcf82b39785c8916"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/vampirism-bonus.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-1/vampirism-main.png",
+      "sha256": "88c5cef62ad5180b6c10da2381b5806efadb8b60474b97455ffa71fad0c32961"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-allocation.png",
+      "sha256": "9486c6fbaa693c7ab23121a52ba86df48ff68c36caeadf944db98bb095341438"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-speed-allocation.png",
+      "sha256": "9486c6fbaa693c7ab23121a52ba86df48ff68c36caeadf944db98bb095341438"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-speed-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/attack-speed-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/critical-damage-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/critical-damage-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/critical-rate-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/critical-rate-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-blessing.png",
+      "sha256": "b78e4a4824674d9a9be62835af40bba9f82678cb82dbf323981b9c5ab8b869db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-curse.png",
+      "sha256": "b78e4a4824674d9a9be62835af40bba9f82678cb82dbf323981b9c5ab8b869db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-gold.png",
+      "sha256": "04cd9e2a8d68e66b9138c51f336ccee8acd9c2ef2ac3d3f4399fb2e44e294624"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-header.png",
+      "sha256": "b78e4a4824674d9a9be62835af40bba9f82678cb82dbf323981b9c5ab8b869db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-sale-control.png",
+      "sha256": "95839087fa5de3db82a2f013c5dbd3ad37c5c975bf9859e65f405da93ce40e97"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/currency-victory.png",
+      "sha256": "279780d3da278f0a253c600a8ab79a252cd4e5cce9023c0fcf1e779f1766395e"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/defense-allocation.png",
+      "sha256": "9486c6fbaa693c7ab23121a52ba86df48ff68c36caeadf944db98bb095341438"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/defense-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/defense-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/health-allocation.png",
+      "sha256": "9486c6fbaa693c7ab23121a52ba86df48ff68c36caeadf944db98bb095341438"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/health-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/health-main.png",
+      "sha256": "031e5a86cda32e4d1e1ef699f3b1436b917cbc3a489500216cacbf09d66acf3a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/measurements.json",
+      "sha256": "6629ded11912520ab6ac67257b22d02579cd35ccead418c15efcfba480045e1c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/title-title.png",
+      "sha256": "4521070690d1c498b0841d8e00d213ffbbcf1ce0b030ebbd2e2c12bee73ad371"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/treasure-chamber.png",
+      "sha256": "b78e4a4824674d9a9be62835af40bba9f82678cb82dbf323981b9c5ab8b869db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/treasure-treasure.png",
+      "sha256": "b78e4a4824674d9a9be62835af40bba9f82678cb82dbf323981b9c5ab8b869db"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/vampirism-bonus.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-360-2/vampirism-main.png",
+      "sha256": "2f76b7f12071211541907dcd2492ed3fadce9e354a7ad79e25525427a6871fca"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-allocation.png",
+      "sha256": "b2606f96e0c409b568c617a6fc73fe7c6dd2d8fb00f8e58896d3917010aa8fbd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-speed-allocation.png",
+      "sha256": "b2606f96e0c409b568c617a6fc73fe7c6dd2d8fb00f8e58896d3917010aa8fbd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-speed-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/attack-speed-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/critical-damage-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/critical-damage-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/critical-rate-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/critical-rate-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-blessing.png",
+      "sha256": "18c450ad91e7c286c1965d64685a1796a398861e3d3dc34e449528300842cd45"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-curse.png",
+      "sha256": "39e9cc30dce8c76315f7f75ed129b696da8da003146fd5c62411a858d76ac6cc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-gold.png",
+      "sha256": "1139f39008cbb805dc1bfb561b3b355d115f44e6e0fd7074a9d328015556f473"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-header.png",
+      "sha256": "ef0cbf6dfe71211264ac1478e17d680423d452ad143c8af8235ce93a2a4b17ee"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-sale-control.png",
+      "sha256": "3561ac81ad9d6ffd4f6552ed0c80eca7c9c3468cc52a7e95b7bdd3f7251f397a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/currency-victory.png",
+      "sha256": "d57adaa45dc83c0c7988bfbf990ce2299732fc71cd2c76f8a777553dc308896c"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/defense-allocation.png",
+      "sha256": "b2606f96e0c409b568c617a6fc73fe7c6dd2d8fb00f8e58896d3917010aa8fbd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/defense-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/defense-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/health-allocation.png",
+      "sha256": "b2606f96e0c409b568c617a6fc73fe7c6dd2d8fb00f8e58896d3917010aa8fbd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/health-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/health-main.png",
+      "sha256": "6aaee2fdf6ce7983a7cc0e4c7217172a60cada4aba3e70632d1d6fd732f00131"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/measurements.json",
+      "sha256": "74452b97c47e1bc1ab5bd9006661f4b1879be67c118c01b06009609e09d93b97"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/title-title.png",
+      "sha256": "a66cf42ac3a5c88124b69beb6bc3db47e3bbff4ac473c8fac0ff2a51d4d70c20"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/treasure-chamber.png",
+      "sha256": "2fe18fa82009c96537f586a4c920d084912c9ac4871b5f7c6c378081894106b9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/treasure-treasure.png",
+      "sha256": "6386848396e2c7fd0b3af36bb7adc4d4d74c0b0178d39fb3c1de9e5d00710415"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/vampirism-bonus.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-1/vampirism-main.png",
+      "sha256": "8bfb02f8b27381df6c9677ced1bbe4265393b353d40b4322c6f181499376b9dc"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-allocation.png",
+      "sha256": "dbbb7089959d529e37f4a4f5a073df94363debabc8c1f001b4365b185010ca73"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-speed-allocation.png",
+      "sha256": "dbbb7089959d529e37f4a4f5a073df94363debabc8c1f001b4365b185010ca73"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-speed-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/attack-speed-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/critical-damage-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/critical-damage-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/critical-rate-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/critical-rate-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-blessing.png",
+      "sha256": "fdf6da9b5c06296ed64decec8fce18523b20ca219cc136e597f18d831953174d"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-curse.png",
+      "sha256": "d3eed2a4e5d6e22206d39ca7982bdfbadb710112c96e9c6320805234e51a0ebb"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-gold.png",
+      "sha256": "45fc65a1b8f570b0ef2fac0c864d4dd10a1271852c5390e539fc47a71a4af759"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-header.png",
+      "sha256": "1d15ce1d9a91455e4d1f4c31cb67837bf11867b258db753533a76cde763318c0"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-sale-control.png",
+      "sha256": "90bc546c0e70db95b662777c19ab7bcbf0eaf8afacbe95def754982d47ff803f"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/currency-victory.png",
+      "sha256": "a39f1e6b6f0d6031e9de81a0ed1229cf77dbf18667e7f7996e31a58b96dd06ae"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/defense-allocation.png",
+      "sha256": "dbbb7089959d529e37f4a4f5a073df94363debabc8c1f001b4365b185010ca73"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/defense-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/defense-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/health-allocation.png",
+      "sha256": "dbbb7089959d529e37f4a4f5a073df94363debabc8c1f001b4365b185010ca73"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/health-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/health-main.png",
+      "sha256": "00b6badbb09a6117fd69298fb26207616bc687ac1ce887dbde7bd16dd5c4a887"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/measurements.json",
+      "sha256": "4fdef11c11542c4f5d738a416f2a6b09bdfb3cb87feee38c45b609d448d35c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/title-title.png",
+      "sha256": "8be634ff346d36240f421e55deade145a4cb54fdde3ba688e31e3efdc5c080fd"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/treasure-chamber.png",
+      "sha256": "7e4ab5f35a0f8e42177fcc9b085d69d332c74b046c87aa1bb5a60752e6493be9"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/treasure-treasure.png",
+      "sha256": "8682dd19dc1d185a929263d3a27acda0ae998a73d737c5f1ff4e6fc3ad525e68"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/vampirism-bonus.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    },
+    {
+      "path": "art/cosmic-horror/review/collection-symbols-04/webkit-768-2/vampirism-main.png",
+      "sha256": "1e059944cd342a0dd2dc2e5466514a18e82181d4748497f0c100a49b1ac84c0a"
+    }
+  ]
+}

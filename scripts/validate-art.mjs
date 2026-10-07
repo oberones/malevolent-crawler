@@ -12,6 +12,7 @@ import { inspectIco } from "./pack-ico.mjs";
 import { artObligations } from "./art-obligations.mjs";
 export { inspectPng } from "./image-inspection.mjs";
 /** Identify a measurement tuple so a different browser or scale cannot substitute.
+ * Unmeasured native targets retain their target ID without invented browser metadata.
  * @param {object} row Geometry measurement. @returns {string} Stable tuple key.
  */
 export function contextKey(row) {
@@ -21,6 +22,7 @@ export function contextKey(row) {
     row.viewport,
     row.textScale,
     row.dpr,
+    row.target ?? null,
   ]);
 }
 // Compare numeric CSS values with the contract tolerance, rejecting NaN and units other than pixels.

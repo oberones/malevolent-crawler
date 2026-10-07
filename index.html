@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/rpg-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="icon" type="image/png" href="./assets/icon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
     <script src="./assets/js/howler.min.js"></script>
     <title>The Bell Beneath Brine</title>
   </head>
@@ -36,7 +36,10 @@
       <!-- Title Screen -->
       <section id="title-screen" class="game-container">
         <div>
-          <i class="fa-solid fa-dungeon fa-5x"></i>
+          <span
+            data-symbol-role="title"
+            data-symbol-context="title/title"
+          ></span>
           <h1 id="title-heading">The Bell Beneath Brine</h1>
         </div>
         <p id="title-prompt">Begin the sounding</p>
@@ -81,26 +84,58 @@
         <div class="stat-panel">
           <div class="box">
             <h4>Stats</h4>
-            <p><i class="fas fa-heart"></i>HP: <span id="player-hp"></span></p>
-            <p><i class="ra ra-sword"></i>ATK: <span id="player-atk"></span></p>
             <p>
-              <i class="ra ra-round-shield"></i>DEF:
+              <span
+                data-symbol-role="health"
+                data-symbol-context="health/main"
+              ></span
+              >HP: <span id="player-hp"></span>
+            </p>
+            <p>
+              <span
+                data-symbol-role="attack"
+                data-symbol-context="attack/main"
+              ></span
+              >ATK: <span id="player-atk"></span>
+            </p>
+            <p>
+              <span
+                data-symbol-role="defense"
+                data-symbol-context="defense/main"
+              ></span
+              >DEF:
               <span id="player-def"></span>
             </p>
             <p>
-              <i class="ra ra-plain-dagger"></i>ATK.SPD:
+              <span
+                data-symbol-role="attack-speed"
+                data-symbol-context="attack-speed/main"
+              ></span
+              >ATK.SPD:
               <span id="player-atkspd"></span>
             </p>
             <p>
-              <i class="ra ra-dripping-blade"></i>VAMP:
+              <span
+                data-symbol-role="vampirism"
+                data-symbol-context="vampirism/main"
+              ></span
+              >VAMP:
               <span id="player-vamp"></span>
             </p>
             <p>
-              <i class="ra ra-lightning-bolt"></i>C.RATE:
+              <span
+                data-symbol-role="critical-rate"
+                data-symbol-context="critical-rate/main"
+              ></span
+              >C.RATE:
               <span id="player-crate"></span>
             </p>
             <p>
-              <i class="ra ra-focused-lightning"></i>C.DMG:
+              <span
+                data-symbol-role="critical-damage"
+                data-symbol-context="critical-damage/main"
+              ></span
+              >C.DMG:
               <span id="player-cdmg"></span>
             </p>
           </div>

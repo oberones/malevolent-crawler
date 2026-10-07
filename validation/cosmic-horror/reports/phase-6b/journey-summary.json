@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "startTime": "2026-10-07T22:07:23.295Z",
+    "duration": 64657.29,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 24,
+    "flaky": 0
+  },
+  "failures": [
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "chromium",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "firefox",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature delayed: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic delayed: identity, equip and sale remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"loading\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature missing: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic missing: identity, equip and sale remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature corrupt: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic corrupt: identity, equip and sale remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"fallback\"\nReceived: undefined"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "creature fallback-missing: identity, victory and Claim remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined",
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\n  179 |         f.release();\n  180 |         await expect(f.page.locator(\"#combatPanel\")).toBeHidden();\n> 181 |       } else expect.soft(f.counts.fallback).toBe(1);\n      |                                             ^\n  182 |     } finally {\n  183 |       f.release();\n  184 |       await f.dispose();\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/art-failure.spec.mjs:181:45"
+      ]
+    },
+    {
+      "file": "browser/art-failure.spec.mjs",
+      "title": "relic fallback-missing: identity, equip and sale remain usable",
+      "project": "webkit",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"text\"\nReceived: undefined"
+      ]
+    }
+  ],
+  "scope": "T100 recovery assertions only; T104 owns consumer integration. All combat/inventory action and untransformed geometry assertions passed."
+}

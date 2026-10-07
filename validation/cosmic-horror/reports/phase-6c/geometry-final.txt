@@ -1,0 +1,50 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/symbol-geometry.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:45946) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 21 tests using 3 workers
+
+(node:45949) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (8.1s)
+  ✓   2 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (8.2s)
+  ✓   1 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (8.3s)
+  ✓   5 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (7.9s)
+  ✓   4 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (8.2s)
+  ✓   7 [chromium] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (184ms)
+(node:46026) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46027) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (8.3s)
+(node:46030) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (9.0s)
+  ✓  10 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (9.0s)
+  ✓   8 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (9.0s)
+  ✓  11 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (8.3s)
+  ✓  12 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (7.9s)
+  ✓  14 [firefox] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (282ms)
+(node:46106) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (8.1s)
+(node:46107) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46117) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (6.6s)
+  ✓  16 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (6.6s)
+  ✓  17 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (6.9s)
+  ✓  18 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (7.0s)
+  ✓  19 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (7.0s)
+  ✓  21 [webkit] › tests/browser/symbol-geometry.spec.mjs:397:1 › favicon reference describes the ICO delivery (299ms)
+  ✓  20 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (7.0s)
+
+  21 passed (50.6s)

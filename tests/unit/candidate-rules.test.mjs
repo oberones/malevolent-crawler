@@ -24,7 +24,7 @@ for (const file of legacyFiles) {
     assert.equal(source.match(/^initializeGame\(\);$/gm)?.length, 1);
     source = source.replace(
       /^initializeGame\(\);$/m,
-      'gameReady = true; gameServices = { /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* The adapter uses the real item mutation boundary. */ get items() { return document.items; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
+      'gameReady = true; gameServices = { /* Symbols are inert in numerical replay; real geometry has browser coverage. */ symbol() { return document.createElement("span"); }, /* Authored slot mounting does not affect rules. */ mountSymbols() {}, /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* The adapter uses the real item mutation boundary. */ get items() { return document.items; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
     );
     source = "document.addEventListener = function () {};\n" + source;
   }
@@ -65,6 +65,12 @@ for (const corpus of ["encounters", "equipment", "progression"]) {
           node.append = /* Retain child identity without parsing markup. */ (
             ...children
           ) => node.children.push(...children);
+          node.replaceChildren =
+            /* Replace inert presentation children without parsing HTML. */ (
+              ...children
+            ) => {
+              node.children = children;
+            };
           node.querySelector =
             /* Return an inert nested presentation slot. */ () =>
               decorate(create());

@@ -201,7 +201,7 @@ for (const width of [360, 768, 1440]) {
           expect(result, variant.id).toMatchObject({
             naturalWidth: variant.width,
             naturalHeight: variant.height,
-            src: variant.path,
+            src: `/${variant.path}`,
             alt: variant.alt,
             name: `${encounter.displayName} Lv.${selected.lvl}`,
             playerName: `${resting.state.player.name} Lv.${resting.state.player.lvl} (0%)`,
