@@ -1,0 +1,159 @@
+{
+  "batch": "relic-weapons-a",
+  "task": "T082",
+  "date": "2026-10-07",
+  "candidateBaseRevision": "019fe6f7f11244c311eac5fcae8ef86e937ae55b",
+  "candidateState": "T082 assets and evidence only; UI and manifest join deferred to T087–T093",
+  "entries": [
+    {
+      "id": "relic-sword",
+      "identityId": "tideglass-edge",
+      "displayName": "Tideglass Edge",
+      "legacyCategory": "Sword",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T16:39:23.966Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11739-88c9-7aa0-bac2-66ed944681ed/exec-211f2a90-653f-403c-a2fe-0574db35e295.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/relic-weapons-a/masters/relic-sword.png",
+        "masterSha256": "54a69d9015e8f146de4a2c7e5bada4c414c65b066e290312765b5ebe35d4c470",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/relic-weapons-a/prompts/relic-sword.txt",
+        "promptSha256": "eba3e3d956003bfa2cdb32aa8c15a39d562ec1af1301694d2700e6e585e377d5",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "5c704715600afb8bd015639f20d5157972a944a2466a470a66c8d29dd4072c95",
+        "path": "assets/art/relic-sword.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/relic-weapons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Isolated art-production review; live UI, native and maintainer acceptance OPEN",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "relic-axe",
+      "identityId": "keelcleaver",
+      "displayName": "Keelcleaver",
+      "legacyCategory": "Axe",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T16:42:19.359Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11739-88c9-7aa0-bac2-66ed944681ed/exec-cd1fd01b-6dac-4410-9127-5775f997e7ef.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/relic-weapons-a/masters/relic-axe.png",
+        "masterSha256": "b507bd351e8e8de81404c1ca4c69c3bb1b5d9b4b1766003e1d3694f199d12d63",
+        "masterDimensions": {
+          "width": 1230,
+          "height": 1278
+        },
+        "promptPath": "art/cosmic-horror/batches/relic-weapons-a/prompts/relic-axe.txt",
+        "promptSha256": "369bf6ab037febf501ffd16da457c6465f6aaf6c81468335e5125cd508417725",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "d3df9824bb692a65ca96de7d5ad1a41ad15094d1467c3e380ab43510c281f8b7",
+        "path": "assets/art/relic-axe.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/relic-weapons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Isolated art-production review; live UI, native and maintainer acceptance OPEN",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "relic-hammer",
+      "identityId": "sounding-maul",
+      "displayName": "Sounding Maul",
+      "legacyCategory": "Hammer",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T16:42:55.999Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a11739-88c9-7aa0-bac2-66ed944681ed/exec-02fe5344-8de7-47a0-8444-58671439e5df.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/relic-weapons-a/masters/relic-hammer.png",
+        "masterSha256": "a582c1ff43813c9b1276c374eacdafe3b2b336ce491f9d1544b3c10469b22833",
+        "masterDimensions": {
+          "width": 1245,
+          "height": 1263
+        },
+        "promptPath": "art/cosmic-horror/batches/relic-weapons-a/prompts/relic-hammer.txt",
+        "promptSha256": "00730da6ecaf7cfa083a31c32764b2d2b96502dd71b5398123966cfcede4a05c",
+        "transparentBackground": true
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "82f0c993d2bfc1b5ae99952c69cf5460b05827405660762417c9a06008a60416",
+        "path": "assets/art/relic-hammer.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/relic-weapons-a/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Isolated art-production review; live UI, native and maintainer acceptance OPEN",
+        "date": "2026-10-07"
+      }
+    }
+  ]
+}

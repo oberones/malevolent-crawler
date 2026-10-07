@@ -264,8 +264,7 @@ const createEquipment =
         player.inventory.equipment.push(JSON.stringify(equipment));
 
         saveData();
-        showInventory();
-        showEquipment();
+        gameServices.items.render();
 
         const itemShow = {
           category: equipment.category,
@@ -315,276 +314,20 @@ const equipmentIcon =
     }
   };
 
-// Show full detail of the item
+// Resolve legacy entry points through the safe, revision-bound presentation owner.
 const showItemInfo =
-  /* Present one holding and bind its equip or sale actions. */ (
+  /* Open the requested current holding without trusting caller markup. */ (
     item,
     icon,
     type,
     i,
-  ) => {
-    sfxOpen.play();
-
-    dungeon.status.exploring = false;
-    const itemInfo = document.querySelector("#equipmentInfo");
-    const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
-    const dimContainer = document.querySelector(`#inventory`);
-    if (item.tier === undefined || item.tier === null) {
-      item.tier = 1;
-    }
-    itemInfo.style.display = "flex";
-    dimContainer.style.filter = "brightness(50%)";
-    itemInfo.innerHTML = `
-            <div class="content">
-                <h3>${icon}</h3>
-                <h5 class="lvltier ${item.rarity}"><b>Lv.${item.lvl} Tier ${item.tier}</b></h5>
-                <ul>
-                ${item.stats
-                  .map(
-                    /* Handle this control using the current view state and transition owner. */ (
-                      stat,
-                    ) => {
-                      if (
-                        Object.keys(stat)[0] === "critRate" ||
-                        Object.keys(stat)[0] === "critDmg" ||
-                        Object.keys(stat)[0] === "atkSpd" ||
-                        Object.keys(stat)[0] === "vamp"
-                      ) {
-                        return `<li>${Object.keys(stat)[0]
-                          .toString()
-                          .replace(/([A-Z])/g, ".$1")
-                          .replace(/crit/g, "c")
-                          .toUpperCase()}+${stat[Object.keys(stat)[0]].toFixed(2).replace(rx, "$1")}%</li>`;
-                      } else {
-                        return `<li>${Object.keys(stat)[0]
-                          .toString()
-                          .replace(/([A-Z])/g, ".$1")
-                          .replace(/crit/g, "c")
-                          .toUpperCase()}+${stat[Object.keys(stat)[0]]}</li>`;
-                      }
-                    },
-                  )
-                  .join("")}
-                </ul>
-                <div class="button-container">
-                    <button id="un-equip">${type}</button>
-                    <button id="sell-equip"><i class="fas fa-coins" style="color: #FFD700;"></i>${nFormatter(item.value)}</button>
-                    <button id="close-item-info">Close</button>
-                </div>
-            </div>`;
-
-    gameServices.narrative.itemLabel(itemInfo.querySelector("h3"), item);
-
-    // Equip/Unequip button for the item
-    const unEquip = document.querySelector("#un-equip");
-    unEquip.onclick =
-      /* Handle this control using the current view state and transition owner. */ function () {
-        // Commit only after this complete engine action and its nested work succeed.
-        return runGameplay(
-          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            if (type === "Equip") {
-              // Remove the item from the inventory and add it to the equipment
-              if (player.equipped.length >= 6) {
-                sfxDeny.play();
-              } else {
-                sfxEquip.play();
-
-                // Equip the item
-                player.inventory.equipment.splice(i, 1);
-                player.equipped.push(item);
-
-                itemInfo.style.display = "none";
-                dimContainer.style.filter = "brightness(100%)";
-                playerLoadStats();
-                saveData();
-                continueExploring();
-              }
-            } else if (type === "Unequip") {
-              sfxUnequip.play();
-
-              // Remove the item from the equipment and add it to the inventory
-              player.equipped.splice(i, 1);
-              player.inventory.equipment.push(JSON.stringify(item));
-
-              itemInfo.style.display = "none";
-              dimContainer.style.filter = "brightness(100%)";
-              playerLoadStats();
-              saveData();
-              continueExploring();
-            }
-          },
-        );
-      };
-
-    // Sell equipment
-    const sell = document.querySelector("#sell-equip");
-    sell.onclick =
-      /* Handle this control using the current view state and transition owner. */ function () {
-        // Commit only after this complete engine action and its nested work succeed.
-        return runGameplay(
-          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            sfxOpen.play();
-            itemInfo.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-        <div class="content">
-            <p></p>
-            <div class="button-container">
-                <button id="sell-confirm">Sell</button>
-                <button id="sell-cancel">Cancel</button>
-            </div>
-        </div>`;
-
-            gameServices.narrative.put("#defaultModal p", "inventory.sell", {
-              relic: item.category,
-              amount: item.value,
-            });
-            const confirm = document.querySelector("#sell-confirm");
-            const cancel = document.querySelector("#sell-cancel");
-            confirm.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sfxSell.play();
-
-                    // Sell the equipment
-                    if (type === "Equip") {
-                      player.gold += item.value;
-                      player.inventory.equipment.splice(i, 1);
-                    } else if (type === "Unequip") {
-                      player.gold += item.value;
-                      player.equipped.splice(i, 1);
-                    }
-
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    dimContainer.style.filter = "brightness(100%)";
-                    playerLoadStats();
-                    saveData();
-                    continueExploring();
-                  },
-                );
-              };
-            cancel.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sfxDecline.play();
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    itemInfo.style.display = "flex";
-                    continueExploring();
-                  },
-                );
-              };
-          },
-        );
-      };
-
-    // Close item info
-    const close = document.querySelector("#close-item-info");
-    close.onclick =
-      /* Handle this control using the current view state and transition owner. */ function () {
-        // Commit only after this complete engine action and its nested work succeed.
-        return runGameplay(
-          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            sfxDecline.play();
-
-            itemInfo.style.display = "none";
-            dimContainer.style.filter = "brightness(100%)";
-            continueExploring();
-          },
-        );
-      };
-  };
-
-// Show inventory
+  ) => gameServices.items.show(type === "Equip" ? "inventory" : "equipped", i);
 const showInventory =
-  /* Render each stored holding as a separate inventory entry. */ () => {
-    // Clear the inventory container
-    const playerInventoryList = document.getElementById("playerInventory");
-    playerInventoryList.innerHTML = "";
-
-    if (player.inventory.equipment.length === 0) {
-      playerInventoryList.textContent =
-        gameServices.narrative.text("inventory.empty");
-    }
-
-    for (let i = 0; i < player.inventory.equipment.length; i++) {
-      const item = JSON.parse(player.inventory.equipment[i]);
-
-      // Create an element to display the item's name
-      const itemDiv = document.createElement("div");
-      const icon = equipmentIcon(item.category);
-      itemDiv.className = "items";
-      itemDiv.innerHTML = `<p>${icon}</p>`;
-      gameServices.narrative.itemLabel(itemDiv.querySelector("p"), item);
-      itemDiv.addEventListener(
-        "click",
-        /* Handle this control using the current view state and transition owner. */ function () {
-          // Commit only after this complete engine action and its nested work succeed.
-          return runGameplay(
-            /* Keep this action and all nested mutations inside one save boundary. */ () => {
-              const type = "Equip";
-              showItemInfo(item, icon, type, i);
-            },
-          );
-        },
-      );
-
-      // Add the itemDiv to the inventory container
-      playerInventoryList.appendChild(itemDiv);
-    }
-  };
-
-// Show equipment
+  /* Refresh both holding lists under one shared render revision. */ () =>
+    gameServices.items.render();
 const showEquipment =
-  /* Render each occupied equipment slot without deduplicating holdings. */ () => {
-    // Clear the inventory container
-    const playerEquipmentList = document.getElementById("playerEquipment");
-    playerEquipmentList.innerHTML = "";
-
-    // Show a message if a player has no equipment
-    if (player.equipped.length === 0) {
-      playerEquipmentList.innerHTML = "Nothing equipped.";
-    }
-
-    for (let i = 0; i < player.equipped.length; i++) {
-      const item = player.equipped[i];
-
-      // Create an element to display the item's name
-      const equipDiv = document.createElement("div");
-      const icon = equipmentIcon(item.category);
-      equipDiv.className = "items";
-      equipDiv.innerHTML = `<button class="${item.rarity}">${icon}</button>`;
-      equipDiv.querySelector("button").setAttribute(
-        "aria-label",
-        gameServices.narrative.text("inventory.item", {
-          rarity: item.rarity,
-          relic: item.category,
-          level: item.lvl,
-          tier: item.tier ?? 1,
-        }),
-      );
-      equipDiv.addEventListener(
-        "click",
-        /* Handle this control using the current view state and transition owner. */ function () {
-          // Commit only after this complete engine action and its nested work succeed.
-          return runGameplay(
-            /* Keep this action and all nested mutations inside one save boundary. */ () => {
-              const type = "Unequip";
-              showItemInfo(item, icon, type, i);
-            },
-          );
-        },
-      );
-
-      // Add the equipDiv to the inventory container
-      playerEquipmentList.appendChild(equipDiv);
-    }
-  };
+  /* Refresh occupied slots together with inventory bindings. */ () =>
+    gameServices.items.render();
 
 // Apply the equipment stats to the player
 const applyEquipmentStats =
@@ -618,70 +361,12 @@ const applyEquipmentStats =
   };
 
 const unequipAll =
-  /* Return all equipped instances to inventory without losing duplicates. */ () => {
-    // Commit only after this complete engine action and its nested work succeed.
-    return runGameplay(
-      /* Keep this action and all nested mutations inside one save boundary. */ () => {
-        for (let i = player.equipped.length - 1; i >= 0; i--) {
-          const item = player.equipped[i];
-          player.equipped.splice(i, 1);
-          player.inventory.equipment.push(JSON.stringify(item));
-        }
-        playerLoadStats();
-        saveData();
-      },
-    );
-  };
-
+  /* Return every equipped instance through the checked item boundary. */ () =>
+    gameServices.items.bulk("unequip-all");
 const sellAll =
-  /* Sell only the selected rarity and preserve all other holdings. */ (
+  /* Preserve legacy sale order and rarity filters through the item boundary. */ (
     rarity,
-  ) => {
-    // Commit only after this complete engine action and its nested work succeed.
-    return runGameplay(
-      /* Keep this action and all nested mutations inside one save boundary. */ () => {
-        if (rarity === "All") {
-          if (player.inventory.equipment.length !== 0) {
-            sfxSell.play();
-            for (let i = 0; i < player.inventory.equipment.length; i++) {
-              const equipment = JSON.parse(player.inventory.equipment[i]);
-              player.gold += equipment.value;
-              player.inventory.equipment.splice(i, 1);
-              i--;
-            }
-            playerLoadStats();
-            saveData();
-          } else {
-            sfxDeny.play();
-          }
-        } else {
-          let rarityCheck = false;
-          for (let i = 0; i < player.inventory.equipment.length; i++) {
-            const equipment = JSON.parse(player.inventory.equipment[i]);
-            if (equipment.rarity === rarity) {
-              rarityCheck = true;
-              break;
-            }
-          }
-          if (rarityCheck) {
-            sfxSell.play();
-            for (let i = 0; i < player.inventory.equipment.length; i++) {
-              const equipment = JSON.parse(player.inventory.equipment[i]);
-              if (equipment.rarity === rarity) {
-                player.gold += equipment.value;
-                player.inventory.equipment.splice(i, 1);
-                i--;
-              }
-            }
-            playerLoadStats();
-            saveData();
-          } else {
-            sfxDeny.play();
-          }
-        }
-      },
-    );
-  };
+  ) => gameServices.items.bulk("sell-all", rarity);
 
 const createEquipmentPrint =
   /* Add a rolled item to the appropriate reward presentation. */ (

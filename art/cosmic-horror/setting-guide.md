@@ -1,5 +1,13 @@
 # The Bell Beneath Brine — shared setting guide
 
+## Small-icon production guidance — T082 pilot
+
+The Tideglass Edge pilot was inspected at the recorded 16–43 CSS-pixel footprints on 2026-10-07. Its continuous pale blade, short broad guard and dark grip retain a sword cue at the smallest size. The automated art-proof matrix covers six contexts, three engines, three viewports and both recorded text scales (108 tuples). These isolated proofs do not establish live UI spacing/baselines or native acceptance.
+
+For subsequent relics, use one isolated object per transparent master, a strong category-specific silhouette, broad nacre/bronze highlights against deep ink, sparse detail and a narrow safe margin. Weapons use a diagonal full-object composition; armor, wards and helms use a frontal silhouette. Preserve catalog names and descriptions. Avoid thin essential details, diffuse glow, frames, lettering and scenery. Keep armor, shield and helmet outlines distinct even when their historical glyph was shared.
+
+Prepare each icon proportionally into a 128 × 128 transparent PNG using the tested Sharp contain pipeline, without cropping or stretching. This is a new raster resolution, not an original glyph dimension: original glyph dimensions remain not applicable. Render proofs at each immutable measured context size, never at the raster's intrinsic size. Shared symbol-view integration and baseline/spacing verification belong to T087–T093. Native tuples without a measured baseline remain BLOCKED; maintainer artwork acceptance remains OPEN.
+
 Content version 1. Authored 2026-10-06 for T020. IDs and names below are the shared contract for narrative, art and migration. This guide does not certify generated artwork or runtime integration.
 
 ## Setting and voice

@@ -33,7 +33,7 @@ export async function measureSymbols(page, contexts) {
         if (nodes.length !== 1)
           throw new Error(`Expected exactly one symbol: ${context.id}`);
         const node = nodes[0];
-        const box = node.getBoundingClientRect();
+        let box = node.getBoundingClientRect();
         const style = getComputedStyle(node);
         if (!box.width || !box.height || style.visibility !== "visible")
           throw new Error(`Symbol must be visible: ${context.id}`);
@@ -49,6 +49,8 @@ export async function measureSymbols(page, contexts) {
           // Flex/grid siblings do not share an inline formatting context with the glyph.
           if (/flex|grid/.test(parentDisplay)) node.append(probe);
           else node.after(probe);
+          // Probe insertion can reflow a centered panel; both edges must use the same layout.
+          box = node.getBoundingClientRect();
           const baseline = probe.getBoundingClientRect().top;
           rows.push({
             id: context.id,

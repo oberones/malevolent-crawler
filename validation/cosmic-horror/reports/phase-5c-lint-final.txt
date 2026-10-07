@@ -1,0 +1,13 @@
+npm notice run malevolent-crawler@0.0.0 lint
+npm notice run eslint .
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs
+  1:11  error  'enemy' is defined but never used  no-unused-vars
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-baseline-regression.spec.mjs
+  1:21  error  'player' is defined but never used   no-unused-vars
+  1:38  error  'dungeon' is defined but never used  no-unused-vars
+  1:56  error  'enemy' is defined but never used    no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+

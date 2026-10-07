@@ -1,3 +1,4 @@
+import { createItemView } from "./item-view.mjs";
 import { createModalBridge } from "./modal-bridge.mjs";
 import { createOutcomeView } from "./outcome-view.mjs";
 import { createEntryView } from "./entry-view.mjs";
@@ -18,6 +19,7 @@ export function createGameServices({
   replace,
   report,
   document,
+  itemEffects,
 }) {
   const store = createSnapshotStore({ storage, now, eventTarget });
   const transitions = createTransitions({
@@ -43,6 +45,15 @@ export function createGameServices({
   return {
     status,
     loaded,
+    items:
+      document && itemEffects
+        ? createItemView({
+            document,
+            ...itemEffects,
+            // Read the live player, including replacements on reset/import.
+            getPlayer: () => capture().player,
+          })
+        : null,
     narrative: document
       ? {
           ...createOutcomeView(document),

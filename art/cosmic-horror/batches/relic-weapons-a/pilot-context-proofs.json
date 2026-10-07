@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 148,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 586.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 212,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-detail.png",
+    "baselineBox": {
+      "x": 56.328125,
+      "y": 347.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 276,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-sale.png",
+    "baselineBox": {
+      "x": 123.234375,
+      "y": 371.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 345,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 409,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.671875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 473,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-1.png",
+    "screenshotSha256": "f816f6491e8cab73ddd57f87beaeda6996f5cb652eb7bc9c157f6a0dd448f3ec",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 281.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 148,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 228,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-detail.png",
+    "baselineBox": {
+      "x": 12.484375,
+      "y": 248.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 308,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 398,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 478,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 590.9375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 558,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-360-2.png",
+    "screenshotSha256": "7e8f8589a3be554c3fe20c4dced84477190fc0e3a0e1938818540c79ee19c74a",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 698.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-detail.png",
+    "baselineBox": {
+      "x": 260.328125,
+      "y": 459.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-sale.png",
+    "baselineBox": {
+      "x": 327.234375,
+      "y": 483.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 308,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 372,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 574.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 436,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-1.png",
+    "screenshotSha256": "02c287eae4ff85270d97cd82b2199cc0f65f1253705298bdc1de0bdc3cd7a681",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 393.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 388,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-sale.png",
+    "baselineBox": {
+      "x": 272.875,
+      "y": 460.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 361,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 441,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 684.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 521,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-768-2.png",
+    "screenshotSha256": "12175fe21bac54a477a4e7283e21fdea0027b03d1b14b1a6d57c1877142ea72b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 636.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-detail.png",
+    "baselineBox": {
+      "x": 596.328125,
+      "y": 397.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-sale.png",
+    "baselineBox": {
+      "x": 663.234375,
+      "y": 421.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 308,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 372,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 512.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 436,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-1.png",
+    "screenshotSha256": "dfc406ed24165411b1cf9974e42ccb2b7ce5044a727f96d5995b9effbf89c0bb",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 331.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 326,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-sale.png",
+    "baselineBox": {
+      "x": 608.875,
+      "y": 398.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 361,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 441,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 622.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 521,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-chromium-1440-2.png",
+    "screenshotSha256": "2289e620ae9fc1f4b92ff357dd2bd2c73af187ceee8a08dff0ed0770a1bdb762",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 64.19999694824219,
+      "y": 212.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 584.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 185,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-detail.png",
+    "baselineBox": {
+      "x": 56.69999694824219,
+      "y": 344.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 248,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-sale.png",
+    "baselineBox": {
+      "x": 123.23333740234375,
+      "y": 369.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 317,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.800003051757812,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 380,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 47.80000305175781,
+      "y": 441.95001220703125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 443,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-1.png",
+    "screenshotSha256": "9a3f25b553acbab85d2591d79a0aa09eff2cebc5140c375ad2161b57ee86d766",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 201,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 280,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 370,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 449,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 528,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-360-2.png",
+    "screenshotSha256": "bfe37512fb8a5d1e4585f6b7179132d97ee01645a95e41bd3b4115bf79ce0d82",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 268.20001220703125,
+      "y": 324.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 696.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-detail.png",
+    "baselineBox": {
+      "x": 260.70001220703125,
+      "y": 456.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-sale.png",
+    "baselineBox": {
+      "x": 327.23333740234375,
+      "y": 481.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 302,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.8000030517578,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 365,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 223.8000030517578,
+      "y": 577.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 428,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-1.png",
+    "screenshotSha256": "134a40a966e73995ae0eaa6be56bc318fbe6e90fc93f5c92cec1ba6566f39a25",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 279.3999938964844,
+      "y": 397.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 660.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-detail.png",
+    "baselineBox": {
+      "x": 201.86666870117188,
+      "y": 405.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-sale.png",
+    "baselineBox": {
+      "x": 272.8833312988281,
+      "y": 460.08331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 355,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.8000030517578,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 434,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 239.8000030517578,
+      "y": 691.9000244140625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 513,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-768-2.png",
+    "screenshotSha256": "c43e85229764310c7f2f4195c155a58bdbd12a5b50b6355b223e1e47d2f94ba7",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 604.2000122070312,
+      "y": 262.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 634.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-detail.png",
+    "baselineBox": {
+      "x": 596.7000122070312,
+      "y": 394.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-sale.png",
+    "baselineBox": {
+      "x": 663.2333374023438,
+      "y": 419.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 302,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.79998779296875,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 365,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 559.7999877929688,
+      "y": 515.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 428,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-1.png",
+    "screenshotSha256": "2df8f98986225eabcd7c34bf8459baa648cfe615f3e6b78aada0601d6b75210d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 615.4000244140625,
+      "y": 335.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 598.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-detail.png",
+    "baselineBox": {
+      "x": 537.86669921875,
+      "y": 343.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-sale.png",
+    "baselineBox": {
+      "x": 608.88330078125,
+      "y": 398.08331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 355,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.79998779296875,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 434,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 575.7999877929688,
+      "y": 629.9000244140625,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 513,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-firefox-1440-2.png",
+    "screenshotSha256": "b1e529bf307dd65881bcd45ca39cdf3b2436e6dcf4a857d6eef7a0988db9876f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 255,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-sale.png",
+    "baselineBox": {
+      "x": 123.2421875,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 323.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 387.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 451.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-1.png",
+    "screenshotSha256": "49d9f8eb2d9d0ccd2a940d39eeadf077de0634ee780a40983ada88a299ffaaa3",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 283.4296875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 207,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-detail.png",
+    "baselineBox": {
+      "x": 16.234375,
+      "y": 248.19921875,
+      "width": 41.599998474121094,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 287,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 376.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 456.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 633.401611328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 536.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-360-2.png",
+    "screenshotSha256": "cd92e7700908a1ba7972b1a1b42ef901127c9c6b74dde4a00344d96663e6f25b",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 699.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-detail.png",
+    "baselineBox": {
+      "x": 260.65625,
+      "y": 460.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-sale.png",
+    "baselineBox": {
+      "x": 327.2421875,
+      "y": 482.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 307.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 371.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 573.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 435.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-1.png",
+    "screenshotSha256": "94ac7b3f5e34b1412e72ccf6b133e73a5752ef6343eec140b55b69b9652a4891",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 395.4296875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-detail.png",
+    "baselineBox": {
+      "x": 201.828125,
+      "y": 406.69921875,
+      "width": 41.600006103515625,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-sale.png",
+    "baselineBox": {
+      "x": 272.875,
+      "y": 460.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 440.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 684.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 520.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-768-2.png",
+    "screenshotSha256": "6a2af57adffa7ab7129bc2b8da419b609b595b9a376eb354c3b5eb0cc2113bff",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 637.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-detail.png",
+    "baselineBox": {
+      "x": 596.65625,
+      "y": 398.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-sale.png",
+    "baselineBox": {
+      "x": 663.2421875,
+      "y": 420.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 307.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 371.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 511.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 435.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-1.png",
+    "screenshotSha256": "10d458106ae74a8c19eb82f1da622a9c40914f3428b21aced7550757a761799d",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 333.4296875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-detail.png",
+    "baselineBox": {
+      "x": 537.828125,
+      "y": 344.69921875,
+      "width": 41.5999755859375,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-sale.png",
+    "baselineBox": {
+      "x": 608.875,
+      "y": 398.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 440.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-sword",
+    "contextId": "sword/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 622.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 520.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-weapons-a/pilot-webkit-1440-2.png",
+    "screenshotSha256": "cc522fd0b5a9dd98eef5907bda595338a1914ebc35ac0b9a3f736aefee9c25d0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  }
+]

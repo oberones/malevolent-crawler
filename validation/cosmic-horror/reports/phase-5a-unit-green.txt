@@ -1,0 +1,21 @@
+✔ duplicate inventory and equipped holdings move once with original representations (1.756875ms)
+✔ reject stale binding after render and request a fresh view (0.149125ms)
+✔ reject stale binding after splice and request a fresh view (0.0975ms)
+✔ reject stale binding after append and request a fresh view (0.09525ms)
+✔ reject stale binding after edit and request a fresh view (0.086958ms)
+✔ reject stale binding after replace and request a fresh view (0.085208ms)
+✔ reject stale binding after array and request a fresh view (0.070667ms)
+✔ reject stale binding after swap-duplicates and request a fresh view (0.077792ms)
+✔ invalid positions, forged bindings and wrong actions cannot mutate holdings (0.276583ms)
+✔ six slots reject a seventh, then a fresh action can equip after unequip (0.258666ms)
+✔ all 84 category/rarity items retain stats, values and category across actions (7.048625ms)
+✔ bulk unequip retains reverse legacy order; rarity sales preserve unmatched bytes (0.372709ms)
+✔ invalid item, filter and empty selection reject atomically (0.23775ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.18

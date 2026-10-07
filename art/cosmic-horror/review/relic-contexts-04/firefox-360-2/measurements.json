@@ -1,0 +1,3614 @@
+[
+  {
+    "id": "sword/inventory",
+    "assetId": "relic-sword",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-inventory.png",
+    "screenshotSha256": "8eb115db61af0b8f15309037b5ea8478040f32c8b7118c940eb8dbe74dd552da",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/equipped",
+    "assetId": "relic-sword",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-equipped.png",
+    "screenshotSha256": "f0b5fdc4bf597449f2a15a2dd362792d836a649ddc6658b66a91f6f6377f0537",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/detail",
+    "assetId": "relic-sword",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-detail.png",
+    "screenshotSha256": "ef4495cda00e8550b6a78cc8ef9945221693d97eeed3c1153ba01f36c91d7602",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/sale",
+    "assetId": "relic-sword",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-sale.png",
+    "screenshotSha256": "08074793d1be52c4d77477c277d5a836bc98640a85376ecd4ba9e144751be6ce",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/dungeon-reward",
+    "assetId": "relic-sword",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-dungeon-reward.png",
+    "screenshotSha256": "e0a036cbf1599c37bc66aed3732ab9e127f2f92273696dd0a15907d9a89451f1",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/combat-reward",
+    "assetId": "relic-sword",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/sword-combat-reward.png",
+    "screenshotSha256": "9e36cfe298f2d892fec5e875de0d585e2760ff7f8306963212de1f32f4424ead",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/inventory",
+    "assetId": "relic-axe",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-inventory.png",
+    "screenshotSha256": "45aca1d8a5e364ea9f6acb8a5c48c67d3e3752241ab087105a497a77c8fa24fe",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/equipped",
+    "assetId": "relic-axe",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-equipped.png",
+    "screenshotSha256": "de3234cbf697379416ac5496205675b76e2800423516c518d1291ade52084a83",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/detail",
+    "assetId": "relic-axe",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-detail.png",
+    "screenshotSha256": "6663fcf1ea7b79dd021f8663facd3e6ce68255be0d4e914f7393941a55779540",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 274.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/sale",
+    "assetId": "relic-axe",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-sale.png",
+    "screenshotSha256": "d54b973a0c2be5b8ab7bd386ab729bc08fcbe4b879044acb9ebd98f2f8447cc7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/dungeon-reward",
+    "assetId": "relic-axe",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-dungeon-reward.png",
+    "screenshotSha256": "80731d0a654338b29d21086cf0244227eaa651157a482dc3b5833a3cd82fb5d3",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/combat-reward",
+    "assetId": "relic-axe",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/axe-combat-reward.png",
+    "screenshotSha256": "9abffa4edcd706cd76c169436b6111abe125dbfc9ebf7ca7eaa70aec5c59a3e0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/axe-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/inventory",
+    "assetId": "relic-hammer",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-inventory.png",
+    "screenshotSha256": "98f0eae8bba135de7943ced859fbca73c56853109ebda286ef2c1584747a80cd",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/equipped",
+    "assetId": "relic-hammer",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-equipped.png",
+    "screenshotSha256": "26116567104c7b203824b480bb26769402abbd2e323c8bf777aca8c6d62a0e91",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/detail",
+    "assetId": "relic-hammer",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-detail.png",
+    "screenshotSha256": "afc0f2a043c71223958dc2f0a291bec4a199ad2eb655c17c8f37afcf87815438",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/sale",
+    "assetId": "relic-hammer",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-sale.png",
+    "screenshotSha256": "15e9654ccf81c755832c3248623c83e6a6590dac8efb3113846ed68a0195be52",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/dungeon-reward",
+    "assetId": "relic-hammer",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-dungeon-reward.png",
+    "screenshotSha256": "487423bf7e897b2f6b3b23bd4149e66950f53f0eb93ec14044a1efe593ca1eb4",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/combat-reward",
+    "assetId": "relic-hammer",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/hammer-combat-reward.png",
+    "screenshotSha256": "c0574ac1056f2c5ffd7b6c99127df5aadfc191e0372d653e962345cdc8aa2d36",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/hammer-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/inventory",
+    "assetId": "relic-dagger",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-inventory.png",
+    "screenshotSha256": "52fa31819ba5925a8e52e2047b25ade3e22a169bd37f36b9cb456c440cf76ac6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/equipped",
+    "assetId": "relic-dagger",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-equipped.png",
+    "screenshotSha256": "7558e4a54dcdfdfd9fdbd63c3fa3ecf9dfba824e2b322b615e69bdb17a61b742",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/detail",
+    "assetId": "relic-dagger",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-detail.png",
+    "screenshotSha256": "a4b62ba0f408d4dc8ee12444516dee8faee70cafce6e2c5282b2f0b75ce4b613",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/sale",
+    "assetId": "relic-dagger",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-sale.png",
+    "screenshotSha256": "3752fcdfa2a7fc05d46e18deac9134dc3c21d072ed418d723204b126c3d1d27c",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/dungeon-reward",
+    "assetId": "relic-dagger",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-dungeon-reward.png",
+    "screenshotSha256": "016f7df43273dc8c7a80d74d21461c92984d200b07c3349d56752d1c5c4c40c7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/combat-reward",
+    "assetId": "relic-dagger",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/dagger-combat-reward.png",
+    "screenshotSha256": "2f479465cc431d3697f0eef65dbacd0bab6b51c524dec75ec677ce2a4e277470",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/dagger-combat-reward.png",
+    "baselineBox": {
+      "x": 57.81666564941406,
+      "y": 561.38330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/inventory",
+    "assetId": "relic-flail",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-inventory.png",
+    "screenshotSha256": "5a241839d218316654a2e2989e3f29057b15f4fdaaa9e5dbb890779d00f25013",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/equipped",
+    "assetId": "relic-flail",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-equipped.png",
+    "screenshotSha256": "d6f1255f4c0a14a7be6f537ab3c7f12f2c45bbd1e84e514e0db315add35a2f8a",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/detail",
+    "assetId": "relic-flail",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-detail.png",
+    "screenshotSha256": "e195c16b05b18b0b3c223d332cb640a1410823cc68d3bd1377db5e60a74ce332",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 274.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/sale",
+    "assetId": "relic-flail",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-sale.png",
+    "screenshotSha256": "0ca3538aeecb10033a1f33e3d5ea2bb137f1663660b64065a51c02e6ea0dae50",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/dungeon-reward",
+    "assetId": "relic-flail",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-dungeon-reward.png",
+    "screenshotSha256": "6c95750508ace7de7fa61171a5fccf496c92ca2354223408fab9c9330142132b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/combat-reward",
+    "assetId": "relic-flail",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/flail-combat-reward.png",
+    "screenshotSha256": "3c1f37a917903858d48f70e8bd2a1845bbe771ead5afdabb46aada24c2df0d8b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/flail-combat-reward.png",
+    "baselineBox": {
+      "x": 57.81666564941406,
+      "y": 561.38330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/inventory",
+    "assetId": "relic-scythe",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-inventory.png",
+    "screenshotSha256": "2c1d6407e756f5d3143a7d828b3b32e2aaf2f85872e41b8c95091bd6bf232de1",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/equipped",
+    "assetId": "relic-scythe",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-equipped.png",
+    "screenshotSha256": "146aba22ee0f14356dd5cfaef5a7cf185c0dbb1cb3c30d8138538f39ee2de969",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/detail",
+    "assetId": "relic-scythe",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 102.16667175292969,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-detail.png",
+    "screenshotSha256": "245488211efdbc36e4f89673d97b82626a6e03abcfeb40746a974a22188c645a",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/sale",
+    "assetId": "relic-scythe",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-sale.png",
+    "screenshotSha256": "ad84654411183d61e506f02e88348a5f070fa4d740df824706bbe034d11409d7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/dungeon-reward",
+    "assetId": "relic-scythe",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-dungeon-reward.png",
+    "screenshotSha256": "05d7792f5715beac45aa1966d5b2d427638f25c16bcbca8727b6e6401691ae55",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/combat-reward",
+    "assetId": "relic-scythe",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/scythe-combat-reward.png",
+    "screenshotSha256": "0aad9fba33d80c892a78f22828a8488182a52764a35c01219fbf9fd248413861",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/scythe-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/inventory",
+    "assetId": "relic-plate",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-inventory.png",
+    "screenshotSha256": "489e140369dca507ef2000273da362a45eeaa972bccdc66ffb615b39708789ba",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/equipped",
+    "assetId": "relic-plate",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-equipped.png",
+    "screenshotSha256": "e6b0f0c7d846eccc9242bbf49dadc06abe8743bd044ef2bb25c51d694ef0aa89",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/detail",
+    "assetId": "relic-plate",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 102.16667175292969,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-detail.png",
+    "screenshotSha256": "1e879363cc49fb30402daf2e825c050874fd0e12633fc1c88fb9862a8996061e",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 274.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/sale",
+    "assetId": "relic-plate",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-sale.png",
+    "screenshotSha256": "791b2505e7c6f3b86f834907ce45b5b518dc381183e2f29f706f5e4820114236",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/dungeon-reward",
+    "assetId": "relic-plate",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-dungeon-reward.png",
+    "screenshotSha256": "a026edb5cae390777cbc47b279c2640b503f29deceddaa2315fc207edd74a3e5",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/combat-reward",
+    "assetId": "relic-plate",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/plate-combat-reward.png",
+    "screenshotSha256": "1bc7c670a94aadbafd38670ebcf1b2762743878829fe727af73a73df8a3db971",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/plate-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/inventory",
+    "assetId": "relic-chain",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-inventory.png",
+    "screenshotSha256": "7f086a3b3b23d84d2c9e75566cecd4e0816d6d31c8a614029752ec4a6eb7bc35",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/equipped",
+    "assetId": "relic-chain",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-equipped.png",
+    "screenshotSha256": "9d94d12122213d79503d2e0004d7b09eec95f17d0060fd95f4dae357e20195ba",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/detail",
+    "assetId": "relic-chain",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-detail.png",
+    "screenshotSha256": "3d5bdeef9de4c9676445be79cc5036fc44ba66b45570d7f7b56a315ed344105c",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/sale",
+    "assetId": "relic-chain",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-sale.png",
+    "screenshotSha256": "ebaf33316db6cafcb1fefc6507b258181f764076577b9e3a1e36457595bbfb25",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/dungeon-reward",
+    "assetId": "relic-chain",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-dungeon-reward.png",
+    "screenshotSha256": "43698c88d3e010770974e61e8af4bdb2ccd65104d5a5d308b14621891d43e3df",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/combat-reward",
+    "assetId": "relic-chain",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/chain-combat-reward.png",
+    "screenshotSha256": "fcc33fa5c232a2a4ffb4e68cce55a390d5637be577f97aec1f7b44a00101b1f2",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/chain-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/inventory",
+    "assetId": "relic-leather",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-inventory.png",
+    "screenshotSha256": "e1a7f98ce41f9d06ac1646ecdbd9fd850cf0e8eac33d12c15d4b1e18bd27281b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/equipped",
+    "assetId": "relic-leather",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-equipped.png",
+    "screenshotSha256": "5cdd48e4846c8a58a6a0c5da1ed15adb4f95a708fd812d1b9ef6f47ede93dc96",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/detail",
+    "assetId": "relic-leather",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-detail.png",
+    "screenshotSha256": "3068f56b2606cc29f7ce10eec80e89d96790278e2883f955c2296e3a1c872a7b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/sale",
+    "assetId": "relic-leather",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-sale.png",
+    "screenshotSha256": "f5d28f8bfa94953c565dc2abc92bb159ef538e0643a8dc5c4d59c472e78c66f1",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/dungeon-reward",
+    "assetId": "relic-leather",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-dungeon-reward.png",
+    "screenshotSha256": "299eddd689521b6978ed4bf854aa18cdc2f887f17d2f2705f50af6f89701a45d",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/combat-reward",
+    "assetId": "relic-leather",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/leather-combat-reward.png",
+    "screenshotSha256": "476c3780b76635efc7c2af76e1e35e237249c2652b08b3aefcee6f909173b555",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/leather-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/inventory",
+    "assetId": "relic-tower",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-inventory.png",
+    "screenshotSha256": "44420f705c6a3fe846a3112f4db02b121410500394def193b3bb56e07f36ab34",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/equipped",
+    "assetId": "relic-tower",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-equipped.png",
+    "screenshotSha256": "a49d2540d9834b7d288707c7085c5f4c7f78e6a1832304c4b5275719f9bfb308",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/detail",
+    "assetId": "relic-tower",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 102.16667175292969,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-detail.png",
+    "screenshotSha256": "0c1419e1128886ce80ab0b7f9005ed3bda6df7a6edb65491d8e67a786f9bd309",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/sale",
+    "assetId": "relic-tower",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-sale.png",
+    "screenshotSha256": "75cdfab33af98c6c4703638149367a95daf4bdc69c82f66404e8f756e10a0504",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/dungeon-reward",
+    "assetId": "relic-tower",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-dungeon-reward.png",
+    "screenshotSha256": "d623fef865c1bd3deb06b21b09c073a0aa5f9a578cbe8e315fa76cafa090fed6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/combat-reward",
+    "assetId": "relic-tower",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/tower-combat-reward.png",
+    "screenshotSha256": "6df8ced15b96676f29b0a1dd2320146a3aed6686b4fae92db6824d0eb1be29ab",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/tower-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/inventory",
+    "assetId": "relic-kite",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-inventory.png",
+    "screenshotSha256": "c38fd75461b0eb678dae2b9dd69e39b159e47816909bcda7bd4ec9c12f76fffc",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/equipped",
+    "assetId": "relic-kite",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-equipped.png",
+    "screenshotSha256": "f74044c806295c9912ccd7f4e209164da54c9bea53d75afbcae6f4aa429f4fb4",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/detail",
+    "assetId": "relic-kite",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-detail.png",
+    "screenshotSha256": "42897aab154eff4651445477c2802ecde5cd54024a54be9ef8151e7e6a3ef17e",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 274.1333312988281,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/sale",
+    "assetId": "relic-kite",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-sale.png",
+    "screenshotSha256": "b384f7be7ef62076163e5aa176d4f7efb0ffe5341fbd3c16e9b891035af85d94",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-sale.png",
+    "baselineBox": {
+      "x": 87.43333435058594,
+      "y": 348.08331298828125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/dungeon-reward",
+    "assetId": "relic-kite",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-dungeon-reward.png",
+    "screenshotSha256": "daa1985dc1e85f1a1622599bbbebb4efe993ec68572e4efbfa1df352ffb2e832",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/combat-reward",
+    "assetId": "relic-kite",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/kite-combat-reward.png",
+    "screenshotSha256": "757bf50d7be9d7109b857888f57f932a4a840686cac1a19ef82dc7a2d67c0fe0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/kite-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 600.2999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/inventory",
+    "assetId": "relic-buckler",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-inventory.png",
+    "screenshotSha256": "992154901040f2e0f056bc092a131b28a9250c7225c05993c4e3a3e38d363e59",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/equipped",
+    "assetId": "relic-buckler",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-equipped.png",
+    "screenshotSha256": "e61b3e209e06bfff1aa3861df9d6a2684794783c86eb7c0b34c63aac8fdbac49",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/detail",
+    "assetId": "relic-buckler",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 130.28334045410156,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-detail.png",
+    "screenshotSha256": "0ddbb25d916231ec0eb34c4aab6c0dfb875d48fd2c2eaed87ebfa726605e88db",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/sale",
+    "assetId": "relic-buckler",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-sale.png",
+    "screenshotSha256": "20e4fc779e5699fdc50adb13d19b3112405a0a9aa0035f39ee8ec05df386e813",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/dungeon-reward",
+    "assetId": "relic-buckler",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-dungeon-reward.png",
+    "screenshotSha256": "6e88188dd1880c2c5734fbee0e042f1f57f1a2ed4cbd61625725a804893edc82",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/combat-reward",
+    "assetId": "relic-buckler",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/buckler-combat-reward.png",
+    "screenshotSha256": "b450559cce3c6afcb32bc8dfea782da383df18d7b9896c7ca489ead9575e51c4",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/buckler-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/inventory",
+    "assetId": "relic-great-helm",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-inventory.png",
+    "screenshotSha256": "503dd2f0adbb9334c3cf0380083d112b4d6f60b520b1d6840206ec9b02b0e244",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/equipped",
+    "assetId": "relic-great-helm",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-equipped.png",
+    "screenshotSha256": "be87379891b2e65fab03ed14b6daed125ab1ded85620a148517868efd3bf3436",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/detail",
+    "assetId": "relic-great-helm",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 102.16667175292969,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-detail.png",
+    "screenshotSha256": "94ea531718d8b1c574af791890f9508ef770b6402e40e139e1e5494befceeb0b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/sale",
+    "assetId": "relic-great-helm",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-sale.png",
+    "screenshotSha256": "6ce474ee5138907c5f754917bc27e1fe9a37754030fb06f5fa2bb087aa7d684f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/dungeon-reward",
+    "assetId": "relic-great-helm",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-dungeon-reward.png",
+    "screenshotSha256": "0c0bdcc7603fb67b23b8f4d575cc1b60f1ce7f431d5823aa69fcce3e33633303",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/combat-reward",
+    "assetId": "relic-great-helm",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/great-helm-combat-reward.png",
+    "screenshotSha256": "d7a9c454fd232ddccf8c83fd3548ded61ccde177df137d3d7e8734b622ed8f76",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/inventory",
+    "assetId": "relic-horned-helm",
+    "stage": "inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 75.39999389648438,
+      "y": 548.63330078125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-inventory.png",
+    "screenshotSha256": "532363cfba4227e00742b4c3156e4e147a000f8cdce2b8effabfab6c4498cfca",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/equipped",
+    "assetId": "relic-horned-helm",
+    "stage": "equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 101.39999389648438,
+      "y": 798.36669921875,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "6.4px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-equipped.png",
+    "screenshotSha256": "b3210ca998275512570ff336dd22bb188e66ae23d7889d08eaf726c38d9b4163",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/detail",
+    "assetId": "relic-horned-helm",
+    "stage": "detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 108.30000305175781,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffset": 40,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "41.6333px",
+    "marginRight": "4.8px",
+    "fontSize": "41.625px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-detail.png",
+    "screenshotSha256": "5bdaecd80e7f28d186960b0cc436437be8cdeadec9595496dbfd5792b93e7167",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "baselineOffsetOriginal": 40,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/sale",
+    "assetId": "relic-horned-helm",
+    "stage": "sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 304.1333312988281,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-sale.png",
+    "screenshotSha256": "012eb988abe8f4856c4b471627b1f550271b80bf3f8de99c6329ac128c7425dd",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/dungeon-reward",
+    "assetId": "relic-horned-helm",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 25,
+      "y": 606.933349609375,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-dungeon-reward.png",
+    "screenshotSha256": "dbc5a28fd39bc995ab3c354acf5d6e8f691c1a2016090f0adc1cfdce97e32083",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/combat-reward",
+    "assetId": "relic-horned-helm",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "dpr": 1,
+    "box": {
+      "x": 50,
+      "y": 460.6000061035156,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffset": 30,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "32px",
+    "marginRight": "4.8px",
+    "fontSize": "32px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-04/firefox-360-2/horned-helm-combat-reward.png",
+    "screenshotSha256": "825d97962fa7e11b80ce90d5b419d82b4cda667f8e1785314259bcaffb28abc7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "baselineOffsetOriginal": 30,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  }
+]

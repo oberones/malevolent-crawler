@@ -412,3 +412,23 @@ keyboard/touch and native acceptance still require their named execution rows.
 ## Maintainer artwork approval — 2026-10-07
 
 The [direct maintainer approval](art-approval-2026-10-07.md) supersedes the earlier Phase 4C human-artwork OPEN status for all 53 delivered sprites. Manifest human reviews and existing visual contexts are PASS. Combined art-context rows retain their outstanding native execution status; their human visual acceptance is PASS in both this workbook and `gates.json`. Historical capture and batch records are preserved.
+
+## Phase 5A item boundary handoff — 2026-10-07
+
+[Phase 5A evidence](phase-5a.md) records automated duplicate/stale-action boundary
+checks and relic browser journeys. Capacity feedback and stale/repeated sale
+callbacks still fail in the live UI; T089 owns the integration. No relic-art,
+manual keyboard/focus, native interaction or release row is promoted by this
+package. Next authoring package: T082 small-icon pilot.
+
+## Phase 5C relic presentation — 2026-10-07
+
+[US3 evidence](us3.md) records the integrated item controls, all 84 category/rarity
+journeys, duplicate/stale/bulk transaction safety, reset retention, 200% text,
+keyboard focus/cancel/return, and automated WCAG checks. [Relic review](../../art/cosmic-horror/review/relics.md)
+records the agent's actual-size assessment and exact inspected scope. These are
+automated browser/agent visual results. Human artwork approval, human manual
+keyboard review and native/physical-device execution remain OPEN/BLOCKED; the
+2026-10-07 maintainer approval for 53 creature sprites does not cover these relics.
+Full-collection absolute-coordinate comparison and native baselines remain OPEN
+for US4 qualification. No release, timing, CI or native gate is promoted here.

@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: transparent small RPG inventory icon for The Bell Beneath Brine.
+Subject: Listening Crown (Horned Helm), one fitted headguard raising two curved listening horns. Frontal compact wet-slate headguard with a broad pale nacre brow, two thick ivory shell horns curving upward and outward, their wide dark hollow openings angled forward like listening trumpets. Short bronze cheek guards around an empty dark face opening. Salt worn coastal relic with sparse verdigris. Helmet only, empty and unworn.
+Style: painterly game item, strong distinctive twin-horn silhouette, broad nacre and bronze highlights against deep ink #111923 and wet slate #43565F, subdued verdigris #60968B. Sparse detail, designed for recognition at 16px; horns are substantial connected masses.
+Composition: full object centered face-on in square composition, narrow safe transparent margin on all sides, both complete horns and helmet outline intact, no cropping. Genuine transparent background, clean alpha edges, no external shadow or glow.
+Avoid: text, runes, letters, watermark, person, head, wearer, hands, scenery, background panel, blood, gore, extra objects, thin antlers, sharp delicate spikes, circular diving visor.

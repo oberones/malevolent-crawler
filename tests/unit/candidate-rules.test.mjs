@@ -1,3 +1,4 @@
+import { createItemActions } from "../../assets/js/app/item-actions.mjs";
 import { record, text } from "../../assets/js/app/outcome-view.mjs";
 import test, { after } from "node:test";
 import assert from "node:assert/strict";
@@ -23,7 +24,7 @@ for (const file of legacyFiles) {
     assert.equal(source.match(/^initializeGame\(\);$/gm)?.length, 1);
     source = source.replace(
       /^initializeGame\(\);$/m,
-      'gameReady = true; gameServices = { /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
+      'gameReady = true; gameServices = { /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* The adapter uses the real item mutation boundary. */ get items() { return document.items; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
     );
     source = "document.addEventListener = function () {};\n" + source;
   }
@@ -101,6 +102,54 @@ for (const corpus of ["encounters", "equipment", "progression"]) {
           entry: {
             /* Rule replay retains original option tokens. */ allocation() {},
             /* Skill description has no rule effect. */ skill() {},
+          },
+        };
+        // Reuse actual item rules while this realm deliberately has no DOM renderer.
+        function transaction(collection, index, action, rarity) {
+          const player = h.read("player");
+          const actions = createItemActions({
+            // A detached candidate lets the harness copy the completed state back atomically.
+            getPlayer: () => player,
+            // Stale DOM behavior belongs to browser tests.
+            rerender() {},
+          });
+          const result = actions.execute(
+            actions.beginRender()(collection, index),
+            action,
+            rarity,
+          );
+          if (result.ok) {
+            h.write("player", player);
+            h.call("playerLoadStats");
+          }
+        }
+        document.items = {
+          // Numerical replay intentionally omits presentation work.
+          render() {},
+          // Bind the fixture's existing control IDs to the real mutation service.
+          show(collection, index) {
+            h.dom.nodes.get("#un-equip").onclick =
+              /* Preserve the fixture action sequence. */ () =>
+                transaction(
+                  collection,
+                  index,
+                  collection === "inventory" ? "equip" : "unequip",
+                );
+            h.dom.nodes.get("#sell-equip").onclick =
+              /* Confirmation itself owns the eventual sale. */ () => {
+                h.dom.nodes.get("#sell-confirm").onclick =
+                  /* Use the tested action service for exact sale arithmetic. */ () =>
+                    transaction(collection, index, "sell");
+              };
+          },
+          // Run direct legacy bulk entry points through the same actual item service.
+          bulk(action, rarity) {
+            transaction(
+              action === "unequip-all" ? "equipped" : "inventory",
+              null,
+              action,
+              rarity,
+            );
           },
         };
         for (const [key, value] of Object.entries(resting)) h.write(key, value);

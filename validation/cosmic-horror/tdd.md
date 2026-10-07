@@ -372,3 +372,38 @@ Date: 2026-10-07. See [US2 evidence](us2.md) for exact commands and raw reports.
   integration/browser checks pass. Lint/format/audit pass. Human/native art,
   performance, remaining collection and release evidence remain OPEN/BLOCKED;
   full art/evidence validators correctly remain nonzero.
+
+## Phase 5A — T079–T081 (2026-10-07)
+
+- **Red:** `node --test tests/unit/item-actions.test.mjs` against a documented
+  interface seam produced 13 intended assertion failures: binding revision,
+  duplicate transfers, stale rejection, capacity, exact 84-item preservation,
+  bulk order/filtering and invalid-data atomicity. Imports and runner worked.
+- **Green/refactor:** implementing `item-actions.mjs` passed all 13 tests;
+  formatting/comment review and the full unit run passed 2,452 tests.
+- **Browser acceptance red:** `npx playwright test tests/browser/relics.spec.mjs
+--workers=3 --trace=off` produced 18 passes and six intended failures: missing
+  visible full-loadout feedback and unsafe stale/repeated sale callbacks in each
+  engine. The 84-roll identity/transaction/RNG matrix passes. Claim, duplicate/bulk
+  operations, filters/cancellation/empty states and reset retention pass. Expanded
+  title/allocation new-run retention separately passed all three engines.
+- T080 supplies acceptance tests for T089; these remain real failures until that
+  later UI package connects the green action boundary. Neither T081 nor the unit
+  pass is claimed to fix the existing classic handlers. Setup/expectation
+  corrections, commands, API ownership and raw outputs are detailed in
+  [phase-5a.md](phase-5a.md). No native/manual/release gate is closed.
+
+## T082 — small-icon art pilot (2026-10-07)
+
+Art/copy authoring and documentation only: no new application behavior and no artificial red test. Reused the tested `prepareArt()`/`inspectPng()` pipeline. All three transparent 128 × 128 assets decode, preserve visible/transparent pixels and reproduce identical hashes. The full unit suite passes 2,452 tests. Isolated browser proofs cover 324 measured-size tuples plus 108 prior sword-pilot tuples; these do not establish integrated geometry or native acceptance. See [batch evidence](phase-5b-weapons-a.md) for exact commands and review scope.
+
+## T087–T093 — relic presentation (2026-10-07)
+
+- T087 red: `npx playwright test tests/integration/symbol-view.spec.mjs tests/browser/relics.spec.mjs --project=chromium --workers=2`; the temporary DOM seam returned a span, so assertions failed on missing catalog image/alternatives; existing UI tests also exposed capacity and stale sale defects. [Output](reports/phase-5c-red.txt).
+- T088/T089: replaced the seam with measured inline symbols and integrated the real `createItemActions` boundary into detail/list/equipped and bulk handlers. Generation RNG/formulas remain in the classic engine.
+- T090/T091: the first keyboard/wrapping checks were already green. Adding the required equipped-control footprint assertion exposed a 149.2px expansion; [red](reports/phase-5c-accessibility-red-02.txt). Restored the original icon-only button footprint with a complete accessible name; preserved text names in inventory/details/confirmation. Wrapped action rows support enlarged text.
+- Review regression: [probe red](reports/phase-5c-probe-red-02.txt) reproduces the stale baseline coordinate on immutable legacy source. `measureSymbols()` now rereads the box after probe insertion; [original-source correction](reports/phase-5c-probe-corrected.txt) confirms both affected tuples. Frozen evidence is preserved.
+- The rule-only candidate harness now delegates item mutations to the actual item-action service. It still omits DOM presentation; actual controls are exercised in browser tests. The unit run passes all 2,452 tests, including exact generation, sale, capacity, stats, duplicates and random tapes; [output](reports/phase-5c-unit.txt).
+- Full regression and final scoped results are linked from [US3 evidence](us3.md). Art provenance joins and documentation do not require artificial failing behavior tests. No manual/native result is inferred from automation.
+- Final visual/accessibility review added a 200% inventory regression: all three engines failed because the list collapsed between controls; [red](reports/phase-5c-inventory-scale-red.txt). The unchanged-size modal now scrolls, with sufficient list height for one whole multiline row. Automated WCAG checks then exposed undersized row targets; native inventory buttons now have a 24px minimum. [Final accessibility run](reports/phase-5c-accessibility-final-02.txt): 33/33 PASS, including all three engines. Axe initially timed out because its fixture clock was frozen; that setup failure is not behavioral red.
+- Empty/unmatched bulk actions: [red](reports/phase-5c-empty-red.txt) preceded disabling unavailable transactions and refreshing availability after rarity changes; the final accessibility run includes the green cases.

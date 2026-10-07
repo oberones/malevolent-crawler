@@ -64,8 +64,7 @@ const playerLvlUp =
 // Refresh the player stats
 const playerLoadStats =
   /* Refresh equipment/player panels; keep readable HP text independent of the shrinking fill. */ () => {
-    showEquipment();
-    showInventory();
+    gameServices.items.render();
     applyEquipmentStats();
 
     const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
@@ -145,78 +144,10 @@ const openInventory =
     openInv.style.display = "flex";
     dimDungeon.style.filter = "brightness(50%)";
 
+    gameServices.items.render();
     sellAllElement.onclick =
-      /* Handle this control using the current view state and transition owner. */ function () {
-        // Commit only after this complete engine action and its nested work succeed.
-        return runGameplay(
-          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            sfxOpen.play();
-            openInv.style.filter = "brightness(50%)";
-            const rarity = sellRarityElement.value;
-
-            defaultModalElement.style.display = "flex";
-            if (rarity === "All") {
-              defaultModalElement.innerHTML = `
-            <div class="content">
-                <p>Sell all of your equipment?</p>
-                <div class="button-container">
-                    <button id="sell-confirm">Sell All</button>
-                    <button id="sell-cancel">Cancel</button>
-                </div>
-            </div>`;
-            } else {
-              defaultModalElement.innerHTML = `
-            <div class="content">
-                <p>Sell all <span class="${rarity}">${rarity}</span> equipment?</p>
-                <div class="button-container">
-                    <button id="sell-confirm">Sell All</button>
-                    <button id="sell-cancel">Cancel</button>
-                </div>
-            </div>`;
-            }
-
-            let amount = 0;
-            for (const encoded of player.inventory.equipment) {
-              const item = JSON.parse(encoded);
-              if (rarity === "All" || item.rarity === rarity)
-                amount += item.value;
-            }
-            gameServices.narrative.put(
-              "#defaultModal p",
-              rarity === "All"
-                ? "inventory.sellEverything"
-                : "inventory.sellAll",
-              rarity === "All" ? { amount } : { rarity, amount },
-            );
-            const confirm = document.querySelector("#sell-confirm");
-            const cancel = document.querySelector("#sell-cancel");
-            confirm.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sellAll(rarity);
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    openInv.style.filter = "brightness(100%)";
-                  },
-                );
-              };
-            cancel.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sfxDecline.play();
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    openInv.style.filter = "brightness(100%)";
-                  },
-                );
-              };
-          },
-        );
-      };
+      /* Bind the selected filter when the confirmation opens. */ () =>
+        gameServices.items.confirmBulk("sell-all", sellRarityElement.value);
     sellRarityElement.onclick =
       /* Handle this control using the current view state and transition owner. */ function () {
         // Commit only after this complete engine action and its nested work succeed.
@@ -233,6 +164,7 @@ const openInventory =
           /* Keep this action and all nested mutations inside one save boundary. */ () => {
             const rarity = sellRarityElement.value;
             sellRarityElement.className = rarity;
+            gameServices.items.render();
           },
         );
       };

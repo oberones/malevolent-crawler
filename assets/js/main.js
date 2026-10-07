@@ -81,6 +81,27 @@ const initializeGame = () => {
           },
           report: reportPersistence,
           document,
+          itemEffects: {
+            run: runGameplay,
+            refresh: playerLoadStats,
+            // Inspection pauses exploration without mutating item data.
+            pause: () => {
+              dungeon.status.exploring = false;
+            },
+            resume: continueExploring,
+            // Retain existing audio cues after successful transactions.
+            sound: (action) => {
+              const sounds = {
+                open: sfxOpen,
+                equip: sfxEquip,
+                unequip: sfxUnequip,
+                "unequip-all": sfxUnequip,
+                sell: sfxSell,
+                "sell-all": sfxSell,
+              };
+              sounds[action]?.play();
+            },
+          },
         });
         if (gameServices.status !== "ready") {
           showBootError();
@@ -253,64 +274,14 @@ const bindGameControls =
       },
     );
 
-    // Unequip all items
-    document.querySelector("#unequip-all").addEventListener(
-      "click",
-      /* Handle this control using the current view state and transition owner. */ function () {
-        // Commit only after this complete engine action and its nested work succeed.
-        return runGameplay(
-          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-            sfxOpen.play();
-
-            dungeon.status.exploring = false;
-            const dimTarget = document.querySelector("#inventory");
-            dimTarget.style.filter = "brightness(50%)";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-        <div class="content">
-            <p>Unequip all your items?</p>
-            <div class="button-container">
-                <button id="unequip-confirm">Unequip</button>
-                <button id="unequip-cancel">Cancel</button>
-            </div>
-        </div>`;
-            gameServices.narrative.put(
-              "#defaultModal p",
-              "inventory.unequipAll",
-            );
-            const confirm = document.querySelector("#unequip-confirm");
-            const cancel = document.querySelector("#unequip-cancel");
-            confirm.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sfxUnequip.play();
-                    unequipAll();
-                    continueExploring();
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    dimTarget.style.filter = "brightness(100%)";
-                  },
-                );
-              };
-            cancel.onclick =
-              /* Handle this control using the current view state and transition owner. */ function () {
-                // Commit only after this complete engine action and its nested work succeed.
-                return runGameplay(
-                  /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                    sfxDecline.play();
-                    continueExploring();
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    dimTarget.style.filter = "brightness(100%)";
-                  },
-                );
-              };
-          },
-        );
-      },
-    );
+    // Capture the current collection when opening the bulk decision.
+    document
+      .querySelector("#unequip-all")
+      .addEventListener(
+        "click",
+        /* Keep delayed confirmation bound to the shown holdings. */ () =>
+          gameServices.items.confirmBulk("unequip-all"),
+      );
 
     document.querySelector("#menu-btn").addEventListener(
       "click",

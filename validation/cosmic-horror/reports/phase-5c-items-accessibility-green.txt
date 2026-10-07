@@ -1,0 +1,112 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-accessibility.spec.mjs tests/browser/relics.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:8112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 48 tests using 3 workers
+
+(node:8114) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8115) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8113) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 (3.5s)
+  ✓   3 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 (3.5s)
+  ✓   2 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 (3.5s)
+  ✘   6 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 (1.2s)
+(node:8154) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 (2.2s)
+  ✓   5 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 (2.2s)
+  ✓   8 [chromium] › tests/browser/relic-accessibility.spec.mjs:35:1 › bulk confirmation rejects changed holdings and repeated actions (1.0s)
+  ✓   7 [chromium] › tests/browser/relic-accessibility.spec.mjs:29:1 › keyboard detail and sale focus returns without changing holdings (2.7s)
+  ✓   9 [chromium] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (2.4s)
+  ✓  11 [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (1.1s)
+  ✓  10 [chromium] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (2.5s)
+  ✓  12 [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (2.5s)
+  ✓  14 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (2.3s)
+  ✓  13 [chromium] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (2.4s)
+(node:8179) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.6s)
+(node:8181) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.2s)
+(node:8184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 (2.3s)
+  ✓  18 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 (2.4s)
+  ✓  19 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 (2.6s)
+  ✓  20 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 (1.6s)
+  ✓  21 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 (1.7s)
+  ✓  22 [firefox] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 (1.6s)
+  ✓  23 [firefox] › tests/browser/relic-accessibility.spec.mjs:29:1 › keyboard detail and sale focus returns without changing holdings (1.5s)
+  ✓  24 [firefox] › tests/browser/relic-accessibility.spec.mjs:35:1 › bulk confirmation rejects changed holdings and repeated actions (1.5s)
+  ✓  26 [firefox] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (1.8s)
+  ✓  25 [firefox] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (2.2s)
+  ✓  27 [firefox] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.4s)
+  ✓  28 [firefox] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (1.4s)
+  ✓  29 [firefox] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.6s)
+  ✓  30 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.9s)
+(node:8225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  31 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.7s)
+  ✓  32 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.7s)
+(node:8242) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8244) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 (1.9s)
+  ✓  34 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 (1.5s)
+  ✓  35 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 (1.5s)
+  ✓  36 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 (1.3s)
+  ✓  37 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 (1.3s)
+  ✓  38 [webkit] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 (1.3s)
+  ✓  40 [webkit] › tests/browser/relic-accessibility.spec.mjs:35:1 › bulk confirmation rejects changed holdings and repeated actions (538ms)
+  ✓  39 [webkit] › tests/browser/relic-accessibility.spec.mjs:29:1 › keyboard detail and sale focus returns without changing holdings (1.2s)
+  ✓  41 [webkit] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (1.5s)
+  ✓  42 [webkit] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (1.4s)
+  ✓  43 [webkit] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.1s)
+  ✓  44 [webkit] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (507ms)
+  ✓  45 [webkit] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.2s)
+  ✓  46 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.2s)
+  ✓  47 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.2s)
+  ✓  48 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.0s)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 ──
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    4.456249999999997
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 ───
+  47 passed (31.7s)

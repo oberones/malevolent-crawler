@@ -1,3 +1,4 @@
+import { createSymbolView } from "./symbol-view.mjs";
 import {
   messageText,
   messageSchemas,
@@ -31,6 +32,7 @@ export function text(id, params = {}) {
  * @returns {object} Safe text, log, item and encounter presentation methods.
  */
 export function createOutcomeView(document) {
+  const symbol = createSymbolView(document);
   const renderer = createSafeRenderer(document, {
     schemas: messageSchemas,
     templates: messageTemplates,
@@ -50,6 +52,15 @@ export function createOutcomeView(document) {
       } else {
         target.replaceChildren(renderer.renderMessage(message));
         if (message.id === "inventory.reward") {
+          const item = message.params.item;
+          const id = getRelic(item.category).value.symbolId;
+          const stage = target.closest("#combatLogBox")
+            ? "combat-reward"
+            : "dungeon-reward";
+          const heading = document.createElement("h4");
+          heading.append(symbol(id, `${id.slice(6)}/${stage}`));
+          while (target.firstChild) heading.append(target.firstChild);
+          target.append(heading);
           const list = document.createElement("ul");
           for (const stat of message.params.item.stats) {
             const [key, value] = Object.entries(stat)[0];

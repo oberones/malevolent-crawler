@@ -189,3 +189,24 @@ All paths and intrinsic canvases match the frozen baseline. Each stable variant 
 | `assets/sprites/zalaras.png`               | The Sovereign Below Sound / `the-sovereign-below-sound-portrait` | 663 × 489        | [bosses-b](../../art/cosmic-horror/batches/bosses-b/generation.json) / [review](../../art/cosmic-horror/batches/bosses-b/review.md)                      |
 | `assets/sprites/zodiac_aries.png`          | The Spiral Breaker / `the-spiral-breaker-portrait`               | 586 × 397        | [guardians-b](../../art/cosmic-horror/batches/guardians-b/generation.json) / [review](../../art/cosmic-horror/batches/guardians-b/review.md)             |
 | `assets/sprites/zodiac_cancer.png`         | The Lockgate Carapace / `the-lockgate-carapace-portrait`         | 617 × 296        | [guardians-b](../../art/cosmic-horror/batches/guardians-b/generation.json) / [review](../../art/cosmic-horror/batches/guardians-b/review.md)             |
+
+## T092 integrated relic role mapping — 2026-10-07
+
+All fourteen authored relic PNGs are now connected to inventory, equipped, detail, sale, dungeon reward and combat reward. Delivered canvases are 128 × 128 with alpha; original glyph intrinsic dimensions remain N/A. The common manifest joins each generation record and 108 live context measurements. [Integrated review](../../art/cosmic-horror/review/relics.md) and [US3 evidence](../../validation/cosmic-horror/us3.md) distinguish footprint passes from open native, human and literal page-coordinate qualification.
+
+| Role        | Themed identity  | Runtime path                       | Generation                                                                         |
+| ----------- | ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------- |
+| Sword       | Tideglass Edge   | `assets/art/relic-sword.png`       | [relic-weapons-a](../../art/cosmic-horror/batches/relic-weapons-a/generation.json) |
+| Axe         | Keelcleaver      | `assets/art/relic-axe.png`         | [relic-weapons-a](../../art/cosmic-horror/batches/relic-weapons-a/generation.json) |
+| Hammer      | Sounding Maul    | `assets/art/relic-hammer.png`      | [relic-weapons-a](../../art/cosmic-horror/batches/relic-weapons-a/generation.json) |
+| Dagger      | Whisper Shard    | `assets/art/relic-dagger.png`      | [relic-weapons-b](../../art/cosmic-horror/batches/relic-weapons-b/generation.json) |
+| Flail       | Mooring Lash     | `assets/art/relic-flail.png`       | [relic-weapons-b](../../art/cosmic-horror/batches/relic-weapons-b/generation.json) |
+| Scythe      | Lowwater Reaper  | `assets/art/relic-scythe.png`      | [relic-weapons-b](../../art/cosmic-horror/batches/relic-weapons-b/generation.json) |
+| Plate       | Lockgate Cuirass | `assets/art/relic-plate.png`       | [relic-armor](../../art/cosmic-horror/batches/relic-armor/generation.json)         |
+| Chain       | Dredger Mesh     | `assets/art/relic-chain.png`       | [relic-armor](../../art/cosmic-horror/batches/relic-armor/generation.json)         |
+| Leather     | Oilskin Mantle   | `assets/art/relic-leather.png`     | [relic-armor](../../art/cosmic-horror/batches/relic-armor/generation.json)         |
+| Tower       | Breakwater Slab  | `assets/art/relic-tower.png`       | [relic-wards](../../art/cosmic-horror/batches/relic-wards/generation.json)         |
+| Kite        | Pilgrim Keel     | `assets/art/relic-kite.png`        | [relic-wards](../../art/cosmic-horror/batches/relic-wards/generation.json)         |
+| Buckler     | Tidepool Disc    | `assets/art/relic-buckler.png`     | [relic-wards](../../art/cosmic-horror/batches/relic-wards/generation.json)         |
+| Great Helm  | Diving Reliquary | `assets/art/relic-great-helm.png`  | [relic-helms](../../art/cosmic-horror/batches/relic-helms/generation.json)         |
+| Horned Helm | Listening Crown  | `assets/art/relic-horned-helm.png` | [relic-helms](../../art/cosmic-horror/batches/relic-helms/generation.json)         |

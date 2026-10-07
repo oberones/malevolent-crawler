@@ -1,0 +1,3614 @@
+[
+  {
+    "id": "sword/inventory",
+    "assetId": "relic-sword",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-inventory.png",
+    "screenshotSha256": "81dfde0158e2fff9c981c969c11ef12d1d1c91dc1efc7815ee8022433b58c6a9",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/equipped",
+    "assetId": "relic-sword",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-equipped.png",
+    "screenshotSha256": "8b6b6a63cfbc062fb95b90a5a48b2209d014f7ed486e704b7d4bb6a86cae8b7e",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/detail",
+    "assetId": "relic-sword",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-detail.png",
+    "screenshotSha256": "50f58fc486141e4512b9031db575435cae051142a3026f9acadfbd7334bcafb0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/sale",
+    "assetId": "relic-sword",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-sale.png",
+    "screenshotSha256": "e4ec1d757858e30305745f12fb3f7c8ac4fe05f3b74efa0181446ebac917870f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-sale.png",
+    "baselineBox": {
+      "x": 123.2421875,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/dungeon-reward",
+    "assetId": "relic-sword",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-dungeon-reward.png",
+    "screenshotSha256": "400efb4c4ea6262d05a225ee037451421b6aa40151d53af7b31b9e53d9053c5d",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "sword/combat-reward",
+    "assetId": "relic-sword",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/sword-combat-reward.png",
+    "screenshotSha256": "000823441988cc6bbedb2a84ad999543d0211980c7678f9798cee1bfc9ae75b3",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/sword-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/inventory",
+    "assetId": "relic-axe",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-inventory.png",
+    "screenshotSha256": "a856931bd9eb91cd957849942f6d4360412c21d21bec46ba7eb0ee387edc229b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/equipped",
+    "assetId": "relic-axe",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-equipped.png",
+    "screenshotSha256": "1bcc6b9d4ed47587148992af2dc62d624d40d9d70b9ee70b8c2db293e20bb26f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/detail",
+    "assetId": "relic-axe",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-detail.png",
+    "screenshotSha256": "ae759ca77f7e3e1a6958d86d0682eff958e2968d549abd84a6c60562be90c187",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/sale",
+    "assetId": "relic-axe",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-sale.png",
+    "screenshotSha256": "a666646f33feb0c8812cb4517f8f48fd1274e3fc38f1b858a6cd4b5bdb259cd0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-sale.png",
+    "baselineBox": {
+      "x": 131.8046875,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/dungeon-reward",
+    "assetId": "relic-axe",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-dungeon-reward.png",
+    "screenshotSha256": "820b2a58b4cfbed391b8a2bb0e08e634cb01bbce677502512ec76c34baa2d10f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "axe/combat-reward",
+    "assetId": "relic-axe",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/axe-combat-reward.png",
+    "screenshotSha256": "c58a0085406d8b66e250b62b6b805fd4e05d20920b08fecc8b461c06c24521f7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/axe-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/inventory",
+    "assetId": "relic-hammer",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-inventory.png",
+    "screenshotSha256": "dfab4f59b31732c3ad9075d4ae89fdabf9073dbec44c7b3de5790895e0741c97",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/equipped",
+    "assetId": "relic-hammer",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-equipped.png",
+    "screenshotSha256": "7300c524ab7fefdb54b170ed4aed4c7cb65927630fd4144f40c336309ae7eaa3",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/detail",
+    "assetId": "relic-hammer",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-detail.png",
+    "screenshotSha256": "6e15c4e06ff831a98a88fda4b60b2fdbe1cea4dd5e42262f2b9a949aa8747ba7",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/sale",
+    "assetId": "relic-hammer",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-sale.png",
+    "screenshotSha256": "807b1c0240683207ef387f06afb1c7848265fa0e3e55e0d044e8511e042b75c6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-sale.png",
+    "baselineBox": {
+      "x": 115.7578125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/dungeon-reward",
+    "assetId": "relic-hammer",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-dungeon-reward.png",
+    "screenshotSha256": "b60bc3e5eed33a646361c1f5abcda4fbbb6b5ac7f6835d1c6b7d0d5782811bb8",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "hammer/combat-reward",
+    "assetId": "relic-hammer",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/hammer-combat-reward.png",
+    "screenshotSha256": "223dc27126fdf3cea69e0056151cf07820676c90573769265c4e3d333a3cbd96",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/hammer-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/inventory",
+    "assetId": "relic-dagger",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-inventory.png",
+    "screenshotSha256": "dd3d8506fd21170fad2b728294ab8a99a34abcd6144f5227d05ad80bade151f0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/equipped",
+    "assetId": "relic-dagger",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-equipped.png",
+    "screenshotSha256": "56aecd934a1efb7ea4f796b2b10d0c10a7ce63441c6d74816d2ae4a5f0630135",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/detail",
+    "assetId": "relic-dagger",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-detail.png",
+    "screenshotSha256": "1c0fb51b1bcf9d99aed2c6bbf80a80f1220d40d6ce21bfbc14c96736b0eec8c0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/sale",
+    "assetId": "relic-dagger",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-sale.png",
+    "screenshotSha256": "8faee26477eaad508a557ec390aaf9fd9c26586df7ac784d3eb7c3ce31dffd60",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-sale.png",
+    "baselineBox": {
+      "x": 118.8828125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/dungeon-reward",
+    "assetId": "relic-dagger",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-dungeon-reward.png",
+    "screenshotSha256": "a9021224580641934187e2b410bcab0c3cb43578c693a770ab90468342725688",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "dagger/combat-reward",
+    "assetId": "relic-dagger",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/dagger-combat-reward.png",
+    "screenshotSha256": "9359d5cdc647b158522bb873beb71202c2764e5fada937a04f31354f3d31aaf6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/dagger-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/inventory",
+    "assetId": "relic-flail",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-inventory.png",
+    "screenshotSha256": "9c73ac72ab4d9510ea326bb4aea7bd9e51ce44fc3e493e46db87a1ac69fd4777",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/equipped",
+    "assetId": "relic-flail",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-equipped.png",
+    "screenshotSha256": "ef7060dfde46726370973824033c33d7c8696bcea47ebdf34b98ef21f4d93142",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/detail",
+    "assetId": "relic-flail",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-detail.png",
+    "screenshotSha256": "eaace2da68745da3c7c8b14c13436ee146afc292e95a76f1217515aee8c098bc",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/sale",
+    "assetId": "relic-flail",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-sale.png",
+    "screenshotSha256": "0c4867ab15dd33d433bc2630e7c3fb12d4fb07aea3a2ebd6450cfa6a7db11a60",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-sale.png",
+    "baselineBox": {
+      "x": 131.6484375,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/dungeon-reward",
+    "assetId": "relic-flail",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-dungeon-reward.png",
+    "screenshotSha256": "26b5754d6269f41e0bf963b676059f3d70ac31bd61c050bb460aeb6c3d37bebd",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "flail/combat-reward",
+    "assetId": "relic-flail",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/flail-combat-reward.png",
+    "screenshotSha256": "27586d893e05e7a0e1508d91b2ee0aa2cb4428ef978feb2fe1dd016dc8b70ac1",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/flail-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/inventory",
+    "assetId": "relic-scythe",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-inventory.png",
+    "screenshotSha256": "1f742e96a87cf57e57a0d20aa9acace44b62a0ed3c2b034790034caf1654732a",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/equipped",
+    "assetId": "relic-scythe",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-equipped.png",
+    "screenshotSha256": "1830624e296962ed5f3210275863dec8924a9c62c8c7c35a0527cf0510de7b75",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/detail",
+    "assetId": "relic-scythe",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-detail.png",
+    "screenshotSha256": "e055dd5184b5b1a1497c7641f9a07716bf81d967e3bf3aefe170542bfbb871c5",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/sale",
+    "assetId": "relic-scythe",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-sale.png",
+    "screenshotSha256": "6a46a4f860860e36db4441908444c2d4335abd8603bdc7c703887ce0dd13810f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-sale.png",
+    "baselineBox": {
+      "x": 122.5078125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/dungeon-reward",
+    "assetId": "relic-scythe",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-dungeon-reward.png",
+    "screenshotSha256": "dcd1e12c37077349cc934d58774855b5b7e12dd46024907c730aec5ad1f1e8e8",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "scythe/combat-reward",
+    "assetId": "relic-scythe",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/scythe-combat-reward.png",
+    "screenshotSha256": "e2a7e108339144d59249180ff22615a16701380bec038fc27e80cc31189c2e66",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/scythe-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/inventory",
+    "assetId": "relic-plate",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-inventory.png",
+    "screenshotSha256": "993f021cc7531d37029e64f2b328004d8806c859f5fd5cd7fa9e769116e3c67f",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/equipped",
+    "assetId": "relic-plate",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-equipped.png",
+    "screenshotSha256": "487a63a7b20cbb1c0897149f788ac9d18a6aa2bfa50ff8a9e52716f20f7b5ed6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/detail",
+    "assetId": "relic-plate",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-detail.png",
+    "screenshotSha256": "2864c0375214a13b8506503bbb3f09652ff986672e33dee4699911d43384287b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/sale",
+    "assetId": "relic-plate",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-sale.png",
+    "screenshotSha256": "60b342987b32f39ad2050004fa9a443dea93e469a8f5ef3c1906affa1593d861",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-sale.png",
+    "baselineBox": {
+      "x": 128.6953125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/dungeon-reward",
+    "assetId": "relic-plate",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-dungeon-reward.png",
+    "screenshotSha256": "5db1d98e51affdd7eb71515afa88b8b69e46a9b236b4378cee4531a904d7df48",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "plate/combat-reward",
+    "assetId": "relic-plate",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/plate-combat-reward.png",
+    "screenshotSha256": "10b56e091120713efb91ac5803a4089a11575a6690a3ca87acdd078e8ca7ac5b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/plate-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/inventory",
+    "assetId": "relic-chain",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-inventory.png",
+    "screenshotSha256": "efc7960a793bd5905d92401fac8f559a8f612206df32a50acf4042637c60ec4b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/equipped",
+    "assetId": "relic-chain",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-equipped.png",
+    "screenshotSha256": "45b658f83b7b5fa344d5d041226416461adbe5bae8b5b9166989c03a0861244c",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/detail",
+    "assetId": "relic-chain",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-detail.png",
+    "screenshotSha256": "ddd431ef1a6eda2670190d07c1ed11f50bd0ee838834caaa286850ea3bb9d5f9",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/sale",
+    "assetId": "relic-chain",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-sale.png",
+    "screenshotSha256": "6b216dd416a288e29f141e51c508ec7ebc74cee8656764843727df0f168f0155",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-sale.png",
+    "baselineBox": {
+      "x": 125.3203125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/dungeon-reward",
+    "assetId": "relic-chain",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-dungeon-reward.png",
+    "screenshotSha256": "950ec5fc9a23e70728ea4d0a072b26231d91e0f8103a88846b1e3ba73f6fb4d9",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "chain/combat-reward",
+    "assetId": "relic-chain",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/chain-combat-reward.png",
+    "screenshotSha256": "271cf606a9eea7da0c4aa63841d5e62ad558531b16e09f64f99536b13e34a4e9",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/chain-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/inventory",
+    "assetId": "relic-leather",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-inventory.png",
+    "screenshotSha256": "36a312a1c2ca385a22cd9338cc0a47d5de2d2ade387cbc5e995ffe089581daa5",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/equipped",
+    "assetId": "relic-leather",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-equipped.png",
+    "screenshotSha256": "3973dbd16031ea8d0f8b32e40ecf77fbf3cfa0f36843c1920841b06477d5c4c1",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/detail",
+    "assetId": "relic-leather",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-detail.png",
+    "screenshotSha256": "3cd1d671a63611203fcdb09b31caff83d5c4ae8f6e4347263a5aec882a06be93",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/sale",
+    "assetId": "relic-leather",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-sale.png",
+    "screenshotSha256": "94bd3a65781f69472ab104ffaee60b8b83a48cf4f602d9fa4fbca9876f2389c3",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-sale.png",
+    "baselineBox": {
+      "x": 119.5703125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/dungeon-reward",
+    "assetId": "relic-leather",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-dungeon-reward.png",
+    "screenshotSha256": "bda55b4867aa0751b4baaa7e0de27a61b4da27b9b74a8dd3e8366c7ee8667175",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "leather/combat-reward",
+    "assetId": "relic-leather",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/leather-combat-reward.png",
+    "screenshotSha256": "de92c70f06feb939938b3f30881870bc6d8c1d018e0c9fe662eb2f53b2053210",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/leather-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/inventory",
+    "assetId": "relic-tower",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-inventory.png",
+    "screenshotSha256": "1128c4df25d53360b35b720fda04af60e3105d428a723581e4e241f6ad0f5241",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/equipped",
+    "assetId": "relic-tower",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-equipped.png",
+    "screenshotSha256": "df707094b9e740f2fc3971e1d577b2b921b774b61e736d4cc43f1152f8a25312",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/detail",
+    "assetId": "relic-tower",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-detail.png",
+    "screenshotSha256": "ba4460723660eb626a0768f28ad1800805d4bca993b70f708acccb5eb467127c",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/sale",
+    "assetId": "relic-tower",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-sale.png",
+    "screenshotSha256": "94ac63d2a228293e080c797c16ce9b008d78e0390bbb2cd9f0a50b356c4ce48a",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-sale.png",
+    "baselineBox": {
+      "x": 124.8515625,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/dungeon-reward",
+    "assetId": "relic-tower",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-dungeon-reward.png",
+    "screenshotSha256": "1cd468560c1831a9911f1de5ae69fa1d4108c256177a3756803e8b3c1f5abfbc",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "tower/combat-reward",
+    "assetId": "relic-tower",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/tower-combat-reward.png",
+    "screenshotSha256": "ce948ca71c04b9b365b3d544f81667160ec245dede1e444ce01ff22ed9277b9c",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/tower-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/inventory",
+    "assetId": "relic-kite",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-inventory.png",
+    "screenshotSha256": "b9c29e45b82a9a3cca8a4ae8bbd54c30201de5f504856e23992675e353ad1d33",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/equipped",
+    "assetId": "relic-kite",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-equipped.png",
+    "screenshotSha256": "7734a351dd7c0d59cddf68919074faa5b889cc3b70c831f60e6e18bdbae78515",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/detail",
+    "assetId": "relic-kite",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-detail.png",
+    "screenshotSha256": "0f15a1457d2818fa9bf5f3d8deabf0f1d462b27d064a4d0567044c3d526e7774",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/sale",
+    "assetId": "relic-kite",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-sale.png",
+    "screenshotSha256": "3a552b3bec068e872fda139054a726def70fe897ee696df5d00f116b0324708b",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-sale.png",
+    "baselineBox": {
+      "x": 132.5078125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/dungeon-reward",
+    "assetId": "relic-kite",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-dungeon-reward.png",
+    "screenshotSha256": "174b4e09c7a4b588d332da59fb8693891410f0da065acabe8938bd0a8b7a2321",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "kite/combat-reward",
+    "assetId": "relic-kite",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/kite-combat-reward.png",
+    "screenshotSha256": "708ff905a5bf6a307f8e56921c356608829dc5ff80bf9eaad2851134dd5fdbd6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/kite-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/inventory",
+    "assetId": "relic-buckler",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-inventory.png",
+    "screenshotSha256": "4e0c585c0e0ac240ed3717c163c3a39bb2d93935274bf588f7d7819acbffce45",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/equipped",
+    "assetId": "relic-buckler",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-equipped.png",
+    "screenshotSha256": "6ee20d26d0a83db870c3ce08553e100087b26c10952d33bafee40831d0d11aec",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/detail",
+    "assetId": "relic-buckler",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-detail.png",
+    "screenshotSha256": "dc90d174debfbe36061bb4919ca9dc7716ae46198b5672539b7d76492b14c649",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/sale",
+    "assetId": "relic-buckler",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-sale.png",
+    "screenshotSha256": "c170a3bfad9cfa5af2c129d89a37b64d720a931c2f9367d8ef738febc4d7eb79",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-sale.png",
+    "baselineBox": {
+      "x": 119.9921875,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/dungeon-reward",
+    "assetId": "relic-buckler",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-dungeon-reward.png",
+    "screenshotSha256": "02d6bca080c75d77f2cb4a3bd349b6f76cce2c7ac937ac731562ae31bda134e8",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "buckler/combat-reward",
+    "assetId": "relic-buckler",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/buckler-combat-reward.png",
+    "screenshotSha256": "094e15d46a5d13808de0cbdd6160571adbfd90ba077437e3c1d0bae5b691e81d",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/buckler-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 438.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/inventory",
+    "assetId": "relic-great-helm",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-inventory.png",
+    "screenshotSha256": "7c68359547bd5f02d3160007f019b0a20a2b45046f9e7327530bedc25fc0a959",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/equipped",
+    "assetId": "relic-great-helm",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-equipped.png",
+    "screenshotSha256": "2d4914a347629ca0d72379b767d9eb19cbd5604374ab3daca264f9e63883915e",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/detail",
+    "assetId": "relic-great-helm",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-detail.png",
+    "screenshotSha256": "8dbcb177bc0a04d15a6b0de0d12a77281988adfd27259bbfbfacfa9ffab72d43",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/sale",
+    "assetId": "relic-great-helm",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-sale.png",
+    "screenshotSha256": "7f54e0de27e9958e6889afdbf39620aed210f8e86057e575287e46c3bee63760",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 104.3203125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/dungeon-reward",
+    "assetId": "relic-great-helm",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-dungeon-reward.png",
+    "screenshotSha256": "cfb5cdb02d024ff48766fb286d43586f78823c36d37bc25b54598c0a0d612889",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "great-helm/combat-reward",
+    "assetId": "relic-great-helm",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/great-helm-combat-reward.png",
+    "screenshotSha256": "d10f3b47d682fe85f5d5c0bece4af272fdaf2be2522d041c29fea3c42087de4d",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/inventory",
+    "assetId": "relic-horned-helm",
+    "stage": "inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 64.1875,
+      "y": 255.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-inventory.png",
+    "screenshotSha256": "f1279a4bbc0f39101d932f944305681b955921ee4e590507e7508d537538d0c0",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/equipped",
+    "assetId": "relic-horned-helm",
+    "stage": "equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 15,
+    "marginLeft": "6.4px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "6.4px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-equipped.png",
+    "screenshotSha256": "d89bba548a31efcab3a16f374010984b929657d2f94238ef31fb6f6277a239f6",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 15,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/detail",
+    "assetId": "relic-horned-helm",
+    "stage": "detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 308.318359375,
+      "width": 20.799999237060547,
+      "height": 20.79998779296875
+    },
+    "baselineOffset": 19.494140625,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "20.799999px",
+    "marginRight": "4.8px",
+    "fontSize": "20.799999px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-detail.png",
+    "screenshotSha256": "d7fb7f28c408551307f93fca31e169f5c6586bb31b3953aa246c27001168d7cb",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "baselineOffsetOriginal": 19.494140625,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/sale",
+    "assetId": "relic-horned-helm",
+    "stage": "sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 360.33984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-sale.png",
+    "screenshotSha256": "ddfdc729fb9a83e3b9201bed15fff190a9bcdb0363ea556b80d75139807b7a84",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 98.0078125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.98828125,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/dungeon-reward",
+    "assetId": "relic-horned-helm",
+    "stage": "dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 17,
+      "y": 322.66796875,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-dungeon-reward.png",
+    "screenshotSha256": "8b7d14ab2ca26a24ba84e2b6ee1c807478262eb57446b3f355204d87be2a9182",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  },
+  {
+    "id": "horned-helm/combat-reward",
+    "assetId": "relic-horned-helm",
+    "stage": "combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "dpr": 1,
+    "box": {
+      "x": 34,
+      "y": 390.80859375,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffset": 14.98828125,
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "verticalAlign": "baseline",
+    "lineHeight": "16px",
+    "marginRight": "4.8px",
+    "fontSize": "16px",
+    "fontStatus": "loaded",
+    "screenshot": "art/cosmic-horror/review/relic-contexts-03/webkit-360-1/horned-helm-combat-reward.png",
+    "screenshotSha256": "3b9d6ba6e30858b7300f2450b52a13ff54476b3c75d53a098a8322b73a794534",
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "baselineOffsetOriginal": 14.9866943359375,
+    "footprintStatus": "PASS",
+    "status": "OPEN",
+    "scope": "Live size/spacing and decoded art verified; absolute page coordinates and native qualification are separate."
+  }
+]

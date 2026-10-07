@@ -932,3 +932,64 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Local font metrics retain baseline rounding; artwork cannot resize the line. */
+.inline-symbol {
+  position: relative;
+  font-family: RPGAwesome;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 0.3rem 0 0;
+}
+.inline-symbol::before {
+  content: "\ea9a";
+  visibility: hidden;
+}
+.inline-symbol[data-context$="/equipped"] {
+  margin: 0 0.4rem;
+}
+.inline-symbol > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+/* Native inventory rows meet minimum target size; equipped buttons retain their footprint. */
+#playerInventory .relic-control {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  min-height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+.relic-detail .button-container,
+.relic-confirm .button-container {
+  flex-wrap: wrap;
+}
+.relic-detail li,
+.relic-detail p,
+.relic-confirm p {
+  user-select: text;
+}
+#item-status:empty,
+#item-feedback:empty {
+  display: none;
+}
+
+/* Keep an enlarged item row readable; excess content scrolls inside the original modal. */
+#inventory .content > * {
+  flex-shrink: 0;
+}
+#inventory #playerInventory {
+  height: auto;
+  min-height: 10rem;
+  flex: 1 0 10rem;
+}

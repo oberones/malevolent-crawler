@@ -1,0 +1,117 @@
+{
+  "batch": "relic-helms",
+  "task": "T086",
+  "date": "2026-10-07",
+  "candidateBaseRevision": "3c18af2eecf456b1d8b7f1ee36d65bfdec55d71c",
+  "candidateState": "T086 assets and evidence only; UI and manifest join deferred to T087–T093",
+  "entries": [
+    {
+      "id": "relic-great-helm",
+      "identityId": "diving-reliquary",
+      "displayName": "Diving Reliquary",
+      "legacyCategory": "Great Helm",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T20:14:10.804Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a117fe-1780-7270-b20f-54ae8bdb0a0f/exec-56b0c56a-f67a-479a-9b4b-c6bd03a10a32.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/relic-helms/masters/relic-great-helm.png",
+        "masterSha256": "0be3a49c73a6df04aecbb88a0d77e08b62aa0076c495cbf3975dd5f98fa1b3d2",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/relic-helms/prompts/relic-great-helm.txt",
+        "promptSha256": "1f85c0af3eb861e80f7defb51b38dd3e410dea1526a113e102735c6616d1f12e",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "4c22c48aa4cbc5e9bab57f527765e260e5ed5c129eebec732d2e055447be39dd",
+        "path": "assets/art/relic-great-helm.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/relic-helms/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Isolated art-production review; live UI, native and maintainer acceptance OPEN",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "relic-horned-helm",
+      "identityId": "listening-crown",
+      "displayName": "Listening Crown",
+      "legacyCategory": "Horned Helm",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "timestamp": null,
+        "generatedAt": null,
+        "timestampUnavailableReason": "not-returned-by-tool",
+        "sourceFileModifiedAt": "2026-10-07T20:15:27.389Z",
+        "sourcePath": "/Users/oberon/.codex/generated_images/01a117fe-1780-7270-b20f-54ae8bdb0a0f/exec-834f3fd6-2f58-49c9-a9b1-6b082335defe.png",
+        "sourceUrl": null,
+        "masterPath": "art/cosmic-horror/batches/relic-helms/masters/relic-horned-helm.png",
+        "masterSha256": "3709b0c908d5393bb01d54610b19dafa52e2bb93859fd33abb6d614aa79e1ddb",
+        "masterDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "promptPath": "art/cosmic-horror/batches/relic-helms/prompts/relic-horned-helm.txt",
+        "promptSha256": "859ab68270c41515d22046b4efa05cefc6c818928944cbbe6ac61d7816b89d7d",
+        "transparentBackground": true,
+        "provenance": {
+          "generatedAt": null
+        }
+      },
+      "delivered": {
+        "width": 128,
+        "height": 128,
+        "alpha": true,
+        "sha256": "5515aa3ddcf7f3acae95499c2d74ec8291ff47d332df0227fadc93dcc12903d3",
+        "path": "assets/art/relic-horned-helm.png",
+        "transform": {
+          "processor": "sharp",
+          "version": "0.35.5",
+          "fit": "contain",
+          "padding": "transparent",
+          "options": {
+            "compressionLevel": 9,
+            "adaptiveFiltering": false,
+            "palette": false
+          }
+        }
+      },
+      "review": {
+        "status": "PASS",
+        "path": "art/cosmic-horror/batches/relic-helms/review.md",
+        "reviewer": "implementation agent",
+        "scope": "Isolated art-production review; live UI, native and maintainer acceptance OPEN",
+        "date": "2026-10-07"
+      }
+    }
+  ]
+}

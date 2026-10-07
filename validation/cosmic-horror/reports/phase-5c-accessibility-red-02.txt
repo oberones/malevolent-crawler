@@ -1,0 +1,223 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-accessibility.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:7937) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:7939) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7938) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 (1.7s)
+  ✘  2 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 (1.7s)
+(node:7962) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7966) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 (1.5s)
+  ✘  3 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 (1.6s)
+(node:7994) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  6 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 (1.4s)
+  ✘  5 [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 (1.5s)
+(node:8006) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8007) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  8 [chromium] › tests/browser/relic-accessibility.spec.mjs:35:1 › bulk confirmation rejects changed holdings and repeated actions (1.2s)
+  ✓  7 [chromium] › tests/browser/relic-accessibility.spec.mjs:29:1 › keyboard detail and sale focus returns without changing holdings (1.4s)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 ───
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-360-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-360-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-360-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-360-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 ───
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-360-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-360-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-360-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-360-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 ───
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-768-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-768-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-768-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-768-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 ───
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-768-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-768-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-768-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-768-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 ──
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-1440-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-1440-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 ──
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    149.2
+
+      17 |  const f=await open(browser,{width,height:width===360?800:width===768?1024:900});try{
+      18 |  for(const rarity of ['Common','Uncommon','Rare','Epic','Legendary','Heirloom'])await expect(f.page.locator('#playerInventory')).toContainText(rarity);
+    > 19 |  const slot=await f.page.locator('#playerEquipment button').boundingBox();expect(Math.abs(slot.width-62.8)).toBeLessThanOrEqual(0.5);
+         |                                                                                                             ^
+      20 |  await f.page.locator('#playerInventory button').last().click();
+      21 |  if(scale===2)await f.page.evaluate(/* Double computed font sizes once, including existing dynamic controls. */ ()=>{const rows=[...document.querySelectorAll('body *')].map(/* Snapshot before changing inheritance. */ n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [n,size]of rows)n.style.fontSize=`${size*2}px`;});
+      22 |  await expect(f.page.locator('#equipmentInfo')).toContainText('Diving Reliquary');await expect(f.page.locator('#sell-equip')).toContainText(String(item.value));await expect(f.page.locator('#equipmentInfo')).toContainText('123456.789%');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:19:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibility-item-layout-and-labels-1440-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/1 ────
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 360/2 ────
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/1 ────
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 768/2 ────
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/1 ───
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:16:2 › item layout and labels 1440/2 ───
+  2 passed (9.7s)

@@ -1,0 +1,6482 @@
+[
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 586.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 56.328125,
+      "y": 347.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 255,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 104.328125,
+      "y": 371.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 324,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 388,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.671875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 452,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 516,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 586.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 580,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 56.328125,
+      "y": 347.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 644,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 98.015625,
+      "y": 371.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 713,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 777,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.671875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 841,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-1.png",
+    "screenshotSha256": "e12328d30253c6413c0ad33fba85b4481daba6a0f5647b1967b1983a9103d34f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 281.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 207,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 12.484375,
+      "y": 248.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 287,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 377,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 457,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 632.9375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 537,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 281.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 617,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 697,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 12.484375,
+      "y": 248.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 777,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 867,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 947,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-360-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 632.9375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1027,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-360-2.png",
+    "screenshotSha256": "4b321595ba5d23ebdaf936ab7e8ad80b37b981c72e8078d2ada82e0456d45708",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 698.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 260.328125,
+      "y": 459.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 308.328125,
+      "y": 483.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 308,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 372,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 574.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 436,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 500,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 698.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 564,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 260.328125,
+      "y": 459.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 628,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 302.015625,
+      "y": 483.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 697,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 761,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 574.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 825,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-1.png",
+    "screenshotSha256": "8c6bf21ae6f69e6e1a647835e939ce772a6082b6217d90a4c3e83ec1a518e0fe",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 393.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 360.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 263.171875,
+      "y": 439.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 361,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 441,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 726.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 521,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 393.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 601,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 681,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 360.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 761,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 263.171875,
+      "y": 439.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 851,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 931,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-768-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 726.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1011,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-768-2.png",
+    "screenshotSha256": "7b92243622e446ee0ab1062d5f9c47970cb2f6822036c1228bd7b954c8d6f25e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 636.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 596.328125,
+      "y": 397.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 644.328125,
+      "y": 421.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 308,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 372,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 512.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 436,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.34375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 500,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 636.828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 564,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 596.328125,
+      "y": 397.5,
+      "width": 20.8125,
+      "height": 21
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 628,
+      "width": 20.8125,
+      "height": 21
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 638.015625,
+      "y": 421.109375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 697,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.53125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 761,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 512.21875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 825,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-1.png",
+    "screenshotSha256": "bd121460251850ef1d5eee8767ca70155f1749c3d31606d1eb06d02aacd3ba5f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 331.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 298.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 599.171875,
+      "y": 377.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 361,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 441,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 664.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 521,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 331.96875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 601,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.828125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 681,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 298.5,
+      "width": 41.609375,
+      "height": 42
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 761,
+      "width": 41.609375,
+      "height": 42
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 599.171875,
+      "y": 377.109375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 851,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.53125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 931,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "chromium",
+      "version": "153.0.8010.12"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/chromium-1440-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 664.484375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1011,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/chromium-1440-2.png",
+    "screenshotSha256": "77bf31d791992ff4eebe0020929dc4880d35b03e9979d79d00e6b660174bb21c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.19999694824219,
+      "y": 212.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 584.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 185,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 56.69999694824219,
+      "y": 344.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 248,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 104.31666564941406,
+      "y": 369.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 317,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.800003051757812,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 380,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.80000305175781,
+      "y": 464.433349609375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 443,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.19999694824219,
+      "y": 212.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 506,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 584.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 569,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 56.69999694824219,
+      "y": 344.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 632,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 98.01666259765625,
+      "y": 369.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 701,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.800003051757812,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 764,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.80000305175781,
+      "y": 464.433349609375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 827,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-1.png",
+    "screenshotSha256": "81ca9157d2d2da37e56a9139c8d7cfb403319c8e558b8553242df389952090e2",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 122,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 201,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 280,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 370,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 449,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 528,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.39999389648438,
+      "y": 285.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 607,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.39999389648438,
+      "y": 548.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 686,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 16.283340454101562,
+      "y": 246.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 765,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 87.16667175292969,
+      "y": 326.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 855,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.80000305175781,
+      "y": 721.4500122070312,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 934,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-360-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.80000305175781,
+      "y": 644.25,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1013,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-360-2.png",
+    "screenshotSha256": "6fa48e5acea21e09ccaffabf00b800aa81b07798ee88b5736efd514bb281dbdc",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.20001220703125,
+      "y": 324.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 696.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 260.70001220703125,
+      "y": 456.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 308.316650390625,
+      "y": 481.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 302,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.8000030517578,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 365,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.8000030517578,
+      "y": 577.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 428,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.20001220703125,
+      "y": 324.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 491,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 696.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 554,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 260.70001220703125,
+      "y": 456.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 617,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 302.01666259765625,
+      "y": 481.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 686,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.8000030517578,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 749,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.8000030517578,
+      "y": 577.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 812,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-1.png",
+    "screenshotSha256": "df1f6e6545d72639f47082a676db96cb4330df41b442f011182bfdb3b1e6c4a0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.3999938964844,
+      "y": 397.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 660.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 377.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 263.16668701171875,
+      "y": 438.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 355,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.8000030517578,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 434,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.8000030517578,
+      "y": 735.8499755859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 513,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.3999938964844,
+      "y": 397.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 592,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.3999938964844,
+      "y": 660.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 377.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 750,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 263.16668701171875,
+      "y": 438.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 840,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.8000030517578,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 919,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-768-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.8000030517578,
+      "y": 735.8499755859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 998,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-768-2.png",
+    "screenshotSha256": "ead9118f802db7fda7d0e500d0f76ed58c81606f554b1ec41865ad43f33b54b0",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.2000122070312,
+      "y": 262.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 634.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 170,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 596.7000122070312,
+      "y": 394.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 233,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 644.316650390625,
+      "y": 419.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 302,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.79998779296875,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 365,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.7999877929688,
+      "y": 515.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 428,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.2000122070312,
+      "y": 262.25,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 491,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 634.7999877929688,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 554,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 596.7000122070312,
+      "y": 394.54998779296875,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 617,
+      "width": 20.816665649414062,
+      "height": 22
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 638.0166625976562,
+      "y": 419.58331298828125,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 686,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.79998779296875,
+      "y": 387.1499938964844,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 749,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.7999877929688,
+      "y": 515.5,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 812,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-1.png",
+    "screenshotSha256": "9dc287b681500a6a7b3dfdd0420e1acc004c06c3c7131a6c5095cc64e836599e",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.4000244140625,
+      "y": 335.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 107,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 598.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 186,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 315.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 265,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 599.1666870117188,
+      "y": 376.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 355,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.79998779296875,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 434,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.7999877929688,
+      "y": 673.8499755859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 513,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.4000244140625,
+      "y": 335.70001220703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 592,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.4000244140625,
+      "y": 598.7999877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 671,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 315.01666259765625,
+      "width": 41.633331298828125,
+      "height": 43
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 750,
+      "width": 41.63333511352539,
+      "height": 43
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 599.1666870117188,
+      "y": 376.1166687011719,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 840,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.79998779296875,
+      "y": 633.5499877929688,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 919,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "firefox",
+      "version": "155.0"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/firefox-1440-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.7999877929688,
+      "y": 673.8499755859375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 998,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/firefox-1440-2.png",
+    "screenshotSha256": "52ff5bdd189b2ec454da0653671140bdaff44d6c3fe9c6f5227904ec4661958f",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 255,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 104.3203125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 323.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 387.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 451.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 64.1875,
+      "y": 209.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 515.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 587.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 579.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 56.65625,
+      "y": 348.099609375,
+      "width": 20.800003051757812,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 643.796875,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 98.0078125,
+      "y": 370.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 712.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 30.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 776.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 47.796875,
+      "y": 459.4039306640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 840.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-1.png",
+    "screenshotSha256": "aa95f1c4208ac05d0d5eb1650fb06b6a71c0f1023a3c09638e43265f5e8e5727",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 309.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 127,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 207,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 16.234375,
+      "y": 248.19921875,
+      "width": 41.599998474121094,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 287,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 376.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 456.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 633.401611328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 536.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 75.390625,
+      "y": 309.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 616.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 101.390625,
+      "y": 548.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 696.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 16.234375,
+      "y": 248.19921875,
+      "width": 41.599998474121094,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 776.59375,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 87.171875,
+      "y": 327.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 866.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 38.796875,
+      "y": 694.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 946.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-360-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 63.796875,
+      "y": 633.401611328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1026.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-360-2.png",
+    "screenshotSha256": "541792170daac00235d180cf7ab0d5427263102dc24f93cd714f259956626e45",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 699.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 260.65625,
+      "y": 460.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 308.3203125,
+      "y": 482.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 307.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 371.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 573.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 435.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 268.1875,
+      "y": 321.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 499.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 699.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 563.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 260.65625,
+      "y": 460.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 627.796875,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 302.0078125,
+      "y": 482.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 696.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 134.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 760.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 223.796875,
+      "y": 573.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 824.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-1.png",
+    "screenshotSha256": "3f35dc525db1ca3a643840ec12a777c0971ddab378eeb3e46c76e429e273fd2c",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 421.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 379.19921875,
+      "width": 41.600006103515625,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 263.171875,
+      "y": 439.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 440.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 726.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 520.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 279.390625,
+      "y": 421.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 600.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 305.390625,
+      "y": 660.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 680.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 201,
+      "y": 379.19921875,
+      "width": 41.600006103515625,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 760.59375,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 263.171875,
+      "y": 439.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 850.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 142.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 930.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-768-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 239.796875,
+      "y": 726.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1010.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-768-2.png",
+    "screenshotSha256": "904df39563f2510b41a48044886579d5f5b41dedfc7031366a275a14b030a648",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 637.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 175,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-detail.png",
+    "baselineBox": {
+      "x": 596.65625,
+      "y": 398.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 239,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-sale.png",
+    "baselineBox": {
+      "x": 644.3203125,
+      "y": 420.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 307.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 371.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 511.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 435.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 604.1875,
+      "y": 259.07421875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 499.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 637.875,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 563.796875,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 596.65625,
+      "y": 398.099609375,
+      "width": 20.79998779296875,
+      "height": 20.79998779296875
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 627.796875,
+      "width": 20.796875,
+      "height": 20.796875
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 638.0078125,
+      "y": 420.83984375,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 696.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 470.796875,
+      "y": 370.2633056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 760.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 1,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-1/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 559.796875,
+      "y": 511.9508056640625,
+      "width": 16,
+      "height": 16
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 824.59375,
+      "width": 16,
+      "height": 16
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-1.png",
+    "screenshotSha256": "1781ba8a60c6f96e1383ab9396061fcdf7a0c9d0adbf87ee5d435f255041bfc4",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 359.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 111,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 191,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 317.19921875,
+      "width": 41.5999755859375,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 271,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-sale.png",
+    "baselineBox": {
+      "x": 599.171875,
+      "y": 377.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 360.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 440.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-great-helm",
+    "contextId": "great-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/great-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 664.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 520.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/inventory",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-inventory.png",
+    "baselineBox": {
+      "x": 615.390625,
+      "y": 359.0234375,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 600.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/equipped",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-equipped.png",
+    "baselineBox": {
+      "x": 641.390625,
+      "y": 598.921875,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 680.59375,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/detail",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-detail.png",
+    "baselineBox": {
+      "x": 537,
+      "y": 317.19921875,
+      "width": 41.5999755859375,
+      "height": 41.600006103515625
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 760.59375,
+      "width": 41.59375,
+      "height": 41.59375
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/sale",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-sale.png",
+    "baselineBox": {
+      "x": 599.171875,
+      "y": 377.0703125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 850.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/dungeon-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-dungeon-reward.png",
+    "baselineBox": {
+      "x": 478.796875,
+      "y": 610.995361328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 930.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  },
+  {
+    "id": "relic-horned-helm",
+    "contextId": "horned-helm/combat-reward",
+    "browser": {
+      "name": "webkit",
+      "version": "26.6"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "textScale": 2,
+    "baselineScreenshot": "art/cosmic-horror/review/baseline/capture-04/webkit-1440-2/horned-helm-combat-reward.png",
+    "baselineBox": {
+      "x": 575.796875,
+      "y": 664.948486328125,
+      "width": 32,
+      "height": 32
+    },
+    "renderedBox": {
+      "x": 17,
+      "y": 1010.1875,
+      "width": 32,
+      "height": 32
+    },
+    "screenshot": "art/cosmic-horror/batches/relic-helms/webkit-1440-2.png",
+    "screenshotSha256": "1d9b563b5aed6a6ba1c3454e682cdc1b7799b4a6542c057276845fe62589ee28",
+    "scope": "Isolated art proof at immutable measured size; no live UI geometry or native qualification",
+    "status": "PASS"
+  }
+]

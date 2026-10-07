@@ -1,0 +1,2 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'eslint' assets/js/app/item-view.mjs assets/js/app/symbol-view.mjs assets/js/app/services.mjs assets/js/app/outcome-view.mjs assets/js/equipment.js assets/js/main.js assets/js/player.js tests/unit/candidate-rules.test.mjs tests/integration/symbol-view.spec.mjs tests/browser/relic-accessibility.spec.mjs
