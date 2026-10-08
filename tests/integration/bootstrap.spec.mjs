@@ -154,7 +154,7 @@ test("delayed module completion gates actions then binds audio to the first titl
       waitUntil: "domcontentloaded",
     });
     await expect(fixture.page.locator("#name-input")).toBeDisabled();
-    await fixture.page.locator("#title-screen").dispatchEvent("click");
+    await fixture.page.locator("#title-action").dispatchEvent("click");
     expect(
       await fixture.page.evaluate(
         /* Exercise or inspect the isolated browser state for this assertion. */ () =>
@@ -163,7 +163,7 @@ test("delayed module completion gates actions then binds audio to the first titl
     ).toBe("undefined");
     release();
     await expect(fixture.page.locator("#title-screen")).toBeVisible();
-    await fixture.page.locator("#title-screen").click();
+    await fixture.page.locator("#title-action").click();
     expect(
       await fixture.page.evaluate(
         /* Exercise or inspect the isolated browser state for this assertion. */ () =>
@@ -199,7 +199,7 @@ test("new character and allocation persist complete state through the live contr
         ) => form.requestSubmit(),
       );
     await expect(fixture.page.locator("#title-screen")).toBeVisible();
-    await fixture.page.locator("#title-screen").click();
+    await fixture.page.locator("#title-action").click();
     await fixture.page.locator("#allocate-confirm").click();
     await expect(fixture.page.locator("#dungeon-main")).toBeVisible();
     const saved = await fixture.page.evaluate(

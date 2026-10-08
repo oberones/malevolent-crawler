@@ -7,11 +7,11 @@ import {
   recoveryFixture,
   resting,
 } from "../helpers/recovery-fixtures.mjs";
-// Enlarged text and hostile source bytes must not escape the viewport or execute as markup.
+// Verify enlarged inert recovery text and retain each screenshot in its own test output.
 test("boot recovery keyboard confirmation cancels with focus and reflows at 200%", async ({
   browser,
   browserName,
-}) => {
+}, testInfo) => {
   const bytes =
     '<img src=x onerror="globalThis.__unsafe=1">' + "x".repeat(6000);
   const fixture = await recoveryFixture(browser, {
@@ -35,7 +35,7 @@ test("boot recovery keyboard confirmation cancels with focus and reflows at 200%
     expect(await page.evaluate(() => globalThis.__unsafe)).toBeUndefined(); // Raw source is inert.
     await expect(page.locator("#boot-status")).toHaveAttribute("role", "alert");
     await page.screenshot({
-      path: `validation/cosmic-horror/reports/phase-7d/recovery-200-${browserName}.png`,
+      path: testInfo.outputPath(`recovery-200-${browserName}.png`),
     });
   } finally {
     await fixture.dispose();

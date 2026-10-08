@@ -121,7 +121,7 @@ test("settled death resets once and finishes loading", async ({ browser }) => {
   try {
     await fixture.page.goto("http://127.0.0.1:4173/");
     await expect(fixture.page.locator("#title-screen")).toBeVisible();
-    await fixture.page.locator("#title-screen").click();
+    await fixture.page.locator("#title-action").click();
     await expect(fixture.page.locator("#dungeon-main")).toBeVisible();
     const state = await fixture.page.evaluate(
       /* Verify reset retention independently of presentation. */ () => ({

@@ -1,0 +1,60 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/symbol-geometry.spec.mjs tests/browser/recovery-accessibility.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:21411) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 30 tests using 3 workers
+
+(node:21417) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21415) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (461ms)
+  ✓   2 [chromium] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes (704ms)
+  ✓   3 [chromium] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (6.2s)
+  ✓   4 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 1 (10.0s)
+  ✓   5 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 2 (9.8s)
+  ✓   6 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 1 (9.4s)
+  ✓   8 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 1 (8.7s)
+  ✓  10 [chromium] › tests/browser/symbol-geometry.spec.mjs:400:1 › favicon reference describes the ICO delivery (181ms)
+  ✓   7 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 2 (9.1s)
+(node:21499) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 2 (5.0s)
+(node:21504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  13 [firefox] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes
+  ✓  11 [firefox] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (1.3s)
+  ✓  12 [firefox] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (4.2s)
+  ✓  14 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 1 (9.9s)
+  ✓  15 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 2 (9.5s)
+  ✓  16 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 1 (9.0s)
+  ✓  18 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 1 (8.5s)
+  ✓  17 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 2 (9.1s)
+  ✓  20 [firefox] › tests/browser/symbol-geometry.spec.mjs:400:1 › favicon reference describes the ICO delivery (575ms)
+(node:21544) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21550) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [firefox] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 2 (8.3s)
+  ✓  21 [webkit] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (1.0s)
+(node:21568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 [webkit] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes (848ms)
+  ✓  22 [webkit] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (3.2s)
+  ✓  23 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 1 (6.7s)
+  ✓  25 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 360 text 2 (6.9s)
+  ✓  26 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 1 (6.2s)
+  ✓  27 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 768 text 2 (7.2s)
+  ✓  30 [webkit] › tests/browser/symbol-geometry.spec.mjs:400:1 › favicon reference describes the ICO delivery (352ms)
+  ✓  28 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 1 (7.1s)
+  ✓  29 [webkit] › tests/browser/symbol-geometry.spec.mjs:159:5 › remaining live symbol contexts 1440 text 2 (7.2s)
+
+  1 skipped
+  29 passed (59.7s)

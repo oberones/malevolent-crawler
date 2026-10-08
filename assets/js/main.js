@@ -167,7 +167,7 @@ const activateGame = () => {
 };
 // Bind controls once after validated state is available.
 const bindGameControls =
-  /* Bind the existing screen controls once after validated startup. */ () => {
+  /* Bind visible entry and game controls once after validated startup. */ () => {
     if (player === null) {
       runLoad("character-creation", "flex");
     } else {
@@ -175,8 +175,8 @@ const bindGameControls =
       target.style.display = "flex";
     }
 
-    // Title Screen Validation
-    document.querySelector("#title-screen").addEventListener(
+    // Activate entry only from the visible native button, including keyboard input.
+    document.querySelector("#title-action").addEventListener(
       "click",
       /* Handle this control using the current view state and transition owner. */ function () {
         // Commit only after this complete engine action and its nested work succeed.
@@ -837,7 +837,7 @@ const progressReset =
         dungeon.action = 0;
         dungeon.statistics.runtime = 0;
         combatBacklog.length = 0;
-        gameServices.narrative.put("#title-screen > p", "run.restart");
+        gameServices.narrative.put("#title-prompt", "run.restart");
         saveData();
       },
     );
@@ -899,7 +899,7 @@ const importData = (text) => {
       panel.style.display = "none";
       panel.replaceChildren();
     }
-    gameServices.narrative.put("#title-screen > p", "run.restart");
+    gameServices.narrative.put("#title-prompt", "run.restart");
     document.querySelector("#title-screen").style.display = "flex";
   };
   // A durable import is always attempted before exposing the unsaved-session option.
@@ -1146,8 +1146,12 @@ const allocationPopup =
     const confirm = document.querySelector("#allocate-confirm");
     const reset = document.querySelector("#allocate-reset");
     const close = document.querySelector("#allocate-close");
+    let accepted = false;
     confirm.onclick =
-      /* Handle this control using the current view state and transition owner. */ function () {
+      /* Accept this visible allocation once; discarded dialogs cannot mutate a later run. */ function () {
+        if (accepted || confirm !== document.querySelector("#allocate-confirm"))
+          return;
+        accepted = true;
         // Commit only after this complete engine action and its nested work succeed.
         return runGameplay(
           /* Keep this action and all nested mutations inside one save boundary. */ () => {

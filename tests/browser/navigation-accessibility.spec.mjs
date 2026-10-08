@@ -47,7 +47,11 @@ test("modal navigation blocks background and restores focus without abandonment"
   try {
     const p = f.page;
     await p.goto("/");
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
+    await expect(p.locator("#dungeon-main")).toBeVisible();
+    // Freeze time after the entry delay so cancellation cannot race a playtime tick.
+    await p.clock.install({ time: new Date("2026-10-08T12:00:00Z") });
+    await p.clock.pauseAt(new Date("2026-10-08T12:00:01Z"));
     const inventory = p.getByRole("button", { name: "Open inventory" });
     await inventory.click();
     await expect(p.locator("#inventory")).toHaveAttribute("aria-modal", "true");
@@ -115,7 +119,7 @@ test("entry validation and allocation have accessible names and cancellation", a
     ).toEqual([]);
     await p.locator("#name-input").fill("Keeper");
     await p.locator("#name-submit button").click();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.getByRole("dialog")).toBeVisible();
     await expect(p.getByRole("button", { name: "Increase HP" })).toBeVisible();
     await expect(
@@ -147,7 +151,7 @@ test("repeated modal dismissal and service disposal release the page", async ({
   try {
     const p = f.page;
     await p.goto("/");
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     const open = p.getByRole("button", { name: "Open inventory" });
     for (let i = 0; i < 4; i++) {
       await open.click();

@@ -242,7 +242,7 @@ Runtime paths are planned delivery references, not existing or accepted replacem
 
 Generate original transparent full silhouettes, one request per distinct variant. Use strong category shapes and restrained internal texture; keep defining limbs, tips and handles within the canvas. Never trace or recolor baseline art. Contain and transparently pad to each exact recorded canvas; preserve 50%/70% portrait framing. Inspect alpha edges and actual-size legibility in every measured context. Do not invent glyph dimensions.
 
-Creature framing is frozen by the small/tall/large T062–T063 pilot recorded below. Icon framing remains provisional until T082 qualifies the Sword icon at every measured size; remaining icon batches follow that gate. Pilot edits refine framing and prompts while preserving these shared IDs and names. Favicons use the sunken-bell motif, with separate 199 × 200 PNG and single-entry 127 × 128 ICO deliverables. The fallback uses a quiet sealed bell silhouette with adjacent readable identity; it is not substitute accepted creature art.
+Creature framing is frozen by the small/tall/large T062–T063 pilot recorded below. The completed T082 small-icon pilot establishes icon framing for the delivered relic and symbol batches. Pilot edits refine framing and prompts while preserving these shared IDs and names. Favicons use the sunken-bell motif, with separate 199 × 200 PNG and single-entry 127 × 128 ICO deliverables. The fallback uses a quiet sealed bell silhouette with adjacent readable identity; it is not substitute accepted creature art.
 
 ## Narrative catalog handoff (Phase 3A)
 
@@ -270,9 +270,13 @@ implemented by this package.
 Rampager remains supported historical vocabulary; this catalog does not add it to
 the current six-option allocation control. HP and stat abbreviations, Claim,
 Inventory, Equip, Save, rarity labels and third-party names may remain neutral.
-The credits template accurately identifies the currently retained original assets;
-replacement-art credit must change only after delivery and provenance exist.
-Native narrative review and the screen integration in Phase 3B remain OPEN.
+All 80 replacement outputs are delivered with recorded ImageGen prompts, masters
+and deterministic preparation in the manifest and batch records. Credits identify
+generated creature/relic/symbol/favicon/fallback artwork separately from retained
+audio, fonts and libraries; Aekashics remains the historical baseline sprite credit.
+Screen integration and safe legacy history mapping are implemented. Maintainer
+artwork approval is recorded on 2026-10-07; native narrative/context review remains
+separate in the Phase 8 release record.
 
 ## Frozen creature pilot direction (T063, 2026-10-06)
 

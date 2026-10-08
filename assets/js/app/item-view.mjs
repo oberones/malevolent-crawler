@@ -158,7 +158,7 @@ export function createItemView({
       document.querySelector("#inventory .content").append(status);
     }
   }
-  // Build detail and currency controls without mutating the holding or its binding.
+  // Round percentage text in details without mutating the holding or its binding.
   function detail(item, collection, binding) {
     pause();
     sound("open");
@@ -189,7 +189,7 @@ export function createItemView({
       list.append(
         node(
           "li",
-          `${labels[key]} +${value}${["atkSpd", "vamp", "critRate", "critDmg"].includes(key) ? "%" : ""}`,
+          `${labels[key]} +${["atkSpd", "vamp", "critRate", "critDmg"].includes(key) ? `${Math.round(value)}%` : value}`,
         ),
       );
     }

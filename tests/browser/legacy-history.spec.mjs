@@ -33,7 +33,7 @@ test("legacy load themes history, preserves names and exposes exact unknown text
     const p = f.page;
     await p.goto("/");
     await expect(p.locator("#title-screen")).toBeVisible();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.locator("#dungeon-main")).toBeVisible();
     await expect(p.locator("#dungeonLog > p")).toHaveCount(50);
     await expect(p.locator("#dungeonLog > p").first()).toContainText(

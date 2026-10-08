@@ -13,6 +13,45 @@ for (const viewport of [
   { width: 768, height: 1024 },
   { width: 1440, height: 900 },
 ]) {
+  // Keep the title compact and make only the visible, keyboard-accessible button activate entry.
+  test(`title button is explicit at ${viewport.width}`, async ({ browser }) => {
+    const f = await createLegacyBrowserFixture(browser, {
+      storage: resting.raw,
+      randomTape: [],
+      viewport,
+    });
+    try {
+      const p = f.page;
+      await p.goto("/");
+      const button = p.getByRole("button", {
+        name: "Begin the sounding",
+        exact: true,
+      });
+      await expect(button).toBeVisible();
+      await expect(button).toHaveText("Begin the sounding");
+      const headingBox = await p.locator("#title-heading").boundingBox();
+      const buttonBox = await button.boundingBox();
+      expect(
+        buttonBox.y - headingBox.y - headingBox.height,
+      ).toBeGreaterThanOrEqual(16);
+      expect(
+        buttonBox.y - headingBox.y - headingBox.height,
+      ).toBeLessThanOrEqual(48);
+      expect(buttonBox.height).toBeGreaterThanOrEqual(44);
+      expect(buttonBox.width).toBeLessThan(viewport.width);
+      await p.locator("#title-screen").click({ position: { x: 10, y: 10 } });
+      await expect(p.locator("#title-screen")).toBeVisible();
+      await p.locator("#title-heading").click();
+      await expect(p.locator("#title-screen")).toBeVisible();
+      // Establish focus explicitly: blank-area clicks retain focus differently across engines.
+      await button.focus();
+      await expect(button).toBeFocused();
+      await p.keyboard.press("Enter");
+      await expect(p.locator("#dungeon-main")).toBeVisible();
+    } finally {
+      await f.dispose();
+    }
+  });
   // Text enlargement and failed optional resources must leave core controls reachable.
   test(`entry resilience ${viewport.width} at 200% text`, async ({
     browser,
@@ -45,7 +84,7 @@ for (const viewport of [
           probe.className = "animation-shake dmg-numbers";
           document.body.append(probe);
           const values = [
-            document.querySelector("#title-screen > p"),
+            document.querySelector("#title-prompt"),
             document.querySelector(".loader"),
             probe,
           ].map(
@@ -58,7 +97,7 @@ for (const viewport of [
         },
       );
       expect(motion).toEqual(["none", "none", "none"]);
-      await p.locator("#title-screen").click();
+      await p.locator("#title-action").click();
       await expect(p.locator("#dungeon-main")).toBeVisible();
       await p.evaluate(
         /* Muted sound cannot disable navigation. */ () => Howler.mute(true),

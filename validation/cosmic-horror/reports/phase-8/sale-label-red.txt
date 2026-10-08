@@ -1,0 +1,46 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/full-journeys.spec.mjs --grep Sell readable --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:22345) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:22346) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport (2.0s)
+
+
+  1) [chromium] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      289 |       },
+      290 |     );
+    > 291 |     expect(lines).toBe(1);
+          |                   ^
+      292 |   } finally {
+      293 |     await fixture.dispose();
+      294 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:291:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-full-d102c-adable-at-a-narrow-viewport-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-full-d102c-adable-at-a-narrow-viewport-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-full-d102c-adable-at-a-narrow-viewport-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-full-d102c-adable-at-a-narrow-viewport-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport 

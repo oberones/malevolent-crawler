@@ -1,0 +1,15 @@
+{
+  "Firefox": {
+    "CFBundleShortVersionString": "157.0.1",
+    "CFBundleVersion": "15726.10.5"
+  },
+  "Safari": {
+    "CFBundleShortVersionString": "26.6.2",
+    "CFBundleVersion": "21624.5.1.11.3"
+  },
+  "Google Chrome": {
+    "status": "not installed at /Applications"
+  },
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83\n",
+  "revision": "ea372b73418ddd6af4461b510b9942f073a2f458"
+}

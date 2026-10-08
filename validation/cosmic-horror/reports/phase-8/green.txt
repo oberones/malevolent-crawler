@@ -1,0 +1,382 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/full-journeys.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:14238) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 15 tests using 3 workers
+
+(node:14239) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14241) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (3.5s)
+  ✘   3 [chromium] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (3.7s)
+  ✓   4 [chromium] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (2.4s)
+(node:14265) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (2.9s)
+(node:14291) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [chromium] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (10.3s)
+(node:14303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [firefox] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (2.1s)
+(node:14314) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (3.9s)
+  ✓  10 [firefox] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (2.8s)
+(node:15904) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [firefox] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (4.1s)
+(node:15913) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [firefox] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (11.3s)
+(node:15927) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [webkit] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (1.7s)
+  ✘  12 [webkit] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (2.0s)
+(node:15955) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [webkit] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (1.4s)
+  ✓  15 [webkit] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (1.8s)
+  ✘  11 [webkit] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (9.9s)
+
+
+  1) [chromium] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#title-screen')
+    Timeout: 5000ms
+    - Expected substring  - 1
+    + Received string     + 8
+
+    - Mariner
+    +
+    +         
+    +           
+    +           The Bell Beneath Brine
+    +         
+    +         Begin the sounding
+    +         
+    +       
+
+    Call log:
+      - Expect "toContainText" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+        14 × locator resolved to <section id="title-screen" class="game-container">…</section>
+           - unexpected value "
+            
+              
+              The Bell Beneath Brine
+            
+            Begin the sounding
+            
+          "
+
+
+      105 |     const restored = await snapshot(page);
+      106 |     expect(restored.player).toMatchObject(equipped.player);
+    > 107 |     await expect(page.locator("#title-screen")).toContainText("Mariner");
+          |                                                 ^
+      108 |   } finally {
+      109 |     await fixture.dispose();
+      110 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:107:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 5
+
+    @@ -22,15 +22,20 @@
+        },
+        "deaths": 0,
+        "equipped": Array [],
+        "equippedStats": Object {
+          "atk": 0,
+    +     "atkPct": 0,
+          "atkSpd": 0,
+          "critDmg": 0,
+          "critRate": 0,
+          "def": 0,
+    +     "defPct": 0,
+          "hp": 0,
+    +     "hpPct": 0,
+    +     "pen": 0,
+    +     "penPct": 0,
+          "vamp": 0,
+        },
+        "exp": Object {
+          "expCurr": 0,
+          "expCurrLvl": 0,
+
+      137 |     await page.reload();
+      138 |     await expect(page.locator("#title-screen")).toBeVisible();
+    > 139 |     expect((await snapshot(page)).player).toEqual(once.player);
+          |                                           ^
+      140 |     for (const [key, bytes] of Object.entries(normal.raw))
+      141 |       expect((await snapshot(page)).storage[key]).toBe(bytes);
+      142 |   } finally {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:139:43
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [firefox] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#title-screen')
+    Timeout: 5000ms
+    - Expected substring  - 1
+    + Received string     + 8
+
+    - Mariner
+    +
+    +         
+    +           
+    +           The Bell Beneath Brine
+    +         
+    +         Begin the sounding
+    +         
+    +       
+
+    Call log:
+      - Expect "toContainText" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+        14 × locator resolved to <section id="title-screen" class="game-container">…</section>
+           - unexpected value "
+            
+              
+              The Bell Beneath Brine
+            
+            Begin the sounding
+            
+          "
+
+
+      105 |     const restored = await snapshot(page);
+      106 |     expect(restored.player).toMatchObject(equipped.player);
+    > 107 |     await expect(page.locator("#title-screen")).toContainText("Mariner");
+          |                                                 ^
+      108 |   } finally {
+      109 |     await fixture.dispose();
+      110 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:107:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [firefox] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 5
+
+    @@ -22,15 +22,20 @@
+        },
+        "deaths": 0,
+        "equipped": Array [],
+        "equippedStats": Object {
+          "atk": 0,
+    +     "atkPct": 0,
+          "atkSpd": 0,
+          "critDmg": 0,
+          "critRate": 0,
+          "def": 0,
+    +     "defPct": 0,
+          "hp": 0,
+    +     "hpPct": 0,
+    +     "pen": 0,
+    +     "penPct": 0,
+          "vamp": 0,
+        },
+        "exp": Object {
+          "expCurr": 0,
+          "expCurrLvl": 0,
+
+      137 |     await page.reload();
+      138 |     await expect(page.locator("#title-screen")).toBeVisible();
+    > 139 |     expect((await snapshot(page)).player).toEqual(once.player);
+          |                                           ^
+      140 |     for (const [key, bytes] of Object.entries(normal.raw))
+      141 |       expect((await snapshot(page)).storage[key]).toBe(bytes);
+      142 |   } finally {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:139:43
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [webkit] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#title-screen')
+    Timeout: 5000ms
+    - Expected substring  - 1
+    + Received string     + 8
+
+    - Mariner
+    +
+    +         
+    +           
+    +           The Bell Beneath Brine
+    +         
+    +         Begin the sounding
+    +         
+    +       
+
+    Call log:
+      - Expect "toContainText" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+        14 × locator resolved to <section id="title-screen" class="game-container">…</section>
+           - unexpected value "
+            
+              
+              The Bell Beneath Brine
+            
+            Begin the sounding
+            
+          "
+
+
+      105 |     const restored = await snapshot(page);
+      106 |     expect(restored.player).toMatchObject(equipped.player);
+    > 107 |     await expect(page.locator("#title-screen")).toContainText("Mariner");
+          |                                                 ^
+      108 |   } finally {
+      109 |     await fixture.dispose();
+      110 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:107:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-fres-1df87-eloads-one-consistent-relic-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [webkit] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 5
+
+    @@ -22,15 +22,20 @@
+        },
+        "deaths": 0,
+        "equipped": Array [],
+        "equippedStats": Object {
+          "atk": 0,
+    +     "atkPct": 0,
+          "atkSpd": 0,
+          "critDmg": 0,
+          "critRate": 0,
+          "def": 0,
+    +     "defPct": 0,
+          "hp": 0,
+    +     "hpPct": 0,
+    +     "pen": 0,
+    +     "penPct": 0,
+          "vamp": 0,
+        },
+        "exp": Object {
+          "expCurr": 0,
+          "expCurrLvl": 0,
+
+      137 |     await page.reload();
+      138 |     await expect(page.locator("#title-screen")).toBeVisible();
+    > 139 |     expect((await snapshot(page)).player).toEqual(once.player);
+          |                                           ^
+      140 |     for (const [key, bytes] of Object.entries(normal.raw))
+      141 |       expect((await snapshot(page)).storage[key]).toBe(bytes);
+      142 |   } finally {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs:139:43
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-full-journeys-lega-05d9e-ce-through-claim-and-reload-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [chromium] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+    [chromium] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+    [firefox] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+    [firefox] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+    [webkit] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic 
+    [webkit] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload 
+  9 passed (31.4s)

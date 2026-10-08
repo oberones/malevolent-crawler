@@ -46,7 +46,7 @@ export function createOutcomeView(document, { historyRecovery = {} } = {}) {
     put(selector, id, params = {}) {
       document.querySelector(selector).textContent = text(id, params);
     },
-    /** Render typed messages and catalog symbols; unknown history exposes only selectable raw text. */
+    /** Render typed messages with rounded item percentages; unknown history exposes only selectable raw text. */
     renderLog(target, message) {
       symbol.release(target);
       if (typeof message === "string") {
@@ -105,7 +105,7 @@ export function createOutcomeView(document, { historyRecovery = {} } = {}) {
               .replace(/([A-Z])/g, ".$1")
               .replace(/crit/g, "c")
               .toUpperCase();
-            line.textContent = `${label}+${value}${["atkSpd", "vamp", "critRate", "critDmg"].includes(key) ? "%" : ""}`;
+            line.textContent = `${label}+${["atkSpd", "vamp", "critRate", "critDmg"].includes(key) ? `${Math.round(value)}%` : value}`;
             list.append(line);
           }
           target.append(list);

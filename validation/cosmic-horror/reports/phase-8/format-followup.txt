@@ -1,0 +1,6 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write tests/browser/symbol-geometry.spec.mjs assets/js/content/messages.mjs validation/cosmic-horror/ci.md specs/001-cosmic-horror-refactor/validation-plan.md
+tests/browser/symbol-geometry.spec.mjs 61ms (unchanged)
+assets/js/content/messages.mjs 22ms (unchanged)
+validation/cosmic-horror/ci.md 33ms
+specs/001-cosmic-horror-refactor/validation-plan.md 38ms (unchanged)

@@ -18,3 +18,25 @@ Owner: T006; recorded 2026-10-06. Configuration is complete; remote execution an
 GitHub inspection: default branch main; repository rulesets `[]`; main `protected: false`. See [branch result](reports/branch-protection.json). Enforcement is **BLOCKED**: required checks are not configured in branch protection/rulesets. This setup does not change repository policy or claim an unpushed workflow ran. T138 must run the workflow, confirm the emitted check context names above, then enforce all eight before merge. T139 additionally requires manual/native/art and matched performance evidence. No release waiver exists.
 
 The build gate is N/A because the app remains static. Performance execution belongs to T040–T042/T133–T134: one worker, no retries/traces/video, explicit external prepared baseline/candidate server. Its fixture/source/stage validations are not yet implemented and must precede measurements.
+
+## Phase 8 verification — 2026-10-08
+
+Read-only live GitHub inspection found `main.protected: false`, no repository
+rulesets and no workflow runs returned. Evidence:
+[branch](reports/phase-8/branch-protection.json),
+[rulesets](reports/phase-8/rulesets.json),
+[runs](reports/phase-8/ci-runs.json).
+The candidate remains an uncommitted local working tree based on
+`ea372b73418ddd6af4461b510b9942f073a2f458`; no final-candidate job URLs exist.
+No optional commit, push or policy mutation was performed.
+
+The local Docker client is installed but its configured Rancher Desktop daemon
+socket `/Users/oberon/.rd/docker.sock` does not exist. The pinned Linux CI image
+therefore could not execute locally. Actual remote CI and merge enforcement are
+BLOCKED; local macOS checks are recorded separately in `automated.json`.
+
+The eight configured jobs still require successful final-candidate execution,
+verified emitted context names and protected-branch enforcement before merge.
+The historical table above records Phase 1 outcomes; current local lint, formatting,
+unit, browser, audit and validator results are in the Phase 8 record. Performance
+fixture/hash validation is now implemented and must remain enabled.

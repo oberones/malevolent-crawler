@@ -41,7 +41,7 @@ function inlineBaseline(node) {
   }
 }
 
-// Reproduce the captured scenarios through either the immutable or live engine.
+// Reproduce valid captured scenarios, including active combat before its terminal reward.
 function renderContext({ context, state, enemyState, scale, legacy = false }) {
   // Restore computed-font overrides from the preceding scenario before rendering again.
   for (const node of document.querySelectorAll("[data-baseline-font]")) {
@@ -128,6 +128,7 @@ function renderContext({ context, state, enemyState, scale, legacy = false }) {
   }
   if (stage === "gold") goldDrop();
   if (stage === "victory") {
+    player.inCombat = true;
     showCombatInfo();
     document.getElementById("combatPanel").style.display = "flex";
     enemy.stats.hp = 0;

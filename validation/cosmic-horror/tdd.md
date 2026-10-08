@@ -586,3 +586,34 @@ Art/copy authoring and documentation only: no new application behavior and no ar
   resume, repeated entry/cleanup and three-engine browser evidence are recorded in
   [US5](us5.md). A broad clipboard comparison initially raced the ordinary playtime
   timer; the final test uses a frozen clock instead of changing gameplay timing.
+
+## Phase 8 — T129/T130 cross-story integration (2026-10-08)
+
+- Red: `npx playwright test tests/browser/full-journeys.spec.mjs --project=chromium --workers=1`.
+  Four cases reproduce three defects: duplicate terminal rewards, repeated/cancelled
+  allocation callbacks, and a fixed unsaved notice covering inventory at 360×800.
+  [Raw red](reports/phase-8/red-browser.txt). The preceding sandbox bind denial is
+  environmental. Fresh-save default-field and title-name assumptions were fixture
+  corrections, not intended behavioral red.
+- Green/refactor: terminal resolution requires active combat; allocation requires
+  its current Confirm node and a one-shot local owner; unsaved feedback reserves
+  layout space. The final allocation guard preserves the immutable classic replay
+  contract. `npm run test:unit`: 2,554 PASS after a clean install.
+- Targeted browser green: `npx playwright test tests/browser/full-journeys.spec.mjs tests/browser/recovery-accessibility.spec.mjs tests/integration/lifecycle-audio.spec.mjs --workers=3`:
+  38 PASS, one unsupported Firefox touch case skipped.
+- Broad validation: 737 PASS, 18 symbol-fixture failures, one unsupported touch
+  case skipped. All 18 shared one defect: the geometry fixture tried to resolve
+  victory for a resting player. It now marks combat active in both the legacy and
+  candidate fixture before terminal resolution. The baseline bytes and numerical
+  expectations remain unchanged. See `reports/phase-8/geometry-final.txt` for the
+  corrected full viewport/text-scale matrix and recovery rerun.
+- Credits/copy and operator documentation were updated against delivered art
+  provenance, with existing narrative tests; no artificial red for prose. Recovery
+  screenshots now use test-owned output paths, preserving historical captures.
+
+- Delivered-size review follow-up: the first passing performance run exposed a
+  two-line Sell label at 360 pixels. `full-journeys.spec.mjs --grep 'Sell readable'`
+  failed with expected one text line, actual two. A scoped nonshrinking/nowrap
+  label rule fixes it; `reports/phase-8/sale-label-green.txt` records cross-story,
+  relic accessibility and collection-reflow verification. Final-candidate timing
+  is recaptured separately, retaining the first performance report unchanged.

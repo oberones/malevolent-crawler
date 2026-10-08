@@ -73,53 +73,50 @@ npm audit --audit-level=high
 npm run validate:evidence
 ```
 
-Phase 1, Phase 2A–2G foundations, and Phase 3A–3B narrative integration are implemented.
-The unit suite passes 2,382 tests, including 1,118 candidate gameplay replays against
-frozen rules. The integration/browser matrix passes 321 checks across Chromium,
-Firefox, and WebKit. Lint, formatting, and the dependency audit pass locally.
-[Foundation results](validation/cosmic-horror/foundation.md) record guarded startup
-and completed-transition saves. [Narrative integration results](validation/cosmic-horror/phase-3b.md)
-record catalog-driven entry, event choices, combat/rewards, relic labels, menu, help,
-and credits, plus inert rendering of player names. These are local automated results;
-no remote CI run or native/manual acceptance is claimed.
+All five story implementations are integrated: narrative, encounters, relics,
+art recovery and saved-player continuation/exchange. All 80 generated art
+outputs are delivered and [maintainer-approved](validation/cosmic-horror/art-approval-2026-10-07-complete.md).
+[Phase 8 qualification](validation/cosmic-horror/release.md) records the current
+candidate checks and outstanding release gates. Automated success does not
+certify native browsers, physical devices, manual accessibility or release acceptance.
 
-Continue with Phase 3C for semantic navigation, modal focus, reflow, reduced motion,
-and US1 acceptance. Legacy history remains preserved with neutral notices until
-Phase 7A supplies template-aware migration and recovery controls.
+Local continuation restores a validated saved encounter without rerolling rewards.
+Character export uses Unicode-capable `MC1:` text; importing an old or new character
+requires confirmation and resets its run while retaining character holdings.
+Recovery preserves original source bytes and supports explicitly unsaved sessions.
+Keep one active gameplay tab; a conflicting save suspends writes and offers reload
+or export. A recovery JSON download is an archive, not a character import format.
 
-Art and release-evidence validators intentionally remain incomplete pending
-original-art generation, reviews and qualification. [Phase 2F results](validation/cosmic-horror/phase-2f.md)
-record 190 immutable baseline timing samples with warm-cache proof. Candidate
-performance comparison and full recovery/import/lifecycle acceptance remain OPEN.
+To prepare one recorded master, run
+`npm run art:prepare -- <manifest-asset-id>`. The manifest must contain its master
+and exact output dimensions. Record the returned hash/transform before validation.
+Never replace the immutable baseline or infer manual acceptance from file checks.
 
-To prepare one recorded generated master, run
-`npm run art:prepare -- <manifest-asset-id>`. The manifest row must first contain its
-master path and explicit output dimensions. Record the printed delivered hash and
-transform in that row, then validate. Preparation never fills review fields or
-claims originality. The 80 required art rows remain OPEN.
-
-See the [Phase 1 results](validation/cosmic-horror/phase-1.md),
-[environment](validation/cosmic-horror/environment.json),
-[manual workbook](validation/cosmic-horror/manual.md), and
-[CI/enforcement record](validation/cosmic-horror/ci.md). Native/manual acceptance,
-art qualification, matched performance and GitHub required-check enforcement
-remain OPEN/BLOCKED; automated setup success does not substitute for them.
+For performance, follow the prepared-root procedure in the
+[quickstart](specs/001-cosmic-horror-refactor/quickstart.md). The comparison uses
+five or more samples per matched workload and verifies warm caching. The
+[manual workbook](validation/cosmic-horror/manual.md),
+[environment](validation/cosmic-horror/environment.json) and
+[CI record](validation/cosmic-horror/ci.md) retain separate qualification status.
 
 ## Credits
 
-The original setting and narrative are implemented. Fifty-three generated creature
-replacements are delivered across the [recorded art batches](art/cosmic-horror/batches/),
-including the unused Unrung Witness and the latest
-[mimic batch](art/cosmic-horror/batches/mimics/generation.json).
-Their prompts and provenance record built-in ImageGen generation and deterministic
-exports. All 53 creature sprite paths now contain replacement art. Original
-monster-art attribution is retained below; relic/symbol art and full
-replacement-art qualification remain pending.
-Howler 2.2.3 remains the audio library. Font/library license notices remain in their
-distributed files.
+The coastal setting and narrative are original to this refactor. All 53 creature
+sprites, 24 symbol roles, two favicons and the shared fallback were generated with
+built-in ImageGen and prepared deterministically at their recorded dimensions.
+The [manifest](art/cosmic-horror/manifest.json), [prompts](art/cosmic-horror/prompts/)
+and [batch records](art/cosmic-horror/batches/) retain the delivered files,
+masters, provenance and reviews. Generated masters are authoring evidence and
+are not required to serve the game.
 
-- [Aekashics](https://aekashics.itch.io/) - Monster Sprites
-- [Leohpaz](https://leohpaz.itch.io/) - RPG SFX
-- [phoenix1291](https://phoenix1291.itch.io/sound-effects-pack-2) - Level up SFX
-- [Leviathan_Music](https://soundcloud.com/leviathan254) - Battle Music
-- [Sara Garrard](https://sonatina.itch.io/letsadventure) - Dungeon Music
+The original game's monster sprites by [Aekashics](https://aekashics.itch.io/)
+remain credited as historical baseline assets; shipped creature sprites have
+been replaced. Retained audio credits:
+
+- [Leohpaz](https://leohpaz.itch.io/) — RPG sound effects
+- [phoenix1291](https://phoenix1291.itch.io/sound-effects-pack-2) — Level-up sound effect
+- [Leviathan_Music](https://soundcloud.com/leviathan254) — Battle music
+- [Sara Garrard](https://sonatina.itch.io/letsadventure) — Dungeon music
+
+Howler 2.2.3 remains the audio library. Retained text fonts, generic Font Awesome
+controls, library assets and their license notices remain in their distributed files.

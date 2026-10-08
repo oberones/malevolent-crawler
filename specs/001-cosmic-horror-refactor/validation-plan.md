@@ -16,6 +16,15 @@ Native Firefox 157.0 build 15726.9.24 and Safari 26.6.2 build 21624.5.1.11.3 are
 
 The CI image digest was resolved and pinned; actual Ubuntu runner execution/OS metadata remains OPEN. [Phase 1 results](../../validation/cosmic-horror/phase-1.md) and the [manual workbook](../../validation/cosmic-horror/manual.md) separate these setup results from all release obligations.
 
+## Phase 8 observed native update (2026-10-08)
+
+Native Firefox is now 157.0.1 build 15726.10.5; Safari remains 26.6.2 build
+21624.5.1.11.3 on macOS 26.6.2 (25G83). The
+[native desktop record](../../validation/cosmic-horror/native-desktop.md) describes
+bounded direct UI checks and their limits. Chrome and physical mobile access
+remain unavailable. These observations do not replace historical baseline
+measurements or qualify unspecified viewport/DPR tuples.
+
 ## Test design and red–green sequence
 
 | Suite                   | Required assertions and failure cases                                                                                                                                                                                              | Red step / green evidence                                                                                                                |

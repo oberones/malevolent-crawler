@@ -155,7 +155,7 @@ test("setting entry and allocation", async ({ browser }) => {
     await p.locator("#name-input").fill("Mariner");
     await p.locator("#name-submit button").click();
     await expect(p.locator("#title-screen")).toBeVisible();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.locator("#allocate-confirm")).toBeVisible();
     await p.locator("#hpAdd").click();
     const result = await p.evaluate(
@@ -287,7 +287,7 @@ test("setting inventory menu help credits and abandonment", async ({
     const p = f.page;
     await p.goto("http://127.0.0.1:4173/");
     await expect(p.locator("#title-screen")).toBeVisible();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.locator("#dungeon-main")).toBeVisible();
     await p.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
     await p.clock.pauseAt(new Date("2026-10-06T12:00:01Z"));
@@ -341,7 +341,7 @@ for (const section of ["Help", "Credits"]) {
       const p = f.page;
       await p.goto("http://127.0.0.1:4173/");
       await expect(p.locator("#title-screen")).toBeVisible();
-      await p.locator("#title-screen").click();
+      await p.locator("#title-action").click();
       await expect(p.locator("#dungeon-main")).toBeVisible();
       await p.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
       await p.clock.pauseAt(new Date("2026-10-06T12:00:01Z"));

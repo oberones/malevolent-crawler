@@ -152,7 +152,7 @@ test("audio waits for title gesture and retains mute preferences", async ({
         /* Boot has no audio instance to autoplay. */ () => Boolean(bgmDungeon),
       ),
     ).toBe(false);
-    await fixture.page.locator("#title-screen").click();
+    await fixture.page.locator("#title-action").click();
     expect(
       await fixture.page.evaluate(
         /* The first gesture respects the stored master mute. */ () =>

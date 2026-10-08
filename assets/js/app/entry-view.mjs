@@ -10,11 +10,11 @@ export function createEntryView(document) {
     document.querySelector(selector).textContent = text(id);
   }
   return {
-    /** Fill the existing title, creation and inventory screen organization before controls unlock. */
+    /** Fill the title button, creation and inventory text before controls unlock. */
     initialize() {
       document.title = text("entry.title");
       put("#title-screen h1", "entry.title");
-      put("#title-screen > p", "entry.begin");
+      put("#title-prompt", "entry.begin");
       put("#introduction", "entry.introduction");
       put("#name-submit h1", "entry.name");
       put("#inventory h3", "inventory.title");

@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write assets/css/style.css tests/browser/full-journeys.spec.mjs
+assets/css/style.css 69ms (unchanged)
+tests/browser/full-journeys.spec.mjs 42ms

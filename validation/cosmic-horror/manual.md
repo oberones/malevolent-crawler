@@ -509,3 +509,26 @@ prior-good/retained-character recovery clearly says session-only; unknown histor
 remains actionable; denied Copy retains selectable/downloadable text; and a second
 tab exposes reload/export without merging. Recovered sessions must be exported
 before closing the tab because this recovery path does not overwrite originals.
+
+## Phase 8 reconciliation — 2026-10-08
+
+All 80 manifest asset reviews remain PASS under the existing maintainer approval;
+this run neither regenerated art nor replaced that review. The current art
+validator reports 27 unresolved technical context/geometry obligations (two
+favicons, 24 relic/symbol roles and the fallback); see `reports/phase-8/art.txt`.
+Earlier PASS artwork review does not close those technical/native obligations.
+
+The integrated current-identity suites exercise all encounters, relics, symbols,
+messages and safe historical rendering. Cross-story tests now cover creation,
+reward/equip/reload, repeated terminal resolution, import/allocation/restart and
+art failure during unsaved recovery. See `integration-findings.md` for fixes and
+`automated.json` for exact local outcomes. No gameplay, art or narrative catalog
+identity was renamed in this package; credits now reflect the delivered collection.
+
+Bounded native Firefox 157.0.1 and Safari 26.6.2 interactions are recorded in
+`native-desktop.md`, including actual focus-return observations. Those checks do
+not qualify all required viewport/DPR/contrast/text-scale/motion/mute tuples.
+Chrome and physical Android/iPhone/iPad access remain BLOCKED; available-browser
+unperformed journeys remain OPEN. Human artwork approval, agent visual inspection,
+keyboard automation, native interaction and physical-device acceptance retain
+separate ownership. `release.md` is the current release decision.

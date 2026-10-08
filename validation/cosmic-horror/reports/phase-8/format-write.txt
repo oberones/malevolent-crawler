@@ -1,0 +1,11 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write README.md specs/001-cosmic-horror-refactor/quickstart.md art/cosmic-horror/setting-guide.md tests/browser/full-journeys.spec.mjs tests/browser/recovery-accessibility.spec.mjs validation/cosmic-horror/integration-findings.md validation/cosmic-horror/native-desktop.md validation/cosmic-horror/native-mobile.md validation/cosmic-horror/review.md
+README.md 84ms (unchanged)
+specs/001-cosmic-horror-refactor/quickstart.md 45ms (unchanged)
+art/cosmic-horror/setting-guide.md 464ms (unchanged)
+tests/browser/full-journeys.spec.mjs 54ms
+tests/browser/recovery-accessibility.spec.mjs 33ms (unchanged)
+validation/cosmic-horror/integration-findings.md 11ms
+validation/cosmic-horror/native-desktop.md 8ms (unchanged)
+validation/cosmic-horror/native-mobile.md 15ms (unchanged)
+validation/cosmic-horror/review.md 7ms (unchanged)

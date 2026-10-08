@@ -23,7 +23,7 @@ test("current narrative keeps hostile names inert and records the last fifty eve
     const p = f.page;
     await p.goto("/");
     await expect(p.locator("#title-screen")).toBeVisible();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.locator("#dungeon-main")).toBeVisible();
     const name = 'Goblin <img src=x onerror="globalThis.injected=true"> $&';
     const result = await p.evaluate(
@@ -93,7 +93,7 @@ test("allocation uses catalog skills without changing rule tokens", async ({
     await expect(p.locator("#character-creation")).toBeVisible();
     await p.locator("#name-input").fill("Keeper");
     await p.locator("#name-submit button").click();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     for (const [alias, skill] of Object.entries(skills)) {
       if (alias === "Rampager") continue;
       await p.locator("#select-skill").selectOption(alias);
@@ -126,7 +126,7 @@ test("relic labels agree across inventory details and sale confirmation", async 
     const p = f.page;
     await p.goto("/");
     await expect(p.locator("#title-screen")).toBeVisible();
-    await p.locator("#title-screen").click();
+    await p.locator("#title-action").click();
     await expect(p.locator("#dungeon-main")).toBeVisible();
     const item = await p.evaluate(
       // Inspect the existing holding; do not roll or fabricate an item.

@@ -426,7 +426,7 @@ for (const mode of ["death", "abandon", "new-run"]) {
             document.querySelector("#title-screen").style.display = "flex";
           },
         );
-        await f.page.locator("#title-screen").click();
+        await f.page.locator("#title-action").click();
         await f.page.locator("#allocate-confirm").click();
         expect(
           await f.page.evaluate(
@@ -449,3 +449,70 @@ for (const mode of ["death", "abandon", "new-run"]) {
     }
   });
 }
+
+// Verify percentage rounding on both item surfaces without changing stored rolls.
+test("item percentages display nearest integers in rewards and details", async ({
+  browser,
+}) => {
+  const f = await open(browser);
+  const item = {
+    ...first,
+    stats: [
+      { hp: 12 },
+      { atkSpd: 2.49 },
+      { vamp: 2.5 },
+      { critRate: 0.1 },
+      { critDmg: 9.99 },
+    ],
+  };
+  try {
+    await f.page.evaluate(
+      // Render a deterministic reward and open its actual inventory detail control.
+      async (item) => {
+        const { createOutcomeView } =
+          await import("/assets/js/app/outcome-view.mjs");
+        const view = createOutcomeView(document);
+        view.renderLog(document.querySelector("#dungeonLog"), {
+          id: "inventory.reward",
+          params: { item },
+        });
+        player.inventory.equipment = [JSON.stringify(item)];
+        player.equipped = [];
+        openInventory();
+        document.querySelector("#playerInventory .items").click();
+      },
+      item,
+    );
+    await expect(f.page.locator("#equipmentInfo li")).toHaveText([
+      "HP +12",
+      "Attack speed +2%",
+      "Vampirism +3%",
+      "Critical rate +0%",
+      "Critical damage +10%",
+    ]);
+    await expect(f.page.locator("#dungeonLog li")).toHaveText([
+      "HP+12",
+      "ATK.SPD+2%",
+      "VAMP+3%",
+      "C.RATE+0%",
+      "C.DMG+10%",
+    ]);
+    await f.page.locator("#un-equip").click();
+    await f.page.locator("#playerEquipment .items").click();
+    await expect(f.page.locator("#equipmentInfo li")).toHaveText([
+      "HP +12",
+      "Attack speed +2%",
+      "Vampirism +3%",
+      "Critical rate +0%",
+      "Critical damage +10%",
+    ]);
+    expect(
+      await f.page.evaluate(
+        // Read the actual equipped holding to prove rendering preserved precision.
+        () => player.equipped[0],
+      ),
+    ).toEqual(item);
+  } finally {
+    await f.context.close();
+  }
+});

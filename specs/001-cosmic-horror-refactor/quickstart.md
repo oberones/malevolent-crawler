@@ -2,12 +2,18 @@
 
 ## Current state
 
-Phase 1 setup and Phase 2A–2G foundations are implemented; [Phase 2G evidence](../../validation/cosmic-horror/foundation.md) records guarded startup, completed-transition persistence and current-rule replay. [Phase 2E evidence](../../validation/cosmic-horror/phase-2e.md) records tested art preparation, the 80-obligation OPEN manifest, and release-evidence validation. [Phase 2D evidence](../../validation/cosmic-horror/phase-2d.md) records independently tested save validation, safe rendering, snapshots, lifecycle/transitions and dialogs; the storage/transition bridge is now integrated by Phase 2G; full story integration remains open. [Phase 2C evidence](../../validation/cosmic-horror/phase-2c.md) records the original setting guide and tested immutable catalogs; Phase 3B now connects narrative and current display labels to gameplay; art delivery and full story qualification remain open. [Phase 2B evidence](../../validation/cosmic-horror/phase-2b.md) records protected-rule characterization and 1,998 automated symbol measurements; native baseline rows remain BLOCKED. [Phase 2A evidence](../../validation/cosmic-horror/phase-2a.md) records the frozen source, 19 synthetic saves, four exports and passing replay checks. Node 24.21.0/npm 12.2.0 and the exact dependency pins below were installed and verified through nvm, leaving its default alias unchanged. `npm ci` succeeds with install scripts disabled. All three matching Playwright engines are installed. The static-server, module-MIME, three-viewport/input smoke checks and tooling-scope unit tests pass; these do not certify gameplay or native acceptance.
+Phases 1–7 are implemented, including all five player stories. All 80 delivered
+artworks have [maintainer approval](../../validation/cosmic-horror/art-approval-2026-10-07-complete.md).
+Phase 8 runs the integrated candidate through automated, performance, native,
+manual and merge-enforcement checks. See the current
+[release record](../../validation/cosmic-horror/release.md) and
+[automated record](../../validation/cosmic-horror/automated.json) for actual outcomes.
+Historical package reports describe their dated scope and do not supersede that record.
 
-The complete unit suite passes 2,452 tests after Phase 5A. Phase 3B integrates the narrative catalogs, and the Phase 4C combined integration/browser suite passed 393 checks across all three pinned engines. Phase 5A adds eight relic acceptance journeys (24 engine cases): 18 pass and six intentionally fail on visible capacity feedback and stale/repeated sale handling until T089 connects the new boundary. The complete browser gate is currently red; see [Phase 5A evidence](../../validation/cosmic-horror/phase-5a.md). Lint, formatting, and the dependency audit pass locally. Phase 4A adds reserved encounter geometry and all-variant/rule browser coverage; see [Phase 4A evidence](../../validation/cosmic-horror/phase-4a.md) and [US1 evidence](../../validation/cosmic-horror/us1.md); remote CI and full native/manual acceptance are not claimed.
-
-Repository-wide lint and formatting pass after Phase 2G resolved the [inventoried legacy debt](../../validation/cosmic-horror/legacy-debt.md). Art preparation and both validators are implemented. The real art/evidence validators exit nonzero because generation and release qualification remain incomplete. [Phase 2F evidence](../../validation/cosmic-horror/phase-2f.md) records the tested harness and 190 immutable baseline timing samples; candidate comparison remains OPEN. The complete [execution record](../../validation/cosmic-horror/phase-1.md) distinguishes setup PASS from OPEN/BLOCKED release obligations.
-Run implementation commands from the repository root. Read the [plan](plan.md), [validation plan](validation-plan.md), and constitution first. The baseline application revision is `3cfaf54babae978c7388c023f5df5ebe6282259b`; preserve source/asset hashes and representative saves before replacing content.
+Use the pinned runtime below. Preserve the immutable baseline revision
+`3cfaf54babae978c7388c023f5df5ebe6282259b` and its source/asset hashes. The app has no
+production build. Missing native/device evidence or failing art/evidence validators
+remains a release blocker even when gameplay tests pass.
 
 ## Toolchain and dependency setup
 
@@ -116,36 +122,15 @@ Complete the seeded `validation/cosmic-horror/manual.md` and `gates.json` record
 
 The configured `.github/workflows/validate.yml` selects the pinned Node/npm toolchain and runs eight independent required jobs: unit, integration, browser, lint, format, art, audit and evidence. Integration/browser jobs run `npx playwright install --with-deps chromium firefox webkit`. All jobs use `mcr.microsoft.com/playwright:v1.63.0-noble@sha256:eff16c30e6f3f4af0a03fa4b706120d5e9b0891c344a27d64559aff5900a4a27`; the digest was resolved from Microsoft's registry. The first CI run must record actual runner OS metadata; no remote execution is claimed yet. Reports upload on failure, and incomplete art/evidence checks are not skipped.
 
-GitHub inspection found main unprotected with no repository rulesets. Required-check enforcement is BLOCKED until T138 configures it and verifies actual emitted contexts. See [ci.md](../../validation/cosmic-horror/ci.md). Release qualification additionally requires the completed manual/native/art index and matched performance results.
+GitHub inspection found main unprotected with no repository rulesets. Required-check enforcement remains BLOCKED: the 2026-10-08 inspection found no CI runs, no rulesets and an unprotected main branch. See [ci.md](../../validation/cosmic-horror/ci.md). Release qualification additionally requires the completed manual/native/art index and matched performance results.
 
-## Next workflow command
+## Qualification handoff
 
-Continue with Phase 7D (T122–T128), the next independent implementation package
-in [tasks.md](tasks.md). Phase 7A completes pure legacy presentation migration,
-exact portrait mapping, safe historical logs and persistent raw-history recovery.
-The [Phase 7A evidence](../../validation/cosmic-horror/phase-7a.md) records 2,547
-unit passes and 81 scoped browser/integration passes across all three engines,
-plus passing lint and formatting. Phase 7B now completes strict Latin-1/MC1 Unicode character exchange and transactional
-import; see [Phase 7B evidence](../../validation/cosmic-horror/phase-7b.md):
-2,554 unit passes and 96 scoped browser/integration passes across three engines.
-Preview/cancel are read-only; failed commits retain the current session; explicit
-session-only imports remain unsaved until reload and can be exported. Import
-cancels owned delayed screen/combat work. Phase 7C completes saved-combat continuation and scoped timer/audio/listener
-ownership; see [Phase 7C evidence](../../validation/cosmic-horror/phase-7c.md):
-2,554 unit passes, 342 broad browser/integration passes, and 51 final scoped
-passes across three engines. The report also preserves an intermediate
-249-pass run with three corrected test-ordering failures. Complete recovery,
-clipboard/conflict workflows and US5 native acceptance remain unfinished.
-
-Phase 6D connects image recovery, joins all 80 delivered
-art assets and corrects recorded stat/allocation reflow findings. The
-[US4 evidence](../../validation/cosmic-horror/us4.md) records 2,539 unit passes,
-583 full-run browser/integration passes plus two timing/setup failures, and
-51 final scoped passes covering both affected cases and the final layout.
-All 24 recovery journeys and 486 final remaining-symbol captures pass.
-`validate:art` and `validate:evidence` still fail for incomplete context/native
-and release qualification; implementation completion does not waive those gates.
-Earlier status paragraphs describe historical increments.
+Continue the unchecked Phase 8 tasks in [tasks.md](tasks.md), using the
+[release record](../../validation/cosmic-horror/release.md) to distinguish
+completed local checks from unavailable native/device and remote CI work.
 
 Preserve the immutable baseline. Routine integration runs omit
-`CAPTURE_BASELINE_DIR`; new capture directories use exclusive writes. The maintainer has [approved all 80 delivered artworks](../../validation/cosmic-horror/art-approval-2026-10-07-complete.md), closing T107 human artwork review. Native/manual, full-page coordinate, performance and release gates remain OPEN/BLOCKED. Optional `/speckit.git.commit` hooks were not executed.
+`CAPTURE_BASELINE_DIR`; new captures and performance reports use exclusive writes.
+Record native review separately from browser automation and emulated touch.
+Optional `/speckit.git.commit` hooks require an explicit request.

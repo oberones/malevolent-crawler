@@ -1,0 +1,11 @@
+npm notice run malevolent-crawler@0.0.0 lint
+npm notice run eslint .
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/full-journeys.spec.mjs
+   44:7   error  Read-only global 'enemy' should not be modified     no-global-assign
+   44:7   error  Unexpected assignment to read-only global variable  no-implicit-globals
+   51:7   error  'document' is not defined                           no-undef
+  175:13  error  'document' is not defined                           no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+

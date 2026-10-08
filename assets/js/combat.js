@@ -5,7 +5,8 @@ let playerDead = false;
 
 // ========== Validation ==========
 const hpValidation =
-  /* Resolve terminal damage and bind result controls to this combat generation. */ () => {
+  /* Resolve an active encounter once and bind its result controls to this generation. */ () => {
+    if (!player.inCombat) return;
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
