@@ -5,7 +5,7 @@ let playerDead = false;
 
 // ========== Validation ==========
 const hpValidation =
-  /* Resolve death or victory once the current attack has applied its damage. */ () => {
+  /* Resolve terminal damage and bind result controls to this combat generation. */ () => {
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
@@ -15,7 +15,9 @@ const hpValidation =
           playerDead = true;
           player.deaths++;
           addCombatLog(gameServices.narrative.record("combat.defeat"));
-          document.querySelector("#battleButton").addEventListener(
+          endCombat();
+          gameServices.combatLifecycle.listen(
+            document.querySelector("#battleButton"),
             "click",
             /* Handle this control using the current view state and transition owner. */ function () {
               // Commit only after this complete engine action and its nested work succeed.
@@ -29,16 +31,13 @@ const hpValidation =
                   dimDungeon.style.filter = "brightness(100%)";
                   dimDungeon.style.display = "none";
                   combatPanel.style.display = "none";
-                  runLoad("title-screen", "flex");
 
-                  clearInterval(dungeonTimer);
-                  clearInterval(playTimer);
                   progressReset();
+                  runLoad("title-screen", "flex");
                 },
               );
             },
           );
-          endCombat();
         } else if (enemy.stats.hp < 1) {
           // Gives out all the reward and show the claim button
           enemy.stats.hp = 0;
@@ -76,7 +75,9 @@ const hpValidation =
           playerLoadStats();
 
           // Close the battle panel
-          document.querySelector("#battleButton").addEventListener(
+          endCombat();
+          gameServices.combatLifecycle.listen(
+            document.querySelector("#battleButton"),
             "click",
             /* Handle this control using the current view state and transition owner. */ function () {
               // Commit only after this complete engine action and its nested work succeed.
@@ -97,7 +98,6 @@ const hpValidation =
               );
             },
           );
-          endCombat();
         }
       },
     );
@@ -181,7 +181,7 @@ const playerAttack =
         // Damage effect
         const enemySprite = document.querySelector("#enemy-sprite");
         enemySprite.classList.add("animation-shake");
-        setTimeout(
+        gameServices.combatLifecycle.timeout(
           /* Complete the scheduled visual update or next attack in its existing order. */ () => {
             enemySprite.classList.remove("animation-shake");
           },
@@ -199,7 +199,7 @@ const playerAttack =
           dmgNumber.innerHTML = nFormatter(damage);
         }
         dmgContainer.appendChild(dmgNumber);
-        setTimeout(
+        gameServices.combatLifecycle.timeout(
           /* Complete the scheduled visual update or next attack in its existing order. */ () => {
             dmgContainer.removeChild(dmgContainer.lastElementChild);
           },
@@ -208,7 +208,7 @@ const playerAttack =
 
         // Attack Timer
         if (player.inCombat) {
-          setTimeout(
+          gameServices.combatLifecycle.timeout(
             /* Complete the scheduled visual update or next attack in its existing order. */ () => {
               if (player.inCombat) {
                 playerAttack();
@@ -283,7 +283,7 @@ const enemyAttack =
         // Damage effect
         const playerPanel = document.querySelector("#playerPanel");
         playerPanel.classList.add("animation-shake");
-        setTimeout(
+        gameServices.combatLifecycle.timeout(
           /* Complete the scheduled visual update or next attack in its existing order. */ () => {
             playerPanel.classList.remove("animation-shake");
           },
@@ -292,7 +292,7 @@ const enemyAttack =
 
         // Attack Timer
         if (player.inCombat) {
-          setTimeout(
+          gameServices.combatLifecycle.timeout(
             /* Complete the scheduled visual update or next attack in its existing order. */ () => {
               if (player.inCombat) {
                 enemyAttack();
@@ -360,14 +360,25 @@ const startCombat =
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
+        gameServices.combatLifecycle.invalidate();
+        combatSeconds = 0;
+        bgmBattleMain.stop();
+        bgmBattleGuardian.stop();
+        bgmBattleBoss.stop();
         bgmDungeon.pause();
         sfxEncounter.play();
         battleMusic.play();
         player.inCombat = true;
 
         // Starts the timer for player and enemy attacks along with combat timer
-        setTimeout(playerAttack, 1000 / player.stats.atkSpd);
-        setTimeout(enemyAttack, 1000 / enemy.stats.atkSpd);
+        gameServices.combatLifecycle.timeout(
+          playerAttack,
+          1000 / player.stats.atkSpd,
+        );
+        gameServices.combatLifecycle.timeout(
+          enemyAttack,
+          1000 / enemy.stats.atkSpd,
+        );
         const dimDungeon = document.querySelector("#dungeon-main");
         dimDungeon.style.filter = "brightness(50%)";
 
@@ -377,7 +388,10 @@ const startCombat =
         dungeon.status.event = true;
         combatPanel.style.display = "flex";
 
-        combatTimer = setInterval(combatCounter, 1000);
+        combatTimer = gameServices.combatLifecycle.interval(
+          combatCounter,
+          1000,
+        );
       },
     );
   };
@@ -387,6 +401,7 @@ const endCombat =
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
+        gameServices.combatLifecycle.invalidate();
         bgmBattleMain.stop();
         bgmBattleGuardian.stop();
         bgmBattleBoss.stop();
@@ -408,8 +423,7 @@ const endCombat =
           saveData();
         }
 
-        // Stops every timer in combat
-        clearInterval(combatTimer);
+        // The owner has cancelled timers; reset only the display counter here.
         combatSeconds = 0;
       },
     );

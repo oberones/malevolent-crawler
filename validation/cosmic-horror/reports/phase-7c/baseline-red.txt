@@ -1,0 +1,368 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/continue-encounter.spec.mjs tests/integration/lifecycle-audio.spec.mjs --project=chromium --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:95587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 3 workers
+
+(node:95592) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95593) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (2.1s)
+  ✘   1 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (2.2s)
+  ✘   2 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (2.3s)
+(node:95621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95622) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.5s)
+(node:95638) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.7s)
+(node:95645) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (2.3s)
+(node:95654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (215ms)
+  ✓  10 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (191ms)
+  ✘   7 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.8s)
+(node:95671) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.7s)
+(node:95673) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [chromium] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (2.0s)
+  ✓  11 [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (3.5s)
+(node:95690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [chromium] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (2.1s)
+  ✓  14 [chromium] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (1.3s)
+
+
+  1) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-36853-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-36853-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-36853-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-36853-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-b3aca-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-b3aca-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-b3aca-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-b3aca-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-0bac6-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-0bac6-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-0bac6-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-0bac6-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-b9ce8-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-b9ce8-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-b9ce8-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-b9ce8-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-a9112-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-a9112-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-a9112-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-a9112-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-39dbd-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-39dbd-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-39dbd-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-39dbd-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-da8b9-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-da8b9-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-da8b9-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-da8b9-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      76 |             player.playtime,
+      77 |         ),
+    > 78 |       ).toBe(before.player.playtime + 1);
+         |         ^
+      79 |     } finally {
+      80 |       await fixture.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:78:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-f6b53-tate-and-owns-one-timer-set-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-f6b53-tate-and-owns-one-timer-set-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-f6b53-tate-and-owns-one-timer-set-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-f6b53-tate-and-owns-one-timer-set-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 0
+
+      44 |       },
+      45 |     );
+    > 46 |     expect(released.unloaded).toBe(1);
+         |                               ^
+      47 |     expect(released.stopped).toBeGreaterThanOrEqual(1);
+      48 |     const before = await page.evaluate(
+      49 |       /* Reset an entered run before its delayed work fires. */ () => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/lifecycle-audio.spec.mjs:46:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-63538-nd-reset-cancels-run-timers-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-lifecycle-audi-63538-nd-reset-cancels-run-timers-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-63538-nd-reset-cancels-run-timers-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-lifecycle-audi-63538-nd-reset-cancels-run-timers-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+    -   "enemyHp": 481,
+    -   "hp": 500,
+    +   "enemyHp": 386,
+    +   "hp": 441,
+      }
+
+      108 |         }),
+      109 |       ),
+    > 110 |     ).toEqual(before);
+          |       ^
+      111 |     await page.clock.runFor(Math.ceil(delay / 2));
+      112 |     expect(
+      113 |       await page.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/lifecycle-audio.spec.mjs:110:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-1080c-ancels-delayed-presentation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-lifecycle-audi-1080c-ancels-delayed-presentation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-1080c-ancels-delayed-presentation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-lifecycle-audi-1080c-ancels-delayed-presentation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10 failed
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set 
+    [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set 
+    [chromium] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers 
+    [chromium] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation 
+  4 passed (13.0s)

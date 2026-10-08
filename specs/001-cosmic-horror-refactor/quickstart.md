@@ -120,13 +120,22 @@ GitHub inspection found main unprotected with no repository rulesets. Required-c
 
 ## Next workflow command
 
-Continue with Phase 7B (T114–T117), the next independent implementation package
+Continue with Phase 7D (T122–T128), the next independent implementation package
 in [tasks.md](tasks.md). Phase 7A completes pure legacy presentation migration,
 exact portrait mapping, safe historical logs and persistent raw-history recovery.
 The [Phase 7A evidence](../../validation/cosmic-horror/phase-7a.md) records 2,547
 unit passes and 81 scoped browser/integration passes across all three engines,
-plus passing lint and formatting. Character exchange, encounter continuation,
-full recovery workflows and US5 native acceptance remain unfinished.
+plus passing lint and formatting. Phase 7B now completes strict Latin-1/MC1 Unicode character exchange and transactional
+import; see [Phase 7B evidence](../../validation/cosmic-horror/phase-7b.md):
+2,554 unit passes and 96 scoped browser/integration passes across three engines.
+Preview/cancel are read-only; failed commits retain the current session; explicit
+session-only imports remain unsaved until reload and can be exported. Import
+cancels owned delayed screen/combat work. Phase 7C completes saved-combat continuation and scoped timer/audio/listener
+ownership; see [Phase 7C evidence](../../validation/cosmic-horror/phase-7c.md):
+2,554 unit passes, 342 broad browser/integration passes, and 51 final scoped
+passes across three engines. The report also preserves an intermediate
+249-pass run with three corrected test-ordering failures. Complete recovery,
+clipboard/conflict workflows and US5 native acceptance remain unfinished.
 
 Phase 6D connects image recovery, joins all 80 delivered
 art assets and corrects recorded stat/allocation reflow findings. The

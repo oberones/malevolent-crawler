@@ -527,3 +527,62 @@ Art/copy authoring and documentation only: no new application behavior and no ar
   outside engine state and preserve it across repeated canonical backup rotations.
   Complete unit suite: 2,547 PASS. Scoped three-engine browser/integration: 81 PASS.
   Lint and format PASS. [Commands, outputs, diagnostics and limits](phase-7a.md).
+
+## Phase 7B — T114–T117 character exchange/import (2026-10-07)
+
+- T114: rejecting codec seams produced four intended red assertions, then five
+  green tests for historical/Unicode exchange and adversarial transport/data.
+- T115: browser assertions reproduced Cancel writing a new revision, replacement
+  before durable persistence and failure replacing the current session.
+- T116: strict Latin-1/MC1 codecs reuse bounded character validation and preserve
+  Unicode and character-only semantics; optional old combat flags are accepted.
+- T117: two orchestration tests went red–green for pure preview and exactly-once
+  persist/cleanup/replace ordering, with explicit session-only recovery. A separate
+  delayed-loader red drove import lifecycle invalidation. Existing numerical
+  import reset expectations remain unchanged in the real-service replay adapter.
+- Complete unit suite: 2,554 PASS. Scoped browser/integration: 96 PASS across
+  Chromium/Firefox/WebKit. Lint/format PASS. [Evidence and limits](phase-7b.md).
+
+## Phase 7C — T118–T121 continuation and lifecycle (2026-10-08)
+
+- T118/T119: final tests against unchanged HEAD produced ten behavioral failures:
+  eight duplicate run-timer cases, retained old audio, and an old attack crossing
+  a restarted combat. Four recovery/audio/settled-death checks already passed.
+- T120: explicit continuation restores resting controls before deriving combat;
+  saved enemy/variant/HP/rewards remain intact and no generation RNG is consumed.
+  A failing candidate settled-death loading test drove scheduling after reset.
+- T121: separate run/combat/audio owners cancel pending work on their boundaries.
+  Two review regressions failed for an old defeat button resetting a later run
+  and two simultaneous background voices. Owned listeners and stop-before-play
+  ordering made both pass. The existing import cleanup now disposes all scopes.
+- Refactor: retain existing lifecycle implementation, clock intervals, formulas,
+  frozen expected values and random tapes. The rule harness injects actual owners.
+  Sandbox startup, display-percentage representation, missing adapter fields and
+  an incorrect test assumption about actor speed order are diagnostic issues,
+  not additional behavioral red.
+- Complete unit suite: 2,554 PASS. Broad browser/integration run: 342 PASS.
+  Post-review run: 249 PASS plus three actor-ordering test failures, corrected
+  without production changes. Final new continuation/lifecycle suite: 51 PASS
+  across Chromium/Firefox/WebKit. [Commands, evidence and limits](phase-7c.md).
+
+## Phase 7D — T122–T128 recovery and tab ownership (2026-10-08)
+
+- T122/T123: 18 intended red browser assertions for absent recovery controls,
+  missing diagnostic/unsaved choices, premature clipboard success and invisible
+  tab conflicts. Localhost EPERM before that run is environment evidence only.
+- T124/T125: existing loader/modal recovery preserves raw source bytes; explicit
+  prior-good/retained-character choices are session-only. Failed gameplay commits
+  retain memory for Retry/export. Clipboard promises control success feedback;
+  storage notifications and precommit comparison latch tab ownership loss.
+- T126/T127: a focused accessibility red reproduced missing Cancel focus. Shared
+  dialog ownership provides keyboard confirmation, Escape and focus return; raw
+  text stays inert and 200% controls reflow. Chromium/WebKit touch confirmation is
+  checked separately; unsupported Firefox automation remains skipped.
+- Review red: prior-good unknown history was not actionable and initial migration
+  failure lacked its write diagnostic. Carrying recovery metadata and the commit
+  issue makes both green. Four initial download timeouts exposed boot guard
+  interception; downloads now activate inside the recovery region.
+- T128: full unit/adversarial/budget corpus, byte-preserving recovery, import versus
+  resume, repeated entry/cleanup and three-engine browser evidence are recorded in
+  [US5](us5.md). A broad clipboard comparison initially raced the ordinary playtime
+  timer; the final test uses a frozen clock instead of changing gameplay timing.

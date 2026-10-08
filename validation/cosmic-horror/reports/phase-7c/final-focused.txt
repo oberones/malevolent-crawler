@@ -1,0 +1,80 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/continue-encounter.spec.mjs tests/integration/lifecycle-audio.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:3750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 51 tests using 3 workers
+
+(node:3751) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3753) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (2.1s)
+  ✓   2 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (2.2s)
+  ✓   3 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (2.2s)
+  ✓   6 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.3s)
+  ✓   5 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.5s)
+  ✓   8 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.0s)
+  ✓   4 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (2.7s)
+  ✓   9 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (207ms)
+  ✓  10 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (209ms)
+  ✓   7 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.9s)
+  ✓  12 [chromium] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (2.6s)
+  ✓  11 [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (3.6s)
+  ✓  13 [chromium] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (3.2s)
+  ✓  14 [chromium] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (2.5s)
+  ✓  17 [chromium] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (715ms)
+(node:3807) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (1.8s)
+  ✓  19 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (1.0s)
+  ✓  16 [chromium] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (6.4s)
+(node:3819) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (1.0s)
+  ✓  15 [chromium] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (7.9s)
+(node:3828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  22 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.2s)
+  ✓  21 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (2.1s)
+  ✓  24 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.3s)
+  ✓  26 [firefox] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (383ms)
+  ✓  27 [firefox] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (403ms)
+  ✓  25 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.3s)
+  ✓  23 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (2.3s)
+  ✓  29 [firefox] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (1.6s)
+  ✓  28 [firefox] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (2.2s)
+  ✓  30 [firefox] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (1.6s)
+  ✓  31 [firefox] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (1.5s)
+  ✓  33 [firefox] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (923ms)
+  ✓  34 [firefox] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (345ms)
+(node:3851) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3859) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  36 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (1.5s)
+  ✓  35 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (1.7s)
+  ✓  38 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (1.2s)
+  ✓  37 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (1.2s)
+  ✓  40 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.1s)
+  ✓  39 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.1s)
+  ✓  32 [firefox] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (6.6s)
+  ✓  41 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.1s)
+  ✓  42 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.1s)
+(node:3883) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  43 [webkit] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (303ms)
+  ✓  45 [webkit] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (528ms)
+  ✓  46 [webkit] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (1.2s)
+  ✓  47 [webkit] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (1.2s)
+  ✓  44 [webkit] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (2.4s)
+  ✓  48 [webkit] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (1.1s)
+  ✓  50 [webkit] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (543ms)
+  ✓  51 [webkit] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (371ms)
+  ✓  49 [webkit] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (1.2s)
+
+  51 passed (32.5s)

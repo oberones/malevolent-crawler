@@ -41,6 +41,7 @@ let dungeon = {
 // Sets up the initial dungeon
 const initialDungeonLoad =
   /* Prepare exploration timers and resting controls from validated runtime state. */ () => {
+    gameServices.runLifecycle.invalidate();
     dungeon.status = { exploring: false, paused: true, event: player.inCombat };
     updateDungeonLog();
     loadDungeonProgress();
@@ -49,9 +50,8 @@ const initialDungeonLoad =
       .slice(11, 19);
     dungeonAction.textContent = gameServices.narrative.text("run.resting");
     dungeonActivity.innerHTML = "Explore";
-    dungeonTime.innerHTML = "00:00:00";
-    dungeonTimer = setInterval(dungeonEvent, 1000);
-    playTimer = setInterval(dungeonCounter, 1000);
+    dungeonTimer = gameServices.runLifecycle.interval(dungeonEvent, 1000);
+    playTimer = gameServices.runLifecycle.interval(dungeonCounter, 1000);
   };
 
 // Start and Pause Functionality

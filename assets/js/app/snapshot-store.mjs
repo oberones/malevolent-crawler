@@ -1,3 +1,4 @@
+import { createStorageConflicts } from "./storage-conflicts.mjs";
 import { migrateLegacyState } from "./legacy-migration.mjs";
 import {
   validateCandidate,
@@ -22,25 +23,21 @@ function issue(code, path) {
  * Call readLocalState before commits. Recovery/disposal blocks writes; a foreign
  * storage event blocks until an explicit reread. Rechecks detect observed changes,
  * but cannot provide an atomic cross-tab lock between the read and write.
- * @param {object} dependencies storage Web Storage, now() Date, optional eventTarget.
+ * @param {object} dependencies storage Web Storage, now() Date, optional eventTarget and onConflict(result) notification.
  * @returns {object} readLocalState, commitSnapshot and idempotent dispose.
  */
-export function createSnapshotStore({ storage, now, eventTarget }) {
+export function createSnapshotStore({ storage, now, eventTarget, onConflict }) {
   let historyRecovery = {};
   let observed = null,
     initialized = false,
     blocked = true,
-    foreign = false,
     disposed = false;
-  // A clear event also invalidates this tab; other storage areas do not.
-  function onStorage(event) {
-    if (
-      (!event.storageArea || event.storageArea === storage) &&
-      (event.key === SAVE_KEY || event.key === null)
-    )
-      foreign = true;
-  }
-  eventTarget?.addEventListener("storage", onStorage);
+  const conflicts = createStorageConflicts({
+    storage,
+    eventTarget,
+    key: SAVE_KEY,
+    onConflict,
+  });
   // Gather raw recovery sources without attempting writes or silently substituting backup.
   function recovery(raw, issues) {
     for (const key of [PREVIOUS_KEY, ...Object.values(legacyKeys)])
@@ -72,7 +69,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
         return { status: "recovery", issues: [issue("disposed", "store")] };
       initialized = true;
       blocked = true;
-      foreign = false;
+      conflicts.reset();
       const raw = {};
       historyRecovery = {};
       let canonical;
@@ -165,7 +162,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
           status: "unsaved",
           issue: issue(disposed ? "disposed" : "recovery-required", "store"),
         };
-      if (foreign)
+      if (conflicts.blocked)
         return { status: "conflict", issue: issue("foreign-change", SAVE_KEY) };
       const checked = validateCandidate(candidate, "state");
       if (!checked.ok) return { status: "unsaved", issue: checked.issues[0] };
@@ -176,7 +173,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
         return { status: "unsaved", issue: issue("read-failed", SAVE_KEY) };
       }
       if (current !== observed) {
-        foreign = true;
+        conflicts.mark();
         return {
           status: "conflict",
           issue: issue("revision-conflict", SAVE_KEY),
@@ -234,7 +231,7 @@ export function createSnapshotStore({ storage, now, eventTarget }) {
     dispose() {
       if (disposed) return;
       disposed = true;
-      eventTarget?.removeEventListener("storage", onStorage);
+      conflicts.dispose();
     },
   };
 }

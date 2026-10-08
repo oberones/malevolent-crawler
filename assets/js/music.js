@@ -28,7 +28,8 @@ let sfxItem;
 let sfxBuff;
 
 const setVolume =
-  /* Create audio resources using validated local volume preferences. */ () => {
+  /* Replace and dispose audio resources using retained local volume preferences. */ () => {
+    gameServices.audioLifecycle.invalidate();
     // ===== BGM =====
     bgmDungeon = new Howl({
       src: ["./assets/bgm/dungeon.webm", "./assets/bgm/dungeon.mp3"],
@@ -132,4 +133,26 @@ const setVolume =
       src: ["./assets/sfx/buff.wav"],
       volume: volume.sfx * volume.master,
     });
+    for (const audio of [
+      bgmDungeon,
+      bgmBattleMain,
+      bgmBattleBoss,
+      bgmBattleGuardian,
+      sfxEncounter,
+      sfxCombatEnd,
+      sfxAttack,
+      sfxLvlUp,
+      sfxConfirm,
+      sfxDecline,
+      sfxDeny,
+      sfxEquip,
+      sfxUnequip,
+      sfxOpen,
+      sfxPause,
+      sfxUnpause,
+      sfxSell,
+      sfxItem,
+      sfxBuff,
+    ])
+      gameServices.audioLifecycle.ownAudio(audio);
   };

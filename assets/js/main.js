@@ -12,7 +12,11 @@ const runGameplay = (callback) => {
 
 // Block even programmatically dispatched input before any legacy listeners execute.
 const guardGameInput = (event) => {
-  if (!gameReady && event.target.id !== "boot-retry") {
+  if (
+    !gameReady &&
+    event.target.id !== "boot-retry" &&
+    !event.target.closest(".recovery-content")
+  ) {
     event.preventDefault();
     event.stopImmediatePropagation();
   }
@@ -22,6 +26,10 @@ document.addEventListener("submit", guardGameInput, true);
 
 // Keep status in existing loading/menu regions using text-only DOM construction.
 const reportPersistence = (result) => {
+  if (gameServices?.recovery) {
+    gameServices.recovery.report(result);
+    return;
+  }
   let status = document.querySelector("#save-status");
   if (!status) {
     status = document.createElement("p");
@@ -37,6 +45,10 @@ const reportPersistence = (result) => {
 
 // Failed loading preserves source bytes and offers a reload instead of resetting progress.
 const showBootError = () => {
+  if (gameServices?.recovery) {
+    gameServices.recovery.showBoot();
+    return;
+  }
   const loader = document.querySelector("#loading");
   loader.replaceChildren();
   const status = document.createElement("p");
@@ -79,7 +91,20 @@ const initializeGame = () => {
           replace: (state) => {
             ({ player, dungeon, enemy, volume } = state);
           },
+          // Import is a replacement boundary, not a gameplay transition or stat reset.
+          cleanupImport: () => {
+            bgmDungeon?.stop();
+            bgmBattleMain?.stop();
+            bgmBattleGuardian?.stop();
+            bgmBattleBoss?.stop();
+            bgmDungeon = null;
+            combatBacklog.length = 0;
+            combatSeconds = 0;
+            enemyDead = false;
+            playerDead = false;
+          },
           report: reportPersistence,
+          activateRecovery: activateGame,
           document,
           itemEffects: {
             run: runGameplay,
@@ -115,16 +140,7 @@ const initializeGame = () => {
               window.addEventListener("load", resolve, { once: true }),
           );
         }
-        gameServices.narrative.entry.initialize();
-        gameServices.mountSymbols(document);
-        gameReady = true;
-        document.querySelector("#name-input").disabled = false;
-        document.querySelector("#loading").style.display = "none";
-        if (!controlsBound) {
-          controlsBound = true;
-          bindGameControls();
-          dungeonActivity.addEventListener("click", dungeonStartPause);
-        }
+        activateGame();
       },
     )
     .catch(
@@ -135,6 +151,19 @@ const initializeGame = () => {
       },
     );
   return initialization;
+};
+// Enable the existing entry controls after validated boot or explicit session recovery.
+const activateGame = () => {
+  gameServices.narrative.entry.initialize();
+  gameServices.mountSymbols(document);
+  gameReady = true;
+  document.querySelector("#name-input").disabled = false;
+  document.querySelector("#loading").style.display = "none";
+  if (!controlsBound) {
+    controlsBound = true;
+    bindGameControls();
+    dungeonActivity.addEventListener("click", dungeonStartPause);
+  }
 };
 // Bind controls once after validated state is available.
 const bindGameControls =
@@ -460,10 +489,9 @@ const bindGameControls =
                             menuModalElement.innerHTML = "";
                             defaultModalElement.style.display = "none";
                             defaultModalElement.innerHTML = "";
-                            runLoad("title-screen", "flex");
-                            clearInterval(dungeonTimer);
-                            clearInterval(playTimer);
+
                             progressReset();
+                            runLoad("title-screen", "flex");
                           },
                         );
                       };
@@ -612,33 +640,11 @@ const bindGameControls =
                     const eiTab = document.querySelector("#ei-tab");
                     eiTab.style.width = "15rem";
                     const eiClose = document.querySelector("#ei-close");
-                    const copyExport = document.querySelector("#copy-export");
                     const dataImport = document.querySelector("#data-import");
                     const importInput = document.querySelector("#import-input");
-                    copyExport.onclick =
-                      /* Handle this control using the current view state and transition owner. */ function () {
-                        // Commit only after this complete engine action and its nested work succeed.
-                        return runGameplay(
-                          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                            sfxConfirm.play();
-                            const copyText =
-                              document.querySelector("#export-input");
-                            copyText.select();
-                            copyText.setSelectionRange(0, 99999);
-                            navigator.clipboard.writeText(copyText.value);
-                            copyExport.innerHTML = "Copied!";
-                          },
-                        );
-                      };
-                    dataImport.onclick =
-                      /* Handle this control using the current view state and transition owner. */ function () {
-                        // Commit only after this complete engine action and its nested work succeed.
-                        return runGameplay(
-                          /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                            importData(importInput.value);
-                          },
-                        );
-                      };
+                    gameServices.exchange.bind(eiTab);
+                    // Preview does not request a gameplay save or mutate the active character.
+                    dataImport.onclick = () => importData(importInput.value);
                     eiClose.onclick =
                       /* Handle this control using the current view state and transition owner. */ function () {
                         // Commit only after this complete engine action and its nested work succeed.
@@ -677,13 +683,13 @@ const bindGameControls =
 
 // Loading Screen
 const runLoad =
-  /* Preserve the existing loader delay before revealing the next screen. */ (
+  /* Own the loader delay so character replacement cancels stale screen changes. */ (
     id,
     display,
   ) => {
     const loader = document.querySelector("#loading");
     loader.style.display = "flex";
-    setTimeout(
+    gameServices.lifecycle.timeout(
       /* Complete the scheduled visual update or next attack in its existing order. */ async () => {
         loader.style.display = "none";
         document.querySelector(`#${id}`).style.display = `${display}`;
@@ -698,19 +704,26 @@ const enterDungeon =
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
+        gameServices.lifecycle.invalidate();
+        gameServices.combatLifecycle.invalidate();
         sfxConfirm.play();
         document.querySelector("#title-screen").style.display = "none";
+        gameServices.continueEncounter({
+          player,
+          dungeon,
+          rest: initialDungeonLoad,
+          reset: progressReset,
+          // Resume the saved identity directly without encounter generation or reward replay.
+          resume() {
+            showCombatInfo();
+            startCombat(bgmBattleMain);
+          },
+        });
         runLoad("dungeon-main", "flex");
-        if (player.inCombat) {
-          showCombatInfo();
-          startCombat(bgmBattleMain);
-        } else {
+        if (!player.inCombat) {
+          bgmDungeon.stop();
           bgmDungeon.play();
         }
-        if (player.stats.hp === 0) {
-          progressReset();
-        }
-        initialDungeonLoad();
         playerLoadStats();
       },
     );
@@ -776,6 +789,13 @@ const progressReset =
     // Commit only after this complete engine action and its nested work succeed.
     return runGameplay(
       /* Keep this action and all nested mutations inside one save boundary. */ () => {
+        gameServices.lifecycle.invalidate();
+        gameServices.runLifecycle.invalidate();
+        gameServices.combatLifecycle.invalidate();
+        bgmDungeon?.stop();
+        bgmBattleMain?.stop();
+        bgmBattleGuardian?.stop();
+        bgmBattleBoss?.stop();
         player.stats.hp = player.stats.hpMax;
         player.lvl = 1;
         player.blessing = 1;
@@ -823,77 +843,77 @@ const progressReset =
     );
   };
 
-// Export and Import Save Data
-const exportData =
-  /* Encode the legacy character-only export representation. */ () => {
-    const exportedData = btoa(JSON.stringify(player));
-    return exportedData;
-  };
+// Encode only validated character data; no dungeon/enemy/preferences enter the transport.
+const exportData = () => {
+  const result = gameServices.exportCharacter();
+  if (!result.ok) throw new Error("Unable to export invalid character data.");
+  return result.text;
+};
 
-const importData =
-  /* Present the existing confirmation before replacing character progress. */ (
-    importedData,
-  ) => {
-    try {
-      const playerImport = JSON.parse(atob(importedData));
-      if (playerImport.inventory !== undefined) {
-        sfxOpen.play();
-        defaultModalElement.style.display = "none";
-        confirmationModalElement.style.display = "flex";
-        confirmationModalElement.innerHTML = `
-            <div class="content">
-                <p>Are you sure you want to import this data? This will erase the current data and reset your dungeon progress.</p>
-                <div class="button-container">
-                    <button id="import-btn">Import</button>
-                    <button id="cancel-btn">Cancel</button>
-                </div>
-            </div>`;
-        const confirm = document.querySelector("#import-btn");
-        const cancel = document.querySelector("#cancel-btn");
-        confirm.onclick =
-          /* Handle this control using the current view state and transition owner. */ function () {
-            // Commit only after this complete engine action and its nested work succeed.
-            return runGameplay(
-              /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                sfxConfirm.play();
-                player = playerImport;
-                saveData();
-                bgmDungeon.stop();
-                const dimDungeon = document.querySelector("#dungeon-main");
-                dimDungeon.style.filter = "brightness(100%)";
-                dimDungeon.style.display = "none";
-                menuModalElement.style.display = "none";
-                menuModalElement.innerHTML = "";
-                confirmationModalElement.style.display = "none";
-                confirmationModalElement.innerHTML = "";
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                runLoad("title-screen", "flex");
-                clearInterval(dungeonTimer);
-                clearInterval(playTimer);
-                progressReset();
-              },
-            );
-          };
-        cancel.onclick =
-          /* Handle this control using the current view state and transition owner. */ function () {
-            // Commit only after this complete engine action and its nested work succeed.
-            return runGameplay(
-              /* Keep this action and all nested mutations inside one save boundary. */ () => {
-                sfxDecline.play();
-                confirmationModalElement.style.display = "none";
-                confirmationModalElement.innerHTML = "";
-                defaultModalElement.style.display = "flex";
-              },
-            );
-          };
-      } else {
-        sfxDeny.play();
-      }
-    } catch {
-      sfxDeny.play();
+// Preview safely without entering the gameplay wrapper or writing any save revision.
+const importData = (text) => {
+  const preview = gameServices.characterImport.preview(text);
+  defaultModalElement.style.display = "none";
+  confirmationModalElement.style.display = "flex";
+  confirmationModalElement.innerHTML = `
+    <div class="content">
+      <p id="import-description"></p>
+      <p id="import-status" role="alert"></p>
+      <div class="button-container">
+        <button id="import-btn">Replace character</button>
+        <button id="import-session-only" hidden>Use for this session only</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>`;
+  const description = document.querySelector("#import-description");
+  const feedback = document.querySelector("#import-status");
+  const confirm = document.querySelector("#import-btn");
+  const session = document.querySelector("#import-session-only");
+  description.textContent = preview.ok
+    ? `Replace the current character with ${preview.player.name} and reset dungeon progress? Equipment, gold and lifetime progress are retained; level, experience, skills and allocation reset.`
+    : "Unable to import this character. Cancel and check your export text.";
+  if (!preview.ok) {
+    confirm.hidden = true;
+    feedback.textContent = `Invalid character data (${preview.issues[0].code}). Your current character is unchanged.`;
+  }
+  // Finish presentation only after the transaction has accepted the complete candidate.
+  const finish = (sessionOnly) => {
+    const result = gameServices.characterImport.confirm({ sessionOnly });
+    if (!["saved", "session-only"].includes(result.status)) {
+      feedback.textContent =
+        "Import was not saved. Your current character is unchanged. Retry, cancel, or explicitly use the imported character for this session only.";
+      confirm.textContent = "Retry import";
+      session.hidden = false;
+      return;
     }
+    const region = document.querySelector("#dungeon-main");
+    region.style.filter = "brightness(100%)";
+    region.style.display = "none";
+    combatPanel.style.display = "none";
+    document.querySelector("#loading").style.display = "none";
+    for (const panel of [
+      menuModalElement,
+      confirmationModalElement,
+      defaultModalElement,
+    ]) {
+      panel.style.display = "none";
+      panel.replaceChildren();
+    }
+    gameServices.narrative.put("#title-screen > p", "run.restart");
+    document.querySelector("#title-screen").style.display = "flex";
   };
+  // A durable import is always attempted before exposing the unsaved-session option.
+  confirm.onclick = () => finish(false);
+  // This explicit choice preserves the durable save and marks subsequent play as unsaved.
+  session.onclick = () => finish(true);
+  // Cancelling touches only preview/presentation state and restores the exchange panel.
+  document.querySelector("#cancel-btn").onclick = () => {
+    gameServices.characterImport.cancel();
+    confirmationModalElement.style.display = "none";
+    confirmationModalElement.replaceChildren();
+    defaultModalElement.style.display = "flex";
+  };
+};
 
 // Player Stat Allocation
 const allocationPopup =

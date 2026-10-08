@@ -1,0 +1,441 @@
+{
+  "limits": {
+    "bytes": 16777216,
+    "depth": 64,
+    "fieldBytes": 65536
+  },
+  "records": [
+    {
+      "fixture": "early",
+      "key": "playerData",
+      "bytes": 651,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "early",
+      "key": "dungeonData",
+      "bytes": 291,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "early",
+      "key": "enemyData",
+      "bytes": 223,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "early",
+      "key": "volumeData",
+      "bytes": 30,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "resting",
+      "key": "playerData",
+      "bytes": 741,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "resting",
+      "key": "dungeonData",
+      "bytes": 291,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "resting",
+      "key": "enemyData",
+      "bytes": 223,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "resting",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "normal",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "normal",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "normal",
+      "key": "enemyData",
+      "bytes": 292,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "normal",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "guardian",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "guardian",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "guardian",
+      "key": "enemyData",
+      "bytes": 307,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "guardian",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "boss",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "boss",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "boss",
+      "key": "enemyData",
+      "bytes": 315,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "boss",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "chest-mimic",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "chest-mimic",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "chest-mimic",
+      "key": "enemyData",
+      "bytes": 288,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "chest-mimic",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "door-mimic",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "door-mimic",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "door-mimic",
+      "key": "enemyData",
+      "bytes": 298,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "door-mimic",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-1",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-1",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-1",
+      "key": "enemyData",
+      "bytes": 293,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-1",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-2",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-2",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-2",
+      "key": "enemyData",
+      "bytes": 293,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "variant-2",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "fractional-exp",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "fractional-exp",
+      "key": "dungeonData",
+      "bytes": 381,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "fractional-exp",
+      "key": "enemyData",
+      "bytes": 311,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "fractional-exp",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "full-duplicate-equipment",
+      "key": "playerData",
+      "bytes": 1813,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "full-duplicate-equipment",
+      "key": "dungeonData",
+      "bytes": 419,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "full-duplicate-equipment",
+      "key": "enemyData",
+      "bytes": 223,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "full-duplicate-equipment",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "optional-null-derived",
+      "key": "playerData",
+      "bytes": 833,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "optional-null-derived",
+      "key": "dungeonData",
+      "bytes": 291,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "optional-null-derived",
+      "key": "enemyData",
+      "bytes": 223,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "optional-null-derived",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-victory",
+      "key": "playerData",
+      "bytes": 730,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-victory",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-victory",
+      "key": "enemyData",
+      "bytes": 290,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-victory",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-death",
+      "key": "playerData",
+      "bytes": 739,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-death",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-death",
+      "key": "enemyData",
+      "bytes": 292,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "settled-death",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-player-death",
+      "key": "playerData",
+      "bytes": 738,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-player-death",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-player-death",
+      "key": "enemyData",
+      "bytes": 292,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-player-death",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-enemy-victory",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-enemy-victory",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-enemy-victory",
+      "key": "enemyData",
+      "bytes": 290,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-enemy-victory",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-missing-enemy",
+      "key": "playerData",
+      "bytes": 740,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-missing-enemy",
+      "key": "dungeonData",
+      "bytes": 379,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-missing-enemy",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "early-player-only",
+      "key": "playerData",
+      "bytes": 651,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-malformed-item",
+      "key": "playerData",
+      "bytes": 750,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-malformed-item",
+      "key": "dungeonData",
+      "bytes": 291,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-malformed-item",
+      "key": "enemyData",
+      "bytes": 223,
+      "result": "within-budgets"
+    },
+    {
+      "fixture": "interrupted-malformed-item",
+      "key": "volumeData",
+      "bytes": 33,
+      "result": "within-budgets"
+    }
+  ]
+}

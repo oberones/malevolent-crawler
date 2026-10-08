@@ -1,3 +1,6 @@
+import { continueEncounter } from "../../assets/js/app/continuation.mjs";
+import { createCharacterImport } from "../../assets/js/app/character-import.mjs";
+import { createLifecycle } from "../../assets/js/app/lifecycle.mjs";
 import { createItemActions } from "../../assets/js/app/item-actions.mjs";
 import { record, text } from "../../assets/js/app/outcome-view.mjs";
 import test, { after } from "node:test";
@@ -24,7 +27,7 @@ for (const file of legacyFiles) {
     assert.equal(source.match(/^initializeGame\(\);$/gm)?.length, 1);
     source = source.replace(
       /^initializeGame\(\);$/m,
-      'gameReady = true; gameServices = { /* Symbols are inert in numerical replay; real geometry has browser coverage. */ symbol() { return document.createElement("span"); }, /* Authored slot mounting does not affect rules. */ mountSymbols() {}, /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* The adapter uses the real item mutation boundary. */ get items() { return document.items; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
+      'gameReady = true; gameServices = { /* Symbols are inert in numerical replay; real geometry has browser coverage. */ symbol() { return document.createElement("span"); }, /* Authored slot mounting does not affect rules. */ mountSymbols() {}, /* Use the explicitly injected test presentation boundary. */ get narrative() { return document.narrative; }, /* Use the actual import boundary with detached harness accessors. */ get characterImport() { return document.characterImport; }, /* Schedule on the deterministic harness clock. */ get lifecycle() { return document.lifecycle; }, /* Reuse production continuation with the deterministic clock. */ get continueEncounter() { return document.continueEncounter; }, /* Scope deterministic run work separately. */ get runLifecycle() { return document.runLifecycle; }, /* Scope deterministic attacks separately. */ get combatLifecycle() { return document.combatLifecycle; }, /* Own harness audio instances. */ get audioLifecycle() { return document.audioLifecycle; }, /* The adapter uses the real item mutation boundary. */ get items() { return document.items; }, /* Preserve synchronous rule execution. */ run(callback) { return callback(); }, /* Never persist rule-replay state. */ requestSave() { return { status: "deferred" }; } };',
     );
     source = "document.addEventListener = function () {};\n" + source;
   }
@@ -41,7 +44,12 @@ function fixture(name) {
     readFileSync(new URL(`../fixtures/legacy/${name}.json`, import.meta.url)),
   );
 }
-const selectors = fixture("dom-selectors");
+const selectors = [
+  ...fixture("dom-selectors"),
+  "#import-description",
+  "#import-status",
+  "#import-session-only",
+];
 // Seed every realm with the same captured resting tuple.
 const resting = fixture("saves").cases.find(
   /* Select the captured input for this scenario. */ (row) =>
@@ -58,6 +66,30 @@ for (const corpus of ["encounters", "equipment", "progression"]) {
       });
       try {
         const document = h.dom.document;
+        document.continueEncounter = continueEncounter;
+        document.lifecycle = createLifecycle({ clock: h.clock });
+        document.runLifecycle = createLifecycle({ clock: h.clock });
+        document.combatLifecycle = createLifecycle({ clock: h.clock });
+        document.audioLifecycle = createLifecycle({ clock: h.clock });
+        document.characterImport = createCharacterImport({
+          // Copy each authoritative section out of the isolated classic realm.
+          capture: () =>
+            Object.fromEntries(
+              ["player", "dungeon", "enemy", "volume"].map(
+                // The harness returns detached JSON values suitable for real validation.
+                (key) => [key, h.read(key)],
+              ),
+            ),
+          // Persistence failures/order are exercised through real browser storage separately.
+          commit: () => ({ status: "saved" }),
+          // Cancel pending fixture timers before replacing the classic tuple.
+          cleanup: () => document.lifecycle.invalidate(),
+          // Return the real import reset result to the authoritative classic bindings.
+          replace: (state) => {
+            for (const [key, value] of Object.entries(state))
+              h.write(key, value);
+          },
+        });
         // This oracle has no HTML parser; browser tests own all visual assertions.
         const create = document.createElement.bind(document);
         // Supply inert node operations used by unchanged classic rule call sites.

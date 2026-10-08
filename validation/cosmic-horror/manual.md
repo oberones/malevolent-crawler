@@ -472,3 +472,40 @@ All 80 artwork approvals remain unchanged. No regeneration was required.
 outcomes and capture links. Exact pre-theme absolute positions, native targets,
 favicon browser chrome, target-specific fallback review and release gates stay
 OPEN/BLOCKED. No native/manual checkbox is closed by this package.
+
+## Phase 7B automated exchange qualification — 2026-10-07
+
+The [Phase 7B report](phase-7b.md) records safe preview/cancel, transactional
+replacement, storage failure/retry/session-only choices and delayed-work cleanup.
+An automated 360-pixel real-form journey covers MC1 Unicode text, Escape and focus
+return in all three engines. These are automated checks; native/manual, touch,
+200% exchange reflow and full US5 acceptance remain OPEN/BLOCKED. No human or
+native review is claimed and no manual checkbox changes.
+
+## Phase 7C automated continuation qualification — 2026-10-08
+
+The [Phase 7C report](phase-7c.md) records saved-encounter continuation,
+separate run/combat/audio ownership, terminal/reset/import cleanup, full attack
+delays, muted gesture startup and stale-control protection. These are automated
+Playwright engine checks with controlled clocks and audio observations. No native
+browser/device run or audible playback review was performed in this package;
+the native local-continue, settled/interrupted and motion/audio rows retain their
+existing OPEN/BLOCKED status. Complete US5 recovery remains with Phase 7D.
+
+## Phase 7D / US5 recovery handoff — 2026-10-08
+
+T122–T128 automated evidence and source-preservation semantics are in [US5](us5.md).
+Recovery, clipboard, two-tab ownership, keyboard focus/Escape, hostile text and
+200% reflow have browser automation coverage. Agent review of the narrow enlarged
+recovery captures is recorded there; it is not a new native/manual PASS.
+Chromium/WebKit touch emulation passed the confirmation/source-preservation
+journey; Firefox hasTouch is unsupported and remains explicitly skipped.
+
+Native Chrome/Firefox/Safari keyboard/pointer and screen-reader checks, physical
+Android/iPhone/iPad touch, audible feedback, matched performance and remote CI
+remain OPEN/BLOCKED under their existing rows. For the recovery procedure, verify
+that raw download retains exact source strings; Cancel/Escape leaves storage alone;
+prior-good/retained-character recovery clearly says session-only; unknown history
+remains actionable; denied Copy retains selectable/downloadable text; and a second
+tab exposes reload/export without merging. Recovered sessions must be exported
+before closing the tab because this recovery path does not overwrite originals.

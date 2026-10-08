@@ -1,0 +1,103 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/save-recovery.spec.mjs tests/integration/clipboard-conflict.spec.mjs --grep prior-good session|migration write|actual second --project=chromium --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:9246) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:9249) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/integration/clipboard-conflict.spec.mjs:113:1 › actual second tab suspends owner before its next save (436ms)
+  ✘  2 [chromium] › tests/browser/save-recovery.spec.mjs:166:1 › migration write failure offers loaded session without claiming saved (5.3s)
+  ✘  3 [chromium] › tests/browser/save-recovery.spec.mjs:149:1 › prior-good session preserves actionable unknown history (30.0s)
+
+
+  1) [chromium] › tests/browser/save-recovery.spec.mjs:149:1 › prior-good session preserves actionable unknown history 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Test ended.
+    Browser logs:
+
+    <launching> /Users/oberon/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/playwright_chromiumdev_profile-DdS7ny --remote-debugging-pipe --no-startup-window
+    <launched> pid=9256
+    [pid=9256][err] [1008/103028.523024:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=9256][err] [1008/103028.592343:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=9256][err] [1008/103028.959837:ERROR:sandbox/mac/system_services.cc:31] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+    [pid=9256] <gracefully close start>
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:163:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-prio-4c26d--actionable-unknown-history-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-prio-4c26d--actionable-unknown-history-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-prio-4c26d--actionable-unknown-history-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-prio-4c26d--actionable-unknown-history-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/save-recovery.spec.mjs:166:1 › migration write failure offers loaded session without claiming saved 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "write-failed"
+    Received string:    "Unable to load your saved progress safely. Original data is retained. "
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        13 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Origin…</p>
+           - unexpected value "Unable to load your saved progress safely. Original data is retained. "
+
+
+      168 |   try {
+      169 |     const page = fixture.page;
+    > 170 |     await expect(page.locator("#boot-status")).toContainText("write-failed");
+          |                                                ^
+      171 |     await page.locator("#recover-candidate").click();
+      172 |     await page.locator("#recovery-confirm").click();
+      173 |     await expect(page.locator("#title-screen")).toBeVisible();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:170:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-migr-3cd9a-sion-without-claiming-saved-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-migr-3cd9a-sion-without-claiming-saved-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-migr-3cd9a-sion-without-claiming-saved-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-migr-3cd9a-sion-without-claiming-saved-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/browser/save-recovery.spec.mjs:149:1 › prior-good session preserves actionable unknown history 
+    [chromium] › tests/browser/save-recovery.spec.mjs:166:1 › migration write failure offers loaded session without claiming saved 
+  1 passed (32.1s)

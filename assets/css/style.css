@@ -1081,3 +1081,50 @@ select {
   flex: 1;
   overflow-wrap: normal;
 }
+
+/* Keep recovery data selectable and controls reachable with enlarged text. */
+.recovery-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  max-width: min(34rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+.recovery-content textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 6rem;
+  flex-shrink: 0;
+  font: inherit;
+}
+.recovery-content button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  flex-shrink: 0;
+}
+#save-notice:not([hidden]) {
+  position: fixed;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  box-sizing: border-box;
+  width: min(34rem, calc(100vw - 1rem));
+  max-height: 40dvh;
+  overflow: auto;
+  padding: 0.5rem;
+  background: #25211a;
+  border: 1px solid #e7c98b;
+  color: #fff4dc;
+  text-align: center;
+}
+#save-notice #save-status {
+  position: static;
+  transform: none;
+  width: auto;
+  padding: 0;
+  border: 0;
+}
