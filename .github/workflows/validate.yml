@@ -35,8 +35,6 @@ jobs:
             command: npm run format:check
           - check: audit
             command: npm audit --audit-level=high
-          - check: evidence
-            command: npm run validate:evidence
     defaults:
       run:
         shell: bash
@@ -45,6 +43,12 @@ jobs:
         with:
           # Unit tests compare the frozen source bytes to the original Git blobs.
           fetch-depth: ${{ matrix.check == 'unit' && '0' || '1' }}
+      - name: Prepare container ownership for Git and Firefox
+        run: |
+          # Firefox refuses a home directory owned by another container user.
+          chown "$(id -u):$(id -g)" "$HOME"
+          # Checkout's temporary Git config is not used by later shell steps.
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - uses: actions/setup-node@v4
         with:
           node-version: 24.21.0

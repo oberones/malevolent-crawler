@@ -1,6 +1,6 @@
-# The Bell Beneath Brine
+# Malevolent Gods: The Drowned Labyrinth
 
-Descend beneath Veyr Quay into the Drowned Observatory. As a sounding keeper, chart impossible chambers, face listening presences, and recover relics that outlast each descent. This original coastal cosmic-horror setting preserves the crawler’s existing combat, loot, and progression rules.
+Descend beneath Veyr Quay into the Drowned Observatory. As a relic seeker, chart impossible chambers, face listening presences, and recover relics that outlast each descent. This original coastal cosmic-horror setting preserves the crawler’s existing combat, loot, and progression rules.
 <br><br><a href='https://ko-fi.com/W7W4I2XU6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=8F4LBS6QB4PVC)
 
@@ -69,8 +69,12 @@ npm run test:browser
 npm run lint
 npm run format:check
 npm audit --audit-level=high
-npm run validate:evidence
 ```
+
+PR CI runs these six checks to detect code regressions and dependency issues.
+Accepted artwork and refactor qualification are not repeatedly approved by CI.
+The optional **Release evidence (manual)** workflow, or `npm run validate:evidence`
+locally, checks historical qualification records on demand and is not a PR gate.
 
 All five story implementations are integrated: narrative, encounters, relics,
 art recovery and saved-player continuation/exchange. All 80 generated art

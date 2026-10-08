@@ -24,11 +24,15 @@ for (const viewport of [
       const p = f.page;
       await p.goto("/");
       const button = p.getByRole("button", {
-        name: "Begin the sounding",
+        name: "Begin the descent",
         exact: true,
       });
       await expect(button).toBeVisible();
-      await expect(button).toHaveText("Begin the sounding");
+      await expect(button).toHaveText("Begin the descent");
+      await expect(p).toHaveTitle("Malevolent Gods: The Drowned Labyrinth");
+      await expect(p.locator("#title-heading")).toHaveText(
+        "Malevolent Gods: The Drowned Labyrinth",
+      );
       const headingBox = await p.locator("#title-heading").boundingBox();
       const buttonBox = await button.boundingBox();
       expect(

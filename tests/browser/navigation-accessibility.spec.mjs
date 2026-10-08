@@ -19,7 +19,7 @@ for (const key of ["Enter", "Space"]) {
     try {
       const p = f.page;
       await p.goto("/");
-      const title = p.getByRole("button", { name: /Begin the sounding/ });
+      const title = p.getByRole("button", { name: /Begin the descent/ });
       await expect(title).toBeVisible();
       await title.focus();
       await expect(title).toBeFocused();
@@ -134,7 +134,7 @@ test("entry validation and allocation have accessible names and cancellation", a
     ).toEqual([]);
     await p.keyboard.press("Escape");
     await expect(
-      p.getByRole("button", { name: /Begin the sounding/ }),
+      p.getByRole("button", { name: /Begin the descent/ }),
     ).toBeFocused();
   } finally {
     await f.dispose();

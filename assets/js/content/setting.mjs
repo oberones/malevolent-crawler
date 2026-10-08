@@ -4,11 +4,11 @@ import { freezeContent } from "./immutable.mjs";
 export const setting = freezeContent({
   id: "bell-beneath-brine",
   contentVersion: 1,
-  title: "The Bell Beneath Brine",
+  title: "Malevolent Gods: The Drowned Labyrinth",
   premise:
     "At the coastal settlement of Veyr Quay, each receding tide reveals another stair into a drowned observatory. A bell below the foundations sounds only inside the listener, and the things that answer remember streets the town has never built.",
   playerRole:
-    "A sounding keeper who descends to chart the impossible depths and recover the quay's scattered seals.",
+    "A relic seeker who descends to chart the impossible depths and recover the quay's scattered seals.",
   location: "Veyr Quay and the drowned observatory beneath its breakwater.",
   terms: {
     dungeon: "Drowned Observatory",
@@ -17,7 +17,7 @@ export const setting = freezeContent({
     guardian: "Threshold Keeper",
     boss: "Deep Presence",
     blessing: "Tide Offering",
-    curse: "Black Sounding",
+    curse: "Deepening Curse",
     gold: "Quay Marks",
     level: "Attunement",
     relic: "Recovered Relic",
@@ -26,7 +26,7 @@ export const setting = freezeContent({
     "Unstruck bells and listening cavities",
     "Tide marks on impossible architecture",
     "Nacre, verdigris, wet slate and pitted bronze",
-    "Sealed vessels, knots, sounding lines and broken tidal rings",
+    "Sealed vessels, knots, guide ropes and broken tidal rings",
   ],
   palette: [
     "Deep ink #111923",

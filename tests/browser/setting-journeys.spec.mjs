@@ -134,7 +134,7 @@ for (const id of ids) {
       }
       // The positive vocabulary assertion catches untouched copy even if no old proper noun occurs.
       expect(observed).toMatch(
-        /Quay Marks|Tide Offering|Black Sounding|[Ss]ounding|[Oo]bservatory|[Cc]offer|[Tt]ide|[Qq]uay|Threshold Keeper|Deep Presence|Recovered Relic/,
+        /Quay Marks|Tide Offering|Deepening Curse|[Ee]xplor|[Dd]escent|[Pp]resence|guide rope|silence|wet slate|[Oo]bservatory|[Cc]offer|[Tt]ide|[Qq]uay|Threshold Keeper|Deep Presence|Recovered Relic/,
       );
       expect(observed).not.toMatch(
         /Statue of Blessing|Cursed Totem|Floor Guardian|Dungeon Monarch|next floor|next room/,
@@ -151,7 +151,7 @@ test("setting entry and allocation", async ({ browser }) => {
     const p = f.page;
     await p.goto("http://127.0.0.1:4173/");
     await expect(p.locator("#character-creation")).toBeVisible();
-    expect.soft(await p.title()).toBe("The Bell Beneath Brine");
+    expect.soft(await p.title()).toBe("Malevolent Gods: The Drowned Labyrinth");
     await p.locator("#name-input").fill("Mariner");
     await p.locator("#name-submit button").click();
     await expect(p.locator("#title-screen")).toBeVisible();
@@ -171,7 +171,7 @@ test("setting entry and allocation", async ({ browser }) => {
       hp: "6",
     });
     expect(await p.locator("#defaultModal").textContent()).toContain(
-      "Sounding",
+      "Prepare for Descent",
     );
   } finally {
     await f.dispose();
@@ -226,7 +226,7 @@ for (const outcome of ["victory", "death"]) {
       );
       expect(protectedState(state)).toEqual(protectedState(row.expected));
       expect(text).toMatch(
-        outcome === "victory" ? /Quay Marks/ : /quay|sounding/i,
+        outcome === "victory" ? /Quay Marks/ : /quay|descent/i,
       );
     } finally {
       await f.dispose();

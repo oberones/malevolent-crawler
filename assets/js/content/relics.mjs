@@ -23,7 +23,7 @@ export const relics = freezeContent([
   {
     id: "sounding-maul",
     legacyCategory: "Hammer",
-    displayName: "Sounding Maul",
+    displayName: "Tolling Maul",
     description: "A squat bronze sounding bell mounted as a striking head.",
     attribute: "Damage",
     type: "Weapon",

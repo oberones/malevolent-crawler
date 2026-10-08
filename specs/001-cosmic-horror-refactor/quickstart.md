@@ -12,8 +12,9 @@ Historical package reports describe their dated scope and do not supersede that 
 
 Use the pinned runtime below. Preserve the immutable baseline revision
 `3cfaf54babae978c7388c023f5df5ebe6282259b` and its source/asset hashes. The app has no
-production build. Missing native/device evidence or failing art/evidence validators
-remains a release blocker even when gameplay tests pass.
+production build. Historical native/device and release evidence remains recorded
+separately; it is not a routine PR CI prerequisite. Accepted artwork does not need
+repeated CI approval.
 
 ## Toolchain and dependency setup
 
@@ -132,7 +133,15 @@ Complete the seeded `validation/cosmic-horror/manual.md` and `gates.json` record
 
 ## CI contract
 
-The configured `.github/workflows/validate.yml` selects the pinned Node/npm toolchain and runs seven independent required jobs: unit, integration, browser, lint, format, audit and evidence. Integration/browser jobs run `npx playwright install --with-deps chromium firefox webkit`. All jobs use `mcr.microsoft.com/playwright:v1.63.0-noble@sha256:eff16c30e6f3f4af0a03fa4b706120d5e9b0891c344a27d64559aff5900a4a27`; the digest was resolved from Microsoft's registry. The first CI run must record actual runner OS metadata; no remote execution is claimed yet. Reports upload on failure, and incomplete non-art evidence checks are not skipped.
+The configured `.github/workflows/validate.yml` runs six independent required jobs:
+unit, integration, browser, lint, format and audit. These detect code regressions,
+loading/recovery/layout failures and dependency issues. They do not re-approve
+accepted artwork or the refactor. Integration/browser jobs install the matching
+Chromium, Firefox and WebKit engines in the pinned Playwright container. A setup
+step gives the container user ownership of its home directory for Firefox and
+trusts only the checked-out workspace for Git fixture comparisons. Reports upload
+on failure. `.github/workflows/release-evidence.yml` runs the existing strict
+evidence validator only on manual dispatch; it is not a required PR check.
 
 GitHub inspection found main unprotected with no repository rulesets. Required-check enforcement remains BLOCKED: the 2026-10-08 inspection found no CI runs, no rulesets and an unprotected main branch. See [ci.md](../../validation/cosmic-horror/ci.md). Release qualification additionally requires the completed non-art manual/native index and matched performance results.
 

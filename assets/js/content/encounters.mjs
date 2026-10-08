@@ -425,7 +425,7 @@ export const encounters = freezeContent([
   {
     id: "the-last-sounding",
     legacyName: "Thanatos",
-    displayName: "The Last Sounding",
+    displayName: "The Final Descent",
     description:
       "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
     roles: ["special-boss"],
@@ -477,7 +477,7 @@ export const encounters = freezeContent([
     legacyName: "Zaart, the Dominator Goblin",
     displayName: "The Dredge Foreman",
     description:
-      "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+      "A broad dredger raises a rusted dredging hook beneath a crown of dock nails.",
     roles: ["guardian"],
     archetypes: ["Offensive"],
     variants: ["the-dredge-foreman-portrait"],
@@ -1293,7 +1293,7 @@ export const variants = freezeContent([
   {
     id: "the-last-sounding-portrait",
     encounterId: "the-last-sounding",
-    displayName: "The Last Sounding",
+    displayName: "The Final Descent",
     description:
       "A vast hooded depth-marker carries a plumb weight shaped like a closed eye.",
     legacyImage: {
@@ -1385,7 +1385,7 @@ export const variants = freezeContent([
     encounterId: "the-dredge-foreman",
     displayName: "The Dredge Foreman",
     description:
-      "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+      "A broad dredger raises a rusted dredging hook beneath a crown of dock nails.",
     legacyImage: {
       name: "goblin_boss",
       type: ".png",
@@ -1395,7 +1395,7 @@ export const variants = freezeContent([
     path: "assets/sprites/goblin_boss.png",
     width: 331,
     height: 164,
-    alt: "A broad dredger raises a rusted sounding hook beneath a crown of dock nails.",
+    alt: "A broad dredger raises a rusted dredging hook beneath a crown of dock nails.",
     unusedButRequired: false,
   },
   {

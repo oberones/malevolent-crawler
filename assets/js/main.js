@@ -417,7 +417,7 @@ const bindGameControls =
                 </div>
                 <p id="run-name"></p>
                 <p>Tide Offering ${player.blessing}</p>
-                <p>Black Sounding ${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
+                <p>Deepening Curse ${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
                 <p>Kills: ${nFormatter(dungeon.statistics.kills)}</p>
                 <p>Runtime: ${runTime}</p>
             </div>`;

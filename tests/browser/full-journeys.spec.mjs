@@ -105,7 +105,7 @@ test("fresh character earns, equips and reloads one consistent relic", async ({
     const restored = await snapshot(page);
     expect(restored.player).toMatchObject(equipped.player);
     await expect(page.locator("#title-screen")).toContainText(
-      "The Bell Beneath Brine",
+      "Malevolent Gods: The Drowned Labyrinth",
     );
   } finally {
     await fixture.dispose();

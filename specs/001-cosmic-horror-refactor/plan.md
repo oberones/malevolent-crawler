@@ -5,8 +5,19 @@
 > to masters, screenshots, the old art baseline and art validators describe the
 > completed feature workflow, not current checkout requirements. The retained
 > delivery manifest uses schema version 2 (provenance and approval only).
-> Gameplay/save regression tests and non-art qualification remain required.
+> Gameplay/save regression tests remain required. The maintainer-approved CI
+> update below moves historical qualification to on-demand review.
 > See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
+
+## Ongoing CI scope — 2026-10-08
+
+The maintainer approved code-regression-focused CI after accepting the refactor
+and artwork. Required PR jobs are unit, integration, browser, lint, format and
+audit. Historical manual/native/release evidence is checked only on demand through
+`release-evidence.yml` or `npm run validate:evidence`, with its strict validator
+and recorded statuses preserved. This supersedes earlier seven-job requirements
+in this plan, tasks and qualification records. It does not record unperformed
+checks as passed or change gameplay, saves, assets or test assertions.
 
 **Branch**: `001-cosmic-horror-refactor` | **Date**: 2026-10-05 | **Spec**: [spec.md](spec.md)
 **Input**: `specs/001-cosmic-horror-refactor/spec.md`

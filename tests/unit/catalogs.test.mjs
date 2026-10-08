@@ -33,7 +33,7 @@ function frozen(value) {
 test("setting and authoring guide agree on original world, surfaces and boundaries", () => {
   assert.equal(setting.id, "bell-beneath-brine");
   assert.equal(setting.contentVersion, 1);
-  assert.equal(setting.title, "The Bell Beneath Brine");
+  assert.equal(setting.title, "Malevolent Gods: The Drowned Labyrinth");
   assert.match(setting.location, /Veyr Quay/);
   assert.match(
     setting.horrorBoundary,

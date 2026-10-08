@@ -1,5 +1,37 @@
 # CI setup and enforcement
 
+## Current policy — 2026-10-08
+
+The maintainer approved six ongoing PR jobs: **unit, integration, browser, lint,
+format and audit**. Their purpose is to detect code regressions and dependency
+issues. Accepted art and refactor qualification do not require continuous approval.
+The strict evidence validator remains available locally and through the manual-only
+`release-evidence.yml` workflow. It is not a required merge check. This supersedes
+the seven-job requirements in the historical sections below and in T138 guidance.
+Existing qualification statuses are retained as historical evidence, not rewritten
+as passes. Future code changes retain the constitution's testing obligations.
+
+PR #1 at `3b755d2c31062a226119b1b46c13968ec3fff33c` exposed two container setup
+failures: Git rejected checkout ownership (2,402 unit passes, one failure), and
+Firefox refused a home directory owned by another user (194 integration passes,
+94 Firefox launch failures). The workflow now assigns home-directory ownership
+to the executing container user and adds only `$GITHUB_WORKSPACE` to Git's trusted
+directories in the shell environment. Browser assertions remain enabled.
+
+Remote evidence: [PR workflow run](https://github.com/oberones/malevolent-crawler/actions/runs/37861771189).
+The fixes require a new remote run for Linux/Firefox confirmation; local macOS
+checks cannot establish that result. No branch-protection change is included.
+
+Local verification with Node 24.21.0/npm 12.2.0: all 2,403 unit tests, lint,
+formatting and whitespace checks pass. An isolated Git config with
+`GIT_TEST_ASSUME_DIFFERENT_OWNER=1` reproduces the ownership error; executing the
+exact workflow trust command then passes the retained-source comparison test.
+YAML parsing confirms six routine jobs and a manual-dispatch-only evidence
+workflow. The local Docker daemon is unavailable, so the container ownership fix
+for Firefox remains pending remote verification.
+
+## Historical setup
+
 Owner: T006; recorded 2026-10-06. Configuration is complete; remote execution and enforcement are not acceptance passes.
 
 `.github/workflows/validate.yml` runs on pull requests, pushes to main/master/the feature branch, and manual dispatch. Seven independent matrix jobs use Node 24.21.0/npm 12.2.0, `npm ci` with lifecycle scripts disabled, and the resolved version-matched Playwright noble image digest recorded in environment.json. Integration/browser jobs explicitly install the matching engines. Shell pipefail preserves command failures through report capture; no continue-on-error, pass-with-no-tests, conditional skip of incomplete gates, or placeholder validator is present. Reports upload even when a check fails. The immutable image identifies Ubuntu 24.04; actual runner OS data will be uploaded by the first CI run.

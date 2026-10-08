@@ -12,12 +12,12 @@ const definitions = {
   "entry.introduction": define(
     `${setting.premise} You are ${setting.playerRole.charAt(0).toLowerCase()}${setting.playerRole.slice(1)}`,
   ),
-  "entry.name": define("What is your name, sounding keeper?"),
+  "entry.name": define("What is your name, relic seeker?"),
   "entry.nameInvalid": define(
     "Use 3–15 characters without special punctuation.",
   ),
-  "entry.begin": define("Begin the sounding"),
-  "entry.allocation": define("Sounding Preparation"),
+  "entry.begin": define("Begin the descent"),
+  "entry.allocation": define("Prepare for Descent"),
   "entry.allocationHelp": define(
     "Distribute 20 stat points and choose one passive skill before descending into the Drowned Observatory.",
   ),
@@ -32,7 +32,7 @@ const definitions = {
     { cost: "text", level: "number" },
   ),
   "history.blackSounding": define(
-    "A Black Sounding ring stirs. Offer {cost} Quay Marks? Enemies become stronger and loot quality improves. Black Sounding {level}.",
+    "A Deepening Curse ring stirs. Offer {cost} Quay Marks? Enemies become stronger and loot quality improves. Deepening Curse {level}.",
     { cost: "text", level: "number" },
   ),
   "history.reward": define(
@@ -54,7 +54,7 @@ const definitions = {
     "You enter the next chamber and find a salvage coffer.",
   ),
   "event.emptyChest": define("The salvage coffer holds only salt."),
-  "event.encounter": define("Your sounding draws {encounter} from the dark.", {
+  "event.encounter": define("Your presence draws {encounter} from the dark.", {
     encounter: "encounter",
   }),
   "event.guardian": define("Threshold Keeper {encounter} bars your descent.", {
@@ -66,15 +66,11 @@ const definitions = {
   "event.boss": define("Deep Presence {encounter} has awoken.", {
     encounter: "encounter",
   }),
-  "event.fled": define("You withdraw along the sounding line and escape."),
-  "event.fleeFailed": define(
-    "The sounding line draws taut. You fail to escape!",
-  ),
-  "event.ignored": define(
-    "You leave it undisturbed and continue your sounding.",
-  ),
+  "event.fled": define("You follow the guide rope back and escape."),
+  "event.fleeFailed": define("The guide rope draws taut. You fail to escape!"),
+  "event.ignored": define("You leave it undisturbed and continue exploring."),
   "event.room": define("You follow the tide marks into the next chamber."),
-  "event.floor": define("Your sounding reaches the next descent."),
+  "event.floor": define("You descend deeper into the observatory."),
   "event.gold": define("You recover {amount} Quay Marks.", {
     amount: "number",
   }),
@@ -83,15 +79,15 @@ const definitions = {
     { cost: "number", level: "number" },
   ),
   "event.blackSounding": define(
-    "A Black Sounding ring stirs. Offer {cost} Quay Marks? Enemies become stronger and loot quality improves. Black Sounding {level}.",
+    "A Deepening Curse ring stirs. Offer {cost} Quay Marks? Enemies become stronger and loot quality improves. Deepening Curse {level}.",
     { cost: "number", level: "number" },
   ),
   "event.insufficient": define("You do not have enough Quay Marks."),
   "event.curseGain": define(
-    "The Black Sounding strengthens enemies and improves loot quality. Black Sounding {before} → {after}.",
+    "The Deepening Curse strengthens enemies and improves loot quality. Deepening Curse {before} → {after}.",
     { before: "number", after: "number" },
   ),
-  "event.nothing0": define("Your sounding finds only the scrape of wet slate."),
+  "event.nothing0": define("Your search reveals nothing but wet slate."),
   "event.nothing1": define(
     "An empty salvage coffer rocks with a tide you cannot feel.",
   ),
@@ -101,7 +97,7 @@ const definitions = {
   "event.nothing3": define(
     "A quay worker lies motionless beside an unlit lantern.",
   ),
-  "event.nothing4": define("The sounding returns no answer from this chamber."),
+  "event.nothing4": define("Only silence answers you in this chamber."),
   "choice.enter": define("Enter"),
   "choice.ignore": define("Ignore"),
   "choice.open": define("Open the coffer"),
@@ -136,7 +132,7 @@ const definitions = {
     amount: "number",
   }),
   "combat.defeat": define(
-    "Your sounding ends here. You died. Return to the quay to prepare another descent.",
+    "Your descent ends here. You died. Return to the quay to prepare another descent.",
   ),
   "combat.claim": define("Claim"),
   "combat.return": define("Back to Menu"),
@@ -149,12 +145,12 @@ const definitions = {
   "upgrade.reroll": define("Reroll {remaining}/2", { remaining: "number" }),
   "run.abandon": define("Abandon this descent"),
   "run.abandonConfirm": define("Abandon this descent and return to Veyr Quay?"),
-  "run.restart": define("Prepare another sounding"),
+  "run.restart": define("Prepare another descent"),
   "run.resetConsequences": define(
     "Attunement, Tide Offerings, EXP, bonus stats, skills, allocation and observatory progress reset. Your name, recovered relics, inventory, Quay Marks and lifetime statistics remain. Audio settings stay unchanged.",
   ),
   "run.resting": define("Resting..."),
-  "run.exploring": define("Sounding..."),
+  "run.exploring": define("Exploring..."),
   "run.floor": define("Descent {number}", { number: "number" }),
   "run.room": define("Chamber {number}", { number: "number" }),
   "inventory.title": define("Inventory — Recovered Relics"),
@@ -187,7 +183,7 @@ const definitions = {
     "Sell all inventory relics for {amount} Quay Marks?",
     { amount: "number" },
   ),
-  "menu.title": define("Sounding Ledger"),
+  "menu.title": define("Expedition Journal"),
   "menu.statistics": define("Statistics"),
   "menu.run": define("Current Descent"),
   "menu.settings": define("Settings"),
@@ -196,7 +192,7 @@ const definitions = {
   "menu.save": define("Save"),
   "menu.close": define("Close"),
   "menu.cancel": define("Cancel"),
-  "help.title": define("Keeper’s Field Notes"),
+  "help.title": define("Relic Seeker’s Field Notes"),
   "help.exploration": define(
     "Explore the Drowned Observatory chamber by chamber. Pause to rest. Doors, salvage coffers and offerings present choices; you may ignore them. Threshold Keepers guard deeper descents.",
   ),
@@ -204,7 +200,7 @@ const definitions = {
     "Combat attacks are automatic. HP measures survival; ATK and DEF affect damage. ATK.SPD is attacks per second. VAMP restores a percentage of damage dealt; C.RATE is critical chance and C.DMG is bonus critical damage. Fleeing can fail. Claim closes an encounter whose rewards have already been granted.",
   ),
   "help.progression": define(
-    "Each Attunement upgrade offers three bonus-stat choices and two rerolls. An upgrade restores 20% of maximum HP. Tide Offerings grant a random bonus for Quay Marks. Black Soundings strengthen enemies and improve loot quality.",
+    "Each Attunement upgrade offers three bonus-stat choices and two rerolls. An upgrade restores 20% of maximum HP. Tide Offerings grant a random bonus for Quay Marks. Deepening Curses strengthen enemies and improve loot quality.",
   ),
   "help.relics": define(
     "Equip up to six recovered relics. Common, Uncommon, Rare, Epic, Legendary and Heirloom rarities retain their stat and sale rules. Selling removes inventory items for Quay Marks; equipped relics remain separate.",
@@ -213,13 +209,13 @@ const definitions = {
     "Local continuation keeps your current descent and encounter. Importing a character replaces the current character and resets run progression after confirmation. Export before replacing a character. An unsaved warning means progress is only in this session; do not close it before recovery.",
   ),
   "about.description": define(
-    "Descend beneath Veyr Quay into a drowned observatory. Chart impossible chambers, face listening presences and recover relics that outlast each sounding.",
+    "Descend beneath Veyr Quay into a drowned observatory. Chart impossible chambers, face listening presences and recover relics that outlast each descent.",
   ),
   "about.credits": define(
     "Historical baseline monster sprites: Aekashics. RPG sound effects: Leohpaz. Level-up sound: phoenix1291. Battle music: Leviathan_Music. Dungeon music: Sara Garrard. Audio library: Howler 2.2.3. Existing font and library attributions remain in their distributed files.",
   ),
   "about.art": define(
-    "Original cosmic-horror setting with generated artwork for Quay Scavenger, Needlecast Lookout, Brine Whisperer, Crevice Pilferer, The Dredge Foreman, Surf Stalker, Tarwake Stalker, Rimewake Stalker, The Hush at the Jetty, Tidepool Memory, Halo Medusa, Processional Ooze, Shellbound Bloom, The Reservoir Heart, Breakwater Harpooner, Keelbreaker, Stormsilt Cantor, Tideglass Duelist, Threadpool Creeper, Rustvein Spinner, Verdigris Spinner, Emberreef Weaver, The Tidewheel Weaver, Ossuary Signalman, Reliquary Warden, Splinterblade Usher, Pierbound Husk, both Sounding Vessel variants, Wreck Tallyman, Lowtide Executioner, The Choir in the Wall, The Lantern Without Flame, The Brood Bell, The Salt Regent, The Threefold Watch, Cinderwake Prowler, The Unmoored Magistrate, The Anchor Votary, The Spiral Breaker, The Lockgate Carapace, The Continental Sleeper, The Red Undertow, The Eclipse Ferryman, The Kiln Below, The Stillwater Veil, The Cathedral Remnant, The Last Sounding, The Sovereign Below Sound, The Horizon Stitcher, Coffer of Listening Teeth, Threshold That Breathes and the unused Unrung Witness. All 53 creature portraits, 24 relic and symbol roles, both favicons and the shared missing-art fallback are delivered. Artwork was generated with ImageGen; prompts, masters and preparation records are retained in the project. Original contributions retain their credits.",
+    "Original cosmic-horror setting with generated artwork for Quay Scavenger, Needlecast Lookout, Brine Whisperer, Crevice Pilferer, The Dredge Foreman, Surf Stalker, Tarwake Stalker, Rimewake Stalker, The Hush at the Jetty, Tidepool Memory, Halo Medusa, Processional Ooze, Shellbound Bloom, The Reservoir Heart, Breakwater Harpooner, Keelbreaker, Stormsilt Cantor, Tideglass Duelist, Threadpool Creeper, Rustvein Spinner, Verdigris Spinner, Emberreef Weaver, The Tidewheel Weaver, Ossuary Signalman, Reliquary Warden, Splinterblade Usher, Pierbound Husk, both Sounding Vessel variants, Wreck Tallyman, Lowtide Executioner, The Choir in the Wall, The Lantern Without Flame, The Brood Bell, The Salt Regent, The Threefold Watch, Cinderwake Prowler, The Unmoored Magistrate, The Anchor Votary, The Spiral Breaker, The Lockgate Carapace, The Continental Sleeper, The Red Undertow, The Eclipse Ferryman, The Kiln Below, The Stillwater Veil, The Cathedral Remnant, The Final Descent, The Sovereign Below Sound, The Horizon Stitcher, Coffer of Listening Teeth, Threshold That Breathes and the unused Unrung Witness. All 53 creature portraits, 24 relic and symbol roles, both favicons and the shared missing-art fallback are delivered. Artwork was generated with ImageGen; prompts, masters and preparation records are retained in the project. Original contributions retain their credits.",
   ),
 };
 

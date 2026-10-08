@@ -1,5 +1,11 @@
 # Review cleanup — 2026-10-08
 
+> **Subsequent maintainer decision — 2026-10-08:** Ongoing CI now focuses on code
+> regressions. The evidence job described below has moved to a manual-only workflow;
+> six PR jobs remain. Accepted art/refactor qualification is not repeatedly required
+> by CI. The retained validator and historical gate statuses are unchanged. See the
+> [current CI policy](ci.md).
+
 The project maintainer authorized retiring the refactor's one-time legacy art
 comparison workflow after accepting all 80 delivered artworks. This changes
 artifact retention and ongoing CI requirements; it does not mark outstanding

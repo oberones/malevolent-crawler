@@ -1,4 +1,4 @@
-# The Bell Beneath Brine — shared setting guide
+# Malevolent Gods: The Drowned Labyrinth — shared setting guide
 
 ## Small-icon production guidance — T082 pilot
 
@@ -14,7 +14,7 @@ Content version 1. Authored 2026-10-06 for T020. IDs and names below are the sha
 
 At the coastal settlement of Veyr Quay, each receding tide reveals another stair into a drowned observatory. A bell below the foundations sounds only inside the listener, and the things that answer remember streets the town has never built.
 
-**Player role:** A sounding keeper who descends to chart the impossible depths and recover the quay's scattered seals.
+**Player role:** A relic seeker who descends to chart the impossible depths and recover the quay's scattered seals.
 
 **Location:** Veyr Quay and the drowned observatory beneath its breakwater.
 
@@ -28,7 +28,7 @@ Use lucid, restrained sentences: physical detail first, uncertainty second. The 
 - `guardian`: Threshold Keeper
 - `boss`: Deep Presence
 - `blessing`: Tide Offering
-- `curse`: Black Sounding
+- `curse`: Deepening Curse
 - `gold`: Quay Marks
 - `level`: Attunement
 - `relic`: Recovered Relic
@@ -38,7 +38,7 @@ These are narrative terms, not replacements for internal rule tokens. HP, Invent
 - Unstruck bells and listening cavities
 - Tide marks on impossible architecture
 - Nacre, verdigris, wet slate and pitted bronze
-- Sealed vessels, knots, sounding lines and broken tidal rings
+- Sealed vessels, knots, guide ropes and broken tidal rings
 - Deep ink #111923
 - Wet slate #43565F
 - Nacre #DED8C6
@@ -116,12 +116,12 @@ Roles and archetypes record eligibility only. The legacy engine owns ordered poo
 | `tidepool-memory`           | Slime                        | Tidepool Memory           | ordinary     | Balanced                                      | A shallow translucent mass holds the wavering outline of an abandoned house.        |
 | `the-reservoir-heart`       | Slime King                   | The Reservoir Heart       | guardian     | Defensive                                     | A great layered tide sac suspends a dark pumping stone within amber brine.          |
 | `threadpool-creeper`        | Spider                       | Threadpool Creeper        | ordinary     | Balanced, Quick                               | A small radial crawler balances on fine legs above a spool of wet thread.           |
-| `the-last-sounding`         | Thanatos                     | The Last Sounding         | special-boss | Balanced                                      | A vast hooded depth-marker carries a plumb weight shaped like a closed eye.         |
+| `the-last-sounding`         | Thanatos                     | The Final Descent         | special-boss | Balanced                                      | A vast hooded depth-marker carries a plumb weight shaped like a closed eye.         |
 | `the-anchor-votary`         | Tiamat, the Dragon Knight    | The Anchor Votary         | guardian     | Balanced                                      | An armored votary coils around an anchor whose flukes resemble folded fins.         |
 | `the-cathedral-remnant`     | Ulliot, the Deathlord        | The Cathedral Remnant     | special-boss | Defensive                                     | A colossal vaulted body walks on pier-like limbs beneath a roof of pale spines.     |
 | `rimewake-stalker`          | Winter Wolf                  | Rimewake Stalker          | ordinary     | Lethal, Offensive, Quick                      | A pale shore hunter wears frost-fringed feelers above its seal-like muzzle.         |
 | `surf-stalker`              | Wolf                         | Surf Stalker              | ordinary     | Lethal, Offensive, Quick                      | A lean amphibious hunter tracks the shore with sensory whiskers and split paws.     |
-| `the-dredge-foreman`        | Zaart, the Dominator Goblin  | The Dredge Foreman        | guardian     | Offensive                                     | A broad dredger raises a rusted sounding hook beneath a crown of dock nails.        |
+| `the-dredge-foreman`        | Zaart, the Dominator Goblin  | The Dredge Foreman        | guardian     | Offensive                                     | A broad dredger raises a rusted dredging hook beneath a crown of dock nails.        |
 | `the-sovereign-below-sound` | Zalaras, the Dragon Emperor  | The Sovereign Below Sound | special-boss | Offensive                                     | An immense crowned deepwater body rises around a ring of broken harbor bells.       |
 | `the-spiral-breaker`        | Zodiac Aries                 | The Spiral Breaker        | guardian     | Balanced                                      | A heavy reef guardian lowers two spiral shell horns above a plated brow.            |
 | `the-lockgate-carapace`     | Zodiac Cancer                | The Lockgate Carapace     | guardian     | Defensive                                     | A wide armored gate-creature braces itself on paired tide-pincer limbs.             |
@@ -175,7 +175,7 @@ Both Sounding Vessel variants have distinct IDs, silhouettes and descriptions; r
 | `tidepool-memory-portrait`           | Tidepool Memory           | tidepool-memory           | `slime`                 | `assets/sprites/slime.png`                 | 229 × 101 | 50%           |
 | `the-reservoir-heart-portrait`       | The Reservoir Heart       | the-reservoir-heart       | `slime_boss`            | `assets/sprites/slime_boss.png`            | 391 × 253 | 50%           |
 | `threadpool-creeper-portrait`        | Threadpool Creeper        | threadpool-creeper        | `spider`                | `assets/sprites/spider.png`                | 142 × 108 | 50%           |
-| `the-last-sounding-portrait`         | The Last Sounding         | the-last-sounding         | `thanatos`              | `assets/sprites/thanatos.png`              | 748 × 636 | 70%           |
+| `the-last-sounding-portrait`         | The Final Descent         | the-last-sounding         | `thanatos`              | `assets/sprites/thanatos.png`              | 748 × 636 | 70%           |
 | `the-anchor-votary-portrait`         | The Anchor Votary         | the-anchor-votary         | `tiamat`                | `assets/sprites/tiamat.png`                | 435 × 263 | 50%           |
 | `the-cathedral-remnant-portrait`     | The Cathedral Remnant     | the-cathedral-remnant     | `skeleton_dragon`       | `assets/sprites/skeleton_dragon.png`       | 501 × 433 | 70%           |
 | `rimewake-stalker-portrait`          | Rimewake Stalker          | rimewake-stalker          | `wolf_winter`           | `assets/sprites/wolf_winter.png`           | 211 × 203 | 50%           |
@@ -194,7 +194,7 @@ The category cues below must survive the smallest rendered size. Common, Uncommo
 | ------------------ | --------------- | ---------------- | ---------------- | ------------------- | ------------------------------------------------------------- |
 | `tideglass-edge`   | Sword           | Tideglass Edge   | Damage / Weapon  | `relic-sword`       | A straight translucent blade with a wave-worn guard.          |
 | `keelcleaver`      | Axe             | Keelcleaver      | Damage / Weapon  | `relic-axe`         | A broad iron crescent fixed to a driftwood haft.              |
-| `sounding-maul`    | Hammer          | Sounding Maul    | Damage / Weapon  | `relic-hammer`      | A squat bronze sounding bell mounted as a striking head.      |
+| `sounding-maul`    | Hammer          | Tolling Maul     | Damage / Weapon  | `relic-hammer`      | A squat bronze sounding bell mounted as a striking head.      |
 | `whisper-shard`    | Dagger          | Whisper Shard    | Damage / Weapon  | `relic-dagger`      | A short pointed shard of nacre with a wrapped grip.           |
 | `mooring-lash`     | Flail           | Mooring Lash     | Damage / Weapon  | `relic-flail`       | A weighted tide knot swings from a length of harbor chain.    |
 | `lowwater-reaper`  | Scythe          | Lowwater Reaper  | Damage / Weapon  | `relic-scythe`      | A long hooked shell blade crowns a slender black haft.        |
@@ -211,32 +211,32 @@ The category cues below must survive the smallest rendered size. Common, Uncommo
 
 Runtime paths are planned delivery references, not existing or accepted replacement art. Source glyph pixel dimensions are not applicable; use the frozen role/context/browser measurements. Shared old glyphs do not combine roles. Every context ID below comes from the 111-context baseline.
 
-| Role ID                | Legacy role     | New name         | Accessible label              | Runtime path                          | Context IDs                                                                                                                              |
-| ---------------------- | --------------- | ---------------- | ----------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `relic-sword`          | Sword           | Tideglass Edge   | Tideglass Edge (Sword)        | `assets/art/relic-sword.png`          | sword/inventory, sword/equipped, sword/detail, sword/sale, sword/dungeon-reward, sword/combat-reward                                     |
-| `relic-axe`            | Axe             | Keelcleaver      | Keelcleaver (Axe)             | `assets/art/relic-axe.png`            | axe/inventory, axe/equipped, axe/detail, axe/sale, axe/dungeon-reward, axe/combat-reward                                                 |
-| `relic-hammer`         | Hammer          | Sounding Maul    | Sounding Maul (Hammer)        | `assets/art/relic-hammer.png`         | hammer/inventory, hammer/equipped, hammer/detail, hammer/sale, hammer/dungeon-reward, hammer/combat-reward                               |
-| `relic-dagger`         | Dagger          | Whisper Shard    | Whisper Shard (Dagger)        | `assets/art/relic-dagger.png`         | dagger/inventory, dagger/equipped, dagger/detail, dagger/sale, dagger/dungeon-reward, dagger/combat-reward                               |
-| `relic-flail`          | Flail           | Mooring Lash     | Mooring Lash (Flail)          | `assets/art/relic-flail.png`          | flail/inventory, flail/equipped, flail/detail, flail/sale, flail/dungeon-reward, flail/combat-reward                                     |
-| `relic-scythe`         | Scythe          | Lowwater Reaper  | Lowwater Reaper (Scythe)      | `assets/art/relic-scythe.png`         | scythe/inventory, scythe/equipped, scythe/detail, scythe/sale, scythe/dungeon-reward, scythe/combat-reward                               |
-| `relic-plate`          | Plate           | Lockgate Cuirass | Lockgate Cuirass (Plate)      | `assets/art/relic-plate.png`          | plate/inventory, plate/equipped, plate/detail, plate/sale, plate/dungeon-reward, plate/combat-reward                                     |
-| `relic-chain`          | Chain           | Dredger Mesh     | Dredger Mesh (Chain)          | `assets/art/relic-chain.png`          | chain/inventory, chain/equipped, chain/detail, chain/sale, chain/dungeon-reward, chain/combat-reward                                     |
-| `relic-leather`        | Leather         | Oilskin Mantle   | Oilskin Mantle (Leather)      | `assets/art/relic-leather.png`        | leather/inventory, leather/equipped, leather/detail, leather/sale, leather/dungeon-reward, leather/combat-reward                         |
-| `relic-tower`          | Tower           | Breakwater Slab  | Breakwater Slab (Tower)       | `assets/art/relic-tower.png`          | tower/inventory, tower/equipped, tower/detail, tower/sale, tower/dungeon-reward, tower/combat-reward                                     |
-| `relic-kite`           | Kite            | Pilgrim Keel     | Pilgrim Keel (Kite)           | `assets/art/relic-kite.png`           | kite/inventory, kite/equipped, kite/detail, kite/sale, kite/dungeon-reward, kite/combat-reward                                           |
-| `relic-buckler`        | Buckler         | Tidepool Disc    | Tidepool Disc (Buckler)       | `assets/art/relic-buckler.png`        | buckler/inventory, buckler/equipped, buckler/detail, buckler/sale, buckler/dungeon-reward, buckler/combat-reward                         |
-| `relic-great-helm`     | Great Helm      | Diving Reliquary | Diving Reliquary (Great Helm) | `assets/art/relic-great-helm.png`     | great-helm/inventory, great-helm/equipped, great-helm/detail, great-helm/sale, great-helm/dungeon-reward, great-helm/combat-reward       |
-| `relic-horned-helm`    | Horned Helm     | Listening Crown  | Listening Crown (Horned Helm) | `assets/art/relic-horned-helm.png`    | horned-helm/inventory, horned-helm/equipped, horned-helm/detail, horned-helm/sale, horned-helm/dungeon-reward, horned-helm/combat-reward |
-| `title`                | title           | The Sunken Bell  | The Bell Beneath Brine        | `assets/art/title.png`                | title/title                                                                                                                              |
-| `stat-hp`              | health          | Pulse Pearl      | HP                            | `assets/art/stat-hp.png`              | health/main, health/bonus, health/allocation                                                                                             |
-| `stat-attack`          | attack          | Striking Edge    | Attack                        | `assets/art/stat-attack.png`          | attack/main, attack/bonus, attack/allocation                                                                                             |
-| `stat-defense`         | defense         | Harbor Ward      | Defense                       | `assets/art/stat-defense.png`         | defense/main, defense/bonus, defense/allocation                                                                                          |
-| `stat-attack-speed`    | attack-speed    | Swift Current    | Attack speed                  | `assets/art/stat-attack-speed.png`    | attack-speed/main, attack-speed/bonus, attack-speed/allocation                                                                           |
-| `stat-vampirism`       | vampirism       | Returning Drop   | Vampirism                     | `assets/art/stat-vampirism.png`       | vampirism/main, vampirism/bonus                                                                                                          |
-| `stat-critical-rate`   | critical-rate   | Fault Spark      | Critical rate                 | `assets/art/stat-critical-rate.png`   | critical-rate/main, critical-rate/bonus                                                                                                  |
-| `stat-critical-damage` | critical-damage | Riven Pearl      | Critical damage               | `assets/art/stat-critical-damage.png` | critical-damage/main, critical-damage/bonus                                                                                              |
-| `treasure`             | treasure        | Salvage Coffer   | Treasure                      | `assets/art/treasure.png`             | treasure/treasure, treasure/chamber                                                                                                      |
-| `currency`             | currency        | Quay Marks       | Gold                          | `assets/art/currency.png`             | currency/header, currency/gold, currency/victory, currency/blessing, currency/curse, currency/sale-control                               |
+| Role ID                | Legacy role     | New name         | Accessible label                       | Runtime path                          | Context IDs                                                                                                                              |
+| ---------------------- | --------------- | ---------------- | -------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `relic-sword`          | Sword           | Tideglass Edge   | Tideglass Edge (Sword)                 | `assets/art/relic-sword.png`          | sword/inventory, sword/equipped, sword/detail, sword/sale, sword/dungeon-reward, sword/combat-reward                                     |
+| `relic-axe`            | Axe             | Keelcleaver      | Keelcleaver (Axe)                      | `assets/art/relic-axe.png`            | axe/inventory, axe/equipped, axe/detail, axe/sale, axe/dungeon-reward, axe/combat-reward                                                 |
+| `relic-hammer`         | Hammer          | Tolling Maul     | Tolling Maul (Hammer)                  | `assets/art/relic-hammer.png`         | hammer/inventory, hammer/equipped, hammer/detail, hammer/sale, hammer/dungeon-reward, hammer/combat-reward                               |
+| `relic-dagger`         | Dagger          | Whisper Shard    | Whisper Shard (Dagger)                 | `assets/art/relic-dagger.png`         | dagger/inventory, dagger/equipped, dagger/detail, dagger/sale, dagger/dungeon-reward, dagger/combat-reward                               |
+| `relic-flail`          | Flail           | Mooring Lash     | Mooring Lash (Flail)                   | `assets/art/relic-flail.png`          | flail/inventory, flail/equipped, flail/detail, flail/sale, flail/dungeon-reward, flail/combat-reward                                     |
+| `relic-scythe`         | Scythe          | Lowwater Reaper  | Lowwater Reaper (Scythe)               | `assets/art/relic-scythe.png`         | scythe/inventory, scythe/equipped, scythe/detail, scythe/sale, scythe/dungeon-reward, scythe/combat-reward                               |
+| `relic-plate`          | Plate           | Lockgate Cuirass | Lockgate Cuirass (Plate)               | `assets/art/relic-plate.png`          | plate/inventory, plate/equipped, plate/detail, plate/sale, plate/dungeon-reward, plate/combat-reward                                     |
+| `relic-chain`          | Chain           | Dredger Mesh     | Dredger Mesh (Chain)                   | `assets/art/relic-chain.png`          | chain/inventory, chain/equipped, chain/detail, chain/sale, chain/dungeon-reward, chain/combat-reward                                     |
+| `relic-leather`        | Leather         | Oilskin Mantle   | Oilskin Mantle (Leather)               | `assets/art/relic-leather.png`        | leather/inventory, leather/equipped, leather/detail, leather/sale, leather/dungeon-reward, leather/combat-reward                         |
+| `relic-tower`          | Tower           | Breakwater Slab  | Breakwater Slab (Tower)                | `assets/art/relic-tower.png`          | tower/inventory, tower/equipped, tower/detail, tower/sale, tower/dungeon-reward, tower/combat-reward                                     |
+| `relic-kite`           | Kite            | Pilgrim Keel     | Pilgrim Keel (Kite)                    | `assets/art/relic-kite.png`           | kite/inventory, kite/equipped, kite/detail, kite/sale, kite/dungeon-reward, kite/combat-reward                                           |
+| `relic-buckler`        | Buckler         | Tidepool Disc    | Tidepool Disc (Buckler)                | `assets/art/relic-buckler.png`        | buckler/inventory, buckler/equipped, buckler/detail, buckler/sale, buckler/dungeon-reward, buckler/combat-reward                         |
+| `relic-great-helm`     | Great Helm      | Diving Reliquary | Diving Reliquary (Great Helm)          | `assets/art/relic-great-helm.png`     | great-helm/inventory, great-helm/equipped, great-helm/detail, great-helm/sale, great-helm/dungeon-reward, great-helm/combat-reward       |
+| `relic-horned-helm`    | Horned Helm     | Listening Crown  | Listening Crown (Horned Helm)          | `assets/art/relic-horned-helm.png`    | horned-helm/inventory, horned-helm/equipped, horned-helm/detail, horned-helm/sale, horned-helm/dungeon-reward, horned-helm/combat-reward |
+| `title`                | title           | The Sunken Bell  | Malevolent Gods: The Drowned Labyrinth | `assets/art/title.png`                | title/title                                                                                                                              |
+| `stat-hp`              | health          | Pulse Pearl      | HP                                     | `assets/art/stat-hp.png`              | health/main, health/bonus, health/allocation                                                                                             |
+| `stat-attack`          | attack          | Striking Edge    | Attack                                 | `assets/art/stat-attack.png`          | attack/main, attack/bonus, attack/allocation                                                                                             |
+| `stat-defense`         | defense         | Harbor Ward      | Defense                                | `assets/art/stat-defense.png`         | defense/main, defense/bonus, defense/allocation                                                                                          |
+| `stat-attack-speed`    | attack-speed    | Swift Current    | Attack speed                           | `assets/art/stat-attack-speed.png`    | attack-speed/main, attack-speed/bonus, attack-speed/allocation                                                                           |
+| `stat-vampirism`       | vampirism       | Returning Drop   | Vampirism                              | `assets/art/stat-vampirism.png`       | vampirism/main, vampirism/bonus                                                                                                          |
+| `stat-critical-rate`   | critical-rate   | Fault Spark      | Critical rate                          | `assets/art/stat-critical-rate.png`   | critical-rate/main, critical-rate/bonus                                                                                                  |
+| `stat-critical-damage` | critical-damage | Riven Pearl      | Critical damage                        | `assets/art/stat-critical-damage.png` | critical-damage/main, critical-damage/bonus                                                                                              |
+| `treasure`             | treasure        | Salvage Coffer   | Treasure                               | `assets/art/treasure.png`             | treasure/treasure, treasure/chamber                                                                                                      |
+| `currency`             | currency        | Quay Marks       | Gold                                   | `assets/art/currency.png`             | currency/header, currency/gold, currency/victory, currency/blessing, currency/curse, currency/sale-control                               |
 
 ## Art handoff and pilot gates
 

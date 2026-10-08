@@ -39,11 +39,11 @@ export const symbols = freezeContent([
   {
     id: "relic-hammer",
     legacyRole: "Hammer",
-    displayName: "Sounding Maul",
+    displayName: "Tolling Maul",
     purpose: "A squat bronze sounding bell mounted as a striking head.",
     assetId: "relic-hammer",
     path: "assets/art/relic-hammer.png",
-    accessibleLabel: "Sounding Maul (Hammer)",
+    accessibleLabel: "Tolling Maul (Hammer)",
     contextIds: [
       "hammer/inventory",
       "hammer/equipped",
@@ -247,7 +247,7 @@ export const symbols = freezeContent([
     purpose: "An unstruck bell enclosed by a broken tidal ring.",
     assetId: "title",
     path: "assets/art/title.png",
-    accessibleLabel: "The Bell Beneath Brine",
+    accessibleLabel: "Malevolent Gods: The Drowned Labyrinth",
     contextIds: ["title/title"],
   },
   {
