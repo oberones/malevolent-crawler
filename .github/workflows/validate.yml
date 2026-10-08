@@ -33,8 +33,6 @@ jobs:
             command: npm run lint
           - check: format
             command: npm run format:check
-          - check: art
-            command: npm run validate:art
           - check: audit
             command: npm audit --audit-level=high
           - check: evidence

@@ -62,7 +62,7 @@ async function open(browser, viewport) {
 }
 for (const width of [360, 768, 1440])
   for (const scale of [1, 2]) {
-    // Check the narrowest actual UI, complete prices/stats and every visible rarity at enlarged text.
+    // Check rounded stat labels, complete prices and every rarity at enlarged text.
     test(`item layout and labels ${width}/${scale}`, async ({ browser }) => {
       const f = await open(browser, {
         width,
@@ -104,7 +104,7 @@ for (const width of [360, 768, 1440])
           String(item.value),
         );
         await expect(f.page.locator("#equipmentInfo")).toContainText(
-          "123456.789%",
+          "Critical damage +123457%",
         );
         const boxes = await f.page.locator("#equipmentInfo button").evaluateAll(
           /* Check complete control bounds and internal text fit. */ (nodes) =>

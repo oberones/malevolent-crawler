@@ -13,7 +13,9 @@ const corpus = JSON.parse(
     new URL("../fixtures/legacy/symbol-contexts.json", import.meta.url),
   ),
 );
-const baseline = JSON.parse(await readFile("art/cosmic-horror/baseline.json"));
+const baseline = JSON.parse(
+  await readFile("tests/fixtures/layout/symbol-metrics.json"),
+);
 const contexts = corpus.contexts.filter(
   /* Remaining roles have no equipment category. */ (row) => !row.category,
 );

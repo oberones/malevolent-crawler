@@ -12,22 +12,13 @@ pin the accepted version; changed artwork requires new review.
 
 The maintainer accepts the collection's visual direction, identity/readability,
 framing/transparency and agreed artwork horror boundary. No artwork rejection or
-regeneration request was reported. T107's human artwork review is closed. All
-manifest entries and all 139 combined art-context gates record human acceptance
-separately from technical/native results. Historical batch/capture evidence is
-unchanged; no browser, device, viewport or screenshot inspection procedure is
+regeneration request was reported. T107's human artwork review is closed. The manifest records human acceptance separately from technical/native results; no browser, device, viewport or screenshot inspection procedure is
 attributed to the user beyond the quoted approval.
 
-T108 has no outstanding **artwork-regeneration** request, but remains open for
-context-integration findings such as the Phase 6C text-layout observations.
-T137's artwork approval portion is satisfied; narrative reconciliation and native
-results remain outstanding. T104–T106/T109 and release tasks are not closed by
-this approval. Image-failure tests, technical geometry, runtime behavior, native
-interaction, performance and CI are separate obligations.
-
-The common manifest still awaits T105's final provenance join. In particular,
-its `missing-art` placeholder denotes the approved delivery `assets/art/fallback.png`;
-this acceptance record does not pretend that the old placeholder path exists.
+On 2026-10-08 the maintainer retired ongoing legacy-art validation. The compact
+manifest retains the approved delivery and provenance; the original screenshot,
+master and batch collections are no longer part of the review tree. This is a
+retention and CI scope change, not a new claim of native or release qualification.
 
 ## Approved delivery
 

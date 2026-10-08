@@ -246,172 +246,19 @@ Environment ID: `safari-ipad`. Physical device and exact engine/build not establ
 | [ ]  | native-safari-ipad-external-boot       | T058  | FR-013, QR-002                 | BLOCKED | Not performed / — / — / —           |
 | [ ]  | native-safari-ipad-horror-boundary     | T137  | FR-010, SC-008                 | BLOCKED | Not performed / — / — / —           |
 
-## Individual art and context obligations
+## Artwork approval
 
-Each row requires the full applicable art-review-matrix from gates.json: all three automated engines and seven native targets, required viewports, 100%/200% text, plus physical viewport/orientations. Attach a separate result for every tuple; no aggregate PASS with missing targets. Known unavailable targets remain BLOCKED. Glyph selectors/measurements are owned by T019; retain null measurements until captured from the immutable baseline. Review originality, coherent direction, identity distinctions, alpha edges, framing, actual-size readability, no container resize, and the accepted horror boundary. Exact PNG/ICO dimensions are in the art inventory. Unused art gets provenance/visual review without a fabricated in-game context.
-
-| Done | Gate | Asset / role | Context | Owner | Status | Actual / evidence / reviewer / date |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | art-context-001 | `assets/sprites/alfadriel.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-002 | `assets/sprites/ant_queen.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-003 | `assets/sprites/behemoth.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-004 | `assets/sprites/berthelot.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-005 | `assets/sprites/bm-feral.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-006 | `assets/sprites/cerberus_ptolemaios.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-007 | `assets/sprites/da-reaper.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-008 | `assets/sprites/fallen_king.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-009 | `assets/sprites/firelord.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-010 | `assets/sprites/goblin.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-011 | `assets/sprites/goblin_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-012 | `assets/sprites/goblin_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-013 | `assets/sprites/goblin_mage.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-014 | `assets/sprites/goblin_rogue.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-015 | `assets/sprites/hellhound.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-016 | `assets/sprites/icemaiden.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-017 | `assets/sprites/mimic.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-018 | `assets/sprites/mimic_door.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-019 | `assets/sprites/orc_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-020 | `assets/sprites/orc_axe.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-021 | `assets/sprites/orc_mage.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-022 | `assets/sprites/orc_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-023 | `assets/sprites/skeleton_archer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-024 | `assets/sprites/skeleton_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-025 | `assets/sprites/skeleton_dragon.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-026 | `assets/sprites/skeleton_knight.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-027 | `assets/sprites/skeleton_mage1.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-028 | `assets/sprites/skeleton_mage2.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-029 | `assets/sprites/skeleton_pirate.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-030 | `assets/sprites/skeleton_samurai.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-031 | `assets/sprites/skeleton_swordsmaster.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-032 | `assets/sprites/skeleton_warrior.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-033 | `assets/sprites/slime.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-034 | `assets/sprites/slime_angel.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-035 | `assets/sprites/slime_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-036 | `assets/sprites/slime_crusader.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-037 | `assets/sprites/slime_knight.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-038 | `assets/sprites/spider.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-039 | `assets/sprites/spider_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-040 | `assets/sprites/spider_dragon.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-041 | `assets/sprites/spider_fire.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-042 | `assets/sprites/spider_green.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-043 | `assets/sprites/spider_red.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-044 | `assets/sprites/spider_spirit.png` | provenance-only, unused | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-045 | `assets/sprites/thanatos.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-046 | `assets/sprites/tiamat.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-047 | `assets/sprites/wolf.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-048 | `assets/sprites/wolf_black.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-049 | `assets/sprites/wolf_boss.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-050 | `assets/sprites/wolf_winter.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-051 | `assets/sprites/zalaras.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-052 | `assets/sprites/zodiac_aries.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-053 | `assets/sprites/zodiac_cancer.png` | combat portrait | T077/T107 | OPEN | Visual acceptance PASS; native matrix execution OPEN / [approval](art-approval-2026-10-07.md) / Project maintainer / 2026-10-07 |
-| [ ] | art-context-054 | `assets/icon/favicon.png` | favicon actual decoded size and browser-icon context | T094/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-055 | `assets/icon/favicon.ico` | favicon actual decoded size and browser-icon context | T094/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-056 | `relic:Sword` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-057 | `relic:Sword` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-058 | `relic:Sword` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-059 | `relic:Sword` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-060 | `relic:Axe` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-061 | `relic:Axe` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-062 | `relic:Axe` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-063 | `relic:Axe` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-064 | `relic:Hammer` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-065 | `relic:Hammer` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-066 | `relic:Hammer` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-067 | `relic:Hammer` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-068 | `relic:Dagger` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-069 | `relic:Dagger` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-070 | `relic:Dagger` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-071 | `relic:Dagger` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-072 | `relic:Flail` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-073 | `relic:Flail` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-074 | `relic:Flail` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-075 | `relic:Flail` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-076 | `relic:Scythe` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-077 | `relic:Scythe` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-078 | `relic:Scythe` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-079 | `relic:Scythe` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-080 | `relic:Plate` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-081 | `relic:Plate` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-082 | `relic:Plate` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-083 | `relic:Plate` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-084 | `relic:Chain` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-085 | `relic:Chain` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-086 | `relic:Chain` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-087 | `relic:Chain` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-088 | `relic:Leather` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-089 | `relic:Leather` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-090 | `relic:Leather` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-091 | `relic:Leather` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-092 | `relic:Tower` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-093 | `relic:Tower` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-094 | `relic:Tower` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-095 | `relic:Tower` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-096 | `relic:Kite` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-097 | `relic:Kite` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-098 | `relic:Kite` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-099 | `relic:Kite` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-100 | `relic:Buckler` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-101 | `relic:Buckler` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-102 | `relic:Buckler` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-103 | `relic:Buckler` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-104 | `relic:Great Helm` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-105 | `relic:Great Helm` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-106 | `relic:Great Helm` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-107 | `relic:Great Helm` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-108 | `relic:Horned Helm` | reward | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-109 | `relic:Horned Helm` | inventory list | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-110 | `relic:Horned Helm` | equipped button | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-111 | `relic:Horned Helm` | item detail | T092/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-112 | `symbol:title` | title screen | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-113 | `symbol:HP` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-114 | `symbol:HP` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-115 | `symbol:HP` | allocation | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-116 | `symbol:attack` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-117 | `symbol:attack` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-118 | `symbol:attack` | allocation | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-119 | `symbol:defense` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-120 | `symbol:defense` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-121 | `symbol:defense` | allocation | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-122 | `symbol:attack speed` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-123 | `symbol:attack speed` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-124 | `symbol:attack speed` | allocation | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-125 | `symbol:vampirism` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-126 | `symbol:vampirism` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-127 | `symbol:critical rate` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-128 | `symbol:critical rate` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-129 | `symbol:critical damage` | main stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-130 | `symbol:critical damage` | bonus stats | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-131 | `symbol:treasure` | treasure chamber | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-132 | `symbol:treasure` | chest event | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-133 | `symbol:currency` | player header | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-134 | `symbol:currency` | combat reward | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-135 | `symbol:currency` | exploration reward | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-136 | `symbol:currency` | offering | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-137 | `symbol:currency` | sale controls | T019/T102/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-138 | `fallback` | portrait box | T098/T107 | OPEN | Not performed / — / — / — |
-| [ ] | art-context-139 | `fallback` | small symbol box | T098/T107 | OPEN | Not performed / — / — / — |
+The [complete collection approval](art-approval-2026-10-07-complete.md) retains
+all 80 accepted paths and hashes. The maintainer retired the 139 legacy art/context
+gates on 2026-10-08. Future art does not require comparison to the old artwork.
+Non-art native, accessibility, gameplay and recovery checks remain in this workbook.
 
 ## Completion rule
 
-T136 owns native interaction; T137 owns final narrative/art review; T138 owns CI enforcement; T139 joins automated/manual/art/performance evidence. Resolve every finding and populate structured results before running the later `validate:evidence` tool. No row is accepted merely because this workbook exists.
+T136 owns native interaction; T137 retains narrative review; T138 owns CI enforcement; T139 joins the remaining automated/manual/performance evidence. Artwork acceptance is retained above and legacy art comparisons are retired. Resolve remaining findings and populate structured results before running `validate:evidence`. No row is accepted merely because this workbook exists.
 
-## Phase 4C encounter evidence handoff — 2026-10-07
-
-T076–T078 automated development/agent review is recorded in [us2.md](us2.md).
-The [individual creature review](../../art/cosmic-horror/review/encounters.md)
-and [final capture index](../../art/cosmic-horror/review/encounters/index.json)
-cover all 53 sprites and 936 active portrait contexts. They retain explicit agent
-ownership. No human review or native encounter gate above is promoted by these
-results; every existing manual/native OPEN/BLOCKED status remains unchanged.
-The narrow enlarged-text HP/EXP overlap found during review is fixed with a
-red–green regression and recaptured in capture-03. No unresolved agent-observed
-creature-art finding remains. Human originality, direction, horror-boundary,
-keyboard/touch and native acceptance still require their named execution rows.
-
-## Maintainer artwork approval — 2026-10-07
-
-The [direct maintainer approval](art-approval-2026-10-07.md) supersedes the earlier Phase 4C human-artwork OPEN status for all 53 delivered sprites. Manifest human reviews and existing visual contexts are PASS. Combined art-context rows retain their outstanding native execution status; their human visual acceptance is PASS in both this workbook and `gates.json`. Historical capture and batch records are preserved.
+> The phase notes below are historical. Their art-generation, baseline and capture
+> references were retired by the [review cleanup](review-cleanup.md).
 
 ## Phase 5A item boundary handoff — 2026-10-07
 
@@ -425,7 +272,7 @@ package. Next authoring package: T082 small-icon pilot.
 
 [US3 evidence](us3.md) records the integrated item controls, all 84 category/rarity
 journeys, duplicate/stale/bulk transaction safety, reset retention, 200% text,
-keyboard focus/cancel/return, and automated WCAG checks. [Relic review](../../art/cosmic-horror/review/relics.md)
+keyboard focus/cancel/return, and automated WCAG checks. The historical relic review (retired with the art artifacts)
 records the agent's actual-size assessment and exact inspected scope. These are
 automated browser/agent visual results. Human artwork approval, human manual
 keyboard review and native/physical-device execution remain OPEN/BLOCKED; the

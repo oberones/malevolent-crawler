@@ -1,5 +1,13 @@
 # Data Model: Cosmic Horror Refactor
 
+> **Maintenance scope update — 2026-10-08:** The maintainer retired one-time legacy
+> art comparisons, generation tooling and their CI obligations. References below
+> to masters, screenshots, the old art baseline and art validators describe the
+> completed feature workflow, not current checkout requirements. The retained
+> delivery manifest uses schema version 2 (provenance and approval only).
+> Gameplay/save regression tests and non-art qualification remain required.
+> See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
+
 **Design status**: Proposed implementation contracts; no runtime schema or migration has been installed. See [research](research.md) for source evidence and [persistence contract](contracts/persistence.md) for transactions and recovery.
 
 ## Ownership and identity

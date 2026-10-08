@@ -15,8 +15,6 @@
     "test:performance": "playwright test tests/performance --project=chromium --workers=1",
     "lint": "eslint .",
     "format:check": "prettier --check .",
-    "art:prepare": "node scripts/prepare-art.mjs",
-    "validate:art": "node scripts/validate-art.mjs",
     "validate:evidence": "node scripts/validate-evidence.mjs",
     "serve:performance": "http-server . -a 127.0.0.1 -p 4174 -c3600 --silent"
   },
@@ -30,7 +28,6 @@
     "eslint": "10.12.0",
     "globals": "17.13.0",
     "http-server": "14.1.1",
-    "prettier": "3.9.9",
-    "sharp": "0.35.5"
+    "prettier": "3.9.9"
   }
 }

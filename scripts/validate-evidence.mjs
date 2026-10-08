@@ -5,9 +5,7 @@ import {
   requireThat,
   validateReview,
   isMain,
-} from "./art-common.mjs";
-import { artObligations } from "./art-obligations.mjs";
-import { validateArt } from "./validate-art.mjs";
+} from "./evidence-common.mjs";
 const statuses = new Set(["PASS", "FAIL", "BLOCKED", "OPEN", "N/A"]);
 // Reject placeholder outcomes instead of mistaking a populated string for execution evidence.
 function meaningful(value) {
@@ -86,16 +84,14 @@ async function checkGate(root, gate, evidenceBase) {
       "Missing automated/configuration command",
     );
 }
-/** Validate required qualification records and all asset review records without writing statuses.
- * @param {object} options Root, gates document, separate obligations, art manifest/IDs and evidenceBase.
+/** Validate non-art qualification records without writing statuses.
+ * @param {object} options Root, gates document, separate obligations and evidenceBase.
  * @returns {Promise<{ok:boolean,issues:string[]}>} Completeness diagnostics, not proof of human authenticity.
  */
 export async function validateEvidence({
   root,
   gates,
   obligations,
-  artManifest,
-  artIds,
   evidenceBase = ".",
 }) {
   const issues = [];
@@ -131,28 +127,6 @@ export async function validateEvidence({
         issues.push(`${obligation.id}: ${error.message}`);
       }
     }
-    requireThat(
-      Array.isArray(artIds) &&
-        artIds.length > 0 &&
-        Array.isArray(artManifest?.entries) &&
-        artManifest.entries.length === artIds.length,
-      "Missing art review obligations",
-    );
-    const seenArt = new Set();
-    for (const entry of artManifest.entries) {
-      requireThat(!seenArt.has(entry.id), "Duplicate art review ID");
-      seenArt.add(entry.id);
-    }
-    for (const id of artIds) {
-      try {
-        // Resolve every independently required asset review, including the unused sprite.
-        const entry = artManifest.entries.find((row) => row.id === id);
-        requireThat(entry, "Missing asset review");
-        await validateReview(root, entry.review);
-      } catch (error) {
-        issues.push(`${id}: ${error.message}`);
-      }
-    }
   } catch (error) {
     issues.push(error.message);
   }
@@ -166,29 +140,14 @@ if (isMain(import.meta.url)) {
     const obligations = JSON.parse(
       await readNonempty(root, `${base}/required-gates.json`),
     ).gates;
-    const artManifest = JSON.parse(
-      await readNonempty(root, "art/cosmic-horror/manifest.json"),
-    );
-    const baseline = JSON.parse(
-      await readNonempty(root, "art/cosmic-horror/baseline.json"),
-    );
-    // Art IDs come from catalogs/baseline rather than the potentially incomplete candidate.
-    const artIds = artObligations(baseline).map((row) => row.id);
     const evidence = await validateEvidence({
       root,
       gates,
       obligations,
-      artManifest,
-      artIds,
       evidenceBase: base,
     });
-    const art = await validateArt({ root, manifest: artManifest, baseline });
-    const result = {
-      ok: evidence.ok && art.ok,
-      issues: [...evidence.issues, ...art.issues],
-    };
-    console.log(JSON.stringify(result, null, 2));
-    if (!result.ok) process.exitCode = 1;
+    console.log(JSON.stringify(evidence, null, 2));
+    if (!evidence.ok) process.exitCode = 1;
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;

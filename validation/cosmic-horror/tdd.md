@@ -1,5 +1,9 @@
 # Red–green–refactor evidence
 
+> Historical qualification record. The [2026-10-08 cleanup](review-cleanup.md)
+> supersedes art-retention and art-CI requirements below. Earlier results remain
+> historical; retired artifact paths are not current checkout requirements.
+
 Statuses: PASS / FAIL / BLOCKED / OPEN / N/A. Each future behavioral task must add task/requirement ownership, fixture/environment, exact command, expected and observed failure, implementation, passing/refactor results, evidence path, reviewer and date. Missing imports, syntax errors and empty suites never count as red. Setup smoke results do not certify gameplay/native acceptance.
 
 ## T005 — lint environment boundaries

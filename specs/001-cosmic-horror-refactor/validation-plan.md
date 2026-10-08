@@ -1,5 +1,13 @@
 # Validation Plan: Cosmic Horror Refactor
 
+> **Maintenance scope update — 2026-10-08:** The maintainer retired one-time legacy
+> art comparisons, generation tooling and their CI obligations. References below
+> to masters, screenshots, the old art baseline and art validators describe the
+> completed feature workflow, not current checkout requirements. The retained
+> delivery manifest uses schema version 2 (provenance and approval only).
+> Gameplay/save regression tests and non-art qualification remain required.
+> See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
+
 ## Evidence rules and baseline
 
 Implementation produces `validation/cosmic-horror/` with `environment.json`, `tdd.md`, automated reports, performance raw samples/comparison, `manual.md`, and `gates.json`. Art-specific evidence lives in `art/cosmic-horror/review/` and is linked from the manifest/gate index. Every record names its fixture/workload, source revision, browser/device, command or manual steps, expected/actual outcome, evidence file, date, and owner/reviewer.

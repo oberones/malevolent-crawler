@@ -1,5 +1,9 @@
 # Phase 2G — Guarded bridge and completed transitions
 
+> Historical qualification record. The [2026-10-08 cleanup](review-cleanup.md)
+> supersedes art-retention and art-CI requirements below. Earlier results remain
+> historical; retired artifact paths are not current checkout requirements.
+
 Date: 2026-10-06. Owner/reviewer: implementation agent. Scope: T043–T046.
 Environment: nvm Node 24.21.0/npm 12.2.0; pinned Playwright Chromium, Firefox and WebKit.
 

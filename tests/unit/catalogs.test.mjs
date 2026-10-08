@@ -13,7 +13,7 @@ function fixture(path) {
   return JSON.parse(readFileSync(new URL(`../../${path}`, import.meta.url)));
 }
 const corpus = fixture("tests/fixtures/legacy/encounters.json");
-const baseline = fixture("art/cosmic-horror/baseline.json");
+const delivery = fixture("art/cosmic-horror/manifest.json");
 const contexts = fixture("tests/fixtures/legacy/symbol-contexts.json").contexts;
 const categories = fixture("tests/fixtures/legacy/equipment.json").categories;
 
@@ -90,13 +90,13 @@ test("51 encounters and 52 active variants preserve all legacy image tuples and 
   assert.equal(seen.size, 52);
   const paths = new Set();
   for (const variant of variants) {
-    const asset = baseline.assets.find(
-      // Use immutable original dimensions, not a candidate image header.
-      (row) => row.path === variant.path,
+    const asset = delivery.entries.find(
+      // Match the shipped catalog to its retained delivery record.
+      (row) => row.delivered.path === variant.path,
     );
     assert.ok(asset, variant.path);
-    assert.equal(variant.width, asset.width);
-    assert.equal(variant.height, asset.height);
+    assert.equal(variant.width, asset.delivered.width);
+    assert.equal(variant.height, asset.delivered.height);
     assert.equal(
       variant.path,
       `assets/sprites/${variant.legacyImage.name}.png`,

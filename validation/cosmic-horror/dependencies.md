@@ -1,5 +1,9 @@
 # Phase 1 dependency review
 
+> Historical qualification record. The [2026-10-08 cleanup](review-cleanup.md)
+> supersedes art-retention and art-CI requirements below. Earlier results remain
+> historical; retired artifact paths are not current checkout requirements.
+
 Reviewed 2026-10-06T04:39:40.780594+00:00; owner T003; source revision `a377a9f9fd17abcf9ffdedaa760b5b4a77ba600d`.
 
 Exact pins and lockfile were resolved before the clean install. All dependency install hooks are disabled by `.npmrc` (`ignore-scripts=true`); npm package commands still run explicitly. No lifecycle-script exception is needed. The newly installed nvm runtime leaves the default alias unchanged.

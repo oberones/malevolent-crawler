@@ -1,6 +1,5 @@
 node_modules
 .agents/
-.specify/
 dist/
 build/
 coverage/
@@ -16,3 +15,11 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# Retired one-time refactor art production and comparison outputs.
+/art/cosmic-horror/masters/
+/art/cosmic-horror/batches/
+/art/cosmic-horror/review/
+/art/cosmic-horror/baseline.json
+/tests/fixtures/legacy/source/assets/sprites/
+/tests/fixtures/legacy/source/assets/icon/

@@ -1,5 +1,13 @@
 # Feature Specification: Lovecraftian Cosmic Horror Refactor
 
+> **Maintenance scope update — 2026-10-08:** The maintainer retired one-time legacy
+> art comparisons, generation tooling and their CI obligations. References below
+> to masters, screenshots, the old art baseline and art validators describe the
+> completed feature workflow, not current checkout requirements. The retained
+> delivery manifest uses schema version 2 (provenance and approval only).
+> Gameplay/save regression tests and non-art qualification remain required.
+> See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
+
 **Feature Branch**: `001-cosmic-horror-refactor`
 **Feature Directory**: `specs/001-cosmic-horror-refactor`
 **Created**: 2026-10-05

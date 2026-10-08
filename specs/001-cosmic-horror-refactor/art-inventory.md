@@ -1,5 +1,13 @@
 # Art Inventory: Cosmic Horror Refactor
 
+> **Maintenance scope update — 2026-10-08:** The maintainer retired one-time legacy
+> art comparisons, generation tooling and their CI obligations. References below
+> to masters, screenshots, the old art baseline and art validators describe the
+> completed feature workflow, not current checkout requirements. The retained
+> delivery manifest uses schema version 2 (provenance and approval only).
+> Gameplay/save regression tests and non-art qualification remain required.
+> See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
+
 **Recorded**: 2026-10-05
 **Feature**: [Specification](spec.md)
 **Status**: Original-file baseline preserved. T105 integrates all 80 delivered files and their provenance: 53 creatures, two favicons, 24 symbol roles and one fallback. Human artwork acceptance is PASS; native execution and absolute page-coordinate qualification remain OPEN/BLOCKED.

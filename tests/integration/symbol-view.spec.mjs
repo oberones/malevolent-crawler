@@ -1,9 +1,11 @@
 /* global document, getComputedStyle */
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
-const baseline = JSON.parse(readFileSync("art/cosmic-horror/baseline.json"));
+const baseline = JSON.parse(
+  readFileSync("tests/fixtures/layout/symbol-metrics.json"),
+);
 const corrections = JSON.parse(
-  readFileSync("art/cosmic-horror/review/relic-baseline-corrections.json"),
+  readFileSync("tests/fixtures/layout/relic-offsets.json"),
 ).corrections;
 for (const width of [360, 768, 1440])
   for (const scale of [1, 2]) {

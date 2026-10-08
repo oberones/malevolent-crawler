@@ -1,5 +1,9 @@
 # Phase 8 release qualification
 
+> Historical qualification record. The [2026-10-08 cleanup](review-cleanup.md)
+> supersedes art-retention and art-CI requirements below. Earlier results remain
+> historical; retired artifact paths are not current checkout requirements.
+
 Date: 2026-10-08. **Release: BLOCKED.** This is a qualification decision, not
 acceptance of delivery or a waiver of incomplete requirements.
 

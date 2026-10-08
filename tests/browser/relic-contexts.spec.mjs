@@ -5,9 +5,11 @@ import { createHash } from "node:crypto";
 import { createLegacyBrowserFixture } from "../helpers/browser-fixtures.mjs";
 import { relics } from "../../assets/js/content/relics.mjs";
 const corrections = JSON.parse(
-  await readFile("art/cosmic-horror/review/relic-baseline-corrections.json"),
+  await readFile("tests/fixtures/layout/relic-offsets.json"),
 ).corrections;
-const baseline = JSON.parse(await readFile("art/cosmic-horror/baseline.json"));
+const baseline = JSON.parse(
+  await readFile("tests/fixtures/layout/symbol-metrics.json"),
+);
 const resting = JSON.parse(
   await readFile("tests/fixtures/legacy/saves.json"),
 ).cases.find(/* Seed a validated resting save. */ (r) => r.id === "resting");

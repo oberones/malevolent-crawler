@@ -12,20 +12,6 @@ const obligations = JSON.parse(
     new URL("../fixtures/evidence/obligations.json", import.meta.url),
   ),
 );
-const artManifest = {
-  entries: [
-    {
-      id: "fixture-art",
-      review: {
-        status: "PASS",
-        reviewer: "Fixture reviewer",
-        date: "2026-10-06",
-        evidence: ["result.txt"],
-        findings: [],
-      },
-    },
-  ],
-};
 // Real files and separate required scope establish the positive fixture independently.
 test("evidence accepts complete synthetic manual/automated records", async () => {
   assert.deepEqual(
@@ -33,8 +19,6 @@ test("evidence accepts complete synthetic manual/automated records", async () =>
       root,
       gates,
       obligations,
-      artManifest,
-      artIds: ["fixture-art"],
     }),
     { ok: true, issues: [] },
   );
@@ -95,15 +79,13 @@ test("evidence refuses fabricated, absent, unresolved and mismatched records", a
       root,
       gates: candidate,
       obligations,
-      artManifest,
-      artIds: ["fixture-art"],
     });
     assert.equal(result.ok, false, mutate.toString());
     assert.ok(result.issues.length);
   }
 });
-// N/A needs a scoped explanation; art review cannot be omitted from a release check.
-test("evidence checks justified N/A and every art review obligation", async () => {
+// A non-art qualification exemption still needs a scoped explanation.
+test("evidence checks justified N/A", async () => {
   const candidate = structuredClone(gates);
   candidate.gates[0].status = "N/A";
   candidate.gates[0].reason =
@@ -114,39 +96,9 @@ test("evidence checks justified N/A and every art review obligation", async () =
         root,
         gates: candidate,
         obligations,
-        artManifest,
-        artIds: ["fixture-art"],
       })
     ).ok,
     true,
-  );
-  for (const status of ["OPEN", "FAIL", "BLOCKED"]) {
-    const art = structuredClone(artManifest);
-    art.entries[0].review.status = status;
-    assert.equal(
-      (
-        await validateEvidence({
-          root,
-          gates,
-          obligations,
-          artManifest: art,
-          artIds: ["fixture-art"],
-        })
-      ).ok,
-      false,
-    );
-  }
-  assert.equal(
-    (
-      await validateEvidence({
-        root,
-        gates,
-        obligations,
-        artManifest: { entries: [] },
-        artIds: ["fixture-art"],
-      })
-    ).ok,
-    false,
   );
 });
 
@@ -164,10 +116,16 @@ test("N/A still rejects unresolved findings", async () => {
         root,
         gates: candidate,
         obligations,
-        artManifest,
-        artIds: ["fixture-art"],
       })
     ).ok,
     false,
   );
+});
+
+// Ongoing qualification must validate non-art records without retired image evidence.
+test("evidence validation no longer requires an art manifest or legacy artwork", async () => {
+  assert.deepEqual(await validateEvidence({ root, gates, obligations }), {
+    ok: true,
+    issues: [],
+  });
 });

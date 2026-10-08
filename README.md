@@ -68,7 +68,6 @@ npm run test:integration
 npm run test:browser
 npm run lint
 npm run format:check
-npm run validate:art
 npm audit --audit-level=high
 npm run validate:evidence
 ```
@@ -87,10 +86,10 @@ Recovery preserves original source bytes and supports explicitly unsaved session
 Keep one active gameplay tab; a conflicting save suspends writes and offers reload
 or export. A recovery JSON download is an archive, not a character import format.
 
-To prepare one recorded master, run
-`npm run art:prepare -- <manifest-asset-id>`. The manifest must contain its master
-and exact output dimensions. Record the returned hash/transform before validation.
-Never replace the immutable baseline or infer manual acceptance from file checks.
+The one-time legacy art comparison and generation tooling has been retired.
+Current assets remain covered by browser loading, layout and missing-image recovery
+checks. See the [review cleanup record](validation/cosmic-horror/review-cleanup.md)
+for retained provenance and the non-art qualification scope.
 
 For performance, follow the prepared-root procedure in the
 [quickstart](specs/001-cosmic-horror-refactor/quickstart.md). The comparison uses
@@ -104,10 +103,11 @@ five or more samples per matched workload and verifies warm caching. The
 The coastal setting and narrative are original to this refactor. All 53 creature
 sprites, 24 symbol roles, two favicons and the shared fallback were generated with
 built-in ImageGen and prepared deterministically at their recorded dimensions.
-The [manifest](art/cosmic-horror/manifest.json), [prompts](art/cosmic-horror/prompts/)
-and [batch records](art/cosmic-horror/batches/) retain the delivered files,
-masters, provenance and reviews. Generated masters are authoring evidence and
-are not required to serve the game.
+The [delivery manifest](art/cosmic-horror/manifest.json) and
+[prompts](art/cosmic-horror/prompts/) retain generation provenance, delivered
+hashes, preparation settings and recorded maintainer approval. Masters, legacy
+raster artwork and screenshot collections are no longer required or tracked.
+Future artwork is reviewed against the current game, without legacy comparisons.
 
 The original game's monster sprites by [Aekashics](https://aekashics.itch.io/)
 remain credited as historical baseline assets; shipped creature sprites have

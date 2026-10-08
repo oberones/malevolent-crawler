@@ -1,1 +1,0 @@
-Synthetic orange rectangle with transparent border. Test-only provenance; not generated production artwork.
