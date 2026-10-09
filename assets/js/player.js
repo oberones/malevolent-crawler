@@ -63,7 +63,7 @@ const playerLvlUp =
 
 // Refresh the player stats
 const playerLoadStats =
-  /* Refresh panels and catalog symbols; keep HP text independent of the shrinking fill. */ () => {
+  /* Refresh panels and symbols with rounded HP labels independent of the shrinking fill. */ () => {
     gameServices.items.render();
     applyEquipmentStats();
 
@@ -88,7 +88,7 @@ const playerLoadStats =
       const playerHpDamageElement = document.querySelector("#player-hp-dmg");
       const playerExpElement = document.querySelector("#player-exp-bar");
       const playerInfoElement = document.querySelector("#player-combat-info");
-      playerCombatHpElement.innerHTML = `<span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)</span>`;
+      playerCombatHpElement.innerHTML = `<span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${Math.round(player.stats.hpPercent)}%)</span>`;
       playerCombatHpElement.style.width = `${player.stats.hpPercent}%`;
       playerHpDamageElement.style.width = `${player.stats.hpPercent}%`;
       playerExpElement.style.width = `${player.exp.expPercent}%`;
@@ -111,7 +111,7 @@ const playerLoadStats =
     );
 
     // Player Stats
-    playerHpElement.innerHTML = `${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)} (${player.stats.hpPercent}%)`;
+    playerHpElement.innerHTML = `${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)} (${Math.round(player.stats.hpPercent)}%)`;
     playerAtkElement.innerHTML = nFormatter(player.stats.atk);
     playerDefElement.innerHTML = nFormatter(player.stats.def);
     playerAtkSpdElement.innerHTML = player.stats.atkSpd

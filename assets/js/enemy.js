@@ -764,7 +764,7 @@ const setEnemyImg =
   };
 
 const enemyLoadStats =
-  /* Refresh the selected enemy health display without generating an enemy. */ () => {
+  /* Refresh enemy health with a full-track label independent of the shrinking fill. */ () => {
     // Shows proper percentage for respective stats
     const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
     if (enemy.stats.hp > enemy.stats.hpMax) {
@@ -776,7 +776,7 @@ const enemyLoadStats =
 
     const enemyHpElement = document.querySelector("#enemy-hp-battle");
     const enemyHpDamageElement = document.querySelector("#enemy-hp-dmg");
-    enemyHpElement.innerHTML = `&nbsp${nFormatter(enemy.stats.hp)}/${nFormatter(enemy.stats.hpMax)}<br>(${enemy.stats.hpPercent}%)`;
+    enemyHpElement.innerHTML = `<span class="battle-hp-label">&nbsp${nFormatter(enemy.stats.hp)}/${nFormatter(enemy.stats.hpMax)}(${enemy.stats.hpPercent}%)</span>`;
     enemyHpElement.style.width = `${enemy.stats.hpPercent}%`;
     enemyHpDamageElement.style.width = `${enemy.stats.hpPercent}%`;
   };

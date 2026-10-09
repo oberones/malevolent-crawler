@@ -436,7 +436,7 @@ const combatCounter =
   };
 
 const showCombatInfo =
-  /* Build the selected battle view with player HP text separate from percentage-fill sizing. */ () => {
+  /* Build battle labels at full track width, rounding only the displayed player HP percent. */ () => {
     document.querySelector("#combatPanel").innerHTML = `
     <div class="content">
         <div class="battle-info-panel center" id="enemyPanel">
@@ -444,7 +444,7 @@ const showCombatInfo =
             <div class="battle-bar empty-bar hp bb-hp">
                 <div class="battle-bar dmg bb-hp" id="enemy-hp-dmg"></div>
                 <div class="battle-bar current bb-hp" id="enemy-hp-battle">
-                    &nbsp${nFormatter(enemy.stats.hp)}/${nFormatter(enemy.stats.hpMax)}<br>(${enemy.stats.hpPercent}%)
+                    <span class="battle-hp-label">&nbsp${nFormatter(enemy.stats.hp)}/${nFormatter(enemy.stats.hpMax)}(${enemy.stats.hpPercent}%)</span>
                 </div>
             </div>
             <div id="dmg-container"></div>
@@ -455,7 +455,7 @@ const showCombatInfo =
             <div class="battle-bar empty-bar bb-hp">
                 <div class="battle-bar dmg bb-hp" id="player-hp-dmg"></div>
                 <div class="battle-bar current bb-hp" id="player-hp-battle">
-                    <span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)</span>
+                    <span class="battle-hp-label">&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${Math.round(player.stats.hpPercent)}%)</span>
                 </div>
             </div>
             <div class="battle-bar empty-bar bb-xb">
