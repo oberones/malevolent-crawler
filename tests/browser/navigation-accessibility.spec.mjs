@@ -36,7 +36,7 @@ for (const key of ["Enter", "Space"]) {
     }
   });
 }
-// Exercise nested information and destructive cancellation through actual controls.
+// Exercise modal cancellation with gameplay timers controlled before application boot.
 test("modal navigation blocks background and restores focus without abandonment", async ({
   browser,
 }) => {
@@ -46,12 +46,21 @@ test("modal navigation blocks background and restores focus without abandonment"
   });
   try {
     const p = f.page;
-    await p.goto("/");
-    await p.locator("#title-action").click();
-    await expect(p.locator("#dungeon-main")).toBeVisible();
-    // Freeze time after the entry delay so cancellation cannot race a playtime tick.
+    // Install before navigation so every gameplay interval belongs to this clock.
     await p.clock.install({ time: new Date("2026-10-08T12:00:00Z") });
     await p.clock.pauseAt(new Date("2026-10-08T12:00:01Z"));
+    await p.goto("/");
+    await p.locator("#title-action").click();
+    await p.clock.runFor(1100);
+    await expect(p.locator("#dungeon-main")).toBeVisible();
+    // A controlled second must advance the gameplay timer exactly once.
+    const playtime = await p.evaluate(() => player.playtime);
+    await p.clock.runFor(1000);
+    expect(
+      await p.evaluate(
+        /* Read the controlled timer's result. */ () => player.playtime,
+      ),
+    ).toBe(playtime + 1);
     const inventory = p.getByRole("button", { name: "Open inventory" });
     await inventory.click();
     await expect(p.locator("#inventory")).toHaveAttribute("aria-modal", "true");

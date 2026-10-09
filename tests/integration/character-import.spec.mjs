@@ -258,7 +258,7 @@ test("import invalidates the previous session's delayed work", async ({
     await fixture.dispose();
   }
 });
-// Exercise the reachable exchange form with hostile-looking Unicode and keyboard cancellation.
+// Exercise exchange preview/cancel with controlled run timers and hostile-looking Unicode.
 test("exchange form previews MC1 safely and Escape cancels without saving", async ({
   browser,
 }) => {
@@ -268,12 +268,13 @@ test("exchange form previews MC1 safely and Escape cancels without saving", asyn
   });
   try {
     const page = fixture.page;
+    // Own timers before application startup, then freeze them across exact save comparisons.
+    await page.clock.install({ time: new Date("2026-01-01T00:00:00Z") });
     await page.goto("http://127.0.0.1:4173/");
     await expect(page.locator("#title-screen")).toBeVisible();
     await page.locator("#title-action").click();
     await expect(page.locator("#dungeon-main")).toBeVisible();
-    await page.clock.install();
-    await page.clock.pauseAt(new Date());
+    await page.clock.pauseAt(new Date("2026-01-01T01:00:00Z"));
     await page.locator("#open-inventory").click();
     await page.locator("#menu-btn").click();
     await page.locator("#export-import").click();

@@ -1,28 +1,42 @@
 /* global player, runGameplay, window, StorageEvent */
 import { test, expect } from "@playwright/test";
+import { createLegacyBrowserFixture } from "../helpers/browser-fixtures.mjs";
 import {
   SAVE,
   envelope,
   recoveryFixture,
 } from "../helpers/recovery-fixtures.mjs";
-/** Open the reachable exchange controls from a loaded character. */
+/** Open exchange controls, advancing only the entry delay on the preinstalled clock. */
 async function exchange(page) {
   await expect(page.locator("#title-screen")).toBeVisible();
   await page.locator("#title-action").click();
+  await page.clock.runFor(1100);
   await expect(page.locator("#dungeon-main")).toBeVisible();
-  await page.clock.install();
-  await page.clock.pauseAt(new Date());
   await page.locator("#open-inventory").click();
   await page.locator("#menu-btn").click();
   await page.locator("#export-import").click();
 }
 for (const mode of ["resolve", "reject", "unavailable"]) {
-  // Clipboard feedback must follow completion; fallback text and download remain usable.
+  // Control gameplay time before boot so copy feedback cannot race background saves.
   test(`clipboard ${mode}`, async ({ browser }) => {
-    const fixture = await recoveryFixture(browser, { [SAVE]: envelope() });
+    const fixture = await createLegacyBrowserFixture(browser, {
+      storage: { [SAVE]: envelope() },
+      viewport: { width: 360, height: 800 },
+    });
     try {
       const page = fixture.page;
+      await page.clock.install({ time: new Date("2026-10-08T12:00:00Z") });
+      await page.clock.pauseAt(new Date("2026-10-08T12:00:01Z"));
+      await page.goto("http://127.0.0.1:4173/");
       await exchange(page);
+      // Prove the installed clock owns gameplay timers before comparing save bytes.
+      const playtime = await page.evaluate(() => player.playtime);
+      await page.clock.runFor(1000);
+      expect(
+        await page.evaluate(
+          /* Read the controlled timer's result. */ () => player.playtime,
+        ),
+      ).toBe(playtime + 1);
       await page.evaluate((mode) => {
         // Control the promise independently of permission prompts.
         Object.defineProperty(navigator, "clipboard", {

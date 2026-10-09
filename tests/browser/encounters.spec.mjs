@@ -33,7 +33,7 @@ const portraits = [
   ).values(),
 ];
 
-// Health text must use the available panel width even when the colored HP fill is nearly empty.
+// Rounded health labels must remain readable while fractional HP fill widths stay precise.
 test("enlarged player HP stays readable above EXP at full, half and near-zero health", async ({
   browser,
 }) => {
@@ -86,7 +86,7 @@ test("enlarged player HP stays readable above EXP at full, half and near-zero he
     for (const row of rows)
       expect(row).toEqual({
         hp: row.hp,
-        text: `${row.hp}/500(${row.hp / 5}%)`,
+        text: `${row.hp}/500(${Math.round(row.hp / 5)}%)`,
         fillWidth: `${row.hp / 5}%`,
         fits: true,
         aboveExp: true,

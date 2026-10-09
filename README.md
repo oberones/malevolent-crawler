@@ -60,6 +60,44 @@ The project disables dependency lifecycle scripts; Sharp and browser tooling wer
 verified without enabling arbitrary install hooks. Do not change the default nvm
 alias or system Node to select this project runtime.
 
+### Makefile shortcuts
+
+GNU Make 3.81 or newer (including macOS's bundled `make`) provides shortcuts for
+the same npm workflows. Select the pinned Node/npm runtime above first, then run
+these commands from the repository root:
+
+```sh
+make                      # Show every target and option
+make setup                # npm ci, then install all three Playwright engines
+make dev                  # Serve the game on port 4173
+make check                # Lint, format check, unit, integration, browser, audit
+make test                 # All functional test suites
+make test-browser ARGS='--project=chromium --grep "saved encounter"'
+make browsers BROWSERS=chromium
+make report               # Open the latest Playwright report
+```
+
+`make ci` aliases `make check`; dependency/browser installation is separate.
+Checks stop on the first failure and run sequentially even with `make -j`, because
+the browser suites share a server port and report paths. Stop `make dev` before
+running functional browser checks. `ARGS` forwards shell arguments to individual
+integration, browser, performance, lint and formatting targets; leave it unset for
+a complete `make check`. `NPM` and `NPX` can select alternate executable paths.
+
+Use `make lint-fix` or `make format` to apply automatic edits. `make clean` removes
+only transient `test-results/`, `playwright-report/` and `coverage/`; it preserves
+dependencies, `.cache/`, `ci-reports/`, assets and recorded validation evidence.
+`make browsers-with-deps` also installs OS dependencies and may request elevated
+privileges on Linux. `make build` reports why this static app needs no build step.
+
+Optional `make validate-evidence` and `make test-performance` remain outside
+`make check`. Performance measurements require the prepared-root procedure in the
+[quickstart](specs/001-cosmic-horror-refactor/quickstart.md), including `PERF_STAGE`,
+`BASE_URL` and, for a candidate, `PERF_REVISION`. `make serve-performance` serves
+the current checkout with caching; it does not prepare the immutable fixture
+required by the measurement harness. Use the quickstart's explicit prepared-root
+server command for measurements. Existing performance reports remain immutable.
+
 ### Checks and current limits
 
 ```sh
