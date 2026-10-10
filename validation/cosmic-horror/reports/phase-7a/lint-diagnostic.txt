@@ -1,0 +1,8 @@
+npm notice run malevolent-crawler@0.0.0 lint
+npm notice run eslint .
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/legacy-history.spec.mjs
+  1:56  error  'localStorage' is already defined as a built-in global variable  no-redeclare
+
+✖ 1 problem (1 error, 0 warnings)
+

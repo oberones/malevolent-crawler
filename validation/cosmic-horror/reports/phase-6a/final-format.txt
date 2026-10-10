@@ -1,0 +1,10 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write art/cosmic-horror/batches/fallback/generation.json art/cosmic-horror/batches/fallback/validation.json art/cosmic-horror/batches/fallback/review.md validation/cosmic-horror/phase-6a.md
+art/cosmic-horror/batches/fallback/generation.json 12ms
+art/cosmic-horror/batches/fallback/validation.json 1ms (unchanged)
+art/cosmic-horror/batches/fallback/review.md 20ms (unchanged)
+validation/cosmic-horror/phase-6a.md 18ms
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --check art/cosmic-horror/batches/fallback/generation.json art/cosmic-horror/batches/fallback/validation.json art/cosmic-horror/batches/fallback/review.md validation/cosmic-horror/phase-6a.md
+Checking formatting...
+All matched files use Prettier code style!

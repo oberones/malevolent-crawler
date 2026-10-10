@@ -1,0 +1,39 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/integration/image-consumers.spec.mjs --project=chromium --grep=unbound
+
+Running 1 test using 1 worker
+
+(node:53139) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback (1.9s)
+
+
+  1) [chromium] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback 
+
+    Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'items')
+        at dispose (http://127.0.0.1:4173/assets/js/app/services.mjs:98:12)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:5)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at dispose (http://127.0.0.1:4173/assets/js/app/services.mjs:98:12)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:5)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/image-consumers.spec.mjs:51:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/integration-image-consumer-8a67e-ssed-as-an-unbound-callback-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/integration-image-consumer-8a67e-ssed-as-an-unbound-callback-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/integration-image-consumer-8a67e-ssed-as-an-unbound-callback-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/integration-image-consumer-8a67e-ssed-as-an-unbound-callback-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback 

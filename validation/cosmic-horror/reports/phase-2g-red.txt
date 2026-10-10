@@ -1,0 +1,387 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/bootstrap.spec.mjs tests/integration/transition-commits.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:53828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 1 worker
+
+(node:53829) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=false) (5.2s)
+(node:53844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=true) (5.1s)
+(node:53858) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/integration/bootstrap.spec.mjs:37:1 › denied storage shows actionable recovery (5.1s)
+(node:53863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/integration/bootstrap.spec.mjs:50:1 › ready bootstrap is once-only and audio waits for a gesture (138ms)
+(node:53868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reset commits exactly one completed snapshot and retains legacy bytes (455ms)
+(node:53874) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › sale commits exactly one completed snapshot and retains legacy bytes (471ms)
+(node:53881) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › attack commits exactly one completed snapshot and retains legacy bytes (456ms)
+(node:53887) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reward commits exactly one completed snapshot and retains legacy bytes (455ms)
+(node:53894) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › death commits exactly one completed snapshot and retains legacy bytes (473ms)
+(node:53900) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [chromium] › tests/integration/transition-commits.spec.mjs:40:1 › object validation is pure (156ms)
+
+
+  1) [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=false) 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#boot-retry')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#boot-retry') with timeout 5000ms
+      - waiting for locator('#boot-retry')
+
+
+      25 |       await fixture.page.route('**/assets/js/app/services.mjs', (route) => route.abort());
+      26 |       await fixture.page.goto('http://127.0.0.1:4173/');
+    > 27 |       await expect(fixture.page.locator('#boot-retry')).toBeVisible();
+         |                                                         ^
+      28 |       expect(await fixture.page.evaluate(() => globalThis.__reads)).toEqual([]);
+      29 |       // Dispatch bypasses visibility so the actual listener guard is exercised.
+      30 |       await fixture.page.locator('#dungeonActivity').dispatchEvent('click');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/bootstrap.spec.mjs:27:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-boot-6569d-odule-failure-denied-false--chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-bootstrap-boot-6569d-odule-failure-denied-false--chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-boot-6569d-odule-failure-denied-false--chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-bootstrap-boot-6569d-odule-failure-denied-false--chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=true) 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#boot-retry')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#boot-retry') with timeout 5000ms
+      - waiting for locator('#boot-retry')
+
+
+      25 |       await fixture.page.route('**/assets/js/app/services.mjs', (route) => route.abort());
+      26 |       await fixture.page.goto('http://127.0.0.1:4173/');
+    > 27 |       await expect(fixture.page.locator('#boot-retry')).toBeVisible();
+         |                                                         ^
+      28 |       expect(await fixture.page.evaluate(() => globalThis.__reads)).toEqual([]);
+      29 |       // Dispatch bypasses visibility so the actual listener guard is exercised.
+      30 |       await fixture.page.locator('#dungeonActivity').dispatchEvent('click');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/bootstrap.spec.mjs:27:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-boot-1ac67-module-failure-denied-true--chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-bootstrap-boot-1ac67-module-failure-denied-true--chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-boot-1ac67-module-failure-denied-true--chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-bootstrap-boot-1ac67-module-failure-denied-true--chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/bootstrap.spec.mjs:37:1 › denied storage shows actionable recovery 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#boot-retry')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#boot-retry') with timeout 5000ms
+      - waiting for locator('#boot-retry')
+
+
+      42 |       () => { Storage.prototype.getItem = function () { throw new DOMException('Denied', 'SecurityError'); }; });
+      43 |     await fixture.page.goto('http://127.0.0.1:4173/');
+    > 44 |     await expect(fixture.page.locator('#boot-retry')).toBeVisible();
+         |                                                       ^
+      45 |     await expect(fixture.page.locator('#boot-status')).toContainText('saved progress');
+      46 |     await expect(fixture.page.locator('#name-input')).toBeDisabled();
+      47 |   } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/bootstrap.spec.mjs:44:55
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-deni-0a967-e-shows-actionable-recovery-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-bootstrap-deni-0a967-e-shows-actionable-recovery-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-deni-0a967-e-shows-actionable-recovery-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-bootstrap-deni-0a967-e-shows-actionable-recovery-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/bootstrap.spec.mjs:50:1 › ready bootstrap is once-only and audio waits for a gesture 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+        "audio": true,
+        "name": "Mariner",
+    -   "ready": "ready",
+    -   "same": true,
+    +   "ready": undefined,
+    +   "same": false,
+      }
+
+      59 |         audio: typeof bgmDungeon === 'undefined' };
+      60 |     });
+    > 61 |     expect(result).toEqual({ ready: 'ready', same: true, name: resting.state.player.name, audio: true });
+         |                    ^
+      62 |   } finally { await fixture.dispose(); }
+      63 | });
+      64 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/bootstrap.spec.mjs:61:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-read-6a151-d-audio-waits-for-a-gesture-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-bootstrap-read-6a151-d-audio-waits-for-a-gesture-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-bootstrap-read-6a151-d-audio-waits-for-a-gesture-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-bootstrap-read-6a151-d-audio-waits-for-a-gesture-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reset commits exactly one completed snapshot and retains legacy bytes 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      30 |         return { writes, current: { player, dungeon, enemy, volume }, legacy: Object.fromEntries(['playerData', 'dungeonData', 'enemyData', 'volumeData'].map((key) => [key, localStorage.getItem(key)])), saved: JSON.parse(localStorage.getItem(key)) };
+      31 |       }, { operation, key });
+    > 32 |       expect(result.writes.filter((write) => write.key === key)).toHaveLength(1);
+         |                                                                  ^
+      33 |       expect(result.legacy).toEqual(row.raw);
+      34 |       expect(result.saved.state).toEqual(result.current);
+      35 |       if (['reward', 'death'].includes(operation)) expect(result.saved.state.player.inCombat).toBe(false);
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:32:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-52251-ot-and-retains-legacy-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-52251-ot-and-retains-legacy-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-52251-ot-and-retains-legacy-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-52251-ot-and-retains-legacy-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › sale commits exactly one completed snapshot and retains legacy bytes 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      30 |         return { writes, current: { player, dungeon, enemy, volume }, legacy: Object.fromEntries(['playerData', 'dungeonData', 'enemyData', 'volumeData'].map((key) => [key, localStorage.getItem(key)])), saved: JSON.parse(localStorage.getItem(key)) };
+      31 |       }, { operation, key });
+    > 32 |       expect(result.writes.filter((write) => write.key === key)).toHaveLength(1);
+         |                                                                  ^
+      33 |       expect(result.legacy).toEqual(row.raw);
+      34 |       expect(result.saved.state).toEqual(result.current);
+      35 |       if (['reward', 'death'].includes(operation)) expect(result.saved.state.player.inCombat).toBe(false);
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:32:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-e8365-ot-and-retains-legacy-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-e8365-ot-and-retains-legacy-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-e8365-ot-and-retains-legacy-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-e8365-ot-and-retains-legacy-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › attack commits exactly one completed snapshot and retains legacy bytes 
+
+    Error: page.evaluate: ReferenceError: combatTimer is not defined
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:63:9)
+        at playerAttack (http://127.0.0.1:4173/assets/js/combat.js:129:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:27:18)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:63:9)
+        at playerAttack (http://127.0.0.1:4173/assets/js/combat.js:129:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:27:18)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:15:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-09e33-ot-and-retains-legacy-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-09e33-ot-and-retains-legacy-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-09e33-ot-and-retains-legacy-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-09e33-ot-and-retains-legacy-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reward commits exactly one completed snapshot and retains legacy bytes 
+
+    Error: page.evaluate: ReferenceError: combatTimer is not defined
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:63:9)
+        at playerAttack (http://127.0.0.1:4173/assets/js/combat.js:129:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:27:18)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:63:9)
+        at playerAttack (http://127.0.0.1:4173/assets/js/combat.js:129:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:27:18)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:15:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-6dec5-ot-and-retains-legacy-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-6dec5-ot-and-retains-legacy-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-6dec5-ot-and-retains-legacy-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-6dec5-ot-and-retains-legacy-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › death commits exactly one completed snapshot and retains legacy bytes 
+
+    Error: page.evaluate: ReferenceError: combatTimer is not defined
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:28:9)
+        at enemyAttack (http://127.0.0.1:4173/assets/js/combat.js:204:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:26:13)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at endCombat (http://127.0.0.1:4173/assets/js/combat.js:309:19)
+        at hpValidation (http://127.0.0.1:4173/assets/js/combat.js:28:9)
+        at enemyAttack (http://127.0.0.1:4173/assets/js/combat.js:204:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:26:13)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:15:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-a91fe-ot-and-retains-legacy-bytes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-a91fe-ot-and-retains-legacy-bytes-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-a91fe-ot-and-retains-legacy-bytes-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-a91fe-ot-and-retains-legacy-bytes-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium] › tests/integration/transition-commits.spec.mjs:40:1 › object validation is pure ──
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: {"name": "Sample", "skills": [], "tempStats": {"atk": 0, "atkSpd": 0}}
+    Received: undefined
+
+      50 |     });
+      51 |     expect(result.input).toEqual({ name: 'Sample' });
+    > 52 |     expect(result.output).toEqual({ name: 'Sample', skills: [], tempStats: { atk: 0, atkSpd: 0 } });
+         |                           ^
+      53 |   } finally { await fixture.dispose(); }
+      54 | });
+      55 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:52:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-commits-object-validation-is-pure-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-commits-object-validation-is-pure-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-commits-object-validation-is-pure-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-commits-object-validation-is-pure-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10 failed
+    [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=false) 
+    [chromium] › tests/integration/bootstrap.spec.mjs:10:3 › bootstrap gates storage and actions during module failure (denied=true) 
+    [chromium] › tests/integration/bootstrap.spec.mjs:37:1 › denied storage shows actionable recovery 
+    [chromium] › tests/integration/bootstrap.spec.mjs:50:1 › ready bootstrap is once-only and audio waits for a gesture 
+    [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reset commits exactly one completed snapshot and retains legacy bytes 
+    [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › sale commits exactly one completed snapshot and retains legacy bytes 
+    [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › attack commits exactly one completed snapshot and retains legacy bytes 
+    [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › reward commits exactly one completed snapshot and retains legacy bytes 
+    [chromium] › tests/integration/transition-commits.spec.mjs:9:3 › death commits exactly one completed snapshot and retains legacy bytes 
+    [chromium] › tests/integration/transition-commits.spec.mjs:40:1 › object validation is pure ────

@@ -1,0 +1,978 @@
+{
+  "date": "2026-10-06",
+  "command": "npx playwright test tests/browser/setting-journeys.spec.mjs tests/integration/narrative-render.spec.mjs --workers=3 --trace=off",
+  "purpose": "T048 intentional UI red; T049 safe-template DOM green",
+  "counts": {
+    "failed": 138,
+    "passed": 3
+  },
+  "unexpectedErrors": [],
+  "cases": [
+    {
+      "case": "setting journey event/0/0/null",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/null",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/null",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/3/0/null",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0.999/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/null",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/9/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey door/2/1/0.4/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0.9/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/5/0/#choice1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0.25",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.5",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.75",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/2/0.25",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/0/0",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/1/0",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/0",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/3",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/4",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/0",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/1",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/2",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/3",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/4",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/5",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/6",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting entry and allocation",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting victory and return",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting death and return",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting level-up and two rerolls",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: expect(received).toContain(expected) // indexOf"]
+    },
+    {
+      "case": "setting inventory menu help credits and abandonment",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting Help opens without changing progress",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: Missing Help control"]
+    },
+    {
+      "case": "setting Credits opens without changing progress",
+      "engine": "chromium",
+      "status": "failed",
+      "errors": ["Error: Missing Credits control"]
+    },
+    {
+      "case": "setting journey event/0/0/null",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/null",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/null",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/3/0/null",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0.999/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/null",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/9/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey door/2/1/0.4/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0.9/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/5/0/#choice1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0.25",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.5",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.75",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/2/0.25",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/0/0",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/1/0",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/0",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/3",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/4",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/0",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/1",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/2",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/3",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/4",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/5",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/6",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting entry and allocation",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting victory and return",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting death and return",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting level-up and two rerolls",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: expect(received).toContain(expected) // indexOf"]
+    },
+    {
+      "case": "setting inventory menu help credits and abandonment",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting Help opens without changing progress",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: Missing Help control"]
+    },
+    {
+      "case": "setting Credits opens without changing progress",
+      "engine": "firefox",
+      "status": "failed",
+      "errors": ["Error: Missing Credits control"]
+    },
+    {
+      "case": "setting journey event/0/0/null",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/0/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/null",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/1/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/null",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/2/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/3/0/null",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/3/0.999/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/null",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey event/9/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey event/9/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey door/2/1/0.4/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0.9/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/1/0/#choice2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey door/2/5/0/#choice1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).not.toContain(expected) // indexOf",
+        "Error: expect(received).toMatch(expected)"
+      ]
+    },
+    {
+      "case": "setting journey chest/1/0.25",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.5",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/1/0.75",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey chest/2/0.25",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/0/0",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey offering/1/0",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/0",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/3",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey nothing/4",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/0",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/1",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/2",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/3",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/4",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/5",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting journey blessing/6",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting entry and allocation",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting victory and return",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting death and return",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toMatch(expected)"]
+    },
+    {
+      "case": "setting level-up and two rerolls",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: expect(received).toContain(expected) // indexOf"]
+    },
+    {
+      "case": "setting inventory menu help credits and abandonment",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": [
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf",
+        "Error: expect(received).toContain(expected) // indexOf"
+      ]
+    },
+    {
+      "case": "setting Help opens without changing progress",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: Missing Help control"]
+    },
+    {
+      "case": "setting Credits opens without changing progress",
+      "engine": "webkit",
+      "status": "failed",
+      "errors": ["Error: Missing Credits control"]
+    },
+    {
+      "case": "narrative renders player text inertly and catalog names consistently",
+      "engine": "chromium",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "narrative renders player text inertly and catalog names consistently",
+      "engine": "firefox",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "narrative renders player text inertly and catalog names consistently",
+      "engine": "webkit",
+      "status": "passed",
+      "errors": []
+    }
+  ]
+}

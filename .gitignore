@@ -1,1 +1,25 @@
 node_modules
+.agents/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+ci-reports/
+.cache/
+*.log
+.env*
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Retired one-time refactor art production and comparison outputs.
+/art/cosmic-horror/masters/
+/art/cosmic-horror/batches/
+/art/cosmic-horror/review/
+/art/cosmic-horror/baseline.json
+/tests/fixtures/legacy/source/assets/sprites/
+/tests/fixtures/legacy/source/assets/icon/

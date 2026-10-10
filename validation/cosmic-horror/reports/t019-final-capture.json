@@ -1,0 +1,936 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oberon/.nvm/versions/node/v24.21.0/bin/node",
+      "/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/.bin/playwright",
+      "test",
+      "tests/integration/legacy-symbol-contexts.spec.mjs",
+      "--workers=3"
+    ],
+    "configFile": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/playwright.config.mjs",
+    "rootDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "requiredViewports": [
+        {
+          "width": 360,
+          "height": 800
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+      "performanceStage": null,
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 3,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "gracefulShutdown": {
+        "signal": "SIGTERM",
+        "timeout": 5000
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "integration/legacy-symbol-contexts.spec.mjs",
+      "file": "integration/legacy-symbol-contexts.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:33:52.696Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2bc3ec60177d574bc392",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6763,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:33:52.700Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2f5d700424bf27e3988c",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:33:52.696Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-620b94cd7ea5f0f7a042",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7533,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:33:59.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-ed2b52e8af13eadb460d",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:33:59.591Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-04982045bdc51fda405b",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:00.453Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-808b048e969e6ad86dd4",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7305,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:07.184Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-6244523d339f3e60c408",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7812,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:07.217Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-1f6defb26b79afaa9ccb",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7845,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:07.998Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-4bfceee2a4aa51c38307",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:15.364Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-d7878a5b40ecfae154dd",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:15.557Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-5e1ecc142c039a94b0ac",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7610,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:16.318Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2dea0a70796265e74adb",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6308,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:23.433Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-d14ab4e5bac72dfb9a6f",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6598,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13",
+                    "location": {
+                      "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                      "column": 13,
+                      "line": 235
+                    },
+                    "snippet": "  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate("
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                        "column": 13,
+                        "line": 235
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n\n  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate(\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:23.439Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--8f7d1--symbol-contexts-360-text-2-webkit/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--8f7d1--symbol-contexts-360-text-2-webkit/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--8f7d1--symbol-contexts-360-text-2-webkit/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                    "column": 13,
+                    "line": 235
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-a2c83fdbef368296d3a8",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7039,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:24.415Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-1afddeea9ea35d527d0c",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 6912,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13",
+                    "location": {
+                      "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                      "column": 13,
+                      "line": 235
+                    },
+                    "snippet": "  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate("
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                        "column": 13,
+                        "line": 235
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n\n  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate(\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:30.030Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--70033--symbol-contexts-768-text-2-webkit/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--70033--symbol-contexts-768-text-2-webkit/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--70033--symbol-contexts-768-text-2-webkit/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                    "column": 13,
+                    "line": 235
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2d8f3a26a79491a13791",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7364,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:31.424Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-a84d898b619d4a5d53a4",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 7391,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13",
+                    "location": {
+                      "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                      "column": 13,
+                      "line": 235
+                    },
+                    "snippet": "  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate("
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                        "column": 13,
+                        "line": 235
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m, \u001b[22mprecision\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m41.6\u001b[39m\nReceived: \u001b[31m20.799999\u001b[39m\n\nExpected precision:    1\nExpected difference: < \u001b[32m0.05\u001b[39m\nReceived difference:   \u001b[31m20.800001\u001b[39m\n\n  233 |               (node) => parseFloat(getComputedStyle(node).fontSize),\n  234 |             ),\n> 235 |           ).toBeCloseTo(20.8 * scale, 1);\n      |             ^\n  236 |           // Its parent button uses 1rem and must also return to its original size.\n  237 |           expect(\n  238 |             await page.locator(\"#dungeon-main .fa-bars\").evaluate(\n    at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs:235:13"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:34:31.707Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--6ee66-symbol-contexts-1440-text-2-webkit/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--6ee66-symbol-contexts-1440-text-2-webkit/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/integration-legacy-symbol--6ee66-symbol-contexts-1440-text-2-webkit/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-symbol-contexts.spec.mjs",
+                    "column": 13,
+                    "line": 235
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-52e0354898d18fc19c10",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T13:33:52.026Z",
+    "duration": 47763.314999999995,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

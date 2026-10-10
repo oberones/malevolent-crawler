@@ -1,0 +1,67 @@
+npm notice run malevolent-crawler@0.0.0 test:unit
+npm notice run node --test "tests/unit/**/*.test.mjs"
+✖ classic scripts can use the documented shared owners (55.9525ms)
+✖ browser modules reject ambient engine and Node bindings (3.864042ms)
+✖ tool modules get Node capabilities but no DOM (3.517209ms)
+✔ undeclared assignments stay errors in every scope (2.106625ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 1
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 146.118917
+
+✖ failing tests:
+
+test at tests/unit/tooling-scopes.test.mjs:8:1
+✖ classic scripts can use the documented shared owners (55.9525ms)
+  AssertionError [ERR_ASSERTION]: [{"ruleId":"no-undef","severity":2,"message":"'player' is not defined.","line":1,"column":1,"messageId":"undef","endLine":1,"endColumn":7},{"ruleId":"no-undef","severity":2,"message":"'document' is not defined.","line":1,"column":16,"messageId":"undef","endLine":1,"endColumn":24},{"ruleId":"no-undef","severity":2,"message":"'nFormatter' is not defined.","line":1,"column":33,"messageId":"undef","endLine":1,"endColumn":43},{"ruleId":"no-undef","severity":2,"message":"'Howler' is not defined.","line":1,"column":51,"messageId":"undef","endLine":1,"endColumn":57}]
+  
+  4 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/tooling-scopes.test.mjs:13:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 4,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/tooling-scopes.test.mjs:17:1
+✖ browser modules reject ambient engine and Node bindings (3.864042ms)
+  AssertionError [ERR_ASSERTION]: [{"ruleId":"no-undef","severity":2,"message":"'document' is not defined.","line":1,"column":1,"messageId":"undef","endLine":1,"endColumn":9},{"ruleId":"no-undef","severity":2,"message":"'player' is not defined.","line":1,"column":27,"messageId":"undef","endLine":1,"endColumn":33},{"ruleId":"no-undef","severity":2,"message":"'process' is not defined.","line":1,"column":42,"messageId":"undef","endLine":1,"endColumn":49}]
+  
+  3 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/tooling-scopes.test.mjs:22:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/tooling-scopes.test.mjs:30:1
+✖ tool modules get Node capabilities but no DOM (3.517209ms)
+  AssertionError [ERR_ASSERTION]: [{"ruleId":"no-undef","severity":2,"message":"'process' is not defined.","line":1,"column":1,"messageId":"undef","endLine":1,"endColumn":8},{"ruleId":"no-undef","severity":2,"message":"'document' is not defined.","line":1,"column":32,"messageId":"undef","endLine":1,"endColumn":40}]
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/tooling-scopes.test.mjs:35:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,46 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/transition-commits.spec.mjs --project=chromium --workers=1 -g upgrade rendering
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:56202) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:56203) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/transition-commits.spec.mjs:82:1 › upgrade rendering reports unexpected DOM failures (199ms)
+
+
+  1) [chromium] › tests/integration/transition-commits.spec.mjs:82:1 › upgrade rendering reports unexpected DOM failures 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Synthetic DOM failure"
+    Received: null
+
+       98 |       return null;
+       99 |     });
+    > 100 |     expect(result).toBe('Synthetic DOM failure');
+          |                    ^
+      101 |   } finally { await fixture.dispose(); }
+      102 | });
+      103 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/transition-commits.spec.mjs:100:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-transition-com-af5f9-rts-unexpected-DOM-failures-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-transition-com-af5f9-rts-unexpected-DOM-failures-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-transition-com-af5f9-rts-unexpected-DOM-failures-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-transition-com-af5f9-rts-unexpected-DOM-failures-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/integration/transition-commits.spec.mjs:82:1 › upgrade rendering reports unexpected DOM failures 

@@ -1,0 +1,63 @@
+npm notice run malevolent-crawler@0.0.0 test:browser
+npm notice run playwright test tests/browser
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:51227) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 6 workers
+
+(node:51232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51231) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51229) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51230) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (295ms)
+  ✓   2 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (310ms)
+  ✓   4 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (306ms)
+(node:51269) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51270) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51271) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (1.6s)
+  ✓   3 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.6s)
+  ✓   1 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.6s)
+(node:51328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51331) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (1.2s)
+(node:51368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (2.4s)
+  ✓  11 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (1.3s)
+(node:51387) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (2.0s)
+  ✓  10 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (1.3s)
+(node:51391) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51433) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (558ms)
+  ✓  17 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (278ms)
+  ✓  16 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (475ms)
+  ✓  12 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (2.3s)
+  ✓  13 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (2.1s)
+  ✓  15 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.8s)
+  ✓  18 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.8s)
+
+  18 passed (7.9s)

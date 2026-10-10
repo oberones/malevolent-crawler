@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --check README.md playwright.config.mjs specs/001-cosmic-horror-refactor/quickstart.md specs/001-cosmic-horror-refactor/tasks.md validation/cosmic-horror/gates.json validation/cosmic-horror/tdd.md validation/cosmic-horror/phase-2f.md tests/helpers/performance-fixture.mjs tests/helpers/performance-report.mjs tests/unit/performance-harness.test.mjs tests/performance/load-and-art.spec.mjs
+Checking formatting...
+All matched files use Prettier code style!

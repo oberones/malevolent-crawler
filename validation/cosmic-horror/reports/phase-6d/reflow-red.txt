@@ -1,0 +1,145 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/collection-reflow.spec.mjs --project=chromium --workers=1
+
+Running 2 tests using 1 worker
+
+(node:52056) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text (310ms)
+(node:52064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text (247ms)
+
+
+  1) [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 59
+
+    - Array []
+    + Array [
+    +   "
+    +               HP: 500/500 (100%)
+    +             ",
+    +   "
+    +               HP: 500/500 (100%)
+    +             ",
+    +   "
+    +               ATK: 100
+    +             ",
+    +   "
+    +               ATK: 100
+    +             ",
+    +   "
+    +               ATK.SPD:
+    +               0.6
+    +             ",
+    +   "
+    +               ATK.SPD:
+    +               0.6
+    +             ",
+    +   "
+    +               ATK.SPD:
+    +               0.6
+    +             ",
+    +   "
+    +               VAMP:
+    +               0%
+    +             ",
+    +   "
+    +               VAMP:
+    +               0%
+    +             ",
+    +   "
+    +               C.RATE:
+    +               0%
+    +             ",
+    +   "
+    +               C.RATE:
+    +               0%
+    +             ",
+    +   "
+    +               C.DMG:
+    +               50%
+    +             ",
+    +   "
+    +               C.DMG:
+    +               50%
+    +             ",
+    +   "
+    +               C.DMG:
+    +               50%
+    +             ",
+    +   "Bonus Stats",
+    +   "ATK.SPD+0%",
+    +   "VAMP+0%",
+    +   "C.RATE+0%",
+    +   "C.DMG+0%",
+    + ]
+
+      47 |         }, screen,
+      48 |       );
+    > 49 |       expect(failures).toEqual([]);
+         |                        ^
+      50 |     } finally { await f.dispose(); }
+      51 |   });
+      52 | }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:49:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 6
+
+    - Array []
+    + Array [
+    +   "split label: HP: 250",
+    +   "split label: ATK: 50",
+    +   "split label: DEF: 50",
+    +   "split label: ATK.SPD: 0.5",
+    + ]
+
+      47 |         }, screen,
+      48 |       );
+    > 49 |       expect(failures).toEqual([]);
+         |                        ^
+      50 |     } finally { await f.dispose(); }
+      51 |   });
+      52 | }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:49:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-focused-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text 
+    [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text 

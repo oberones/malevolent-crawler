@@ -1,0 +1,299 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/legacy-progression-controls.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:11697) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 2 workers
+
+(node:11702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11701) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice hp applies its original increment (944ms)
+  ✘   2 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atk applies its original increment (976ms)
+(node:11755) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice def applies its original increment (685ms)
+  ✘   4 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atkSpd applies its original increment (660ms)
+(node:11776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11781) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critRate applies its original increment (796ms)
+  ✘   5 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice vamp applies its original increment (893ms)
+(node:11795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critDmg applies its original increment (539ms)
+  ✘   8 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:78:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level (544ms)
+(node:11811) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:130:3 › legacy abandonment cancel preserves holdings and lifetime progress (1.6s)
+  ✓  10 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:130:3 › legacy abandonment confirm preserves holdings and lifetime progress (1.5s)
+
+
+  1) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice hp applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f6518-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-f6518-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f6518-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-f6518-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atk applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-fb93d-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-fb93d-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-fb93d-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-fb93d-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice def applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-7695a-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-7695a-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-7695a-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-7695a-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atkSpd applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f9a7b-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-f9a7b-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f9a7b-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-f9a7b-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice vamp applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-57294-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-57294-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-57294-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-57294-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critRate applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f660d-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-f660d-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-f660d-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-f660d-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critDmg applies its original increment 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:5:9)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:42:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-3971c-lies-its-original-increment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-3971c-lies-its-original-increment-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-3971c-lies-its-original-increment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-3971c-lies-its-original-increment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/integration/legacy-progression-controls.spec.mjs:78:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level 
+
+    Error: page.evaluate: TypeError: Cannot set properties of null (setting 'innerHTML')
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:4:7)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at updateCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:237:28)
+        at addCombatLog (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/combat.js:231:5)
+        at lvlupPopup (http://127.0.0.1:4173/tests/fixtures/legacy/source/assets/js/player.js:185:5)
+        at eval (eval at evaluate (:311:30), <anonymous>:4:7)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/legacy-progression-controls.spec.mjs:91:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-74808-eplenish-for-the-next-level-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-legacy-progres-74808-eplenish-for-the-next-level-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-legacy-progres-74808-eplenish-for-the-next-level-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-legacy-progres-74808-eplenish-for-the-next-level-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice hp applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atk applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice def applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice atkSpd applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice vamp applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critRate applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:27:3 › legacy upgrade choice critDmg applies its original increment 
+    [chromium] › tests/integration/legacy-progression-controls.spec.mjs:78:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level 
+  2 passed (7.1s)

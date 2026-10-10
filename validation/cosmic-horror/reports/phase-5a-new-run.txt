@@ -1,0 +1,20 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relics.spec.mjs --grep retention after new-run --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:81276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:81286) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81287) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (888ms)
+  ✓  3 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.3s)
+  ✓  1 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.4s)
+
+  3 passed (3.1s)

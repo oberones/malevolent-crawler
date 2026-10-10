@@ -1,0 +1,224 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oberon/.nvm/versions/node/v24.21.0/bin/node",
+      "/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/.bin/playwright",
+      "test",
+      "tests/performance",
+      "--project=chromium",
+      "--workers=1"
+    ],
+    "configFile": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/playwright.config.mjs",
+    "rootDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "requiredViewports": [
+        {
+          "width": 360,
+          "height": 800
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+      "performanceStage": "baseline",
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": "baseline",
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": "baseline",
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": "baseline",
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "performance/load-and-art.spec.mjs",
+      "file": "performance/load-and-art.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "matched load and decoded-art performance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 600000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 213389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T16:08:06.262Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e8aff4dd02aa5eedece0-9a0c5d0f0b3bd71b4b57",
+          "file": "performance/load-and-art.spec.mjs",
+          "line": 233,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T16:08:06.008Z",
+    "duration": 213907.611,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

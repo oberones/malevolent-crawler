@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/legacy-history.spec.mjs tests/browser/narrative-integration.spec.mjs tests/integration/safe-render.spec.mjs --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:65165) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 24 tests using 2 workers
+
+(node:65167) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65166) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (197ms)
+  ✓   1 [chromium] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (2.9s)
+  ✓   3 [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (2.9s)
+  ✓   5 [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (1.9s)
+  ✓   6 [chromium] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (125ms)
+  ✓   7 [chromium] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (100ms)
+  ✓   8 [chromium] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (164ms)
+(node:65206) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (3.8s)
+(node:65213) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [firefox] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (944ms)
+  ✓   9 [firefox] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (3.3s)
+  ✓  11 [firefox] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (3.8s)
+  ✓  12 [firefox] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (4.1s)
+  ✓  14 [firefox] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (229ms)
+  ✓  15 [firefox] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (205ms)
+  ✓  16 [firefox] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (289ms)
+  ✓  13 [firefox] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.4s)
+(node:66772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:66773) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [webkit] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (731ms)
+  ✓  17 [webkit] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (2.9s)
+  ✓  19 [webkit] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (2.7s)
+  ✓  21 [webkit] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.4s)
+  ✓  22 [webkit] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (241ms)
+  ✓  23 [webkit] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (195ms)
+  ✓  24 [webkit] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (264ms)
+  ✓  20 [webkit] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (3.8s)
+
+  24 passed (23.3s)

@@ -1,0 +1,2 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' install chromium firefox webkit

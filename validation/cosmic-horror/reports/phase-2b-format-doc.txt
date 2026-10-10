@@ -1,0 +1,3 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write validation/cosmic-horror/phase-2b.md
+validation/cosmic-horror/phase-2b.md 32ms

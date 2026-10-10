@@ -1,0 +1,29 @@
+npm notice run malevolent-crawler@0.0.0 test:integration
+npm notice run playwright test tests/integration
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:98094) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 6 workers
+
+(node:98097) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98098) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98096) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98095) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98099) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (31ms)
+  ✓  6 [webkit] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (30ms)
+  ✓  5 [firefox] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (31ms)
+  ✓  3 [webkit] › tests/integration/static-server.spec.mjs:12:1 › static server supplies HTML, styles, scripts, fonts, art and audio (60ms)
+  ✓  2 [firefox] › tests/integration/static-server.spec.mjs:12:1 › static server supplies HTML, styles, scripts, fonts, art and audio (54ms)
+  ✓  4 [chromium] › tests/integration/static-server.spec.mjs:12:1 › static server supplies HTML, styles, scripts, fonts, art and audio (53ms)
+
+  6 passed (710ms)

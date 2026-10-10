@@ -1,0 +1,87 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/symbol-view.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:7344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 21 tests using 3 workers
+
+(node:7347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7346) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7345) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 (321ms)
+  ✓   1 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 (324ms)
+  ✓   2 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 (337ms)
+  ✓   4 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 (246ms)
+  ✓   5 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 (248ms)
+  ✓   6 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 (242ms)
+  ✓   7 [chromium] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned (91ms)
+(node:7374) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7375) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 (1.0s)
+  ✓  11 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 (436ms)
+  ✓   9 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 (1.1s)
+  ✓  10 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 (1.2s)
+  ✓  12 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 (430ms)
+  ✓  13 [firefox] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 (418ms)
+  ✓  14 [firefox] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned (187ms)
+(node:7415) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7417) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 (822ms)
+  ✓  17 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 (836ms)
+  ✘  16 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 (827ms)
+(node:7455) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 (432ms)
+  ✓  19 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 (422ms)
+  ✓  21 [webkit] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned (207ms)
+  ✓  20 [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 (489ms)
+
+
+  1) [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 ─────────
+
+    Error: dagger/combat-reward baseline
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 0.5
+    Received:    1.699951171875
+
+      34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+    > 36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+         |                                                                                                                                                                                                                                                        ^
+      37 |     }
+      38 |   });
+      39 | }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:36:248
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [webkit] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 ──────────
+  20 passed (6.9s)

@@ -1,0 +1,55 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-accessibility.spec.mjs --project=chromium --grep empty inventory --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:13116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:13117) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/relic-accessibility.spec.mjs:210:1 › empty inventory and unmatched rarity disable bulk actions (6.1s)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:210:1 › empty inventory and unmatched rarity disable bulk actions 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator:  locator('#sell-all')
+    Expected: disabled
+    Received: enabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeDisabled" locator('#sell-all') with timeout 5000ms
+      - waiting for locator('#sell-all')
+        14 × locator resolved to <button id="sell-all">Sell</button>
+           - unexpected value "enabled"
+
+
+      212 |   try {
+      213 |     await f.page.evaluate(/* Remove holdings before a fresh view, retaining the same character. */ () => {player.inventory.equipment=[];player.equipped=[];playerLoadStats();});
+    > 214 |     await expect(f.page.locator('#sell-all')).toBeDisabled();
+          |                                               ^
+      215 |     await expect(f.page.locator('#unequip-all')).toBeDisabled();
+      216 |     await f.page.evaluate(/* Restore one Common holding to verify filter-specific availability. */ item=>{player.inventory.equipment=[JSON.stringify({...item,rarity:'Common'})];playerLoadStats();},item);
+      217 |     await expect(f.page.locator('#sell-all')).toBeEnabled();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:214:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-68e72-rarity-disable-bulk-actions-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-68e72-rarity-disable-bulk-actions-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-68e72-rarity-disable-bulk-actions-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-68e72-rarity-disable-bulk-actions-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:210:1 › empty inventory and unmatched rarity disable bulk actions 

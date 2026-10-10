@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "path": "player.name",
+      "value": "<img src=x onerror=alert(1)>Skeleton Mage",
+      "valid": true
+    },
+    { "path": "player.lvl", "value": 0 },
+    { "path": "player.gold", "value": -1 },
+    { "path": "player.skills", "value": ["javascript:alert(1)"] },
+    { "path": "player.inventory.equipment", "value": ["{broken"] },
+    {
+      "path": "player.inventory.equipment",
+      "value": ["{\"__proto__\":{\"polluted\":true}}"]
+    },
+    { "path": "player.stats.atk", "value": "99" },
+    { "path": "enemy.image.name", "value": "../../evil" },
+    { "path": "enemy.image.size", "value": "url(evil)" },
+    { "path": "enemy.name", "value": "unknown" },
+    { "path": "enemy.image.name", "value": "skeleton_mage1" },
+    { "path": "dungeon.progress.room", "value": 0 },
+    { "path": "volume.bgm", "value": 0.6 }
+  ]
+}

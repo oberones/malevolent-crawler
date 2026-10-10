@@ -1,0 +1,20 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/character-import.spec.mjs --grep exchange form --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:76434) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:76444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:76446) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:76445) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [webkit] › tests/integration/character-import.spec.mjs:260:1 › exchange form previews MC1 safely and Escape cancels without saving (3.0s)
+  ✓  3 [chromium] › tests/integration/character-import.spec.mjs:260:1 › exchange form previews MC1 safely and Escape cancels without saving (3.1s)
+  ✓  1 [firefox] › tests/integration/character-import.spec.mjs:260:1 › exchange form previews MC1 safely and Escape cancels without saving (3.8s)
+
+  3 passed (5.3s)

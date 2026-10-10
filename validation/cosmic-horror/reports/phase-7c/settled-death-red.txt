@@ -1,0 +1,55 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/continue-encounter.spec.mjs --grep settled death --project=chromium
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:94981) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:94982) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (6.0s)
+
+
+  1) [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('#dungeon-main')
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('#dungeon-main') with timeout 5000ms
+      - waiting for locator('#dungeon-main')
+        14 × locator resolved to <section id="dungeon-main" class="game-container scrollable">…</section>
+           - unexpected value "hidden"
+
+
+      123 |     await expect(fixture.page.locator("#title-screen")).toBeVisible();
+      124 |     await fixture.page.locator("#title-screen").click();
+    > 125 |     await expect(fixture.page.locator("#dungeon-main")).toBeVisible();
+          |                                                         ^
+      126 |     const state = await fixture.page.evaluate(
+      127 |       /* Verify reset retention independently of presentation. */ () => ({
+      128 |         player,
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/continue-encounter.spec.mjs:125:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-0c869-s-once-and-finishes-loading-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-continue-encounter-0c869-s-once-and-finishes-loading-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-continue-encounter-0c869-s-once-and-finishes-loading-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-continue-encounter-0c869-s-once-and-finishes-loading-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading 

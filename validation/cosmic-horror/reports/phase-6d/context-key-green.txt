@@ -1,0 +1,29 @@
+✔ art validator accepts explicitly unreturned timestamps but rejects missing or malformed dates (44.724333ms)
+✔ preparation preserves proportions with transparent padding and records exact odd dimensions (25.714375ms)
+✔ preparation refuses unsafe destinations and preserves immutable bytes (8.742583ms)
+✔ PNG inspection rejects wrong-size, opaque, blank, RGB and corrupt images (6.018458ms)
+✔ ICO requires exactly one matching 127 by 128 PNG entry (3.181833ms)
+✔ manifest accepts complete fixture and rejects missing mappings, provenance and evidence (26.749875ms)
+▶ manifest rejects altered baselines, bogus provenance and unrecorded export settings
+  ✔ (m) => {
+      m.entries[0].generation.provenance = {
+        tool: "imagegen",
+        requestId: null,
+      };
+    } (1.669166ms)
+  ✔ (m) => {
+      m.entries[0].transform.options.palette = true;
+    } (3.759666ms)
+  ✔ (m) => {
+      m.entries[0].delivered.alpha = false;
+    } (1.383417ms)
+✔ manifest rejects altered baselines, bogus provenance and unrecorded export settings (20.54025ms)
+✔ context keys distinguish blocked native targets without fabricated browser metadata (0.131125ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 258.374834

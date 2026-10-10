@@ -1,0 +1,163 @@
+✖ uses explicit context IDs and the complete browser/viewport/scale tuple (2.546833ms)
+✖ rejects a missing required context rather than producing empty proof success (0.147334ms)
+✖ rejects duplicate measured rows (0.076041ms)
+✖ does not accept another viewport height or a blocked native row (0.074583ms)
+✖ rejects nonpositive or nonfinite measured geometry (0.090833ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 0
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50.513375
+
+✖ failing tests:
+
+test at tests/unit/art-proof-contexts.test.mjs:10:1
+✖ uses explicit context IDs and the complete browser/viewport/scale tuple (2.546833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    [
+      {
+        box: {
+          height: 18,
+          width: 16
+  ...
+      },
+  +   {
+  +     box: {
+  +       height: 18,
+  +       width: 16
+  +     },
+  +     browser: {
+  +       name: 'chromium'
+  +     },
+  +     id: 'health/other',
+  +     status: 'PASS',
+  +     textScale: 1,
+  +     viewport: {
+  +       height: 800,
+  +       width: 360
+  +     }
+  +   },
+  +   {
+  +     box: {
+  +       height: 18,
+  +       width: 16
+  +     },
+  +     browser: {
+  +       name: 'firefox'
+  +     },
+  +     id: 'health/main',
+  +     status: 'PASS',
+  +     textScale: 1,
+  +     viewport: {
+  +       height: 800,
+  +       width: 360
+  +     }
+  +   },
+  +   {
+  +     box: {
+  +       height: 18,
+  +       width: 16
+  +     },
+  +     browser: {
+  +       name: 'chromium'
+  +     },
+  +     id: 'health/main',
+  +     status: 'PASS',
+  +     textScale: 2,
+  +     viewport: {
+  +       height: 800,
+  +       width: 360
+  +     }
+  +   }
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-proof-contexts.test.mjs:12:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ { id: 'health/main', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] }, { id: 'health/bonus', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] }, { id: 'health/other', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] }, { id: 'health/main', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] }, { id: 'health/main', status: 'PASS', browser: [Object], viewport: [Object], textScale: 2, box: [Object] } ],
+    expected: [ { id: 'health/main', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] }, { id: 'health/bonus', status: 'PASS', browser: [Object], viewport: [Object], textScale: 1, box: [Object] } ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-proof-contexts.test.mjs:14:1
+✖ rejects a missing required context rather than producing empty proof success (0.147334ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-proof-contexts.test.mjs:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /health\/bonus/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-proof-contexts.test.mjs:18:1
+✖ rejects duplicate measured rows (0.076041ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-proof-contexts.test.mjs:20:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /health\/main/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-proof-contexts.test.mjs:22:1
+✖ does not accept another viewport height or a blocked native row (0.074583ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-proof-contexts.test.mjs:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /health\/main/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-proof-contexts.test.mjs:27:1
+✖ rejects nonpositive or nonfinite measured geometry (0.090833ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-proof-contexts.test.mjs:30:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /geometry/,
+    operator: 'throws',
+    diff: 'simple'
+  }

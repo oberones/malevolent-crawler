@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/legacy-symbol-contexts.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:12794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:12804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12803) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (7.4s)
+  ✓   3 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (7.5s)
+  ✓   2 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (8.2s)
+  ✓   5 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (7.1s)
+  ✓   4 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (7.3s)
+(node:12992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12993) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (7.4s)
+(node:13011) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (6.5s)
+  ✓   8 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (7.4s)
+  ✓   9 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (7.2s)
+  ✓  11 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (6.6s)
+  ✓  10 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (7.2s)
+(node:13141) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (7.1s)
+(node:13170) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (5.1s)
+  ✓  14 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (5.5s)
+  ✓  15 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (5.8s)
+  ✓  16 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (6.4s)
+  ✓  17 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (6.6s)
+  ✓  18 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (6.7s)
+
+  18 passed (44.9s)

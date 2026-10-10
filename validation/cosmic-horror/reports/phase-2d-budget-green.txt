@@ -1,0 +1,48 @@
+✔ schema corpus: early (1.226792ms)
+✔ schema corpus: resting (0.345167ms)
+✔ schema corpus: normal (0.28925ms)
+✔ schema corpus: guardian (0.205209ms)
+✔ schema corpus: boss (0.291792ms)
+✔ schema corpus: chest-mimic (0.226791ms)
+✔ schema corpus: door-mimic (0.199041ms)
+✔ schema corpus: variant-1 (0.414792ms)
+✔ schema corpus: variant-2 (0.157125ms)
+✔ schema corpus: fractional-exp (0.175333ms)
+✔ schema corpus: full-duplicate-equipment (0.606083ms)
+✔ schema corpus: optional-null-derived (0.484708ms)
+✔ schema corpus: settled-victory (0.146166ms)
+✔ schema corpus: settled-death (0.122541ms)
+✔ schema corpus: interrupted-player-death (0.151375ms)
+✔ schema corpus: interrupted-enemy-victory (0.274833ms)
+✔ schema corpus: interrupted-missing-enemy (0.090458ms)
+✔ schema corpus: early-player-only (0.102334ms)
+✔ schema corpus: interrupted-malformed-item (0.104ms)
+✔ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.244291ms)
+✔ adversarial player.lvl: 0 (0.133916ms)
+✔ adversarial player.gold: -1 (0.1295ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.150834ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.146667ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.147042ms)
+✔ adversarial player.stats.atk: "99" (0.275209ms)
+✔ adversarial enemy.image.name: "../../evil" (0.201208ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.129917ms)
+✔ adversarial enemy.name: "unknown" (0.119292ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.121542ms)
+✔ adversarial dungeon.progress.room: 0 (0.112417ms)
+✔ adversarial volume.bgm: 0.6 (0.192542ms)
+✔ defaults, duplicate holdings, derived/null fields and idempotence (1.350875ms)
+✔ source kinds, early defaults and complete envelopes (1.802666ms)
+✔ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (128.026166ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.903375ms)
+✔ structured history text budgets and explicit null item tier reject (0.613041ms)
+✔ null equipment tier is not a missing default (0.173375ms)
+✔ validation is independent of randomness and preserves fractional rewards (0.138125ms)
+✔ bounded JSON accepts a wide value below 16 MiB and nesting at 64 (142.981625ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 336.478875

@@ -1,0 +1,27 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/legacy-symbol-contexts.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:29688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:29692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29693) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 360 text 1 (14.1s)
+  ✓   2 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 360 text 2 (14.3s)
+  ✓   1 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 768 text 1 (14.5s)
+  ✓   5 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 1440 text 1 (17.6s)
+  ✓   6 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 1440 text 2 (17.4s)
+  ✓   4 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:30:5 › original symbol contexts 768 text 2 (17.8s)
+(node:29873) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29876) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

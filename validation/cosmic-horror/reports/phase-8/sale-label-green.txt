@@ -1,0 +1,86 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/full-journeys.spec.mjs tests/browser/relic-accessibility.spec.mjs tests/browser/collection-reflow.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:22556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 57 tests using 3 workers
+
+(node:22566) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22567) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (378ms)
+  ✓   1 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (379ms)
+  ✓   4 [chromium] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject repeat allocation (5.4s)
+  ✓   5 [chromium] › tests/browser/full-journeys.spec.mjs:116:1 › legacy combat resolves once through claim and reload (5.7s)
+  ✓   3 [chromium] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (9.4s)
+  ✓   6 [chromium] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject cancelled-before-import allocation (4.0s)
+  ✓   7 [chromium] › tests/browser/full-journeys.spec.mjs:221:1 › prior-good combat recovery survives failed art and preserves raw sources (4.2s)
+  ✓   9 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (2.5s)
+  ✓   8 [chromium] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport (3.3s)
+  ✓  10 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (2.4s)
+  ✓  11 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (2.8s)
+  ✓  12 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (2.6s)
+  ✓  13 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (2.6s)
+  ✓  16 [chromium] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.4s)
+  ✓  15 [chromium] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (2.7s)
+  ✓  14 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (2.8s)
+  ✓  17 [chromium] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (2.2s)
+(node:22662) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [chromium] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (2.0s)
+(node:22666) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (3.4s)
+  ✓  20 [firefox] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (1.2s)
+(node:22683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [firefox] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (1.2s)
+  ✓  22 [firefox] › tests/browser/full-journeys.spec.mjs:116:1 › legacy combat resolves once through claim and reload (2.1s)
+  ✓  24 [firefox] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject repeat allocation (2.3s)
+  ✓  25 [firefox] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject cancelled-before-import allocation (1.6s)
+  ✓  26 [firefox] › tests/browser/full-journeys.spec.mjs:221:1 › prior-good combat recovery survives failed art and preserves raw sources (1.9s)
+  ✓  28 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.6s)
+  ✓  27 [firefox] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport (2.7s)
+  ✓  23 [firefox] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (6.7s)
+  ✓  29 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (2.0s)
+  ✓  30 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (2.0s)
+  ✓  31 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.9s)
+  ✓  32 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.8s)
+  ✓  33 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.9s)
+  ✓  34 [firefox] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.7s)
+  ✓  35 [firefox] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.6s)
+  ✓  36 [firefox] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.6s)
+(node:22711) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  38 [firefox] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.5s)
+(node:22724) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  39 [webkit] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (931ms)
+  ✓  40 [webkit] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (641ms)
+  ✓  37 [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (3.5s)
+(node:22742) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  42 [webkit] › tests/browser/full-journeys.spec.mjs:116:1 › legacy combat resolves once through claim and reload (1.6s)
+  ✓  43 [webkit] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject repeat allocation (2.0s)
+  ✓  44 [webkit] › tests/browser/full-journeys.spec.mjs:151:3 › import allocation and restart reject cancelled-before-import allocation (1.4s)
+  ✓  41 [webkit] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (4.7s)
+  ✓  45 [webkit] › tests/browser/full-journeys.spec.mjs:221:1 › prior-good combat recovery survives failed art and preserves raw sources (1.7s)
+  ✓  47 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.3s)
+  ✓  46 [webkit] › tests/browser/full-journeys.spec.mjs:264:1 › full inventory keeps Sell readable at a narrow viewport (2.4s)
+  ✓  48 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.5s)
+  ✓  49 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.5s)
+  ✓  50 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.6s)
+  ✓  51 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.7s)
+  ✓  54 [webkit] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (691ms)
+  ✓  52 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.8s)
+  ✓  53 [webkit] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.6s)
+  ✓  55 [webkit] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.5s)
+  ✓  57 [webkit] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.5s)
+  ✓  56 [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (3.4s)
+
+  57 passed (49.3s)

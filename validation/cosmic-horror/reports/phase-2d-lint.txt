@@ -1,0 +1,2 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'eslint' assets/js/app tests/unit/save-validation.test.mjs tests/unit/snapshot-store.test.mjs tests/unit/lifecycle.test.mjs tests/unit/transitions.test.mjs tests/integration/safe-render.spec.mjs tests/integration/dialog-service.spec.mjs

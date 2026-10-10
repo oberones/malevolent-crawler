@@ -1,0 +1,29 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write art/cosmic-horror/batches/favicons art/cosmic-horror/batches/world-symbols art/cosmic-horror/batches/stats-a art/cosmic-horror/batches/stats-b art/cosmic-horror/batches/fallback validation/cosmic-horror/phase-6a.md validation/cosmic-horror/tdd.md validation/cosmic-horror/manual.md specs/001-cosmic-horror-refactor/tasks.md
+art/cosmic-horror/batches/favicons/capture-index.json 11ms (unchanged)
+art/cosmic-horror/batches/favicons/generation.json 5ms (unchanged)
+art/cosmic-horror/batches/favicons/review-fixture.html 114ms
+art/cosmic-horror/batches/favicons/review.md 19ms (unchanged)
+art/cosmic-horror/batches/favicons/validation.json 1ms (unchanged)
+art/cosmic-horror/batches/world-symbols/capture-proofs.mjs 18ms (unchanged)
+art/cosmic-horror/batches/world-symbols/context-proofs.json 47ms (unchanged)
+art/cosmic-horror/batches/world-symbols/generation.json 2ms
+art/cosmic-horror/batches/world-symbols/review.md 6ms (unchanged)
+art/cosmic-horror/batches/world-symbols/validation.json 1ms (unchanged)
+art/cosmic-horror/batches/stats-a/context-proofs.json 46ms (unchanged)
+art/cosmic-horror/batches/stats-a/generation.json 2ms
+art/cosmic-horror/batches/stats-a/review.md 4ms (unchanged)
+art/cosmic-horror/batches/stats-a/validation.json 1ms (unchanged)
+art/cosmic-horror/batches/stats-b/context-proofs.json 19ms (unchanged)
+art/cosmic-horror/batches/stats-b/generation.json 1ms
+art/cosmic-horror/batches/stats-b/review.md 4ms (unchanged)
+art/cosmic-horror/batches/stats-b/validation.json 1ms (unchanged)
+art/cosmic-horror/batches/fallback/capture-index.json 1ms (unchanged)
+art/cosmic-horror/batches/fallback/generation.json 1ms (unchanged)
+art/cosmic-horror/batches/fallback/review-fixture.html 484ms
+art/cosmic-horror/batches/fallback/review.md 7ms (unchanged)
+art/cosmic-horror/batches/fallback/validation.json 0ms (unchanged)
+validation/cosmic-horror/phase-6a.md 19ms
+validation/cosmic-horror/tdd.md 65ms (unchanged)
+validation/cosmic-horror/manual.md 96ms (unchanged)
+specs/001-cosmic-horror-refactor/tasks.md 68ms (unchanged)

@@ -1,0 +1,379 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/symbol-view.spec.mjs tests/browser/relics.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:7172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 15 tests using 2 workers
+
+(node:7182) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7181) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (2.5s)
+  ✓   1 [chromium] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (2.6s)
+  ✘   4 [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (723ms)
+(node:7206) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.2s)
+  ✓   6 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.2s)
+  ✓   7 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (981ms)
+  ✓   8 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (948ms)
+  ✘   9 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 (132ms)
+(node:7223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 (167ms)
+(node:7228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (6.1s)
+  ✘  11 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 (169ms)
+(node:7233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7234) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 (176ms)
+  ✘  13 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 (180ms)
+(node:7243) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7245) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 (185ms)
+  ✘  15 [chromium] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned (145ms)
+
+
+  1) [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#equipmentInfo')
+    Timeout: 5000ms
+    Expected pattern: /six|6|full|capacity/i
+    Received string:  "·············
+                    Common Tideglass Edge
+                    Lv.1 Tier 1·················
+                    ATK+10··································
+                        Equip
+                        75
+                        Close·················
+                "
+
+    Call log:
+      - Expect "toContainText" locator('#equipmentInfo') with timeout 5000ms
+      - waiting for locator('#equipmentInfo')
+        14 × locator resolved to <div role="dialog" tabindex="-1" aria-modal="true" id="equipmentInfo" class="modal-container" aria-label="Common Tideglass Edge">…</div>
+           - unexpected value "
+                
+                    Common Tideglass Edge
+                    Lv.1 Tier 1
+                    
+                    ATK+10
+                    
+                    
+                        Equip
+                        75
+                        Close
+                    
+                "
+
+
+      245 |       ),
+      246 |     ).toEqual([6, 1]);
+    > 247 |     await expect(f.page.locator("#equipmentInfo")).toContainText(
+          |                                                    ^
+      248 |       /six|6|full|capacity/i,
+      249 |     );
+      250 |   } finally {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:247:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "{\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"gold\":0}"
+    Received: "{\"inventory\":{\"consumables\":[],\"equipment\":[]},\"gold\":75}"
+
+      309 |       first,
+      310 |     );
+    > 311 |     expect.soft(result.after).toEqual(result.before);
+          |                               ^
+      312 |     expect.soft(result.twice).toEqual(result.once);
+      313 |   } finally {
+      314 |     await f.dispose();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:311:31
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "{\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"gold\":150}"
+    Received: "{\"inventory\":{\"consumables\":[],\"equipment\":[]},\"gold\":225}"
+
+      310 |     );
+      311 |     expect.soft(result.after).toEqual(result.before);
+    > 312 |     expect.soft(result.twice).toEqual(result.once);
+          |                               ^
+      313 |   } finally {
+      314 |     await f.dispose();
+      315 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:312:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-360-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 ───────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-768-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 ──────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "assets/art/relic-sword.png"
+    Received: undefined
+
+      32 |     for(const [i,row] of rows.entries()) {
+      33 |       const actual=results[i];
+    > 34 |       expect(actual.src).toBe(`assets/art/relic-${row.id.split('/')[0]}.png`);
+         |                          ^
+      35 |       expect(actual.alt).toBeTruthy(); expect(actual.imageMargin).toBe('0px');
+      36 |       for(const [key,expected] of Object.entries({width:row.box.width,height:row.box.height,baseline:row.baselineOffset,left:parseFloat(row.marginLeft),right:parseFloat(row.marginRight)})) expect(Math.abs(actual[key]-expected),`${row.id} ${key}`).toBeLessThanOrEqual(0.5);
+      37 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:34:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-relic-symbol-geometry-1440-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 4
+
+      Object {
+    -   "alt": "",
+    -   "hidden": "true",
+    +   "alt": undefined,
+    +   "hidden": null,
+        "rejected": Array [
+    -     true,
+    -     true,
+    +     false,
+    +     false,
+        ],
+      }
+
+      48 |     return {rejected,alt:node.querySelector('img')?.alt,hidden:node.getAttribute('aria-hidden')};
+      49 |   });
+    > 50 |   expect(result).toEqual({rejected:[true,true],alt:'',hidden:'true'});
+         |                  ^
+      51 | });
+      52 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-view.spec.mjs:50:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-view-sy-18ac0-ernatives-are-catalog-owned-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9 failed
+    [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback 
+    [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold 
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 1 ────────
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 360 / 2 ────────
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 1 ────────
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 768 / 2 ────────
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 1 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:7:3 › relic symbol geometry 1440 / 2 ───────
+    [chromium] › tests/integration/symbol-view.spec.mjs:41:1 › symbol identity and alternatives are catalog owned 
+  6 passed (11.5s)

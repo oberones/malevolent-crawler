@@ -1,0 +1,564 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-contexts.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:10296) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:10299) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10297) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10298) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 (5.9s)
+  ✘   2 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 (6.0s)
+  ✘   1 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 (6.1s)
+(node:10351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10353) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 (5.6s)
+  ✘   4 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 (5.7s)
+  ✘   5 [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 (5.8s)
+(node:10407) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10406) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 (3.6s)
+(node:10468) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 (3.9s)
+(node:10470) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 (4.3s)
+(node:10478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 (3.1s)
+(node:10520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 (3.5s)
+(node:10533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 (4.2s)
+(node:10554) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 (2.9s)
+(node:10576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 (2.6s)
+(node:10577) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 (2.3s)
+(node:10605) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 (2.7s)
+  ✘  17 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 (2.5s)
+  ✘  18 [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 (2.3s)
+
+
+  1) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ───────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ───────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ───────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ───────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ──────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ──────────
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'replaceChildren')
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:37:20)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-2-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ────────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ────────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ────────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ───────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ──────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-1-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ──────────
+
+    Error: page.evaluate: can't access property "replaceChildren", target is null
+    @debugger eval code line 311 > eval:37:13
+    evaluate@debugger eval code:313:16
+    @debugger eval code:1:44
+    @debugger eval code:1:62
+
+        at @debugger eval code line 311 > eval:37:13
+        at evaluate@debugger eval code:313:16
+        at @debugger eval code:1:44
+        at @debugger eval code:1:62
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-2-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ────────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ────────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-360-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-360-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-360-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ────────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ────────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-768-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-768-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-768-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ───────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-1-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ───────────
+
+    Error: page.evaluate: TypeError: null is not an object (evaluating 'target.replaceChildren')
+
+      21 |    for(const relic of relics)for(const stage of ['inventory','equipped','detail','sale','dungeon-reward','combat-reward']){
+      22 |     const id=`${relic.symbolId.slice(6)}/${stage}`;
+    > 23 |     await f.page.evaluate(/* Render real live surfaces from a valid already-owned item, never generate or award again. */ ({relic,stage,scale})=>{
+         |                  ^
+      24 |      for(const n of document.querySelectorAll('[data-test-size]')){n.style.fontSize=n.dataset.testSize;delete n.dataset.testSize;}
+      25 |      for(const id of ['title-screen','inventory','equipmentInfo','defaultModal','combatPanel'])document.getElementById(id).style.display='none';
+      26 |      document.querySelector('#dungeon-main').style.display='flex';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-contexts.spec.mjs:23:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-contexts-live-relic-contexts-1440-2-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-contexts-live-relic-contexts-1440-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-contexts-live-relic-contexts-1440-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18 failed
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ────────────
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ────────────
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ────────────
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ────────────
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ───────────
+    [chromium] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ───────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ─────────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ─────────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ─────────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ─────────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ────────────
+    [firefox] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/1 ──────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 360/2 ──────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/1 ──────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 768/2 ──────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/1 ─────────────
+    [webkit] › tests/browser/relic-contexts.spec.mjs:11:2 › live relic contexts 1440/2 ─────────────

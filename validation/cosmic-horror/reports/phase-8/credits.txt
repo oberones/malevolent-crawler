@@ -1,0 +1,25 @@
+✔ narrative covers entry (3.094459ms)
+✔ narrative covers event (0.093916ms)
+✔ narrative covers choice (0.057583ms)
+✔ narrative covers combat (0.052708ms)
+✔ narrative covers upgrade (0.047334ms)
+✔ narrative covers run (0.04375ms)
+✔ narrative covers inventory (0.077625ms)
+✔ narrative covers menu (0.044209ms)
+✔ narrative covers help (0.056708ms)
+✔ narrative covers about (0.111625ms)
+✔ skill descriptions preserve exact effects and aliases (2.671417ms)
+✔ all seven upgrades and offering outcomes retain their amounts (0.742625ms)
+✔ typed messages reject unknown, missing, extra and hostile identity parameters (0.785ms)
+✔ text formatting preserves hostile player names and fractional rewards without HTML interpretation (0.525166ms)
+✔ registry is immutable, complete and produces only text descriptors (0.460583ms)
+✔ all templates validate inputs without modifying records or consuming randomness (8.495ms)
+✔ costs, reset consequences, neutral labels and retained credits are explicit (0.150167ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 110.635875

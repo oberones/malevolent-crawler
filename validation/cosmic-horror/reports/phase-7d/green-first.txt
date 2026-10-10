@@ -1,0 +1,175 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/save-recovery.spec.mjs tests/integration/clipboard-conflict.spec.mjs --project=chromium --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:6940) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:6941) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6943) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection (30.0s)
+  ✘   3 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection (30.0s)
+  ✘   2 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection (30.0s)
+(node:6988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6986) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6987) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.v1 (246ms)
+  ✓   4 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.previous.v1 (284ms)
+  ✓   7 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at playerData (156ms)
+  ✓   8 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at dungeonData (163ms)
+  ✓   9 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at enemyData (151ms)
+  ✓  10 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at volumeData (156ms)
+  ✓  11 [chromium] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.v1 write supports export and retry (289ms)
+  ✓  12 [chromium] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry (290ms)
+  ✓  13 [chromium] › tests/browser/save-recovery.spec.mjs:121:1 › retained-character recovery resets only after confirmation (234ms)
+  ✓  14 [chromium] › tests/integration/clipboard-conflict.spec.mjs:20:3 › clipboard resolve (2.2s)
+  ✓  15 [chromium] › tests/integration/clipboard-conflict.spec.mjs:20:3 › clipboard reject (2.1s)
+  ✓  17 [chromium] › tests/integration/clipboard-conflict.spec.mjs:66:3 › foreign revision event=true exposes reload or export (290ms)
+  ✓  18 [chromium] › tests/integration/clipboard-conflict.spec.mjs:66:3 › foreign revision event=false exposes reload or export (250ms)
+  ✓  16 [chromium] › tests/integration/clipboard-conflict.spec.mjs:20:3 › clipboard unavailable (1.9s)
+  ✘   5 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection (30.0s)
+
+
+  1) [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:48:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:48:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:48:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:48:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection 
+  14 passed (1.0m)

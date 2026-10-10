@@ -1,0 +1,65 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/encounter-view.spec.mjs tests/browser/encounters.spec.mjs tests/browser/narrative-integration.spec.mjs --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:15349) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 36 tests using 3 workers
+
+(node:15355) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15354) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 100% text (282ms)
+  ✓   1 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 100% text (301ms)
+  ✓   3 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 200% text (304ms)
+  ✓   4 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 200% text (231ms)
+  ✓   5 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 100% text (259ms)
+  ✓   6 [chromium] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 200% text (277ms)
+  ✓   7 [chromium] › tests/browser/encounters.spec.mjs:128:1 › encounter triggers and attacks preserve captured numeric outcomes (804ms)
+  ✓   8 [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (1.8s)
+  ✓  11 [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (149ms)
+  ✓  12 [chromium] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (85ms)
+(node:15390) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (1.6s)
+(node:15441) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (3.1s)
+(node:15447) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 100% text (1.1s)
+  ✓  14 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 200% text (1.0s)
+  ✓  16 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 200% text (384ms)
+  ✓  17 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 100% text (373ms)
+  ✓  18 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 200% text (368ms)
+  ✓  15 [firefox] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 100% text (1.1s)
+  ✓  19 [firefox] › tests/browser/encounters.spec.mjs:128:1 › encounter triggers and attacks preserve captured numeric outcomes (997ms)
+  ✓  20 [firefox] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (2.0s)
+  ✓  23 [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (251ms)
+  ✓  24 [firefox] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (199ms)
+  ✓  22 [firefox] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (1.9s)
+(node:15481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [firefox] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (3.4s)
+(node:15504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  26 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 200% text (635ms)
+  ✓  25 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 360px and 100% text (869ms)
+  ✓  28 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 200% text (409ms)
+  ✓  29 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 100% text (445ms)
+  ✓  27 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 768px and 100% text (561ms)
+  ✓  30 [webkit] › tests/browser/encounters.spec.mjs:35:5 › 52 selected variants at 1440px and 200% text (352ms)
+  ✓  31 [webkit] › tests/browser/encounters.spec.mjs:128:1 › encounter triggers and attacks preserve captured numeric outcomes (673ms)
+  ✓  32 [webkit] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (1.8s)
+  ✓  35 [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (229ms)
+  ✓  34 [webkit] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (1.7s)
+  ✓  36 [webkit] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (204ms)
+  ✓  33 [webkit] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (3.0s)
+
+  36 passed (14.1s)

@@ -1,0 +1,24 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/navigation-accessibility.spec.mjs tests/browser/entry-resilience.spec.mjs --project=chromium --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:80659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 3 workers
+
+(node:80662) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80661) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.0s)
+  ✓  2 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.0s)
+  ✓  1 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.0s)
+  ✓  4 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (1.7s)
+  ✓  5 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (1.7s)
+  ✓  6 [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (1.9s)
+  ✓  7 [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (3.6s)
+
+  7 passed (8.2s)

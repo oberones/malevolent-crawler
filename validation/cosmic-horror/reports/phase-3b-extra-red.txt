@@ -1,0 +1,95 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/narrative-integration.spec.mjs --project=chromium --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:74220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:74221) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74222) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/narrative-integration.spec.mjs:12:1 › current narrative keeps hostile names inert and records the last fifty events (1.8s)
+  ✘  2 [chromium] › tests/browser/narrative-integration.spec.mjs:70:1 › relic labels agree across inventory details and sale confirmation (1.8s)
+  ✘  3 [chromium] › tests/browser/narrative-integration.spec.mjs:51:1 › allocation uses catalog skills without changing rule tokens (8.2s)
+
+
+  1) [chromium] › tests/browser/narrative-integration.spec.mjs:12:1 › current narrative keeps hostile names inert and records the last fifty events 
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Goblin <img src=x onerror=\"globalThis.injected=true\"> $&"
+    Received string:    "Goblin  $& Lv.1"
+
+      36 |       }, name,
+      37 |     );
+    > 38 |     expect(result.name).toContain(name);
+         |                         ^
+      39 |     expect(result.log).toContain(name);
+      40 |     expect(result.log).toContain("12.5");
+      41 |     expect(result).toMatchObject({ paragraphs: 50, first: "You recover 5 Quay Marks.", last: { id: "event.gold", params: { amount: 54 } }, injected: false, images: 0 });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:38:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/error-context.md
+
+  2) [chromium] › tests/browser/narrative-integration.spec.mjs:51:1 › allocation uses catalog skills without changing rule tokens 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#select-skill option:checked')
+    Expected: "Nacre Edge"
+    Received: "Remnant Razor"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" locator('#select-skill option:checked') with timeout 5000ms
+      - waiting for locator('#select-skill option:checked')
+        14 × locator resolved to <option value="Remnant Razor">Remnant Razor</option>
+           - unexpected value "Remnant Razor"
+
+
+      61 |       if (alias === "Rampager") continue;
+      62 |       await p.locator("#select-skill").selectOption(alias);
+    > 63 |       await expect(p.locator("#select-skill option:checked")).toHaveText(skill.name);
+         |                                                               ^
+      64 |       await expect(p.locator("#skill-desc")).toHaveText(skill.description);
+      65 |     }
+      66 |     await expect(p.locator("#defaultModal")).toContainText("Drowned Observatory");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:63:63
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/error-context.md
+
+  3) [chromium] › tests/browser/narrative-integration.spec.mjs:70:1 › relic labels agree across inventory details and sale confirmation 
+
+    Error: page.evaluate: SyntaxError: "undefined" is not valid JSON
+        at JSON.parse (<anonymous>)
+        at eval (eval at evaluate (:311:30), <anonymous>:3:19)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:311:30), <anonymous>:3:19)
+        at UtilityScript.evaluate (<anonymous>:313:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:78:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/error-context.md
+
+  3 failed
+    [chromium] › tests/browser/narrative-integration.spec.mjs:12:1 › current narrative keeps hostile names inert and records the last fifty events 
+    [chromium] › tests/browser/narrative-integration.spec.mjs:51:1 › allocation uses catalog skills without changing rule tokens 
+    [chromium] › tests/browser/narrative-integration.spec.mjs:70:1 › relic labels agree across inventory details and sale confirmation 

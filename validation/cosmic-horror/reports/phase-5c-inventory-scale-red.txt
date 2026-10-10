@@ -1,0 +1,114 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-accessibility.spec.mjs --grep 200 percent inventory --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:15982) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:15984) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15985) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15983) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal (1.7s)
+  ✘  1 [webkit] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal (1.8s)
+  ✘  2 [firefox] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal (2.3s)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 549.265625
+    Received:    661.96875
+
+      276 |   const control=f.page.locator('#playerInventory button').first();await control.scrollIntoViewIfNeeded();
+      277 |   const row=await control.boundingBox(),list=await f.page.locator('#playerInventory').boundingBox();
+    > 278 |   expect(row.y).toBeGreaterThanOrEqual(list.y-.5);expect(row.y+row.height).toBeLessThanOrEqual(list.y+list.height+.5);
+          |                                                                            ^
+      279 |   await control.focus();await f.page.keyboard.press('Enter');await expect(f.page.locator('#equipmentInfo')).toBeVisible();
+      280 |  }finally{await f.dispose();}
+      281 | });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:278:76
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [firefox] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 557.4666748046875
+    Received:    676.0167236328125
+
+      276 |   const control=f.page.locator('#playerInventory button').first();await control.scrollIntoViewIfNeeded();
+      277 |   const row=await control.boundingBox(),list=await f.page.locator('#playerInventory').boundingBox();
+    > 278 |   expect(row.y).toBeGreaterThanOrEqual(list.y-.5);expect(row.y+row.height).toBeLessThanOrEqual(list.y+list.height+.5);
+          |                                                                            ^
+      279 |   await control.focus();await f.page.keyboard.press('Enter');await expect(f.page.locator('#equipmentInfo')).toBeVisible();
+      280 |  }finally{await f.dispose();}
+      281 | });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:278:76
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [webkit] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 566.265625
+    Received:    678.96875
+
+      276 |   const control=f.page.locator('#playerInventory button').first();await control.scrollIntoViewIfNeeded();
+      277 |   const row=await control.boundingBox(),list=await f.page.locator('#playerInventory').boundingBox();
+    > 278 |   expect(row.y).toBeGreaterThanOrEqual(list.y-.5);expect(row.y+row.height).toBeLessThanOrEqual(list.y+list.height+.5);
+          |                                                                            ^
+      279 |   await control.focus();await f.page.keyboard.press('Enter');await expect(f.page.locator('#equipmentInfo')).toBeVisible();
+      280 |  }finally{await f.dispose();}
+      281 | });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:278:76
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 
+    [firefox] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 
+    [webkit] › tests/browser/relic-accessibility.spec.mjs:272:1 › 200 percent inventory rows remain fully readable in the existing modal 

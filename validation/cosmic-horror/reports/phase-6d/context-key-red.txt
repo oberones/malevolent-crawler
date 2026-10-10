@@ -1,0 +1,29 @@
+✖ context keys distinguish blocked native targets without fabricated browser metadata (1.803208ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148.408917
+
+✖ failing tests:
+
+test at tests/unit/art-tools.test.mjs:346:1
+✖ context keys distinguish blocked native targets without fabricated browser metadata (1.803208ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+  
+  '["title/title",null,{"width":360,"height":800},2,null]'
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:348:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '["title/title",null,{"width":360,"height":800},2,null]',
+    expected: '["title/title",null,{"width":360,"height":800},2,null]',
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }

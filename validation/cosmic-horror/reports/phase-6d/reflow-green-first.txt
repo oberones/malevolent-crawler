@@ -1,0 +1,26 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/collection-reflow.spec.mjs tests/integration/image-consumers.spec.mjs --workers=2
+
+Running 9 tests using 2 workers
+
+(node:52166) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52165) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text (913ms)
+  ✓  2 [chromium] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text (977ms)
+  ✓  3 [chromium] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (134ms)
+(node:52177) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52178) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [firefox] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text (2.6s)
+  ✓  6 [firefox] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (321ms)
+(node:52223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  7 [webkit] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text (967ms)
+  ✓  8 [webkit] › tests/browser/collection-reflow.spec.mjs:11:3 › collection allocation readable at 360px and 200% text (499ms)
+  ✓  9 [webkit] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (258ms)
+  ✓  4 [firefox] › tests/browser/collection-reflow.spec.mjs:11:3 › collection stats readable at 360px and 200% text (7.8s)
+
+  9 passed (11.8s)

@@ -1,0 +1,98 @@
+✔ preparation preserves proportions with transparent padding and records exact odd dimensions (20.47475ms)
+✔ preparation refuses unsafe destinations and preserves immutable bytes (4.412709ms)
+✔ PNG inspection rejects wrong-size, opaque, blank, RGB and corrupt images (2.489542ms)
+✔ ICO requires exactly one matching 127 by 128 PNG entry (1.604584ms)
+✔ manifest accepts complete fixture and rejects missing mappings, provenance and evidence (11.383292ms)
+▶ manifest rejects altered baselines, bogus provenance and unrecorded export settings
+  ✖ m=>{m.entries[0].generation.provenance={tool:'imagegen',requestId:null};} (2.012208ms)
+  ✖ m=>{m.entries[0].transform.options.palette=true;} (2.839542ms)
+  ✖ m=>{m.entries[0].delivered.alpha=false;} (1.643ms)
+✖ manifest rejects altered baselines, bogus provenance and unrecorded export settings (11.322084ms)
+✔ evidence accepts complete synthetic manual/automated records (3.278792ms)
+✔ evidence refuses fabricated, absent, unresolved and mismatched records (10.621208ms)
+✔ evidence checks justified N/A and every art review obligation (2.5395ms)
+✖ N/A still rejects unresolved findings (1.0835ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 8
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 125.894833
+
+✖ failing tests:
+
+test at tests/unit/art-tools.test.mjs:281:10
+✖ m=>{m.entries[0].generation.provenance={tool:'imagegen',requestId:null};} (2.012208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:114)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:2)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-tools.test.mjs:281:10
+✖ m=>{m.entries[0].transform.options.palette=true;} (2.839542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:114)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:2)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/art-tools.test.mjs:281:10
+✖ m=>{m.entries[0].delivered.alpha=false;} (1.643ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:114)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/art-tools.test.mjs:281:2)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/evidence-validator.test.mjs:140:1
+✖ N/A still rejects unresolved findings (1.0835ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/evidence-validator.test.mjs:142:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

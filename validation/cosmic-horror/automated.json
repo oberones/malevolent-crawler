@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-08",
+  "baseRevision": "ea372b73418ddd6af4461b510b9942f073a2f458",
+  "workingTree": true,
+  "runtimeSourceHash": "1cfbf3f39b04d43c6a309eada7c4d2a3f02aae91c4a86dea4897c6905a2e503d",
+  "environment": "Local macOS 26.6.2 arm64; Node 24.21.0/npm 12.2.0; Playwright 1.63.0 Chromium/Firefox/WebKit",
+  "checks": [
+    {
+      "name": "clean-install",
+      "command": "npm ci",
+      "status": "PASS",
+      "evidence": "reports/phase-8/install.txt",
+      "actual": "Clean locked install with lifecycle scripts disabled."
+    },
+    {
+      "name": "engines",
+      "command": "npx playwright install chromium firefox webkit",
+      "status": "PASS",
+      "evidence": "reports/phase-8/engines.txt",
+      "actual": "Matching installed browser engines verified."
+    },
+    {
+      "name": "unit",
+      "command": "npm run test:unit",
+      "status": "PASS",
+      "evidence": "reports/phase-8/unit-clean-install.txt",
+      "actual": "2554 tests passed after clean install."
+    },
+    {
+      "name": "integration-browser",
+      "command": "npx playwright test tests/integration tests/browser --workers=3",
+      "status": "PASS",
+      "evidence": [
+        "reports/phase-8/full-browser.txt",
+        "reports/phase-8/geometry-final.txt"
+      ],
+      "actual": "Broad run: 737 passed, 18 fixture failures, 1 unsupported Firefox touch skipped. Corrected symbol fixture plus recovery rerun: 29 passed, 1 same unsupported skip. All 18 failures resolved; this is composed evidence, not a single all-green full run."
+    },
+    {
+      "name": "credits",
+      "command": "node --test tests/unit/narrative.test.mjs",
+      "status": "PASS",
+      "evidence": "reports/phase-8/credits.txt",
+      "actual": "Existing narrative checks pass after copy correction."
+    },
+    {
+      "name": "lint",
+      "command": "npm run lint",
+      "status": "PASS",
+      "evidence": "reports/phase-8/lint-delivery.txt",
+      "actual": "Repository check passes on the final working tree."
+    },
+    {
+      "name": "format",
+      "command": "npm run format:check",
+      "status": "PASS",
+      "actual": "Repository check passes on the final working tree.",
+      "evidence": "reports/phase-8/format-delivery.txt"
+    },
+    {
+      "name": "art",
+      "command": "npm run validate:art",
+      "status": "FAIL",
+      "evidence": "reports/phase-8/art.txt",
+      "actual": "27 unresolved display-context/geometry qualifications; all 80 asset reviews remain PASS."
+    },
+    {
+      "name": "audit",
+      "command": "npm audit --audit-level=high",
+      "status": "PASS",
+      "evidence": "reports/phase-8/audit.txt",
+      "actual": "0 reported vulnerabilities."
+    },
+    {
+      "name": "static-loading",
+      "status": "PASS",
+      "command": "npx playwright test tests/integration/static-server.spec.mjs tests/browser/setup-smoke.spec.mjs",
+      "evidence": "reports/phase-8/full-browser-results.json",
+      "actual": "Executed as part of broad run: JavaScript MIME/module evaluation and HTTP 200 nonempty HTML/CSS/JS/font/art/audio in all three engines; not an audible-playback claim."
+    },
+    {
+      "name": "production-build",
+      "status": "N/A",
+      "actual": "Static application with no build pipeline."
+    },
+    {
+      "name": "pinned-linux-ci",
+      "status": "BLOCKED",
+      "actual": "No remote CI runs; local Rancher Desktop daemon socket absent. See ci.md."
+    },
+    {
+      "name": "performance",
+      "command": "PERF_STAGE=candidate PERF_REVISION=ea372b73418ddd6af4461b510b9942f073a2f458 BASE_URL=http://127.0.0.1:4174 npm run test:performance",
+      "status": "PASS",
+      "evidence": [
+        "reports/phase-8/performance-final.txt",
+        "performance/candidate.json",
+        "performance/comparison.json"
+      ],
+      "actual": "190 final-candidate samples; 38 comparisons PASS; verified warm cache; maximum median increase 30.7 ms. Earlier 190-sample candidate retained."
+    },
+    {
+      "name": "final-layout",
+      "command": "npx playwright test tests/browser/full-journeys.spec.mjs tests/browser/relic-accessibility.spec.mjs tests/browser/collection-reflow.spec.mjs --workers=3",
+      "status": "PASS",
+      "actual": "57 passed across three engines after final sale-label correction.",
+      "evidence": "reports/phase-8/sale-label-green.txt"
+    },
+    {
+      "name": "final-credits-ui",
+      "command": "npx playwright test tests/browser/setting-journeys.spec.mjs --grep Credits --workers=3",
+      "status": "PASS",
+      "actual": "6 passed across three engines.",
+      "evidence": "reports/phase-8/credits-browser.txt"
+    },
+    {
+      "name": "release-evidence",
+      "command": "npm run validate:evidence",
+      "status": "FAIL",
+      "evidence": "reports/phase-8/evidence-final.txt",
+      "actual": "332 unresolved obligations: 185 OPEN, 118 BLOCKED and 2 FAIL required gates, plus 27 art-context/geometry issues. No unexpected structural issues. Release remains BLOCKED."
+    }
+  ]
+}

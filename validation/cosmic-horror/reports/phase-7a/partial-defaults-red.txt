@@ -1,0 +1,36 @@
+✔ migration corpus, defaults, terminal states, exact variants and zero RNG (9.911833ms)
+✔ store maps history, keeps raw bytes, and repeated loads do not reset or award (5.987875ms)
+✔ canonical history recovery survives repeated commits; unsupported versions cannot downgrade (3.947583ms)
+✔ only early tuples receive missing sections; mismatched variants enter recovery (0.545709ms)
+✖ partial early-shaped tuples with run progress do not fabricate missing enemy or dungeon (0.553333ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 71.925583
+
+✖ failing tests:
+
+test at tests/unit/legacy-migration.test.mjs:84:1
+✖ partial early-shaped tuples with run progress do not fabricate missing enemy or dungeon (0.553333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-migration.test.mjs:88:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

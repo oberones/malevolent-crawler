@@ -1,0 +1,10 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write tests/unit/legacy-encounters.test.mjs tests/unit/legacy-equipment.test.mjs tests/unit/legacy-progression.test.mjs tests/unit/legacy-audio-pause.test.mjs tests/helpers/measure-symbols.mjs tests/integration/measure-symbols.spec.mjs tests/integration/legacy-symbol-contexts.spec.mjs tests/integration/legacy-progression-controls.spec.mjs
+tests/unit/legacy-encounters.test.mjs 36ms
+tests/unit/legacy-equipment.test.mjs 6ms
+tests/unit/legacy-progression.test.mjs 3ms
+tests/unit/legacy-audio-pause.test.mjs 1ms (unchanged)
+tests/helpers/measure-symbols.mjs 5ms
+tests/integration/measure-symbols.spec.mjs 7ms
+tests/integration/legacy-symbol-contexts.spec.mjs 10ms
+tests/integration/legacy-progression-controls.spec.mjs 12ms

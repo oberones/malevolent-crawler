@@ -1,0 +1,37 @@
+name: Release evidence (manual)
+
+# Historical qualification records are reviewed on demand, outside PR checks.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.21.0
+          cache: npm
+      - name: Select npm and install dependencies
+        run: |
+          npm install --global npm@12.2.0 --ignore-scripts
+          npm ci
+      - name: Validate recorded release evidence
+        run: |
+          mkdir -p ci-reports
+          npm run validate:evidence 2>&1 | tee ci-reports/evidence.txt
+      - name: Retain evidence report, including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-evidence
+          path: ci-reports/
+          if-no-files-found: warn
+          retention-days: 14

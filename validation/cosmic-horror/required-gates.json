@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "scope": "Frozen requirement inventory for evidence validation; change only with reviewed task/qualification scope changes.",
+  "gates": [
+    {
+      "id": "native-chrome-desktop-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-chrome-desktop-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-chrome-desktop-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-chrome-desktop-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-chrome-desktop-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-chrome-desktop-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-chrome-desktop-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-chrome-desktop-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-desktop-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-chrome-desktop-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-chrome-desktop-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-chrome-desktop-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-firefox-desktop-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-firefox-desktop-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-firefox-desktop-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-firefox-desktop-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-firefox-desktop-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-firefox-desktop-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-firefox-desktop-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-firefox-desktop-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-desktop-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-firefox-desktop-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-firefox-desktop-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-firefox-desktop-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-safari-desktop-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-safari-desktop-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-safari-desktop-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-safari-desktop-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-safari-desktop-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-safari-desktop-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-safari-desktop-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-safari-desktop-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-desktop-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-safari-desktop-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-safari-desktop-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-safari-desktop-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-chrome-android-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-chrome-android-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-chrome-android-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-chrome-android-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-chrome-android-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-chrome-android-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-chrome-android-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-chrome-android-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-chrome-android-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-chrome-android-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-chrome-android-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-chrome-android-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-firefox-android-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-firefox-android-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-firefox-android-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-firefox-android-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-firefox-android-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-firefox-android-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-firefox-android-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-firefox-android-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-firefox-android-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-firefox-android-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-firefox-android-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-firefox-android-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-safari-iphone-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-safari-iphone-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-safari-iphone-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-safari-iphone-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-safari-iphone-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-safari-iphone-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-safari-iphone-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-safari-iphone-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-iphone-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-safari-iphone-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-safari-iphone-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-safari-iphone-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "native-safari-ipad-entry",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-events",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004", "FR-006"]
+    },
+    {
+      "id": "native-safari-ipad-encounters",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-003", "FR-004"]
+    },
+    {
+      "id": "native-safari-ipad-relics",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-006"]
+    },
+    {
+      "id": "native-safari-ipad-item-actions",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-005", "FR-014"]
+    },
+    {
+      "id": "native-safari-ipad-progression",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004"]
+    },
+    {
+      "id": "native-safari-ipad-reset",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-004", "FR-005", "FR-012"]
+    },
+    {
+      "id": "native-safari-ipad-menu-copy",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001", "FR-002", "FR-015"]
+    },
+    {
+      "id": "native-safari-ipad-keyboard-focus",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-touch",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-text-reflow",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-014", "QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-contrast",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-motion-audio",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["QR-001", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-local-continue",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-settled-interrupted",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-character-exchange",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-012", "FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-storage-recovery",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-hostile-import",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-clipboard-conflict",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-003"]
+    },
+    {
+      "id": "native-safari-ipad-history",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-006", "FR-012", "FR-013"]
+    },
+    {
+      "id": "native-safari-ipad-image-failure",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "FR-014"]
+    },
+    {
+      "id": "native-safari-ipad-external-boot",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-013", "QR-002"]
+    },
+    {
+      "id": "native-safari-ipad-horror-boundary",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-010", "SC-008"]
+    },
+    {
+      "id": "setup-unit",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-I", "Constitution-II", "Constitution-VI"]
+    },
+    {
+      "id": "setup-integration",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "setup-browser",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "clean-install",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "audit",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "lint",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-III", "Constitution-VI"]
+    },
+    {
+      "id": "format",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "gameplay-characterization",
+      "kind": "automated",
+      "required": true,
+      "requirements": [
+        "FR-003",
+        "FR-004",
+        "FR-005",
+        "FR-012",
+        "SC-003",
+        "SC-004"
+      ]
+    },
+    {
+      "id": "story-integration",
+      "kind": "automated",
+      "required": true,
+      "requirements": [
+        "FR-001",
+        "FR-002",
+        "FR-006",
+        "FR-013",
+        "FR-015",
+        "QR-001",
+        "QR-002",
+        "QR-003",
+        "SC-001",
+        "SC-005",
+        "SC-006"
+      ]
+    },
+    {
+      "id": "performance",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["QR-004", "SC-007"]
+    },
+    {
+      "id": "ci-execution",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "merge-enforcement",
+      "kind": "configuration",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    },
+    {
+      "id": "release-evidence",
+      "kind": "automated",
+      "required": true,
+      "requirements": [
+        "QR-005",
+        "SC-001",
+        "SC-002",
+        "SC-003",
+        "SC-004",
+        "SC-005",
+        "SC-006",
+        "SC-007",
+        "SC-008"
+      ]
+    },
+    {
+      "id": "production-build",
+      "kind": "configuration",
+      "required": true,
+      "requirements": ["Constitution-VI"]
+    }
+  ],
+  "artRetirement": "2026-10-08: Maintainer retired legacy art comparison and ongoing art CI. Artwork acceptance is retained in art-approval-2026-10-07-complete.md. Non-art statuses are unchanged."
+}

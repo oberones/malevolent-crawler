@@ -1,0 +1,4 @@
+PASS: 24 decoded captures; four portraits, three viewports, two text scales.
+Browser: {'name': 'Chromium', 'version': '153.0.8010.12'}
+DPR: 1
+Index: art/cosmic-horror/batches/bosses-b/browser-captures.json

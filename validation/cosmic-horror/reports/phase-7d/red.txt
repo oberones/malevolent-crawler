@@ -1,0 +1,760 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/save-recovery.spec.mjs tests/integration/clipboard-conflict.spec.mjs --project=chromium --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:6580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:6582) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6581) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6583) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsupported source and offers prior-good selection (5.4s)
+  ✘   1 [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves partial source and offers prior-good selection (5.4s)
+  ✘   3 [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves malformed source and offers prior-good selection (5.4s)
+(node:6611) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6610) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.v1 (5.2s)
+  ✘   5 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.previous.v1 (5.2s)
+  ✘   6 [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsafe source and offers prior-good selection (5.2s)
+(node:6641) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6639) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at dungeonData (5.2s)
+  ✘   9 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at playerData (5.2s)
+  ✘   8 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at enemyData (5.2s)
+(node:6660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at volumeData (5.2s)
+(node:6673) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry (30.0s)
+  ✘  11 [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.v1 write supports export and retry (30.0s)
+(node:6684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [chromium] › tests/browser/save-recovery.spec.mjs:74:1 › retained-character recovery resets only after confirmation (30.0s)
+(node:6697) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard resolve (7.3s)
+  ✘  14 [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard reject (7.3s)
+(node:6704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6703) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard unavailable (7.1s)
+  ✘  17 [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=true exposes reload or export (5.2s)
+  ✘  18 [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=false exposes reload or export (5.3s)
+
+
+  1) [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves malformed source and offers prior-good selection 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#recovery-raw')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#recovery-raw') with timeout 5000ms
+      - waiting for locator('#recovery-raw')
+
+
+      15 |     try {
+      16 |       const page = fixture.page;
+    > 17 |       await expect(page.locator("#recovery-raw")).toBeVisible();
+         |                                                   ^
+      18 |       expect(JSON.parse(await page.locator("#recovery-raw").inputValue())).toMatchObject(storage);
+      19 |       await expect(page.locator("#recovery-download")).toBeVisible();
+      20 |       const download = page.waitForEvent("download");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:17:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-eceba-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsupported source and offers prior-good selection 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#recovery-raw')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#recovery-raw') with timeout 5000ms
+      - waiting for locator('#recovery-raw')
+
+
+      15 |     try {
+      16 |       const page = fixture.page;
+    > 17 |       await expect(page.locator("#recovery-raw")).toBeVisible();
+         |                                                   ^
+      18 |       expect(JSON.parse(await page.locator("#recovery-raw").inputValue())).toMatchObject(storage);
+      19 |       await expect(page.locator("#recovery-download")).toBeVisible();
+      20 |       const download = page.waitForEvent("download");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:17:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-5b3e7-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves partial source and offers prior-good selection 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#recovery-raw')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#recovery-raw') with timeout 5000ms
+      - waiting for locator('#recovery-raw')
+
+
+      15 |     try {
+      16 |       const page = fixture.page;
+    > 17 |       await expect(page.locator("#recovery-raw")).toBeVisible();
+         |                                                   ^
+      18 |       expect(JSON.parse(await page.locator("#recovery-raw").inputValue())).toMatchObject(storage);
+      19 |       await expect(page.locator("#recovery-download")).toBeVisible();
+      20 |       const download = page.waitForEvent("download");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:17:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-8afd3-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsafe source and offers prior-good selection 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#recovery-raw')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#recovery-raw') with timeout 5000ms
+      - waiting for locator('#recovery-raw')
+
+
+      15 |     try {
+      16 |       const page = fixture.page;
+    > 17 |       await expect(page.locator("#recovery-raw")).toBeVisible();
+         |                                                   ^
+      18 |       expect(JSON.parse(await page.locator("#recovery-raw").inputValue())).toMatchObject(storage);
+      19 |       await expect(page.locator("#recovery-download")).toBeVisible();
+      20 |       const download = page.waitForEvent("download");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:17:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reco-e8314-offers-prior-good-selection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.v1 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        13 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-e7ebb-t-malevolentCrawler-save-v1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-e7ebb-t-malevolentCrawler-save-v1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-e7ebb-t-malevolentCrawler-save-v1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-e7ebb-t-malevolentCrawler-save-v1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.previous.v1 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        12 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-9d1ca-entCrawler-save-previous-v1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-9d1ca-entCrawler-save-previous-v1-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-9d1ca-entCrawler-save-previous-v1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-9d1ca-entCrawler-save-previous-v1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at playerData ─────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        13 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-playerData-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-exception-at-playerData-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-playerData-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-exception-at-playerData-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at dungeonData ────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        13 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-dungeonData-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-exception-at-dungeonData-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-dungeonData-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-exception-at-dungeonData-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at enemyData ──────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        13 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-enemyData-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-exception-at-enemyData-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-enemyData-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-exception-at-enemyData-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at volumeData ────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#boot-status')
+    Expected substring: "read-failed"
+    Received string:    "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#boot-status') with timeout 5000ms
+      - waiting for locator('#boot-status')
+        12 × locator resolved to <p role="alert" id="boot-status">Unable to load your saved progress safely. Your e…</p>
+           - unexpected value "Unable to load your saved progress safely. Your existing data has not been replaced. Retry loading to continue."
+
+
+      39 |     const fixture = await recoveryFixture(browser, resting.raw, {method: "getItem", key});
+      40 |     try {
+    > 41 |       await expect(fixture.page.locator("#boot-status")).toContainText("read-failed");
+         |                                                          ^
+      42 |       await expect(fixture.page.locator("#recovery-raw")).toBeVisible();
+      43 |       expect(await fixture.page.evaluate(() => ({...localStorage}))).toEqual(resting.raw); // Independent raw snapshot.
+      44 |     } finally { await fixture.dispose(); }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:41:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-volumeData-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-read-exception-at-volumeData-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-read-exception-at-volumeData-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-read-exception-at-volumeData-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.v1 write supports export and retry 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:70:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-unsa-33447-e-supports-export-and-retry-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-unsa-33447-e-supports-export-and-retry-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-unsa-33447-e-supports-export-and-retry-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-unsa-33447-e-supports-export-and-retry-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:70:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-unsa-a4393-e-supports-export-and-retry-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-unsa-a4393-e-supports-export-and-retry-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-unsa-a4393-e-supports-export-and-retry-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-unsa-a4393-e-supports-export-and-retry-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [chromium] › tests/browser/save-recovery.spec.mjs:74:1 › retained-character recovery resets only after confirmation 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Test ended.
+    Browser logs:
+
+    <launching> /Users/oberon/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/playwright_chromiumdev_profile-Gb7IEs --remote-debugging-pipe --no-startup-window
+    <launched> pid=6674
+    [pid=6674][err] [1008/102335.842707:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=6674][err] [1008/102335.867396:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+    [pid=6674] <gracefully close start>
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/save-recovery.spec.mjs:85:15
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reta-5d2d5-ets-only-after-confirmation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-save-recovery-reta-5d2d5-ets-only-after-confirmation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-save-recovery-reta-5d2d5-ets-only-after-confirmation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-save-recovery-reta-5d2d5-ets-only-after-confirmation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard resolve ──────────
+
+    Error: expect(locator).not.toHaveText(expected) failed
+
+    Locator:  locator('#copy-export')
+    Expected: not "Copied!"
+    Received: "Copied!"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "not toHaveText" locator('#copy-export') with timeout 5000ms
+      - waiting for locator('#copy-export')
+        14 × locator resolved to <button id="copy-export">Copied!</button>
+           - unexpected value "Copied!"
+
+
+      26 |       await page.locator("#copy-export").click();
+      27 |       if (mode !== "unavailable") {
+    > 28 |         await expect(page.locator("#copy-export")).not.toHaveText("Copied!");
+         |                                                        ^
+      29 |         await page.evaluate((mode) => mode === "resolve" ? globalThis.__copyResolve() : globalThis.__copyReject(new Error("denied")), mode); // Settle the requested clipboard result.
+      30 |       }
+      31 |       await expect(page.locator("#exchange-status")).toContainText(mode === "resolve" ? "Copied" : "Copy unavailable");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/clipboard-conflict.spec.mjs:28:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-resolve-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-clipboard-conflict-clipboard-resolve-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-resolve-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-clipboard-conflict-clipboard-resolve-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard reject ───────────
+
+    Error: expect(locator).not.toHaveText(expected) failed
+
+    Locator:  locator('#copy-export')
+    Expected: not "Copied!"
+    Received: "Copied!"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "not toHaveText" locator('#copy-export') with timeout 5000ms
+      - waiting for locator('#copy-export')
+        14 × locator resolved to <button id="copy-export">Copied!</button>
+           - unexpected value "Copied!"
+
+
+      26 |       await page.locator("#copy-export").click();
+      27 |       if (mode !== "unavailable") {
+    > 28 |         await expect(page.locator("#copy-export")).not.toHaveText("Copied!");
+         |                                                        ^
+      29 |         await page.evaluate((mode) => mode === "resolve" ? globalThis.__copyResolve() : globalThis.__copyReject(new Error("denied")), mode); // Settle the requested clipboard result.
+      30 |       }
+      31 |       await expect(page.locator("#exchange-status")).toContainText(mode === "resolve" ? "Copied" : "Copy unavailable");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/clipboard-conflict.spec.mjs:28:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-reject-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-clipboard-conflict-clipboard-reject-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-reject-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-clipboard-conflict-clipboard-reject-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard unavailable ──────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#exchange-status')
+    Expected substring: "Copy unavailable"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" locator('#exchange-status') with timeout 5000ms
+      - waiting for locator('#exchange-status')
+
+
+      29 |         await page.evaluate((mode) => mode === "resolve" ? globalThis.__copyResolve() : globalThis.__copyReject(new Error("denied")), mode); // Settle the requested clipboard result.
+      30 |       }
+    > 31 |       await expect(page.locator("#exchange-status")).toContainText(mode === "resolve" ? "Copied" : "Copy unavailable");
+         |                                                      ^
+      32 |       await expect(page.locator("#export-download")).toBeVisible();
+      33 |       expect(await page.locator("#export-input").inputValue()).toMatch(/^MC1:/);
+      34 |       expect(await page.evaluate(() => ({...localStorage}))).toEqual(before); // No copy-induced save revision.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/clipboard-conflict.spec.mjs:31:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-unavailable-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-clipboard-conflict-clipboard-unavailable-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conflict-clipboard-unavailable-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-clipboard-conflict-clipboard-unavailable-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=true exposes reload or export 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#save-status')
+    Expected substring: "another tab"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" locator('#save-status') with timeout 5000ms
+      - waiting for locator('#save-status')
+
+
+      50 |         else runGameplay(() => { player.gold += 1; }); // Trigger stale-revision detection before backup.
+      51 |       }, {bytes, key: SAVE, event});
+    > 52 |       await expect(page.locator("#save-status")).toContainText("another tab");
+         |                                                  ^
+      53 |       await page.locator("#save-recovery").click();
+      54 |       await expect(page.locator("#conflict-reload")).toBeVisible();
+      55 |       await expect(page.locator("#recovery-download")).toBeVisible();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/clipboard-conflict.spec.mjs:52:50
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conf-ddcdd-ue-exposes-reload-or-export-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-clipboard-conf-ddcdd-ue-exposes-reload-or-export-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conf-ddcdd-ue-exposes-reload-or-export-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-clipboard-conf-ddcdd-ue-exposes-reload-or-export-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=false exposes reload or export 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#save-status')
+    Expected substring: "another tab"
+    Received string:    "Progress is not saved. Keep this tab open to preserve your current session."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#save-status') with timeout 5000ms
+      - waiting for locator('#save-status')
+        14 × locator resolved to <p role="status" id="save-status">Progress is not saved. Keep this tab open to pres…</p>
+           - unexpected value "Progress is not saved. Keep this tab open to preserve your current session."
+
+
+      50 |         else runGameplay(() => { player.gold += 1; }); // Trigger stale-revision detection before backup.
+      51 |       }, {bytes, key: SAVE, event});
+    > 52 |       await expect(page.locator("#save-status")).toContainText("another tab");
+         |                                                  ^
+      53 |       await page.locator("#save-recovery").click();
+      54 |       await expect(page.locator("#conflict-reload")).toBeVisible();
+      55 |       await expect(page.locator("#recovery-download")).toBeVisible();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/clipboard-conflict.spec.mjs:52:50
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conf-e6179-se-exposes-reload-or-export-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-clipboard-conf-e6179-se-exposes-reload-or-export-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-clipboard-conf-e6179-se-exposes-reload-or-export-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-clipboard-conf-e6179-se-exposes-reload-or-export-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18 failed
+    [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves malformed source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsupported source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves partial source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:12:3 › recovery preserves unsafe source and offers prior-good selection 
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.v1 
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at malevolentCrawler.save.previous.v1 
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at playerData ──────────
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at dungeonData ─────────
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at enemyData ───────────
+    [chromium] › tests/browser/save-recovery.spec.mjs:38:3 › read exception at volumeData ──────────
+    [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.v1 write supports export and retry 
+    [chromium] › tests/browser/save-recovery.spec.mjs:49:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry 
+    [chromium] › tests/browser/save-recovery.spec.mjs:74:1 › retained-character recovery resets only after confirmation 
+    [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard resolve ────────────
+    [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard reject ─────────────
+    [chromium] › tests/integration/clipboard-conflict.spec.mjs:15:3 › clipboard unavailable ────────
+    [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=true exposes reload or export 
+    [chromium] › tests/integration/clipboard-conflict.spec.mjs:40:3 › foreign revision event=false exposes reload or export 

@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/narrative-integration.spec.mjs --project=chromium --grep relic labels --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:74340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:74341) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/narrative-integration.spec.mjs:71:1 › relic labels agree across inventory details and sale confirmation (6.7s)
+
+
+  1) [chromium] › tests/browser/narrative-integration.spec.mjs:71:1 › relic labels agree across inventory details and sale confirmation 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#playerInventory')
+    Expected substring: "Tideglass Edge"
+    Received string:    "Common SwordCommon Sword"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#playerInventory') with timeout 5000ms
+      - waiting for locator('#playerInventory')
+        14 × locator resolved to <div id="playerInventory" class="inventorySlots">…</div>
+           - unexpected value "Common SwordCommon Sword"
+
+
+      85 |     );
+      86 |     const label = getRelic(item.category).value.displayName;
+    > 87 |     await expect(p.locator("#playerInventory")).toContainText(label);
+         |                                                 ^
+      88 |     await p.locator("#playerInventory .items").first().click();
+      89 |     await expect(p.locator("#equipmentInfo h3")).toContainText(label);
+      90 |     await p.locator("#sell-equip").click();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:87:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/browser/narrative-integration.spec.mjs:71:1 › relic labels agree across inventory details and sale confirmation 

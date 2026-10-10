@@ -1,0 +1,44 @@
+✔ schema corpus: early (1.191959ms)
+✔ schema corpus: resting (0.22325ms)
+✔ schema corpus: normal (0.234375ms)
+✔ schema corpus: guardian (0.185375ms)
+✔ schema corpus: boss (0.202417ms)
+✔ schema corpus: chest-mimic (0.190167ms)
+✔ schema corpus: door-mimic (0.148042ms)
+✔ schema corpus: variant-1 (0.135833ms)
+✔ schema corpus: variant-2 (0.144125ms)
+✔ schema corpus: fractional-exp (0.166708ms)
+✔ schema corpus: full-duplicate-equipment (0.715375ms)
+✔ schema corpus: optional-null-derived (0.185541ms)
+✔ schema corpus: settled-victory (0.1025ms)
+✔ schema corpus: settled-death (0.09475ms)
+✔ schema corpus: interrupted-player-death (0.115417ms)
+✔ schema corpus: interrupted-enemy-victory (0.099916ms)
+✔ schema corpus: interrupted-missing-enemy (0.093708ms)
+✔ schema corpus: early-player-only (0.097666ms)
+✔ schema corpus: interrupted-malformed-item (0.099458ms)
+✔ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.187875ms)
+✔ adversarial player.lvl: 0 (0.096375ms)
+✔ adversarial player.gold: -1 (0.097ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.099291ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.299084ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.152ms)
+✔ adversarial player.stats.atk: "99" (0.131875ms)
+✔ adversarial enemy.image.name: "../../evil" (0.14775ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.130417ms)
+✔ adversarial enemy.name: "unknown" (0.13975ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.13425ms)
+✔ adversarial dungeon.progress.room: 0 (0.127084ms)
+✔ adversarial volume.bgm: 0.6 (0.204208ms)
+✔ defaults, duplicate holdings, derived/null fields and idempotence (0.978083ms)
+✔ source kinds, early defaults and complete envelopes (1.896333ms)
+✔ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (123.04775ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.808708ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 182.519125

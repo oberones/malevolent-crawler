@@ -1,0 +1,8 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write art/cosmic-horror/batches/skeletons-a/browser-captures.json art/cosmic-horror/batches/skeletons-a/generation.json art/cosmic-horror/batches/skeletons-a/validation.json art/cosmic-horror/batches/skeletons-a/review.md validation/cosmic-horror/phase-4b-skeletons-a.md assets/js/content/messages.mjs
+art/cosmic-horror/batches/skeletons-a/browser-captures.json 19ms (unchanged)
+art/cosmic-horror/batches/skeletons-a/generation.json 5ms (unchanged)
+art/cosmic-horror/batches/skeletons-a/validation.json 1ms
+art/cosmic-horror/batches/skeletons-a/review.md 25ms
+validation/cosmic-horror/phase-4b-skeletons-a.md 9ms (unchanged)
+assets/js/content/messages.mjs 24ms (unchanged)

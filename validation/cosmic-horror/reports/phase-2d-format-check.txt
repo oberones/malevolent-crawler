@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --check assets/js/app tests/unit/save-validation.test.mjs tests/unit/snapshot-store.test.mjs tests/unit/lifecycle.test.mjs tests/unit/transitions.test.mjs tests/integration/safe-render.spec.mjs tests/integration/dialog-service.spec.mjs tests/fixtures/adversarial/saves.json tests/fixtures/services.html specs/001-cosmic-horror-refactor/tasks.md specs/001-cosmic-horror-refactor/quickstart.md validation/cosmic-horror/phase-2d.md validation/cosmic-horror/tdd.md
+Checking formatting...
+All matched files use Prettier code style!

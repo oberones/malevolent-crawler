@@ -1,0 +1,18 @@
+{
+  "corrections": [
+    {
+      "id": "dagger/combat-reward",
+      "browser": "webkit",
+      "viewportWidth": 360,
+      "textScale": 2,
+      "baselineOffset": 29.989013671875
+    },
+    {
+      "id": "flail/combat-reward",
+      "browser": "webkit",
+      "viewportWidth": 360,
+      "textScale": 2,
+      "baselineOffset": 29.989013671875
+    }
+  ]
+}

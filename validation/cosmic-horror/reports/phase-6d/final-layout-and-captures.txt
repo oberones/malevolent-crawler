@@ -1,0 +1,497 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-final-geometry.config.mjs tests/browser/symbol-geometry.spec.mjs tests/browser/collection-reflow.spec.mjs tests/browser/navigation-accessibility.spec.mjs tests/browser/narrative-integration.spec.mjs --workers=3
+[WebServer] (node:56834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] npm warn exec The following package was not found and will be installed: http-server@14.1.1
+[WebServer] npm warn deprecated whatwg-encoding@2.0.0: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+[WebServer] npm notice run npx
+[WebServer] npm notice run 'http-server' . -a 127.0.0.1 -p 4175 -c-1 --silent
+[WebServer] (node:56866) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 51 tests using 3 workers
+
+(node:56878) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56876) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56877) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (5.4s)
+  ✘   1 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (5.4s)
+  ✘   2 [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (5.4s)
+(node:56941) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56943) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (5.3s)
+  ✘   5 [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (5.2s)
+  ✘   6 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (5.2s)
+(node:56997) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56994) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (5.3s)
+  ✘   8 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (5.3s)
+(node:57028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (5.3s)
+(node:57053) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (2.9s)
+  ✘  10 [chromium] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (8.9s)
+  ✘   9 [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (15.5s)
+
+
+  1) [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#title-screen')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+
+
+      20 |     try {
+      21 |       await f.page.goto("/");
+    > 22 |       await expect(f.page.locator("#title-screen")).toBeVisible();
+         |                                                     ^
+      23 |       const failures = await f.page.evaluate(
+      24 |         // Measure text ranges rather than only a clipped element's outer box.
+      25 |         (screen) => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:22:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#title-screen')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+
+
+      20 |     try {
+      21 |       await f.page.goto("/");
+    > 22 |       await expect(f.page.locator("#title-screen")).toBeVisible();
+         |                                                     ^
+      23 |       const failures = await f.page.evaluate(
+      24 |         // Measure text ranges rather than only a clipped element's outer box.
+      25 |         (screen) => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:22:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#title-screen')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+
+
+      23 |     const p = f.page;
+      24 |     await p.goto("/");
+    > 25 |     await expect(p.locator("#title-screen")).toBeVisible();
+         |                                              ^
+      26 |     await p.locator("#title-screen").click();
+      27 |     await expect(p.locator("#dungeon-main")).toBeVisible();
+      28 |     const name = 'Goblin <img src=x onerror="globalThis.injected=true"> $&';
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:25:46
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-3db43-cords-the-last-fifty-events-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#character-creation')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#character-creation') with timeout 5000ms
+      - waiting for locator('#character-creation')
+
+
+      91 |     const p = f.page;
+      92 |     await p.goto("/");
+    > 93 |     await expect(p.locator("#character-creation")).toBeVisible();
+         |                                                    ^
+      94 |     await p.locator("#name-input").fill("Keeper");
+      95 |     await p.locator("#name-submit button").click();
+      96 |     await p.locator("#title-screen").click();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:93:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-17b55-ithout-changing-rule-tokens-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#title-screen')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+
+
+      126 |     const p = f.page;
+      127 |     await p.goto("/");
+    > 128 |     await expect(p.locator("#title-screen")).toBeVisible();
+          |                                              ^
+      129 |     await p.locator("#title-screen").click();
+      130 |     await expect(p.locator("#dungeon-main")).toBeVisible();
+      131 |     const item = await p.evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/narrative-integration.spec.mjs:128:46
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-narrative-integrat-4b4fb-tails-and-sale-confirmation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: /Begin the sounding/ })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: /Begin the sounding/ }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /Begin the sounding/ })
+
+
+      21 |       await p.goto("/");
+      22 |       const title = p.getByRole("button", { name: /Begin the sounding/ });
+    > 23 |       await expect(title).toBeVisible();
+         |                           ^
+      24 |       await title.focus();
+      25 |       await expect(title).toBeFocused();
+      26 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:23:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Enter-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: /Begin the sounding/ })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: /Begin the sounding/ }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /Begin the sounding/ })
+
+
+      21 |       await p.goto("/");
+      22 |       const title = p.getByRole("button", { name: /Begin the sounding/ });
+    > 23 |       await expect(title).toBeVisible();
+         |                           ^
+      24 |       await title.focus();
+      25 |       await expect(title).toBeFocused();
+      26 |       expect(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:23:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Space-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Space-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Space-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessibility-title-activates-with-Space-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('textbox', { name: 'Keeper name' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('textbox', { name: 'Keeper name' }) with timeout 5000ms
+      - waiting for getByRole('textbox', { name: 'Keeper name' })
+
+
+      102 |     const p = f.page;
+      103 |     await p.goto("/");
+    > 104 |     await expect(p.getByRole("textbox", { name: "Keeper name" })).toBeVisible();
+          |                                                                   ^
+      105 |     await p.locator("#name-input").fill("!");
+      106 |     await p.locator("#name-submit button").click();
+      107 |     await expect(p.locator("#alert")).toHaveAttribute("role", "alert");
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:104:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-45c1d-ible-names-and-cancellation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#title-screen')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#title-screen') with timeout 5000ms
+      - waiting for locator('#title-screen')
+
+
+      178 |         if (directory) await mkdir(directory, { recursive: false });
+      179 |         await page.goto("/");
+    > 180 |         await expect(page.locator("#title-screen")).toBeVisible();
+          |                                                     ^
+      181 |         await page.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
+      182 |         await page.clock.pauseAt(new Date("2026-10-06T12:00:01Z"));
+      183 |         // Static geometry must not sample intermediate font-size transitions during reset/scaling.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:180:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment 
+
+    Test was interrupted.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:93:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-7b896-s-focus-without-abandonment-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-7b896-s-focus-without-abandonment-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-7b896-s-focus-without-abandonment-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [chromium] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page 
+
+    Test was interrupted.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/navigation-accessibility.spec.mjs:174:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-4de6e-e-disposal-release-the-page-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-4de6e-e-disposal-release-the-page-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-navigation-accessi-4de6e-e-disposal-release-the-page-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Test was interrupted.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:391:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-final-geometry-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9 failed
+    [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text 
+    [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text 
+    [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events 
+    [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens 
+    [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation 
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter ─
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space ─
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+  3 interrupted
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment 
+    [chromium] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+  39 did not run

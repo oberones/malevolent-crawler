@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: transparent RPG inventory icon for The Bell Beneath Brine.
+Subject: Pilgrim Keel (Kite shield), one tapered hull-shaped ward bearing a single watching pearl. Frontal upright shield with wide rounded shoulders tapering to one clear lower point. Wet slate and aged bronze hull ribs surround a single large pale nacre pearl like a sealed watching eye. Broad bronze rim, sparse verdigris, restrained cosmic unease.
+Style: painterly game item, strong simple silhouette and broad highlights visible at 16px. Palette deep ink #111923, wet slate #43565F, nacre #DED8C6, verdigris #60968B, pitted bronze. Sparse ornament.
+Composition: whole object frontal and centered with narrow safe transparent margin; no cropping. Truly transparent background, clean alpha edge, no scenery or background panel, no cast shadow or diffuse glow.
+Avoid: text, letters, watermarks, hands, wearer, gore, extra objects, spikes, round buckler or rectangular tower outline.

@@ -1,0 +1,1070 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-accessibility.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:16139) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 33 tests using 3 workers
+
+(node:16146) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16144) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16145) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (2.6s)
+  ✓   2 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (2.7s)
+  ✓   3 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (2.7s)
+  ✓   5 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (2.4s)
+  ✓   4 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (2.4s)
+  ✓   6 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (2.4s)
+  ✓   8 [chromium] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.4s)
+  ✓   9 [chromium] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (2.1s)
+  ✓   7 [chromium] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (2.2s)
+(node:16179) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [chromium] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.3s)
+(node:16183) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (2.1s)
+(node:16193) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.9s)
+  ✓  13 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (2.4s)
+  ✓  15 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.5s)
+  ✓  14 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (2.6s)
+  ✓  16 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.5s)
+  ✓  17 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.6s)
+  ✓  18 [firefox] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.5s)
+  ✓  19 [firefox] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.5s)
+  ✓  20 [firefox] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.4s)
+(node:16221) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 [firefox] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.2s)
+(node:16234) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  21 [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (2.0s)
+(node:16242) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.6s)
+  ✓  25 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.3s)
+  ✓  24 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.5s)
+  ✓  26 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.4s)
+  ✓  27 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.2s)
+  ✓  28 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.2s)
+  ✓  29 [webkit] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.1s)
+  ✓  30 [webkit] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (532ms)
+  ✓  31 [webkit] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.2s)
+  ✓  33 [webkit] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.0s)
+  ✘  32 [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (1.9s)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 292
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure touch targets have sufficient size and space",
+    +     "help": "All touch targets must be 24px large, or leave sufficient space",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+    +     "id": "target-size",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Common.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Common.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Uncommon.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Rare.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Epic.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Legendary.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.sensory-and-visual-cues",
+    +       "wcag22aa",
+    +       "wcag258",
+    +     ],
+    +   },
+    + ]
+
+      264 |         .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
+      265 |         .analyze();
+    > 266 |       expect(result.violations).toEqual([]);
+          |                                 ^
+      267 |     }
+      268 |   } finally {
+      269 |     await f.dispose();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:266:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 292
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure touch targets have sufficient size and space",
+    +     "help": "All touch targets must be 24px large, or leave sufficient space",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+    +     "id": "target-size",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Common.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Common.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Uncommon.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Rare.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Epic.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Legendary.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 22.5,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 21,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 22.5px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.sensory-and-visual-cues",
+    +       "wcag22aa",
+    +       "wcag258",
+    +     ],
+    +   },
+    + ]
+
+      264 |         .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
+      265 |         .analyze();
+    > 266 |       expect(result.violations).toEqual([]);
+          |                                 ^
+      267 |     }
+      268 |   } finally {
+      269 |     await f.dispose();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:266:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [firefox] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 672.6666870117188
+    Received:    676.0167236328125
+
+      293 |       list = await f.page.locator("#playerInventory").boundingBox();
+      294 |     expect(row.y).toBeGreaterThanOrEqual(list.y - 0.5);
+    > 295 |     expect(row.y + row.height).toBeLessThanOrEqual(list.y + list.height + 0.5);
+          |                                ^
+      296 |     await control.focus();
+      297 |     await f.page.keyboard.press("Enter");
+      298 |     await expect(f.page.locator("#equipmentInfo")).toBeVisible();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:295:32
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1d089-dable-in-the-existing-modal-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 292
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure touch targets have sufficient size and space",
+    +     "help": "All touch targets must be 24px large, or leave sufficient space",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+    +     "id": "target-size",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Common.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Common\" aria-label=\"Common Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Common.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Uncommon.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Uncommon\" aria-label=\"Uncommon Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Uncommon.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Rare.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Rare\" aria-label=\"Rare Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Rare.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Epic.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Epic\" aria-label=\"Epic Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Epic.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".Legendary.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": Object {
+    +               "height": 21,
+    +               "minSize": 24,
+    +               "width": 231.6,
+    +             },
+    +             "id": "target-size",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)",
+    +             "relatedNodes": Array [],
+    +           },
+    +           Object {
+    +             "data": Object {
+    +               "closestOffset": 18,
+    +               "minOffset": 24,
+    +             },
+    +             "id": "target-offset",
+    +             "impact": "serious",
+    +             "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +             "relatedNodes": Array [
+    +               Object {
+    +                 "html": "<button type=\"button\" class=\"relic-control Legendary\" aria-label=\"Legendary Diving Reliquary Lv.100 Tier 10\">",
+    +                 "target": Array [
+    +                   ".Legendary.relic-control[type=\"button\"]",
+    +                 ],
+    +               },
+    +             ],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Target has insufficient size (231.6px by 21px, should be at least 24px by 24px)
+    +   Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+    +         "html": "<button type=\"button\" class=\"relic-control Heirloom\" aria-label=\"Heirloom Diving Reliquary Lv.100 Tier 10\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".items:nth-child(6) > .Heirloom.relic-control[type=\"button\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.sensory-and-visual-cues",
+    +       "wcag22aa",
+    +       "wcag258",
+    +     ],
+    +   },
+    + ]
+
+      264 |         .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
+      265 |         .analyze();
+    > 266 |       expect(result.violations).toEqual([]);
+          |                                 ^
+      267 |     }
+      268 |   } finally {
+      269 |     await f.dispose();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:266:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+    [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+    [firefox] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal 
+    [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+  29 passed (23.4s)

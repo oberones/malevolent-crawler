@@ -1,0 +1,11 @@
+✔ evidence accepts complete synthetic manual/automated records (2.742209ms)
+✔ evidence refuses fabricated, absent, unresolved and mismatched records (11.558708ms)
+✔ evidence checks justified N/A and every art review obligation (2.334958ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 86.582125

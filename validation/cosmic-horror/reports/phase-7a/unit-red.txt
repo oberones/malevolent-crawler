@@ -1,0 +1,238 @@
+✖ all persisted event templates become typed themed records in sequence (1.859792ms)
+✖ reward panels across all categories retain historical stats without inventing sale values (17.729084ms)
+✖ player names, unknown strings and invalid typed records preserve recoverable originals (0.671833ms)
+✖ migration corpus, defaults, terminal states, exact variants and zero RNG (3.847917ms)
+✖ store maps history, keeps raw bytes, and repeated loads do not reset or award (1.16725ms)
+✖ canonical history recovery survives repeated commits; unsupported versions cannot downgrade (2.284ms)
+✔ only early tuples receive missing sections; mismatched variants enter recovery (1.671333ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 1
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 87.422083
+
+✖ failing tests:
+
+test at tests/unit/legacy-history.test.mjs:30:1
+✖ all persisted event templates become typed themed records in sequence (1.859792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined,
+  +   undefined
+  -   'event.door',
+  -   'event.guardianDoor',
+  -   'event.floor',
+  -   'event.room',
+  -   'event.treasure',
+  -   'event.treasureRoom',
+  -   'event.encounter',
+  -   'event.boss',
+  -   'event.bossChamber',
+  -   'event.fled',
+  -   'event.fleeFailed',
+  -   'event.ignored',
+  -   'event.insufficient',
+  -   'event.emptyChest',
+  -   'event.nothing0',
+  -   'event.nothing1',
+  -   'event.nothing2',
+  -   'event.nothing3',
+  -   'event.nothing4',
+  -   'history.gold',
+  -   'history.offering',
+  -   'history.blackSounding',
+  -   'event.curseGain',
+  -   'event.blessing.hp',
+  -   'event.blessing.atk',
+  -   'event.blessing.def',
+  -   'event.blessing.atkSpd',
+  -   'event.blessing.vamp',
+  -   'event.blessing.critRate',
+  -   'event.blessing.critDmg'
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-history.test.mjs:32:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined,
+      undefined, undefined, undefined
+    ],
+    expected: [
+      'event.door',              'event.guardianDoor',
+      'event.floor',             'event.room',
+      'event.treasure',          'event.treasureRoom',
+      'event.encounter',         'event.boss',
+      'event.bossChamber',       'event.fled',
+      'event.fleeFailed',        'event.ignored',
+      'event.insufficient',      'event.emptyChest',
+      'event.nothing0',          'event.nothing1',
+      'event.nothing2',          'event.nothing3',
+      'event.nothing4',          'history.gold',
+      'history.offering',        'history.blackSounding',
+      'event.curseGain',         'event.blessing.hp',
+      'event.blessing.atk',      'event.blessing.def',
+      'event.blessing.atkSpd',   'event.blessing.vamp',
+      'event.blessing.critRate', 'event.blessing.critDmg'
+    ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-history.test.mjs:38:1
+✖ reward panels across all categories retain historical stats without inventing sale values (17.729084ms)
+  AssertionError [ERR_ASSERTION]: Sword
+  + actual - expected
+  
+  + undefined
+  - 'history.reward'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-history.test.mjs:52:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'history.reward',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-history.test.mjs:63:1
+✖ player names, unknown strings and invalid typed records preserve recoverable originals (0.671833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + 'You encountered Goblin.<script>bad()</script>'
+  - {
+  -   id: 'history.unavailable',
+  -   params: {
+  -     recoveryRef: 'legacy:dungeon.backlog:1'
+  -   }
+  - }
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-history.test.mjs:74:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'You encountered Goblin.<script>bad()</script>',
+    expected: { id: 'history.unavailable', params: { recoveryRef: 'legacy:dungeon.backlog:1' } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-migration.test.mjs:14:1
+✖ migration corpus, defaults, terminal states, exact variants and zero RNG (3.847917ms)
+  AssertionError [ERR_ASSERTION]: early
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-migration.test.mjs:28:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-migration.test.mjs:36:1
+✖ store maps history, keeps raw bytes, and repeated loads do not reset or award (1.16725ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'event.encounter'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-migration.test.mjs:44:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'event.encounter',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/legacy-migration.test.mjs:57:1
+✖ canonical history recovery survives repeated commits; unsupported versions cannot downgrade (2.284ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'event.door'
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-migration.test.mjs:65:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'event.door',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

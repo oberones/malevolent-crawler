@@ -1,0 +1,13 @@
+✔ trusted classic lexical bindings use explicit DOM and ordered random draws (2.482375ms)
+✔ missing DOM selectors fail explicitly (0.844083ms)
+✔ fresh globals and timer disposal are isolated per case (1.213084ms)
+✔ data values are cloned and never interpreted as executable code (1.011ms)
+✔ legacy inclusive integer and decimal calculations use exactly one draw each (1.206834ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50.61475

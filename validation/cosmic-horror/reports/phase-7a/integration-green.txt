@@ -1,0 +1,80 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/bootstrap.spec.mjs tests/integration/transition-commits.spec.mjs tests/integration/narrative-render.spec.mjs --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:68511) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 57 tests using 2 workers
+
+(node:68531) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (300ms)
+  ✓   1 [chromium] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (300ms)
+  ✓   3 [chromium] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (198ms)
+  ✓   4 [chromium] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (253ms)
+  ✓   5 [chromium] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (1.1s)
+  ✓   7 [chromium] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (124ms)
+  ✓   8 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (362ms)
+  ✓   9 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (365ms)
+  ✓  10 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (367ms)
+  ✓  11 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (365ms)
+  ✓  12 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (482ms)
+  ✓  13 [chromium] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (220ms)
+  ✓  14 [chromium] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (183ms)
+  ✓  15 [chromium] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (455ms)
+  ✓  16 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (437ms)
+  ✓  17 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (420ms)
+  ✓   6 [chromium] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (5.3s)
+  ✓  18 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (386ms)
+(node:68575) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (403ms)
+(node:68577) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [firefox] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (945ms)
+  ✓  22 [firefox] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (259ms)
+  ✓  21 [firefox] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (919ms)
+  ✓  23 [firefox] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (291ms)
+  ✓  24 [firefox] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (1.2s)
+  ✓  26 [firefox] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (196ms)
+  ✓  27 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (401ms)
+  ✓  28 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (487ms)
+  ✓  29 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (491ms)
+  ✓  30 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (414ms)
+  ✓  31 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (520ms)
+  ✓  32 [firefox] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (309ms)
+  ✓  33 [firefox] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (789ms)
+  ✓  34 [firefox] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (311ms)
+  ✓  25 [firefox] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (5.1s)
+  ✓  35 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (438ms)
+  ✓  36 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (494ms)
+  ✓  37 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (567ms)
+  ✓  38 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (545ms)
+(node:68614) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  39 [webkit] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (689ms)
+  ✓  40 [webkit] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (502ms)
+  ✓  41 [webkit] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (319ms)
+  ✓  42 [webkit] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (326ms)
+  ✓  43 [webkit] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (1.0s)
+  ✓  45 [webkit] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (202ms)
+  ✓  46 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (448ms)
+  ✓  47 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (444ms)
+  ✓  48 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (442ms)
+  ✓  49 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (509ms)
+  ✓  50 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (463ms)
+  ✓  51 [webkit] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (300ms)
+  ✓  52 [webkit] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (319ms)
+  ✓  53 [webkit] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (294ms)
+  ✓  44 [webkit] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (4.9s)
+  ✓  54 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (471ms)
+  ✓  55 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (495ms)
+  ✓  56 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (509ms)
+  ✓  57 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (497ms)
+
+  57 passed (22.7s)

@@ -1,0 +1,995 @@
+{
+  "schemaVersion": 1,
+  "baselineRevision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+  "cases": [
+    {
+      "id": "early",
+      "encoding": "legacy Latin-1 Base64 JSON player only",
+      "text": "eyJuYW1lIjoiTWFyaW5lciIsImx2bCI6MSwic3RhdHMiOnsiaHAiOjUwMCwiaHBNYXgiOjUwMCwiYXRrIjoxMDAsImRlZiI6NTAsInBlbiI6bnVsbCwiYXRrU3BkIjowLjYsInZhbXAiOjAsImNyaXRSYXRlIjowLCJjcml0RG1nIjo1MH0sImJhc2VTdGF0cyI6eyJocCI6NTAwLCJhdGsiOjEwMCwiZGVmIjo1MCwicGVuIjowLCJhdGtTcGQiOjAuNiwidmFtcCI6MCwiY3JpdFJhdGUiOjAsImNyaXREbWciOjUwfSwiZXF1aXBwZWRTdGF0cyI6eyJocCI6MCwiYXRrIjowLCJkZWYiOjAsInBlbiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MCwiaHBQY3QiOjAsImF0a1BjdCI6MCwiZGVmUGN0IjowLCJwZW5QY3QiOjB9LCJib251c1N0YXRzIjp7ImhwIjowLCJhdGsiOjAsImRlZiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MH0sImV4cCI6eyJleHBDdXJyIjowLCJleHBNYXgiOjEwMCwiZXhwQ3Vyckx2bCI6MCwiZXhwTWF4THZsIjoxMDAsImx2bEdhaW5lZCI6MH0sImludmVudG9yeSI6eyJjb25zdW1hYmxlcyI6W10sImVxdWlwbWVudCI6W119LCJlcXVpcHBlZCI6W10sImdvbGQiOjAsInBsYXl0aW1lIjowLCJraWxscyI6MCwiZGVhdGhzIjowLCJpbkNvbWJhdCI6ZmFsc2V9",
+      "player": {
+        "name": "Mariner",
+        "lvl": 1,
+        "stats": {
+          "hp": 500,
+          "hpMax": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": null,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "baseStats": {
+          "hp": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": 0,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "equippedStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "pen": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0,
+          "hpPct": 0,
+          "atkPct": 0,
+          "defPct": 0,
+          "penPct": 0
+        },
+        "bonusStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0
+        },
+        "exp": {
+          "expCurr": 0,
+          "expMax": 100,
+          "expCurrLvl": 0,
+          "expMaxLvl": 100,
+          "lvlGained": 0
+        },
+        "inventory": {
+          "consumables": [],
+          "equipment": []
+        },
+        "equipped": [],
+        "gold": 0,
+        "playtime": 0,
+        "kills": 0,
+        "deaths": 0,
+        "inCombat": false
+      },
+      "confirmedResetState": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "blessing": 1,
+          "skills": []
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 1,
+          "bgm": 0.4,
+          "sfx": 1
+        }
+      }
+    },
+    {
+      "id": "normal",
+      "encoding": "legacy Latin-1 Base64 JSON player only",
+      "text": "eyJuYW1lIjoiTWFyaW5lciIsImx2bCI6MSwic3RhdHMiOnsiaHAiOjUwMCwiaHBNYXgiOjUwMCwiYXRrIjoxMDAsImRlZiI6NTAsInBlbiI6bnVsbCwiYXRrU3BkIjowLjYsInZhbXAiOjAsImNyaXRSYXRlIjowLCJjcml0RG1nIjo1MH0sImJhc2VTdGF0cyI6eyJocCI6NTAwLCJhdGsiOjEwMCwiZGVmIjo1MCwicGVuIjowLCJhdGtTcGQiOjAuNiwidmFtcCI6MCwiY3JpdFJhdGUiOjAsImNyaXREbWciOjUwfSwiZXF1aXBwZWRTdGF0cyI6eyJocCI6MCwiYXRrIjowLCJkZWYiOjAsInBlbiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MCwiaHBQY3QiOjAsImF0a1BjdCI6MCwiZGVmUGN0IjowLCJwZW5QY3QiOjB9LCJib251c1N0YXRzIjp7ImhwIjowLCJhdGsiOjAsImRlZiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MH0sImV4cCI6eyJleHBDdXJyIjowLCJleHBNYXgiOjEwMCwiZXhwQ3Vyckx2bCI6MCwiZXhwTWF4THZsIjoxMDAsImx2bEdhaW5lZCI6MH0sImludmVudG9yeSI6eyJjb25zdW1hYmxlcyI6W10sImVxdWlwbWVudCI6W119LCJlcXVpcHBlZCI6W10sImdvbGQiOjAsInBsYXl0aW1lIjowLCJraWxscyI6MCwiZGVhdGhzIjowLCJpbkNvbWJhdCI6dHJ1ZSwiYWxsb2NhdGVkIjp0cnVlLCJza2lsbHMiOlsiUmVtbmFudCBSYXpvciJdLCJibGVzc2luZyI6MSwidGVtcFN0YXRzIjp7ImF0ayI6MCwiYXRrU3BkIjowfX0=",
+      "player": {
+        "name": "Mariner",
+        "lvl": 1,
+        "stats": {
+          "hp": 500,
+          "hpMax": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": null,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "baseStats": {
+          "hp": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": 0,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "equippedStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "pen": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0,
+          "hpPct": 0,
+          "atkPct": 0,
+          "defPct": 0,
+          "penPct": 0
+        },
+        "bonusStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0
+        },
+        "exp": {
+          "expCurr": 0,
+          "expMax": 100,
+          "expCurrLvl": 0,
+          "expMaxLvl": 100,
+          "lvlGained": 0
+        },
+        "inventory": {
+          "consumables": [],
+          "equipment": []
+        },
+        "equipped": [],
+        "gold": 0,
+        "playtime": 0,
+        "kills": 0,
+        "deaths": 0,
+        "inCombat": true,
+        "allocated": true,
+        "skills": ["Remnant Razor"],
+        "blessing": 1,
+        "tempStats": {
+          "atk": 0,
+          "atkSpd": 0
+        }
+      },
+      "confirmedResetState": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "skills": [],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      }
+    },
+    {
+      "id": "full-duplicate-equipment",
+      "encoding": "legacy Latin-1 Base64 JSON player only",
+      "text": "eyJuYW1lIjoiTeFyaW4g/yIsImx2bCI6OSwic3RhdHMiOnsiaHAiOjUwMCwiaHBNYXgiOjUwMCwiYXRrIjoxMDAsImRlZiI6NTAsInBlbiI6bnVsbCwiYXRrU3BkIjowLjYsInZhbXAiOjAsImNyaXRSYXRlIjowLCJjcml0RG1nIjo1MH0sImJhc2VTdGF0cyI6eyJocCI6NTAwLCJhdGsiOjEwMCwiZGVmIjo1MCwicGVuIjowLCJhdGtTcGQiOjAuNiwidmFtcCI6MCwiY3JpdFJhdGUiOjAsImNyaXREbWciOjUwfSwiZXF1aXBwZWRTdGF0cyI6eyJocCI6MCwiYXRrIjowLCJkZWYiOjAsInBlbiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MCwiaHBQY3QiOjAsImF0a1BjdCI6MCwiZGVmUGN0IjowLCJwZW5QY3QiOjB9LCJib251c1N0YXRzIjp7ImhwIjoxMiwiYXRrIjo4LCJkZWYiOjYsImF0a1NwZCI6MywidmFtcCI6MC41LCJjcml0UmF0ZSI6MSwiY3JpdERtZyI6Mn0sImV4cCI6eyJleHBDdXJyIjo3NzcsImV4cE1heCI6MTAwMCwiZXhwQ3Vyckx2bCI6NzcsImV4cE1heEx2bCI6MzAwLCJsdmxHYWluZWQiOjJ9LCJpbnZlbnRvcnkiOnsiY29uc3VtYWJsZXMiOltdLCJlcXVpcG1lbnQiOlsie1wiY2F0ZWdvcnlcIjpcIlN3b3JkXCIsXCJhdHRyaWJ1dGVcIjpcIkRhbWFnZVwiLFwidHlwZVwiOlwiV2VhcG9uXCIsXCJyYXJpdHlcIjpcIkNvbW1vblwiLFwibHZsXCI6MSxcInRpZXJcIjoxLFwidmFsdWVcIjo3NSxcInN0YXRzXCI6W3tcImF0a1wiOjEwfV19Iiwie1wiY2F0ZWdvcnlcIjpcIlN3b3JkXCIsXCJhdHRyaWJ1dGVcIjpcIkRhbWFnZVwiLFwidHlwZVwiOlwiV2VhcG9uXCIsXCJyYXJpdHlcIjpcIkNvbW1vblwiLFwibHZsXCI6MSxcInRpZXJcIjoxLFwidmFsdWVcIjo3NSxcInN0YXRzXCI6W3tcImF0a1wiOjEwfV19Il19LCJlcXVpcHBlZCI6W3siY2F0ZWdvcnkiOiJTd29yZCIsImF0dHJpYnV0ZSI6IkRhbWFnZSIsInR5cGUiOiJXZWFwb24iLCJyYXJpdHkiOiJDb21tb24iLCJsdmwiOjEsInRpZXIiOjEsInZhbHVlIjo3NSwic3RhdHMiOlt7ImF0ayI6MTB9XX0seyJjYXRlZ29yeSI6IlN3b3JkIiwiYXR0cmlidXRlIjoiRGFtYWdlIiwidHlwZSI6IldlYXBvbiIsInJhcml0eSI6IkNvbW1vbiIsImx2bCI6MSwidGllciI6MSwidmFsdWUiOjc1LCJzdGF0cyI6W3siYXRrIjoxMH1dfSx7ImNhdGVnb3J5IjoiU3dvcmQiLCJhdHRyaWJ1dGUiOiJEYW1hZ2UiLCJ0eXBlIjoiV2VhcG9uIiwicmFyaXR5IjoiQ29tbW9uIiwibHZsIjoxLCJ0aWVyIjoxLCJ2YWx1ZSI6NzUsInN0YXRzIjpbeyJhdGsiOjEwfV19LHsiY2F0ZWdvcnkiOiJTd29yZCIsImF0dHJpYnV0ZSI6IkRhbWFnZSIsInR5cGUiOiJXZWFwb24iLCJyYXJpdHkiOiJDb21tb24iLCJsdmwiOjEsInRpZXIiOjEsInZhbHVlIjo3NSwic3RhdHMiOlt7ImF0ayI6MTB9XX0seyJjYXRlZ29yeSI6IlN3b3JkIiwiYXR0cmlidXRlIjoiRGFtYWdlIiwidHlwZSI6IldlYXBvbiIsInJhcml0eSI6IkNvbW1vbiIsImx2bCI6MSwidGllciI6MSwidmFsdWUiOjc1LCJzdGF0cyI6W3siYXRrIjoxMH1dfSx7ImNhdGVnb3J5IjoiU3dvcmQiLCJhdHRyaWJ1dGUiOiJEYW1hZ2UiLCJ0eXBlIjoiV2VhcG9uIiwicmFyaXR5IjoiQ29tbW9uIiwibHZsIjoxLCJ0aWVyIjoxLCJ2YWx1ZSI6NzUsInN0YXRzIjpbeyJhdGsiOjEwfV19XSwiZ29sZCI6MTIzNDUsInBsYXl0aW1lIjozMjEuNSwia2lsbHMiOjM3LCJkZWF0aHMiOjQsImluQ29tYmF0IjpmYWxzZSwiYWxsb2NhdGVkIjp0cnVlLCJza2lsbHMiOlsiUmVtbmFudCBSYXpvciJdLCJibGVzc2luZyI6MywidGVtcFN0YXRzIjp7ImF0ayI6MCwiYXRrU3BkIjowfX0=",
+      "player": {
+        "name": "Márin ÿ",
+        "lvl": 9,
+        "stats": {
+          "hp": 500,
+          "hpMax": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": null,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "baseStats": {
+          "hp": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": 0,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "equippedStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "pen": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0,
+          "hpPct": 0,
+          "atkPct": 0,
+          "defPct": 0,
+          "penPct": 0
+        },
+        "bonusStats": {
+          "hp": 12,
+          "atk": 8,
+          "def": 6,
+          "atkSpd": 3,
+          "vamp": 0.5,
+          "critRate": 1,
+          "critDmg": 2
+        },
+        "exp": {
+          "expCurr": 777,
+          "expMax": 1000,
+          "expCurrLvl": 77,
+          "expMaxLvl": 300,
+          "lvlGained": 2
+        },
+        "inventory": {
+          "consumables": [],
+          "equipment": [
+            "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}",
+            "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+          ]
+        },
+        "equipped": [
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          },
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          },
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          },
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          },
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          },
+          {
+            "category": "Sword",
+            "attribute": "Damage",
+            "type": "Weapon",
+            "rarity": "Common",
+            "lvl": 1,
+            "tier": 1,
+            "value": 75,
+            "stats": [
+              {
+                "atk": 10
+              }
+            ]
+          }
+        ],
+        "gold": 12345,
+        "playtime": 321.5,
+        "kills": 37,
+        "deaths": 4,
+        "inCombat": false,
+        "allocated": true,
+        "skills": ["Remnant Razor"],
+        "blessing": 3,
+        "tempStats": {
+          "atk": 0,
+          "atkSpd": 0
+        }
+      },
+      "confirmedResetState": {
+        "player": {
+          "name": "Márin ÿ",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": [
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}",
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+            ]
+          },
+          "equipped": [
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            }
+          ],
+          "gold": 12345,
+          "playtime": 321.5,
+          "kills": 37,
+          "deaths": 4,
+          "inCombat": false,
+          "skills": [],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      }
+    },
+    {
+      "id": "optional-null-derived",
+      "encoding": "legacy Latin-1 Base64 JSON player only",
+      "text": "eyJuYW1lIjoiTWFyaW5lciIsImx2bCI6MSwic3RhdHMiOnsiaHAiOjUwMCwiaHBNYXgiOjUwMCwiYXRrIjoxMDAsImRlZiI6NTAsInBlbiI6bnVsbCwiYXRrU3BkIjowLjYsInZhbXAiOjAsImNyaXRSYXRlIjowLCJjcml0RG1nIjo1MCwiaHBQZXJjZW50IjoiMTAwIn0sImJhc2VTdGF0cyI6eyJocCI6NTAwLCJhdGsiOjEwMCwiZGVmIjo1MCwicGVuIjowLCJhdGtTcGQiOjAuNiwidmFtcCI6MCwiY3JpdFJhdGUiOjAsImNyaXREbWciOjUwfSwiZXF1aXBwZWRTdGF0cyI6eyJocCI6MCwiYXRrIjowLCJkZWYiOjAsInBlbiI6MCwiYXRrU3BkIjowLCJ2YW1wIjowLCJjcml0UmF0ZSI6MCwiY3JpdERtZyI6MCwiaHBQY3QiOjAsImF0a1BjdCI6MCwiZGVmUGN0IjowfSwiYm9udXNTdGF0cyI6eyJocCI6MCwiYXRrIjowLCJkZWYiOjAsImF0a1NwZCI6MCwidmFtcCI6MCwiY3JpdFJhdGUiOjAsImNyaXREbWciOjB9LCJleHAiOnsiZXhwQ3VyciI6MCwiZXhwTWF4IjoxMDAsImV4cEN1cnJMdmwiOjAsImV4cE1heEx2bCI6MTAwLCJsdmxHYWluZWQiOjAsImV4cFBlcmNlbnQiOiIwIn0sImludmVudG9yeSI6eyJjb25zdW1hYmxlcyI6W10sImVxdWlwbWVudCI6WyJ7XCJjYXRlZ29yeVwiOlwiU3dvcmRcIixcImF0dHJpYnV0ZVwiOlwiRGFtYWdlXCIsXCJ0eXBlXCI6XCJXZWFwb25cIixcInJhcml0eVwiOlwiQ29tbW9uXCIsXCJsdmxcIjoxLFwidmFsdWVcIjo3NSxcInN0YXRzXCI6W3tcImF0a1wiOjEwfV19Il19LCJlcXVpcHBlZCI6W10sImdvbGQiOjAsInBsYXl0aW1lIjowLCJraWxscyI6MCwiZGVhdGhzIjowLCJpbkNvbWJhdCI6ZmFsc2UsImFsbG9jYXRlZCI6dHJ1ZX0=",
+      "player": {
+        "name": "Mariner",
+        "lvl": 1,
+        "stats": {
+          "hp": 500,
+          "hpMax": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": null,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50,
+          "hpPercent": "100"
+        },
+        "baseStats": {
+          "hp": 500,
+          "atk": 100,
+          "def": 50,
+          "pen": 0,
+          "atkSpd": 0.6,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 50
+        },
+        "equippedStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "pen": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0,
+          "hpPct": 0,
+          "atkPct": 0,
+          "defPct": 0
+        },
+        "bonusStats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "atkSpd": 0,
+          "vamp": 0,
+          "critRate": 0,
+          "critDmg": 0
+        },
+        "exp": {
+          "expCurr": 0,
+          "expMax": 100,
+          "expCurrLvl": 0,
+          "expMaxLvl": 100,
+          "lvlGained": 0,
+          "expPercent": "0"
+        },
+        "inventory": {
+          "consumables": [],
+          "equipment": [
+            "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+          ]
+        },
+        "equipped": [],
+        "gold": 0,
+        "playtime": 0,
+        "kills": 0,
+        "deaths": 0,
+        "inCombat": false,
+        "allocated": true
+      },
+      "confirmedResetState": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50,
+            "hpPercent": "100"
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": [
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+            ]
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "blessing": 1,
+          "skills": []
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      }
+    }
+  ]
+}

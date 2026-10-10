@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: transparent small RPG inventory icon for The Bell Beneath Brine.
+Subject: Tidepool Disc (Buckler), one small round ward enclosing concentric nacre rings. Frontal circular shield, broad thick bronze outer rim around three readable concentric pale shell rings and a dark slate central boss. Salt worn coastal relic with sparse verdigris; unsettling concentric tidal geometry.
+Style: painterly game item, simple strong circular silhouette, broad nacre and bronze highlights against deep ink #111923 and wet slate #43565F, subdued verdigris #60968B. Sparse detail, designed for recognition at 16px.
+Composition: full object centered face-on, narrow safe transparent margin on all sides, circular outline entirely intact, no cropping. Genuine transparent background, clean alpha edges, no external shadow or glow.
+Avoid: text, runes, letters, watermark, hands, wearer, scenery, background panel, blood, gore, extra objects, spikes, rectangular or pointed shield silhouette.

@@ -1,0 +1,29 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/measure-symbols.spec.mjs --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:10683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:10684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (270ms)
+  ✓   2 [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (102ms)
+  ✓   3 [chromium] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (66ms)
+  ✓   4 [chromium] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (68ms)
+(node:10707) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [firefox] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (682ms)
+  ✓   6 [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (284ms)
+  ✓   7 [firefox] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (145ms)
+  ✓   8 [firefox] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (144ms)
+(node:10733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [webkit] › tests/integration/measure-symbols.spec.mjs:11:1 › geometry, spacing, baseline and font metadata are measured without mutation (585ms)
+  ✓  10 [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › missing, ambiguous and hidden selectors reject (203ms)
+  ✓  11 [webkit] › tests/integration/measure-symbols.spec.mjs:37:1 › font readiness is awaited and a missing declared face rejects (171ms)
+  ✓  12 [webkit] › tests/integration/measure-symbols.spec.mjs:45:1 › baseline writes preserve existing bytes (164ms)
+
+  12 passed (5.6s)

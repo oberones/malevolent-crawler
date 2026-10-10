@@ -1,0 +1,50 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/symbol-baseline-regression.spec.mjs --project=webkit --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:11970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:11971) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [webkit] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.1s)
+
+
+  1) [webkit] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 29.989013671875
+    Received: 31.692138671875
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   1.703125
+
+      71 |       },
+      72 |     );
+    > 73 |     expect(row.baselineOffset).toBeCloseTo(settled, 1);
+         |                                ^
+      74 |   } finally {
+      75 |     await f.dispose();
+      76 |   }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/symbol-baseline-regression.spec.mjs:73:32
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-symbol-baselin-1fd1f-seline-coordinates-together-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-symbol-baselin-1fd1f-seline-coordinates-together-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-symbol-baselin-1fd1f-seline-coordinates-together-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-symbol-baselin-1fd1f-seline-coordinates-together-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [webkit] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together 

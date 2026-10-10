@@ -1,0 +1,59 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/recovery-accessibility.spec.mjs --project=chromium --workers=2
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:7135) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+(node:7136) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7137) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/browser/recovery-accessibility.spec.mjs:23:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (2.3s)
+  ✘  2 [chromium] › tests/browser/recovery-accessibility.spec.mjs:5:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (5.2s)
+
+
+  1) [chromium] › tests/browser/recovery-accessibility.spec.mjs:5:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('#recovery-cancel')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" locator('#recovery-cancel') with timeout 5000ms
+      - waiting for locator('#recovery-cancel')
+        14 × locator resolved to <button id="recovery-cancel">Cancel</button>
+           - unexpected value "inactive"
+
+
+      12 |     await page.locator("#recover-previous").focus();
+      13 |     await page.keyboard.press("Enter");
+    > 14 |     await expect(page.locator("#recovery-cancel")).toBeFocused();
+         |                                                    ^
+      15 |     await page.keyboard.press("Escape");
+      16 |     await expect(page.locator("#recover-previous")).toBeFocused();
+      17 |     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true); // Check document reflow, not screenshot appearance.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/recovery-accessibility.spec.mjs:14:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-recovery-accessibi-0eebb-h-focus-and-reflows-at-200--chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-recovery-accessibi-0eebb-h-focus-and-reflows-at-200--chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-recovery-accessibi-0eebb-h-focus-and-reflows-at-200--chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-recovery-accessibi-0eebb-h-focus-and-reflows-at-200--chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/recovery-accessibility.spec.mjs:5:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% 
+  1 passed (6.1s)

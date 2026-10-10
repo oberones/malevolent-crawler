@@ -1,0 +1,33 @@
+✔ classic ownership declarations remain legal (64.182125ms)
+✔ classic scripts can use the documented shared owners (5.916625ms)
+✔ browser modules reject ambient engine and Node bindings (7.2415ms)
+✔ tool modules get Node capabilities but no DOM (4.482375ms)
+✔ undeclared assignments stay errors in every scope (3.453ms)
+✖ trusted classic fixture scope accepts declared exports and rejects implicit writes (3.390208ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 169.721125
+
+✖ failing tests:
+
+test at tests/unit/tooling-scopes.test.mjs:72:1
+✖ trusted classic fixture scope accepts declared exports and rejects implicit writes (3.390208ms)
+  AssertionError [ERR_ASSERTION]: [{"ruleId":"no-unused-vars","severity":2,"message":"'probe' is assigned a value but never used.","line":2,"column":7,"messageId":"unusedVar","endLine":2,"endColumn":12,"suggestions":[{"messageId":"removeVar","data":{"varName":"probe"},"fix":{"range":[21,68],"text":""},"desc":"Remove unused variable 'probe'."}]},{"ruleId":"no-undef","severity":2,"message":"'document' is not defined.","line":2,"column":15,"messageId":"undef","endLine":2,"endColumn":23}]
+  
+  2 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/tooling-scopes.test.mjs:74:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,1652 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration tests/browser --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:18148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 756 tests using 3 workers
+
+(node:18194) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18195) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    2 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (4.8s)
+  ✓    1 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (4.8s)
+  ✓    3 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (4.9s)
+  ✓    5 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (3.8s)
+  ✓    4 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (3.8s)
+  ✓    6 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (3.8s)
+  ✓    9 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (773ms)
+  ✓   10 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (482ms)
+  ✓   11 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (1.3s)
+  ✓    7 [chromium] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (3.2s)
+  ✓    8 [chromium] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (3.4s)
+  ✓   14 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (1.4s)
+  ✓   12 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (2.7s)
+  ✓   13 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (2.5s)
+  ✓   17 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.1s)
+  ✓   16 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.4s)
+  ✓   15 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (2.2s)
+  ✓   19 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (250ms)
+  ✓   20 [chromium] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (205ms)
+  ✓   18 [chromium] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.5s)
+  ✓   23 [chromium] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health (236ms)
+  ✓   22 [chromium] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (1.8s)
+  ✓   21 [chromium] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (2.5s)
+  ✓   24 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 100% text (3.2s)
+  ✓   25 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 200% text (3.3s)
+  ✓   26 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 100% text (3.1s)
+  ✓   27 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 200% text (3.3s)
+  ✓   30 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 100% text (209ms)
+  ✓   28 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 100% text (3.2s)
+  ✓   31 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 200% text (205ms)
+  ✓   33 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 200% text (244ms)
+  ✓   32 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 100% text (252ms)
+  ✓   35 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 200% text (234ms)
+  ✓   34 [chromium] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 100% text (241ms)
+  ✓   29 [chromium] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 200% text (3.3s)
+  ✓   36 [chromium] › tests/browser/encounters.spec.mjs:396:1 › encounter triggers and attacks preserve captured numeric outcomes (857ms)
+  ✓   37 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (1.8s)
+  ✓   38 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (1.8s)
+  ✓   39 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.6s)
+  ✓   41 [chromium] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (5.6s)
+  ✓   42 [chromium] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (4.9s)
+  ✓   40 [chromium] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (7.0s)
+  ✓   43 [chromium] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (3.2s)
+  ✓   46 [chromium] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (229ms)
+  ✓   44 [chromium] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (3.6s)
+  ✓   45 [chromium] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (3.4s)
+  ✓   47 [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (3.3s)
+  ✓   49 [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.4s)
+  ✓   50 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (3.1s)
+  ✓   51 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (2.8s)
+  ✓   48 [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (5.6s)
+  ✓   52 [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (2.4s)
+  ✓   54 [chromium] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (2.3s)
+  ✓   55 [chromium] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (217ms)
+  ✓   57 [chromium] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes (541ms)
+  ✓   58 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (3.4s)
+  ✓   56 [chromium] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (4.1s)
+  ✓   53 [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (7.1s)
+  ✓   59 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (3.1s)
+  ✓   60 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (3.0s)
+  ✓   61 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (2.9s)
+  ✓   62 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (3.5s)
+  ✓   63 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (3.5s)
+  ✓   64 [chromium] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (3.2s)
+  ✓   65 [chromium] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (3.6s)
+  ✓   66 [chromium] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (3.5s)
+  ✓   68 [chromium] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (2.2s)
+  ✓   67 [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (5.8s)
+  ✓   69 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (6.5s)
+  ✓   71 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (5.9s)
+  ✓   70 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (6.1s)
+  ✓   72 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (6.5s)
+  ✓   73 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (6.1s)
+  ✓   74 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (6.1s)
+  ✓   75 [chromium] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (2.9s)
+  ✓   78 [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (1.2s)
+  ✓   77 [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (2.7s)
+  ✓   76 [chromium] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (3.1s)
+  ✓   79 [chromium] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (2.8s)
+  ✓   80 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (2.8s)
+  ✓   81 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (2.6s)
+  ✓   84 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection (635ms)
+  ✓   83 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection (680ms)
+  ✓   85 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection (486ms)
+  ✓   86 [chromium] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection (501ms)
+  ✓   87 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.v1 (213ms)
+  ✓   88 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.previous.v1 (207ms)
+  ✓   82 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.6s)
+  ✓   89 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at playerData (179ms)
+  ✓   90 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at dungeonData (188ms)
+  ✓   91 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at enemyData (204ms)
+  ✓   92 [chromium] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at volumeData (181ms)
+  ✓   93 [chromium] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.v1 write supports export and retry (333ms)
+  ✓   94 [chromium] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry (340ms)
+  ✓   95 [chromium] › tests/browser/save-recovery.spec.mjs:124:1 › retained-character recovery resets only after confirmation (276ms)
+  ✓   97 [chromium] › tests/browser/save-recovery.spec.mjs:176:1 › migration write failure offers loaded session without claiming saved (321ms)
+  ✓   98 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/null (2.4s)
+  ✓   99 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice1 (2.3s)
+  ✓   96 [chromium] › tests/browser/save-recovery.spec.mjs:152:1 › prior-good session preserves actionable unknown history (3.2s)
+  ✓  100 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice2 (2.5s)
+  ✓  101 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/null (2.4s)
+  ✓  102 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice1 (2.5s)
+  ✓  103 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice2 (2.7s)
+  ✓  104 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/null (2.7s)
+  ✓  105 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/#choice2 (2.3s)
+  ✓  106 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/null (2.6s)
+  ✓  107 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice1 (2.7s)
+  ✓  108 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice2 (2.3s)
+  ✓  109 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0.999/#choice2 (2.7s)
+  ✓  110 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/null (2.6s)
+  ✓  111 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice1 (2.6s)
+  ✓  112 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice2 (2.5s)
+  ✓  114 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.4/#choice1 (2.5s)
+  ✓  113 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice1 (2.6s)
+  ✓  115 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.9/#choice1 (2.8s)
+  ✓  117 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/5/0/#choice1 (2.7s)
+  ✓  116 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice2 (2.8s)
+  ✓  119 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.25 (1.4s)
+  ✓  118 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0 (2.5s)
+  ✓  120 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.5 (2.5s)
+  ✓  121 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.75 (2.4s)
+  ✓  123 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/0/0 (2.6s)
+  ✓  122 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/2/0.25 (2.7s)
+  ✓  124 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/1/0 (2.4s)
+  ✓  125 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/0 (1.1s)
+  ✓  128 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/3 (1.0s)
+  ✓  126 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/1 (2.4s)
+  ✓  127 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/2 (2.5s)
+  ✓  130 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/0 (2.2s)
+  ✓  129 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/4 (2.5s)
+  ✓  133 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/3 (1.2s)
+  ✓  131 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/1 (2.4s)
+  ✓  132 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/2 (2.5s)
+  ✓  135 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/5 (1.2s)
+  ✓  134 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/4 (2.0s)
+  ✓  136 [chromium] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/6 (1.5s)
+  ✓  138 [chromium] › tests/browser/setting-journeys.spec.mjs:182:3 › setting victory and return (1.5s)
+  ✓  139 [chromium] › tests/browser/setting-journeys.spec.mjs:182:3 › setting death and return (1.8s)
+  ✓  140 [chromium] › tests/browser/setting-journeys.spec.mjs:237:1 › setting level-up and two rerolls (3.0s)
+  ✓  137 [chromium] › tests/browser/setting-journeys.spec.mjs:148:1 › setting entry and allocation (5.4s)
+  ✓  141 [chromium] › tests/browser/setting-journeys.spec.mjs:279:1 › setting inventory menu help credits and abandonment (3.1s)
+  ✓  142 [chromium] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Help opens without changing progress (2.3s)
+  ✓  145 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (152ms)
+  ✓  144 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (1.4s)
+  ✓  143 [chromium] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Credits opens without changing progress (2.5s)
+  ✓  147 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (153ms)
+  ✓  149 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (138ms)
+  ✓  146 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.4s)
+  ✓  148 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.5s)
+  ✘  150 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (12.7s)
+(node:19992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  151 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (12.6s)
+  ✘  152 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (12.5s)
+(node:20003) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  153 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (14.1s)
+  ✘  154 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (13.2s)
+(node:20019) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  155 [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (13.2s)
+  ✓  157 [chromium] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (229ms)
+  ✓  156 [chromium] › tests/browser/symbol-geometry.spec.mjs:399:1 › favicon reference describes the ICO delivery (245ms)
+(node:20030) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  158 [chromium] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (232ms)
+  ✓  159 [chromium] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (243ms)
+  ✓  160 [chromium] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (226ms)
+  ✓  163 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import cancel (1.6s)
+  ✓  164 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import save (1.1s)
+  ✓  165 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import backup-failure (1.6s)
+  ✓  162 [chromium] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (5.4s)
+  ✓  166 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import write-failure (1.1s)
+  ✓  161 [chromium] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (6.8s)
+  ✓  167 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import session-only (1.5s)
+  ✓  168 [chromium] › tests/integration/character-import.spec.mjs:38:3 › character import retry (1.7s)
+  ✓  169 [chromium] › tests/integration/character-import.spec.mjs:203:1 › Unicode export and malformed import feedback (2.3s)
+  ✓  170 [chromium] › tests/integration/character-import.spec.mjs:233:1 › import invalidates the previous session's delayed work (2.2s)
+  ✓  171 [chromium] › tests/integration/character-import.spec.mjs:262:1 › exchange form previews MC1 safely and Escape cancels without saving (3.0s)
+  ✓  172 [chromium] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard resolve (2.6s)
+  ✓  173 [chromium] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard reject (2.6s)
+  ✓  175 [chromium] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=true exposes reload or export (357ms)
+  ✓  176 [chromium] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=false exposes reload or export (336ms)
+  ✓  177 [chromium] › tests/integration/clipboard-conflict.spec.mjs:115:1 › actual second tab suspends owner before its next save (306ms)
+  ✓  178 [chromium] › tests/integration/dialog-service.spec.mjs:57:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (286ms)
+  ✓  180 [chromium] › tests/integration/dialog-service.spec.mjs:132:1 › explicit dismissal policy and disposal restore the page without confirmation (136ms)
+  ✓  179 [chromium] › tests/integration/dialog-service.spec.mjs:105:1 › repeated open/close restores attributes and removes ownership (282ms)
+  ✓  181 [chromium] › tests/integration/dialog-service.spec.mjs:173:1 › lifecycle invalidation restores an open modal (175ms)
+  ✓  174 [chromium] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard unavailable (2.5s)
+  ✓  182 [chromium] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (197ms)
+  ✓  183 [chromium] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (231ms)
+  ✓  184 [chromium] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (169ms)
+  ✓  186 [chromium] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (328ms)
+  ✓  187 [chromium] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (291ms)
+  ✓  188 [chromium] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (214ms)
+  ✓  190 [chromium] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (153ms)
+  ✓  189 [chromium] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (389ms)
+  ✓  191 [chromium] › tests/integration/image-loader.spec.mjs:232:5 › stale primary success cannot change the current identity (372ms)
+  ✓  192 [chromium] › tests/integration/image-loader.spec.mjs:232:5 › stale primary rejection cannot change the current identity (356ms)
+  ✓  185 [chromium] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback (1.7s)
+  ✓  194 [chromium] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback rejection cannot change the current identity (538ms)
+  ✓  193 [chromium] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback success cannot change the current identity (698ms)
+  ✓  196 [chromium] › tests/integration/image-loader.spec.mjs:324:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (182ms)
+  ✓  195 [chromium] › tests/integration/image-loader.spec.mjs:267:1 › dispose invalidates pending decode and repeated setup leaves no listeners (308ms)
+  ✓  197 [chromium] › tests/integration/image-loader.spec.mjs:375:1 › a fresh load clears terminal state and restores current accessibility (266ms)
+  ✓  198 [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (279ms)
+  ✓  199 [chromium] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (459ms)
+  ✓  200 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice hp applies its original increment (4.0s)
+  ✓  201 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atk applies its original increment (3.9s)
+  ✓  202 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice def applies its original increment (3.9s)
+  ✓  203 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atkSpd applies its original increment (3.4s)
+  ✓  205 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critRate applies its original increment (3.3s)
+  ✓  204 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice vamp applies its original increment (3.4s)
+  ✓  206 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critDmg applies its original increment (3.0s)
+  ✓  208 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment cancel preserves holdings and lifetime progress (3.0s)
+  ✓  207 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:83:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level (3.0s)
+  ✓  209 [chromium] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment confirm preserves holdings and lifetime progress (3.1s)
+  ✓  210 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (5.8s)
+  ✓  211 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (5.9s)
+  ✓  212 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (5.2s)
+  ✓  214 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (4.8s)
+  ✓  213 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (5.6s)
+  ✓  216 [chromium] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (2.8s)
+  ✓  217 [chromium] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (2.4s)
+  ✓  215 [chromium] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (5.7s)
+  ✓  220 [chromium] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (1.1s)
+  ✓  219 [chromium] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (1.4s)
+  ✓  221 [chromium] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (199ms)
+  ✓  222 [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (146ms)
+  ✓  223 [chromium] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (155ms)
+  ✓  225 [chromium] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (130ms)
+  ✓  224 [chromium] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (172ms)
+  ✓  226 [chromium] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (109ms)
+  ✓  227 [chromium] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (131ms)
+  ✓  228 [chromium] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (155ms)
+  ✓  229 [chromium] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (132ms)
+  ✓  231 [chromium] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (46ms)
+  ✓  232 [chromium] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (33ms)
+  ✓  230 [chromium] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (147ms)
+  ✓  234 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (392ms)
+  ✓  235 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (229ms)
+  ✓  236 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (235ms)
+  ✓  233 [chromium] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.0s)
+  ✓  237 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (218ms)
+  ✓  238 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (256ms)
+  ✓  240 [chromium] › tests/integration/symbol-view.spec.mjs:143:1 › symbol identity and alternatives are catalog owned (92ms)
+  ✓  239 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (236ms)
+  ✓  241 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (587ms)
+  ✓  242 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (723ms)
+  ✓  243 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (573ms)
+  ✓  244 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (553ms)
+  ✓  246 [chromium] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (300ms)
+  ✓  245 [chromium] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (463ms)
+  ✓  247 [chromium] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (189ms)
+  ✓  248 [chromium] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (193ms)
+  ✓  250 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (748ms)
+  ✓  249 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (796ms)
+  ✓  252 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (712ms)
+  ✓  251 [chromium] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (815ms)
+(node:20196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20197) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  218 [chromium] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (7.8s)
+(node:20200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  254 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (2.9s)
+  ✓  255 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (2.9s)
+  ✓  253 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (3.1s)
+  ✓  256 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (2.1s)
+  ✓  257 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (1.9s)
+  ✓  258 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (2.3s)
+  ✓  261 [firefox] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (454ms)
+  ✓  259 [firefox] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (1.8s)
+  ✓  262 [firefox] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (445ms)
+  ✓  260 [firefox] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (2.3s)
+  ✓  263 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (1.7s)
+  ✓  264 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (1.7s)
+  ✓  265 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (2.0s)
+  ✓  266 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (1.7s)
+  ✓  267 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.9s)
+  ✓  268 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.8s)
+  ✓  269 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.5s)
+  ✓  271 [firefox] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (403ms)
+  ✓  272 [firefox] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (350ms)
+  ✓  270 [firefox] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.5s)
+  ✓  275 [firefox] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health (744ms)
+  ✓  274 [firefox] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (1.7s)
+  ✓  273 [firefox] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (2.2s)
+  ✓  276 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 100% text (4.7s)
+  ✓  277 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 200% text (4.3s)
+  ✓  278 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 100% text (4.5s)
+  ✓  279 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 200% text (4.7s)
+  ✓  280 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 100% text (4.6s)
+  ✓  282 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 100% text (464ms)
+  ✓  281 [firefox] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 200% text (4.5s)
+  ✓  283 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 200% text (473ms)
+  ✓  284 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 100% text (483ms)
+  ✓  286 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 100% text (502ms)
+  ✓  287 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 200% text (468ms)
+  ✓  285 [firefox] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 200% text (813ms)
+  ✓  288 [firefox] › tests/browser/encounters.spec.mjs:396:1 › encounter triggers and attacks preserve captured numeric outcomes (1.6s)
+  ✓  289 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.1s)
+  ✓  290 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.1s)
+  ✓  291 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.1s)
+  ✓  293 [firefox] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (1.6s)
+  ✓  295 [firefox] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (1.7s)
+  ✓  294 [firefox] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (2.2s)
+  ✓  292 [firefox] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (5.4s)
+  ✓  298 [firefox] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (303ms)
+  ✓  296 [firefox] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (2.6s)
+  ✓  297 [firefox] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (3.1s)
+  ✓  299 [firefox] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (3.0s)
+  ✓  301 [firefox] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.9s)
+  ✓  300 [firefox] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (4.5s)
+  ✓  302 [firefox] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (2.4s)
+  ✓  303 [firefox] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (2.3s)
+  ✓  304 [firefox] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (2.6s)
+  ✓  307 [firefox] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (416ms)
+  ✓  306 [firefox] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (3.4s)
+  -  309 [firefox] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes
+  ✓  308 [firefox] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (3.3s)
+  ✓  305 [firefox] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (5.7s)
+  ✓  310 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (2.0s)
+  ✓  311 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.9s)
+  ✓  312 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (2.4s)
+  ✓  313 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (2.1s)
+  ✓  314 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (2.2s)
+  ✓  315 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.7s)
+  ✓  316 [firefox] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (2.0s)
+  ✓  317 [firefox] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.9s)
+  ✓  318 [firefox] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.9s)
+  ✓  320 [firefox] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.9s)
+  ✓  319 [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (4.5s)
+  ✓  321 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (6.8s)
+  ✓  323 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (5.8s)
+  ✓  322 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (7.1s)
+  ✓  324 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (7.3s)
+  ✓  325 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (6.2s)
+  ✓  326 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (6.9s)
+  ✓  327 [firefox] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (2.1s)
+  ✓  328 [firefox] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (2.1s)
+  ✓  330 [firefox] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (997ms)
+  ✓  329 [firefox] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.7s)
+  ✓  332 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.7s)
+  ✓  331 [firefox] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.9s)
+  ✓  333 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (2.1s)
+  ✓  335 [firefox] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection (841ms)
+  ✓  336 [firefox] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection (734ms)
+  ✓  334 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.5s)
+  ✓  337 [firefox] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection (719ms)
+  ✓  339 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.v1 (342ms)
+  ✓  338 [firefox] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection (696ms)
+  ✓  340 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.previous.v1 (784ms)
+  ✓  342 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at dungeonData (304ms)
+  ✓  341 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at playerData (806ms)
+  ✓  343 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at enemyData (329ms)
+  ✓  345 [firefox] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.v1 write supports export and retry (508ms)
+  ✓  346 [firefox] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry (477ms)
+  ✓  344 [firefox] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at volumeData (821ms)
+  ✓  347 [firefox] › tests/browser/save-recovery.spec.mjs:124:1 › retained-character recovery resets only after confirmation (493ms)
+  ✓  349 [firefox] › tests/browser/save-recovery.spec.mjs:176:1 › migration write failure offers loaded session without claiming saved (535ms)
+  ✓  350 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/null (1.5s)
+  ✓  351 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice1 (1.7s)
+  ✓  348 [firefox] › tests/browser/save-recovery.spec.mjs:152:1 › prior-good session preserves actionable unknown history (2.9s)
+  ✓  352 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice2 (1.5s)
+  ✓  353 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/null (1.7s)
+  ✓  354 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice1 (1.6s)
+  ✓  355 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice2 (1.6s)
+  ✓  356 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/null (1.8s)
+  ✓  357 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/#choice2 (1.6s)
+  ✓  358 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/null (1.6s)
+  ✓  359 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice1 (1.7s)
+  ✓  360 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice2 (1.6s)
+  ✓  361 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0.999/#choice2 (1.7s)
+  ✓  362 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/null (1.7s)
+  ✓  363 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice1 (1.9s)
+  ✓  364 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice2 (1.8s)
+  ✓  365 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice1 (1.7s)
+  ✓  366 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.4/#choice1 (1.9s)
+  ✓  367 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.9/#choice1 (2.0s)
+  ✓  368 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice2 (1.8s)
+  ✓  369 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/5/0/#choice1 (2.0s)
+  ✓  370 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0 (2.4s)
+  ✓  371 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.25 (1.9s)
+  ✓  372 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.5 (2.5s)
+  ✓  373 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.75 (2.2s)
+  ✓  374 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/2/0.25 (2.1s)
+  ✓  375 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/0/0 (2.5s)
+  ✓  377 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/0 (2.1s)
+  ✓  376 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/1/0 (2.2s)
+  ✓  378 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/1 (2.0s)
+  ✓  379 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/2 (1.9s)
+  ✓  380 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/3 (2.1s)
+  ✓  381 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/4 (2.0s)
+  ✓  382 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/0 (1.7s)
+  ✓  383 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/1 (1.8s)
+  ✓  384 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/2 (1.8s)
+  ✓  385 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/3 (1.8s)
+  ✓  386 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/4 (2.0s)
+  ✓  387 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/5 (1.6s)
+  ✓  388 [firefox] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/6 (1.6s)
+  ✓  390 [firefox] › tests/browser/setting-journeys.spec.mjs:182:3 › setting victory and return (1.4s)
+  ✓  391 [firefox] › tests/browser/setting-journeys.spec.mjs:182:3 › setting death and return (1.4s)
+  ✓  392 [firefox] › tests/browser/setting-journeys.spec.mjs:237:1 › setting level-up and two rerolls (1.7s)
+  ✓  389 [firefox] › tests/browser/setting-journeys.spec.mjs:148:1 › setting entry and allocation (4.5s)
+  ✓  393 [firefox] › tests/browser/setting-journeys.spec.mjs:279:1 › setting inventory menu help credits and abandonment (2.7s)
+  ✓  394 [firefox] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Help opens without changing progress (2.9s)
+  ✓  396 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (1.6s)
+  ✓  395 [firefox] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Credits opens without changing progress (2.9s)
+  ✓  398 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (856ms)
+  ✓  399 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (463ms)
+  ✓  401 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (550ms)
+  ✓  397 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.6s)
+  ✓  400 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.6s)
+  ✘  402 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (11.9s)
+(node:20448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  403 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (12.8s)
+(node:20455) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  404 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (12.9s)
+(node:20463) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  405 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (12.7s)
+(node:20486) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  406 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (13.3s)
+(node:20497) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  408 [firefox] › tests/browser/symbol-geometry.spec.mjs:399:1 › favicon reference describes the ICO delivery (1.1s)
+  ✓  410 [firefox] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (283ms)
+  ✓  411 [firefox] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (318ms)
+  ✓  412 [firefox] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (405ms)
+  ✓  409 [firefox] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (1.1s)
+  ✘  407 [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (14.6s)
+(node:20515) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  413 [firefox] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (1.4s)
+  ✓  416 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import save (1.2s)
+  ✓  417 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import backup-failure (1.6s)
+  ✓  415 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import cancel (2.5s)
+  ✓  418 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import write-failure (1.5s)
+  ✓  414 [firefox] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (5.7s)
+  ✓  419 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import session-only (1.7s)
+  ✓  420 [firefox] › tests/integration/character-import.spec.mjs:38:3 › character import retry (2.0s)
+  ✓  422 [firefox] › tests/integration/character-import.spec.mjs:233:1 › import invalidates the previous session's delayed work (1.7s)
+  ✓  421 [firefox] › tests/integration/character-import.spec.mjs:203:1 › Unicode export and malformed import feedback (1.8s)
+  ✓  425 [firefox] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard reject (2.6s)
+  ✓  424 [firefox] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard resolve (2.6s)
+  ✓  423 [firefox] › tests/integration/character-import.spec.mjs:262:1 › exchange form previews MC1 safely and Escape cancels without saving (3.4s)
+  ✓  427 [firefox] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=true exposes reload or export (642ms)
+  ✓  428 [firefox] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=false exposes reload or export (487ms)
+  ✓  429 [firefox] › tests/integration/clipboard-conflict.spec.mjs:115:1 › actual second tab suspends owner before its next save (596ms)
+  ✓  430 [firefox] › tests/integration/dialog-service.spec.mjs:57:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (347ms)
+  ✓  431 [firefox] › tests/integration/dialog-service.spec.mjs:105:1 › repeated open/close restores attributes and removes ownership (419ms)
+  ✓  432 [firefox] › tests/integration/dialog-service.spec.mjs:132:1 › explicit dismissal policy and disposal restore the page without confirmation (242ms)
+  ✓  434 [firefox] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (257ms)
+  ✓  433 [firefox] › tests/integration/dialog-service.spec.mjs:173:1 › lifecycle invalidation restores an open modal (318ms)
+  ✓  435 [firefox] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (261ms)
+  ✓  436 [firefox] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (272ms)
+  ✓  426 [firefox] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard unavailable (2.3s)
+  ✓  439 [firefox] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (310ms)
+  ✓  440 [firefox] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (295ms)
+  ✓  438 [firefox] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (809ms)
+  ✓  442 [firefox] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (248ms)
+  ✓  441 [firefox] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (461ms)
+  ✓  443 [firefox] › tests/integration/image-loader.spec.mjs:232:5 › stale primary success cannot change the current identity (438ms)
+  ✓  444 [firefox] › tests/integration/image-loader.spec.mjs:232:5 › stale primary rejection cannot change the current identity (428ms)
+  ✓  437 [firefox] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback (1.8s)
+  ✓  445 [firefox] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback success cannot change the current identity (435ms)
+  ✓  447 [firefox] › tests/integration/image-loader.spec.mjs:267:1 › dispose invalidates pending decode and repeated setup leaves no listeners (330ms)
+  ✓  448 [firefox] › tests/integration/image-loader.spec.mjs:324:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (204ms)
+  ✓  449 [firefox] › tests/integration/image-loader.spec.mjs:375:1 › a fresh load clears terminal state and restores current accessibility (257ms)
+  ✓  446 [firefox] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback rejection cannot change the current identity (1.0s)
+  ✓  450 [firefox] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (419ms)
+  ✓  453 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atk applies its original increment (1.4s)
+  ✓  452 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice hp applies its original increment (1.4s)
+  ✓  451 [firefox] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (1.6s)
+  ✓  454 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice def applies its original increment (1.4s)
+  ✓  455 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atkSpd applies its original increment (1.5s)
+  ✓  456 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice vamp applies its original increment (1.7s)
+  ✓  458 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critDmg applies its original increment (1.5s)
+  ✓  457 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critRate applies its original increment (1.6s)
+  ✓  459 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:83:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level (1.8s)
+  ✓  460 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment cancel preserves holdings and lifetime progress (1.7s)
+  ✓  461 [firefox] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment confirm preserves holdings and lifetime progress (2.2s)
+  ✓  462 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (8.1s)
+  ✓  464 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (7.1s)
+  ✓  463 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (8.1s)
+  ✓  465 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (7.4s)
+  ✓  466 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (6.7s)
+  ✓  467 [firefox] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (7.7s)
+  ✓  469 [firefox] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (1.8s)
+  ✓  468 [firefox] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (1.9s)
+  ✓  472 [firefox] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (550ms)
+  ✓  471 [firefox] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (848ms)
+  ✓  473 [firefox] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (360ms)
+  ✓  474 [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (236ms)
+  ✓  475 [firefox] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (216ms)
+  ✓  476 [firefox] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (221ms)
+  ✓  477 [firefox] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (198ms)
+  ✓  478 [firefox] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (221ms)
+  ✓  480 [firefox] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (236ms)
+  ✓  481 [firefox] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (209ms)
+  ✓  479 [firefox] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (832ms)
+  ✓  483 [firefox] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (30ms)
+  ✓  484 [firefox] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (18ms)
+  ✓  482 [firefox] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (905ms)
+  ✓  486 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (562ms)
+  ✓  485 [firefox] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.3s)
+  ✓  487 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (471ms)
+  ✓  488 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (472ms)
+  ✓  489 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (444ms)
+  ✓  490 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (441ms)
+  ✓  492 [firefox] › tests/integration/symbol-view.spec.mjs:143:1 › symbol identity and alternatives are catalog owned (209ms)
+  ✓  491 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (381ms)
+  ✓  493 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (513ms)
+  ✓  494 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (683ms)
+  ✓  495 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (668ms)
+  ✓  496 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (737ms)
+  ✓  470 [firefox] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (6.8s)
+  ✓  497 [firefox] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (760ms)
+  ✓  498 [firefox] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (494ms)
+  ✓  499 [firefox] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (491ms)
+  ✓  500 [firefox] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (375ms)
+  ✓  501 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (727ms)
+  ✓  503 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (925ms)
+  ✓  502 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (1.1s)
+  ✓  504 [firefox] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (879ms)
+(node:20713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20714) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  507 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature missing: identity, victory and Claim remain usable (2.0s)
+  ✓  505 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature delayed: identity, victory and Claim remain usable (2.0s)
+  ✓  506 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic delayed: identity, equip and sale remain usable (2.3s)
+  ✓  509 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature corrupt: identity, victory and Claim remain usable (1.5s)
+  ✓  508 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic missing: identity, equip and sale remain usable (1.8s)
+  ✓  510 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic corrupt: identity, equip and sale remain usable (1.7s)
+  ✓  513 [webkit] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (439ms)
+  ✓  514 [webkit] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (385ms)
+  ✓  511 [webkit] › tests/browser/art-failure.spec.mjs:113:3 › creature fallback-missing: identity, victory and Claim remain usable (1.4s)
+  ✓  512 [webkit] › tests/browser/art-failure.spec.mjs:188:3 › relic fallback-missing: identity, equip and sale remain usable (1.7s)
+  ✓  515 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue normal preserves state and owns one timer set (1.3s)
+  ✓  516 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue guardian preserves state and owns one timer set (1.4s)
+  ✓  517 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue boss preserves state and owns one timer set (1.6s)
+  ✓  518 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue chest-mimic preserves state and owns one timer set (1.4s)
+  ✓  519 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue door-mimic preserves state and owns one timer set (1.4s)
+  ✓  520 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-1 preserves state and owns one timer set (1.5s)
+  ✓  523 [webkit] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-player-death stays in recovery without overwriting source (346ms)
+  ✓  521 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue variant-2 preserves state and owns one timer set (1.3s)
+  ✓  522 [webkit] › tests/browser/continue-encounter.spec.mjs:19:3 › continue settled-victory preserves state and owns one timer set (1.3s)
+  ✓  524 [webkit] › tests/browser/continue-encounter.spec.mjs:87:3 › interrupted-enemy-victory stays in recovery without overwriting source (422ms)
+  ✓  527 [webkit] › tests/browser/encounters.spec.mjs:37:1 › enlarged player HP stays readable above EXP at full, half and near-zero health (427ms)
+  ✓  526 [webkit] › tests/browser/continue-encounter.spec.mjs:142:1 › continued actors wait their full first delay without rerolling (1.3s)
+  ✓  525 [webkit] › tests/browser/continue-encounter.spec.mjs:113:1 › settled death resets once and finishes loading (2.5s)
+  ✓  528 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 100% text (4.1s)
+  ✓  529 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 360px and 200% text (4.1s)
+  ✓  530 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 100% text (3.9s)
+  ✓  531 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 768px and 200% text (3.7s)
+  ✓  534 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 100% text (473ms)
+  ✓  532 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 100% text (3.7s)
+  ✓  535 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 360px and 200% text (450ms)
+  ✓  536 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 100% text (501ms)
+  ✓  537 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 768px and 200% text (495ms)
+  ✓  538 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 100% text (455ms)
+  ✓  533 [webkit] › tests/browser/encounters.spec.mjs:104:5 › 52 decoded portraits at 1440px and 200% text (4.0s)
+  ✓  539 [webkit] › tests/browser/encounters.spec.mjs:303:5 › 52 selected variants at 1440px and 200% text (460ms)
+  ✓  540 [webkit] › tests/browser/encounters.spec.mjs:396:1 › encounter triggers and attacks preserve captured numeric outcomes (1.1s)
+  ✓  541 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.1s)
+  ✓  542 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.2s)
+  ✓  543 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.1s)
+  ✓  545 [webkit] › tests/browser/full-journeys.spec.mjs:114:1 › legacy combat resolves once through claim and reload (1.5s)
+  ✓  546 [webkit] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject repeat allocation (1.5s)
+  ✓  547 [webkit] › tests/browser/full-journeys.spec.mjs:149:3 › import allocation and restart reject cancelled-before-import allocation (1.3s)
+  ✓  548 [webkit] › tests/browser/full-journeys.spec.mjs:219:1 › prior-good combat recovery survives failed art and preserves raw sources (1.8s)
+  ✓  550 [webkit] › tests/browser/legacy-history.spec.mjs:78:1 › migrated records use safe renderer templates without evaluating markup (295ms)
+  ✓  544 [webkit] › tests/browser/full-journeys.spec.mjs:59:1 › fresh character earns, equips and reloads one consistent relic (4.6s)
+  ✓  549 [webkit] › tests/browser/legacy-history.spec.mjs:11:1 › legacy load themes history, preserves names and exposes exact unknown text safely (2.6s)
+  ✓  551 [webkit] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (2.9s)
+  ✓  553 [webkit] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.7s)
+  ✓  552 [webkit] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (4.0s)
+  ✓  554 [webkit] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (2.1s)
+  ✓  555 [webkit] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (1.9s)
+  ✓  556 [webkit] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (2.7s)
+  ✓  559 [webkit] › tests/browser/recovery-accessibility.spec.mjs:11:1 › boot recovery keyboard confirmation cancels with focus and reflows at 200% (360ms)
+  ✓  558 [webkit] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (2.9s)
+  ✓  561 [webkit] › tests/browser/recovery-accessibility.spec.mjs:78:1 › touch recovery requires confirmation and preserves source bytes (597ms)
+  ✓  557 [webkit] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (5.1s)
+  ✓  560 [webkit] › tests/browser/recovery-accessibility.spec.mjs:45:1 › exchange and import errors keep keyboard cancellation and enlarged controls reachable (3.0s)
+  ✓  562 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.5s)
+  ✓  563 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.5s)
+  ✓  564 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.5s)
+  ✓  565 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.5s)
+  ✓  566 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.5s)
+  ✓  567 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.5s)
+  ✓  569 [webkit] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (640ms)
+  ✓  568 [webkit] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.4s)
+  ✓  570 [webkit] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.5s)
+  ✓  572 [webkit] › tests/browser/relic-accessibility.spec.mjs:274:1 › 200 percent inventory rows remain fully readable in the existing modal (1.7s)
+  ✓  571 [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (3.9s)
+  ✓  573 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (4.2s)
+  ✓  574 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (4.5s)
+  ✓  575 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (4.1s)
+  ✓  576 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (4.7s)
+  ✓  577 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (4.0s)
+  ✓  579 [webkit] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (1.8s)
+  ✓  580 [webkit] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (1.8s)
+  ✓  578 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (4.7s)
+  ✓  582 [webkit] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (609ms)
+  ✓  581 [webkit] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.4s)
+  ✓  583 [webkit] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.4s)
+  ✓  584 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.4s)
+  ✓  585 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.4s)
+  ✓  587 [webkit] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves malformed source and offers prior-good selection (700ms)
+  ✓  588 [webkit] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsupported source and offers prior-good selection (707ms)
+  ✓  586 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.4s)
+  ✓  589 [webkit] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves partial source and offers prior-good selection (719ms)
+  ✓  591 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.v1 (371ms)
+  ✓  590 [webkit] › tests/browser/save-recovery.spec.mjs:18:3 › recovery preserves unsafe source and offers prior-good selection (678ms)
+  ✓  592 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at malevolentCrawler.save.previous.v1 (361ms)
+  ✓  593 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at playerData (319ms)
+  ✓  594 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at dungeonData (359ms)
+  ✓  595 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at enemyData (327ms)
+  ✓  596 [webkit] › tests/browser/save-recovery.spec.mjs:61:3 › read exception at volumeData (382ms)
+  ✓  597 [webkit] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.v1 write supports export and retry (538ms)
+  ✓  598 [webkit] › tests/browser/save-recovery.spec.mjs:81:3 › unsaved malevolentCrawler.save.previous.v1 write supports export and retry (538ms)
+  ✓  599 [webkit] › tests/browser/save-recovery.spec.mjs:124:1 › retained-character recovery resets only after confirmation (488ms)
+  ✓  601 [webkit] › tests/browser/save-recovery.spec.mjs:176:1 › migration write failure offers loaded session without claiming saved (480ms)
+  ✓  602 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/null (1.3s)
+  ✓  603 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice1 (1.3s)
+  ✓  600 [webkit] › tests/browser/save-recovery.spec.mjs:152:1 › prior-good session preserves actionable unknown history (2.8s)
+  ✓  604 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/0/0/#choice2 (1.4s)
+  ✓  605 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/null (1.3s)
+  ✓  606 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice1 (1.6s)
+  ✓  607 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/1/0/#choice2 (1.6s)
+  ✓  608 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/null (1.5s)
+  ✓  609 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/2/0/#choice2 (1.4s)
+  ✓  610 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/null (1.3s)
+  ✓  611 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice1 (1.3s)
+  ✓  612 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0/#choice2 (1.3s)
+  ✓  613 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/3/0.999/#choice2 (1.3s)
+  ✓  614 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/null (1.3s)
+  ✓  615 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice1 (1.4s)
+  ✓  616 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey event/9/0/#choice2 (1.3s)
+  ✓  617 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice1 (1.3s)
+  ✓  618 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.4/#choice1 (1.3s)
+  ✓  619 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0.9/#choice1 (1.3s)
+  ✓  620 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/1/0/#choice2 (1.3s)
+  ✓  622 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0 (1.3s)
+  ✓  621 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey door/2/5/0/#choice1 (1.4s)
+  ✓  623 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.25 (1.3s)
+  ✓  624 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.5 (1.3s)
+  ✓  626 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/2/0.25 (1.3s)
+  ✓  625 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey chest/1/0.75 (1.3s)
+  ✓  629 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/0 (1.3s)
+  ✓  627 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/0/0 (1.4s)
+  ✓  628 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey offering/1/0 (1.4s)
+  ✓  631 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/2 (1.3s)
+  ✓  632 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/3 (1.3s)
+  ✓  630 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/1 (1.3s)
+  ✓  633 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey nothing/4 (1.3s)
+  ✓  635 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/1 (1.3s)
+  ✓  634 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/0 (1.4s)
+  ✓  636 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/2 (1.3s)
+  ✓  637 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/3 (1.3s)
+  ✓  638 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/4 (1.3s)
+  ✓  639 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/5 (1.1s)
+  ✓  640 [webkit] › tests/browser/setting-journeys.spec.mjs:66:3 › setting journey blessing/6 (1.1s)
+  ✓  642 [webkit] › tests/browser/setting-journeys.spec.mjs:182:3 › setting victory and return (1.1s)
+  ✓  643 [webkit] › tests/browser/setting-journeys.spec.mjs:182:3 › setting death and return (1.1s)
+  ✓  644 [webkit] › tests/browser/setting-journeys.spec.mjs:237:1 › setting level-up and two rerolls (1.3s)
+  ✓  641 [webkit] › tests/browser/setting-journeys.spec.mjs:148:1 › setting entry and allocation (3.8s)
+  ✓  645 [webkit] › tests/browser/setting-journeys.spec.mjs:279:1 › setting inventory menu help credits and abandonment (2.7s)
+  ✓  646 [webkit] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Help opens without changing progress (2.6s)
+  ✓  647 [webkit] › tests/browser/setting-journeys.spec.mjs:333:3 › setting Credits opens without changing progress (2.5s)
+  ✓  649 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (264ms)
+  ✓  648 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (1.6s)
+  ✓  651 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (251ms)
+  ✓  653 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (261ms)
+  ✓  650 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.6s)
+  ✓  652 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.6s)
+  ✘  654 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 (10.8s)
+(node:21025) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  655 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 (11.4s)
+(node:21041) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  656 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 (11.6s)
+(node:21051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  657 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 (12.4s)
+(node:21076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  660 [webkit] › tests/browser/symbol-geometry.spec.mjs:399:1 › favicon reference describes the ICO delivery (623ms)
+  ✓  661 [webkit] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=false) (334ms)
+  ✓  662 [webkit] › tests/integration/bootstrap.spec.mjs:15:3 › bootstrap gates storage and actions during module failure (denied=true) (329ms)
+  ✘  658 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 (12.7s)
+  ✓  663 [webkit] › tests/integration/bootstrap.spec.mjs:68:1 › denied storage shows actionable recovery (344ms)
+(node:21093) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  659 [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 (12.8s)
+(node:21102) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  664 [webkit] › tests/integration/bootstrap.spec.mjs:128:1 › delayed module completion gates actions then binds audio to the first title gesture (729ms)
+  ✓  665 [webkit] › tests/integration/bootstrap.spec.mjs:93:1 › ready bootstrap is once-only and audio waits for a gesture (614ms)
+  ✓  667 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import cancel (1.3s)
+  ✓  668 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import save (1.3s)
+  ✓  669 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import backup-failure (1.3s)
+  ✓  670 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import write-failure (1.3s)
+  ✓  671 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import session-only (1.4s)
+  ✓  672 [webkit] › tests/integration/character-import.spec.mjs:38:3 › character import retry (1.4s)
+  ✓  673 [webkit] › tests/integration/character-import.spec.mjs:203:1 › Unicode export and malformed import feedback (1.2s)
+  ✓  674 [webkit] › tests/integration/character-import.spec.mjs:233:1 › import invalidates the previous session's delayed work (1.2s)
+  ✓  666 [webkit] › tests/integration/bootstrap.spec.mjs:186:1 › new character and allocation persist complete state through the live controls (5.6s)
+  ✓  676 [webkit] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard resolve (2.7s)
+  ✓  675 [webkit] › tests/integration/character-import.spec.mjs:262:1 › exchange form previews MC1 safely and Escape cancels without saving (2.9s)
+  ✓  679 [webkit] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=true exposes reload or export (494ms)
+  ✓  677 [webkit] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard reject (2.8s)
+  ✓  680 [webkit] › tests/integration/clipboard-conflict.spec.mjs:67:3 › foreign revision event=false exposes reload or export (458ms)
+  ✓  681 [webkit] › tests/integration/clipboard-conflict.spec.mjs:115:1 › actual second tab suspends owner before its next save (561ms)
+  ✓  682 [webkit] › tests/integration/dialog-service.spec.mjs:57:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (325ms)
+  ✓  683 [webkit] › tests/integration/dialog-service.spec.mjs:105:1 › repeated open/close restores attributes and removes ownership (361ms)
+  ✓  684 [webkit] › tests/integration/dialog-service.spec.mjs:132:1 › explicit dismissal policy and disposal restore the page without confirmation (268ms)
+  ✓  685 [webkit] › tests/integration/dialog-service.spec.mjs:173:1 › lifecycle invalidation restores an open modal (314ms)
+  ✓  686 [webkit] › tests/integration/encounter-view.spec.mjs:6:1 › all active portraits reserve catalog geometry without touching state or RNG (339ms)
+  ✓  687 [webkit] › tests/integration/encounter-view.spec.mjs:103:1 › unknown, mismatched and unused identities leave the existing view intact (303ms)
+  ✓  688 [webkit] › tests/integration/image-consumers.spec.mjs:4:1 › symbol removal and explicit teardown dispose pending owners (288ms)
+  ✓  678 [webkit] › tests/integration/clipboard-conflict.spec.mjs:21:3 › clipboard unavailable (2.3s)
+  ✓  690 [webkit] › tests/integration/image-loader.spec.mjs:93:1 › loading, decoded success and cached reload preserve geometry and controls (594ms)
+  ✓  691 [webkit] › tests/integration/image-loader.spec.mjs:134:3 › missing image uses one decoded fallback in the reserved box (573ms)
+  ✓  692 [webkit] › tests/integration/image-loader.spec.mjs:134:3 › corrupt image uses one decoded fallback in the reserved box (340ms)
+  ✓  693 [webkit] › tests/integration/image-loader.spec.mjs:171:1 › decode rejection tries fallback once and falls back to accessible local text (402ms)
+  ✓  694 [webkit] › tests/integration/image-loader.spec.mjs:204:1 › unavailable fallback terminates without requests or lost decorative semantics (287ms)
+  ✓  695 [webkit] › tests/integration/image-loader.spec.mjs:232:5 › stale primary success cannot change the current identity (361ms)
+  ✓  696 [webkit] › tests/integration/image-loader.spec.mjs:232:5 › stale primary rejection cannot change the current identity (262ms)
+  ✓  698 [webkit] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback rejection cannot change the current identity (365ms)
+  ✓  689 [webkit] › tests/integration/image-consumers.spec.mjs:48:1 › game service teardown can be passed as an unbound callback (2.0s)
+  ✓  697 [webkit] › tests/integration/image-loader.spec.mjs:232:5 › stale fallback success cannot change the current identity (498ms)
+  ✓  699 [webkit] › tests/integration/image-loader.spec.mjs:267:1 › dispose invalidates pending decode and repeated setup leaves no listeners (253ms)
+  ✓  700 [webkit] › tests/integration/image-loader.spec.mjs:324:1 › unknown identities, mismatched variants, arbitrary URLs and invalid options are rejected atomically (247ms)
+  ✓  701 [webkit] › tests/integration/image-loader.spec.mjs:375:1 › a fresh load clears terminal state and restores current accessibility (320ms)
+  ✓  702 [webkit] › tests/integration/legacy-browser-fixtures.spec.mjs:5:1 › legacy browser fixtures isolate storage and consume deterministic draws (513ms)
+  ✓  703 [webkit] › tests/integration/legacy-browser-fixtures.spec.mjs:42:1 › immutable legacy page boots repeatably from the captured early character (627ms)
+  ✓  704 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice hp applies its original increment (1.2s)
+  ✓  705 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atk applies its original increment (1.2s)
+  ✓  706 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice def applies its original increment (1.2s)
+  ✓  707 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice atkSpd applies its original increment (1.2s)
+  ✓  708 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice vamp applies its original increment (1.1s)
+  ✓  709 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critRate applies its original increment (1.1s)
+  ✓  710 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:31:3 › legacy upgrade choice critDmg applies its original increment (1.2s)
+  ✓  711 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:83:1 › legacy upgrades allow two rerolls, reject a third, and replenish for the next level (1.4s)
+  ✓  712 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment cancel preserves holdings and lifetime progress (1.3s)
+  ✓  713 [webkit] › tests/integration/legacy-progression-controls.spec.mjs:136:3 › legacy abandonment confirm preserves holdings and lifetime progress (1.5s)
+  ✓  714 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 1 (4.6s)
+  ✓  715 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 360 text 2 (5.4s)
+  ✓  716 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 1 (4.9s)
+  ✓  717 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 768 text 2 (5.7s)
+  ✓  718 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 1 (5.1s)
+  ✓  720 [webkit] › tests/integration/lifecycle-audio.spec.mjs:12:1 › audio replacement unloads old instances and reset cancels run timers (1.4s)
+  ✓  719 [webkit] › tests/integration/legacy-symbol-contexts.spec.mjs:46:5 › original symbol contexts 1440 text 2 (5.6s)
+  ✓  721 [webkit] › tests/integration/lifecycle-audio.spec.mjs:68:1 › combat restart cancels stale attacks and reset cancels delayed presentation (1.2s)
+  ✓  723 [webkit] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (606ms)
+  ✓  724 [webkit] › tests/integration/lifecycle-audio.spec.mjs:214:1 › repeated entry never overlaps background playback (479ms)
+  ✓  725 [webkit] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (255ms)
+  ✓  726 [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (259ms)
+  ✓  727 [webkit] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (205ms)
+  ✓  728 [webkit] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (224ms)
+  ✓  729 [webkit] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (202ms)
+  ✓  722 [webkit] › tests/integration/lifecycle-audio.spec.mjs:139:1 › audio waits for title gesture and retains mute preferences (1.4s)
+  ✓  730 [webkit] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (202ms)
+  ✓  731 [webkit] › tests/integration/narrative-render.spec.mjs:4:1 › narrative renders player text inertly and catalog names consistently (241ms)
+  ✓  733 [webkit] › tests/integration/safe-render.spec.mjs:48:1 › rejects arbitrary DOM and mismatched catalog descriptors (212ms)
+  ✓  732 [webkit] › tests/integration/safe-render.spec.mjs:8:1 › text, structured nodes and catalog assets remain inert (244ms)
+  ✓  735 [webkit] › tests/integration/static-server.spec.mjs:4:1 › static server serves a module with JavaScript MIME (24ms)
+  ✓  736 [webkit] › tests/integration/static-server.spec.mjs:18:1 › static server supplies HTML, styles, scripts, fonts, art and audio (35ms)
+  ✓  734 [webkit] › tests/integration/safe-render.spec.mjs:80:1 › typed messages and unknown-history recovery notices (293ms)
+  ✓  738 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (432ms)
+  ✓  739 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (424ms)
+  ✓  740 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (436ms)
+  ✓  741 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (421ms)
+  ✓  737 [webkit] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.1s)
+  ✓  742 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (391ms)
+  ✓  744 [webkit] › tests/integration/symbol-view.spec.mjs:143:1 › symbol identity and alternatives are catalog owned (220ms)
+  ✓  743 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (409ms)
+  ✓  745 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › reset commits exactly one completed snapshot and retains legacy bytes (640ms)
+  ✓  746 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › sale commits exactly one completed snapshot and retains legacy bytes (635ms)
+  ✓  747 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › attack commits exactly one completed snapshot and retains legacy bytes (625ms)
+  ✓  748 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › reward commits exactly one completed snapshot and retains legacy bytes (657ms)
+  ✓  749 [webkit] › tests/integration/transition-commits.spec.mjs:12:3 › death commits exactly one completed snapshot and retains legacy bytes (621ms)
+  ✓  750 [webkit] › tests/integration/transition-commits.spec.mjs:92:1 › object validation is pure (472ms)
+  ✓  752 [webkit] › tests/integration/transition-commits.spec.mjs:170:1 › upgrade rendering reports unexpected DOM failures (429ms)
+  ✓  751 [webkit] › tests/integration/transition-commits.spec.mjs:123:1 › failed save keeps the completed action in memory and exposes unsaved status (459ms)
+  ✓  753 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › equip records one completed transition (560ms)
+  ✓  754 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › unequip records one completed transition (629ms)
+  ✓  755 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › upgrade records one completed transition (663ms)
+  ✓  756 [webkit] › tests/integration/transition-commits.spec.mjs:218:3 › event records one completed transition (679ms)
+
+
+  1) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7b87f--symbol-contexts-360-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-956ad--symbol-contexts-360-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7121e--symbol-contexts-768-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-7d01b--symbol-contexts-768-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-74911-symbol-contexts-1440-text-1-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+
+    Error: currency/victory
+
+    expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.inline-symbol[data-context="currency/victory"]')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - currency/victory locator('.inline-symbol[data-context="currency/victory"]') with timeout 5000ms
+      - waiting for locator('.inline-symbol[data-context="currency/victory"]')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      261 |           const selector = `.inline-symbol[data-context="${context.id}"]`;
+      262 |           const live = page.locator(selector);
+    > 263 |           await expect(live, context.id).toHaveCount(1);
+          |                                          ^
+      264 |           await live
+      265 |             .locator("img")
+      266 |             .evaluate(
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/symbol-geometry.spec.mjs:263:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-symbol-geometry-re-e6d1b-symbol-contexts-1440-text-2-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18 failed
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [chromium] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [firefox] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 360 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 768 text 2 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 1 
+    [webkit] › tests/browser/symbol-geometry.spec.mjs:158:5 › remaining live symbol contexts 1440 text 2 
+  1 skipped
+  737 passed (8.8m)

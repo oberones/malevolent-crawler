@@ -1,0 +1,4 @@
+Use case: stylized-concept
+Asset type: Original transparent raster game icon for The Bell Beneath Brine, coastal cosmic horror.
+Style: bold painterly inventory icon, sparse texture, strong simple silhouette and broad nacre highlights, pitted old bronze, verdigris, deep ink outlines. Readable at 16-32 CSS pixels. One isolated motif centered in a square, fill about 85% of canvas with a narrow transparent safe margin, full uncropped object. No words, letters, numbers, watermark, scenery, frame, diffuse glow, cast shadow or gore. Actual transparent background.
+Subject: Returning Drop: a SINGLE dark rust-red teardrop returning along one curved blade. Clear droplet and curved edge silhouettes, no splashes or gore.

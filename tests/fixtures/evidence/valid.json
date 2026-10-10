@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "gates": [
+    {
+      "id": "automated",
+      "kind": "automated",
+      "required": true,
+      "requirements": ["FR-001"],
+      "owner": "T039",
+      "fixture": "Independent synthetic fixture",
+      "environment": "fixture",
+      "sourceRevision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "command": "node --test fixture.test.mjs",
+      "steps": null,
+      "expected": "Fixture matches expectation",
+      "actual": "Fixture matched expectation",
+      "status": "PASS",
+      "evidence": ["result.txt"],
+      "reviewer": "Fixture reviewer",
+      "date": "2026-10-06",
+      "findings": []
+    },
+    {
+      "id": "manual",
+      "kind": "manual",
+      "required": true,
+      "requirements": ["FR-001"],
+      "owner": "T039",
+      "fixture": "Independent synthetic fixture",
+      "environment": "fixture",
+      "sourceRevision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "command": null,
+      "steps": "Inspect fixture and record result",
+      "expected": "Fixture matches expectation",
+      "actual": "Fixture matched expectation",
+      "status": "PASS",
+      "evidence": ["result.txt"],
+      "reviewer": "Fixture reviewer",
+      "date": "2026-10-06",
+      "findings": []
+    }
+  ]
+}

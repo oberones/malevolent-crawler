@@ -1,0 +1,4511 @@
+{
+  "schemaVersion": 1,
+  "baselineRevision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+  "cases": [
+    {
+      "id": "early",
+      "description": "Unallocated character submitted through baseline main.js; optional skills/tempStats/blessing absent.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 1,
+          "bgm": 0.4,
+          "sfx": 1
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":false}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":false},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0}",
+        "enemyData": "{\"name\":null,\"type\":null,\"lvl\":null,\"stats\":{\"hp\":null,\"hpMax\":null,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"image\":{\"name\":null,\"type\":null,\"size\":null},\"rewards\":{\"exp\":null,\"gold\":null,\"drop\":null}}",
+        "volumeData": "{\"master\":1,\"bgm\":0.4,\"sfx\":1}"
+      },
+      "recipe": {
+        "origin": "legacy name-submit event",
+        "name": "Mariner",
+        "randomTape": []
+      }
+    },
+    {
+      "id": "resting",
+      "description": "Allocated, muted music, no active encounter; null penetration retained.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":false,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":false},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0}",
+        "enemyData": "{\"name\":null,\"type\":null,\"lvl\":null,\"stats\":{\"hp\":null,\"hpMax\":null,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"image\":{\"name\":null,\"type\":null,\"size\":null},\"rewards\":{\"exp\":null,\"gold\":null,\"drop\":null}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "origin": "early plus explicit allocated/default/preference fields"
+      }
+    },
+    {
+      "id": "normal",
+      "description": "Synthetic active normal tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Orc Axe\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":481,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"orc_axe\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": [""]
+          }
+        ],
+        "randomTape": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "guardian",
+      "description": "Synthetic active guardian tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 2,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Nameless Fallen King",
+          "type": "Balanced",
+          "lvl": 6,
+          "stats": {
+            "hp": 888,
+            "hpMax": 888,
+            "atk": 135,
+            "def": 94,
+            "atkSpd": 0.4600000000000001,
+            "vamp": 0,
+            "critRate": 1.2650000000000003,
+            "critDmg": 69,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "fallen_king",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 151,
+            "gold": 227,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":2,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Nameless Fallen King\",\"type\":\"Balanced\",\"lvl\":6,\"stats\":{\"hp\":888,\"hpMax\":888,\"atk\":135,\"def\":94,\"atkSpd\":0.4600000000000001,\"vamp\":0,\"critRate\":1.2650000000000003,\"critDmg\":69,\"hpPercent\":100},\"image\":{\"name\":\"fallen_king\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":151,\"gold\":227,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 5,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "incrementRoom",
+            "args": []
+          },
+          {
+            "call": "generateRandomEnemy",
+            "args": ["guardian"]
+          }
+        ],
+        "randomTape": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "boss",
+      "description": "Synthetic active sboss tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 8,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Shiva",
+          "type": "Balanced",
+          "lvl": 40,
+          "stats": {
+            "hp": 29600,
+            "hpMax": 29600,
+            "atk": 650,
+            "def": 450,
+            "atkSpd": 0.8000000000000004,
+            "vamp": 0,
+            "critRate": 2.200000000000001,
+            "critDmg": 130.00000000000006,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "icemaiden",
+            "type": ".png",
+            "size": "70%"
+          },
+          "rewards": {
+            "exp": 11612,
+            "gold": 17418,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":8,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Shiva\",\"type\":\"Balanced\",\"lvl\":40,\"stats\":{\"hp\":29600,\"hpMax\":29600,\"atk\":650,\"def\":450,\"atkSpd\":0.8000000000000004,\"vamp\":0,\"critRate\":2.200000000000001,\"critDmg\":130.00000000000006,\"hpPercent\":100},\"image\":{\"name\":\"icemaiden\",\"type\":\".png\",\"size\":\"70%\"},\"rewards\":{\"exp\":11612,\"gold\":17418,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 8,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": ["sboss"]
+          }
+        ],
+        "randomTape": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "chest-mimic",
+      "description": "Synthetic active chest tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Mimic",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "mimic",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Mimic\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":481,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"mimic\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": ["chest"]
+          }
+        ],
+        "randomTape": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "door-mimic",
+      "description": "Synthetic active door tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Door Mimic",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "mimic_door",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Door Mimic\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":481,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"mimic_door\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": ["door"]
+          }
+        ],
+        "randomTape": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "variant-1",
+      "description": "Synthetic active normal tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Skeleton Mage",
+          "type": "Offensive",
+          "lvl": 1,
+          "stats": {
+            "hp": 369,
+            "hpMax": 369,
+            "atk": 94,
+            "def": 39,
+            "atkSpd": 0.41000000000000003,
+            "vamp": 0,
+            "critRate": 2.5625,
+            "critDmg": 51.25,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "skeleton_mage1",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 50,
+            "gold": 75,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Skeleton Mage\",\"type\":\"Offensive\",\"lvl\":1,\"stats\":{\"hp\":369,\"hpMax\":369,\"atk\":94,\"def\":39,\"atkSpd\":0.41000000000000003,\"vamp\":0,\"critRate\":2.5625,\"critDmg\":51.25,\"hpPercent\":100},\"image\":{\"name\":\"skeleton_mage1\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":50,\"gold\":75,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": [""]
+          }
+        ],
+        "randomTape": [0, 0, 0.8125, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "variant-2",
+      "description": "Synthetic active normal tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Skeleton Mage",
+          "type": "Offensive",
+          "lvl": 1,
+          "stats": {
+            "hp": 369,
+            "hpMax": 369,
+            "atk": 94,
+            "def": 39,
+            "atkSpd": 0.41000000000000003,
+            "vamp": 0,
+            "critRate": 2.5625,
+            "critDmg": 51.25,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "skeleton_mage2",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 50,
+            "gold": 75,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Skeleton Mage\",\"type\":\"Offensive\",\"lvl\":1,\"stats\":{\"hp\":369,\"hpMax\":369,\"atk\":94,\"def\":39,\"atkSpd\":0.41000000000000003,\"vamp\":0,\"critRate\":2.5625,\"critDmg\":51.25,\"hpPercent\":100},\"image\":{\"name\":\"skeleton_mage2\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":50,\"gold\":75,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": [""]
+          }
+        ],
+        "randomTape": [
+          0, 0, 0.8125, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.99
+        ],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "fractional-exp",
+      "description": "Synthetic active sboss tuple after baseline generation; elapsed attack phase is not persisted.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 10000,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 2
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Shiva",
+          "type": "Balanced",
+          "lvl": 50000,
+          "stats": {
+            "hp": 370007400000,
+            "hpMax": 370007400000,
+            "atk": 6500130,
+            "def": 4500090,
+            "atkSpd": 2.5,
+            "vamp": 0,
+            "critRate": 13751.1,
+            "critDmg": 812565,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "icemaiden",
+            "type": ".png",
+            "size": "70%"
+          },
+          "rewards": {
+            "exp": 924691.3578,
+            "gold": 1387037,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":10000,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":2},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Shiva\",\"type\":\"Balanced\",\"lvl\":50000,\"stats\":{\"hp\":370007400000,\"hpMax\":370007400000,\"atk\":6500130,\"def\":4500090,\"atkSpd\":2.5,\"vamp\":0,\"critRate\":13751.1,\"critDmg\":812565,\"hpPercent\":100},\"image\":{\"name\":\"icemaiden\",\"type\":\".png\",\"size\":\"70%\"},\"rewards\":{\"exp\":924691.3578,\"gold\":1387037,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": false,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 10000,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 2
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": false
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0
+          },
+          "enemy": {
+            "name": null,
+            "type": null,
+            "lvl": null,
+            "stats": {
+              "hp": null,
+              "hpMax": null,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "image": {
+              "name": null,
+              "type": null,
+              "size": null
+            },
+            "rewards": {
+              "exp": null,
+              "gold": null,
+              "drop": null
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "generateRandomEnemy",
+            "args": ["sboss"]
+          }
+        ],
+        "randomTape": [
+          0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.123456789, 0.5, 0.5
+        ],
+        "post": {
+          "playerInCombat": true,
+          "dungeonEvent": true
+        }
+      }
+    },
+    {
+      "id": "full-duplicate-equipment",
+      "description": "Six equipped objects plus two identical encoded inventory entries; Latin-1 name and nonzero lifetime/run progress.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Márin ÿ",
+          "lvl": 9,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 12,
+            "atk": 8,
+            "def": 6,
+            "atkSpd": 3,
+            "vamp": 0.5,
+            "critRate": 1,
+            "critDmg": 2
+          },
+          "exp": {
+            "expCurr": 777,
+            "expMax": 1000,
+            "expCurrLvl": 77,
+            "expMaxLvl": 300,
+            "lvlGained": 2
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": [
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}",
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+            ]
+          },
+          "equipped": [
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            },
+            {
+              "category": "Sword",
+              "attribute": "Damage",
+              "type": "Weapon",
+              "rarity": "Common",
+              "lvl": 1,
+              "tier": 1,
+              "value": 75,
+              "stats": [
+                {
+                  "atk": 10
+                }
+              ]
+            }
+          ],
+          "gold": 12345,
+          "playtime": 321.5,
+          "kills": 37,
+          "deaths": 4,
+          "inCombat": false,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 3,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 7,
+            "room": 4,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 12,
+            "runtime": 62
+          },
+          "backlog": ["You explored and found nothing."],
+          "action": 4,
+          "enemyMultipliers": {
+            "hp": 1.2,
+            "atk": 1.1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Márin ÿ\",\"lvl\":9,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":12,\"atk\":8,\"def\":6,\"atkSpd\":3,\"vamp\":0.5,\"critRate\":1,\"critDmg\":2},\"exp\":{\"expCurr\":777,\"expMax\":1000,\"expCurrLvl\":77,\"expMaxLvl\":300,\"lvlGained\":2},\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\",\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"equipped\":[{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]},{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]},{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]},{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]},{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]},{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"tier\":1,\"value\":75,\"stats\":[{\"atk\":10}]}],\"gold\":12345,\"playtime\":321.5,\"kills\":37,\"deaths\":4,\"inCombat\":false,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":3,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":7,\"room\":4,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":false},\"statistics\":{\"kills\":12,\"runtime\":62},\"backlog\":[\"You explored and found nothing.\"],\"action\":4,\"enemyMultipliers\":{\"hp\":1.2,\"atk\":1.1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":null,\"type\":null,\"lvl\":null,\"stats\":{\"hp\":null,\"hpMax\":null,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"image\":{\"name\":null,\"type\":null,\"size\":null},\"rewards\":{\"exp\":null,\"gold\":null,\"drop\":null}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "itemGeneration": {
+          "initialState": {
+            "player": {
+              "name": "Mariner",
+              "lvl": 1,
+              "stats": {
+                "hp": 500,
+                "hpMax": 500,
+                "atk": 100,
+                "def": 50,
+                "pen": null,
+                "atkSpd": 0.6,
+                "vamp": 0,
+                "critRate": 0,
+                "critDmg": 50
+              },
+              "baseStats": {
+                "hp": 500,
+                "atk": 100,
+                "def": 50,
+                "pen": 0,
+                "atkSpd": 0.6,
+                "vamp": 0,
+                "critRate": 0,
+                "critDmg": 50
+              },
+              "equippedStats": {
+                "hp": 0,
+                "atk": 0,
+                "def": 0,
+                "pen": 0,
+                "atkSpd": 0,
+                "vamp": 0,
+                "critRate": 0,
+                "critDmg": 0,
+                "hpPct": 0,
+                "atkPct": 0,
+                "defPct": 0,
+                "penPct": 0
+              },
+              "bonusStats": {
+                "hp": 0,
+                "atk": 0,
+                "def": 0,
+                "atkSpd": 0,
+                "vamp": 0,
+                "critRate": 0,
+                "critDmg": 0
+              },
+              "exp": {
+                "expCurr": 0,
+                "expMax": 100,
+                "expCurrLvl": 0,
+                "expMaxLvl": 100,
+                "lvlGained": 0
+              },
+              "inventory": {
+                "consumables": [],
+                "equipment": []
+              },
+              "equipped": [],
+              "gold": 0,
+              "playtime": 0,
+              "kills": 0,
+              "deaths": 0,
+              "inCombat": false,
+              "allocated": true,
+              "skills": ["Remnant Razor"],
+              "blessing": 1,
+              "tempStats": {
+                "atk": 0,
+                "atkSpd": 0
+              }
+            },
+            "dungeon": {
+              "rating": 500,
+              "grade": "E",
+              "progress": {
+                "floor": 1,
+                "room": 1,
+                "floorLimit": 100,
+                "roomLimit": 5
+              },
+              "settings": {
+                "enemyBaseLvl": 1,
+                "enemyLvlGap": 5,
+                "enemyBaseStats": 1,
+                "enemyScaling": 1.1
+              },
+              "status": {
+                "exploring": false,
+                "paused": true,
+                "event": false
+              },
+              "statistics": {
+                "kills": 0,
+                "runtime": 0
+              },
+              "backlog": [],
+              "action": 0
+            },
+            "enemy": {
+              "name": null,
+              "type": null,
+              "lvl": null,
+              "stats": {
+                "hp": null,
+                "hpMax": null,
+                "atk": 0,
+                "def": 0,
+                "atkSpd": 0,
+                "vamp": 0,
+                "critRate": 0,
+                "critDmg": 0
+              },
+              "image": {
+                "name": null,
+                "type": null,
+                "size": null
+              },
+              "rewards": {
+                "exp": null,
+                "gold": null,
+                "drop": null
+              }
+            },
+            "volume": {
+              "master": 0.7,
+              "bgm": 0,
+              "sfx": 0.25
+            }
+          },
+          "call": "createEquipment",
+          "randomTape": [
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0
+          ]
+        },
+        "origin": "explicit synthetic progression values and cloned generated item"
+      }
+    },
+    {
+      "id": "optional-null-derived",
+      "description": "Historical optional fields, no item tier, null penetration, derived percentage strings.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50,
+            "hpPercent": "100"
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0,
+            "expPercent": "0"
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": [
+              "{\"category\":\"Sword\",\"attribute\":\"Damage\",\"type\":\"Weapon\",\"rarity\":\"Common\",\"lvl\":1,\"value\":75,\"stats\":[{\"atk\":10}]}"
+            ]
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "allocated": true
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50,\"hpPercent\":\"100\"},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0,\"expPercent\":\"0\"},\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":false,\"allocated\":true}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":false},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0}",
+        "enemyData": "{\"name\":null,\"type\":null,\"lvl\":null,\"stats\":{\"hp\":null,\"hpMax\":null,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"image\":{\"name\":null,\"type\":null,\"size\":null},\"rewards\":{\"exp\":null,\"gold\":null,\"drop\":null}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      }
+    },
+    {
+      "id": "settled-victory",
+      "description": "Inactive defeated enemy after legacy reward application; Claim must not apply rewards twice.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50,
+            "hpPercent": "100"
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 72,
+            "expMax": 100,
+            "expCurrLvl": 72,
+            "expMaxLvl": 100,
+            "lvlGained": 0,
+            "expPercent": "72"
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 108,
+          "playtime": 0,
+          "kills": 1,
+          "deaths": 0,
+          "inCombat": false,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 1,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 0,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50,\"hpPercent\":\"100\"},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":72,\"expMax\":100,\"expCurrLvl\":72,\"expMaxLvl\":100,\"lvlGained\":0,\"expPercent\":\"72\"},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":108,\"playtime\":0,\"kills\":1,\"deaths\":0,\"inCombat\":false,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":1,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Orc Axe\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":0,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"orc_axe\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 500,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": true,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": true
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0,
+            "enemyMultipliers": {
+              "hp": 1,
+              "atk": 1,
+              "def": 1,
+              "atkSpd": 1,
+              "vamp": 1,
+              "critRate": 1,
+              "critDmg": 1
+            }
+          },
+          "enemy": {
+            "name": "Orc Axe",
+            "type": "Balanced",
+            "lvl": 3,
+            "stats": {
+              "hp": 0,
+              "hpMax": 481,
+              "atk": 85,
+              "def": 59,
+              "atkSpd": 0.43000000000000005,
+              "vamp": 0,
+              "critRate": 1.0750000000000002,
+              "critDmg": 53.75,
+              "hpPercent": 100
+            },
+            "image": {
+              "name": "orc_axe",
+              "type": ".png",
+              "size": "50%"
+            },
+            "rewards": {
+              "exp": 72,
+              "gold": 108,
+              "drop": false
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "setVolume",
+            "args": []
+          },
+          {
+            "write": "combatTimer",
+            "value": null
+          },
+          {
+            "call": "hpValidation",
+            "args": []
+          }
+        ],
+        "randomTape": []
+      }
+    },
+    {
+      "id": "settled-death",
+      "description": "Inactive zero-HP player after death counter update, before Back to Menu resets the run.",
+      "classification": "valid",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 0,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 1,
+          "inCombat": false,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":0,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":1,\"inCombat\":false,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Orc Axe\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":481,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"orc_axe\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "recipe": {
+        "initialState": {
+          "player": {
+            "name": "Mariner",
+            "lvl": 1,
+            "stats": {
+              "hp": 0,
+              "hpMax": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": null,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "baseStats": {
+              "hp": 500,
+              "atk": 100,
+              "def": 50,
+              "pen": 0,
+              "atkSpd": 0.6,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 50
+            },
+            "equippedStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "pen": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0,
+              "hpPct": 0,
+              "atkPct": 0,
+              "defPct": 0,
+              "penPct": 0
+            },
+            "bonusStats": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "atkSpd": 0,
+              "vamp": 0,
+              "critRate": 0,
+              "critDmg": 0
+            },
+            "exp": {
+              "expCurr": 0,
+              "expMax": 100,
+              "expCurrLvl": 0,
+              "expMaxLvl": 100,
+              "lvlGained": 0
+            },
+            "inventory": {
+              "consumables": [],
+              "equipment": []
+            },
+            "equipped": [],
+            "gold": 0,
+            "playtime": 0,
+            "kills": 0,
+            "deaths": 0,
+            "inCombat": true,
+            "allocated": true,
+            "skills": ["Remnant Razor"],
+            "blessing": 1,
+            "tempStats": {
+              "atk": 0,
+              "atkSpd": 0
+            }
+          },
+          "dungeon": {
+            "rating": 500,
+            "grade": "E",
+            "progress": {
+              "floor": 1,
+              "room": 1,
+              "floorLimit": 100,
+              "roomLimit": 5
+            },
+            "settings": {
+              "enemyBaseLvl": 1,
+              "enemyLvlGap": 5,
+              "enemyBaseStats": 1,
+              "enemyScaling": 1.1
+            },
+            "status": {
+              "exploring": false,
+              "paused": true,
+              "event": true
+            },
+            "statistics": {
+              "kills": 0,
+              "runtime": 0
+            },
+            "backlog": [],
+            "action": 0,
+            "enemyMultipliers": {
+              "hp": 1,
+              "atk": 1,
+              "def": 1,
+              "atkSpd": 1,
+              "vamp": 1,
+              "critRate": 1,
+              "critDmg": 1
+            }
+          },
+          "enemy": {
+            "name": "Orc Axe",
+            "type": "Balanced",
+            "lvl": 3,
+            "stats": {
+              "hp": 481,
+              "hpMax": 481,
+              "atk": 85,
+              "def": 59,
+              "atkSpd": 0.43000000000000005,
+              "vamp": 0,
+              "critRate": 1.0750000000000002,
+              "critDmg": 53.75,
+              "hpPercent": 100
+            },
+            "image": {
+              "name": "orc_axe",
+              "type": ".png",
+              "size": "50%"
+            },
+            "rewards": {
+              "exp": 72,
+              "gold": 108,
+              "drop": false
+            }
+          },
+          "volume": {
+            "master": 0.7,
+            "bgm": 0,
+            "sfx": 0.25
+          }
+        },
+        "actions": [
+          {
+            "call": "setVolume",
+            "args": []
+          },
+          {
+            "write": "combatTimer",
+            "value": null
+          },
+          {
+            "call": "hpValidation",
+            "args": []
+          }
+        ],
+        "randomTape": []
+      }
+    },
+    {
+      "id": "interrupted-player-death",
+      "description": "Interrupted legacy tuple: active combat with terminal HP requires recovery, not inferred rewards.",
+      "classification": "recovery",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 0,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 481,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":0,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Orc Axe\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":481,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"orc_axe\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "expectedIssue": "active-terminal-hp"
+    },
+    {
+      "id": "interrupted-enemy-victory",
+      "description": "Interrupted legacy tuple: active combat with terminal HP requires recovery, not inferred rewards.",
+      "classification": "recovery",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": {
+          "name": "Orc Axe",
+          "type": "Balanced",
+          "lvl": 3,
+          "stats": {
+            "hp": 0,
+            "hpMax": 481,
+            "atk": 85,
+            "def": 59,
+            "atkSpd": 0.43000000000000005,
+            "vamp": 0,
+            "critRate": 1.0750000000000002,
+            "critDmg": 53.75,
+            "hpPercent": 100
+          },
+          "image": {
+            "name": "orc_axe",
+            "type": ".png",
+            "size": "50%"
+          },
+          "rewards": {
+            "exp": 72,
+            "gold": 108,
+            "drop": false
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "enemyData": "{\"name\":\"Orc Axe\",\"type\":\"Balanced\",\"lvl\":3,\"stats\":{\"hp\":0,\"hpMax\":481,\"atk\":85,\"def\":59,\"atkSpd\":0.43000000000000005,\"vamp\":0,\"critRate\":1.0750000000000002,\"critDmg\":53.75,\"hpPercent\":100},\"image\":{\"name\":\"orc_axe\",\"type\":\".png\",\"size\":\"50%\"},\"rewards\":{\"exp\":72,\"gold\":108,\"drop\":false}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "expectedIssue": "active-terminal-hp"
+    },
+    {
+      "id": "interrupted-missing-enemy",
+      "description": "Active tuple with absent enemyData must not synthesize an encounter.",
+      "classification": "recovery",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": true,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": true
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0,
+          "enemyMultipliers": {
+            "hp": 1,
+            "atk": 1,
+            "def": 1,
+            "atkSpd": 1,
+            "vamp": 1,
+            "critRate": 1,
+            "critDmg": 1
+          }
+        },
+        "enemy": null,
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":true,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":true},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0,\"enemyMultipliers\":{\"hp\":1,\"atk\":1,\"def\":1,\"atkSpd\":1,\"vamp\":1,\"critRate\":1,\"critDmg\":1}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "expectedIssue": "missing-active-enemy"
+    },
+    {
+      "id": "early-player-only",
+      "description": "Legitimate early player without run/enemy/preferences uses known initial defaults.",
+      "classification": "valid-early-defaults",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": []
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 1,
+          "bgm": 0.4,
+          "sfx": 1
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":false}"
+      }
+    },
+    {
+      "id": "interrupted-malformed-item",
+      "description": "Corrupt nested inventory JSON remains recoverable byte-for-byte.",
+      "classification": "recovery",
+      "state": {
+        "player": {
+          "name": "Mariner",
+          "lvl": 1,
+          "stats": {
+            "hp": 500,
+            "hpMax": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": null,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "baseStats": {
+            "hp": 500,
+            "atk": 100,
+            "def": 50,
+            "pen": 0,
+            "atkSpd": 0.6,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 50
+          },
+          "equippedStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "pen": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "hpPct": 0,
+            "atkPct": 0,
+            "defPct": 0,
+            "penPct": 0
+          },
+          "bonusStats": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "exp": {
+            "expCurr": 0,
+            "expMax": 100,
+            "expCurrLvl": 0,
+            "expMaxLvl": 100,
+            "lvlGained": 0
+          },
+          "inventory": {
+            "consumables": [],
+            "equipment": ["{broken"]
+          },
+          "equipped": [],
+          "gold": 0,
+          "playtime": 0,
+          "kills": 0,
+          "deaths": 0,
+          "inCombat": false,
+          "allocated": true,
+          "skills": ["Remnant Razor"],
+          "blessing": 1,
+          "tempStats": {
+            "atk": 0,
+            "atkSpd": 0
+          }
+        },
+        "dungeon": {
+          "rating": 500,
+          "grade": "E",
+          "progress": {
+            "floor": 1,
+            "room": 1,
+            "floorLimit": 100,
+            "roomLimit": 5
+          },
+          "settings": {
+            "enemyBaseLvl": 1,
+            "enemyLvlGap": 5,
+            "enemyBaseStats": 1,
+            "enemyScaling": 1.1
+          },
+          "status": {
+            "exploring": false,
+            "paused": true,
+            "event": false
+          },
+          "statistics": {
+            "kills": 0,
+            "runtime": 0
+          },
+          "backlog": [],
+          "action": 0
+        },
+        "enemy": {
+          "name": null,
+          "type": null,
+          "lvl": null,
+          "stats": {
+            "hp": null,
+            "hpMax": null,
+            "atk": 0,
+            "def": 0,
+            "atkSpd": 0,
+            "vamp": 0,
+            "critRate": 0,
+            "critDmg": 0
+          },
+          "image": {
+            "name": null,
+            "type": null,
+            "size": null
+          },
+          "rewards": {
+            "exp": null,
+            "gold": null,
+            "drop": null
+          }
+        },
+        "volume": {
+          "master": 0.7,
+          "bgm": 0,
+          "sfx": 0.25
+        }
+      },
+      "raw": {
+        "playerData": "{\"name\":\"Mariner\",\"lvl\":1,\"stats\":{\"hp\":500,\"hpMax\":500,\"atk\":100,\"def\":50,\"pen\":null,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"baseStats\":{\"hp\":500,\"atk\":100,\"def\":50,\"pen\":0,\"atkSpd\":0.6,\"vamp\":0,\"critRate\":0,\"critDmg\":50},\"equippedStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"pen\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0,\"hpPct\":0,\"atkPct\":0,\"defPct\":0,\"penPct\":0},\"bonusStats\":{\"hp\":0,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"exp\":{\"expCurr\":0,\"expMax\":100,\"expCurrLvl\":0,\"expMaxLvl\":100,\"lvlGained\":0},\"inventory\":{\"consumables\":[],\"equipment\":[\"{broken\"]},\"equipped\":[],\"gold\":0,\"playtime\":0,\"kills\":0,\"deaths\":0,\"inCombat\":false,\"allocated\":true,\"skills\":[\"Remnant Razor\"],\"blessing\":1,\"tempStats\":{\"atk\":0,\"atkSpd\":0}}",
+        "dungeonData": "{\"rating\":500,\"grade\":\"E\",\"progress\":{\"floor\":1,\"room\":1,\"floorLimit\":100,\"roomLimit\":5},\"settings\":{\"enemyBaseLvl\":1,\"enemyLvlGap\":5,\"enemyBaseStats\":1,\"enemyScaling\":1.1},\"status\":{\"exploring\":false,\"paused\":true,\"event\":false},\"statistics\":{\"kills\":0,\"runtime\":0},\"backlog\":[],\"action\":0}",
+        "enemyData": "{\"name\":null,\"type\":null,\"lvl\":null,\"stats\":{\"hp\":null,\"hpMax\":null,\"atk\":0,\"def\":0,\"atkSpd\":0,\"vamp\":0,\"critRate\":0,\"critDmg\":0},\"image\":{\"name\":null,\"type\":null,\"size\":null},\"rewards\":{\"exp\":null,\"gold\":null,\"drop\":null}}",
+        "volumeData": "{\"master\":0.7,\"bgm\":0,\"sfx\":0.25}"
+      },
+      "expectedIssue": "malformed-equipment"
+    }
+  ]
+}

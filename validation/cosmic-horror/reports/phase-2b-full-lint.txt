@@ -1,0 +1,340 @@
+npm notice run malevolent-crawler@0.0.0 lint
+npm notice run eslint .
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/combat.js
+   18:17  error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+   24:27  error  'dungeonTimer' is not defined                                             no-undef
+   25:27  error  'playTimer' is not defined                                                no-undef
+   54:17  error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+   80:9   error  'dmgRange' is never reassigned. Use 'const' instead                       prefer-const
+   85:9   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+   85:9   error  'dmgtype' is not defined                                                  no-undef
+   89:9   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+   89:9   error  'dmgtype' is not defined                                                  no-undef
+  123:9   error  'lifesteal' is never reassigned. Use 'const' instead                      prefer-const
+  128:69  error  'dmgtype' is not defined                                                  no-undef
+  134:9   error  'enemySprite' is never reassigned. Use 'const' instead                    prefer-const
+  175:9   error  'lifesteal' is never reassigned. Use 'const' instead                      prefer-const
+  177:9   error  'dmgRange' is never reassigned. Use 'const' instead                       prefer-const
+  181:9   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  181:9   error  'dmgtype' is not defined                                                  no-undef
+  184:9   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  184:9   error  'dmgtype' is not defined                                                  no-undef
+  203:68  error  'dmgtype' is not defined                                                  no-undef
+  209:9   error  'playerPanel' is never reassigned. Use 'const' instead                    prefer-const
+  236:9   error  'combatLogBox' is never reassigned. Use 'const' instead                   prefer-const
+  239:14  error  'message' is never reassigned. Use 'const' instead                        prefer-const
+  240:13  error  'logElement' is never reassigned. Use 'const' instead                     prefer-const
+  246:13  error  'button' is never reassigned. Use 'const' instead                         prefer-const
+  253:13  error  'button' is never reassigned. Use 'const' instead                         prefer-const
+  274:9   error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+  283:5   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  283:5   error  'combatTimer' is not defined                                              no-undef
+  290:5   error  'sfxCombatEnd' is not defined                                             no-undef
+  309:19  error  'combatTimer' is not defined                                              no-undef
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/dungeon.js
+   57:5   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+   57:5   error  'dungeonTimer' is not defined                                             no-undef
+   58:5   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+   58:5   error  'playTimer' is not defined                                                no-undef
+  120:43  error  Expected '===' and instead saw '=='                                       eqeqeq
+  127:47  error  Expected '===' and instead saw '=='                                       eqeqeq
+  131:39  error  Expected '===' and instead saw '=='                                       eqeqeq
+  135:46  error  Expected '===' and instead saw '=='                                       eqeqeq
+  199:31  error  Expected '===' and instead saw '=='                                       eqeqeq
+  202:25  error  'cost' is never reassigned. Use 'const' instead                           prefer-const
+  229:31  error  Expected '===' and instead saw '=='                                       eqeqeq
+  231:25  error  'curseLvl' is never reassigned. Use 'const' instead                       prefer-const
+  232:25  error  'cost' is never reassigned. Use 'const' instead                           prefer-const
+  259:31  error  Expected '===' and instead saw '=='                                       eqeqeq
+  319:9   error  'eventRoll' is never reassigned. Use 'const' instead                      prefer-const
+  320:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  337:9   error  'eventRoll' is never reassigned. Use 'const' instead                      prefer-const
+  338:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  340:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  341:36  error  Expected '===' and instead saw '=='                                       eqeqeq
+  347:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  359:9   error  'goldValue' is never reassigned. Use 'const' instead                      prefer-const
+  367:9   error  'eventRoll' is never reassigned. Use 'const' instead                      prefer-const
+  368:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  370:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  372:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  374:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  376:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  384:9   error  'stats' is never reassigned. Use 'const' instead                          prefer-const
+  385:9   error  'buff' is never reassigned. Use 'const' instead                           prefer-const
+  453:25  error  Expected '===' and instead saw '=='                                       eqeqeq
+  461:9   error  'dungeonLog' is never reassigned. Use 'const' instead                     prefer-const
+  465:14  error  'message' is never reassigned. Use 'const' instead                        prefer-const
+  466:13  error  'logElement' is never reassigned. Use 'const' instead                     prefer-const
+  473:13  error  'eventChoices' is never reassigned. Use 'const' instead                   prefer-const
+  489:9   error  'base' is assigned a value but never used                                 no-unused-vars
+  489:9   error  'base' is never reassigned. Use 'const' instead                           prefer-const
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/enemy.js
+    2:5   error  'enemy' is never reassigned. Use 'const' instead                              prefer-const
+   49:9   error  The value assigned to 'selectedEnemies' is not used in subsequent statements  no-useless-assignment
+   57:19  error  Expected '===' and instead saw '=='                                           eqeqeq
+   59:26  error  Expected '===' and instead saw '=='                                           eqeqeq
+   69:27  error  Expected '===' and instead saw '=='                                           eqeqeq
+   73:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+   92:27  error  Expected '===' and instead saw '=='                                           eqeqeq
+   96:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+  112:27  error  Expected '===' and instead saw '=='                                           eqeqeq
+  116:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+  134:27  error  Expected '===' and instead saw '=='                                           eqeqeq
+  138:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+  156:27  error  Expected '===' and instead saw '=='                                           eqeqeq
+  160:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+  177:19  error  Expected '===' and instead saw '=='                                           eqeqeq
+  179:26  error  Expected '===' and instead saw '=='                                           eqeqeq
+  187:14  error  Expected '===' and instead saw '=='                                           eqeqeq
+  198:21  error  Expected '===' and instead saw '=='                                           eqeqeq
+  209:21  error  Expected '===' and instead saw '=='                                           eqeqeq
+  220:21  error  Expected '===' and instead saw '=='                                           eqeqeq
+  231:21  error  Expected '===' and instead saw '=='                                           eqeqeq
+  244:34  error  Expected '===' and instead saw '=='                                           eqeqeq
+  272:19  error  Expected '===' and instead saw '=='                                           eqeqeq
+  281:19  error  Expected '===' and instead saw '=='                                           eqeqeq
+  317:9   error  'expCalculation' is never reassigned. Use 'const' instead                     prefer-const
+  324:28  error  Expected '===' and instead saw '=='                                           eqeqeq
+  439:36  error  Expected '===' and instead saw '=='                                           eqeqeq
+  573:9   error  'rx' is never reassigned. Use 'const' instead                                 prefer-const
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/equipment.js
+   18:29  error  Expected '===' and instead saw '=='                                       eqeqeq
+   22:36  error  Expected '===' and instead saw '=='                                       eqeqeq
+   25:28  error  Expected '===' and instead saw '=='                                       eqeqeq
+   28:35  error  Expected '===' and instead saw '=='                                       eqeqeq
+   31:35  error  Expected '===' and instead saw '=='                                       eqeqeq
+   50:14  error  'rarity' is never reassigned. Use 'const' instead                         prefer-const
+   88:29  error  Expected '===' and instead saw '=='                                       eqeqeq
+   89:32  error  Expected '===' and instead saw '=='                                       eqeqeq
+   89:63  error  Expected '===' and instead saw '=='                                       eqeqeq
+   91:39  error  Expected '===' and instead saw '=='                                       eqeqeq
+   91:73  error  Expected '===' and instead saw '=='                                       eqeqeq
+   93:39  error  Expected '===' and instead saw '=='                                       eqeqeq
+   98:36  error  Expected '===' and instead saw '=='                                       eqeqeq
+  103:13  error  'statType' is never reassigned. Use 'const' instead                       prefer-const
+  118:13  error  'statMultiplier' is never reassigned. Use 'const' instead                 prefer-const
+  120:13  error  'hpScaling' is never reassigned. Use 'const' instead                      prefer-const
+  121:13  error  'atkDefScaling' is never reassigned. Use 'const' instead                  prefer-const
+  122:13  error  'cdAtkSpdScaling' is never reassigned. Use 'const' instead                prefer-const
+  123:13  error  'crVampScaling' is never reassigned. Use 'const' instead                  prefer-const
+  127:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  127:13  error  'statValue' is not defined                                                no-undef
+  128:31  error  'statValue' is not defined                                                no-undef
+  130:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  130:13  error  'statValue' is not defined                                                no-undef
+  131:31  error  'statValue' is not defined                                                no-undef
+  133:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  133:13  error  'statValue' is not defined                                                no-undef
+  134:31  error  'statValue' is not defined                                                no-undef
+  136:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  136:13  error  'statValue' is not defined                                                no-undef
+  137:17  error  'statValue' is not defined                                                no-undef
+  138:17  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  138:17  error  'statValue' is not defined                                                no-undef
+  141:31  error  'statValue' is not defined                                                no-undef
+  143:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  143:13  error  'statValue' is not defined                                                no-undef
+  144:17  error  'statValue' is not defined                                                no-undef
+  145:17  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  145:17  error  'statValue' is not defined                                                no-undef
+  148:31  error  'statValue' is not defined                                                no-undef
+  150:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  150:13  error  'statValue' is not defined                                                no-undef
+  151:17  error  'statValue' is not defined                                                no-undef
+  152:17  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  152:17  error  'statValue' is not defined                                                no-undef
+  155:31  error  'statValue' is not defined                                                no-undef
+  157:13  error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  157:13  error  'statValue' is not defined                                                no-undef
+  158:31  error  'statValue' is not defined                                                no-undef
+  162:30  error  Expected '===' and instead saw '=='                                       eqeqeq
+  164:37  error  Expected '===' and instead saw '=='                                       eqeqeq
+  166:37  error  Expected '===' and instead saw '=='                                       eqeqeq
+  168:37  error  Expected '===' and instead saw '=='                                       eqeqeq
+  170:37  error  Expected '===' and instead saw '=='                                       eqeqeq
+  172:37  error  Expected '===' and instead saw '=='                                       eqeqeq
+  179:52  error  Expected '===' and instead saw '=='                                       eqeqeq
+  188:56  error  Expected '===' and instead saw '=='                                       eqeqeq
+  189:53  error  'statValue' is not defined                                                no-undef
+  197:48  error  'statValue' is not defined                                                no-undef
+  219:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  221:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  223:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  225:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  227:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  229:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  231:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  233:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  235:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  237:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  239:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  241:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  243:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  245:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+  255:9   error  'itemInfo' is never reassigned. Use 'const' instead                       prefer-const
+  256:9   error  'rx' is never reassigned. Use 'const' instead                             prefer-const
+  257:9   error  'dimContainer' is never reassigned. Use 'const' instead                   prefer-const
+  258:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  285:9   error  'unEquip' is never reassigned. Use 'const' instead                        prefer-const
+  287:18  error  Expected '===' and instead saw '=='                                       eqeqeq
+  304:25  error  Expected '===' and instead saw '=='                                       eqeqeq
+  320:9   error  'sell' is never reassigned. Use 'const' instead                           prefer-const
+  334:13  error  'confirm' is never reassigned. Use 'const' instead                        prefer-const
+  335:13  error  'cancel' is never reassigned. Use 'const' instead                         prefer-const
+  340:22  error  Expected '===' and instead saw '=='                                       eqeqeq
+  343:29  error  Expected '===' and instead saw '=='                                       eqeqeq
+  365:9   error  'close' is never reassigned. Use 'const' instead                          prefer-const
+  378:9   error  'playerInventoryList' is never reassigned. Use 'const' instead            prefer-const
+  381:43  error  Expected '===' and instead saw '=='                                       eqeqeq
+  389:13  error  'itemDiv' is never reassigned. Use 'const' instead                        prefer-const
+  390:13  error  'icon' is never reassigned. Use 'const' instead                           prefer-const
+  394:17  error  'type' is never reassigned. Use 'const' instead                           prefer-const
+  406:9   error  'playerEquipmentList' is never reassigned. Use 'const' instead            prefer-const
+  410:32  error  Expected '===' and instead saw '=='                                       eqeqeq
+  418:13  error  'equipDiv' is never reassigned. Use 'const' instead                       prefer-const
+  419:13  error  'icon' is never reassigned. Use 'const' instead                           prefer-const
+  423:17  error  'type' is never reassigned. Use 'const' instead                           prefer-const
+  469:16  error  Expected '===' and instead saw '=='                                       eqeqeq
+  511:9   error  'rx' is never reassigned. Use 'const' instead                             prefer-const
+  512:9   error  'item' is never reassigned. Use 'const' instead                           prefer-const
+  513:9   error  'panel' is never reassigned. Use 'const' instead                          prefer-const
+  528:19  error  Expected '===' and instead saw '=='                                       eqeqeq
+  531:26  error  Expected '===' and instead saw '=='                                       eqeqeq
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/main.js
+    5:13   error  'target' is never reassigned. Use 'const' instead                         prefer-const
+   27:13   error  'playerName' is never reassigned. Use 'const' instead                     prefer-const
+   29:39   error  Unnecessary escape character: \[                                          no-useless-escape
+   29:56   error  Unnecessary escape character: \/                                          no-useless-escape
+  115:13   error  'dimTarget' is never reassigned. Use 'const' instead                      prefer-const
+  126:13   error  'confirm' is never reassigned. Use 'const' instead                        prefer-const
+  127:13   error  'cancel' is never reassigned. Use 'const' instead                         prefer-const
+  149:13   error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+  167:13   error  'close' is never reassigned. Use 'const' instead                          prefer-const
+  168:13   error  'playerMenu' is never reassigned. Use 'const' instead                     prefer-const
+  169:13   error  'runMenu' is never reassigned. Use 'const' instead                        prefer-const
+  170:13   error  'quitRun' is never reassigned. Use 'const' instead                        prefer-const
+  171:13   error  'exportImport' is never reassigned. Use 'const' instead                   prefer-const
+  172:13   error  'volumeSettings' is never reassigned. Use 'const' instead                 prefer-const
+  177:17   error  'playTime' is never reassigned. Use 'const' instead                       prefer-const
+  191:17   error  'profileTab' is never reassigned. Use 'const' instead                     prefer-const
+  193:17   error  'profileClose' is never reassigned. Use 'const' instead                   prefer-const
+  205:17   error  'runTime' is never reassigned. Use 'const' instead                        prefer-const
+  220:17   error  'runTab' is never reassigned. Use 'const' instead                         prefer-const
+  222:17   error  'runClose' is never reassigned. Use 'const' instead                       prefer-const
+  244:17   error  'quit' is never reassigned. Use 'const' instead                           prefer-const
+  245:17   error  'cancel' is never reassigned. Use 'const' instead                         prefer-const
+  250:21   error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+  258:31   error  'dungeonTimer' is not defined                                             no-undef
+  259:31   error  'playTimer' is not defined                                                no-undef
+  293:17   error  'masterVol' is never reassigned. Use 'const' instead                      prefer-const
+  294:17   error  'bgmVol' is never reassigned. Use 'const' instead                         prefer-const
+  295:17   error  'sfxVol' is never reassigned. Use 'const' instead                         prefer-const
+  296:17   error  'applyVol' is never reassigned. Use 'const' instead                       prefer-const
+  297:17   error  'volumeTab' is never reassigned. Use 'const' instead                      prefer-const
+  299:17   error  'volumeClose' is never reassigned. Use 'const' instead                    prefer-const
+  337:17   error  'exportedData' is never reassigned. Use 'const' instead                   prefer-const
+  353:17   error  'eiTab' is never reassigned. Use 'const' instead                          prefer-const
+  355:17   error  'eiClose' is never reassigned. Use 'const' instead                        prefer-const
+  356:17   error  'copyExport' is never reassigned. Use 'const' instead                     prefer-const
+  357:17   error  'dataImport' is never reassigned. Use 'const' instead                     prefer-const
+  358:17   error  'importInput' is never reassigned. Use 'const' instead                    prefer-const
+  361:21   error  'copyText' is never reassigned. Use 'const' instead                       prefer-const
+  391:9    error  'loader' is never reassigned. Use 'const' instead                         prefer-const
+  411:25   error  Expected '===' and instead saw '=='                                       eqeqeq
+  432:9    error  'equipmentAtkSpd' is never reassigned. Use 'const' instead                prefer-const
+  433:9    error  'playerHpBase' is never reassigned. Use 'const' instead                   prefer-const
+  434:9    error  'playerAtkBase' is never reassigned. Use 'const' instead                  prefer-const
+  435:9    error  'playerDefBase' is never reassigned. Use 'const' instead                  prefer-const
+  436:9    error  'playerAtkSpdBase' is never reassigned. Use 'const' instead               prefer-const
+  437:9    error  'playerVampBase' is never reassigned. Use 'const' instead                 prefer-const
+  438:9    error  'playerCRateBase' is never reassigned. Use 'const' instead                prefer-const
+  439:9    error  'playerCDmgBase' is never reassigned. Use 'const' instead                 prefer-const
+  509:13   error  'playerImport' is never reassigned. Use 'const' instead                   prefer-const
+  522:17   error  'confirm' is never reassigned. Use 'const' instead                        prefer-const
+  523:17   error  'cancel' is never reassigned. Use 'const' instead                         prefer-const
+  529:21   error  'dimDungeon' is never reassigned. Use 'const' instead                     prefer-const
+  539:31   error  'dungeonTimer' is not defined                                             no-undef
+  540:31   error  'playTimer' is not defined                                                no-undef
+  552:14   error  'err' is defined but never used                                           no-unused-vars
+  566:9    error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  566:9    error  'stats' is not defined                                                    no-undef
+  583:75   error  'stats' is not defined                                                    no-undef
+  591:76   error  'stats' is not defined                                                    no-undef
+  599:83   error  'stats' is not defined                                                    no-undef
+  607:90   error  'stats' is not defined                                                    no-undef
+  641:13   error  'rx' is never reassigned. Use 'const' instead                             prefer-const
+  643:17   error  'stat' is never reassigned. Use 'const' instead                           prefer-const
+  649:150  error  'stats' is not defined                                                    no-undef
+  656:17   error  'stat' is never reassigned. Use 'const' instead                           prefer-const
+  662:150  error  'stats' is not defined                                                    no-undef
+  696:9    error  'selectSkill' is never reassigned. Use 'const' instead                    prefer-const
+  697:9    error  'skillDesc' is never reassigned. Use 'const' instead                      prefer-const
+  702:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  705:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  708:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  711:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  714:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  717:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  720:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  726:9    error  'confirm' is never reassigned. Use 'const' instead                        prefer-const
+  727:9    error  'reset' is never reassigned. Use 'const' instead                          prefer-const
+  728:9    error  'close' is never reassigned. Use 'const' instead                          prefer-const
+  732:17   error  'stats' is not defined                                                    no-undef
+  733:18   error  'stats' is not defined                                                    no-undef
+  734:18   error  'stats' is not defined                                                    no-undef
+  736:21   error  'stats' is not defined                                                    no-undef
+  744:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  747:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  750:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  754:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  757:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  760:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  763:31   error  Expected '===' and instead saw '=='                                       eqeqeq
+  788:65   error  'stats' is not defined                                                    no-undef
+  789:67   error  'stats' is not defined                                                    no-undef
+  790:67   error  'stats' is not defined                                                    no-undef
+  791:74   error  'stats' is not defined                                                    no-undef
+  807:23   error  Expected '===' and instead saw '=='                                       eqeqeq
+  810:26   error  Expected '===' and instead saw '=='                                       eqeqeq
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/music.js
+   3:52  error  Expected '===' and instead saw '=='                                       eqeqeq
+  69:5   error  Global variable leak, declare the variable if it is intended to be local  no-implicit-globals
+  69:5   error  'sfxCombatEnd' is not defined                                             no-undef
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/player.js
+    1:5   error  'player' is never reassigned. Use 'const' instead         prefer-const
+   30:9   error  'excessExp' is never reassigned. Use 'const' instead      prefer-const
+   54:9   error  'rx' is never reassigned. Use 'const' instead             prefer-const
+  106:9   error  'openInv' is never reassigned. Use 'const' instead        prefer-const
+  107:9   error  'dimDungeon' is never reassigned. Use 'const' instead     prefer-const
+  114:13  error  'rarity' is never reassigned. Use 'const' instead         prefer-const
+  117:20  error  Expected '===' and instead saw '=='                       eqeqeq
+  137:13  error  'confirm' is never reassigned. Use 'const' instead        prefer-const
+  138:13  error  'cancel' is never reassigned. Use 'const' instead         prefer-const
+  156:13  error  'rarity' is never reassigned. Use 'const' instead         prefer-const
+  165:9   error  'openInv' is never reassigned. Use 'const' instead        prefer-const
+  166:9   error  'dimDungeon' is never reassigned. Use 'const' instead     prefer-const
+  208:9   error  'selectedStats' is never reassigned. Use 'const' instead  prefer-const
+  209:9   error  'stats' is never reassigned. Use 'const' instead          prefer-const
+  211:13  error  'randomIndex' is never reassigned. Use 'const' instead    prefer-const
+  242:17  error  'button' is never reassigned. Use 'const' instead         prefer-const
+  245:17  error  'h3' is never reassigned. Use 'const' instead             prefer-const
+  249:17  error  'p' is never reassigned. Use 'const' instead              prefer-const
+  274:14  error  'err' is defined but never used                           no-unused-vars
+  274:19  error  Empty block statement                                     no-empty
+
+/Users/oberon/Projects/coding/javascript/malevolent-crawler/assets/js/utility.js
+   3:9  error  'lookup' is never reassigned. Use 'const' instead  prefer-const
+  12:9  error  'rx' is never reassigned. Use 'const' instead      prefer-const
+  13:9  error  'item' is never reassigned. Use 'const' instead    prefer-const
+
+✖ 318 problems (318 errors, 0 warnings)
+  132 errors and 0 warnings potentially fixable with the `--fix` option.
+

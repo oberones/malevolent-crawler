@@ -1,0 +1,4 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --check .github/workflows/validate.yml eslint.config.mjs tests/helpers tests/fixtures/harness tests/fixtures/legacy/baseline.json tests/fixtures/legacy/dom-selectors.json tests/fixtures/legacy/expected-state.json tests/fixtures/legacy/exports.json tests/fixtures/legacy/saves.json tests/unit tests/integration/legacy-browser-fixtures.spec.mjs art/cosmic-horror/baseline.json validation/cosmic-horror/phase-2a.md validation/cosmic-horror/gates.json validation/cosmic-horror/tdd.md specs/001-cosmic-horror-refactor/tasks.md specs/001-cosmic-horror-refactor/quickstart.md
+Checking formatting...
+All matched files use Prettier code style!

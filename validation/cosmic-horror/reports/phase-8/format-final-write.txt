@@ -1,0 +1,24 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'prettier' --write README.md assets/css/style.css assets/js/combat.js assets/js/main.js assets/js/content/messages.mjs art/cosmic-horror/setting-guide.md specs/001-cosmic-horror-refactor/tasks.md specs/001-cosmic-horror-refactor/quickstart.md specs/001-cosmic-horror-refactor/validation-plan.md tests/browser/full-journeys.spec.mjs tests/browser/recovery-accessibility.spec.mjs tests/browser/symbol-geometry.spec.mjs validation/cosmic-horror/automated.json validation/cosmic-horror/gates.json validation/cosmic-horror/ci.md validation/cosmic-horror/manual.md validation/cosmic-horror/tdd.md validation/cosmic-horror/integration-findings.md validation/cosmic-horror/review.md validation/cosmic-horror/native-desktop.md validation/cosmic-horror/native-mobile.md validation/cosmic-horror/release.md
+README.md 39ms (unchanged)
+assets/css/style.css 64ms (unchanged)
+assets/js/combat.js 42ms (unchanged)
+assets/js/main.js 39ms (unchanged)
+assets/js/content/messages.mjs 12ms (unchanged)
+art/cosmic-horror/setting-guide.md 81ms (unchanged)
+specs/001-cosmic-horror-refactor/tasks.md 86ms (unchanged)
+specs/001-cosmic-horror-refactor/quickstart.md 22ms (unchanged)
+specs/001-cosmic-horror-refactor/validation-plan.md 20ms (unchanged)
+tests/browser/full-journeys.spec.mjs 13ms (unchanged)
+tests/browser/recovery-accessibility.spec.mjs 6ms (unchanged)
+tests/browser/symbol-geometry.spec.mjs 14ms (unchanged)
+validation/cosmic-horror/automated.json 2ms (unchanged)
+validation/cosmic-horror/gates.json 65ms
+validation/cosmic-horror/ci.md 5ms (unchanged)
+validation/cosmic-horror/manual.md 106ms (unchanged)
+validation/cosmic-horror/tdd.md 70ms (unchanged)
+validation/cosmic-horror/integration-findings.md 6ms (unchanged)
+validation/cosmic-horror/review.md 3ms (unchanged)
+validation/cosmic-horror/native-desktop.md 4ms (unchanged)
+validation/cosmic-horror/native-mobile.md 1ms (unchanged)
+validation/cosmic-horror/release.md 8ms

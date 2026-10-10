@@ -1,0 +1,503 @@
+[
+  {
+    "name": "@playwright/test",
+    "version": "1.63.0",
+    "published": "2026-09-04T22:44:00.304Z",
+    "latest": "1.63.0",
+    "license": "Apache-2.0",
+    "engines": {
+      "node": ">=20"
+    },
+    "scripts": {},
+    "deprecated": null,
+    "dependencies": {
+      "playwright": "1.63.0"
+    },
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "808020c46e8b6b91f9d628cd0ebcbb32bdfd8b6c",
+      "tarball": "https://registry.npmjs.org/@playwright/test/-/test-1.63.0.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-oxMK4vllB9RK5NQ2l1pq1IfOf2AvnEuj/vYGDj0H2nMtmtZpKtCwt/l00GEO6xjGfpBNAvjovvYdCm50dRQkpQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDUH4a4V6wkW8vZKOHi60EtVScpadXG/qpWxl0HkScehwIhALwx8bC8oCgXeZQI6mjJ+bZJAjZIowIiLS5jEK8g5md0",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQDbceOr8IFZs4Y1etJqfQV6K1O4zduy8yn9ngl8996WfwIgcNc6YXDqCpPA781bx9peX5wboqICx5KngcccBzk7Vq0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@playwright%2ftest@1.63.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 28544
+    },
+    "repository": {
+      "url": "git+https://github.com/microsoft/playwright.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/@playwright%2ftest/1.63.0"
+  },
+  {
+    "name": "@axe-core/playwright",
+    "version": "4.13.0",
+    "published": "2026-08-11T17:07:40.763Z",
+    "latest": "4.13.0",
+    "license": "MPL-2.0",
+    "engines": null,
+    "scripts": {
+      "test": "mocha --timeout 60000 -r ts-node/register 'test/**.spec.ts'",
+      "build": "tsup src/index.ts --dts --format esm,cjs",
+      "prepare": "npx playwright install && npm run build",
+      "test:ts": "tsc test/tsTest.ts --noEmit --skipLibCheck --esModuleInterop",
+      "coverage": "nyc npm run test",
+      "prebuild": "rimraf dist",
+      "test:esm": "node test/esmTest.mjs",
+      "test:export": "npm run test:esm && npm run test:commonjs && npm run test:ts",
+      "test:commonjs": "node test/commonjsTest.js"
+    },
+    "deprecated": null,
+    "dependencies": {
+      "axe-core": "~4.13.0"
+    },
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "4826467c9622df26f0d75b4c1747c8d92ee599de",
+      "tarball": "https://registry.npmjs.org/@axe-core/playwright/-/playwright-4.13.0.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-6YLx+kxXu5GJceG4ozFg+33a2EMTdjYwWGloJ3sb9Kta5pp+ZNS53uxGVog5JetIY8s++P5UrtX+cri+u0VAVg==",
+      "signatures": [
+        {
+          "sig": "MEQCIGur3Zhj2VOuJBR0/k/wwB40oSKqWSwfggSuao1bMu2rAiBUrNBQ8hwzAhypJG7vTsHmzxugPxqQxSa3TfDmbw2D7Q==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCICxSAqtpFBjIBfyFmneGbaAzZO9WcACGgfyFP3ZeP1bfAiBgzqa0odMXRVLZbJHQ1etSSvmqvcGAMLmkoRPxDekutg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@axe-core%2fplaywright@4.13.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 47180
+    },
+    "repository": {
+      "url": "git+https://github.com/dequelabs/axe-core-npm.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/@axe-core%2fplaywright/4.13.0"
+  },
+  {
+    "name": "eslint",
+    "version": "10.12.0",
+    "published": "2026-10-02T20:08:19.213Z",
+    "latest": "10.12.0",
+    "license": "MIT",
+    "engines": {
+      "node": "^20.19.0 || ^22.13.0 || >=24"
+    },
+    "scripts": {
+      "fmt": "prettier --write .",
+      "lint": "node Makefile.js lint",
+      "test": "node Makefile.js test",
+      "lint:fix": "node Makefile.js lint -- fix",
+      "test:cli": "mocha",
+      "fmt:check": "prettier --check .",
+      "test:fuzz": "node Makefile.js fuzz",
+      "test:pnpm": "cd tests/pnpm && node check.js && pnpm install && pnpm exec tsc",
+      "build:site": "node Makefile.js gensite",
+      "lint:types": "attw --pack",
+      "test:types": "tsc -p tests/lib/types/tsconfig.json && npm run test:types --workspaces --if-present",
+      "lint:unused": "knip",
+      "test:emfile": "node tools/check-emfile-handling.js",
+      "build:readme": "node tools/update-readme.js",
+      "lint:docs:js": "node Makefile.js lintDocsJS",
+      "test:browser": "node Makefile.js cypress",
+      "build:webpack": "node Makefile.js webpack",
+      "test:ecosystem": "node tools/test-ecosystem/index.mjs",
+      "test:types:5.3": "npx -p typescript@5.3 -y -- tsc -p tsconfig.types-legacy.json",
+      "test:types:5.x": "npx -p typescript@5.x -y -- tsc -p tsconfig.types.json",
+      "test:types:7.x": "npx -p @typescript/native-preview@latest -y -- tsgo -p tsconfig.types.json",
+      "test:types:all": "npm run test:types && npm run test:types:5.3 && npm run test:types:5.x && npm run test:types:7.x",
+      "lint:rule-types": "node tools/update-rule-type-headers.js --check",
+      "release:publish": "node Makefile.js publishRelease",
+      "lint:fix:docs:js": "node Makefile.js lintDocsJS -- fix",
+      "test:performance": "node Makefile.js perf",
+      "build:rules-index": "node Makefile.js generateRuleIndexPage",
+      "release:generate:rc": "node Makefile.js generatePrerelease -- rc",
+      "release:generate:beta": "node Makefile.js generatePrerelease -- beta",
+      "test:ecosystem:update": "node tools/test-ecosystem/update.mjs",
+      "release:generate:alpha": "node Makefile.js generatePrerelease -- alpha",
+      "build:docs:update-links": "node tools/fetch-docs-links.js",
+      "lint:docs:rule-examples": "node Makefile.js checkRuleExamples",
+      "release:generate:latest": "node Makefile.js generateRelease -- latest",
+      "release:generate:maintenance": "node Makefile.js generateRelease -- maintenance"
+    },
+    "deprecated": null,
+    "dependencies": {
+      "ajv": "^6.14.0",
+      "debug": "^4.3.2",
+      "espree": "^11.2.0",
+      "ignore": "^5.2.0",
+      "esquery": "^1.7.0",
+      "esutils": "^2.0.2",
+      "find-up": "^5.0.0",
+      "is-glob": "^4.0.0",
+      "minimatch": "^10.2.5",
+      "optionator": "^0.9.3",
+      "cross-spawn": "^7.0.6",
+      "glob-parent": "^6.0.2",
+      "imurmurhash": "^0.1.4",
+      "@eslint/core": "^1.2.1",
+      "eslint-scope": "^9.1.2",
+      "@humanfs/node": "^0.16.6",
+      "@types/estree": "^1.0.6",
+      "fast-deep-equal": "^3.1.3",
+      "natural-compare": "^1.4.0",
+      "file-entry-cache": "11.1.5 || >11.1.6 <12",
+      "@eslint/plugin-kit": "^0.7.3",
+      "eslint-visitor-keys": "^5.0.1",
+      "@eslint/config-array": "^0.23.5",
+      "@humanwhocodes/retry": "^0.4.2",
+      "escape-string-regexp": "^4.0.0",
+      "@eslint/config-helpers": "^0.7.0",
+      "@eslint-community/regexpp": "^4.12.2",
+      "@eslint-community/eslint-utils": "^4.8.0",
+      "@humanwhocodes/module-importer": "^1.0.1",
+      "json-stable-stringify-without-jsonify": "^1.0.1"
+    },
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "4f2f7e679bdce9d71438c2900f2c8d4d297332b0",
+      "tarball": "https://registry.npmjs.org/eslint/-/eslint-10.12.0.tgz",
+      "fileCount": 421,
+      "integrity": "sha512-npHjrHb2o4ehH3mE+YuxABR+0gyb0aVWCIolgJDArwCiHEIsonBm3ZKjel5b0U5+a+MbEvIyRCGCzD3eKKK2NA==",
+      "signatures": [
+        {
+          "sig": "MEQCIACiuX8cuqJW7bxeMOsKGVHqdBXYfPXYBb5PuH973SL8AiAD6iWD4BwsFcJHHdhW6qixRf4sDVAEwqo3MQxHE3vd1g==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCICroNkqaTnX/nfg9Z2D39H7ZqDb5Z3h++5yIrobmmo9jAiByt7PnOjO2oa46qh6ejj4VqSxuvYCF1JOg6VrIhBxhhg=="
+        }
+      ],
+      "unpackedSize": 2947964
+    },
+    "repository": {
+      "url": "git+https://github.com/eslint/eslint.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/eslint/10.12.0"
+  },
+  {
+    "name": "@eslint/js",
+    "version": "10.0.1",
+    "published": "2026-02-06T22:34:56.290Z",
+    "latest": "10.0.1",
+    "license": "MIT",
+    "engines": {
+      "node": "^20.19.0 || ^22.13.0 || >=24"
+    },
+    "scripts": {
+      "test:types": "tsc -p tests/types/tsconfig.json"
+    },
+    "deprecated": null,
+    "dependencies": {},
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "1e8a876f50117af8ab67e47d5ad94d38d6622583",
+      "tarball": "https://registry.npmjs.org/@eslint/js/-/js-10.0.1.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-zeR9k5pd4gxjZ0abRoIaxdc7I3nDktoXZk2qOv9gCNWx3mVwEn32VRhyLaRsDiJjTs0xq/T8mfPtyuXu7GWBcA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQC01PnD397TPFwX0F9HFSExrqR/ahZ/msR5jN0S2R716wIgJi3MsB6EmezIqYLGeLnGsuRmVAmSBUdcpNLONJnD71s=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 15687
+    },
+    "repository": {
+      "url": "git+https://github.com/eslint/eslint.git",
+      "type": "git",
+      "directory": "packages/js"
+    },
+    "source": "https://registry.npmjs.org/@eslint%2fjs/10.0.1"
+  },
+  {
+    "name": "globals",
+    "version": "17.13.0",
+    "published": "2026-10-01T03:57:11.938Z",
+    "latest": "17.13.0",
+    "license": "MIT",
+    "engines": {
+      "node": ">=18"
+    },
+    "scripts": {
+      "test": "npm run build && xo && ava && tsd",
+      "build": "run-s build:data build:types",
+      "update": "node scripts/update.mjs",
+      "prepare": "npm run build",
+      "build:data": "node scripts/generate-data.mjs",
+      "build:types": "node scripts/generate-types.mjs",
+      "update:jest": "node scripts/update.mjs --job=jest",
+      "update:vitest": "node scripts/update.mjs --job=vitest",
+      "update:worker": "node scripts/update.mjs --job=worker",
+      "update:browser": "node scripts/update.mjs --job=browser",
+      "update:builtin": "node scripts/update.mjs --job=builtin",
+      "update:shelljs": "node scripts/update.mjs --job=shelljs",
+      "update:bunBuiltin": "node scripts/update.mjs --job=bunBuiltin",
+      "update:denoBuiltin": "node scripts/update.mjs --job=denoBuiltin",
+      "update:nodeBuiltin": "node scripts/update.mjs --job=nodeBuiltin",
+      "update:audioWorklet": "node scripts/update.mjs --job=audioWorklet",
+      "update:sharedWorker": "node scripts/update.mjs --job=sharedWorker",
+      "update:serviceworker": "node scripts/update.mjs --job=serviceworker",
+      "update:builtin-yearly": "node scripts/update.mjs --job=builtin-yearly"
+    },
+    "deprecated": null,
+    "dependencies": {},
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "ab2134b5ededbf2fbe2831dd0acc36f4f1ddeac5",
+      "tarball": "https://registry.npmjs.org/globals/-/globals-17.13.0.tgz",
+      "fileCount": 6,
+      "integrity": "sha512-RwMTC61u7hrG3ZJMkZQOK4JLJrKS8QtoTii63EmWvFXHqycY9FObBJQCbsLxSO8kjKhWE5kV1GC+Vb1g3RI0Zg==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCJh3tH+GPb5uR8CECspSFViMYLu6NqLmQzWWUlSf/lggIgFZA0rn0Ctra7/xgzquqvYkQPpBFjoZIAZPZ/1W2KbxA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIC2EvNfh3gvDsa6HTCF8MjCs3//7gVv9foGSPi0YpMrHAiEA/W01oEP5Dn9ZWTqESdLCD2Wi+k5+uiP0VTofqR88X3o="
+        }
+      ],
+      "unpackedSize": 257100
+    },
+    "repository": {
+      "url": "git+https://github.com/sindresorhus/globals.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/globals/17.13.0"
+  },
+  {
+    "name": "prettier",
+    "version": "3.9.9",
+    "published": "2026-09-23T06:31:34.693Z",
+    "latest": "3.9.9",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14"
+    },
+    "scripts": {},
+    "deprecated": null,
+    "dependencies": {},
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "09b826918c91cd4cbc80e0cbd1d2a922ff04f233",
+      "tarball": "https://registry.npmjs.org/prettier/-/prettier-3.9.9.tgz",
+      "fileCount": 56,
+      "integrity": "sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==",
+      "signatures": [
+        {
+          "sig": "MEQCIFQupf/9HnKLjQF/o53mlXO58o96s2kOnnAIB8W/PzvmAiBeDz5s1AeO4tthFc9PZok3n7W4EwnYchSjUPTWRG5oXA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQD/xLNVctF1yHIun5ThrkGR0hoLb/IpTn31jtGjSdQkzgIgHx4XXYySCbUa9zw4qSuoPG0FetXEMV+E/3g04ca2vXw="
+        }
+      ],
+      "unpackedSize": 9958979
+    },
+    "repository": {
+      "url": "git+https://github.com/prettier/prettier.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/prettier/3.9.9"
+  },
+  {
+    "name": "http-server",
+    "version": "14.1.1",
+    "published": "2022-05-31T21:34:27.707Z",
+    "latest": "14.1.1",
+    "license": "MIT",
+    "engines": {
+      "node": ">=12"
+    },
+    "scripts": {
+      "test": "tap --reporter=spec test/*.test.js",
+      "start": "node ./bin/http-server",
+      "test-watch": "tap --reporter=spec --watch test/*.test.js"
+    },
+    "deprecated": null,
+    "dependencies": {
+      "he": "^1.2.0",
+      "mime": "^1.6.0",
+      "chalk": "^4.1.2",
+      "union": "~0.5.0",
+      "corser": "^2.0.1",
+      "opener": "^1.5.1",
+      "minimist": "^1.2.6",
+      "url-join": "^4.0.1",
+      "basic-auth": "^2.0.1",
+      "http-proxy": "^1.18.1",
+      "portfinder": "^1.0.28",
+      "secure-compare": "3.0.1",
+      "html-encoding-sniffer": "^3.0.0"
+    },
+    "optionalDependencies": {},
+    "dist": {
+      "shasum": "d60fbb37d7c2fdff0f0fbff0d0ee6670bd285e2e",
+      "tarball": "https://registry.npmjs.org/http-server/-/http-server-14.1.1.tgz",
+      "fileCount": 20,
+      "integrity": "sha512-+cbxadF40UXd9T01zUHgA+rlo2Bg1Srer4+B4NwIHdaGxAGGv59nYRnGGDJ9LBk7alpS0US+J+bLLdQOOkJq4A==",
+      "signatures": [
+        {
+          "sig": "MEQCIEEAQCMiwl8BuYZ6T4+0ctKHvFJt311NCFgsxl3vVIYwAiARhV57TR95JfXL2RimI4+x/8h5cSf9ohXxn2A2XGw1nQ==",
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+        }
+      ],
+      "unpackedSize": 124459,
+      "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJilonjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoGCxAAoEG0S9CikY/BrsMRul9EkNb21gFVsAjkt831ml4hRkELkctT\r\n5ES+7aTF6AkJF5Cz9rrUXaTbhjz1MigOD7M3/8RQUhEGlQdo0SJ4LkOC6xIl\r\nO8tQ5MVFzB+UlTEcUG054I0XqDOkwaUEAeCW2DKbBfyQCocLNorZF9caCnIc\r\nCJNA41BhrhlsWHyp84ypaUbpEOiQIFdfxhNGVBlu6cyNHc6f8cA27qJFQaF7\r\nGLbwMzD4zH0Fr5bFuPMfnWqgr7bCy4g4dczsaTgFKynHQIl0EVy5h0wotXdf\r\nceDmti8227LCV164ZcvJWNHl5g5bSdMZtzjnqUbywOnNgBp4hsLXFsio9reC\r\noHUW+uKUGUvsY38PitQmJSccwjvGjWAtAusBfpg2noQWNEGvFOQ6kzUoxZUV\r\nggdAk4n8NXGpCWHwzis6hQHhiQB6Lw0QYE+VQacJmlFusS4BJ1Lz3DmH70rP\r\nT+lGtMWPX4HObnzKQG9d8lskSx91EQLlUhXstahVbYl0O3wyEzaHvSQAMF9n\r\nkJFXylgQtfcdss3z75IhWSbFVymvxbW9jFLo9/Z4dmFEl/GMexM6FrY31Zzc\r\nQz+fhFZ5k42FxhgiAZQ5MFveE9etvijt2+rtI5RmXzDySbAxPp7VHTSAVKl4\r\nMQvh7Sw3Ex8XPo8GXiBnF9xBPtGz57KMwzM=\r\n=1hf/\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "repository": {
+      "url": "git://github.com/http-party/http-server.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/http-server/14.1.1"
+  },
+  {
+    "name": "sharp",
+    "version": "0.35.5",
+    "published": "2026-09-27T13:46:24.509Z",
+    "latest": "0.35.5",
+    "license": "Apache-2.0",
+    "engines": {
+      "node": ">=20.9.0"
+    },
+    "scripts": {
+      "lint": "npm run lint-cpp && npm run lint-js && npm run lint-types && npm run lint-publish",
+      "test": "npm run lint && npm run test-unit",
+      "build": "node install/build.js",
+      "clean": "rm -rf src/build/ test/fixtures/output.*",
+      "lint-js": "biome lint",
+      "lint-cpp": "cpplint --quiet src/*.h src/*.cc",
+      "test-leak": "./test/leak/leak.sh",
+      "test-unit": "node --experimental-test-coverage test/unit.mjs",
+      "build:dist": "node scripts/build.mjs",
+      "docs-build": "node docs/build.mjs",
+      "docs-serve": "cd docs && npm start",
+      "lint-types": "tsd --files ./test/types/sharp.test-d.{cts,mts}",
+      "docs-publish": "cd docs && npm run build && npx firebase-tools deploy --project pixelplumbing --only hosting:pixelplumbing-sharp",
+      "lint-publish": "publint --strict",
+      "package-release-notes": "node npm/release-notes.js",
+      "package-wasm-wrappers": "node npm/wasm-wrappers.js",
+      "package-from-local-build": "node npm/from-local-build.js"
+    },
+    "deprecated": null,
+    "dependencies": {
+      "semver": "^7.8.5",
+      "@img/colour": "^1.1.0",
+      "detect-libc": "^2.1.2"
+    },
+    "optionalDependencies": {
+      "@img/sharp-linux-arm": "0.35.5",
+      "@img/sharp-linux-x64": "0.35.5",
+      "@img/sharp-win32-x64": "0.35.5",
+      "@img/sharp-darwin-x64": "0.35.5",
+      "@img/sharp-win32-ia32": "0.35.5",
+      "@img/sharp-linux-arm64": "0.35.5",
+      "@img/sharp-linux-ppc64": "0.35.5",
+      "@img/sharp-linux-s390x": "0.35.5",
+      "@img/sharp-win32-arm64": "0.35.5",
+      "@img/sharp-darwin-arm64": "0.35.5",
+      "@img/sharp-linux-riscv64": "0.35.5",
+      "@img/sharp-linuxmusl-x64": "0.35.5",
+      "@img/sharp-freebsd-wasm32": "0.35.5",
+      "@img/sharp-linuxmusl-arm64": "0.35.5",
+      "@img/sharp-libvips-linux-arm": "1.3.4",
+      "@img/sharp-libvips-linux-x64": "1.3.4",
+      "@img/sharp-libvips-darwin-x64": "1.3.4",
+      "@img/sharp-libvips-linux-arm64": "1.3.4",
+      "@img/sharp-libvips-linux-ppc64": "1.3.4",
+      "@img/sharp-libvips-linux-s390x": "1.3.4",
+      "@img/sharp-libvips-darwin-arm64": "1.3.4",
+      "@img/sharp-webcontainers-wasm32": "0.35.5",
+      "@img/sharp-libvips-linux-riscv64": "1.3.4",
+      "@img/sharp-libvips-linuxmusl-x64": "1.3.4",
+      "@img/sharp-libvips-linuxmusl-arm64": "1.3.4"
+    },
+    "dist": {
+      "shasum": "43fb539872ec5f53cc7162eb850dbf6514692fbf",
+      "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+      "fileCount": 47,
+      "integrity": "sha512-Ywn4OnzGukp7CDMrp08RQ50YKmuwG47brZgIVPTvBaaAfQlRlygrRqSrxdCiL9M+LlzLBiJ68IR1QqvzHyjC7g==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCyo1+tlBV7a2cmC8I84ARsUqvoaq+mx3W0/6VAa9nYqQIhAKtWlbR8qYS2H2IkE4lauEeV7TxILFTO0u9eFy0Q9IMU",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQCLF9gSVuxlR9XSVusRLR+gKnSG05ojWaD3C+ne9L4uJgIhAPnnnMqW+1wcolOGQeXmk5qBoWsvJqs+OQjJRFLEIIrW"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/sharp@0.35.5",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 962168
+    },
+    "repository": {
+      "url": "git+https://github.com/lovell/sharp.git",
+      "type": "git"
+    },
+    "source": "https://registry.npmjs.org/sharp/0.35.5"
+  },
+  {
+    "name": "howler",
+    "version": "2.2.3",
+    "published": "2021-06-30T18:46:19.145Z",
+    "latest": "2.2.4",
+    "license": "MIT",
+    "engines": null,
+    "scripts": {
+      "build": "VERSION=`printf 'v' && node -e 'console.log(require(\"./package.json\").version)'` && sed -i '' '2s/.*/ *  howler.js '\"$VERSION\"'/' src/howler.core.js && sed -i '' '4s/.*/ *  howler.js '\"$VERSION\"'/' src/plugins/howler.spatial.js && uglifyjs --preamble \"/*! howler.js $VERSION | (c) 2013-2020, James Simpson of GoldFire Studios | MIT License | howlerjs.com */\" src/howler.core.js -c -m --screw-ie8 -o dist/howler.core.min.js && uglifyjs --preamble \"/*! howler.js $VERSION | Spatial Plugin | (c) 2013-2020, James Simpson of GoldFire Studios | MIT License | howlerjs.com */\" src/plugins/howler.spatial.js -c -m --screw-ie8 -o dist/howler.spatial.min.js && awk 'FNR==1{echo \"\"}1' dist/howler.core.min.js dist/howler.spatial.min.js | sed '3s~.*~/*! Spatial Plugin */~' | perl -pe 'chomp if eof' > dist/howler.min.js && awk '(NR>1 && FNR==1){printf (\"\\n\\n\")};1' src/howler.core.js src/plugins/howler.spatial.js > dist/howler.js",
+      "release": "VERSION=`printf 'v' && node -e 'console.log(require(\"./package.json\").version)'` && git tag $VERSION && git push && git push origin $VERSION && npm publish"
+    },
+    "deprecated": null,
+    "dependencies": {},
+    "optionalDependencies": {},
+    "dist": {
+      "integrity": "sha512-QM0FFkw0LRX1PR8pNzJVAY25JhIWvbKMBFM4gqk+QdV+kPXOhleWGCB6AiAF/goGjIHK2e/nIElplvjQwhr0jg==",
+      "shasum": "a2eff9b08b586798e7a2ee17a602a90df28715da",
+      "tarball": "https://registry.npmjs.org/howler/-/howler-2.2.3.tgz",
+      "fileCount": 12,
+      "unpackedSize": 365401,
+      "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg3Lv7CRA9TVsSAnZWagAAgSIP/RyqvPEn9q85Cb2AK/Q4\ngYq/TjUJFLWw9R+ASPDidDUIdsazr64eNx0kingr9lKk/lHn2Gkio4byi01x\n1wjyQ1vEPw+xBadg5E0jalWEN56pBOTkNxcdUYgZH2EwLvidv1pNz4CpP2dE\nsqcYhb8aE9f1EMEIQ7X9UHitREekS88rNE+ztIVRSllZqGZ39B2Cxz75zMpq\n1P2eCH7fqjVh/2+fxyvsmAyEULqN9APfayI06DD2Gfa1VhboPa03bTVHZCVQ\nAs3hDJCdVtm+T9AS/NR6l2C+DjijRhXqFeLPgPL2yK1t0zPXHuPhcrHyuQKx\nAYKay3ZLe0nnIKZzI3w9PXn7UOiuZXqGqF4Cpp4Dp6pbeknLUER3ULYS47GK\nIEHoFdOopDypnIreKVNA4GMdlE8jVsfKEED4Tb5tr7HuW9sTSHXq1KTE/PdK\nKM2Glku6GocOM/mGLLSScp0fBLKr90AKjY6YE0xGOdyQi7iv5vcPyEPtxZtS\nZjDU0jl4gUQg3RrkFztVcf4CXnqHpKgT6cgiCRah7w9T61vLv1l2+WDsRJWe\nryswl/yCTF58UL5rd4f7qa6Qkzasgt9B9qBdtbKdB3YMWwKyeYbOFc42ygsx\nKtCLP6NuwikCS6zGpU+GttKCkyIqPChaBtd8tIHuImPcWZReCyqsqKz3auqG\nrzzZ\r\n=J/vI\r\n-----END PGP SIGNATURE-----\r\n",
+      "signatures": [
+        {
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig": "MEQCIA0DeJiRkOP+qJlDYZGldqXl52z8D0frELIqS8EX3rEwAiAIJOvk5OmIzGq5cySN0OefDuoX0vWzm3H6iK9JOGR48w=="
+        }
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/goldfire/howler.js.git"
+    },
+    "source": "https://registry.npmjs.org/howler/2.2.3"
+  }
+]

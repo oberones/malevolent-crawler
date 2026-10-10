@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: Original transparent creature portrait for The Bell Beneath Brine, a coastal cosmic-horror browser game.
+Style/medium: Painterly dark fantasy creature illustration with sculptural readable masses, nacre plates, wet-slate anatomy, pitted bronze and restrained verdigris. High craft, eerie and solemn.
+Scene/backdrop: Genuinely transparent RGBA background. One isolated creature only, no scenery, floor, cast shadow, backdrop glow, text, border or watermark.
+Lighting/palette: Pale nacre #DED8C6 silhouette highlights for legibility on a dark game panel, wet slate #43565F, deep ink #111923, muted verdigris #60968B and old bronze #AA8251. Controlled internal detail with one dominant silhouette.
+Constraints: Original invented creature, no existing franchise character or tracing. Grotesque mutation allowed; no explicit mutilation, graphic gore, detailed wounds or dismemberment. Full defining anatomy visible. Keep all tips safely inside the canvas with clear transparent margins of about 8-10%; no touching or cropping at edges. No detached decorative particles.
+Identity: The Spiral Breaker.
+Subject: A heavy reef guardian lowers two spiral shell horns above a plated brow. One stocky quadruped with massive nacre spiral horns, a low armored head, broad wet-slate shoulders, layered reef carapace and four thick braced legs. Horns are exactly two large curling shell spirals. Small bronze tide bands and sparse verdigris seams. Forehead and shell horns provide the dominant cue. Invented marine guardian, not a woolly sheep.
+Composition/framing: Wide landscape canvas about 3:2. Three-quarter full body facing left, head lowered but both horns clearly separated, all four feet and complete rear silhouette shown. Delivered canvas 586 by 397 pixels; readable horn and brow masses at thumbnail size.

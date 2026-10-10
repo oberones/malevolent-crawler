@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+ci-reports/
+.cache/
+.agents/
+.specify/
+.codex/
+package-lock.json
+**/*.min.js
+**/*.min.css
+tests/fixtures/legacy/source/
+validation/cosmic-horror/reports/
+validation/cosmic-horror/performance/

@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: Original transparent creature portrait for The Bell Beneath Brine, a coastal cosmic-horror browser game.
+Style/medium: Painterly dark fantasy creature illustration with sculptural readable masses, nacre plates, wet-slate anatomy, pitted bronze and restrained verdigris. High craft, eerie and solemn.
+Scene/backdrop: Genuinely transparent RGBA background. One isolated creature only, no scenery, floor, cast shadow, backdrop glow, text, border or watermark.
+Lighting/palette: Pale nacre #DED8C6 silhouette highlights for legibility on a dark game panel, wet slate #43565F, deep ink #111923, muted verdigris #60968B and old bronze #AA8251. Controlled internal detail with one dominant silhouette.
+Constraints: Original invented creature, no existing franchise character or tracing. Grotesque mutation allowed; no explicit mutilation, graphic gore, detailed wounds or dismemberment. Full defining anatomy visible. Keep all tips safely inside the canvas with clear transparent margins of about 8-10%; no touching or cropping at edges. No detached decorative particles.
+Identity: The Anchor Votary.
+Subject: An armored votary coils around an anchor whose flukes resemble folded fins. One long low serpentine creature with a small enclosed ceremonial head, overlapping nacre armor and wet-slate flesh winds its whole connected body around a weathered bronze anchor. Two fin-shaped anchor flukes form the main central identity cue. Compact devotional pose, distinct from a dragon or humanoid knight. The coiled body and anchor must both be clear and complete.
+Composition/framing: Wide landscape canvas about 5:3. Low broad coiled silhouette, anchor lies diagonally within the coil rather than towering vertically. All tail tips and flukes inside generous transparent margins. Delivered canvas 435 by 263 pixels; bold silhouette suitable for very small combat portraits.

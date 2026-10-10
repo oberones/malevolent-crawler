@@ -1,0 +1,2888 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oberon/.nvm/versions/node/v24.21.0/bin/node",
+      "/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/.bin/playwright",
+      "test",
+      "tests/integration",
+      "--workers=3"
+    ],
+    "configFile": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/playwright.config.mjs",
+    "rootDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "requiredViewports": [
+        {
+          "width": 360,
+          "height": 800
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+      "performanceStage": null,
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "requiredViewports": [
+            {
+              "width": 360,
+              "height": 800
+            },
+            {
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "width": 1440,
+              "height": 900
+            }
+          ],
+          "inputPolicy": "Keyboard/pointer in all engines; touch emulation in Chromium/WebKit only. Native touch acceptance is separate.",
+          "performanceStage": null,
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests",
+        "testIgnore": [
+          "**/performance/**"
+        ],
+        "testMatch": [
+          "**/*.spec.mjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 3,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "gracefulShutdown": {
+        "signal": "SIGTERM",
+        "timeout": 5000
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "integration/legacy-browser-fixtures.spec.mjs",
+      "file": "integration/legacy-browser-fixtures.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 336,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:36.795Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-3b57b38f4ea22eb6c591",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 499,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:36.793Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-75689bbc0e8836050137",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1282,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:55.457Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-2daada527ed170abaace",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1373,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:55.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-43b2f908fbe5a01081b0",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "legacy browser fixtures isolate storage and consume deterministic draws",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 963,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:18.316Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-ce0cb94142efdfc69794",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "immutable legacy page boots repeatably from the captured early character",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1280,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:18.316Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "748da06751d3f97b952c-5e44e1658fc3d8b8c24f",
+          "file": "integration/legacy-browser-fixtures.spec.mjs",
+          "line": 42,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration/legacy-progression-controls.spec.mjs",
+      "file": "integration/legacy-progression-controls.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "legacy upgrade choice hp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:36.793Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-571bb7f23259684027cd",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atk applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2527,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:37.428Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-5d4838d2db07adddbc87",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice def applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2650,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:37.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-0b941823315e3508b756",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atkSpd applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2473,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:39.811Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-f4ca4a87709241d34a1c",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice vamp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:39.967Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-f3fbe50ff24b878d5a01",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critRate applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2139,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:40.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-6cb3b12f27eae8f18573",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critDmg applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2572,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:42.293Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-b6e342dd079fa89d95bf",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrades allow two rerolls, reject a third, and replenish for the next level",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2538,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:42.372Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-54b727bd3eb6c3d99f8b",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "legacy abandonment cancel preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:42.404Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-dc935afd3b9e13db5253",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        },
+        {
+          "title": "legacy abandonment confirm preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:44.873Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-7b1c42b830d3c6565fa1",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice hp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2470,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:56.140Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-920ab1033076f4578994",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atk applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:57.408Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-aa9c00b0a9266d2c9163",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice def applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:57.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-ee340f5c8276deac2ae3",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atkSpd applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1596,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:59.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-17bc7a6c9a0acb3bea09",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice vamp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1565,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:59.272Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-e0206ee3c81c64f7492b",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critRate applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1584,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:59.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-781ad42c45ab254c279a",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critDmg applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1862,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:00.846Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-c8de0544ca76ea2ecb63",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrades allow two rerolls, reject a third, and replenish for the next level",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2030,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:00.874Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-84656ba9e6088e17f103",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "legacy abandonment cancel preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1480,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:01.570Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-37c71bd6e20193ed1cef",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        },
+        {
+          "title": "legacy abandonment confirm preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1905,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:02.716Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-025021290e209a1292aa",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice hp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1854,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:18.330Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-ea4f6893445df7440a38",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atk applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1202,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:19.701Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-0905fe82c3256307977a",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice def applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1257,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:20.023Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-f0759543f9d2f1a54254",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice atkSpd applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1098,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:20.583Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-1dccbd3da0f80b384dc8",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice vamp applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1002,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:20.913Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-accd8fe8b01042135fe9",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critRate applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1028,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:21.292Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-bdb0ffd20c16a216b5b8",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrade choice critDmg applies its original increment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1063,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:21.689Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-830bf7a7cf5e18f9557e",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "legacy upgrades allow two rerolls, reject a third, and replenish for the next level",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1239,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:21.924Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-9b182109549148349443",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "legacy abandonment cancel preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:22.326Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-2b6ed3b1938772a2addd",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        },
+        {
+          "title": "legacy abandonment confirm preserves holdings and lifetime progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1186,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:22.759Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76c2d3eefeb0419d4f2b-facf2548edf54ccd9012",
+          "file": "integration/legacy-progression-controls.spec.mjs",
+          "line": 136,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "integration/legacy-symbol-contexts.spec.mjs",
+      "file": "integration/legacy-symbol-contexts.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5271,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:44.934Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2bc3ec60177d574bc392",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5392,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:44.938Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2f5d700424bf27e3988c",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:47.863Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-620b94cd7ea5f0f7a042",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4722,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:50.217Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-ed2b52e8af13eadb460d",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4276,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:50.339Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-04982045bdc51fda405b",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:52.523Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-808b048e969e6ad86dd4",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6877,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:02.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-6244523d339f3e60c408",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:03.075Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-1f6defb26b79afaa9ccb",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5726,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:04.635Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-4bfceee2a4aa51c38307",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:09.816Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-d7878a5b40ecfae154dd",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6715,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:10.368Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-5e1ecc142c039a94b0ac",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:10.433Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2dea0a70796265e74adb",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3579,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:23.179Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-d14ab4e5bac72dfb9a6f",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 360 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:23.451Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-a2c83fdbef368296d3a8",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3715,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:23.962Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-1afddeea9ea35d527d0c",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 768 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:26.767Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-2d8f3a26a79491a13791",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:27.590Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-a84d898b619d4a5d53a4",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "original symbol contexts 1440 text 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:27.684Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47e2b456578c071a077e-52e0354898d18fc19c10",
+          "file": "integration/legacy-symbol-contexts.spec.mjs",
+          "line": 46,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "integration/measure-symbols.spec.mjs",
+      "file": "integration/measure-symbols.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "a flex-item symbol uses its own text baseline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 138,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:54.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-714d49ffb848b1ea38b3",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "transparent ancestors reject and duplicate context IDs reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 117,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:54.775Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-2e94482c86e3a19ba563",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "geometry, spacing, baseline and font metadata are measured without mutation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 85,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:54.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-8bc139a74e38d873b639",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "missing, ambiguous and hidden selectors reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 120,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:54.953Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-58f5dc3c2f6fbf5891da",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "font readiness is awaited and a missing declared face rejects",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 84,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:54.988Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-3a0b5ed0fd98608205e9",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "baseline writes preserve existing bytes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 85,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:55.078Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-c1c94c75465fc8f9b9d2",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "a flex-item symbol uses its own text baseline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.109Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-03f63ae03071648d8e04",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "transparent ancestors reject and duplicate context IDs reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 194,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.221Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-518533cebc621de5b1b2",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "geometry, spacing, baseline and font metadata are measured without mutation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 440,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.330Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-ab62a283456445652a59",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "missing, ambiguous and hidden selectors reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 196,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.421Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-7d9fc72d149882b07662",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "font readiness is awaited and a missing declared face rejects",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 176,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.529Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-f351b17bce00900af881",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "baseline writes preserve existing bytes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 204,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.623Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-f0e7f82874959345be5e",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "a flex-item symbol uses its own text baseline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 229,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:30.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-02f14010d3b5e040f369",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "transparent ancestors reject and duplicate context IDs reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.198Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-060bece5cbfe1f3e41b6",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "geometry, spacing, baseline and font metadata are measured without mutation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 190,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.412Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-55e744b18b7281d7acfc",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "missing, ambiguous and hidden selectors reject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 209,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.514Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-3444b835a69e7b4ffef2",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "font readiness is awaited and a missing declared face rejects",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 183,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.607Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-ab74a29cfb7bb9847a83",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "baseline writes preserve existing bytes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 190,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.729Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b4231c3519203494a4e3-896c7b18736cf39d17cc",
+          "file": "integration/measure-symbols.spec.mjs",
+          "line": 107,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration/static-server.spec.mjs",
+      "file": "integration/static-server.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:55.083Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-f106dcf1ef1804fc233a",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:37:55.119Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-262f01e6f175c725c19c",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.714Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-1504bcf7a63ce73ea3f6",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:17.749Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-cad4be31bc3fa7948aaa",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "static server serves a module with JavaScript MIME",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.798Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-02011322321f40ee2b28",
+          "file": "integration/static-server.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "static server supplies HTML, styles, scripts, fonts, art and audio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 20,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T13:38:31.825Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "efff8eccad48d2ba27e5-c80f68d7534c1bf6b6ff",
+          "file": "integration/static-server.spec.mjs",
+          "line": 18,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T13:37:36.136Z",
+    "duration": 56012.162000000004,
+    "expected": 78,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

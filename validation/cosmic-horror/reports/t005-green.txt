@@ -1,0 +1,15 @@
+npm notice run malevolent-crawler@0.0.0 test:unit
+npm notice run node --test "tests/unit/**/*.test.mjs"
+✔ classic ownership declarations remain legal (64.919625ms)
+✔ classic scripts can use the documented shared owners (6.343125ms)
+✔ browser modules reject ambient engine and Node bindings (7.354375ms)
+✔ tool modules get Node capabilities but no DOM (4.378125ms)
+✔ undeclared assignments stay errors in every scope (3.751583ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 171.354333

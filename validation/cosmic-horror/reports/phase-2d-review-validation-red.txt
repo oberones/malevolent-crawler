@@ -1,0 +1,91 @@
+✔ schema corpus: early (1.126667ms)
+✔ schema corpus: resting (0.215209ms)
+✔ schema corpus: normal (0.220167ms)
+✔ schema corpus: guardian (0.177583ms)
+✔ schema corpus: boss (0.191625ms)
+✔ schema corpus: chest-mimic (0.178958ms)
+✔ schema corpus: door-mimic (0.158958ms)
+✔ schema corpus: variant-1 (0.170458ms)
+✔ schema corpus: variant-2 (0.139ms)
+✔ schema corpus: fractional-exp (0.158375ms)
+✔ schema corpus: full-duplicate-equipment (0.772125ms)
+✔ schema corpus: optional-null-derived (0.195625ms)
+✔ schema corpus: settled-victory (0.108416ms)
+✔ schema corpus: settled-death (0.094792ms)
+✔ schema corpus: interrupted-player-death (0.122958ms)
+✔ schema corpus: interrupted-enemy-victory (0.10075ms)
+✔ schema corpus: interrupted-missing-enemy (0.084125ms)
+✔ schema corpus: early-player-only (0.096209ms)
+✔ schema corpus: interrupted-malformed-item (0.094333ms)
+✔ adversarial player.name: "<img src=x onerror=alert(1)>Skeleton Mage" (0.185334ms)
+✔ adversarial player.lvl: 0 (0.098041ms)
+✔ adversarial player.gold: -1 (0.091542ms)
+✔ adversarial player.skills: ["javascript:alert(1)"] (0.103292ms)
+✔ adversarial player.inventory.equipment: ["{broken"] (0.288709ms)
+✔ adversarial player.inventory.equipment: ["{\"__proto__\":{\"polluted\":true}}"] (0.104667ms)
+✔ adversarial player.stats.atk: "99" (0.1205ms)
+✔ adversarial enemy.image.name: "../../evil" (0.138083ms)
+✔ adversarial enemy.image.size: "url(evil)" (0.126125ms)
+✔ adversarial enemy.name: "unknown" (0.142083ms)
+✔ adversarial enemy.image.name: "skeleton_mage1" (0.141584ms)
+✔ adversarial dungeon.progress.room: 0 (0.1375ms)
+✔ adversarial volume.bgm: 0.6 (0.224292ms)
+✔ defaults, duplicate holdings, derived/null fields and idempotence (0.925917ms)
+✔ source kinds, early defaults and complete envelopes (1.740875ms)
+✔ 16 MiB, depth 64 and 64 KiB text budgets without collection caps (122.953291ms)
+✔ prototypes, getters, cycles, nonfinite numbers and unknown stat keys reject (0.800875ms)
+✖ structured history text budgets and explicit null item tier reject (1.093125ms)
+✖ null equipment tier is not a missing default (0.231125ms)
+✔ validation is independent of randomness and preserves fractional rewards (0.125958ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 37
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 184.63725
+
+✖ failing tests:
+
+test at tests/unit/save-validation.test.mjs:165:1
+✖ structured history text budgets and explicit null item tier reject (1.093125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:167:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/save-validation.test.mjs:170:1
+✖ null equipment tier is not a missing default (0.231125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/save-validation.test.mjs:172:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: isolated transparent small RPG inventory icon for The Bell Beneath Brine.
+Subject: Breakwater Slab (Tower shield): a tall rectangular ward carved with stepped wave channels, original coastal cosmic-horror relic. Frontal view, unmistakably a heavy rectangular shield, broad slate face with three bold stepped wave grooves, thick aged bronze edging and sparse pale nacre highlights. No spikes or protruding handles.
+Style: painterly game icon, strong simple silhouette, broad readable material planes, restrained detail, wet slate, deep ink #111923, nacre #DED8C6, verdigris #60968B, pitted bronze. Shape must read at 16 pixels.
+Composition: single complete object centered, frontal upright, fills canvas with narrow safe transparent margin, no cropping. Genuine transparent background and clean alpha edges, no diffuse glow or cast shadow outside object.
+Avoid: text, letters, numbers, watermark, border panel, scenery, person, hands, gore, photorealistic mockup. Rectangular shield shape must remain distinct from pointed kite and round buckler.

@@ -1,0 +1,83 @@
+✖ all persisted event templates become typed themed records in sequence (3.457083ms)
+✔ reward panels across all categories retain historical stats without inventing sale values (42.816458ms)
+✔ player names, unknown strings and invalid typed records preserve recoverable originals (0.424959ms)
+✔ migration corpus, defaults, terminal states, exact variants and zero RNG (10.041458ms)
+✔ store maps history, keeps raw bytes, and repeated loads do not reset or award (5.370208ms)
+✔ canonical history recovery survives repeated commits; unsupported versions cannot downgrade (3.914042ms)
+✔ only early tuples receive missing sections; mismatched variants enter recovery (0.574042ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 102.109792
+
+✖ failing tests:
+
+test at tests/unit/legacy-history.test.mjs:30:1
+✖ all persisted event templates become typed themed records in sequence (3.457083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    [
+      'event.door',
+      'event.guardianDoor',
+      'event.floor',
+      'event.room',
+  ...
+      'event.encounter',
+  +   'history.unavailable',
+  -   'event.boss',
+      'event.bossChamber',
+      'event.fled',
+      'event.fleeFailed',
+      'event.ignored',
+      'event.insufficient',
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/legacy-history.test.mjs:32:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [
+      'event.door',              'event.guardianDoor',
+      'event.floor',             'event.room',
+      'event.treasure',          'event.treasureRoom',
+      'event.encounter',         'history.unavailable',
+      'event.bossChamber',       'event.fled',
+      'event.fleeFailed',        'event.ignored',
+      'event.insufficient',      'event.emptyChest',
+      'event.nothing0',          'event.nothing1',
+      'event.nothing2',          'event.nothing3',
+      'event.nothing4',          'history.gold',
+      'history.offering',        'history.blackSounding',
+      'event.curseGain',         'event.blessing.hp',
+      'event.blessing.atk',      'event.blessing.def',
+      'event.blessing.atkSpd',   'event.blessing.vamp',
+      'event.blessing.critRate', 'event.blessing.critDmg'
+    ],
+    expected: [
+      'event.door',              'event.guardianDoor',
+      'event.floor',             'event.room',
+      'event.treasure',          'event.treasureRoom',
+      'event.encounter',         'event.boss',
+      'event.bossChamber',       'event.fled',
+      'event.fleeFailed',        'event.ignored',
+      'event.insufficient',      'event.emptyChest',
+      'event.nothing0',          'event.nothing1',
+      'event.nothing2',          'event.nothing3',
+      'event.nothing4',          'history.gold',
+      'history.offering',        'history.blackSounding',
+      'event.curseGain',         'event.blessing.hp',
+      'event.blessing.atk',      'event.blessing.def',
+      'event.blessing.atkSpd',   'event.blessing.vamp',
+      'event.blessing.critRate', 'event.blessing.critDmg'
+    ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

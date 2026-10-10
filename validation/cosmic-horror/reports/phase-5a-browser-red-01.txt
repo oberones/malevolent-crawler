@@ -1,0 +1,266 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relics.spec.mjs --project=chromium --workers=2 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:78133) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:78141) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:78142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/browser/relics.spec.mjs:36:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (1.5s)
+(node:78161) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/relics.spec.mjs:91:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (6.2s)
+(node:78285) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/browser/relics.spec.mjs:135:1 › stale and repeated sale callbacks preserve current holdings and gold (407ms)
+(node:78291) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/browser/relics.spec.mjs:120:1 › full loadout rejects the seventh relic with visible capacity feedback (5.5s)
+(node:78295) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [chromium] › tests/browser/relics.spec.mjs:166:1 › combat Claim preserves the already granted relic (437ms)
+  ✓  7 [chromium] › tests/browser/relics.spec.mjs:193:3 › relic retention after abandon (317ms)
+  ✓  6 [chromium] › tests/browser/relics.spec.mjs:193:3 › relic retention after death (509ms)
+  ✓  8 [chromium] › tests/browser/relics.spec.mjs:193:3 › relic retention after new-run (215ms)
+
+
+  1) [chromium] › tests/browser/relics.spec.mjs:36:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log 
+
+    Error: Every current item surface must expose the same visible identity
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 86
+
+    - Array []
+    + Array [
+    +   "Sword/Common: equippedLabel",
+    +   "Sword/Uncommon: equippedLabel",
+    +   "Sword/Rare: equippedLabel",
+    +   "Sword/Epic: equippedLabel",
+    +   "Sword/Legendary: equippedLabel",
+    +   "Sword/Heirloom: equippedLabel",
+    +   "Axe/Common: equippedLabel",
+    +   "Axe/Uncommon: equippedLabel",
+    +   "Axe/Rare: equippedLabel",
+    +   "Axe/Epic: equippedLabel",
+    +   "Axe/Legendary: equippedLabel",
+    +   "Axe/Heirloom: equippedLabel",
+    +   "Hammer/Common: equippedLabel",
+    +   "Hammer/Uncommon: equippedLabel",
+    +   "Hammer/Rare: equippedLabel",
+    +   "Hammer/Epic: equippedLabel",
+    +   "Hammer/Legendary: equippedLabel",
+    +   "Hammer/Heirloom: equippedLabel",
+    +   "Dagger/Common: equippedLabel",
+    +   "Dagger/Uncommon: equippedLabel",
+    +   "Dagger/Rare: equippedLabel",
+    +   "Dagger/Epic: equippedLabel",
+    +   "Dagger/Legendary: equippedLabel",
+    +   "Dagger/Heirloom: equippedLabel",
+    +   "Flail/Common: equippedLabel",
+    +   "Flail/Uncommon: equippedLabel",
+    +   "Flail/Rare: equippedLabel",
+    +   "Flail/Epic: equippedLabel",
+    +   "Flail/Legendary: equippedLabel",
+    +   "Flail/Heirloom: equippedLabel",
+    +   "Scythe/Common: equippedLabel",
+    +   "Scythe/Uncommon: equippedLabel",
+    +   "Scythe/Rare: equippedLabel",
+    +   "Scythe/Epic: equippedLabel",
+    +   "Scythe/Legendary: equippedLabel",
+    +   "Scythe/Heirloom: equippedLabel",
+    +   "Plate/Common: equippedLabel",
+    +   "Plate/Uncommon: equippedLabel",
+    +   "Plate/Rare: equippedLabel",
+    +   "Plate/Epic: equippedLabel",
+    +   "Plate/Legendary: equippedLabel",
+    +   "Plate/Heirloom: equippedLabel",
+    +   "Chain/Common: equippedLabel",
+    +   "Chain/Uncommon: equippedLabel",
+    +   "Chain/Rare: equippedLabel",
+    +   "Chain/Epic: equippedLabel",
+    +   "Chain/Legendary: equippedLabel",
+    +   "Chain/Heirloom: equippedLabel",
+    +   "Leather/Common: equippedLabel",
+    +   "Leather/Uncommon: equippedLabel",
+    +   "Leather/Rare: equippedLabel",
+    +   "Leather/Epic: equippedLabel",
+    +   "Leather/Legendary: equippedLabel",
+    +   "Leather/Heirloom: equippedLabel",
+    +   "Tower/Common: equippedLabel",
+    +   "Tower/Uncommon: equippedLabel",
+    +   "Tower/Rare: equippedLabel",
+    +   "Tower/Epic: equippedLabel",
+    +   "Tower/Legendary: equippedLabel",
+    +   "Tower/Heirloom: equippedLabel",
+    +   "Kite/Common: equippedLabel",
+    +   "Kite/Uncommon: equippedLabel",
+    +   "Kite/Rare: equippedLabel",
+    +   "Kite/Epic: equippedLabel",
+    +   "Kite/Legendary: equippedLabel",
+    +   "Kite/Heirloom: equippedLabel",
+    +   "Buckler/Common: equippedLabel",
+    +   "Buckler/Uncommon: equippedLabel",
+    +   "Buckler/Rare: equippedLabel",
+    +   "Buckler/Epic: equippedLabel",
+    +   "Buckler/Legendary: equippedLabel",
+    +   "Buckler/Heirloom: equippedLabel",
+    +   "Great Helm/Common: equippedLabel",
+    +   "Great Helm/Uncommon: equippedLabel",
+    +   "Great Helm/Rare: equippedLabel",
+    +   "Great Helm/Epic: equippedLabel",
+    +   "Great Helm/Legendary: equippedLabel",
+    +   "Great Helm/Heirloom: equippedLabel",
+    +   "Horned Helm/Common: equippedLabel",
+    +   "Horned Helm/Uncommon: equippedLabel",
+    +   "Horned Helm/Rare: equippedLabel",
+    +   "Horned Helm/Epic: equippedLabel",
+    +   "Horned Helm/Legendary: equippedLabel",
+    +   "Horned Helm/Heirloom: equippedLabel",
+    + ]
+
+      85 |     }
+      86 |     expect(observed.draws).toEqual(rows.flatMap(/* Compare every draw, not only the final item. */ (r) => r.tape));
+    > 87 |     expect(missing, "Every current item surface must expose the same visible identity").toEqual([]);
+         |                                                                                         ^
+      88 |   } finally { await f.dispose(); }
+      89 | });
+      90 | // Filtered sale and unequip-all retain duplicate multiplicity and the original order.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:87:89
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-84-relic-id-844d8-detail-confirmation-and-log-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-84-relic-id-844d8-detail-confirmation-and-log-chromium/error-context.md
+
+  2) [chromium] › tests/browser/relics.spec.mjs:91:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#playerInventory')
+    Expected substring: "No relics"
+    Received string:    "No recovered relics in your inventory."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('#playerInventory') with timeout 5000ms
+      - waiting for locator('#playerInventory')
+        14 × locator resolved to <div id="playerInventory" class="inventorySlots">No recovered relics in your inventory.</div>
+           - unexpected value "No recovered relics in your inventory."
+
+
+      113 |     await f.page.locator("#sell-all").click();
+      114 |     await f.page.locator("#sell-confirm").click();
+    > 115 |     await expect(f.page.locator("#playerInventory")).toContainText("No relics");
+          |                                                      ^
+      116 |     expect(await f.page.evaluate(/* Empty-sale attempts must not alter the result. */ () => player.gold)).toBe(24 + first.value * 2);
+      117 |   } finally { await f.dispose(); }
+      118 | });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:115:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-duplicates--1ccdb-llation-and-empty-inventory-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-duplicates--1ccdb-llation-and-empty-inventory-chromium/error-context.md
+
+  3) [chromium] › tests/browser/relics.spec.mjs:120:1 › full loadout rejects the seventh relic with visible capacity feedback 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#equipmentInfo')
+    Timeout: 5000ms
+    Expected pattern: /six|6|full|capacity/i
+    Received string:  "·············
+                    Common Tideglass Edge
+                    Lv.1 Tier 1·················
+                    ATK+10··································
+                        Equip
+                        75
+                        Close·················
+                "
+
+    Call log:
+      - Expect "toContainText" locator('#equipmentInfo') with timeout 5000ms
+      - waiting for locator('#equipmentInfo')
+        14 × locator resolved to <div role="dialog" tabindex="-1" aria-modal="true" id="equipmentInfo" class="modal-container" aria-label="Common Tideglass Edge">…</div>
+           - unexpected value "
+                
+                    Common Tideglass Edge
+                    Lv.1 Tier 1
+                    
+                    ATK+10
+                    
+                    
+                        Equip
+                        75
+                        Close
+                    
+                "
+
+
+      129 |     await f.page.locator("#un-equip").click();
+      130 |     expect(await f.page.evaluate(/* Refusal must leave both collections intact. */ () => [player.equipped.length, player.inventory.equipment.length])).toEqual([6, 1]);
+    > 131 |     await expect(f.page.locator("#equipmentInfo")).toContainText(/six|6|full|capacity/i);
+          |                                                    ^
+      132 |   } finally { await f.dispose(); }
+      133 | });
+      134 | // A confirmation cannot sell a shifted item or replay the same sale a second time.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:131:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-full-loadou-7c1d2-h-visible-capacity-feedback-chromium/error-context.md
+
+  4) [chromium] › tests/browser/relics.spec.mjs:135:1 › stale and repeated sale callbacks preserve current holdings and gold 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "{\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"gold\":0}"
+    Received: "{\"inventory\":{\"consumables\":[],\"equipment\":[]},\"gold\":75}"
+
+      159 |       return { before, after, once, twice: JSON.stringify({ inventory: player.inventory, gold: player.gold }) };
+      160 |     }, first);
+    > 161 |     expect.soft(result.after).toEqual(result.before);
+          |                               ^
+      162 |     expect.soft(result.twice).toEqual(result.once);
+      163 |   } finally { await f.dispose(); }
+      164 | });
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:161:31
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "{\"inventory\":{\"consumables\":[],\"equipment\":[\"{\\\"category\\\":\\\"Sword\\\",\\\"attribute\\\":\\\"Damage\\\",\\\"type\\\":\\\"Weapon\\\",\\\"rarity\\\":\\\"Common\\\",\\\"lvl\\\":1,\\\"tier\\\":1,\\\"value\\\":75,\\\"stats\\\":[{\\\"atk\\\":10}]}\"]},\"gold\":150}"
+    Received: "{\"inventory\":{\"consumables\":[],\"equipment\":[]},\"gold\":225}"
+
+      160 |     }, first);
+      161 |     expect.soft(result.after).toEqual(result.before);
+    > 162 |     expect.soft(result.twice).toEqual(result.once);
+          |                               ^
+      163 |   } finally { await f.dispose(); }
+      164 | });
+      165 | // Claim dismisses an already-granted reward; it never awards another item or another payment.
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relics.spec.mjs:162:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relics-stale-and-r-8ec4a-e-current-holdings-and-gold-chromium/error-context.md
+
+  4 failed
+    [chromium] › tests/browser/relics.spec.mjs:36:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log 
+    [chromium] › tests/browser/relics.spec.mjs:91:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory 
+    [chromium] › tests/browser/relics.spec.mjs:120:1 › full loadout rejects the seventh relic with visible capacity feedback 
+    [chromium] › tests/browser/relics.spec.mjs:135:1 › stale and repeated sale callbacks preserve current holdings and gold 
+  4 passed (9.4s)

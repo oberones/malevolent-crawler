@@ -1,0 +1,35 @@
+✔ generation invalidation cancels timers and makes retained callbacks inert (0.729917ms)
+✔ listeners and audio dispose once; individual releases clean ownership (0.194ms)
+✔ cleanup failures are reported after all resources are attempted (0.111541ms)
+✖ consumer cleanup runs exactly once on invalidation or explicit release (0.438417ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43.811583
+
+✖ failing tests:
+
+test at tests/unit/lifecycle.test.mjs:56:1
+✖ consumer cleanup runs exactly once on invalidation or explicit release (0.438417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/lifecycle.test.mjs:61:41)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,59 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/collection-reflow.spec.mjs --project=chromium --output=/tmp/phase6d-reflow-second --workers=1
+
+Running 2 tests using 1 worker
+
+(node:53684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text (411ms)
+(node:53700) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (354ms)
+
+
+  1) [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 11
+
+    - Array []
+    + Array [
+    +   "split stat label: ATK.SPD:",
+    +   "split stat label: C.DMG:",
+    +   "split stat label: Bonus Stats",
+    +   "split stat label: ATK+0%",
+    +   "split stat label: DEF+0%",
+    +   "split stat label: ATK.SPD+0%",
+    +   "split stat label: VAMP+0%",
+    +   "split stat label: C.RATE+0%",
+    +   "split stat label: C.DMG+0%",
+    + ]
+
+      76 |         screen,
+      77 |       );
+    > 78 |       expect(failures).toEqual([]);
+         |                        ^
+      79 |     } finally {
+      80 |       await f.dispose();
+      81 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:78:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-reflow-second/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-reflow-second/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-reflow-second/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-reflow-second/browser-collection-reflow--1a54c-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection stats readable at 360px and 200% text 
+  1 passed (2.2s)

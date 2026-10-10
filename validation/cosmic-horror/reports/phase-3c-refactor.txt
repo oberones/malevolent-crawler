@@ -1,0 +1,53 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/navigation-accessibility.spec.mjs tests/browser/entry-resilience.spec.mjs --workers=3 --trace=off
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:83085) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 24 tests using 3 workers
+
+(node:83091) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83089) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83090) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.2s)
+  ✓   2 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.2s)
+  ✓   3 [chromium] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.2s)
+  ✓   4 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (1.5s)
+  ✓   5 [chromium] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (1.6s)
+  ✓   6 [chromium] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (1.9s)
+(node:83125) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [chromium] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (2.0s)
+(node:83135) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [chromium] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (3.7s)
+(node:83147) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.7s)
+  ✓  10 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.7s)
+  ✓  12 [firefox] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (1.6s)
+  ✓  11 [firefox] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (2.7s)
+  ✓  13 [firefox] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (1.7s)
+  ✓  14 [firefox] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (2.1s)
+(node:83162) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 [firefox] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (2.2s)
+(node:83175) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 360 at 200% text (2.3s)
+  ✓  15 [firefox] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (4.0s)
+(node:83192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 768 at 200% text (2.1s)
+  ✓  19 [webkit] › tests/browser/entry-resilience.spec.mjs:17:3 › entry resilience 1440 at 200% text (1.9s)
+  ✓  20 [webkit] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Enter (1.8s)
+  ✓  21 [webkit] › tests/browser/navigation-accessibility.spec.mjs:14:3 › title activates with Space (1.7s)
+  ✓  22 [webkit] › tests/browser/navigation-accessibility.spec.mjs:40:1 › modal navigation blocks background and restores focus without abandonment (1.8s)
+  ✓  24 [webkit] › tests/browser/navigation-accessibility.spec.mjs:140:1 › repeated modal dismissal and service disposal release the page (1.9s)
+  ✓  23 [webkit] › tests/browser/navigation-accessibility.spec.mjs:97:1 › entry validation and allocation have accessible names and cancellation (3.7s)
+
+  24 passed (22.0s)

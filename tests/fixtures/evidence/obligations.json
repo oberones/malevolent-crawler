@@ -1,0 +1,14 @@
+[
+  {
+    "id": "automated",
+    "kind": "automated",
+    "required": true,
+    "requirements": ["FR-001"]
+  },
+  {
+    "id": "manual",
+    "kind": "manual",
+    "required": true,
+    "requirements": ["FR-001"]
+  }
+]

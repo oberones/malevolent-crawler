@@ -1,0 +1,16 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/probe-diagnostic.spec.mjs --project=webkit --grep 360 text 2 --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:10858) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:10859) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"id":"dagger/combat-reward","recorded":31.692138671875,"diagnostic":{"beforeY":640.135986328125,"afterY":640.135986328125,"probeY":670.125,"staleOffset":29.989013671875,"settledOffset":29.989013671875}}
+{"id":"flail/combat-reward","recorded":31.692138671875,"diagnostic":{"beforeY":598.135986328125,"afterY":598.135986328125,"probeY":628.125,"staleOffset":29.989013671875,"settledOffset":29.989013671875}}
+  ✓  1 [webkit] › tests/integration/probe-diagnostic.spec.mjs:46:5 › original symbol contexts 360 text 2 (1.1s)
+
+  1 passed (2.0s)

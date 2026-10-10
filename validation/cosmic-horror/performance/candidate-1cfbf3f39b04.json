@@ -1,0 +1,4108 @@
+{
+  "schemaVersion": 1,
+  "stage": "candidate",
+  "revision": "ea372b73418ddd6af4461b510b9942f073a2f458",
+  "recordedAt": "2026-10-08T15:08:58.936Z",
+  "testRevision": "ea372b73418ddd6af4461b510b9942f073a2f458",
+  "match": {
+    "browser": "153.0.8010.12",
+    "executable": "/Users/oberon/Library/Caches/ms-playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "platform": "darwin",
+    "release": "25.6.0",
+    "arch": "arm64",
+    "cpu": "Apple M2 Pro",
+    "memory": 17179869184,
+    "power": "Battery Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         5\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         120\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10\n",
+    "transformHash": "0825a24ef3b843be15df7e1dde88bf6013cfd3ecc3c1b45614f2965368826d10",
+    "fixtureHash": "eb69f787d70a94616006670d97b8b3ba913fa0a6cd941c24aadf5d6f7767c45a",
+    "font": "Arial/Helvetica/sans-serif title; existing local fonts elsewhere",
+    "network": "localhost, no CPU/network throttling, no request/HAR routing",
+    "server": "http-server 14.1.1 -a 127.0.0.1 -p 4174 -c3600 --silent",
+    "dpr": 1,
+    "audio": "real Howler; master/bgm/sfx=0",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 360,
+        "height": 800
+      }
+    ]
+  },
+  "source": {
+    "stage": "candidate",
+    "revision": "ea372b73418ddd6af4461b510b9942f073a2f458",
+    "transformHash": "0825a24ef3b843be15df7e1dde88bf6013cfd3ecc3c1b45614f2965368826d10",
+    "sourceHash": "1cfbf3f39b04d43c6a309eada7c4d2a3f02aae91c4a86dea4897c6905a2e503d",
+    "originalIndexHash": "bbe7bed2e1ab454e7be147b556f6d7bcce3ef433bf72d045219463e253128dd7",
+    "servedIndexHash": "32a953080bf10439e86929c61f6cd9f8466b92b0ffd7bd1b73e2512bb6ffe41a",
+    "files": [
+      {
+        "path": "index.html",
+        "bytes": 7522,
+        "sha256": "bbe7bed2e1ab454e7be147b556f6d7bcce3ef433bf72d045219463e253128dd7"
+      },
+      {
+        "path": "assets/art/currency.png",
+        "bytes": 32358,
+        "sha256": "0a5ea4c2fc453c3ec8279b5e6b7b9e9bfff6c133114ebf0a281e184ac4c132f5"
+      },
+      {
+        "path": "assets/art/fallback.png",
+        "bytes": 426980,
+        "sha256": "84124d82d22f5e2093aa40796fc266b7615cfb9f4cff505cd2de6300c138bad1"
+      },
+      {
+        "path": "assets/art/relic-axe.png",
+        "bytes": 17601,
+        "sha256": "d3df9824bb692a65ca96de7d5ad1a41ad15094d1467c3e380ab43510c281f8b7"
+      },
+      {
+        "path": "assets/art/relic-buckler.png",
+        "bytes": 39174,
+        "sha256": "1a9fb08400be0d38b91d749e1c2accab76af6dc507d3637ce536c4bf40359613"
+      },
+      {
+        "path": "assets/art/relic-chain.png",
+        "bytes": 29544,
+        "sha256": "3a66ccff5d249a84466a57a8a7567654b4c1233e88e50d82f7623dcd5e5f1716"
+      },
+      {
+        "path": "assets/art/relic-dagger.png",
+        "bytes": 15624,
+        "sha256": "7ec6fe194bc3be8c2c9506e2f019873cfddd349c55d6b50867f71b02e09e1cd8"
+      },
+      {
+        "path": "assets/art/relic-flail.png",
+        "bytes": 20739,
+        "sha256": "db1f1dffc0a0220c21e18bcb8178183ba2063db454b03b6cafb634cafc08ed7b"
+      },
+      {
+        "path": "assets/art/relic-great-helm.png",
+        "bytes": 32019,
+        "sha256": "4c22c48aa4cbc5e9bab57f527765e260e5ed5c129eebec732d2e055447be39dd"
+      },
+      {
+        "path": "assets/art/relic-hammer.png",
+        "bytes": 17079,
+        "sha256": "82f0c993d2bfc1b5ae99952c69cf5460b05827405660762417c9a06008a60416"
+      },
+      {
+        "path": "assets/art/relic-horned-helm.png",
+        "bytes": 28028,
+        "sha256": "5515aa3ddcf7f3acae95499c2d74ec8291ff47d332df0227fadc93dcc12903d3"
+      },
+      {
+        "path": "assets/art/relic-kite.png",
+        "bytes": 23843,
+        "sha256": "4e7fccb7bf7cc3f94c809bb50227904e5657c32f3fa53f430da4b4503afb8a24"
+      },
+      {
+        "path": "assets/art/relic-leather.png",
+        "bytes": 27659,
+        "sha256": "7132d073a305538b0e51995f4584beab2a4da2d0f48369f7f92d4f656ffe5a27"
+      },
+      {
+        "path": "assets/art/relic-plate.png",
+        "bytes": 28564,
+        "sha256": "da55416693971afb07bac3208a15e3c4a00b228ad4ec0038bc609d4261045623"
+      },
+      {
+        "path": "assets/art/relic-scythe.png",
+        "bytes": 10290,
+        "sha256": "dd663c676c3cf88a11b512b28756606f14435b007fe9d57cd25a65913ea1d0d6"
+      },
+      {
+        "path": "assets/art/relic-sword.png",
+        "bytes": 11951,
+        "sha256": "5c704715600afb8bd015639f20d5157972a944a2466a470a66c8d29dd4072c95"
+      },
+      {
+        "path": "assets/art/relic-tower.png",
+        "bytes": 24538,
+        "sha256": "e8b3ef707b2d21010fb973dc11c99b3a219fc6821549ec4dc50eb938c054e519"
+      },
+      {
+        "path": "assets/art/stat-attack-speed.png",
+        "bytes": 25762,
+        "sha256": "624a65e72f908add93f0c80a1d47a56d8c3fa4c179658a888912928a0323f1ab"
+      },
+      {
+        "path": "assets/art/stat-attack.png",
+        "bytes": 8827,
+        "sha256": "b49052145b1d12a49b006dc5f0daa6ed1d7ceef2f9108baac1c61ce4f945b2a6"
+      },
+      {
+        "path": "assets/art/stat-critical-damage.png",
+        "bytes": 34980,
+        "sha256": "448f007f9579db95560c80873848d269817413262359f17af61b07df2e04d471"
+      },
+      {
+        "path": "assets/art/stat-critical-rate.png",
+        "bytes": 18234,
+        "sha256": "f7b6615254ad8d17059fb7ea7d0e78e143642105706c27e7109193e5556a9bbe"
+      },
+      {
+        "path": "assets/art/stat-defense.png",
+        "bytes": 33541,
+        "sha256": "7ddca366d9027e89e37b9001684e6c65d75b94a75dfb3ae7757588beefb5f49c"
+      },
+      {
+        "path": "assets/art/stat-hp.png",
+        "bytes": 33469,
+        "sha256": "b8371c22239ad1715128656281ec14cbd3cb1ac6321ed3cfffe616c3d0dd619f"
+      },
+      {
+        "path": "assets/art/stat-vampirism.png",
+        "bytes": 15792,
+        "sha256": "592b2896e6176b23943da4a7a4065517400244fcb9986b2db835392caa0a9f9c"
+      },
+      {
+        "path": "assets/art/title.png",
+        "bytes": 33811,
+        "sha256": "c0232ca9e528bfad6efbd76089a27dab0f5f43c20b0e3b52b050c6bfcf3d4a36"
+      },
+      {
+        "path": "assets/art/treasure.png",
+        "bytes": 34865,
+        "sha256": "3429151ceb614322fb47b7f7be3e8ae11d6178960aba6295e769f691d11c5454"
+      },
+      {
+        "path": "assets/bgm/battle_boss.mp3",
+        "bytes": 9523306,
+        "sha256": "afb87cdc170db5f348ea602343e08dc8a7dea99dc360d3567b1f00a79479e82a"
+      },
+      {
+        "path": "assets/bgm/battle_boss.webm",
+        "bytes": 5342415,
+        "sha256": "5dd4b1ca74268d5bba8483ddd6e0f7021256b4b75958eca88778f711ea34e6e2"
+      },
+      {
+        "path": "assets/bgm/battle_guardian.mp3",
+        "bytes": 10108176,
+        "sha256": "a69c65669a5d7ef78c0c0d17fab6cd7551897648eff7beb0aba4c8f392e5f415"
+      },
+      {
+        "path": "assets/bgm/battle_guardian.webm",
+        "bytes": 5722196,
+        "sha256": "15e96c3586b621664f2b85af8c9c1ca4ebb2aba3411c81931b13ffab9db20676"
+      },
+      {
+        "path": "assets/bgm/battle_main.mp3",
+        "bytes": 8479845,
+        "sha256": "8b387bebffc7cc7499edba970203acdb93d0d11b2295b28d2f89a14054fb2252"
+      },
+      {
+        "path": "assets/bgm/battle_main.webm",
+        "bytes": 4759944,
+        "sha256": "11c5d413a7d57d4332b3d2e0cb9d21f4c313076081d7b516d571f0589939b976"
+      },
+      {
+        "path": "assets/bgm/dungeon.mp3",
+        "bytes": 2161102,
+        "sha256": "32f1d8f96427baeaa2c2ee027118b438eb1b821cbed89c7fa4a99ff23494959c"
+      },
+      {
+        "path": "assets/bgm/dungeon.webm",
+        "bytes": 1333137,
+        "sha256": "37a54f10f2a3ae7c0ecea8a24d847819dcf68a33486adbe2cfa77790ca28dad1"
+      },
+      {
+        "path": "assets/css/all.min.css",
+        "bytes": 101894,
+        "sha256": "6752b9ba151a25703b2e5d17ad9ff42615f8940b591694fa8e42ab1034f476b5"
+      },
+      {
+        "path": "assets/css/rpg-awesome.min.css",
+        "bytes": 20579,
+        "sha256": "444bf79dabe1e138d5a03365e99b6ca7dac3f38f93e6be15cf5eb02c70a7eebf"
+      },
+      {
+        "path": "assets/css/style.css",
+        "bytes": 21426,
+        "sha256": "60197864ca48cbb5fa14096a550d733e443d1f546ca76495441be56707b49f1b"
+      },
+      {
+        "path": "assets/fonts/rpgawesome-webfont.eot",
+        "bytes": 149168,
+        "sha256": "1fecbf284bf8751b8e57f0284524c8911a901bcbfc02ab98258439830f113fe9"
+      },
+      {
+        "path": "assets/fonts/rpgawesome-webfont.svg",
+        "bytes": 649002,
+        "sha256": "3f85ff8062343a6c37dba2007aa600befe598be5c4824842c62e5cc80ddf39bb"
+      },
+      {
+        "path": "assets/fonts/rpgawesome-webfont.ttf",
+        "bytes": 148988,
+        "sha256": "0e6bb47167ac866f369332fb505de076e600604509ddd48d911e714635bcde9a"
+      },
+      {
+        "path": "assets/fonts/rpgawesome-webfont.woff",
+        "bytes": 149064,
+        "sha256": "5f0127873ef4aef74bcc577a37dd7d544828c77bb896e3f6e1e1a2da78c0b399"
+      },
+      {
+        "path": "assets/icon/favicon.ico",
+        "bytes": 34857,
+        "sha256": "82f2cb7f077446466fa2c1ad2eee6a140033034137cc0bc9e4ef435a4fc6bea6"
+      },
+      {
+        "path": "assets/icon/favicon.png",
+        "bytes": 80709,
+        "sha256": "1d98fd90eb88364c5a576ad2ef75bd314ee37555dc89d581a31b11f3980de695"
+      },
+      {
+        "path": "assets/js/app/character-codec.mjs",
+        "bytes": 3234,
+        "sha256": "5dde2f6e47b552beaea69f6d58a353a45ab2c088ff24e1d51d8459146d038c39"
+      },
+      {
+        "path": "assets/js/app/character-exchange-view.mjs",
+        "bytes": 2240,
+        "sha256": "5badca8d67d23cec7679a74a39b428ea1abb5b3362af88df0910103ad34501a7"
+      },
+      {
+        "path": "assets/js/app/character-import.mjs",
+        "bytes": 3397,
+        "sha256": "99550118d2b9c2f8454bea91df26f0617b47637d6737aa06317497a3e6c59e25"
+      },
+      {
+        "path": "assets/js/app/continuation.mjs",
+        "bytes": 493,
+        "sha256": "11404596b15bb42d2d2ef296c7024a6a5cbfa5b89fb5f3f1b02709a0eb8cf29a"
+      },
+      {
+        "path": "assets/js/app/dialogs.mjs",
+        "bytes": 6530,
+        "sha256": "297c99882353cbaab0c9a0f547a53bdb2d27bb69539709c01c6f0cacd9957992"
+      },
+      {
+        "path": "assets/js/app/encounter-view.mjs",
+        "bytes": 2324,
+        "sha256": "edaa031abca05058469c993cfc9e22a3fd2907c754ded20061b3491ea5a252d2"
+      },
+      {
+        "path": "assets/js/app/entry-view.mjs",
+        "bytes": 4185,
+        "sha256": "37eb5a12d20234e2bcf620ee9c0cbdbeab4965bba28460fb50da683caf49f0c5"
+      },
+      {
+        "path": "assets/js/app/event-view.mjs",
+        "bytes": 793,
+        "sha256": "222fc8345e56a0a6a89b517b41671f9d2bbb32feb6437987f2b354e38033ed70"
+      },
+      {
+        "path": "assets/js/app/image-loader.mjs",
+        "bytes": 6695,
+        "sha256": "d21e91f9d4368897402b7d7bd6b0cc0d00e7d3c0ffb97cf8dc5201540ed52b53"
+      },
+      {
+        "path": "assets/js/app/item-actions.mjs",
+        "bytes": 5927,
+        "sha256": "7981c5dd653e5bf4bc0dd1f39d235512bbb04de6cbc0daf9caea0da43ec62ef6"
+      },
+      {
+        "path": "assets/js/app/item-view.mjs",
+        "bytes": 11089,
+        "sha256": "447fb019dcd54ce1c42484d267e09789e2f9f09e3fe12ce12d551b893f86af71"
+      },
+      {
+        "path": "assets/js/app/legacy-history.mjs",
+        "bytes": 7510,
+        "sha256": "369fc47e6570f013af808471b50b2c11f819177e8181e2b6712ef5c7a813f738"
+      },
+      {
+        "path": "assets/js/app/legacy-migration.mjs",
+        "bytes": 1512,
+        "sha256": "8c718f65c662167a00467d15b800fad8a8f176c0b1e911ecaf65641d0419c1f6"
+      },
+      {
+        "path": "assets/js/app/lifecycle.mjs",
+        "bytes": 4684,
+        "sha256": "b5ce95c73827a427a2a846a9e69b751f42a3b9c3167552faa762861661608865"
+      },
+      {
+        "path": "assets/js/app/message-records.mjs",
+        "bytes": 2276,
+        "sha256": "d9f4f6f43fde63148fcc2ebce1b070df67ebe42b3a5bea65b4ca4c0763cf25dc"
+      },
+      {
+        "path": "assets/js/app/modal-bridge.mjs",
+        "bytes": 4557,
+        "sha256": "202a917298bb2fae00b7a8dfb22c0719bc5b7ccb6c25fd1340126b8530dfc304"
+      },
+      {
+        "path": "assets/js/app/outcome-view.mjs",
+        "bytes": 5851,
+        "sha256": "03812b7efc817bd8b8bd1410e2db6d9b17edf88e4a6400f7f0c6a215eb919473"
+      },
+      {
+        "path": "assets/js/app/recovery-view.mjs",
+        "bytes": 7038,
+        "sha256": "84501eb04b95b1dee3a9b0693a1abdb32098a5b4ec3753e74f4a413afaf2525f"
+      },
+      {
+        "path": "assets/js/app/safe-render.mjs",
+        "bytes": 4815,
+        "sha256": "e6f3056a8047864c4ebbf42f6fdd2f17225bf9ab446cf367f751f89c1b3aecd8"
+      },
+      {
+        "path": "assets/js/app/save-validation.mjs",
+        "bytes": 21123,
+        "sha256": "21ff6d7ee305f79bae610743caf7346933ad01a859afc42d2a1dc61c93e5b811"
+      },
+      {
+        "path": "assets/js/app/services.mjs",
+        "bytes": 9031,
+        "sha256": "681f78059389286899bf709bd17cc5de97e37db6fcef6114fb8815fb66ed68d5"
+      },
+      {
+        "path": "assets/js/app/snapshot-store.mjs",
+        "bytes": 8226,
+        "sha256": "2d6948ec36faed5d3d32935385b3486e5ae1c74f7b3bef4bce0369fb16b5224c"
+      },
+      {
+        "path": "assets/js/app/storage-conflicts.mjs",
+        "bytes": 1307,
+        "sha256": "c64f1d25dbde9636f6940a6a4e05d409b1d0fff7578e3e8fd46a48d9e66e6790"
+      },
+      {
+        "path": "assets/js/app/symbol-view.mjs",
+        "bytes": 3071,
+        "sha256": "397e2b7131bf448ffd7ca96bda4536162331cf62356c2e7aba189b4b8cf32256"
+      },
+      {
+        "path": "assets/js/app/transitions.mjs",
+        "bytes": 2875,
+        "sha256": "8bd21cee7eba06d051297f52a1551fa4834932980b7abe8431751ed8752db6b1"
+      },
+      {
+        "path": "assets/js/combat.js",
+        "bytes": 17067,
+        "sha256": "55ce75f1edd411b8c6f213d79126fc6353dc846a760400c945cfdda775996a96"
+      },
+      {
+        "path": "assets/js/content/catalog.mjs",
+        "bytes": 5871,
+        "sha256": "47276d1a01adbad99aa867f20ff4c32b1a8928fa59fb33ae513de0716faeeda6"
+      },
+      {
+        "path": "assets/js/content/encounters.mjs",
+        "bytes": 45824,
+        "sha256": "51ee320e1b15164fb51701b7811d164a7dbd756c3531478b27db59c57b819635"
+      },
+      {
+        "path": "assets/js/content/immutable.mjs",
+        "bytes": 556,
+        "sha256": "7158f9c6568cafdf30d8b58e7d4bbbb842dff2c81dbf0362c1dc050479e5bf55"
+      },
+      {
+        "path": "assets/js/content/messages.mjs",
+        "bytes": 15432,
+        "sha256": "ca411c5b78b871aaad13268e7591b622ec1d1cc9fe544c7ebe94d61c7793ef5c"
+      },
+      {
+        "path": "assets/js/content/relics.mjs",
+        "bytes": 4245,
+        "sha256": "8762377bb699d338f8132752d7d422ebdca1e9d0fda34cca7cb25191f7f3c8d6"
+      },
+      {
+        "path": "assets/js/content/setting.mjs",
+        "bytes": 2605,
+        "sha256": "1e77f9c0a081f0e268c512d5c72aa92ef580f594cb9dbba197cf8fd22a3b8b4e"
+      },
+      {
+        "path": "assets/js/content/symbols.mjs",
+        "bytes": 10078,
+        "sha256": "2fceadf35e9f7a9acfcd1645c2304d01d0cb0623e5291b0b58a5194be7200cd8"
+      },
+      {
+        "path": "assets/js/dungeon.js",
+        "bytes": 28853,
+        "sha256": "ccd3f699bfcf780f54f187e5bd824fd7286e5cb87dbd7f4cad4cf1060cca25ba"
+      },
+      {
+        "path": "assets/js/elements.js",
+        "bytes": 1002,
+        "sha256": "aa25890c67e4fc35e72fa6e0c08dc100f28535cd77d41ef9c873f20a7310a047"
+      },
+      {
+        "path": "assets/js/enemy.js",
+        "bytes": 23747,
+        "sha256": "fd27bf2e6fefce2f6b2702abbf67a8e6c58dbae97d04e17b373e585d970a215a"
+      },
+      {
+        "path": "assets/js/equipment.js",
+        "bytes": 13488,
+        "sha256": "c067517a9a03e642556730c7d2368ba50e52a148ab842c9ed20fc0a8e932fbc4"
+      },
+      {
+        "path": "assets/js/howler.min.js",
+        "bytes": 36137,
+        "sha256": "0febfd99e2733b690ecac2dc36c82885f581a6b5c73b65895898ff8548415f5b"
+      },
+      {
+        "path": "assets/js/main.js",
+        "bytes": 54525,
+        "sha256": "b8876e317d15e38f7a883773fa21abf052aeac7e696b6fe6be39a8355829cbc5"
+      },
+      {
+        "path": "assets/js/music.js",
+        "bytes": 3724,
+        "sha256": "6584bc644e1e406b65b198469a2daa7430d179f7927eb130e4ae6eb7c4987a76"
+      },
+      {
+        "path": "assets/js/player.js",
+        "bytes": 12628,
+        "sha256": "dbdc9242cb99fd928d424ac2cc7827f5b8635d08de8df824413334259bd9e91c"
+      },
+      {
+        "path": "assets/js/utility.js",
+        "bytes": 1337,
+        "sha256": "6ba9e93dd6656fa54ee684531935b4ac0a63dde8e7d3873cec2db926ff6fcc85"
+      },
+      {
+        "path": "assets/sfx/attack.wav",
+        "bytes": 177136,
+        "sha256": "24b29f63d577b4b3adaf3f1c58e3c456dd72b661b686bb74bec553021a808755"
+      },
+      {
+        "path": "assets/sfx/buff.wav",
+        "bytes": 882736,
+        "sha256": "3a941dcf075bb07f7202c2d7cb4a377fa9d3a51ee32f3417f8f5aba109401040"
+      },
+      {
+        "path": "assets/sfx/combat_end.wav",
+        "bytes": 706336,
+        "sha256": "679882a81a208b5aa2644c3183ca532911e8d0a8092b38ceea099cde2775b54c"
+      },
+      {
+        "path": "assets/sfx/confirm.wav",
+        "bytes": 353536,
+        "sha256": "ead68e445318b80e4f7498cc0c130ee610c1320d76380c9c8718f72afbf68c65"
+      },
+      {
+        "path": "assets/sfx/decline.wav",
+        "bytes": 353536,
+        "sha256": "afbe9f8e24fb96ca10843266e59fd5767b1d6e3c62ffddf7ff1edd8b40210627"
+      },
+      {
+        "path": "assets/sfx/denied.wav",
+        "bytes": 353536,
+        "sha256": "b82cdf1e4f349e68ede0dcd7dbf7476698872e3a5b81fbec9aeb4804caa059fa"
+      },
+      {
+        "path": "assets/sfx/encounter.wav",
+        "bytes": 1411936,
+        "sha256": "1d20c58985ff62a7441fe6f4600410180ba0ed2582f73e93c0e54f957060a7a9"
+      },
+      {
+        "path": "assets/sfx/equip.wav",
+        "bytes": 353536,
+        "sha256": "b86063062d88c287075a7f6fcb1e2e694f9702ee4302804a49714b9c9eea53fc"
+      },
+      {
+        "path": "assets/sfx/hover.wav",
+        "bytes": 353536,
+        "sha256": "e1b59ad740473c77f0dd09306e8487198a85cbeaca335086dc9fe82135c34640"
+      },
+      {
+        "path": "assets/sfx/item_use.wav",
+        "bytes": 353536,
+        "sha256": "c890b19c0eb57370f248ae10732e8bd2f9656797aae0900e7a0101b3e5df1893"
+      },
+      {
+        "path": "assets/sfx/level_up.wav",
+        "bytes": 70938,
+        "sha256": "2b13dbc65cd5326700f256a9f44e6fb683fcab173586073ed238de0c5d293838"
+      },
+      {
+        "path": "assets/sfx/pause.wav",
+        "bytes": 353536,
+        "sha256": "0c199a3d958a83f00c8349877c16ad3eaac3555dc675d7ac88fb72f13362a7ac"
+      },
+      {
+        "path": "assets/sfx/sell.wav",
+        "bytes": 353536,
+        "sha256": "c5a26d024bf21980de613a782ef67f03677e93784870a37aa1d83f3d57865ae1"
+      },
+      {
+        "path": "assets/sfx/unequip.wav",
+        "bytes": 353536,
+        "sha256": "8c01e051fa47d23c5deeabd7a52f83e172595bc422109a6776be662f0b596454"
+      },
+      {
+        "path": "assets/sfx/unpause.wav",
+        "bytes": 353536,
+        "sha256": "92806b965209ac3f21518dc900d9ae0b58e12ed9fecc3415ca6614b692730f6b"
+      },
+      {
+        "path": "assets/sprites/alfadriel.png",
+        "bytes": 471954,
+        "sha256": "a325268d66cbf99e480ce4c999efc615ee4c6ad53152d1d555390f5bc950146f"
+      },
+      {
+        "path": "assets/sprites/ant_queen.png",
+        "bytes": 307919,
+        "sha256": "5db5d307e586bd3d8304b43511465e6e272104afb03fb54c62aad09245dc4e3e"
+      },
+      {
+        "path": "assets/sprites/behemoth.png",
+        "bytes": 619757,
+        "sha256": "3fbe2061c6eeb6555f0152d57eac7430b6c2a19774419c877f17f121746d563b"
+      },
+      {
+        "path": "assets/sprites/berthelot.png",
+        "bytes": 112264,
+        "sha256": "0e3c6966e95c5e518165a3ddc3164cf203dc3cadf1b225e44ab102928e4bfc58"
+      },
+      {
+        "path": "assets/sprites/bm-feral.png",
+        "bytes": 198751,
+        "sha256": "2b7c61469e8e8a94a910f90da5d92737e8c2de5c0a8670fe85dddb44b9d80b13"
+      },
+      {
+        "path": "assets/sprites/cerberus_ptolemaios.png",
+        "bytes": 355342,
+        "sha256": "533d2de82b1815b81e7a1d460ee99d4c57edb59d89456700ac68adecf2f821d8"
+      },
+      {
+        "path": "assets/sprites/da-reaper.png",
+        "bytes": 163642,
+        "sha256": "fa127f8616b5a3bc552c9cfb2fd77dbe32a19d1f91455fffca0cb4a6039732a5"
+      },
+      {
+        "path": "assets/sprites/fallen_king.png",
+        "bytes": 384290,
+        "sha256": "788dba312302937d8b87de29b3c14b6ec02293c65d17e0cd1f1fc7406f8fa06a"
+      },
+      {
+        "path": "assets/sprites/firelord.png",
+        "bytes": 580522,
+        "sha256": "fe2ae5841b9d5b3e946daffceddbfbb6b588728498ff35b14a2ce45a187dd0cf"
+      },
+      {
+        "path": "assets/sprites/goblin.png",
+        "bytes": 36796,
+        "sha256": "062c92c1b70025809991523f562a331763d8bd243af5751023b12d512fc9bffb"
+      },
+      {
+        "path": "assets/sprites/goblin_archer.png",
+        "bytes": 44722,
+        "sha256": "b54e9fca2e60b20e23b34b2ce739c0ef2fb48f82e9789167f2b8948113875421"
+      },
+      {
+        "path": "assets/sprites/goblin_boss.png",
+        "bytes": 54165,
+        "sha256": "afeb72c8bba214f3f4282761e064b55be0f6dd374a360fbfc92eb12f18806ddb"
+      },
+      {
+        "path": "assets/sprites/goblin_mage.png",
+        "bytes": 57984,
+        "sha256": "4bc5946af53cdeebc555c204f4172ca168804da36254fc5b08d24e21a3c288a5"
+      },
+      {
+        "path": "assets/sprites/goblin_rogue.png",
+        "bytes": 44911,
+        "sha256": "fd7b9eda43af3aa195de9deabc9ce4eb35fd4d21354a43e0995b49eb34274c4f"
+      },
+      {
+        "path": "assets/sprites/hellhound.png",
+        "bytes": 141517,
+        "sha256": "06ac56eda975605b1ccae240900e7d4dd3cbc8d28693966badc7d7249e658124"
+      },
+      {
+        "path": "assets/sprites/icemaiden.png",
+        "bytes": 572158,
+        "sha256": "b6d9fb515954c9272f80658b1d433d243020ec298ab781a7d6fe5627fa4ba0de"
+      },
+      {
+        "path": "assets/sprites/mimic.png",
+        "bytes": 86735,
+        "sha256": "d7c8397f8ebc74cee2d0084a8f22908d44f2c9254b37d27c652c36c9dfe79cd2"
+      },
+      {
+        "path": "assets/sprites/mimic_door.png",
+        "bytes": 147911,
+        "sha256": "5001ab3ae2b48072920d19d9f4b304cdda534c9953cdb5377c2dc8e76a86b009"
+      },
+      {
+        "path": "assets/sprites/orc_archer.png",
+        "bytes": 327765,
+        "sha256": "331fd9ef5ecadfe3fc911adf7a17e5cc9b11d709f1b1dc27fc15dc887ed5045a"
+      },
+      {
+        "path": "assets/sprites/orc_axe.png",
+        "bytes": 410984,
+        "sha256": "f5c1b279e70c8ace402091d068691c8fbcb3a7624ba1492a54db9c9df391ef6e"
+      },
+      {
+        "path": "assets/sprites/orc_mage.png",
+        "bytes": 318728,
+        "sha256": "94577a06154c5da7b77e950e2919b06b554101296b392be19e4f714ddaa7775c"
+      },
+      {
+        "path": "assets/sprites/orc_swordsmaster.png",
+        "bytes": 228741,
+        "sha256": "3d6764bf30edbdf2319c5bef8f4d6d7fc86dc4a7795bea30fbc63ada339191e7"
+      },
+      {
+        "path": "assets/sprites/skeleton_archer.png",
+        "bytes": 82016,
+        "sha256": "1fc67aa0c5ad2ad38caf805ec5e4dc87144898a65c03b44a36d7d3c3b3d0dbd9"
+      },
+      {
+        "path": "assets/sprites/skeleton_boss.png",
+        "bytes": 158984,
+        "sha256": "694deed3511045695f6e55bbe74f9cff80bb1932da5dee697ff15b6db0dc98ca"
+      },
+      {
+        "path": "assets/sprites/skeleton_dragon.png",
+        "bytes": 368085,
+        "sha256": "8019c95f97886fe270d0bb330d676d4bee0f8a6b8ca633eae6cf16560f1a8f42"
+      },
+      {
+        "path": "assets/sprites/skeleton_knight.png",
+        "bytes": 93448,
+        "sha256": "003fe8a83f54ecff96e09f8d6250411fe7cff52790ab43cc5ffdac0975161b00"
+      },
+      {
+        "path": "assets/sprites/skeleton_mage1.png",
+        "bytes": 80197,
+        "sha256": "f25fb03570cf39fef99ddbe3161ebbeee41901f97cf9062fc725f597d45c3f57"
+      },
+      {
+        "path": "assets/sprites/skeleton_mage2.png",
+        "bytes": 43691,
+        "sha256": "00e32cdbdd9bebbcbd2658fa53834c4451a5a5f5a5703f85dabcc69ccd392ae5"
+      },
+      {
+        "path": "assets/sprites/skeleton_pirate.png",
+        "bytes": 62580,
+        "sha256": "b840f387bf08a251b1869a4df94eda08690bedd22d8f934220f2eb29db2d1e97"
+      },
+      {
+        "path": "assets/sprites/skeleton_samurai.png",
+        "bytes": 56405,
+        "sha256": "904cc30fb55936129a9d8663e0f60ca03d9ed8941f15ef176a79bfa2b65782a2"
+      },
+      {
+        "path": "assets/sprites/skeleton_swordsmaster.png",
+        "bytes": 47233,
+        "sha256": "29f0672eb94936ba15735db1a07726984bf9b753b5c2b5e2249784a549143252"
+      },
+      {
+        "path": "assets/sprites/skeleton_warrior.png",
+        "bytes": 50230,
+        "sha256": "ab1de98158408196538e2e3c1586550d60c72beea97831216a68aa4b8f98bd04"
+      },
+      {
+        "path": "assets/sprites/slime.png",
+        "bytes": 46037,
+        "sha256": "d46ce2ac3bf53e04d27540cb3866cc04b74427d3fb5461446ab951fd09fe53e6"
+      },
+      {
+        "path": "assets/sprites/slime_angel.png",
+        "bytes": 37349,
+        "sha256": "829fa769c767eb336647d7d9deeef3fe5090ac65b2f04c13c630eb1f6a1e3177"
+      },
+      {
+        "path": "assets/sprites/slime_boss.png",
+        "bytes": 159797,
+        "sha256": "1e1613cd82044e0886e5bd5e8a2856a7b0f22d6c8b92671524417ddbce7933b6"
+      },
+      {
+        "path": "assets/sprites/slime_crusader.png",
+        "bytes": 22536,
+        "sha256": "47344cffbb3686b5649a020f5a22712071938d709133b98995b29cf9a33a856f"
+      },
+      {
+        "path": "assets/sprites/slime_knight.png",
+        "bytes": 34191,
+        "sha256": "10748c8495d531644e67f134ebb178dc6af2b699b21b5972ddcdf025498819e2"
+      },
+      {
+        "path": "assets/sprites/spider.png",
+        "bytes": 23187,
+        "sha256": "193b43542385cfa9527009290a9644af47d43aa66b69ecb8c17df220aafbcc9b"
+      },
+      {
+        "path": "assets/sprites/spider_boss.png",
+        "bytes": 238620,
+        "sha256": "84a6fb2aafd7f14b0c08aee8f3df7703421b98e33029605c085a9ff1e9a772bd"
+      },
+      {
+        "path": "assets/sprites/spider_dragon.png",
+        "bytes": 722180,
+        "sha256": "543a29000d5a307f25beb57c993ba27b488f2bd0b0d95a04dd1ede8a11029670"
+      },
+      {
+        "path": "assets/sprites/spider_fire.png",
+        "bytes": 278747,
+        "sha256": "0469e0f8a6deab226b71b6b3f9f6749ddfdcce4253bf6299c9f5759acc7a4ce3"
+      },
+      {
+        "path": "assets/sprites/spider_green.png",
+        "bytes": 27268,
+        "sha256": "13894d7e2600269803ec1a947815f7a5819dcacf0269970a5fbd20215c6dff04"
+      },
+      {
+        "path": "assets/sprites/spider_red.png",
+        "bytes": 25251,
+        "sha256": "ebd97ba01a0aeb0cc0c86b42df8eec909cece54cdc0ae507bbfaf3fee1367d15"
+      },
+      {
+        "path": "assets/sprites/spider_spirit.png",
+        "bytes": 145283,
+        "sha256": "67cca9e7a219ac49fa9242681bfad41f61c2ffc6c6d909e4e0555da188f7f2b4"
+      },
+      {
+        "path": "assets/sprites/thanatos.png",
+        "bytes": 703583,
+        "sha256": "511e3fcb59a7c67cbf68c98739c3b5beffe7123873e35930a6d29c47fa37991e"
+      },
+      {
+        "path": "assets/sprites/tiamat.png",
+        "bytes": 174592,
+        "sha256": "7cb542dcc0db10dfb54f287f319ad04fb7e49696be8ad904887af8681bf28187"
+      },
+      {
+        "path": "assets/sprites/wolf.png",
+        "bytes": 38726,
+        "sha256": "be26a271a42b3ceddd1204990875927966bd8682bc5a0e2e7e97d32d19f28b6d"
+      },
+      {
+        "path": "assets/sprites/wolf_black.png",
+        "bytes": 46685,
+        "sha256": "fc7853265931d26c268a9e01816501dee773dbeb7cb72f4e1bb187f59651be39"
+      },
+      {
+        "path": "assets/sprites/wolf_boss.png",
+        "bytes": 21048,
+        "sha256": "0803480773491b235da45a81bdbd7424eeb760e20acab7a722c3b92a3a3cca40"
+      },
+      {
+        "path": "assets/sprites/wolf_winter.png",
+        "bytes": 54928,
+        "sha256": "4eed9478bd17f1edc2481537bef81b1ab69d18dde3002482e426a09957c6017a"
+      },
+      {
+        "path": "assets/sprites/zalaras.png",
+        "bytes": 663534,
+        "sha256": "fa6e221be4c7a70796c8e31be1e99304d46d29f1079464b7fd4b2de4130df816"
+      },
+      {
+        "path": "assets/sprites/zodiac_aries.png",
+        "bytes": 377605,
+        "sha256": "d2e0b0056bdf1adf32ed889a28c9dcf8133a7edd14d3cc91ee5c4c9708e5a765"
+      },
+      {
+        "path": "assets/sprites/zodiac_cancer.png",
+        "bytes": 253656,
+        "sha256": "a232a842b55a8af9421e67c5e457ad437e8bc474095fda724c6e24e6ee9a930a"
+      },
+      {
+        "path": "assets/webfonts/fa-brands-400.ttf",
+        "bytes": 186124,
+        "sha256": "b1d1c1b012e1a7621cc84fd1e5c1dbab92012f40df7423e879ab2fa493520fee"
+      },
+      {
+        "path": "assets/webfonts/fa-brands-400.woff2",
+        "bytes": 107656,
+        "sha256": "c61287c2fa9863b5fb5844c683a168ac6520c94d822bb43d5eae35c3a2a82166"
+      },
+      {
+        "path": "assets/webfonts/fa-regular-400.ttf",
+        "bytes": 62320,
+        "sha256": "d7b19fe201101b08ab1344ffd472d59ce652ad3c3fb5f194c3e35aa2908e674a"
+      },
+      {
+        "path": "assets/webfonts/fa-regular-400.woff2",
+        "bytes": 25236,
+        "sha256": "5da313b0467f7c1b18d981672b23461add31e3ad41988c30101bdaabb074e446"
+      },
+      {
+        "path": "assets/webfonts/fa-solid-900.ttf",
+        "bytes": 397420,
+        "sha256": "e4f6a7e9d1a7c0b4968d9cb9d422e8d9cdca229f7ff3aeac7f96e4baa25c7680"
+      },
+      {
+        "path": "assets/webfonts/fa-solid-900.woff2",
+        "bytes": 150516,
+        "sha256": "8f06540fd77f1effe1e2da8ea10cec4a382dda9cc6ef05d816e1d6de444072f2"
+      },
+      {
+        "path": "assets/webfonts/fa-v4compatibility.ttf",
+        "bytes": 10140,
+        "sha256": "2ddb3b4114a9cb565e49b0af21cc3ac88cd043beb49be328b8f57a634989e0ac"
+      },
+      {
+        "path": "assets/webfonts/fa-v4compatibility.woff2",
+        "bytes": 4568,
+        "sha256": "f46715c9d30047f8dea4eb25ed869f791eb069c6b0f6102382c32a56aeeadfbb"
+      }
+    ]
+  },
+  "requiredKeys": [
+    "1440/first-visit/cold",
+    "1440/resting-return/cold",
+    "1440/title-to-dungeon/cold",
+    "1440/normal/cold",
+    "1440/special-boss/cold",
+    "1440/largest-spider-dragon/cold",
+    "1440/variant-1/cold",
+    "1440/variant-2/cold",
+    "1440/chest-mimic/cold",
+    "1440/door-mimic/cold",
+    "1440/resting-return/warm",
+    "1440/title-to-dungeon/warm",
+    "1440/normal/warm",
+    "1440/special-boss/warm",
+    "1440/largest-spider-dragon/warm",
+    "1440/variant-1/warm",
+    "1440/variant-2/warm",
+    "1440/chest-mimic/warm",
+    "1440/door-mimic/warm",
+    "360/first-visit/cold",
+    "360/resting-return/cold",
+    "360/title-to-dungeon/cold",
+    "360/normal/cold",
+    "360/special-boss/cold",
+    "360/largest-spider-dragon/cold",
+    "360/variant-1/cold",
+    "360/variant-2/cold",
+    "360/chest-mimic/cold",
+    "360/door-mimic/cold",
+    "360/resting-return/warm",
+    "360/title-to-dungeon/warm",
+    "360/normal/warm",
+    "360/special-boss/warm",
+    "360/largest-spider-dragon/warm",
+    "360/variant-1/warm",
+    "360/variant-2/warm",
+    "360/chest-mimic/warm",
+    "360/door-mimic/warm"
+  ],
+  "rows": [
+    {
+      "key": "1440/first-visit/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 1053.2999999970198,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1046.5,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1053.5,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1057.7000000029802,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1051.7999999970198,
+          "controlsUsable": true,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "key": "1440/resting-return/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 50.6000000089407,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 45.400000005960464,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 38.3999999910593,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 42.400000005960464,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 42.29999999701977,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "1440/title-to-dungeon/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 1011.4000000059605,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1019.0999999940395,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1023,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1019.0999999940395,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1020.9000000059605,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "1440/normal/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/goblin.png",
+      "oracleId": "Balanced/normal/0/0",
+      "samples": [
+        {
+          "durationMs": 43.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.19999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.5999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.099999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.3999999910593033
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 39.8999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/special-boss/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/behemoth.png",
+      "oracleId": "Offensive/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 59.8999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 1.9000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 58.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2.1000000089406967
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/largest-spider-dragon/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/spider_dragon.png",
+      "oracleId": "Quick/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 42.79999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 60.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.199999988079071
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.79999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 41.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.0999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 60.3999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.4000000059604645
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/variant-1/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/skeleton_mage1.png",
+      "oracleId": "Offensive/normal/13/0",
+      "samples": [
+        {
+          "durationMs": 43.20000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 26.700000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 27.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 41.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.7999999970197678
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/variant-2/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/skeleton_mage2.png",
+      "oracleId": "Offensive/normal/13/0.99",
+      "samples": [
+        {
+          "durationMs": 42.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 41.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.199999988079071
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 27.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.0999999940395355
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/chest-mimic/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/mimic.png",
+      "oracleId": "Offensive/chest",
+      "samples": [
+        {
+          "durationMs": 44.19999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 44,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.30000001192093,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/door-mimic/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/mimic_door.png",
+      "oracleId": "Offensive/door",
+      "samples": [
+        {
+          "durationMs": 43.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.0999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.5
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.20000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.3999999910593033
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 44,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/resting-return/warm",
+      "kind": "entry",
+      "cache": "warm",
+      "samples": [
+        {
+          "durationMs": 25,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 26,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 25.5,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 24.899999991059303,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 21.900000005960464,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "1440/title-to-dungeon/warm",
+      "kind": "entry",
+      "cache": "warm",
+      "samples": [
+        {
+          "durationMs": 1005.5,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1020.2000000029802,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1006.9000000059605,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1018.7000000029802,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1020,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "1440/normal/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/goblin.png",
+      "oracleId": "Balanced/normal/0/0",
+      "samples": [
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.299999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.700000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.700000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/special-boss/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/behemoth.png",
+      "oracleId": "Offensive/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 44.3999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.30000001192093,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 44.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/largest-spider-dragon/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/spider_dragon.png",
+      "oracleId": "Quick/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 29.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.80000001192093,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.1000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/variant-1/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/skeleton_mage1.png",
+      "oracleId": "Offensive/normal/13/0",
+      "samples": [
+        {
+          "durationMs": 29.30000001192093,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/variant-2/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/skeleton_mage2.png",
+      "oracleId": "Offensive/normal/13/0.99",
+      "samples": [
+        {
+          "durationMs": 27.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/chest-mimic/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/mimic.png",
+      "oracleId": "Offensive/chest",
+      "samples": [
+        {
+          "durationMs": 28.099999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.899999991059303,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.299999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "1440/door-mimic/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/mimic_door.png",
+      "oracleId": "Offensive/door",
+      "samples": [
+        {
+          "durationMs": 29.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.69999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/first-visit/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 1047,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1055.7000000029802,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1054.1000000089407,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1052.5,
+          "controlsUsable": true,
+          "errors": []
+        },
+        {
+          "durationMs": 1052,
+          "controlsUsable": true,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "key": "360/resting-return/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 42.6000000089407,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 39.20000000298023,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 38.5,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 38.79999999701977,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 42.099999994039536,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "360/title-to-dungeon/cold",
+      "kind": "entry",
+      "cache": "cold",
+      "samples": [
+        {
+          "durationMs": 1018.2000000029802,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1023,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1018.4000000059605,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1009.4000000059605,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1023.5,
+          "controlsUsable": true,
+          "cacheHit": false,
+          "transferSize": 21726,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "360/normal/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/goblin.png",
+      "oracleId": "Balanced/normal/0/0",
+      "samples": [
+        {
+          "durationMs": 44,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.9000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.3999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.19999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.300000011920929
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.20000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 37096,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 1.3999999910593033
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/special-boss/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/behemoth.png",
+      "oracleId": "Offensive/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 60.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 3.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 60.099999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 1.9000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.8999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 1.7999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.19999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 620057,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 2
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/largest-spider-dragon/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/spider_dragon.png",
+      "oracleId": "Quick/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 58.8999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 3.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 41.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 59.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.5999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 74.29999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.7000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.79999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 722480,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 2.4000000059604645
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/variant-1/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/skeleton_mage1.png",
+      "oracleId": "Offensive/normal/13/0",
+      "samples": [
+        {
+          "durationMs": 60.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 2.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 27.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 80497,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 1.300000011920929
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/variant-2/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/skeleton_mage2.png",
+      "oracleId": "Offensive/normal/13/0.99",
+      "samples": [
+        {
+          "durationMs": 41.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 2
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 26.899999991059303,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 43991,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/chest-mimic/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/mimic.png",
+      "oracleId": "Offensive/chest",
+      "samples": [
+        {
+          "durationMs": 43.8999999910593,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.7000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 41.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.5
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 42.1000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.4000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 44.20000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.0999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 27.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 87035,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 1.1000000089406967
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/door-mimic/cold",
+      "kind": "art",
+      "cache": "cold",
+      "expectedPath": "assets/sprites/mimic_door.png",
+      "oracleId": "Offensive/door",
+      "samples": [
+        {
+          "durationMs": 43.79999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.9000000059604645
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 60.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.5999999940395355
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.2000000029802322
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.2999999970197678
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 43.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": false,
+          "resource": {
+            "transferSize": 148211,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 1.6000000089406967
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/resting-return/warm",
+      "kind": "entry",
+      "cache": "warm",
+      "samples": [
+        {
+          "durationMs": 24.899999991059303,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 23.599999994039536,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 27.299999997019768,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 25.299999997019768,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 23.399999991059303,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "360/title-to-dungeon/warm",
+      "kind": "entry",
+      "cache": "warm",
+      "samples": [
+        {
+          "durationMs": 1020.0999999940395,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1007.5,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1015.5999999940395,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1006.7000000029802,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        },
+        {
+          "durationMs": 1006.8999999910593,
+          "controlsUsable": true,
+          "cacheHit": true,
+          "transferSize": 0,
+          "decodedBodySize": 21426
+        }
+      ]
+    },
+    {
+      "key": "360/normal/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/goblin.png",
+      "oracleId": "Balanced/normal/0/0",
+      "samples": [
+        {
+          "durationMs": 29.299999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.900000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.19999998807907,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/goblin.png",
+          "expectedPath": "assets/sprites/goblin.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 36796,
+            "decodedBodySize": 36796,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/special-boss/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/behemoth.png",
+      "oracleId": "Offensive/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 45.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 44.5,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.6000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/behemoth.png",
+          "expectedPath": "assets/sprites/behemoth.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 619757,
+            "decodedBodySize": 619757,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/largest-spider-dragon/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/spider_dragon.png",
+      "oracleId": "Quick/sboss/0/0",
+      "samples": [
+        {
+          "durationMs": 46.1000000089407,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.79999999701977,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 45.70000000298023,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 46,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/spider_dragon.png",
+          "expectedPath": "assets/sprites/spider_dragon.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 722180,
+            "decodedBodySize": 722180,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/variant-1/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/skeleton_mage1.png",
+      "oracleId": "Offensive/normal/13/0",
+      "samples": [
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 27.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.400000005960464,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.399999991059303,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage1.png",
+          "expectedPath": "assets/sprites/skeleton_mage1.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 80197,
+            "decodedBodySize": 80197,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/variant-2/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/skeleton_mage2.png",
+      "oracleId": "Offensive/normal/13/0.99",
+      "samples": [
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.399999991059303,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.399999991059303,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/skeleton_mage2.png",
+          "expectedPath": "assets/sprites/skeleton_mage2.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 43691,
+            "decodedBodySize": 43691,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/chest-mimic/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/mimic.png",
+      "oracleId": "Offensive/chest",
+      "samples": [
+        {
+          "durationMs": 28.599999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.200000002980232,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic.png",
+          "expectedPath": "assets/sprites/mimic.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 86735,
+            "decodedBodySize": 86735,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    },
+    {
+      "key": "360/door-mimic/warm",
+      "kind": "art",
+      "cache": "warm",
+      "expectedPath": "assets/sprites/mimic_door.png",
+      "oracleId": "Offensive/door",
+      "samples": [
+        {
+          "durationMs": 29.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 28.799999997019768,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.099999994039536,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29.100000008940697,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        },
+        {
+          "durationMs": 29,
+          "decoded": true,
+          "rendered": true,
+          "controlsUsable": true,
+          "actualPath": "assets/sprites/mimic_door.png",
+          "expectedPath": "assets/sprites/mimic_door.png",
+          "cacheHit": true,
+          "resource": {
+            "transferSize": 0,
+            "encodedBodySize": 147911,
+            "decodedBodySize": 147911,
+            "duration": 0
+          },
+          "dpr": 1
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "width": 1440,
+      "durationMs": 5.399999991059303,
+      "equipped": 6,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "screenshot": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/performance-load-and-art-m-12479-and-decoded-art-performance-chromium/inventory-1440.png"
+    },
+    {
+      "width": 360,
+      "durationMs": 6,
+      "equipped": 6,
+      "scrollWidth": 360,
+      "viewportWidth": 360,
+      "screenshot": "/Users/oberon/Projects/coding/javascript/malevolent-crawler/test-results/performance-load-and-art-m-12479-and-decoded-art-performance-chromium/inventory-360.png"
+    }
+  ],
+  "invalidRuns": [],
+  "comparisons": [
+    {
+      "key": "1440/first-visit/cold",
+      "baselineMedianMs": 1034.3999999985099,
+      "candidateMedianMs": 1053.2999999970198,
+      "thresholdMs": 1137.8399999983608,
+      "deltaMs": 18.899999998509884,
+      "pass": true
+    },
+    {
+      "key": "1440/resting-return/cold",
+      "baselineMedianMs": 24,
+      "candidateMedianMs": 42.400000005960464,
+      "thresholdMs": 124,
+      "deltaMs": 18.400000005960464,
+      "pass": true
+    },
+    {
+      "key": "1440/title-to-dungeon/cold",
+      "baselineMedianMs": 1019.5,
+      "candidateMedianMs": 1019.0999999940395,
+      "thresholdMs": 1121.45,
+      "deltaMs": -0.4000000059604645,
+      "pass": true
+    },
+    {
+      "key": "1440/normal/cold",
+      "baselineMedianMs": 28.200000001117587,
+      "candidateMedianMs": 43.19999998807907,
+      "thresholdMs": 128.2000000011176,
+      "deltaMs": 14.999999986961484,
+      "pass": true
+    },
+    {
+      "key": "1440/special-boss/cold",
+      "baselineMedianMs": 28.5,
+      "candidateMedianMs": 43.599999994039536,
+      "thresholdMs": 128.5,
+      "deltaMs": 15.099999994039536,
+      "pass": true
+    },
+    {
+      "key": "1440/largest-spider-dragon/cold",
+      "baselineMedianMs": 28.59999999962747,
+      "candidateMedianMs": 42.79999999701977,
+      "thresholdMs": 128.59999999962747,
+      "deltaMs": 14.199999997392297,
+      "pass": true
+    },
+    {
+      "key": "1440/variant-1/cold",
+      "baselineMedianMs": 28.40000000037253,
+      "candidateMedianMs": 41.599999994039536,
+      "thresholdMs": 128.40000000037253,
+      "deltaMs": 13.199999993667006,
+      "pass": true
+    },
+    {
+      "key": "1440/variant-2/cold",
+      "baselineMedianMs": 28.100000001490116,
+      "candidateMedianMs": 42.5,
+      "thresholdMs": 128.10000000149012,
+      "deltaMs": 14.399999998509884,
+      "pass": true
+    },
+    {
+      "key": "1440/chest-mimic/cold",
+      "baselineMedianMs": 28.09999999962747,
+      "candidateMedianMs": 43.70000000298023,
+      "thresholdMs": 128.09999999962747,
+      "deltaMs": 15.600000003352761,
+      "pass": true
+    },
+    {
+      "key": "1440/door-mimic/cold",
+      "baselineMedianMs": 27.800000000745058,
+      "candidateMedianMs": 43.5,
+      "thresholdMs": 127.80000000074506,
+      "deltaMs": 15.699999999254942,
+      "pass": true
+    },
+    {
+      "key": "1440/resting-return/warm",
+      "baselineMedianMs": 15.800000000745058,
+      "candidateMedianMs": 25,
+      "thresholdMs": 115.80000000074506,
+      "deltaMs": 9.199999999254942,
+      "pass": true
+    },
+    {
+      "key": "1440/title-to-dungeon/warm",
+      "baselineMedianMs": 1011.2999999988824,
+      "candidateMedianMs": 1018.7000000029802,
+      "thresholdMs": 1112.4299999987707,
+      "deltaMs": 7.400000004097819,
+      "pass": true
+    },
+    {
+      "key": "1440/normal/warm",
+      "baselineMedianMs": 30,
+      "candidateMedianMs": 29,
+      "thresholdMs": 130,
+      "deltaMs": -1,
+      "pass": true
+    },
+    {
+      "key": "1440/special-boss/warm",
+      "baselineMedianMs": 30.199999999254942,
+      "candidateMedianMs": 44.3999999910593,
+      "thresholdMs": 130.19999999925494,
+      "deltaMs": 14.199999991804361,
+      "pass": true
+    },
+    {
+      "key": "1440/largest-spider-dragon/warm",
+      "baselineMedianMs": 30.100000001490116,
+      "candidateMedianMs": 45.1000000089407,
+      "thresholdMs": 130.10000000149012,
+      "deltaMs": 15.00000000745058,
+      "pass": true
+    },
+    {
+      "key": "1440/variant-1/warm",
+      "baselineMedianMs": 29.699999999254942,
+      "candidateMedianMs": 29.200000002980232,
+      "thresholdMs": 129.69999999925494,
+      "deltaMs": -0.4999999962747097,
+      "pass": true
+    },
+    {
+      "key": "1440/variant-2/warm",
+      "baselineMedianMs": 30,
+      "candidateMedianMs": 28.5,
+      "thresholdMs": 130,
+      "deltaMs": -1.5,
+      "pass": true
+    },
+    {
+      "key": "1440/chest-mimic/warm",
+      "baselineMedianMs": 30,
+      "candidateMedianMs": 28.899999991059303,
+      "thresholdMs": 130,
+      "deltaMs": -1.1000000089406967,
+      "pass": true
+    },
+    {
+      "key": "1440/door-mimic/warm",
+      "baselineMedianMs": 30.09999999962747,
+      "candidateMedianMs": 29.200000002980232,
+      "thresholdMs": 130.09999999962747,
+      "deltaMs": -0.8999999966472387,
+      "pass": true
+    },
+    {
+      "key": "360/first-visit/cold",
+      "baselineMedianMs": 1032.2999999988824,
+      "candidateMedianMs": 1052.5,
+      "thresholdMs": 1135.5299999987706,
+      "deltaMs": 20.200000001117587,
+      "pass": true
+    },
+    {
+      "key": "360/resting-return/cold",
+      "baselineMedianMs": 23.699999999254942,
+      "candidateMedianMs": 39.20000000298023,
+      "thresholdMs": 123.69999999925494,
+      "deltaMs": 15.50000000372529,
+      "pass": true
+    },
+    {
+      "key": "360/title-to-dungeon/cold",
+      "baselineMedianMs": 1020.3000000007451,
+      "candidateMedianMs": 1018.4000000059605,
+      "thresholdMs": 1122.3300000008196,
+      "deltaMs": -1.8999999947845936,
+      "pass": true
+    },
+    {
+      "key": "360/normal/cold",
+      "baselineMedianMs": 28.299999998882413,
+      "candidateMedianMs": 43.3999999910593,
+      "thresholdMs": 128.2999999988824,
+      "deltaMs": 15.09999999217689,
+      "pass": true
+    },
+    {
+      "key": "360/special-boss/cold",
+      "baselineMedianMs": 28,
+      "candidateMedianMs": 43.8999999910593,
+      "thresholdMs": 128,
+      "deltaMs": 15.899999991059303,
+      "pass": true
+    },
+    {
+      "key": "360/largest-spider-dragon/cold",
+      "baselineMedianMs": 28.199999999254942,
+      "candidateMedianMs": 58.8999999910593,
+      "thresholdMs": 128.19999999925494,
+      "deltaMs": 30.69999999180436,
+      "pass": true
+    },
+    {
+      "key": "360/variant-1/cold",
+      "baselineMedianMs": 28.09999999962747,
+      "candidateMedianMs": 43.70000000298023,
+      "thresholdMs": 128.09999999962747,
+      "deltaMs": 15.600000003352761,
+      "pass": true
+    },
+    {
+      "key": "360/variant-2/cold",
+      "baselineMedianMs": 28,
+      "candidateMedianMs": 42.5,
+      "thresholdMs": 128,
+      "deltaMs": 14.5,
+      "pass": true
+    },
+    {
+      "key": "360/chest-mimic/cold",
+      "baselineMedianMs": 28.09999999962747,
+      "candidateMedianMs": 42.1000000089407,
+      "thresholdMs": 128.09999999962747,
+      "deltaMs": 14.000000009313226,
+      "pass": true
+    },
+    {
+      "key": "360/door-mimic/cold",
+      "baselineMedianMs": 28.09999999962747,
+      "candidateMedianMs": 43.6000000089407,
+      "thresholdMs": 128.09999999962747,
+      "deltaMs": 15.500000009313226,
+      "pass": true
+    },
+    {
+      "key": "360/resting-return/warm",
+      "baselineMedianMs": 14.299999998882413,
+      "candidateMedianMs": 24.899999991059303,
+      "thresholdMs": 114.29999999888241,
+      "deltaMs": 10.59999999217689,
+      "pass": true
+    },
+    {
+      "key": "360/title-to-dungeon/warm",
+      "baselineMedianMs": 1014,
+      "candidateMedianMs": 1007.5,
+      "thresholdMs": 1115.4,
+      "deltaMs": -6.5,
+      "pass": true
+    },
+    {
+      "key": "360/normal/warm",
+      "baselineMedianMs": 30.09999999962747,
+      "candidateMedianMs": 29.200000002980232,
+      "thresholdMs": 130.09999999962747,
+      "deltaMs": -0.8999999966472387,
+      "pass": true
+    },
+    {
+      "key": "360/special-boss/warm",
+      "baselineMedianMs": 29.90000000037253,
+      "candidateMedianMs": 45.5,
+      "thresholdMs": 129.90000000037253,
+      "deltaMs": 15.599999999627471,
+      "pass": true
+    },
+    {
+      "key": "360/largest-spider-dragon/warm",
+      "baselineMedianMs": 30,
+      "candidateMedianMs": 45.79999999701977,
+      "thresholdMs": 130,
+      "deltaMs": 15.799999997019768,
+      "pass": true
+    },
+    {
+      "key": "360/variant-1/warm",
+      "baselineMedianMs": 30.200000001117587,
+      "candidateMedianMs": 29,
+      "thresholdMs": 130.2000000011176,
+      "deltaMs": -1.200000001117587,
+      "pass": true
+    },
+    {
+      "key": "360/variant-2/warm",
+      "baselineMedianMs": 30.90000000037253,
+      "candidateMedianMs": 29,
+      "thresholdMs": 130.90000000037253,
+      "deltaMs": -1.900000000372529,
+      "pass": true
+    },
+    {
+      "key": "360/chest-mimic/warm",
+      "baselineMedianMs": 30.399999998509884,
+      "candidateMedianMs": 28.799999997019768,
+      "thresholdMs": 130.39999999850988,
+      "deltaMs": -1.6000000014901161,
+      "pass": true
+    },
+    {
+      "key": "360/door-mimic/warm",
+      "baselineMedianMs": 30,
+      "candidateMedianMs": 29.099999994039536,
+      "thresholdMs": 130,
+      "deltaMs": -0.9000000059604645,
+      "pass": true
+    }
+  ]
+}

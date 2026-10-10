@@ -1,0 +1,38 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/safe-render.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:35752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 9 tests using 3 workers
+
+(node:35755) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35753) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [chromium] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors (366ms)
+  ✓  1 [chromium] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert (397ms)
+  ✓  2 [chromium] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices (429ms)
+(node:35777) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35778) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35779) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [firefox] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors (836ms)
+(node:35802) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 [firefox] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert (1.0s)
+  ✓  6 [firefox] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices (1.1s)
+(node:35828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35839) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  7 [webkit] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert (732ms)
+  ✓  8 [webkit] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors (395ms)
+  ✓  9 [webkit] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices (429ms)
+
+  9 passed (5.1s)

@@ -1,0 +1,41 @@
+✔ setting and authoring guide agree on original world, surfaces and boundaries (1.59575ms)
+✔ 51 encounters and 52 active variants preserve all legacy image tuples and dimensions (1.020417ms)
+✔ roles and archetypes match frozen pools; unused art has no gameplay membership (0.812125ms)
+✔ mage variants are distinct and missing or mismatched variants fail (0.133334ms)
+✔ 14 relics retain rule relations and six rarities without numerical selection rules (0.296708ms)
+✔ 24 symbol roles cover all 111 measured context IDs and planned local paths (0.312834ms)
+✖ identity namespaces have unique stable IDs, aliases and distinct plain-text content (2.752458ms)
+✔ catalogs and lookup results are deeply immutable (0.397125ms)
+✔ unknown and hostile references return typed failures without coercion (0.248583ms)
+✔ fresh catalog imports and lookups consume no RNG, DOM, storage, audio or timers (31.63125ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 9
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104.268458
+
+✖ failing tests:
+
+test at tests/unit/catalogs.test.mjs:187:1
+✖ identity namespaces have unique stable IDs, aliases and distinct plain-text content (2.752458ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(text.length > 3)
+  
+      at TestContext.<anonymous> (file:///Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/unit/catalogs.test.mjs:209:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

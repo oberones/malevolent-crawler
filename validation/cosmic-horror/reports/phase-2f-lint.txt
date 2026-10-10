@@ -1,0 +1,2 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'eslint' playwright.config.mjs tests/helpers/performance-fixture.mjs tests/helpers/performance-report.mjs tests/unit/performance-harness.test.mjs tests/performance/load-and-art.spec.mjs

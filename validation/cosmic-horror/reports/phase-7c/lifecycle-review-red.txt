@@ -1,0 +1,80 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/lifecycle-audio.spec.mjs --grep old defeat|overlaps --project=chromium
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:99500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+(node:99502) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99501) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/integration/lifecycle-audio.spec.mjs:197:1 › repeated entry never overlaps background playback (372ms)
+  ✘  1 [chromium] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry (721ms)
+
+
+  1) [chromium] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 3
+    Received: 1
+
+      190 |       return dungeon.progress.floor;
+      191 |     });
+    > 192 |     expect(result).toBe(3);
+          |                    ^
+      193 |   } finally { await fixture.dispose(); }
+      194 | });
+      195 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/lifecycle-audio.spec.mjs:192:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-65081-ert-after-reset-and-reentry-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-lifecycle-audi-65081-ert-after-reset-and-reentry-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-65081-ert-after-reset-and-reentry-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-lifecycle-audi-65081-ert-after-reset-and-reentry-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/lifecycle-audio.spec.mjs:197:1 › repeated entry never overlaps background playback 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      216 |       return bgmDungeon.active;
+      217 |     });
+    > 218 |     expect(playing).toBe(1);
+          |                     ^
+      219 |   } finally { await fixture.dispose(); }
+      220 | });
+      221 |
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/lifecycle-audio.spec.mjs:218:21
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-c9dae-verlaps-background-playback-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-lifecycle-audi-c9dae-verlaps-background-playback-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-lifecycle-audi-c9dae-verlaps-background-playback-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-lifecycle-audi-c9dae-verlaps-background-playback-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/integration/lifecycle-audio.spec.mjs:176:1 › old defeat control is inert after reset and reentry 
+    [chromium] › tests/integration/lifecycle-audio.spec.mjs:197:1 › repeated entry never overlaps background playback 

@@ -1,0 +1,293 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/browser/relic-contexts.spec.mjs tests/browser/relic-accessibility.spec.mjs tests/browser/relics.spec.mjs tests/browser/narrative-integration.spec.mjs tests/integration/symbol-view.spec.mjs tests/integration/symbol-baseline-regression.spec.mjs tests/integration/measure-symbols.spec.mjs --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:13230) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 123 tests using 3 workers
+
+(node:13237) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13235) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    3 [chromium] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (2.8s)
+  ✓    1 [chromium] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (2.8s)
+  ✓    5 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (2.3s)
+  ✓    4 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (2.4s)
+  ✓    2 [chromium] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (5.5s)
+  ✓    6 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.9s)
+  ✓    7 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.9s)
+  ✓    8 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.6s)
+  ✓   11 [chromium] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (746ms)
+  ✓   10 [chromium] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (2.1s)
+  ✓    9 [chromium] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (2.2s)
+  ✓   12 [chromium] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.8s)
+  ✓   14 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (12.7s)
+  ✓   15 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (15.3s)
+  ✓   16 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (12.4s)
+  ✓   17 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (12.7s)
+  ✘   13 [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (30.1s)
+(node:14995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   20 [chromium] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (1.8s)
+  ✓   21 [chromium] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (1.3s)
+  ✓   18 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (12.2s)
+  ✓   22 [chromium] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.1s)
+  ✓   23 [chromium] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (686ms)
+  ✓   24 [chromium] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.7s)
+  ✓   25 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.8s)
+  ✓   19 [chromium] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (11.4s)
+  ✓   28 [chromium] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (198ms)
+  ✓   29 [chromium] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (142ms)
+  ✓   30 [chromium] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (87ms)
+  ✓   31 [chromium] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (103ms)
+  ✓   26 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.5s)
+  ✓   32 [chromium] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (87ms)
+  ✓   33 [chromium] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (103ms)
+  ✓   35 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (385ms)
+  ✓   36 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (285ms)
+  ✓   37 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (269ms)
+  ✓   27 [chromium] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (2.0s)
+  ✓   34 [chromium] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.3s)
+  ✓   38 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (283ms)
+  ✓   39 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (275ms)
+  ✓   41 [chromium] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (98ms)
+  ✓   40 [chromium] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (268ms)
+(node:15063) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15065) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   42 [firefox] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (3.5s)
+  ✓   44 [firefox] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (3.6s)
+  ✓   45 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.4s)
+  ✓   43 [firefox] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (5.4s)
+  ✓   46 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.6s)
+  ✓   47 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.6s)
+  ✓   48 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.4s)
+  ✓   49 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.4s)
+  ✓   50 [firefox] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.7s)
+  ✓   51 [firefox] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.3s)
+  ✓   52 [firefox] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (1.3s)
+  ✓   53 [firefox] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.8s)
+  ✓   55 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (22.9s)
+  ✓   56 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (25.5s)
+  ✘   54 [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (30.2s)
+(node:15275) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   57 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (30.7s)
+  ✓   58 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (31.4s)
+  ✓   61 [firefox] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (6.3s)
+  ✓   62 [firefox] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (3.9s)
+  ✓   59 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (33.5s)
+  ✓   64 [firefox] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (2.3s)
+  ✓   63 [firefox] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (3.2s)
+  ✓   65 [firefox] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (2.3s)
+  ✓   66 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (2.9s)
+  ✓   67 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (3.0s)
+  ✓   69 [firefox] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (563ms)
+  ✓   68 [firefox] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (3.2s)
+  ✓   70 [firefox] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (675ms)
+  ✓   71 [firefox] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (462ms)
+  ✓   72 [firefox] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (390ms)
+  ✓   73 [firefox] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (366ms)
+  ✓   74 [firefox] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (286ms)
+  ✓   75 [firefox] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.7s)
+  ✓   76 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (1.1s)
+  ✓   78 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (1.4s)
+  ✓   60 [firefox] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (28.0s)
+  ✓   79 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (474ms)
+  ✓   77 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (3.1s)
+  ✓   81 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (340ms)
+  ✓   82 [firefox] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (211ms)
+  ✓   80 [firefox] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (4.1s)
+(node:15564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15565) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   85 [webkit] › tests/browser/narrative-integration.spec.mjs:113:1 › relic labels agree across inventory details and sale confirmation (3.3s)
+  ✓   83 [webkit] › tests/browser/narrative-integration.spec.mjs:15:1 › current narrative keeps hostile names inert and records the last fifty events (3.3s)
+  ✓   86 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/1 (1.3s)
+  ✓   84 [webkit] › tests/browser/narrative-integration.spec.mjs:86:1 › allocation uses catalog skills without changing rule tokens (4.7s)
+  ✓   87 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 360/2 (1.4s)
+  ✓   88 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/1 (1.3s)
+  ✓   89 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 768/2 (1.3s)
+  ✓   90 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/1 (1.3s)
+  ✓   93 [webkit] › tests/browser/relic-accessibility.spec.mjs:176:1 › bulk confirmation rejects changed holdings and repeated actions (638ms)
+  ✓   91 [webkit] › tests/browser/relic-accessibility.spec.mjs:66:5 › item layout and labels 1440/2 (1.3s)
+  ✓   92 [webkit] › tests/browser/relic-accessibility.spec.mjs:145:1 › keyboard detail and sale focus returns without changing holdings (1.2s)
+  ✓   94 [webkit] › tests/browser/relic-accessibility.spec.mjs:211:1 › empty inventory and unmatched rarity disable bulk actions (1.2s)
+  ✓   96 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/1 (8.2s)
+  ✓   97 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 360/2 (8.9s)
+  ✓   98 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/1 (8.3s)
+  ✓   99 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 768/2 (8.9s)
+  ✓  100 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/1 (8.1s)
+  ✓  102 [webkit] › tests/browser/relics.spec.mjs:53:1 › 84 relic identities agree across reward, list, equipped, detail, confirmation and log (1.4s)
+  ✓  101 [webkit] › tests/browser/relic-contexts.spec.mjs:23:5 › live relic contexts 1440/2 (8.7s)
+  ✓  103 [webkit] › tests/browser/relics.spec.mjs:154:1 › duplicates, unequip-all, sale filters, cancellation and empty inventory (1.4s)
+  ✓  105 [webkit] › tests/browser/relics.spec.mjs:255:1 › stale and repeated sale callbacks preserve current holdings and gold (546ms)
+  ✓  104 [webkit] › tests/browser/relics.spec.mjs:221:1 › full loadout rejects the seventh relic with visible capacity feedback (1.1s)
+  ✓  106 [webkit] › tests/browser/relics.spec.mjs:318:1 › combat Claim preserves the already granted relic (1.1s)
+  ✓  107 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after death (1.0s)
+  ✓  108 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after abandon (1.1s)
+  ✓  110 [webkit] › tests/integration/measure-symbols.spec.mjs:14:1 › a flex-item symbol uses its own text baseline (253ms)
+  ✓  111 [webkit] › tests/integration/measure-symbols.spec.mjs:27:1 › transparent ancestors reject and duplicate context IDs reject (237ms)
+  ✓  109 [webkit] › tests/browser/relics.spec.mjs:375:3 › relic retention after new-run (1.3s)
+  ✓  112 [webkit] › tests/integration/measure-symbols.spec.mjs:47:1 › geometry, spacing, baseline and font metadata are measured without mutation (188ms)
+  ✓  113 [webkit] › tests/integration/measure-symbols.spec.mjs:65:1 › missing, ambiguous and hidden selectors reject (206ms)
+  ✓  114 [webkit] › tests/integration/measure-symbols.spec.mjs:83:1 › font readiness is awaited and a missing declared face rejects (181ms)
+  ✓  115 [webkit] › tests/integration/measure-symbols.spec.mjs:107:1 › baseline writes preserve existing bytes (174ms)
+  ✘   95 [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks (30.0s)
+  ✓  117 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 1 (357ms)
+(node:15877) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  118 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 1 (362ms)
+  ✓  116 [webkit] › tests/integration/symbol-baseline-regression.spec.mjs:10:1 › baseline probes read settled symbol and baseline coordinates together (1.0s)
+  ✓  120 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 768 / 2 (366ms)
+  ✓  119 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 360 / 2 (520ms)
+  ✓  121 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 1 (395ms)
+  ✓  122 [webkit] › tests/integration/symbol-view.spec.mjs:11:5 › relic symbol geometry 1440 / 2 (374ms)
+  ✓  123 [webkit] › tests/integration/symbol-view.spec.mjs:141:1 › symbol identity and alternatives are catalog owned (213ms)
+
+
+  1) [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Target page, context or browser has been closed
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:267:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: frame.evaluate: Test ended.
+    Browser logs:
+
+    <launching> /Users/oberon/Library/Caches/ms-playwright/firefox-1543/firefox/Nightly.app/Contents/MacOS/firefox -no-remote -headless -profile /var/folders/f5/rhvgpl9j7gn7znm94p8jdz080000gn/T/playwright_firefoxdev_profile-bPXxup -juggler-pipe -silent
+    <launched> pid=15067
+    [pid=15067][err] *** You are running in headless mode.
+    [pid=15067][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 125: unreachable code after return statement
+    [pid=15067][out] 
+    [pid=15067][out] Juggler listening to the pipe
+    [pid=15067][err] [WARN  rkv::backend::impl_safe::environment] `load_ratio()` is irrelevant for this storage backend.
+    [pid=15067][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false
+    [pid=15067][out] console.error: (new NotFoundError("Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump", "resource://services-settings/Attachments.sys.mjs", 48))
+    [pid=15067][out] console.warn: "Unable to find the attachment for" "fa0fc42c-d91d-fca7-34eb-806ff46062dc"
+    [pid=15067][err] JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+    [pid=15067][out] console.error: [Exception... "Favicon at "http://127.0.0.1:4173/assets/icon/favicon.ico" failed to load."  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 279"  data: no]
+    [pid=15067][out] console.error: services.settings: 
+    [pid=15067][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+    [pid=15067][out]   Stack:
+    [pid=15067][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+    [pid=15067][out] list@resource://services-settings/Database.sys.mjs:96:13
+    [pid=15067][out] 
+    [pid=15067][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+    [pid=15067][out] console.error: [Exception... "Favicon at "http://127.0.0.1:4173/assets/icon/favicon.ico" failed to load."  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 279"  data: no]
+    [pid=15067][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+    [pid=15067][out] console.error: [Exception... "Favicon at "http://127.0.0.1:4173/assets/icon/favicon.ico" failed to load."  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 279"  data: no]
+    [pid=15067][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+    [pid=15067][out] console.error: [Exception... "Favicon at "http://127.0.0.1:4173/assets/icon/favicon.ico" failed to load."  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 279"  data: no]
+    [pid=15067][out] console.error: services.settings: 
+    [pid=15067][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+    [pid=15067][out]   Stack:
+    [pid=15067][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+    [pid=15067][out] list@resource://services-settings/Database.sys.mjs:96:13
+    [pid=15067][out] 
+    [pid=15067][out] console.error: "Could not download new icon" (new ServerInfoError("Server response is invalid SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data", "resource://services-settings/Attachments.sys.mjs", 40))
+    [pid=15067] <gracefully close start>
+        at [pid=15067][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+        at [pid=15067][out] list@resource://services-settings/Database.sys.mjs:96:13
+        at [pid=15067][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+        at [pid=15067][out] list@resource://services-settings/Database.sys.mjs:96:13
+        at AxeBuilder.runPartialRecursive (/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/@axe-core/playwright/dist/index.mjs:283:34)
+        at AxeBuilder.analyze (/Users/oberon/Projects/coding/javascript/malevolent-crawler/node_modules/@axe-core/playwright/dist/index.mjs:210:28)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:260:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: browserContext.close: Test ended.
+    Browser logs:
+
+    <launching> /Users/oberon/Library/Caches/ms-playwright/webkit-2359/pw_run.sh --inspector-pipe --headless --no-startup-window
+    <launched> pid=15581
+    [pid=15581] <gracefully close start>
+
+       at helpers/browser-fixtures.mjs:26
+
+      24 |     if (!disposed) {
+      25 |       disposed = true;
+    > 26 |       await context.close();
+         |       ^
+      27 |     }
+      28 |   }
+      29 |   try {
+        at Object.dispose (/Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/helpers/browser-fixtures.mjs:26:7)
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/relic-accessibility.spec.mjs:267:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/browser-relic-accessibilit-1972f--meet-automated-WCAG-checks-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+    [firefox] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+    [webkit] › tests/browser/relic-accessibility.spec.mjs:247:1 › relic inventory, detail and sale meet automated WCAG checks 
+  120 passed (3.2m)

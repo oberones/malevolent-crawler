@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 1,
+  "fontPolicy": "Local RPGAwesome and Font Awesome required; external Rubik Vinyl/analytics blocked consistently. Text scaling doubles every computed font size while preserving viewport dimensions. Measurement-only CSS disables transitions/animations before sizing; test timers are frozen. Runtime source and styles remain unchanged.",
+  "contexts": [
+    {
+      "id": "sword/inventory",
+      "role": "Sword",
+      "stage": "inventory",
+      "category": "Sword",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "sword/equipped",
+      "role": "Sword",
+      "stage": "equipped",
+      "category": "Sword",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "sword/detail",
+      "role": "Sword",
+      "stage": "detail",
+      "category": "Sword",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "sword/sale",
+      "role": "Sword",
+      "stage": "sale",
+      "category": "Sword",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "sword/dungeon-reward",
+      "role": "Sword",
+      "stage": "dungeon-reward",
+      "category": "Sword",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "sword/combat-reward",
+      "role": "Sword",
+      "stage": "combat-reward",
+      "category": "Sword",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/inventory",
+      "role": "Axe",
+      "stage": "inventory",
+      "category": "Axe",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/equipped",
+      "role": "Axe",
+      "stage": "equipped",
+      "category": "Axe",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/detail",
+      "role": "Axe",
+      "stage": "detail",
+      "category": "Axe",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/sale",
+      "role": "Axe",
+      "stage": "sale",
+      "category": "Axe",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/dungeon-reward",
+      "role": "Axe",
+      "stage": "dungeon-reward",
+      "category": "Axe",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "axe/combat-reward",
+      "role": "Axe",
+      "stage": "combat-reward",
+      "category": "Axe",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/inventory",
+      "role": "Hammer",
+      "stage": "inventory",
+      "category": "Hammer",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/equipped",
+      "role": "Hammer",
+      "stage": "equipped",
+      "category": "Hammer",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/detail",
+      "role": "Hammer",
+      "stage": "detail",
+      "category": "Hammer",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/sale",
+      "role": "Hammer",
+      "stage": "sale",
+      "category": "Hammer",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/dungeon-reward",
+      "role": "Hammer",
+      "stage": "dungeon-reward",
+      "category": "Hammer",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "hammer/combat-reward",
+      "role": "Hammer",
+      "stage": "combat-reward",
+      "category": "Hammer",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/inventory",
+      "role": "Dagger",
+      "stage": "inventory",
+      "category": "Dagger",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/equipped",
+      "role": "Dagger",
+      "stage": "equipped",
+      "category": "Dagger",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/detail",
+      "role": "Dagger",
+      "stage": "detail",
+      "category": "Dagger",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/sale",
+      "role": "Dagger",
+      "stage": "sale",
+      "category": "Dagger",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/dungeon-reward",
+      "role": "Dagger",
+      "stage": "dungeon-reward",
+      "category": "Dagger",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "dagger/combat-reward",
+      "role": "Dagger",
+      "stage": "combat-reward",
+      "category": "Dagger",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/inventory",
+      "role": "Flail",
+      "stage": "inventory",
+      "category": "Flail",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/equipped",
+      "role": "Flail",
+      "stage": "equipped",
+      "category": "Flail",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/detail",
+      "role": "Flail",
+      "stage": "detail",
+      "category": "Flail",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/sale",
+      "role": "Flail",
+      "stage": "sale",
+      "category": "Flail",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/dungeon-reward",
+      "role": "Flail",
+      "stage": "dungeon-reward",
+      "category": "Flail",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "flail/combat-reward",
+      "role": "Flail",
+      "stage": "combat-reward",
+      "category": "Flail",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/inventory",
+      "role": "Scythe",
+      "stage": "inventory",
+      "category": "Scythe",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/equipped",
+      "role": "Scythe",
+      "stage": "equipped",
+      "category": "Scythe",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/detail",
+      "role": "Scythe",
+      "stage": "detail",
+      "category": "Scythe",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/sale",
+      "role": "Scythe",
+      "stage": "sale",
+      "category": "Scythe",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/dungeon-reward",
+      "role": "Scythe",
+      "stage": "dungeon-reward",
+      "category": "Scythe",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "scythe/combat-reward",
+      "role": "Scythe",
+      "stage": "combat-reward",
+      "category": "Scythe",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/inventory",
+      "role": "Plate",
+      "stage": "inventory",
+      "category": "Plate",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/equipped",
+      "role": "Plate",
+      "stage": "equipped",
+      "category": "Plate",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/detail",
+      "role": "Plate",
+      "stage": "detail",
+      "category": "Plate",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/sale",
+      "role": "Plate",
+      "stage": "sale",
+      "category": "Plate",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/dungeon-reward",
+      "role": "Plate",
+      "stage": "dungeon-reward",
+      "category": "Plate",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "plate/combat-reward",
+      "role": "Plate",
+      "stage": "combat-reward",
+      "category": "Plate",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/inventory",
+      "role": "Chain",
+      "stage": "inventory",
+      "category": "Chain",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/equipped",
+      "role": "Chain",
+      "stage": "equipped",
+      "category": "Chain",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/detail",
+      "role": "Chain",
+      "stage": "detail",
+      "category": "Chain",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/sale",
+      "role": "Chain",
+      "stage": "sale",
+      "category": "Chain",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/dungeon-reward",
+      "role": "Chain",
+      "stage": "dungeon-reward",
+      "category": "Chain",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "chain/combat-reward",
+      "role": "Chain",
+      "stage": "combat-reward",
+      "category": "Chain",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/inventory",
+      "role": "Leather",
+      "stage": "inventory",
+      "category": "Leather",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/equipped",
+      "role": "Leather",
+      "stage": "equipped",
+      "category": "Leather",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/detail",
+      "role": "Leather",
+      "stage": "detail",
+      "category": "Leather",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/sale",
+      "role": "Leather",
+      "stage": "sale",
+      "category": "Leather",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/dungeon-reward",
+      "role": "Leather",
+      "stage": "dungeon-reward",
+      "category": "Leather",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "leather/combat-reward",
+      "role": "Leather",
+      "stage": "combat-reward",
+      "category": "Leather",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/inventory",
+      "role": "Tower",
+      "stage": "inventory",
+      "category": "Tower",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/equipped",
+      "role": "Tower",
+      "stage": "equipped",
+      "category": "Tower",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/detail",
+      "role": "Tower",
+      "stage": "detail",
+      "category": "Tower",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/sale",
+      "role": "Tower",
+      "stage": "sale",
+      "category": "Tower",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/dungeon-reward",
+      "role": "Tower",
+      "stage": "dungeon-reward",
+      "category": "Tower",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "tower/combat-reward",
+      "role": "Tower",
+      "stage": "combat-reward",
+      "category": "Tower",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/inventory",
+      "role": "Kite",
+      "stage": "inventory",
+      "category": "Kite",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/equipped",
+      "role": "Kite",
+      "stage": "equipped",
+      "category": "Kite",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/detail",
+      "role": "Kite",
+      "stage": "detail",
+      "category": "Kite",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/sale",
+      "role": "Kite",
+      "stage": "sale",
+      "category": "Kite",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/dungeon-reward",
+      "role": "Kite",
+      "stage": "dungeon-reward",
+      "category": "Kite",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "kite/combat-reward",
+      "role": "Kite",
+      "stage": "combat-reward",
+      "category": "Kite",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/inventory",
+      "role": "Buckler",
+      "stage": "inventory",
+      "category": "Buckler",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/equipped",
+      "role": "Buckler",
+      "stage": "equipped",
+      "category": "Buckler",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/detail",
+      "role": "Buckler",
+      "stage": "detail",
+      "category": "Buckler",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/sale",
+      "role": "Buckler",
+      "stage": "sale",
+      "category": "Buckler",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/dungeon-reward",
+      "role": "Buckler",
+      "stage": "dungeon-reward",
+      "category": "Buckler",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "buckler/combat-reward",
+      "role": "Buckler",
+      "stage": "combat-reward",
+      "category": "Buckler",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/inventory",
+      "role": "Great Helm",
+      "stage": "inventory",
+      "category": "Great Helm",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/equipped",
+      "role": "Great Helm",
+      "stage": "equipped",
+      "category": "Great Helm",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/detail",
+      "role": "Great Helm",
+      "stage": "detail",
+      "category": "Great Helm",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/sale",
+      "role": "Great Helm",
+      "stage": "sale",
+      "category": "Great Helm",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/dungeon-reward",
+      "role": "Great Helm",
+      "stage": "dungeon-reward",
+      "category": "Great Helm",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "great-helm/combat-reward",
+      "role": "Great Helm",
+      "stage": "combat-reward",
+      "category": "Great Helm",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/inventory",
+      "role": "Horned Helm",
+      "stage": "inventory",
+      "category": "Horned Helm",
+      "selector": "#playerInventory .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/equipped",
+      "role": "Horned Helm",
+      "stage": "equipped",
+      "category": "Horned Helm",
+      "selector": "#playerEquipment .items:first-child i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/detail",
+      "role": "Horned Helm",
+      "stage": "detail",
+      "category": "Horned Helm",
+      "selector": "#equipmentInfo h3 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/sale",
+      "role": "Horned Helm",
+      "stage": "sale",
+      "category": "Horned Helm",
+      "selector": "#defaultModal .content p i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/dungeon-reward",
+      "role": "Horned Helm",
+      "stage": "dungeon-reward",
+      "category": "Horned Helm",
+      "selector": "#dungeonLog h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "horned-helm/combat-reward",
+      "role": "Horned Helm",
+      "stage": "combat-reward",
+      "category": "Horned Helm",
+      "selector": "#combatLogBox h4 i",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "health/main",
+      "role": "health",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .fa-heart",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "health/bonus",
+      "role": "health",
+      "stage": "bonus",
+      "selector": "#bonus-stats .fa-heart",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "health/allocation",
+      "role": "health",
+      "stage": "allocation",
+      "selector": "#allocate-stats .fa-heart",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "attack/main",
+      "role": "attack",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-sword",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "attack/bonus",
+      "role": "attack",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-sword",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "attack/allocation",
+      "role": "attack",
+      "stage": "allocation",
+      "selector": "#allocate-stats .ra-sword",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "defense/main",
+      "role": "defense",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-round-shield",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "defense/bonus",
+      "role": "defense",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-round-shield",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "defense/allocation",
+      "role": "defense",
+      "stage": "allocation",
+      "selector": "#allocate-stats .ra-round-shield",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "attack-speed/main",
+      "role": "attack-speed",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-plain-dagger",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "attack-speed/bonus",
+      "role": "attack-speed",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-plain-dagger",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "attack-speed/allocation",
+      "role": "attack-speed",
+      "stage": "allocation",
+      "selector": "#allocate-stats .ra-plain-dagger",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "vampirism/main",
+      "role": "vampirism",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-dripping-blade",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "vampirism/bonus",
+      "role": "vampirism",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-dripping-blade",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "critical-rate/main",
+      "role": "critical-rate",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-lightning-bolt",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "critical-rate/bonus",
+      "role": "critical-rate",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-lightning-bolt",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "critical-damage/main",
+      "role": "critical-damage",
+      "stage": "main",
+      "selector": ".stat-panel .box:first-child .ra-focused-lightning",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "critical-damage/bonus",
+      "role": "critical-damage",
+      "stage": "bonus",
+      "selector": "#bonus-stats .ra-focused-lightning",
+      "requiredFont": "16px RPGAwesome"
+    },
+    {
+      "id": "title/title",
+      "role": "title",
+      "stage": "title",
+      "selector": "#title-screen .fa-dungeon",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "treasure/treasure",
+      "role": "treasure",
+      "stage": "treasure",
+      "selector": "#dungeonLog .fa-toolbox",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "treasure/chamber",
+      "role": "treasure",
+      "stage": "chamber",
+      "selector": "#dungeonLog .fa-toolbox",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/header",
+      "role": "currency",
+      "stage": "header",
+      "selector": "#player-gold .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/gold",
+      "role": "currency",
+      "stage": "gold",
+      "selector": "#dungeonLog .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/victory",
+      "role": "currency",
+      "stage": "victory",
+      "selector": "#combatLogBox .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/blessing",
+      "role": "currency",
+      "stage": "blessing",
+      "selector": "#dungeonLog .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/curse",
+      "role": "currency",
+      "stage": "curse",
+      "selector": "#dungeonLog .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    },
+    {
+      "id": "currency/sale-control",
+      "role": "currency",
+      "stage": "sale-control",
+      "selector": "#sell-equip .fa-coins",
+      "requiredFont": "900 16px \"Font Awesome 6 Free\""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'eslint' tests/helpers tests/unit tests/integration

@@ -1,0 +1,141 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/dialog-service.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:36145) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:36146) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/dialog-service.spec.mjs:24:1 › initial focus, accessible name, background blocking, tab wrap and Escape return (5.2s)
+(node:36189) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/integration/dialog-service.spec.mjs:36:1 › repeated open/close restores attributes and removes ownership (5.2s)
+(node:36196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/integration/dialog-service.spec.mjs:45:1 › explicit dismissal policy and disposal restore the page without confirmation (5.1s)
+
+
+  1) [chromium] › tests/integration/dialog-service.spec.mjs:24:1 › initial focus, accessible name, background blocking, tab wrap and Escape return 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('#cancel')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" locator('#cancel') with timeout 5000ms
+      - waiting for locator('#cancel')
+        14 × locator resolved to <button id="cancel" type="button">Cancel</button>
+           - unexpected value "inactive"
+
+
+      23 | // Keyboard focus stays within the modal and Escape performs cancellation only.
+      24 | test('initial focus, accessible name, background blocking, tab wrap and Escape return',async({page})=>{
+    > 25 |   await page.locator('#invoke').click(); await expect(page.locator('#cancel')).toBeFocused();
+         |                                                                                ^
+      26 |   await expect(page.getByRole('dialog',{name:'Replace character?'})).toBeVisible();
+      27 |   expect(await page.locator('#background').evaluate(node=>node.inert)).toBe(true);
+      28 |   await page.keyboard.press('Shift+Tab'); await expect(page.locator('#confirm')).toBeFocused();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/dialog-service.spec.mjs:25:80
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-1e0c9--tab-wrap-and-Escape-return-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-dialog-service-1e0c9--tab-wrap-and-Escape-return-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-1e0c9--tab-wrap-and-Escape-return-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-dialog-service-1e0c9--tab-wrap-and-Escape-return-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/dialog-service.spec.mjs:36:1 › repeated open/close restores attributes and removes ownership 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('#modal')
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('#modal') with timeout 5000ms
+      - waiting for locator('#modal')
+        14 × locator resolved to <div hidden="" id="modal">…</div>
+           - unexpected value "hidden"
+
+
+      36 | test('repeated open/close restores attributes and removes ownership',async({page})=>{
+      37 |   for(let i=0;i<3;i++){
+    > 38 |     await page.locator('#invoke').click(); await expect(page.locator('#modal')).toBeVisible();
+         |                                                                                 ^
+      39 |     await page.evaluate(()=>{window.closeDialog();window.closeDialog();}); await expect(page.locator('#invoke')).toBeFocused();
+      40 |   }
+      41 |   await page.keyboard.press('Escape');
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/dialog-service.spec.mjs:38:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-5dc5c-butes-and-removes-ownership-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-dialog-service-5dc5c-butes-and-removes-ownership-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-5dc5c-butes-and-removes-ownership-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-dialog-service-5dc5c-butes-and-removes-ownership-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/dialog-service.spec.mjs:45:1 › explicit dismissal policy and disposal restore the page without confirmation 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('#heading')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" locator('#heading') with timeout 5000ms
+      - waiting for locator('#heading')
+        14 × locator resolved to <h2 id="heading" tabindex="-1">Replace character?</h2>
+           - unexpected value "inactive"
+
+
+      45 | test('explicit dismissal policy and disposal restore the page without confirmation',async({page})=>{
+      46 |   await page.evaluate(()=>{document.querySelector('#invoke').focus();window.closeDialog=window.dialogs.open(document.querySelector('#modal'),{labelledBy:'heading',dismissible:false});});
+    > 47 |   await expect(page.locator('#heading')).toBeFocused(); await page.keyboard.press('Escape'); await expect(page.locator('#modal')).toBeVisible();
+         |                                          ^
+      48 |   await page.evaluate(()=>{document.querySelector('#invoke').remove();window.dialogs.dispose();window.dialogs.dispose();});
+      49 |   await expect(page.locator('#modal')).toBeHidden(); expect(await page.locator('#background').evaluate(node=>node.inert)).toBe(false);
+      50 |   expect(await page.evaluate(()=>window.confirms)).toBe(0);
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/dialog-service.spec.mjs:47:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-37a0d-e-page-without-confirmation-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-dialog-service-37a0d-e-page-without-confirmation-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-dialog-service-37a0d-e-page-without-confirmation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-dialog-service-37a0d-e-page-without-confirmation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium] › tests/integration/dialog-service.spec.mjs:24:1 › initial focus, accessible name, background blocking, tab wrap and Escape return 
+    [chromium] › tests/integration/dialog-service.spec.mjs:36:1 › repeated open/close restores attributes and removes ownership 
+    [chromium] › tests/integration/dialog-service.spec.mjs:45:1 › explicit dismissal policy and disposal restore the page without confirmation 

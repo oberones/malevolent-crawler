@@ -1,0 +1,139 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test tests/integration/safe-render.spec.mjs --project=chromium --workers=1
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:35608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:35609) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert (311ms)
+(node:35619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors (103ms)
+(node:35627) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices (124ms)
+
+
+  1) [chromium] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert 
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "<img src=x onerror="
+    Received string:    ""
+
+      16 |     return {text:document.querySelector('#output').textContent,executed:window.executed};
+      17 |   });
+    > 18 |   expect(data.text).toContain('<img src=x onerror='); expect(data.executed).toBe(false);
+         |                     ^
+      19 |   await expect(page.locator('#output strong')).toHaveText('Name');
+      20 |   await expect(page.locator('#output .Rare')).toHaveText('Rare');
+      21 |   await expect(page.locator('#output img')).toHaveCount(2);
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/safe-render.spec.mjs:18:21
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-safe-render-te-1c2fb-catalog-assets-remain-inert-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-safe-render-te-1c2fb-catalog-assets-remain-inert-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-safe-render-te-1c2fb-catalog-assets-remain-inert-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-safe-render-te-1c2fb-catalog-assets-remain-inert-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 6
+    + Received  + 6
+
+      Array [
+    -   true,
+    -   true,
+    -   true,
+    -   true,
+    -   true,
+    -   true,
+    +   false,
+    +   false,
+    +   false,
+    +   false,
+    +   false,
+    +   false,
+      ]
+
+      31 |       part => { try {r.renderParts([part]);return false;} catch {return true;} });
+      32 |   });
+    > 33 |   expect(rejected).toEqual(Array(6).fill(true));
+         |                    ^
+      34 | });
+      35 | // Registered schemas validate each primitive/reference/item before trusted template execution.
+      36 | test('typed messages and unknown-history recovery notices',async ({page}) => {
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/safe-render.spec.mjs:33:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-safe-render-re-34013-matched-catalog-descriptors-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-safe-render-re-34013-matched-catalog-descriptors-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-safe-render-re-34013-matched-catalog-descriptors-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-safe-render-re-34013-matched-catalog-descriptors-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+    @@ -8,7 +8,7 @@
+          false,
+          false,
+          false,
+        ],
+        "unknown": false,
+    -   "valid": true,
+    +   "valid": false,
+      }
+
+      55 |     return {valid,failures,unknown:validateMessage({id:'unknown',params:{}},schemas).ok,extra:validateMessage({...record,params:{...record.params,html:'bad'}},schemas).ok};
+      56 |   });
+    > 57 |   expect(result).toEqual({valid:true,failures:Array(7).fill(false),unknown:false,extra:false});
+         |                  ^
+      58 |   await expect(page.locator('#output svg')).toHaveCount(0);
+      59 |   await expect(page.locator('#output')).toContainText('Some history is unavailable');
+      60 |   await page.getByRole('button',{name:'Recover history'}).click();
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/integration/safe-render.spec.mjs:57:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/integration-safe-render-ty-d9720-wn-history-recovery-notices-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/integration-safe-render-ty-d9720-wn-history-recovery-notices-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/integration-safe-render-ty-d9720-wn-history-recovery-notices-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/integration-safe-render-ty-d9720-wn-history-recovery-notices-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium] › tests/integration/safe-render.spec.mjs:6:1 › text, structured nodes and catalog assets remain inert 
+    [chromium] › tests/integration/safe-render.spec.mjs:25:1 › rejects arbitrary DOM and mismatched catalog descriptors 
+    [chromium] › tests/integration/safe-render.spec.mjs:36:1 › typed messages and unknown-history recovery notices 

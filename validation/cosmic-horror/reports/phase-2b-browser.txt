@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 test:browser
+npm notice run playwright test tests/browser --workers=3
+[WebServer] npm notice run malevolent-crawler@0.0.0 dev
+[WebServer] npm notice run http-server . -a 127.0.0.1 -p 4173 -c-1 --silent
+[WebServer] (node:21991) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 3 workers
+
+(node:21996) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21994) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (308ms)
+  ✓   4 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (136ms)
+  ✓   2 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (1.5s)
+  ✓   1 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.5s)
+  ✓   6 [chromium] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (156ms)
+(node:22066) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.4s)
+(node:22067) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22071) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (918ms)
+  ✓  10 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (238ms)
+  ✓   7 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (2.1s)
+  ✓  12 [firefox] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (242ms)
+(node:22163) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (2.1s)
+  ✓  11 [firefox] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.5s)
+(node:22176) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22180) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 360x800 › supports the declared input fixture (473ms)
+  ✓  16 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 768x1024 › supports the declared input fixture (240ms)
+  ✓  13 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 360x800 › loads character creation and a native module (2.1s)
+  ✓  18 [webkit] › tests/browser/setup-smoke.spec.mjs:56:5 › 1440x900 › supports the declared input fixture (314ms)
+  ✓  15 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 768x1024 › loads character creation and a native module (1.7s)
+  ✓  17 [webkit] › tests/browser/setup-smoke.spec.mjs:24:5 › 1440x900 › loads character creation and a native module (1.6s)
+
+  18 passed (9.3s)

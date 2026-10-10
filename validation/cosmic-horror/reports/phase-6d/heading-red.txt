@@ -1,0 +1,47 @@
+npm notice run malevolent-crawler@0.0.0 npx
+npm notice run 'playwright' test -c /tmp/phase6d-playwright.config.mjs tests/browser/collection-reflow.spec.mjs --project=chromium --grep=allocation --output=/tmp/phase6d-heading-red
+
+Running 1 test using 1 worker
+
+(node:56552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text (514ms)
+
+
+  1) [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "split heading word: Preparation",
+    + ]
+
+      84 |         screen,
+      85 |       );
+    > 86 |       expect(failures).toEqual([]);
+         |                        ^
+      87 |     } finally {
+      88 |       await f.dispose();
+      89 |     }
+        at /Users/oberon/Projects/coding/javascript/malevolent-crawler/tests/browser/collection-reflow.spec.mjs:86:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-heading-red/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/phase6d-heading-red/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/phase6d-heading-red/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/phase6d-heading-red/browser-collection-reflow--7d00f-dable-at-360px-and-200-text-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/collection-reflow.spec.mjs:13:3 › collection allocation readable at 360px and 200% text 

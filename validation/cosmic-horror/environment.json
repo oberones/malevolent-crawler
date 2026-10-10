@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-06T04:39:40.780594+00:00",
+  "owner": "T001/T004 implementation agent",
+  "sourceRevision": "a377a9f9fd17abcf9ffdedaa760b5b4a77ba600d",
+  "baselineRevision": "3cfaf54babae978c7388c023f5df5ebe6282259b",
+  "os": {
+    "name": "macOS",
+    "version": "26.6.2",
+    "build": "25G83",
+    "arch": "arm64"
+  },
+  "hardware": {
+    "model": "MacBook Pro",
+    "modelIdentifier": "Mac14,9",
+    "chip": "Apple M2 Pro",
+    "cpuCores": 12,
+    "memoryGiB": 16,
+    "gpuCores": 19,
+    "physicalDisplayDpr": null,
+    "physicalDisplayStatus": "BLOCKED: native display/DPR not measured"
+  },
+  "toolchain": {
+    "manager": "nvm",
+    "node": "24.21.0",
+    "npm": "12.2.0",
+    "previousDefault": "20 -> v20.20.2",
+    "defaultChanged": false,
+    "selection": "nvm use",
+    "install": "nvm install 24.21.0; npm install --global npm@12.2.0 --ignore-scripts (inside new nvm version)",
+    "nodeChecksumVerified": true
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "textScales": [1, 2],
+  "fontPolicy": {
+    "functionalSetup": "External Google fonts/analytics aborted; local fonts/fallback remain. No glyph baseline captured.",
+    "baseline": "T019 must await and verify intended font; T041 uses identical recorded external-resource transform with no request routing."
+  },
+  "automatedBrowsers": [
+    {
+      "name": "chromium",
+      "version": "153.0.8010.12",
+      "executable": "/Users/oberon/Library/Caches/ms-playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+      "revision": "1243",
+      "availability": "PASS",
+      "qualification": "OPEN",
+      "dpr": 1,
+      "dprKind": "emulated",
+      "inputs": ["keyboard", "pointer", "emulated touch"],
+      "evidence": "reports/browser.json"
+    },
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "executable": "/Users/oberon/Library/Caches/ms-playwright/firefox-1543/firefox/Nightly.app/Contents/MacOS/firefox",
+      "revision": "1543",
+      "availability": "PASS",
+      "qualification": "OPEN",
+      "dpr": 1,
+      "dprKind": "emulated",
+      "inputs": ["keyboard", "pointer"],
+      "evidence": "reports/browser.json"
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "executable": "/Users/oberon/Library/Caches/ms-playwright/webkit-2359/pw_run.sh",
+      "revision": "2359",
+      "availability": "PASS",
+      "qualification": "OPEN",
+      "dpr": 1,
+      "dprKind": "emulated",
+      "inputs": ["keyboard", "pointer", "emulated touch"],
+      "evidence": "reports/browser.json"
+    }
+  ],
+  "nativeTargets": [
+    {
+      "id": "chrome-desktop",
+      "name": "Native Chrome",
+      "plannedVersion": "154.0.8037.98",
+      "version": null,
+      "build": null,
+      "availability": "BLOCKED",
+      "reason": "Google Chrome.app not observed in /Applications; Chrome for Testing is separate.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["keyboard", "pointer"],
+      "qualification": "BLOCKED",
+      "evidence": null
+    },
+    {
+      "id": "firefox-desktop",
+      "name": "Native Firefox",
+      "plannedVersion": "157.0",
+      "version": "157.0",
+      "build": "15726.9.24",
+      "availability": "OPEN",
+      "reason": "Installed app metadata read; native interaction not performed.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["keyboard", "pointer"],
+      "qualification": "OPEN",
+      "evidence": null
+    },
+    {
+      "id": "safari-desktop",
+      "name": "Native Safari",
+      "plannedVersion": "26.6.2",
+      "version": "26.6.2",
+      "build": "21624.5.1.11.3",
+      "availability": "OPEN",
+      "reason": "Installed app metadata read; native interaction not performed.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["keyboard", "pointer"],
+      "qualification": "OPEN",
+      "evidence": null
+    },
+    {
+      "id": "chrome-android",
+      "name": "Android Chrome",
+      "plannedVersion": "154.0.8037.126 / Android 17 / Pixel 8",
+      "version": null,
+      "build": null,
+      "availability": "BLOCKED",
+      "reason": "Physical device and exact build not established.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["physical touch", "portrait", "landscape"],
+      "qualification": "BLOCKED",
+      "evidence": null
+    },
+    {
+      "id": "firefox-android",
+      "name": "Android Firefox",
+      "plannedVersion": "157.0 / Android 17 / Pixel 8",
+      "version": null,
+      "build": null,
+      "availability": "BLOCKED",
+      "reason": "Physical device and exact build not established.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["physical touch", "portrait", "landscape"],
+      "qualification": "BLOCKED",
+      "evidence": null
+    },
+    {
+      "id": "safari-iphone",
+      "name": "iPhone Safari",
+      "plannedVersion": "26.6 family / iOS 26.6.2 / iPhone 15",
+      "version": null,
+      "build": null,
+      "availability": "BLOCKED",
+      "reason": "Physical device and exact engine/build not established.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["physical touch", "portrait", "landscape"],
+      "qualification": "BLOCKED",
+      "evidence": null
+    },
+    {
+      "id": "safari-ipad",
+      "name": "iPad Safari",
+      "plannedVersion": "26.6 family / iPadOS 26.6.2 / iPad Air M2",
+      "version": null,
+      "build": null,
+      "availability": "BLOCKED",
+      "reason": "Physical device and exact engine/build not established.",
+      "dpr": null,
+      "actualViewport": null,
+      "physicalInputsVerified": [],
+      "requiredInputs": ["physical touch", "portrait", "landscape"],
+      "qualification": "BLOCKED",
+      "evidence": null
+    }
+  ],
+  "ci": {
+    "image": "mcr.microsoft.com/playwright:v1.63.0-noble@sha256:eff16c30e6f3f4af0a03fa4b706120d5e9b0891c344a27d64559aff5900a4a27",
+    "plannedOs": "Ubuntu 24.04",
+    "actualOs": null,
+    "execution": "OPEN: workflow not run remotely",
+    "digestEvidence": "reports/container-headers.txt"
+  },
+  "drift": "Selected toolchain and engine versions match the plan. Native DPR/input and physical device builds remain unverified; no baseline/candidate comparison is authorized on mismatched or unknown targets."
+}
