@@ -47,6 +47,10 @@
 
 ## 6. Generate masters, then package exact-size assets
 
+This section records the completed art-production decision. Sharp and the one-time
+image preparation tooling were retired on 2026-10-08; they are not part of current
+dependency installation. Existing provenance remains historical.
+
 **Decision**: During implementation use the installed imagegen skill and built-in image generation, with one request per distinct illustration/variant, original concepts, transparent backgrounds, and the agreed grotesque-horror boundary. Preserve masters and generation records. Use pinned, dev-only Sharp for proportional contain/padding to the baseline canvas. Use a small tested ICO packer for the one 127 × 128 entry; derive it and the 199 × 200 PNG from one new favicon master.
 
 **Rationale**: The generator does not guarantee the 53 irregular sprite dimensions. Deterministic preparation of generated masters is needed; stretching and cropping defining anatomy are forbidden. PNG alpha must survive processing. The original ICO has one 32-bit DIB entry; a PNG-backed ICO can preserve its exact directory and decoded dimensions. File hashes establish traceability, not originality.
@@ -63,7 +67,7 @@
 
 ## 8. Minimal development tooling, no production build
 
-**Decision**: Use Node.js 24.21.0 LTS and npm 12.2.0 as the planned reproducible toolchain. Unit tests use built-in `node:test` with controlled dependencies and `.mjs` fixtures. Playwright covers real-DOM integration and browser journeys; axe adds automated accessibility checks. ESLint/Prettier provide repeatable lint/format gates. Sharp handles development-only asset preparation; http-server serves the static app. Exact pins and commands are in [quickstart](quickstart.md).
+**Decision (updated 2026-10-24)**: Use Node.js 24.22.1 LTS and npm 12.2.1 as the reproducible toolchain. Unit tests use built-in `node:test` with controlled dependencies and `.mjs` fixtures. Playwright covers real-DOM integration and browser journeys; axe adds automated accessibility checks. ESLint/Prettier provide repeatable lint/format gates; http-server serves the static app. Sharp is no longer installed. Howler 2.2.4 is the sole runtime dependency, with its matching official distribution shipped locally. Exact pins and commands are in [quickstart](quickstart.md).
 
 **Rationale**: Local observation found Node 20.20.2/npm 10.8.2, no `node_modules`, no scripts, and only Howler 2.2.3 in lockfile v2. This local runtime is not the selected implementation toolchain. No transpilation or production bundle is required. New packages are dev dependencies and add zero runtime payload; retain the existing vendored Howler/audio behavior. Review the lockfile, licenses, advisories, and transitive/native packages during tooling setup before adoption; version availability alone is not a security pass.
 
@@ -71,11 +75,11 @@
 
 ## 9. Browser targets and reproducible acceptance
 
-**Decision**: Pin automated browser revisions to Playwright 1.63.0. Test Chromium, Firefox, and WebKit at 360 × 800, 768 × 1024, and 1440 × 900 with keyboard/pointer and touch configurations. Separately require real desktop Chrome/Firefox/Safari and physical Android Chrome/iOS Safari acceptance. The exact planned matrix and evidence rules are in [validation plan](validation-plan.md).
+**Decision (updated 2026-10-24)**: Pin automated browser revisions to Playwright 1.64.1. Test Chromium, Firefox, and WebKit at 360 × 800, 768 × 1024, and 1440 × 900 with keyboard/pointer and touch configurations. Separately require real desktop Chrome/Firefox/Safari and physical Android Chrome/iOS Safari acceptance. Preserve earlier environment and fixture evidence; the exact current automated matrix and evidence rules are in [validation plan](validation-plan.md).
 
 **Rationale**: Playwright's WebKit is not the Safari product, and device emulation does not certify physical touch. macOS 26.6.2, Firefox 157.0, and Safari 26.6.2 were observed locally; Google Chrome and physical mobile devices were not established. Existing cached Playwright revisions do not match the selected pin. Missing required execution targets stay BLOCKED until supplied; this is an execution availability issue, not an unanswered design choice.
 
-**Alternatives considered**: Calling WebKit coverage Safari acceptance, testing only the development browser, or claiming screenshots prove keyboard usability. All conflict with the spec. Sources: [pinned Playwright browser manifest](https://raw.githubusercontent.com/microsoft/playwright/v1.63.0/packages/playwright-core/browsers.json), [Chrome stable releases](https://chromereleases.googleblog.com/2026/10/?amp=1), [Apple Safari releases](https://developer.apple.com/documentation/safari-release-notes), and [Android 17 release](https://developer.android.com/blog/posts/android-17-is-here).
+**Alternatives considered**: Calling WebKit coverage Safari acceptance, testing only the development browser, or claiming screenshots prove keyboard usability. All conflict with the spec. Sources: [pinned Playwright browser manifest](https://raw.githubusercontent.com/microsoft/playwright/v1.64.1/packages/playwright-core/browsers.json), [Chrome stable releases](https://chromereleases.googleblog.com/2026/10/?amp=1), [Apple Safari releases](https://developer.apple.com/documentation/safari-release-notes), and [Android 17 release](https://developer.android.com/blog/posts/android-17-is-here).
 
 ## 10. Performance and external resources
 

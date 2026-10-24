@@ -17,11 +17,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 24.21.0
+          node-version: 24.22.1
           cache: npm
       - name: Select npm and install dependencies
         run: |
-          npm install --global npm@12.2.0 --ignore-scripts
+          npm install --global npm@12.2.1 --ignore-scripts
           npm ci
       - name: Validate recorded release evidence
         run: |

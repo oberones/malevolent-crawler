@@ -39,13 +39,13 @@ Use the active [implementation plan](specs/001-cosmic-horror-refactor/plan.md) a
 
 ### Setup
 
-Use Node **24.21.0** and npm **12.2.0**. With nvm:
+Use Node **24.22.1** and npm **12.2.1**. With nvm:
 
 ```sh
 nvm install
 nvm use
 # Only if this selected nvm version has a different npm:
-npm install --global npm@12.2.0 --ignore-scripts
+npm install --global npm@12.2.1 --ignore-scripts
 node --version
 npm --version
 npm ci
@@ -56,9 +56,10 @@ npm run dev
 Open `http://127.0.0.1:4173`. Serve `.mjs` as JavaScript over HTTP(S); opening
 `index.html` through `file://` is unsupported for module loading. The dev server
 binds only to loopback. There is no production build: **build N/A**.
-The project disables dependency lifecycle scripts; Sharp and browser tooling were
-verified without enabling arbitrary install hooks. Do not change the default nvm
-alias or system Node to select this project runtime.
+The project disables dependency lifecycle scripts. Install the matching Playwright
+engines explicitly as shown above. Sharp was retired with the one-time art tooling
+and is no longer an installed dependency. Do not change the default nvm alias or
+system Node to select this project runtime.
 
 ### Makefile shortcuts
 
@@ -110,6 +111,8 @@ npm audit --audit-level=high
 ```
 
 PR CI runs these six checks to detect code regressions and dependency issues.
+The [dependency refresh record](validation/dependency-update-2026-10-24.md)
+documents the current pins, package review and local verification results.
 Accepted artwork and refactor qualification are not repeatedly approved by CI.
 The optional **Release evidence (manual)** workflow, or `npm run validate:evidence`
 locally, checks historical qualification records on demand and is not a PR gate.
@@ -160,5 +163,5 @@ been replaced. Retained audio credits:
 - [Leviathan_Music](https://soundcloud.com/leviathan254) — Battle music
 - [Sara Garrard](https://sonatina.itch.io/letsadventure) — Dungeon music
 
-Howler 2.2.3 remains the audio library. Retained text fonts, generic Font Awesome
+Howler 2.2.4 remains the audio library. Retained text fonts, generic Font Awesome
 controls, library assets and their license notices remain in their distributed files.

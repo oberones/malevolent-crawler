@@ -25,7 +25,7 @@ help: ## Show targets and configurable options (default)
 	  'ARGS applies to individual browser/performance, lint and formatting targets.' \
 	  'Example: make test-browser ARGS="--project=chromium --workers=1"' \
 	  'Performance requires the prepared server and environment in the quickstart.' \
-	  'Select Node 24.21.0 / npm 12.2.0 first; setup does not change your runtime.'
+	  'Select Node 24.22.1 / npm 12.2.1 first; setup does not change your runtime.'
 
 setup: install browsers ## Install locked dependencies, then Playwright browsers
 
