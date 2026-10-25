@@ -54,8 +54,8 @@ test-integration: ## Run Playwright integration tests (optional ARGS)
 test-browser: ## Run Playwright player-journey tests (optional ARGS)
 	$(NPM) run test:browser $(if $(strip $(ARGS)),-- $(ARGS))
 
-# Keep optional historical evidence and performance checks outside routine CI.
-check: lint format-check test audit ## Run the six required CI checks; stop on failure
+# Keep optional historical evidence and performance checks outside local validation.
+check: lint format-check test audit ## Run all six local checks; stop on failure
 
 ci: check ## Alias for check; install dependencies/browsers separately
 

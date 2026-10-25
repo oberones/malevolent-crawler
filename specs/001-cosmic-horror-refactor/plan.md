@@ -9,15 +9,39 @@
 > update below moves historical qualification to on-demand review.
 > See [review cleanup](../../validation/cosmic-horror/review-cleanup.md).
 
-## Ongoing CI scope — 2026-10-08
+## Ongoing CI scope — 2026-10-24
 
 The maintainer approved code-regression-focused CI after accepting the refactor
-and artwork. Required PR jobs are unit, integration, browser, lint, format and
-audit. Historical manual/native/release evidence is checked only on demand through
+and artwork. Required hosted validation jobs are unit, browser, lint, format and
+audit. On 2026-10-24 the maintainer explicitly requested skipping the browser-based
+integration suite in GitHub workflows after continued Firefox/WebKit audio
+failures. The integration matrix entry and its PulseAudio setup are removed from
+`validate.yml`, including its release-tag callers. Local `npm run test:integration`
+and all six `make check` commands remain available. The separate browser journey
+and container smoke checks remain hosted gates.
+
+This is a maintainer-approved exception to principle VI's hosted integration
+coverage. **Owner:** repository maintainer. **Scope:** `tests/integration/` in all
+GitHub workflow invocations. **Rationale:** repeated hosted audio failures block
+delivery. **Risk:** DOM/storage/audio boundary regressions may escape hosted
+checks. **Compensating checks:** local integration validation, hosted unit and
+browser journey tests, container smoke checks, lint, formatting and audit.
+**Removal condition:** the maintainer restores the integration gate after the
+suite is demonstrated reliable on the hosted runner. Omission is not a passing
+integration result, and no application or test assertion is disabled.
+
+Historical manual/native/release evidence is checked only on demand through
 `release-evidence.yml` or `npm run validate:evidence`, with its strict validator
-and recorded statuses preserved. This supersedes earlier seven-job requirements
+and recorded statuses preserved. This supersedes earlier six- and seven-job requirements
 in this plan, tasks and qualification records. It does not record unperformed
 checks as passed or change gameplay, saves, assets or test assertions.
+
+Scope verification: a parsed-YAML assertion requiring `unit`, `browser`, `lint`,
+`format` and `audit` failed before the edit because `integration` was present,
+then passed after its removal. `npm run test:unit` passed all 2,425 tests,
+including local Makefile command coverage; `npm run lint` passed. actionlint
+1.7.12 validated all three workflows with ShellCheck disabled. These are local
+checks of the workflow edit, not a hosted execution result.
 
 **Branch**: `001-cosmic-horror-refactor` | **Date**: 2026-10-05 | **Spec**: [spec.md](spec.md)
 **Input**: `specs/001-cosmic-horror-refactor/spec.md`
@@ -154,7 +178,7 @@ Content catalog authoring and master generation may proceed independently after 
 
 ## Complexity Tracking
 
-No constitution violations or exceptions. The single explicit legacy bridge avoids a broad conversion and is covered by characterization and initialization tests. Versioned local snapshots are justified by four-key consistency failures; no database or server is added.
+The hosted integration exception is recorded under Ongoing CI scope above. The single explicit legacy bridge avoids a broad conversion and is covered by characterization and initialization tests. Versioned local snapshots are justified by four-key consistency failures; no database or server is added.
 
 ## Production container maintenance — 2026-10-24
 
@@ -192,10 +216,10 @@ Implementation/verification order:
 4. Build and smoke-test both architectures independently; the test harness uses
    isolated external networks, ephemeral loopback ports, image overrides and
    cleanup traps around the actual production Compose file.
-5. Make the existing six-check workflow reusable with `workflow_call`, preserving
+5. Make the validation workflow reusable with `workflow_call`, preserving
    original triggers and manual `release-evidence.yml`. Verify tags strictly
    match Commitizen's stable `X.Y.Z` and `package.json`. Publication depends on
-   those six checks on the tagged commit and both architecture checks. PR/main
+   its five hosted checks on the tagged commit and both architecture checks. PR/main
    checks cannot publish. Use SHA-pinned actions, job-scoped package permissions,
    `GITHUB_TOKEN`, OCI metadata, caches and digest summaries. Serialize GHCR writes;
    `latest` reflects successful publication order, not version sorting.
@@ -229,7 +253,7 @@ The new focused HTTP contract suite can also run independently with
 Go/actionlint is a verification tool only, never an image dependency. App source
 and save contracts are unchanged; no new npm dependency is required. All new test
 helpers, callbacks and shell functions have purpose comments. This maintenance
-scope follows all constitution gates without a waiver; image packaging adds a
+scope follows the constitution with the hosted integration exception above; image packaging adds a
 container build while the app's production compilation remains N/A. See the
 [deployment guide](../../README.md#production-container-and-ghcr) and
 [execution evidence](../../validation/container-2026-10-24.md) for local outcomes
@@ -238,12 +262,15 @@ work package.
 
 ### Linux integration audio repair — 2026-10-24
 
+The workflow setup described here was superseded by the hosted integration
+exception above. These test changes remain available for local verification.
+
 The pinned Playwright Linux image has no audio server or physical sound device.
-The integration matrix job installs `pulseaudio` and `pulseaudio-utils`, starts
-a persistent null sink named `ci_audio`, selects it as the default, and records
-`pactl list short sinks` before testing. The daemon belongs to the disposable CI
-job container and is removed with it. Other matrix jobs and the production image
-are unchanged.
+The earlier integration matrix job installed `pulseaudio` and `pulseaudio-utils`,
+started a persistent null sink named `ci_audio`, selected it as the default, and
+recorded `pactl list short sinks` before testing. The daemon belonged to the
+disposable CI job container. The separate browser job and production image did
+not use this setup.
 
 `tests/integration/audio-output.spec.mjs` verifies a real, silent Web Audio graph
 advances its clock after a trusted gesture. Without the output server, the Linux
@@ -257,4 +284,6 @@ Focused command after installing the matching engines and providing an output:
 `npx playwright test tests/integration/audio-output.spec.mjs tests/integration/howler-playback.spec.mjs --workers=1`.
 Use `--repeat-each=5` for the focused stability check, then run the six existing
 checks. Reproduction, red/green results, runtime architecture, and the hosted
-rerun boundary are recorded in [audio CI verification](../../validation/audio-ci-2026-10-24.md).
+rerun boundary remain separate from hosted acceptance; local success did not
+establish reliable hosted execution. The maintainer subsequently disabled the
+hosted integration gate as documented above.

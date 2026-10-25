@@ -110,13 +110,14 @@ npm run format:check
 npm audit --audit-level=high
 ```
 
-PR CI runs these six checks to detect code regressions and dependency issues.
-The Linux integration job starts a PulseAudio null output for real browser audio
-tests. `audio-output.spec.mjs` checks that a trusted gesture starts the native
-audio clock; the Howler test then exercises the shipped music and playback
-lifecycle. Multi-megabyte music decoding has a separate 30-second wait and a
-120-second total test limit; playback assertions retain the default five-second
-wait. See the [audio CI repair record](validation/audio-ci-2026-10-24.md).
+Local validation (`make check`) runs all six checks above. GitHub workflows run
+five checks: unit, browser journeys, lint, formatting and audit. The maintainer
+disabled `test:integration` in hosted workflows after repeated Firefox/WebKit
+audio failures; run it locally with `npm run test:integration`. This applies to
+PRs, branch pushes, manual validation and release-tag validation through the
+shared workflow. The separate container smoke checks still run. Scope and
+reinstatement conditions are recorded in the
+[active plan](specs/001-cosmic-horror-refactor/plan.md#ongoing-ci-scope--2026-10-24).
 The [dependency refresh record](validation/dependency-update-2026-10-24.md)
 documents the current pins, package review and local verification results.
 Accepted artwork and refactor qualification are not repeatedly approved by CI.
@@ -284,7 +285,7 @@ application changes.
 [`publish.yml`](.github/workflows/publish.yml) verifies containers for every PR,
 main push, and tag push. Only a stable `X.Y.Z` tag exactly matching `package.json`
 may publish; prefixes, prereleases, build metadata, leading zeroes, and mismatches
-fail. This matches Commitizen's `$version` tag format. Tags run the same six
+fail. This matches Commitizen's `$version` tag format. Tags run the same five
 required checks through [`validate.yml`](.github/workflows/validate.yml), using
 GitHub's [reusable workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows).
 Existing validation triggers and manual historical release evidence are preserved.

@@ -65,7 +65,7 @@ test("make defaults to discoverable help", (t) => {
 });
 
 // Shared browser resources require sequential execution even with parallel make.
-test("check runs the six CI checks in order under make -j", (t) => {
+test("check runs all six local checks in order under make -j", (t) => {
   const root = fixture(t);
   const result = run(root, ["-j8", "check"]);
   assert.equal(result.status, 0, result.stderr);
