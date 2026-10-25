@@ -255,7 +255,7 @@ and save contracts are unchanged; no new npm dependency is required. All new tes
 helpers, callbacks and shell functions have purpose comments. This maintenance
 scope follows the constitution with the hosted integration exception above; image packaging adds a
 container build while the app's production compilation remains N/A. See the
-[deployment guide](../../README.md#production-container-and-ghcr) and
+[deployment guide](../../AGENTS.md#production-container-and-ghcr) and
 [execution evidence](../../validation/container-2026-10-24.md) for local outcomes
 and acceptance limits. No tag push or production deployment is authorized by this
 work package.
