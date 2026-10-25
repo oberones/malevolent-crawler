@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!index.html
+!LICENSE
+!assets/
+!assets/**
+!nginx/
+!nginx/nginx.conf
+!nginx/default.conf

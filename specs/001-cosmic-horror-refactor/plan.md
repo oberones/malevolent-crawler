@@ -155,3 +155,83 @@ Content catalog authoring and master generation may proceed independently after 
 ## Complexity Tracking
 
 No constitution violations or exceptions. The single explicit legacy bridge avoids a broad conversion and is covered by characterization and initialization tests. Versioned local snapshots are justified by four-key consistency failures; no database or server is added.
+
+## Production container maintenance — 2026-10-24
+
+Package the existing static app without a Node runtime, bundler or application
+build step. `Dockerfile` pins nginx 1.30.6 Alpine to multi-platform index
+`sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951`,
+verified against Docker Hub for AMD64 and ARM64. `.dockerignore` allowlists only
+the public app, distributed notices and nginx config. nginx runs as UID/GID
+101:101 on port 8080 with `/tmp` temporary paths, stdout/stderr logging and an
+HTTP health check. Explicit JavaScript MIME handling includes `.mjs`; missing
+paths return real 404s, listings are disabled, and unhashed HTML/assets revalidate
+with `no-cache`. Text compression and `nosniff` apply.
+
+`deploy/compose.production.yml` uses the host architecture and the existing
+external `web-backend` network. Defaults: image
+`ghcr.io/oberones/malevolent-crawler:latest`, loopback port 8089, and overrides
+`MALEVOLENT_CRAWLER_IMAGE`, `MALEVOLENT_CRAWLER_PORT`,
+`MALEVOLENT_CRAWLER_NETWORK`. It supplies read-only root, all capabilities dropped,
+no-new-privileges, a 16 MiB tmpfs, 64-PID limit, bounded logs and automatic restart.
+The reverse proxy owns TLS and strips any URL prefix after a trailing-slash
+redirect. Browser localStorage remains the only save owner; no volume or save
+format change is introduced. Preserve public origin to retain save access.
+
+Implementation/verification order:
+
+1. Observe HTTP contract failures against stock nginx and release guard failures
+   against a permissive baseline before implementing serving/tag behavior.
+2. Implement nginx, Docker and Compose; verify effective container settings,
+   complete public-file inventory, HTTP byte/MIME/cache/security/404/compression
+   contracts and health under production hardening.
+3. Use `playwright.container.config.mjs` with shipped modules only to verify
+   character creation, entry, durable save and reload continuation in Chromium.
+   Control loading timers and abort external services; keep repository-only
+   integration/browser fixtures in their existing suites.
+4. Build and smoke-test both architectures independently; the test harness uses
+   isolated external networks, ephemeral loopback ports, image overrides and
+   cleanup traps around the actual production Compose file.
+5. Make the existing six-check workflow reusable with `workflow_call`, preserving
+   original triggers and manual `release-evidence.yml`. Verify tags strictly
+   match Commitizen's stable `X.Y.Z` and `package.json`. Publication depends on
+   those six checks on the tagged commit and both architecture checks. PR/main
+   checks cannot publish. Use SHA-pinned actions, job-scoped package permissions,
+   `GITHUB_TOKEN`, OCI metadata, caches and digest summaries. Serialize GHCR writes;
+   `latest` reflects successful publication order, not version sorting.
+6. Run all existing checks and workflow/Compose validation; record evidence and
+   separately retain hosted publication, public proxy/TLS and historical native
+   release qualification as unperformed acceptance until actually observed.
+
+Runnable commands (Node 24.22.1 / npm 12.2.1, installed dependencies and matching
+Playwright engines; Docker/Compose/Buildx with cross-architecture emulation):
+
+```sh
+npm ci
+npx playwright install chromium firefox webkit
+node --test tests/unit/release-tag.test.mjs
+docker buildx build --platform linux/arm64 --load -t malevolent-crawler:smoke-arm64 .
+npm run test:container -- malevolent-crawler:smoke-arm64 linux/arm64
+docker buildx build --platform linux/amd64 --load -t malevolent-crawler:smoke-amd64 .
+npm run test:container -- malevolent-crawler:smoke-amd64 linux/amd64
+docker compose --file deploy/compose.production.yml config --quiet
+go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12 -shellcheck= .github/workflows/validate.yml .github/workflows/publish.yml
+npm run test:unit
+npm run test:integration
+npm run test:browser
+npm run lint
+npm run format:check
+npm audit --audit-level=high
+```
+
+The new focused HTTP contract suite can also run independently with
+`CONTAINER_BASE_URL=http://127.0.0.1:PORT node --test tests/container/http.test.mjs`.
+Go/actionlint is a verification tool only, never an image dependency. App source
+and save contracts are unchanged; no new npm dependency is required. All new test
+helpers, callbacks and shell functions have purpose comments. This maintenance
+scope follows all constitution gates without a waiver; image packaging adds a
+container build while the app's production compilation remains N/A. See the
+[deployment guide](../../README.md#production-container-and-ghcr) and
+[execution evidence](../../validation/container-2026-10-24.md) for local outcomes
+and acceptance limits. No tag push or production deployment is authorized by this
+work package.

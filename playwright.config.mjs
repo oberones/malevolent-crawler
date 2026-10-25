@@ -10,7 +10,9 @@ const performanceRun =
 export default defineConfig({
   testDir: "./tests",
   testMatch: "**/*.spec.mjs",
-  testIgnore: performanceRun ? [] : ["**/performance/**"],
+  testIgnore: performanceRun
+    ? ["**/container/**"]
+    : ["**/performance/**", "**/container/**"],
   fullyParallel: !performanceRun,
   forbidOnly: Boolean(process.env.CI),
   retries: 0,

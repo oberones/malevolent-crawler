@@ -5,6 +5,7 @@ on:
   push:
     branches: [main, master, 001-cosmic-horror-refactor]
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read
@@ -39,8 +40,9 @@ jobs:
       run:
         shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          persist-credentials: false
           # Unit tests compare the frozen source bytes to the original Git blobs.
           fetch-depth: ${{ matrix.check == 'unit' && '0' || '1' }}
       - name: Prepare container ownership for Git and Firefox
@@ -49,7 +51,7 @@ jobs:
           chown "$(id -u):$(id -g)" "$HOME"
           # Checkout's temporary Git config is not used by later shell steps.
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 24.22.1
           cache: npm
@@ -74,7 +76,7 @@ jobs:
         run: ${{ matrix.command }} 2>&1 | tee ci-reports/${{ matrix.check }}.txt
       - name: Retain reports, including failures
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: validation-${{ matrix.check }}
           path: |
