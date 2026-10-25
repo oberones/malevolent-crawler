@@ -1,3 +1,13 @@
+## 0.2.0 (2026-10-24)
+
+### Feat
+
+- add container workflow and docker files
+
+### Fix
+
+- update dependencies with latest versions
+
 ## 0.1.0 (2026-10-09)
 
 ### Feat

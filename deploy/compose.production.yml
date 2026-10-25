@@ -1,0 +1,31 @@
+name: malevolent-crawler
+
+services:
+  malevolent-crawler:
+    image: ${MALEVOLENT_CRAWLER_IMAGE:-ghcr.io/oberones/malevolent-crawler:latest}
+    # Docker selects AMD64 or ARM64 from the published manifest for this host.
+    restart: unless-stopped
+    user: "101:101"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m,mode=1777
+    pids_limit: 64
+    ports:
+      - "127.0.0.1:${MALEVOLENT_CRAWLER_PORT:-8089}:8080"
+    networks:
+      - web-backend
+    # Saves remain in each browser's localStorage; the image owns its health check.
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  web-backend:
+    name: ${MALEVOLENT_CRAWLER_NETWORK:-web-backend}
+    external: true

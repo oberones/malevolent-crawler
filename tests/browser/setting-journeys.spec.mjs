@@ -329,7 +329,7 @@ test("setting inventory menu help credits and abandonment", async ({
   }
 });
 for (const section of ["Help", "Credits"]) {
-  // Informational controls must open actual text and leave player progress untouched.
+  // Informational controls leave progress untouched with all application timers controlled.
   test(`setting ${section} opens without changing progress`, async ({
     browser,
   }) => {
@@ -339,12 +339,15 @@ for (const section of ["Help", "Credits"]) {
     });
     try {
       const p = f.page;
+      // Install before navigation so startup cannot retain real-time run timers.
+      const start = new Date("2026-10-06T12:00:00Z");
+      await p.clock.install({ time: start });
+      await p.clock.pauseAt(start);
       await p.goto("http://127.0.0.1:4173/");
       await expect(p.locator("#title-screen")).toBeVisible();
       await p.locator("#title-action").click();
+      await p.clock.runFor(1100);
       await expect(p.locator("#dungeon-main")).toBeVisible();
-      await p.clock.install({ time: new Date("2026-10-06T12:00:00Z") });
-      await p.clock.pauseAt(new Date("2026-10-06T12:00:01Z"));
       await p.evaluate(
         /* Use the existing inventory entry point. */ () => openInventory(),
       );

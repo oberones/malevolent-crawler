@@ -1,0 +1,179 @@
+name: Verify and publish container
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    # Run the guard for every tag so malformed release names fail visibly.
+    tags: ["**"]
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  IMAGE: ghcr.io/oberones/malevolent-crawler
+
+jobs:
+  release:
+    name: Check release version
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "24.22.1"
+      - name: Validate tag against this commit's package version
+        if: github.ref_type == 'tag'
+        id: version
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: node scripts/validate-release-tag.mjs "$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+
+  validation:
+    name: Release checks
+    needs: release
+    if: github.event_name == 'push' && github.ref_type == 'tag'
+    # Local reusable workflows run from this same tagged commit, with no secret inheritance.
+    uses: ./.github/workflows/validate.yml
+
+  verify:
+    name: Container linux/${{ matrix.arch }}
+    needs: release
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [amd64, arm64]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "24.22.1"
+          cache: npm
+      - name: Install pinned test toolchain
+        run: |
+          npm install --global npm@12.2.1 --ignore-scripts
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Validate default Compose configuration
+        run: docker compose --file deploy/compose.production.yml config --quiet
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@99012661954931238ded8c8b007157a8430204e1 # v4.4.0
+        with:
+          platforms: amd64,arm64
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@37fe631027851001ddb9b187196cc803df7f5f0e # v4.3.0
+      - name: Build test image
+        uses: docker/build-push-action@53b7df96c91f9c12dcc8a07bcb9ccacbed38856a # v7.3.0
+        with:
+          context: .
+          platforms: linux/${{ matrix.arch }}
+          load: true
+          push: false
+          tags: malevolent-crawler:smoke-${{ matrix.arch }}
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+            org.opencontainers.image.version=${{ needs.release.outputs.version || github.sha }}
+          cache-from: type=gha,scope=malevolent-crawler-${{ matrix.arch }}
+          cache-to: type=gha,scope=malevolent-crawler-${{ matrix.arch }},mode=max
+      - name: Test hardened Compose container and browser continuation
+        env:
+          ARCH: ${{ matrix.arch }}
+          CONTAINER_TEST_PROJECT: mc-container-smoke
+        run: |
+          mkdir -p ci-reports/container
+          npm run test:container -- "malevolent-crawler:smoke-$ARCH" "linux/$ARCH" 2>&1 | tee ci-reports/container/smoke.txt
+      - name: Clean interrupted test resources
+        if: always()
+        env:
+          MALEVOLENT_CRAWLER_NETWORK: mc-container-smoke
+        run: |
+          docker compose --project-name mc-container-smoke --file deploy/compose.production.yml down --timeout 5
+          if docker network inspect mc-container-smoke >/dev/null 2>&1; then
+            docker network rm mc-container-smoke
+          fi
+      - name: Retain container evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: container-${{ matrix.arch }}
+          path: |
+            ci-reports/container/
+            test-results/container/
+          if-no-files-found: warn
+          retention-days: 14
+
+  publish:
+    name: Publish multi-platform image
+    needs: [release, validation, verify]
+    if: github.event_name == 'push' && github.ref_type == 'tag'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    # latest follows successful publication order, including releases of older versions.
+    concurrency:
+      group: malevolent-crawler-ghcr-publish
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@99012661954931238ded8c8b007157a8430204e1 # v4.4.0
+        with:
+          platforms: amd64,arm64
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@37fe631027851001ddb9b187196cc803df7f5f0e # v4.3.0
+      - name: Log in to GHCR
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and publish the verified source
+        id: image
+        uses: docker/build-push-action@53b7df96c91f9c12dcc8a07bcb9ccacbed38856a # v7.3.0
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ${{ env.IMAGE }}:${{ needs.release.outputs.version }}
+            ${{ env.IMAGE }}:sha-${{ github.sha }}
+            ${{ env.IMAGE }}:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+            org.opencontainers.image.version=${{ needs.release.outputs.version }}
+          cache-from: |
+            type=gha,scope=malevolent-crawler-amd64
+            type=gha,scope=malevolent-crawler-arm64
+            type=gha,scope=malevolent-crawler-publish
+          cache-to: type=gha,scope=malevolent-crawler-publish,mode=max
+      - name: Record published digest
+        env:
+          VERSION: ${{ needs.release.outputs.version }}
+          DIGEST: ${{ steps.image.outputs.digest }}
+        run: |
+          {
+            printf '### Published container\n\n'
+            printf -- '- Image: `%s`\n' "$IMAGE"
+            printf -- '- Tags: `%s`, `sha-%s`, `latest`\n' "$VERSION" "$GITHUB_SHA"
+            printf -- '- Platforms: `linux/amd64`, `linux/arm64`\n'
+            printf -- '- Immutable reference: `%s@%s`\n' "$IMAGE" "$DIGEST"
+          } >> "$GITHUB_STEP_SUMMARY"

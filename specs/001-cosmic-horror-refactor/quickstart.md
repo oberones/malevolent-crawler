@@ -18,7 +18,7 @@ repeated CI approval.
 
 ## Toolchain and dependency setup
 
-Select Node.js **24.21.0** and npm **12.2.0**; record these in `.nvmrc`, package `engines`, and `packageManager`. The initial shell used Node 20.20.2/npm 10.8.2; the project pin is now installed in nvm alongside it. Verify `node --version` and `npm --version` before setup. Choose/install the runtime using the user's normal runtime manager; this plan does not silently change global tooling.
+Select Node.js **24.22.1** and npm **12.2.1**, as pinned in `.nvmrc`, package `engines`, and `packageManager`. Verify `node --version` and `npm --version` before setup. Choose/install the runtime using the user's normal runtime manager without changing the default nvm alias or system tooling. The dependency refresh was verified with an isolated temporary runtime.
 
 For an existing checkout, use the committed lockfile:
 
@@ -26,7 +26,7 @@ For an existing checkout, use the committed lockfile:
 nvm install
 nvm use
 # If the selected nvm version has a different npm, update that version only:
-npm install --global npm@12.2.0 --ignore-scripts
+npm install --global npm@12.2.1 --ignore-scripts
 npm ci
 npx playwright install chromium firefox webkit
 ```
@@ -34,22 +34,23 @@ npx playwright install chromium firefox webkit
 The exact dependency pins installed during setup are:
 
 ```sh
-npm install --save-dev --save-exact @playwright/test@1.63.0 @axe-core/playwright@4.13.0 eslint@10.12.0 @eslint/js@10.0.1 globals@17.13.0 prettier@3.9.9 http-server@14.1.1 sharp@0.35.5
+npm install --save-dev --save-exact @playwright/test@1.64.1 @axe-core/playwright@4.14.0 eslint@10.13.0 @eslint/js@10.0.1 globals@17.13.0 prettier@3.9.10 http-server@14.1.1
 ```
 
-Retain Howler 2.2.3, synchronize package/lockfile, and pin installs through the committed lockfile. Review necessary dependency lifecycle scripts individually, especially native image tooling; do not enable arbitrary install scripts globally. Record top-level and transitive/native licenses, maintenance/advisory findings, and browser cost. New dependencies are development-only and must not be referenced by production scripts.
+Howler 2.2.4 is the sole runtime package. Keep `assets/js/howler.min.js` byte-identical to `node_modules/howler/dist/howler.min.js`, including its license header; `tests/unit/vendored-howler.test.mjs` checks this on every unit run. Synchronize package/lockfile and retain `ignore-scripts=true`. Review dependency lifecycle scripts, licenses, engine requirements, advisories, and browser cost on each update. Sharp and its native image tooling were retired and must not be reinstalled by setup. All other direct packages are development-only and must not be referenced by production scripts.
 
 | Package                           | Verified metadata / top-level license                                                                                 |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Playwright 1.63.0                 | [Registry metadata](https://registry.npmjs.org/@playwright%2ftest/1.63.0), Apache-2.0                                 |
-| axe Playwright 4.13.0             | [Registry metadata](https://registry.npmjs.org/@axe-core%2fplaywright/4.13.0), MPL-2.0                                |
-| ESLint 10.12.0 / JS config 10.0.1 | [ESLint](https://registry.npmjs.org/eslint/10.12.0), [JS config](https://registry.npmjs.org/@eslint%2fjs/10.0.1), MIT |
+| Playwright 1.64.1                 | [Registry metadata](https://registry.npmjs.org/@playwright%2ftest/1.64.1), Apache-2.0                                 |
+| axe Playwright 4.14.0             | [Registry metadata](https://registry.npmjs.org/@axe-core%2fplaywright/4.14.0), MPL-2.0                                |
+| ESLint 10.13.0 / JS config 10.0.1 | [ESLint](https://registry.npmjs.org/eslint/10.13.0), [JS config](https://registry.npmjs.org/@eslint%2fjs/10.0.1), MIT |
 | globals 17.13.0                   | [Registry metadata](https://registry.npmjs.org/globals/17.13.0), MIT                                                  |
-| Prettier 3.9.9                    | [Registry metadata](https://registry.npmjs.org/prettier/3.9.9), MIT                                                   |
+| Prettier 3.9.10                   | [Registry metadata](https://registry.npmjs.org/prettier/3.9.10), MIT                                                  |
 | http-server 14.1.1                | [Registry metadata](https://registry.npmjs.org/http-server/14.1.1), MIT                                               |
-| npm 12.2.0                        | [Registry metadata](https://registry.npmjs.org/npm/12.2.0), Artistic-2.0                                              |
+| Howler 2.2.4                      | [Registry metadata](https://registry.npmjs.org/howler/2.2.4), MIT                                                     |
+| npm 12.2.1                        | [Registry metadata](https://registry.npmjs.org/npm/12.2.1), Artistic-2.0                                              |
 
-The [dependency review](../../validation/cosmic-horror/dependencies.md) records the executed clean install, full license inventory, native components, disabled lifecycle scripts, maintenance caveats and dated zero-known-vulnerability audit. Registry metadata alone is not a security pass.
+The [2026-10-24 dependency review](../../validation/dependency-update-2026-10-24.md) records the refresh, runtime/browser provenance, lifecycle policy and actual verification results. The [original dependency review](../../validation/cosmic-horror/dependencies.md) remains historical, including retired native image tooling. Registry metadata alone is not a security pass.
 
 ## Configured package scripts
 

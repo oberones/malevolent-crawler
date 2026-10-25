@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import {
   messageDefinitions,
   messageSchemas,
@@ -8,6 +9,10 @@ import {
   skills,
 } from "../../assets/js/content/messages.mjs";
 import { validateMessage } from "../../assets/js/app/message-records.mjs";
+
+const howlerVersion = JSON.parse(
+  readFileSync(new URL("../../package.json", import.meta.url)),
+).dependencies.howler;
 
 // This inventory comes from the original screen/event branches, not the new registry.
 const required = {
@@ -311,8 +316,8 @@ test("costs, reset consequences, neutral labels and retained credits are explici
     "phoenix1291",
     "Leviathan_Music",
     "Sara Garrard",
-    "Howler 2.2.3",
+    `Howler ${howlerVersion}`,
   ])
-    assert.ok(credits.includes(name));
+    assert.ok(credits.includes(name), `Missing credit: ${name}`);
   assert.equal(messageText({ id: "combat.claim", params: {} }), "Claim");
 });

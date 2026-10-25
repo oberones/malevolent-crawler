@@ -31,15 +31,15 @@ Retain the static application and its existing game rules. Add native ES-module 
 
 ## Technical Context
 
-**Language/Version**: Browser JavaScript with standard ES modules for all new modules; existing classic scripts remain behind an explicit bridge. Toolchain target Node.js 24.21.0 LTS / npm 12.2.0. Local Node 20.20.2 / npm 10.8.2 are observed, not the selected implementation runtime.
+**Language/Version**: Browser JavaScript with standard ES modules for all new modules; existing classic scripts remain behind an explicit bridge. Toolchain target Node.js 24.22.1 LTS / npm 12.2.1. Select this runtime per project without changing system-wide defaults.
 
-**Primary Dependencies**: Retain Howler 2.2.3 and current audio assets. Proposed exact dev dependencies: `@playwright/test@1.63.0`, `@axe-core/playwright@4.13.0`, `eslint@10.12.0`, `@eslint/js@10.0.1`, `globals@17.13.0`, `prettier@3.9.9`, `http-server@14.1.1`, and `sharp@0.35.5`. They provide browser tests/accessibility, static checks, local serving, and deterministic image preparation; none ships in application JS. Built-in `node:test` supplies pure unit tests. Review dependency licenses, advisories, native components, and lifecycle scripts before installation approval/adoption as applicable to the execution environment; keep package/lockfile synchronized.
+**Primary Dependencies**: Howler 2.2.4 with its official distribution vendored at the existing script URL; retain current audio assets. Exact dev dependencies: `@playwright/test@1.64.1`, `@axe-core/playwright@4.14.0`, `eslint@10.13.0`, `@eslint/js@10.0.1`, `globals@17.13.0`, `prettier@3.9.10`, and `http-server@14.1.1`. They provide browser tests/accessibility, static checks and local serving; none ships in application JS. Sharp was retired with the one-time art tooling and is not installed. Built-in `node:test` supplies pure unit tests. Review dependency licenses, advisories, engine requirements, and lifecycle scripts; retain `ignore-scripts=true` and keep package/lockfile synchronized. The vendored-Howler unit check enforces byte equality with the installed distribution.
 
 **Storage**: Browser localStorage, versioned complete local snapshot plus a prior-good snapshot; retain read-only legacy four-key source records for recovery. Legacy/new character-only Base64 imports remain supported. No backend or new save-data transmission. Exact shapes and failure/commit semantics: [data model](data-model.md), [persistence contract](contracts/persistence.md).
 
 **Testing**: Node unit tests for catalogs, deterministic rules/adapters, save validation, encoding, and image packaging; Playwright integration tests for DOM/storage/audio boundaries and browser tests for journeys. Inject random tapes, fake clocks/timers, fake storage, and an audio adapter. Use captured legacy fixtures and ordered-pool snapshots. Network calls are controlled. Meaningful red tests precede foundational behavior too.
 
-**Target Platform**: Static HTTP(S) application. Automated Chromium 153.0.8010.12/rev1243, Firefox 155.0/rev1543, and WebKit 26.6/rev2359 from Playwright 1.63.0 on macOS 26.6.2 arm64 and Linux CI. Native desktop Chrome 154.0.8037.98, Firefox 157.0, Safari 26.6.2 on macOS 26.6.2; Android 17 Chrome 154.0.8037.126 and Firefox 157.0; iOS/iPadOS 26.6.2 Safari 26.6 family. Required viewport fixtures: 360 × 800, 768 × 1024, 1440 × 900. Exact mobile engine/build and physical model must be recorded before implementation baseline capture; currently unavailable targets are BLOCKED, not inferred from emulation. [Validation plan](validation-plan.md) defines required combinations and inputs.
+**Target Platform**: Static HTTP(S) application. Automated Chromium 156.0.8078.4/rev1248, Firefox 157.0/rev1555, and WebKit 27.2/rev2370 from Playwright 1.64.1 on macOS 26.6.2 arm64 and Linux CI. Native desktop Chrome 154.0.8037.98, Firefox 157.0, Safari 26.6.2 on macOS 26.6.2; Android 17 Chrome 154.0.8037.126 and Firefox 157.0; iOS/iPadOS 26.6.2 Safari 26.6 family. Required viewport fixtures: 360 × 800, 768 × 1024, 1440 × 900. Exact mobile engine/build and physical model must be recorded before implementation baseline capture; currently unavailable targets are BLOCKED, not inferred from emulation. [Validation plan](validation-plan.md) defines required combinations and inputs.
 
 **Project Type**: Static browser application; no framework, backend, bundler, or production-build step introduced. Serve `.mjs` with JavaScript MIME types; file-URL launch is not a supported module-loading path.
 
@@ -155,3 +155,106 @@ Content catalog authoring and master generation may proceed independently after 
 ## Complexity Tracking
 
 No constitution violations or exceptions. The single explicit legacy bridge avoids a broad conversion and is covered by characterization and initialization tests. Versioned local snapshots are justified by four-key consistency failures; no database or server is added.
+
+## Production container maintenance — 2026-10-24
+
+Package the existing static app without a Node runtime, bundler or application
+build step. `Dockerfile` pins nginx 1.30.6 Alpine to multi-platform index
+`sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951`,
+verified against Docker Hub for AMD64 and ARM64. `.dockerignore` allowlists only
+the public app, distributed notices and nginx config. nginx runs as UID/GID
+101:101 on port 8080 with `/tmp` temporary paths, stdout/stderr logging and an
+HTTP health check. Explicit JavaScript MIME handling includes `.mjs`; missing
+paths return real 404s, listings are disabled, and unhashed HTML/assets revalidate
+with `no-cache`. Text compression and `nosniff` apply.
+
+`deploy/compose.production.yml` uses the host architecture and the existing
+external `web-backend` network. Defaults: image
+`ghcr.io/oberones/malevolent-crawler:latest`, loopback port 8089, and overrides
+`MALEVOLENT_CRAWLER_IMAGE`, `MALEVOLENT_CRAWLER_PORT`,
+`MALEVOLENT_CRAWLER_NETWORK`. It supplies read-only root, all capabilities dropped,
+no-new-privileges, a 16 MiB tmpfs, 64-PID limit, bounded logs and automatic restart.
+The reverse proxy owns TLS and strips any URL prefix after a trailing-slash
+redirect. Browser localStorage remains the only save owner; no volume or save
+format change is introduced. Preserve public origin to retain save access.
+
+Implementation/verification order:
+
+1. Observe HTTP contract failures against stock nginx and release guard failures
+   against a permissive baseline before implementing serving/tag behavior.
+2. Implement nginx, Docker and Compose; verify effective container settings,
+   complete public-file inventory, HTTP byte/MIME/cache/security/404/compression
+   contracts and health under production hardening.
+3. Use `playwright.container.config.mjs` with shipped modules only to verify
+   character creation, entry, durable save and reload continuation in Chromium.
+   Control loading timers and abort external services; keep repository-only
+   integration/browser fixtures in their existing suites.
+4. Build and smoke-test both architectures independently; the test harness uses
+   isolated external networks, ephemeral loopback ports, image overrides and
+   cleanup traps around the actual production Compose file.
+5. Make the existing six-check workflow reusable with `workflow_call`, preserving
+   original triggers and manual `release-evidence.yml`. Verify tags strictly
+   match Commitizen's stable `X.Y.Z` and `package.json`. Publication depends on
+   those six checks on the tagged commit and both architecture checks. PR/main
+   checks cannot publish. Use SHA-pinned actions, job-scoped package permissions,
+   `GITHUB_TOKEN`, OCI metadata, caches and digest summaries. Serialize GHCR writes;
+   `latest` reflects successful publication order, not version sorting.
+6. Run all existing checks and workflow/Compose validation; record evidence and
+   separately retain hosted publication, public proxy/TLS and historical native
+   release qualification as unperformed acceptance until actually observed.
+
+Runnable commands (Node 24.22.1 / npm 12.2.1, installed dependencies and matching
+Playwright engines; Docker/Compose/Buildx with cross-architecture emulation):
+
+```sh
+npm ci
+npx playwright install chromium firefox webkit
+node --test tests/unit/release-tag.test.mjs
+docker buildx build --platform linux/arm64 --load -t malevolent-crawler:smoke-arm64 .
+npm run test:container -- malevolent-crawler:smoke-arm64 linux/arm64
+docker buildx build --platform linux/amd64 --load -t malevolent-crawler:smoke-amd64 .
+npm run test:container -- malevolent-crawler:smoke-amd64 linux/amd64
+docker compose --file deploy/compose.production.yml config --quiet
+go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12 -shellcheck= .github/workflows/validate.yml .github/workflows/publish.yml
+npm run test:unit
+npm run test:integration
+npm run test:browser
+npm run lint
+npm run format:check
+npm audit --audit-level=high
+```
+
+The new focused HTTP contract suite can also run independently with
+`CONTAINER_BASE_URL=http://127.0.0.1:PORT node --test tests/container/http.test.mjs`.
+Go/actionlint is a verification tool only, never an image dependency. App source
+and save contracts are unchanged; no new npm dependency is required. All new test
+helpers, callbacks and shell functions have purpose comments. This maintenance
+scope follows all constitution gates without a waiver; image packaging adds a
+container build while the app's production compilation remains N/A. See the
+[deployment guide](../../README.md#production-container-and-ghcr) and
+[execution evidence](../../validation/container-2026-10-24.md) for local outcomes
+and acceptance limits. No tag push or production deployment is authorized by this
+work package.
+
+### Linux integration audio repair — 2026-10-24
+
+The pinned Playwright Linux image has no audio server or physical sound device.
+The integration matrix job installs `pulseaudio` and `pulseaudio-utils`, starts
+a persistent null sink named `ci_audio`, selects it as the default, and records
+`pactl list short sinks` before testing. The daemon belongs to the disposable CI
+job container and is removed with it. Other matrix jobs and the production image
+are unchanged.
+
+`tests/integration/audio-output.spec.mjs` verifies a real, silent Web Audio graph
+advances its clock after a trusted gesture. Without the output server, the Linux
+Firefox probe reproduces a suspended context. The existing Howler test retains
+real assets, three replacement cycles, and five-second playback assertions. Its
+decode waits are bounded at 30 seconds with a 120-second total limit because
+Linux WebKit replacement decoding measured 7.6–9.6 seconds, exceeding the generic
+five-second UI assertion default. No retries, skips or audio mocks are added.
+
+Focused command after installing the matching engines and providing an output:
+`npx playwright test tests/integration/audio-output.spec.mjs tests/integration/howler-playback.spec.mjs --workers=1`.
+Use `--repeat-each=5` for the focused stability check, then run the six existing
+checks. Reproduction, red/green results, runtime architecture, and the hosted
+rerun boundary are recorded in [audio CI verification](../../validation/audio-ci-2026-10-24.md).
