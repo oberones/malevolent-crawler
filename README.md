@@ -111,6 +111,12 @@ npm audit --audit-level=high
 ```
 
 PR CI runs these six checks to detect code regressions and dependency issues.
+The Linux integration job starts a PulseAudio null output for real browser audio
+tests. `audio-output.spec.mjs` checks that a trusted gesture starts the native
+audio clock; the Howler test then exercises the shipped music and playback
+lifecycle. Multi-megabyte music decoding has a separate 30-second wait and a
+120-second total test limit; playback assertions retain the default five-second
+wait. See the [audio CI repair record](validation/audio-ci-2026-10-24.md).
 The [dependency refresh record](validation/dependency-update-2026-10-24.md)
 documents the current pins, package review and local verification results.
 Accepted artwork and refactor qualification are not repeatedly approved by CI.

@@ -72,6 +72,16 @@ jobs:
       - name: Install matching engines
         if: matrix.check == 'integration' || matrix.check == 'browser'
         run: npx playwright install --with-deps chromium firefox webkit 2>&1 | tee ci-reports/engines.txt
+      - name: Provide an audio output for integration browsers
+        if: matrix.check == 'integration'
+        run: |
+          # The CI container has no sound device; Firefox needs a live output backend.
+          apt-get update
+          apt-get install -y --no-install-recommends pulseaudio pulseaudio-utils
+          pulseaudio --start --exit-idle-time=-1 --load="module-null-sink sink_name=ci_audio rate=48000 channels=2"
+          pactl set-default-sink ci_audio
+          # Querying the server also verifies readiness without a startup sleep.
+          pactl list short sinks | tee ci-reports/audio-output.txt
       - name: Run required check
         run: ${{ matrix.command }} 2>&1 | tee ci-reports/${{ matrix.check }}.txt
       - name: Retain reports, including failures

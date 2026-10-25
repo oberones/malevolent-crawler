@@ -235,3 +235,26 @@ container build while the app's production compilation remains N/A. See the
 [execution evidence](../../validation/container-2026-10-24.md) for local outcomes
 and acceptance limits. No tag push or production deployment is authorized by this
 work package.
+
+### Linux integration audio repair — 2026-10-24
+
+The pinned Playwright Linux image has no audio server or physical sound device.
+The integration matrix job installs `pulseaudio` and `pulseaudio-utils`, starts
+a persistent null sink named `ci_audio`, selects it as the default, and records
+`pactl list short sinks` before testing. The daemon belongs to the disposable CI
+job container and is removed with it. Other matrix jobs and the production image
+are unchanged.
+
+`tests/integration/audio-output.spec.mjs` verifies a real, silent Web Audio graph
+advances its clock after a trusted gesture. Without the output server, the Linux
+Firefox probe reproduces a suspended context. The existing Howler test retains
+real assets, three replacement cycles, and five-second playback assertions. Its
+decode waits are bounded at 30 seconds with a 120-second total limit because
+Linux WebKit replacement decoding measured 7.6–9.6 seconds, exceeding the generic
+five-second UI assertion default. No retries, skips or audio mocks are added.
+
+Focused command after installing the matching engines and providing an output:
+`npx playwright test tests/integration/audio-output.spec.mjs tests/integration/howler-playback.spec.mjs --workers=1`.
+Use `--repeat-each=5` for the focused stability check, then run the six existing
+checks. Reproduction, red/green results, runtime architecture, and the hosted
+rerun boundary are recorded in [audio CI verification](../../validation/audio-ci-2026-10-24.md).

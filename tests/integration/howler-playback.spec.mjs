@@ -10,10 +10,13 @@ const resting = JSON.parse(
   (entry) => entry.id === "resting",
 );
 
-// Exercise the shipped decoder and playback lifecycle without substituting an audio fake.
+// Exercise real decoding and playback across replacements, with a bounded codec budget.
 test("shipped Howler starts, pauses, resumes and releases replaced audio", async ({
   browser,
 }) => {
+  // Each replacement decodes all four music tracks again. Linux WebKit measured
+  // 7.6–9.6s for later loads, so decoding has a separate budget from playback.
+  test.setTimeout(120_000);
   const fixture = await createLegacyBrowserFixture(browser, {
     storage: resting.raw,
   });
@@ -37,12 +40,16 @@ test("shipped Howler starts, pauses, resumes and releases replaced audio", async
     for (let cycle = 0; cycle < 3; cycle++) {
       await expect
         .poll(
-          // Wait for actual decoding instead of advancing fake time or sleeping.
+          // Allow queued multi-megabyte decoding to finish without extending playback waits.
           () =>
             page.evaluate(
               // Read the public Howler loading state.
               () => bgmDungeon.state(),
             ),
+          {
+            timeout: 30_000,
+            message: `Music must finish decoding in replacement cycle ${cycle}`,
+          },
         )
         .toBe("loaded");
       await expect
